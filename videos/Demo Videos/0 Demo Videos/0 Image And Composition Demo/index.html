@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=392, height=768" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background: #09111f;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      #root {
+        position: relative;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 50% 8%, rgba(255, 214, 118, 0.32), transparent 28%),
+          linear-gradient(160deg, #0a1020 0%, #122335 56%, #e7d8bc 100%);
+        color: #f8f4ea;
+      }
+
+      #opener,
+      #gallery {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .demo-opener .opener-shell,
+      .demo-gallery .gallery-shell {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .demo-opener .opener-shell {
+        justify-content: flex-end;
+        gap: 28px;
+        padding: 42px 28px;
+      }
+
+      .demo-opener .hero-image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .demo-opener .opener-shell::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(8, 17, 31, 0.05) 0%, rgba(8, 17, 31, 0.78) 68%, #08111f 100%);
+      }
+
+      .demo-opener .title-stack {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        gap: 12px;
+      }
+
+      .demo-opener p,
+      .demo-gallery p {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .demo-opener p {
+        color: #f7c76b;
+        font-size: 13px;
+        font-weight: 850;
+      }
+
+      .demo-opener h1 {
+        margin: 0;
+        max-width: 310px;
+        font-size: 42px;
+        line-height: 0.95;
+        font-weight: 900;
+      }
+
+      .demo-gallery {
+        background:
+          linear-gradient(180deg, rgba(16, 35, 53, 0.94), rgba(231, 216, 188, 0.92)),
+          #102335;
+        color: #0a1020;
+      }
+
+      .demo-gallery .gallery-shell {
+        justify-content: center;
+        gap: 18px;
+        padding: 42px 28px;
+      }
+
+      .demo-gallery .image-card {
+        overflow: hidden;
+        border: 1px solid rgba(10, 16, 32, 0.15);
+        border-radius: 8px;
+        box-shadow: 0 24px 60px rgba(10, 16, 32, 0.24);
+      }
+
+      .demo-gallery .card-a {
+        width: 260px;
+        height: 210px;
+        align-self: flex-start;
+        rotate: -3deg;
+      }
+
+      .demo-gallery .card-b {
+        width: 250px;
+        height: 210px;
+        align-self: flex-end;
+        rotate: 4deg;
+        margin-top: -56px;
+      }
+
+      .demo-gallery img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .demo-gallery .copy {
+        display: grid;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .demo-gallery p {
+        color: #7a4216;
+      }
+
+      .demo-gallery h2 {
+        margin: 0;
+        max-width: 310px;
+        color: #08111f;
+        font-size: 32px;
+        line-height: 1;
+        font-weight: 900;
+      }
+
+      .final-card {
+        position: absolute;
+        inset: 82px 28px;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        gap: 24px;
+        padding: 26px;
+        border: 1px solid rgba(248, 244, 234, 0.3);
+        border-radius: 8px;
+        background: rgba(8, 17, 31, 0.68);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+        backdrop-filter: blur(14px);
+      }
+
+      .final-card img {
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+
+      .final-copy {
+        display: grid;
+        gap: 10px;
+      }
+
+      .eyebrow {
+        color: #f7c76b;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .headline {
+        margin: 0;
+        color: #fff9ec;
+        font-size: 36px;
+        line-height: 0.94;
+        font-weight: 900;
+      }
+
+      .caption {
+        margin: 0;
+        color: rgba(248, 244, 234, 0.76);
+        font-size: 15px;
+        line-height: 1.45;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      id="root"
+      data-composition-id="demo-video-0"
+      data-start="0"
+      data-duration="12"
+      data-width="392"
+      data-height="768"
+    >
+      <div
+        id="opener"
+        class="clip demo-opener"
+        data-composition-id="demo-opener"
+        data-composition-src="compositions/opener.html"
+        data-start="0"
+        data-duration="4"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="gallery"
+        class="clip demo-gallery"
+        data-composition-id="demo-gallery"
+        data-composition-src="compositions/gallery.html"
+        data-start="opener"
+        data-duration="4"
+        data-track-index="1"
+      ></div>
+
+      <section id="final-card" class="clip final-card" data-start="gallery" data-duration="4" data-track-index="1">
+        <img src="assets/city-card.svg" alt="" />
+        <div class="final-copy">
+          <div class="eyebrow">Ready to render</div>
+          <h1 class="headline">One folder, one video.</h1>
+          <p class="caption">Root HTML, local assets, and nested compositions stay together.</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#final-card", { y: 46, opacity: 0, scale: 0.96, duration: 0.7, ease: "power3.out" }, 8);
+      tl.from("#final-card img", { scale: 1.08, duration: 1.5, ease: "power2.out" }, 8);
+      tl.from("#final-card .eyebrow, #final-card .headline, #final-card .caption", {
+        y: 18,
+        opacity: 0,
+        duration: 0.5,
+        stagger: 0.08,
+        ease: "power2.out",
+      }, 8.35);
+
+      window.__timelines["demo-video-0"] = tl;
+    </script>
+  </body>
+</html>

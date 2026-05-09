@@ -3,10 +3,17 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "preview:all": "bun run scripts/preview-all.ts",
+    "preview:open": "bun run scripts/open-previews.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@hyperframes/studio": "v0.6.0-alpha.2"
   }
 }

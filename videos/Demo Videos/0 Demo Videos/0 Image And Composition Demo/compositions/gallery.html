@@ -1,0 +1,107 @@
+<template id="demo-gallery-template">
+  <div id="demo-gallery" class="demo-gallery" data-composition-id="demo-gallery" data-width="392" data-height="768">
+    <div class="gallery-shell">
+      <div class="image-card card-a" data-layout-allow-overflow>
+        <img src="assets/interface-card.svg" alt="" />
+      </div>
+      <div class="image-card card-b" data-layout-allow-overflow>
+        <img src="assets/city-card.svg" alt="" />
+      </div>
+      <div class="copy">
+        <p>Nested scene</p>
+        <h2>Two image clips move inside their own timeline.</h2>
+      </div>
+    </div>
+
+    <style>
+      .demo-gallery {
+        position: relative;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background:
+          linear-gradient(180deg, rgba(16, 35, 53, 0.94), rgba(231, 216, 188, 0.92)),
+          #102335;
+        color: #0a1020;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .demo-gallery .gallery-shell {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 18px;
+        padding: 42px 28px;
+      }
+
+      .demo-gallery .image-card {
+        overflow: hidden;
+        border: 1px solid rgba(10, 16, 32, 0.15);
+        border-radius: 8px;
+        box-shadow: 0 24px 60px rgba(10, 16, 32, 0.24);
+      }
+
+      .demo-gallery .card-a {
+        width: 260px;
+        height: 210px;
+        align-self: flex-start;
+        rotate: -3deg;
+      }
+
+      .demo-gallery .card-b {
+        width: 250px;
+        height: 210px;
+        align-self: flex-end;
+        rotate: 4deg;
+        margin-top: -56px;
+      }
+
+      .demo-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .demo-gallery .copy {
+        display: grid;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .demo-gallery p {
+        margin: 0;
+        color: #7a4216;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .demo-gallery h2 {
+        margin: 0;
+        max-width: 310px;
+        color: #08111f;
+        font-size: 32px;
+        line-height: 1;
+        font-weight: 900;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const galleryTl = gsap.timeline({ paused: true });
+
+      galleryTl.fromTo(".card-a", { x: -90, y: 34, opacity: 0 }, { x: 0, y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 0.15);
+      galleryTl.fromTo(".card-b", { x: 92, y: 46, opacity: 0 }, { x: 0, y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 0.45);
+      galleryTl.fromTo(".image-card img", { scale: 1.1 }, { scale: 1, duration: 2.5, ease: "power1.out", stagger: 0.12 }, 0.2);
+      galleryTl.fromTo(".copy p, .copy h2", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, stagger: 0.1, ease: "power2.out" }, 1.25);
+      galleryTl.to(".gallery-shell", { opacity: 0, duration: 0.5, ease: "power2.in" }, 3.45);
+
+      window.__timelines["demo-gallery"] = galleryTl;
+    </script>
+  </div>
+</template>

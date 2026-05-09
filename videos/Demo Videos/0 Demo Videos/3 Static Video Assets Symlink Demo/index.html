@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=392, height=768" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background: #06070a;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      #root {
+        position: relative;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background: #06070a;
+        color: #f5f0e8;
+      }
+
+      .source-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .shade {
+        position: absolute;
+        inset: 0;
+        z-index: 5;
+        background:
+          linear-gradient(180deg, rgba(6, 7, 10, 0.64), rgba(6, 7, 10, 0.08) 38%, rgba(6, 7, 10, 0.72)),
+          radial-gradient(circle at 50% 16%, rgba(255, 217, 113, 0.22), transparent 34%);
+      }
+
+      .panel {
+        position: absolute;
+        left: 22px;
+        right: 22px;
+        bottom: 24px;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 8px;
+        background: rgba(9, 12, 18, 0.78);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.34);
+        backdrop-filter: blur(14px);
+      }
+
+      .kicker {
+        color: #ffd971;
+        font-size: 12px;
+        font-weight: 760;
+        letter-spacing: 0;
+        line-height: 1.15;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 320px;
+        color: #fffaf2;
+        font-size: 34px;
+        font-weight: 780;
+        letter-spacing: 0;
+        line-height: 1.02;
+      }
+
+      .copy {
+        max-width: 306px;
+        color: #d8e2ee;
+        font-size: 15px;
+        line-height: 1.25;
+      }
+
+      .strip {
+        position: absolute;
+        top: 22px;
+        left: 22px;
+        right: 22px;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+      }
+
+      .asset-tag {
+        min-height: 44px;
+        padding: 9px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 8px;
+        background: rgba(6, 7, 10, 0.58);
+        color: rgba(255, 250, 242, 0.86);
+        font-size: 11px;
+        font-weight: 680;
+        letter-spacing: 0;
+        line-height: 1.08;
+      }
+
+      .asset-tag span {
+        display: block;
+        margin-top: 4px;
+        color: rgba(216, 226, 238, 0.68);
+        font-size: 10px;
+        font-weight: 520;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="8.4"
+      data-width="392"
+      data-height="768"
+    >
+      <video
+        id="clip-bg"
+        class="clip source-video"
+        data-start="0"
+        data-duration="2.8"
+        data-track-index="0"
+        src="assets/shared-text-bg.mp4"
+        muted
+        playsinline
+      ></video>
+      <video
+        id="clip-creator"
+        class="clip source-video"
+        data-start="clip-bg"
+        data-duration="2.8"
+        data-track-index="0"
+        src="assets/shared-creator.mp4"
+        muted
+        playsinline
+      ></video>
+      <video
+        id="clip-loop"
+        class="clip source-video"
+        data-start="clip-creator"
+        data-duration="2.8"
+        data-track-index="0"
+        src="assets/shared-text-bg-2.mp4"
+        muted
+        playsinline
+      ></video>
+
+      <div class="shade"></div>
+
+      <div id="asset-strip" class="clip strip" data-start="0" data-duration="8.4" data-track-index="1">
+        <div class="asset-tag">bg loop<span>root MP4</span></div>
+        <div class="asset-tag">creator<span>root MP4</span></div>
+        <div class="asset-tag">second loop<span>root MP4</span></div>
+      </div>
+
+      <section id="panel" class="clip panel" data-start="0" data-duration="8.4" data-track-index="2">
+        <p class="kicker">Symlinked shared assets</p>
+        <h1>One staticVideoAssets folder, normal Studio paths.</h1>
+        <p class="copy">This video reads each source through symlinked files in assets/, all pointing back to the repo-level staticVideoAssets folder.</p>
+      </section>
+    </main>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#clip-bg", { opacity: 0, scale: 1.04, duration: 0.5, ease: "power2.out" }, 0);
+      tl.from("#clip-creator", { opacity: 0, scale: 1.04, duration: 0.5, ease: "power2.out" }, 2.8);
+      tl.from("#clip-loop", { opacity: 0, scale: 1.04, duration: 0.5, ease: "power2.out" }, 5.6);
+      tl.from(".asset-tag", { y: -14, opacity: 0, duration: 0.42, stagger: 0.08, ease: "power2.out" }, 0.18);
+      tl.from("#panel", { y: 30, opacity: 0, duration: 0.6, ease: "power3.out" }, 0.28);
+      tl.to("#panel", { y: 20, opacity: 0, duration: 0.42, ease: "power2.in" }, 7.7);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

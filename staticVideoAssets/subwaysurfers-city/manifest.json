@@ -1,0 +1,75 @@
+{
+  "seed": 2744371483763543234,
+  "clips": [
+    {
+      "file": "clip-01.mp4",
+      "startSeconds": 35,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-02.mp4",
+      "startSeconds": 44,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-03.mp4",
+      "startSeconds": 82,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-04.mp4",
+      "startSeconds": 91,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-05.mp4",
+      "startSeconds": 213,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-06.mp4",
+      "startSeconds": 282,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-07.mp4",
+      "startSeconds": 308,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-08.mp4",
+      "startSeconds": 342,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-09.mp4",
+      "startSeconds": 501,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    },
+    {
+      "file": "clip-10.mp4",
+      "startSeconds": 534,
+      "durationSeconds": 120,
+      "sourceId": "dgHIsHzK3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dgHIsHzK3b8"
+    }
+  ]
+}

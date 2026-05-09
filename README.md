@@ -13,3 +13,8 @@ bun run index.ts
 ```
 
 This project was created using `bun init` in bun v1.3.13. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+
+Repo structure:
+Feed -> Chapter -> Video
+
+Each video should be self-contained. no code-sharing between videos.

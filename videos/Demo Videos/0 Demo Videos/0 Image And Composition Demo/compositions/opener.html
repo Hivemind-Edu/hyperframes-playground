@@ -1,0 +1,85 @@
+<template id="demo-opener-template">
+  <div id="demo-opener" class="demo-opener" data-composition-id="demo-opener" data-width="392" data-height="768">
+    <div class="opener-shell">
+      <img class="hero-image" src="assets/mountain-light.svg" alt="" />
+      <div class="title-stack">
+        <p>HyperFrames demo</p>
+        <h1>Images plus sub-compositions</h1>
+      </div>
+    </div>
+
+    <style>
+      .demo-opener {
+        position: relative;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background: #0b1320;
+        color: #fff9ec;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .demo-opener .opener-shell {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 28px;
+        padding: 42px 28px;
+      }
+
+      .demo-opener .hero-image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .demo-opener .opener-shell::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(8, 17, 31, 0.05) 0%, rgba(8, 17, 31, 0.78) 68%, #08111f 100%);
+      }
+
+      .demo-opener .title-stack {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        gap: 12px;
+      }
+
+      .demo-opener p {
+        margin: 0;
+        color: #f7c76b;
+        font-size: 13px;
+        font-weight: 850;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .demo-opener h1 {
+        margin: 0;
+        max-width: 310px;
+        font-size: 42px;
+        line-height: 0.95;
+        font-weight: 900;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const openerTl = gsap.timeline({ paused: true });
+
+      openerTl.fromTo(".hero-image", { scale: 1.14 }, { scale: 1, duration: 4, ease: "none" }, 0);
+      openerTl.fromTo(".title-stack p", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, ease: "power2.out" }, 0.45);
+      openerTl.fromTo(".title-stack h1", { y: 34, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 0.65);
+      openerTl.to(".title-stack", { y: -24, opacity: 0, duration: 0.45, ease: "power2.in" }, 3.35);
+
+      window.__timelines["demo-opener"] = openerTl;
+    </script>
+  </div>
+</template>
