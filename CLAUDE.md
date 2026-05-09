@@ -27,7 +27,6 @@ Preview workflow:
 Repo structure:
 Feed -> Chapter -> Video
 
-Each video should be self-contained. no code-sharing between videos.
-
 We are currently using HyperFrames v0.6.0-alpha.2.
 You can use Tailwind for styling.
+Shared assets and reusable compositions live in `shared/assets` and `shared/compositions`; link them into a video's local `assets/` or `compositions/` folder with symlinks.

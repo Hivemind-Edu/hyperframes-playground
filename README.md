@@ -17,4 +17,4 @@ This project was created using `bun init` in bun v1.3.13. [Bun](https://bun.com)
 Repo structure:
 Feed -> Chapter -> Video
 
-Each video should be self-contained. no code-sharing between videos.
+Shared media and reusable compositions live under `shared/` and can be symlinked into individual videos when needed.
