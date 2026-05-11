@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_react_react_advanced_hooks_and_effects",
+  "feedId": "f_demo_react",
+  "chapterId": "c_demo_react_react_advanced",
+  "role": "seed",
+  "sortOrder": 0,
+  "text": "Mastering React Hooks in Practice",
+  "description": "This video demonstrates how to implement hooks effectively in React applications. You will learn practical techniques to manage state and side effects in your code.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/react/react_advanced/hooks_and_effects",
+  "sourceHash": "bf01a7fdf9aad26a21389cf7e4badefafba0201e7f7f7c1650dcb3fb9930d0a4"
+}

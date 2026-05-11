@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_personal_finance_investing_basics_compound_growth",
+  "feedId": "f_demo_personal_finance",
+  "chapterId": "c_demo_personal_finance_investing_basics",
+  "role": "seed",
+  "sortOrder": 0,
+  "text": "How Compound Growth Builds Wealth",
+  "description": "Learn the fundamentals of compound growth in personal finance. This video explains how your investments can grow exponentially over time.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/personal_finance/investing_basics/compound_growth",
+  "sourceHash": "a0e7b6f18915b5ecb9e807ca5ca30d452f41e518908d45c0dc3fc4d9abb04633"
+}

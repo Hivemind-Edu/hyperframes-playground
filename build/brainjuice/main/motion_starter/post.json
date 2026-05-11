@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_brainjuice_motion_starter",
+  "feedId": "f_demo_brainjuice",
+  "chapterId": "c_demo_brainjuice_main",
+  "role": "onboarding",
+  "sortOrder": 2,
+  "text": "Understanding Video Content Structure",
+  "description": "This video provides a brief overview of how video content is organized and categorized. You will learn the basics of video structure and recap terminology.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/brainjuice/main/motion_starter",
+  "sourceHash": "a13910edb505531942c5a110c1fa9d79ae18e92032e0177eb656dae598151eb3"
+}

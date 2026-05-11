@@ -5,15 +5,37 @@
   "private": true,
   "scripts": {
     "preview:all": "bun run scripts/preview-all.ts",
-    "preview:open": "bun run scripts/open-previews.ts"
+    "preview:open": "bun run scripts/open-previews.ts",
+    "build": "bun run scripts/build/index.ts",
+    "sync": "bun run scripts/sync/index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/pg": "^8.15.5"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "@hyperframes/studio": "v0.6.0-alpha.2"
-  }
+    "@ai-sdk/google": "^3.0.53",
+    "@clack/prompts": "1.0.1",
+    "@fal-ai/client": "^1.9.5",
+    "@hyperframes/studio": "v0.6.0-alpha.2",
+    "@tailwindcss/cli": "^4.2.4",
+    "ai": "^6.0.141",
+    "ai-fallback": "^2.0.0",
+    "cheerio": "^1.0.0",
+    "firebase-admin": "^13.6.1",
+    "kysely": "^0.28.14",
+    "p-limit": "^7.3.0",
+    "pg": "^8.18.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.2.4",
+    "zod": "4.3.6"
+  },
+  "trustedDependencies": [
+    "@firebase/util",
+    "@parcel/watcher",
+    "protobufjs"
+  ]
 }

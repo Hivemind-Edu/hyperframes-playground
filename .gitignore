@@ -19,6 +19,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # dotenv environment variable files
 .env
+.env.dev
+.env.staging
+.env.prod
 .env.development.local
 .env.test.local
 .env.production.local
@@ -34,3 +37,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Firebase service account JSONs (synced from hivemind-hono — never commit)
+firebase_config_*.json

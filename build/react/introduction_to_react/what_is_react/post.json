@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_react_introduction_to_react_what_is_react",
+  "feedId": "f_demo_react",
+  "chapterId": "c_demo_react_introduction_to_react",
+  "role": "seed",
+  "sortOrder": 0,
+  "text": "Demo Video",
+  "description": "A short HyperFrames demo composition.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/react/introduction_to_react/what_is_react",
+  "sourceHash": "374ddc16c069710234384f633b93d2c181809c57b7bc3311edbc5f644020afcf"
+}

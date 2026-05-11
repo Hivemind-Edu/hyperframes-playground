@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_brainjuice_static_video_assets_symlink_demo",
+  "feedId": "f_demo_brainjuice",
+  "chapterId": "c_demo_brainjuice_main",
+  "role": "onboarding",
+  "sortOrder": 3,
+  "text": "Mastering Professional Video Transition Effects",
+  "description": "This guide showcases a comprehensive catalog of video transitions, ranging from blurs and dissolves to mechanical and distortion effects. Learn how to categorize and apply these styles to enhance your scene transitions.",
+  "durationSeconds": 8.4,
+  "posterFilename": "poster.png",
+  "buildPath": "build/brainjuice/main/static_video_assets_symlink_demo",
+  "sourceHash": "8792ba06c1718ec124b7f8eaef3481bb21dd25dff2782074f35e513988a1f26b"
+}

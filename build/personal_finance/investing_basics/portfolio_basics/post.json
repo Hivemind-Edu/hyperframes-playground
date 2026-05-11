@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_personal_finance_investing_basics_portfolio_basics",
+  "feedId": "f_demo_personal_finance",
+  "chapterId": "c_demo_personal_finance_investing_basics",
+  "role": "seed",
+  "sortOrder": 1,
+  "text": "How to Build Diversified Portfolios",
+  "description": "Learn the fundamentals of creating a diversified investment portfolio. This video explains how spreading your assets helps manage risk in personal finance.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/personal_finance/investing_basics/portfolio_basics",
+  "sourceHash": "d6d1029d5a9040b4857b43555ec5d1a516bcad18257cb6ca75adb75c2e03ec91"
+}

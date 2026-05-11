@@ -1,0 +1,17 @@
+{
+  "id": "f_demo_react",
+  "name": "React",
+  "role": "seed",
+  "slug": "react",
+  "tags": [
+    "software_engineering",
+    "software"
+  ],
+  "profile": {
+    "id": "pr_demo_react",
+    "name": "React Logic"
+  },
+  "picturePath": "build/react/picture.webp",
+  "buildPath": "build/react",
+  "feedHash": "f75bd6f65915bc8996bef3b28e7a56eb27c25bfa15214334684d9303c9e2d4da"
+}

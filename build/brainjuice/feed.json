@@ -1,0 +1,14 @@
+{
+  "id": "f_demo_brainjuice",
+  "name": "Brainjuice Demos",
+  "role": "onboarding",
+  "slug": "brainjuice",
+  "tags": [],
+  "profile": {
+    "id": "pr_demo_brainjuice",
+    "name": "Logic Flow"
+  },
+  "picturePath": "build/brainjuice/picture.webp",
+  "buildPath": "build/brainjuice",
+  "feedHash": "482f1e913886e216166feccc5a92a4e0b88a178ba1d7285c70b7bb3793bdd4b3"
+}

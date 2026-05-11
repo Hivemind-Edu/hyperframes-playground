@@ -1,0 +1,62 @@
+[
+  {
+    "text": "anyone else find the dependency array just... stressful?",
+    "sortOrder": 0,
+    "probability": 0.02
+  },
+  {
+    "text": "it's honestly the main reason i still prefer class components sometimes. at least you knew where the lifecycle methods started and ended.",
+    "sortOrder": 1,
+    "probability": 0.03
+  },
+  {
+    "text": "lol, hard disagree. once you stop thinking about them as lifecycle methods and start thinking about them as synchronization points, it clicks.",
+    "sortOrder": 2,
+    "probability": 0.04
+  },
+  {
+    "text": "wait what do you mean by synchronization points?",
+    "sortOrder": 3,
+    "probability": 0.01
+  },
+  {
+    "text": "it means you're syncing your state to the outside world, not just running code when a component mounts.",
+    "sortOrder": 4,
+    "probability": 0.03
+  },
+  {
+    "text": "this is the kind of stuff they never teach in the official docs",
+    "sortOrder": 5,
+    "probability": 0.02
+  },
+  {
+    "text": "the docs are fine, you just have to read them like three times before it makes sense",
+    "sortOrder": 6,
+    "probability": 0.03
+  },
+  {
+    "text": "fair",
+    "sortOrder": 7,
+    "probability": 0.04
+  },
+  {
+    "text": "i still have nightmares about infinite loops from useEffect",
+    "sortOrder": 8,
+    "probability": 0.02
+  },
+  {
+    "text": "the classic mistake is mutating state inside the effect without a dependency, or worse, updating the same state you're listening to.",
+    "sortOrder": 9,
+    "probability": 0.01
+  },
+  {
+    "text": "oh god, the infinite re-render loop. my browser tab still has ptsd.",
+    "sortOrder": 10,
+    "probability": 0.03
+  },
+  {
+    "text": "idk i still think the whole hooks paradigm is just a mess compared to solidjs signals.",
+    "sortOrder": 11,
+    "probability": 0.02
+  }
+]

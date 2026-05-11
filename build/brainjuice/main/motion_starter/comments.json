@@ -1,0 +1,62 @@
+[
+  {
+    "text": "oh so THATS why my project files look like a dumpster fire after a week",
+    "sortOrder": 0,
+    "probability": 0.03
+  },
+  {
+    "text": "it is all fun and games until you realize you named your final video file 'final_v2_real_final_fixed.mp4'",
+    "sortOrder": 1,
+    "probability": 0.04
+  },
+  {
+    "text": "wait is this why some people use those weird numbering systems like 010, 020?",
+    "sortOrder": 2,
+    "probability": 0.02
+  },
+  {
+    "text": "exactly. if you dont leave gaps in your numbering you are just asking for pain when you have to insert a new edit later.",
+    "sortOrder": 3,
+    "probability": 0.03
+  },
+  {
+    "text": "the real pro move is using ISO 8601 dates at the start of every file name.",
+    "sortOrder": 4,
+    "probability": 0.01
+  },
+  {
+    "text": "i feel attacked",
+    "sortOrder": 5,
+    "probability": 0.04
+  },
+  {
+    "text": "ok but like... does anyone actually organize their assets before starting the edit? i always just dump everything into one folder and pray.",
+    "sortOrder": 6,
+    "probability": 0.03
+  },
+  {
+    "text": "that works until you have to relink media on a different machine and the software cant find anything.",
+    "sortOrder": 7,
+    "probability": 0.02
+  },
+  {
+    "text": "this. once you have had to manually hunt for 50 missing files, you learn real quick to use a proper directory structure.",
+    "sortOrder": 8,
+    "probability": 0.03
+  },
+  {
+    "text": "the chaos method is a valid workflow if your project is just a 30 second tiktok",
+    "sortOrder": 9,
+    "probability": 0.04
+  },
+  {
+    "text": "fair",
+    "sortOrder": 10,
+    "probability": 0.05
+  },
+  {
+    "text": "i still dont get why people use nested sequences for simple cuts. seems like overkill.",
+    "sortOrder": 11,
+    "probability": 0.02
+  }
+]

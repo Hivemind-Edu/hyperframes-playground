@@ -1,0 +1,18 @@
+{
+  "id": "f_demo_personal_finance",
+  "name": "Personal Finance",
+  "role": "seed",
+  "slug": "personal_finance",
+  "tags": [
+    "personal_finance",
+    "portfolio_theory",
+    "risk_management"
+  ],
+  "profile": {
+    "id": "pr_demo_personal_finance",
+    "name": "Wealth Logic"
+  },
+  "picturePath": "build/personal_finance/picture.webp",
+  "buildPath": "build/personal_finance",
+  "feedHash": "285c5860ce4abfefab3ea00dcddfd70b690f63a53850cc3669156029af447ea8"
+}

@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-11T18:04:15.705Z",
+  "feeds": [
+    {
+      "id": "f_demo_brainjuice",
+      "name": "Brainjuice Demos",
+      "role": "onboarding",
+      "slug": "brainjuice",
+      "tags": [],
+      "profile": {
+        "id": "pr_demo_brainjuice",
+        "name": "Logic Flow"
+      },
+      "picturePath": "build/brainjuice/picture.webp",
+      "buildPath": "build/brainjuice",
+      "feedHash": "482f1e913886e216166feccc5a92a4e0b88a178ba1d7285c70b7bb3793bdd4b3"
+    },
+    {
+      "id": "f_demo_personal_finance",
+      "name": "Personal Finance",
+      "role": "seed",
+      "slug": "personal_finance",
+      "tags": [
+        "personal_finance",
+        "portfolio_theory",
+        "risk_management"
+      ],
+      "profile": {
+        "id": "pr_demo_personal_finance",
+        "name": "Wealth Logic"
+      },
+      "picturePath": "build/personal_finance/picture.webp",
+      "buildPath": "build/personal_finance",
+      "feedHash": "285c5860ce4abfefab3ea00dcddfd70b690f63a53850cc3669156029af447ea8"
+    },
+    {
+      "id": "f_demo_react",
+      "name": "React",
+      "role": "seed",
+      "slug": "react",
+      "tags": [
+        "software_engineering",
+        "software"
+      ],
+      "profile": {
+        "id": "pr_demo_react",
+        "name": "React Logic"
+      },
+      "picturePath": "build/react/picture.webp",
+      "buildPath": "build/react",
+      "feedHash": "f75bd6f65915bc8996bef3b28e7a56eb27c25bfa15214334684d9303c9e2d4da"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "c_demo_brainjuice_main",
+      "feedId": "f_demo_brainjuice",
+      "name": "Sampler",
+      "slug": "main",
+      "sortOrder": 0
+    },
+    {
+      "id": "c_demo_personal_finance_money_foundations",
+      "feedId": "f_demo_personal_finance",
+      "name": "Money Foundations",
+      "slug": "money_foundations",
+      "sortOrder": 0
+    },
+    {
+      "id": "c_demo_personal_finance_investing_basics",
+      "feedId": "f_demo_personal_finance",
+      "name": "Investing Basics",
+      "slug": "investing_basics",
+      "sortOrder": 1
+    },
+    {
+      "id": "c_demo_react_introduction_to_react",
+      "feedId": "f_demo_react",
+      "name": "Introduction to React",
+      "slug": "introduction_to_react",
+      "sortOrder": 0
+    },
+    {
+      "id": "c_demo_react_react_advanced",
+      "feedId": "f_demo_react",
+      "name": "React Advanced",
+      "slug": "react_advanced",
+      "sortOrder": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": "p_demo_brainjuice_image_and_composition_demo",
+      "feedId": "f_demo_brainjuice",
+      "chapterId": "c_demo_brainjuice_main",
+      "role": "onboarding",
+      "sortOrder": 0,
+      "text": "Organize Your HyperFrames Project Files",
+      "description": "Learn how to keep your root HTML, local assets, and nested compositions organized in a single folder. This video demonstrates how to manage image clips and sub-compositions within your timeline.",
+      "durationSeconds": 12,
+      "posterFilename": "poster.png",
+      "buildPath": "build/brainjuice/main/image_and_composition_demo",
+      "sourceHash": "d75303b28ce21743a0f246ade3fb0f442b84691cbbd061e5095ddc3f9ba11f49"
+    },
+    {
+      "id": "p_demo_brainjuice_blank_starter",
+      "feedId": "f_demo_brainjuice",
+      "chapterId": "c_demo_brainjuice_main",
+      "role": "onboarding",
+      "sortOrder": 1,
+      "text": "How to create demo videos",
+      "description": "Learn the essential workflow for producing professional demo videos. This guide covers the basic steps to get your content ready.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/brainjuice/main/blank_starter",
+      "sourceHash": "fe07e8fc50c9f13032687d3d05cb273d50278039322fa6cb494a7f87a04d635a"
+    },
+    {
+      "id": "p_demo_brainjuice_motion_starter",
+      "feedId": "f_demo_brainjuice",
+      "chapterId": "c_demo_brainjuice_main",
+      "role": "onboarding",
+      "sortOrder": 2,
+      "text": "Understanding Video Content Structure",
+      "description": "This video provides a brief overview of how video content is organized and categorized. You will learn the basics of video structure and recap terminology.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/brainjuice/main/motion_starter",
+      "sourceHash": "a13910edb505531942c5a110c1fa9d79ae18e92032e0177eb656dae598151eb3"
+    },
+    {
+      "id": "p_demo_brainjuice_static_video_assets_symlink_demo",
+      "feedId": "f_demo_brainjuice",
+      "chapterId": "c_demo_brainjuice_main",
+      "role": "onboarding",
+      "sortOrder": 3,
+      "text": "Mastering Professional Video Transition Effects",
+      "description": "This guide showcases a comprehensive catalog of video transitions, ranging from blurs and dissolves to mechanical and distortion effects. Learn how to categorize and apply these styles to enhance your scene transitions.",
+      "durationSeconds": 8.4,
+      "posterFilename": "poster.png",
+      "buildPath": "build/brainjuice/main/static_video_assets_symlink_demo",
+      "sourceHash": "8792ba06c1718ec124b7f8eaef3481bb21dd25dff2782074f35e513988a1f26b"
+    },
+    {
+      "id": "p_demo_personal_finance_investing_basics_compound_growth",
+      "feedId": "f_demo_personal_finance",
+      "chapterId": "c_demo_personal_finance_investing_basics",
+      "role": "seed",
+      "sortOrder": 0,
+      "text": "How Compound Growth Builds Wealth",
+      "description": "Learn the fundamentals of compound growth in personal finance. This video explains how your investments can grow exponentially over time.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/personal_finance/investing_basics/compound_growth",
+      "sourceHash": "a0e7b6f18915b5ecb9e807ca5ca30d452f41e518908d45c0dc3fc4d9abb04633"
+    },
+    {
+      "id": "p_demo_personal_finance_investing_basics_portfolio_basics",
+      "feedId": "f_demo_personal_finance",
+      "chapterId": "c_demo_personal_finance_investing_basics",
+      "role": "seed",
+      "sortOrder": 1,
+      "text": "How to Build Diversified Portfolios",
+      "description": "Learn the fundamentals of creating a diversified investment portfolio. This video explains how spreading your assets helps manage risk in personal finance.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/personal_finance/investing_basics/portfolio_basics",
+      "sourceHash": "d6d1029d5a9040b4857b43555ec5d1a516bcad18257cb6ca75adb75c2e03ec91"
+    },
+    {
+      "id": "p_demo_personal_finance_money_foundations_budgeting_basics",
+      "feedId": "f_demo_personal_finance",
+      "chapterId": "c_demo_personal_finance_money_foundations",
+      "role": "seed",
+      "sortOrder": 0,
+      "text": "Master Your Personal Finance Basics",
+      "description": "Learn the fundamental principles of managing your money. This video covers the essential building blocks for creating a successful personal budget.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/personal_finance/money_foundations/budgeting_basics",
+      "sourceHash": "a0a2347c717a1402f05c3f86ad10e67654c2ff5b2cb2e819289b7c1dfe96fea4"
+    },
+    {
+      "id": "p_demo_personal_finance_money_foundations_emergency_fund",
+      "feedId": "f_demo_personal_finance",
+      "chapterId": "c_demo_personal_finance_money_foundations",
+      "role": "seed",
+      "sortOrder": 1,
+      "text": "How to Build Emergency Funds",
+      "description": "Learn the basics of setting up an emergency fund. This video explains why these savings are a critical foundation for your personal finances.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/personal_finance/money_foundations/emergency_fund",
+      "sourceHash": "a781f0c0e238baae4ff8fa62dc1a6fe5b9c6e135dbcea0cf14d746b5807e80b6"
+    },
+    {
+      "id": "p_demo_react_introduction_to_react_what_is_react",
+      "feedId": "f_demo_react",
+      "chapterId": "c_demo_react_introduction_to_react",
+      "role": "seed",
+      "sortOrder": 0,
+      "text": "Demo Video",
+      "description": "A short HyperFrames demo composition.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/react/introduction_to_react/what_is_react",
+      "sourceHash": "374ddc16c069710234384f633b93d2c181809c57b7bc3311edbc5f644020afcf"
+    },
+    {
+      "id": "p_demo_react_introduction_to_react_components_and_jsx",
+      "feedId": "f_demo_react",
+      "chapterId": "c_demo_react_introduction_to_react",
+      "role": "seed",
+      "sortOrder": 1,
+      "text": "Understanding React Components and Props",
+      "description": "This video introduces the core concepts of components and props in React. You will learn how these building blocks work together to create dynamic user interfaces.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/react/introduction_to_react/components_and_jsx",
+      "sourceHash": "bed0f905fc75a3f6da12ebbd53baa35acf8857dcdc86cb72769b22f9b6bc20ad"
+    },
+    {
+      "id": "p_demo_react_introduction_to_react_props_and_state",
+      "feedId": "f_demo_react",
+      "chapterId": "c_demo_react_introduction_to_react",
+      "role": "seed",
+      "sortOrder": 2,
+      "text": "Understanding React State Basics",
+      "description": "This video introduces the fundamental concepts of state in React. You will learn how state works and why it is essential for building dynamic components.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/react/introduction_to_react/props_and_state",
+      "sourceHash": "c669cab68ee23fef6248ced825ef3b5d2f757f9c2da8248ba4b318b63b923e78"
+    },
+    {
+      "id": "p_demo_react_introduction_to_react_rendering_lists",
+      "feedId": "f_demo_react",
+      "chapterId": "c_demo_react_introduction_to_react",
+      "role": "seed",
+      "sortOrder": 3,
+      "text": "Rendering Lists in React",
+      "description": "Learn how to efficiently render lists of data in React. This video covers the fundamental techniques for displaying dynamic content in your components.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/react/introduction_to_react/rendering_lists",
+      "sourceHash": "74c3bd1a4daa564eca4b63875bdeefb8d8663c963b8e87969f789fbfda66a3bf"
+    },
+    {
+      "id": "p_demo_react_react_advanced_hooks_and_effects",
+      "feedId": "f_demo_react",
+      "chapterId": "c_demo_react_react_advanced",
+      "role": "seed",
+      "sortOrder": 0,
+      "text": "Mastering React Hooks in Practice",
+      "description": "This video demonstrates how to implement hooks effectively in React applications. You will learn practical techniques to manage state and side effects in your code.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/react/react_advanced/hooks_and_effects",
+      "sourceHash": "bf01a7fdf9aad26a21389cf7e4badefafba0201e7f7f7c1650dcb3fb9930d0a4"
+    },
+    {
+      "id": "p_demo_react_react_advanced_performance_patterns",
+      "feedId": "f_demo_react",
+      "chapterId": "c_demo_react_react_advanced",
+      "role": "seed",
+      "sortOrder": 1,
+      "text": "Optimizing React Component Performance Patterns",
+      "description": "This video explores advanced performance patterns for React applications. You will learn how to implement efficient rendering strategies to improve your code.",
+      "durationSeconds": 10,
+      "posterFilename": "poster.png",
+      "buildPath": "build/react/react_advanced/performance_patterns",
+      "sourceHash": "6d5c47d456b008fbda9422e07702ed304e4da33aef93c05b47821dc07ddcafc7"
+    }
+  ]
+}

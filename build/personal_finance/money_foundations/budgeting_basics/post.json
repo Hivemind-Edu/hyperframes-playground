@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_personal_finance_money_foundations_budgeting_basics",
+  "feedId": "f_demo_personal_finance",
+  "chapterId": "c_demo_personal_finance_money_foundations",
+  "role": "seed",
+  "sortOrder": 0,
+  "text": "Master Your Personal Finance Basics",
+  "description": "Learn the fundamental principles of managing your money. This video covers the essential building blocks for creating a successful personal budget.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/personal_finance/money_foundations/budgeting_basics",
+  "sourceHash": "a0a2347c717a1402f05c3f86ad10e67654c2ff5b2cb2e819289b7c1dfe96fea4"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "text": "the 'diversification is protection against ignorance' quote is brutal but honestly true",
+    "sortOrder": 0,
+    "probability": 0.02
+  },
+  {
+    "text": "wait what is the difference between diversification and just buying an index fund? feels like the same thing",
+    "sortOrder": 1,
+    "probability": 0.03
+  },
+  {
+    "text": "it's not. index funds are a shortcut. diversification is actually managing your correlations",
+    "sortOrder": 2,
+    "probability": 0.015
+  },
+  {
+    "text": "lol this",
+    "sortOrder": 3,
+    "probability": 0.04
+  },
+  {
+    "text": "if your stocks and your bonds move in the same direction when the market tanks, you aren't diversified, you're just holding different colored tickets to the same disaster",
+    "sortOrder": 4,
+    "probability": 0.01
+  },
+  {
+    "text": "oh god",
+    "sortOrder": 5,
+    "probability": 0.025
+  },
+  {
+    "text": "everyone forgets the 'rebalancing' part. buying assets is easy. selling your winners to buy your losers every year to keep the percentages straight? that's the part that actually hurts",
+    "sortOrder": 6,
+    "probability": 0.02
+  },
+  {
+    "text": "wait why would you sell the winners? that sounds counterintuitive",
+    "sortOrder": 7,
+    "probability": 0.035
+  },
+  {
+    "text": "because if you don't, you're just betting on whatever happened to do well last year. rebalancing forces you to buy low and sell high without having to predict the future",
+    "sortOrder": 8,
+    "probability": 0.012
+  },
+  {
+    "text": "fair",
+    "sortOrder": 9,
+    "probability": 0.045
+  },
+  {
+    "text": "i just set my portfolio to auto-rebalance and stopped looking. works better for my blood pressure",
+    "sortOrder": 10,
+    "probability": 0.02
+  },
+  {
+    "text": "the real secret is that the best portfolio is the one you don't panic sell when everything is red",
+    "sortOrder": 11,
+    "probability": 0.015
+  }
+]

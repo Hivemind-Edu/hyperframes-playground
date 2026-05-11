@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_personal_finance_money_foundations_emergency_fund",
+  "feedId": "f_demo_personal_finance",
+  "chapterId": "c_demo_personal_finance_money_foundations",
+  "role": "seed",
+  "sortOrder": 1,
+  "text": "How to Build Emergency Funds",
+  "description": "Learn the basics of setting up an emergency fund. This video explains why these savings are a critical foundation for your personal finances.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/personal_finance/money_foundations/emergency_fund",
+  "sourceHash": "a781f0c0e238baae4ff8fa62dc1a6fe5b9c6e135dbcea0cf14d746b5807e80b6"
+}

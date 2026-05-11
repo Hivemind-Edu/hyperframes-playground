@@ -1,0 +1,13 @@
+{
+  "id": "p_demo_react_introduction_to_react_props_and_state",
+  "feedId": "f_demo_react",
+  "chapterId": "c_demo_react_introduction_to_react",
+  "role": "seed",
+  "sortOrder": 2,
+  "text": "Understanding React State Basics",
+  "description": "This video introduces the fundamental concepts of state in React. You will learn how state works and why it is essential for building dynamic components.",
+  "durationSeconds": 10,
+  "posterFilename": "poster.png",
+  "buildPath": "build/react/introduction_to_react/props_and_state",
+  "sourceHash": "c669cab68ee23fef6248ced825ef3b5d2f757f9c2da8248ba4b318b63b923e78"
+}

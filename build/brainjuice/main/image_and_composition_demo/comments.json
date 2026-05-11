@@ -1,0 +1,62 @@
+[
+  {
+    "text": "oh so THAT is why my timeline looks like a graveyard after three days of work",
+    "sortOrder": 0,
+    "probability": 0.02
+  },
+  {
+    "text": "the real pro move is using symlinks for assets if you work across different drives",
+    "sortOrder": 1,
+    "probability": 0.015
+  },
+  {
+    "text": "wait people actually organize their root folders?",
+    "sortOrder": 2,
+    "probability": 0.03
+  },
+  {
+    "text": "i just name everything final_v2_real_final.html and hope for the best",
+    "sortOrder": 3,
+    "probability": 0.04
+  },
+  {
+    "text": "lol same",
+    "sortOrder": 4,
+    "probability": 0.045
+  },
+  {
+    "text": "that only works until you have to move a project to a different machine and half your links break because they're pointing to your desktop",
+    "sortOrder": 5,
+    "probability": 0.025
+  },
+  {
+    "text": "ok but what about relative vs absolute paths? whenever i try to clean up the folder structure everything breaks",
+    "sortOrder": 6,
+    "probability": 0.012
+  },
+  {
+    "text": "always relative. if you're using absolute paths you're just asking for pain when you switch from dev to production",
+    "sortOrder": 7,
+    "probability": 0.018
+  },
+  {
+    "text": "the pain is part of the creative process",
+    "sortOrder": 8,
+    "probability": 0.035
+  },
+  {
+    "text": "fair",
+    "sortOrder": 9,
+    "probability": 0.048
+  },
+  {
+    "text": "i swear i spend more time managing file directories than actually finishing the compositions",
+    "sortOrder": 10,
+    "probability": 0.022
+  },
+  {
+    "text": "huh",
+    "sortOrder": 11,
+    "probability": 0.049
+  }
+]
