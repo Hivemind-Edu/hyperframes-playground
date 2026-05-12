@@ -48,7 +48,7 @@ export function isLlmConfigured(): boolean {
 const modelFallbacks = () =>
   createFallback({
     models: [
-      google("gemini-3.1-flash-lite-preview"),
+      google("gemini-3.1-flash-lite"),
       google("gemini-2.5-flash-lite-preview-09-2025"),
       google("gemini-2.5-flash-lite"),
       google("gemini-3-flash-preview"),
