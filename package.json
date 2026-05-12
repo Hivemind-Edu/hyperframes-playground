@@ -20,7 +20,7 @@
     "@ai-sdk/google": "^3.0.53",
     "@clack/prompts": "1.0.1",
     "@fal-ai/client": "^1.9.5",
-    "@hyperframes/studio": "v0.6.0-alpha.2",
+    "@hyperframes/studio": "v0.6.0-alpha.13",
     "@tailwindcss/cli": "^4.2.4",
     "ai": "^6.0.141",
     "ai-fallback": "^2.0.0",
