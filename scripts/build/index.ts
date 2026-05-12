@@ -19,13 +19,14 @@ import { fileURLToPath } from "node:url";
 import { compileLeaf } from "./compile";
 import { extractLeafText } from "./innerText";
 import {
+  assertLlmConfigured,
   chooseTagsForFeed,
   generateCommentsForPost,
   generatePostCopy,
   generateProfileName,
   isLlmConfigured,
 } from "./llm";
-import { generateFeedPicture, isFalConfigured } from "./feedPicture";
+import { assertFalConfigured, generateFeedPicture, isFalConfigured } from "./feedPicture";
 import { hashFeedInputs, hashLeafSource } from "../shared/hashing";
 import {
   type BuildManifest,
@@ -131,6 +132,11 @@ async function main() {
   const options = parseArgs(Bun.argv.slice(2));
 
   p.intro("Brainjuice playground build");
+
+  if (!options.noLlm) {
+    assertLlmConfigured();
+    assertFalConfigured();
+  }
 
   if (!existsSync(buildRoot)) mkdirSync(buildRoot, { recursive: true });
 

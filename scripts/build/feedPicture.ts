@@ -3,8 +3,8 @@
  * in the build folder. Mirrors hivemind-hono's brainjuice feed-picture
  * generation (same prompt, same WebP quality).
  *
- * Requires `FAL_KEY` or `FAL_API_KEY` to be set; otherwise returns an
- * error and the build proceeds without a feed picture.
+ * Requires `FAL_KEY` or `FAL_API_KEY` to be set. The build validates this at
+ * startup so missing credentials fail fast.
  */
 
 import { fal } from "@fal-ai/client";
@@ -16,6 +16,12 @@ let configured = false;
 
 export function isFalConfigured(): boolean {
   return Boolean(falKey);
+}
+
+export function assertFalConfigured(): void {
+  if (!falKey) {
+    throw new Error("Missing fal.ai API key. Set FAL_KEY or FAL_API_KEY.");
+  }
 }
 
 function ensureFalConfigured(): void {

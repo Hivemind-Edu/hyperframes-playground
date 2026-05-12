@@ -1,9 +1,8 @@
 /**
  * Gemini-backed LLM helpers used by the build step.
  *
- * If `GOOGLE_GENERATIVE_AI_API_KEY` (or `GEMINI_API_KEY`) is not set,
- * `isLlmConfigured()` returns false and callers should skip — the build
- * still produces a valid (if less polished) manifest.
+ * Requires `GOOGLE_GENERATIVE_AI_API_KEY` (or `GEMINI_API_KEY`) to be set.
+ * The build validates this at startup so missing credentials fail fast.
  */
 
 import { google } from "@ai-sdk/google";
@@ -43,6 +42,14 @@ const apiKey =
 
 export function isLlmConfigured(): boolean {
   return Boolean(apiKey);
+}
+
+export function assertLlmConfigured(): void {
+  if (!apiKey) {
+    throw new Error(
+      "Missing Gemini API key. Set GOOGLE_GENERATIVE_AI_API_KEY or GEMINI_API_KEY.",
+    );
+  }
 }
 
 const modelFallbacks = () =>
