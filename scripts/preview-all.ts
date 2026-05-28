@@ -7,7 +7,7 @@ const videosRoot = join(root, "videos");
 const logDir = join(root, ".preview-logs");
 const registryPath = join(logDir, "previews.tsv");
 const defaultBasePort = 5000;
-const hyperframesVersion = "0.6.0-alpha.2";
+const hyperframesVersion = "0.6.52";
 
 type Project = {
   dir: string;
