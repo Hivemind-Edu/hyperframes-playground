@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=392, height=768" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background: #000;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      #root {
+        position: relative;
+        width: 392px;
+        height: 768px;
+        overflow: hidden;
+        background: #07101f;
+        color: #f8fafc;
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      /* ── Scene 1: Hook ───────────────────────── */
+      #s1 {
+        background: linear-gradient(180deg, #1668c9 0%, #4f9bec 52%, #bfe2ff 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 18px;
+        padding: 48px 30px 64px;
+      }
+      #s1 .sun {
+        position: absolute;
+        top: 56px;
+        right: 44px;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background: radial-gradient(circle, #fff4c2 0%, #ffd24d 60%, rgba(255, 210, 77, 0) 72%);
+      }
+      #s1 .eyebrow {
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffffff;
+        opacity: 0.92;
+      }
+      #s1 h1 {
+        max-width: 320px;
+        font-size: 56px;
+        line-height: 0.96;
+        font-weight: 900;
+        text-shadow: 0 6px 30px rgba(8, 20, 40, 0.35);
+      }
+
+      /* ── Scene 2: Mechanism ──────────────────── */
+      #s2 {
+        background:
+          radial-gradient(circle at 50% 42%, rgba(90, 160, 240, 0.18), transparent 46%),
+          linear-gradient(170deg, #060c18 0%, #0c1830 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 48px 30px 56px;
+      }
+      #s2 .beam {
+        position: absolute;
+        top: 188px;
+        left: -10px;
+        width: 230px;
+        height: 8px;
+        border-radius: 8px;
+        transform-origin: left center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.15));
+        box-shadow: 0 0 22px rgba(255, 255, 255, 0.55);
+      }
+      #s2 .core {
+        position: absolute;
+        top: 168px;
+        left: 196px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(120, 180, 255, 0.35), transparent 70%);
+      }
+      #s2 .ray {
+        position: absolute;
+        top: 190px;
+        left: 218px;
+        width: 70px;
+        height: 5px;
+        border-radius: 5px;
+        transform-origin: left center;
+        background: linear-gradient(90deg, #6cb0ff, rgba(108, 176, 255, 0));
+      }
+      #s2 .label {
+        position: relative;
+        z-index: 2;
+        max-width: 330px;
+        font-size: 30px;
+        line-height: 1.12;
+        font-weight: 800;
+      }
+      #s2 .label b {
+        color: #6cb0ff;
+      }
+
+      /* ── Scene 3: Payoff ─────────────────────── */
+      #s3 {
+        background: linear-gradient(180deg, #0a1830 0%, #123a6b 60%, #1668c9 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+      }
+      #s3 .card {
+        width: 100%;
+        display: grid;
+        gap: 16px;
+        padding: 34px 28px;
+        border: 1px solid rgba(248, 250, 252, 0.22);
+        border-radius: 14px;
+        background: rgba(7, 16, 31, 0.55);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(12px);
+      }
+      #s3 .stat {
+        font-size: 88px;
+        line-height: 0.9;
+        font-weight: 900;
+        color: #6cb0ff;
+        font-variant-numeric: tabular-nums;
+      }
+      #s3 .stat span {
+        font-size: 40px;
+      }
+      #s3 .headline {
+        font-size: 28px;
+        line-height: 1.08;
+        font-weight: 800;
+      }
+      #s3 .caption {
+        font-size: 16px;
+        line-height: 1.45;
+        color: rgba(248, 250, 252, 0.74);
+      }
+
+      #fadeout {
+        position: absolute;
+        inset: 0;
+        background: #07101f;
+        opacity: 0;
+        z-index: 9;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="12"
+      data-width="392"
+      data-height="768"
+    >
+      <!-- Scene 1: Hook -->
+      <section id="s1" class="clip scene" data-start="0" data-duration="4.5" data-track-index="1">
+        <div class="sun"></div>
+        <div class="eyebrow">Physics · 30 sec</div>
+        <h1>Why is the sky blue?</h1>
+      </section>
+
+      <!-- Scene 2: Mechanism -->
+      <section id="s2" class="clip scene" data-start="s1" data-duration="4" data-track-index="1">
+        <div class="beam"></div>
+        <div class="core"></div>
+        <div class="ray" style="transform: rotate(-58deg)"></div>
+        <div class="ray" style="transform: rotate(-30deg)"></div>
+        <div class="ray" style="transform: rotate(-8deg)"></div>
+        <div class="ray" style="transform: rotate(18deg)"></div>
+        <div class="ray" style="transform: rotate(44deg)"></div>
+        <div class="ray" style="transform: rotate(72deg)"></div>
+        <p class="label">Sunlight is <b>every color</b>. Air molecules scatter <b>blue</b> light the most.</p>
+      </section>
+
+      <!-- Scene 3: Payoff -->
+      <section id="s3" class="clip scene" data-start="s2" data-duration="3.5" data-track-index="1">
+        <div class="card">
+          <div class="stat">10<span>×</span></div>
+          <h2 class="headline">Blue scatters ~10× more than red.</h2>
+          <p class="caption">Shorter wavelengths bounce off air molecules far more — so blue fills the whole sky.</p>
+        </div>
+      </section>
+
+      <div id="fadeout"></div>
+    </main>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      /* Scene 1 — entrances (varied eases, offset start) */
+      tl.from("#s1 .sun", { scale: 0.4, opacity: 0, duration: 0.8, ease: "back.out(1.7)" }, 0.2);
+      tl.from("#s1 .eyebrow", { y: 24, opacity: 0, duration: 0.5, ease: "power2.out" }, 0.4);
+      tl.from("#s1 h1", { y: 60, opacity: 0, duration: 0.8, ease: "power3.out" }, 0.55);
+
+      /* Scene 2 — beam, scattering rays, label */
+      tl.from("#s2 .beam", { scaleX: 0, opacity: 0, duration: 0.7, ease: "power2.out" }, 4.7);
+      tl.from("#s2 .core", { scale: 0, opacity: 0, duration: 0.5, ease: "back.out(2)" }, 5.1);
+      tl.from("#s2 .ray", { scaleX: 0, opacity: 0, duration: 0.6, stagger: 0.07, ease: "power2.out" }, 5.2);
+      tl.from("#s2 .label", { y: 30, opacity: 0, duration: 0.7, ease: "expo.out" }, 5.6);
+
+      /* Scene 3 — payoff card */
+      tl.from("#s3 .card", { y: 50, scale: 0.96, opacity: 0, duration: 0.7, ease: "power3.out" }, 8.6);
+      tl.from("#s3 .stat", { scale: 0.6, opacity: 0, duration: 0.6, ease: "back.out(1.8)" }, 8.85);
+      tl.from("#s3 .headline, #s3 .caption", { y: 20, opacity: 0, duration: 0.5, stagger: 0.12, ease: "power2.out" }, 9.05);
+
+      /* Final scene only — fade to black */
+      tl.to("#fadeout", { opacity: 1, duration: 0.6, ease: "power2.in" }, 11.4);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

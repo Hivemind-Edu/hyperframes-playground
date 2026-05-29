@@ -41,3 +41,4 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Firebase service account JSONs (synced from hivemind-hono — never commit)
 firebase_config_*.json
+.thumbnails/
