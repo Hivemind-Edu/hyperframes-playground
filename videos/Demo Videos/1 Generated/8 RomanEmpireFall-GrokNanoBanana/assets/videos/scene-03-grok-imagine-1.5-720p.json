@@ -1,0 +1,37 @@
+{
+  "scene": 3,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.635,
+  "voiceoverStartSeconds": 7.124,
+  "voiceoverEndSeconds": 11.759,
+  "voiceoverText": "For centuries, emperors needed more than soldiers. They needed legitimacy.",
+  "imagePrompt": "A young emperor in a marble throne hall caught between senators on one side and armored officers on the other, both groups leaning toward him like competing walls.",
+  "videoPrompt": "Camera circles the emperor as senators gesture and officers step closer, the throne looming behind him while sunlight slides across marble.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-03-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-03-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb51a/ezpdYdR5_xSCi9cd04_eY_7HYLpqsR.mp4",
+  "requestId": "019e8962-4990-72f2-aeb0-9d8693173bf2",
+  "generatedAt": "2026-06-02T17:30:38.274Z",
+  "latencyMs": {
+    "upload": 1857,
+    "generation": 56477,
+    "download": 1660,
+    "total": 59994
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb51a/ezpdYdR5_xSCi9cd04_eY_7HYLpqsR.mp4",
+      "content_type": "video/mp4",
+      "file_name": "ezpdYdR5_xSCi9cd04_eY_7HYLpqsR.mp4",
+      "file_size": 6261315,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

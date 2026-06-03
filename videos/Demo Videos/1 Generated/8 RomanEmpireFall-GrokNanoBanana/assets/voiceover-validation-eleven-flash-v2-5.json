@@ -1,0 +1,1813 @@
+{
+  "provider": "elevenlabs",
+  "modelId": "eleven_flash_v2_5",
+  "voiceKey": "el-adam",
+  "voiceId": "pNInz6obpgDQGcFmaJgB",
+  "wordCount": 150,
+  "wordCaptionCount": 150,
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 569,
+        "startMs": 0,
+        "text": "Rome did not",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 279,
+            "startMs": 0,
+            "text": "Rome",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 279
+          },
+          {
+            "confidence": null,
+            "endMs": 418,
+            "startMs": 313,
+            "text": " did",
+            "timestampMs": 313,
+            "fromMs": 313,
+            "toMs": 418
+          },
+          {
+            "confidence": null,
+            "endMs": 569,
+            "startMs": 453,
+            "text": " not",
+            "timestampMs": 453,
+            "fromMs": 453,
+            "toMs": 569
+          }
+        ]
+      },
+      {
+        "durationMs": 662,
+        "startMs": 639,
+        "text": "fall in one",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 906,
+            "startMs": 639,
+            "text": " fall",
+            "timestampMs": 639,
+            "fromMs": 639,
+            "toMs": 906
+          },
+          {
+            "confidence": null,
+            "endMs": 1022,
+            "startMs": 964,
+            "text": " in",
+            "timestampMs": 964,
+            "fromMs": 964,
+            "toMs": 1022
+          },
+          {
+            "confidence": null,
+            "endMs": 1301,
+            "startMs": 1115,
+            "text": " one",
+            "timestampMs": 1115,
+            "fromMs": 1115,
+            "toMs": 1301
+          }
+        ]
+      },
+      {
+        "durationMs": 709,
+        "startMs": 1335,
+        "text": "dramatic night.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1649,
+            "startMs": 1335,
+            "text": " dramatic",
+            "timestampMs": 1335,
+            "fromMs": 1335,
+            "toMs": 1649
+          },
+          {
+            "confidence": null,
+            "endMs": 2044,
+            "startMs": 1695,
+            "text": " night.",
+            "timestampMs": 1695,
+            "fromMs": 1695,
+            "toMs": 2044
+          }
+        ]
+      },
+      {
+        "durationMs": 754,
+        "startMs": 2427,
+        "text": "It slowly forgot",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2543,
+            "startMs": 2427,
+            "text": "\n\nIt",
+            "timestampMs": 2427,
+            "fromMs": 2427,
+            "toMs": 2543
+          },
+          {
+            "confidence": null,
+            "endMs": 2868,
+            "startMs": 2578,
+            "text": " slowly",
+            "timestampMs": 2578,
+            "fromMs": 2578,
+            "toMs": 2868
+          },
+          {
+            "confidence": null,
+            "endMs": 3181,
+            "startMs": 2914,
+            "text": " forgot",
+            "timestampMs": 2914,
+            "fromMs": 2914,
+            "toMs": 3181
+          }
+        ]
+      },
+      {
+        "durationMs": 360,
+        "startMs": 3216,
+        "text": "how to keep",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3298,
+            "startMs": 3216,
+            "text": " how",
+            "timestampMs": 3216,
+            "fromMs": 3216,
+            "toMs": 3298
+          },
+          {
+            "confidence": null,
+            "endMs": 3379,
+            "startMs": 3332,
+            "text": " to",
+            "timestampMs": 3332,
+            "fromMs": 3332,
+            "toMs": 3379
+          },
+          {
+            "confidence": null,
+            "endMs": 3576,
+            "startMs": 3425,
+            "text": " keep",
+            "timestampMs": 3425,
+            "fromMs": 3425,
+            "toMs": 3576
+          }
+        ]
+      },
+      {
+        "durationMs": 755,
+        "startMs": 3611,
+        "text": "itself together.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3843,
+            "startMs": 3611,
+            "text": " itself",
+            "timestampMs": 3611,
+            "fromMs": 3611,
+            "toMs": 3843
+          },
+          {
+            "confidence": null,
+            "endMs": 4366,
+            "startMs": 3878,
+            "text": " together.",
+            "timestampMs": 3878,
+            "fromMs": 3878,
+            "toMs": 4366
+          }
+        ]
+      },
+      {
+        "durationMs": 1091,
+        "startMs": 4888,
+        "text": "Emperors changed so",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5329,
+            "startMs": 4888,
+            "text": "\n\nEmperors",
+            "timestampMs": 4888,
+            "fromMs": 4888,
+            "toMs": 5329
+          },
+          {
+            "confidence": null,
+            "endMs": 5758,
+            "startMs": 5375,
+            "text": " changed",
+            "timestampMs": 5375,
+            "fromMs": 5375,
+            "toMs": 5758
+          },
+          {
+            "confidence": null,
+            "endMs": 5979,
+            "startMs": 5828,
+            "text": " so",
+            "timestampMs": 5828,
+            "fromMs": 5828,
+            "toMs": 5979
+          }
+        ]
+      },
+      {
+        "durationMs": 1103,
+        "startMs": 6084,
+        "text": "fast, the crown",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 6618,
+            "startMs": 6084,
+            "text": " fast,",
+            "timestampMs": 6084,
+            "fromMs": 6084,
+            "toMs": 6618
+          },
+          {
+            "confidence": null,
+            "endMs": 6896,
+            "startMs": 6803,
+            "text": " the",
+            "timestampMs": 6803,
+            "fromMs": 6803,
+            "toMs": 6896
+          },
+          {
+            "confidence": null,
+            "endMs": 7187,
+            "startMs": 6943,
+            "text": " crown",
+            "timestampMs": 6943,
+            "fromMs": 6943,
+            "toMs": 7187
+          }
+        ]
+      },
+      {
+        "durationMs": 813,
+        "startMs": 7233,
+        "text": "became a weapon.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7477,
+            "startMs": 7233,
+            "text": " became",
+            "timestampMs": 7233,
+            "fromMs": 7233,
+            "toMs": 7477
+          },
+          {
+            "confidence": null,
+            "endMs": 7546,
+            "startMs": 7512,
+            "text": " a",
+            "timestampMs": 7512,
+            "fromMs": 7512,
+            "toMs": 7546
+          },
+          {
+            "confidence": null,
+            "endMs": 8046,
+            "startMs": 7604,
+            "text": " weapon.",
+            "timestampMs": 7604,
+            "fromMs": 7604,
+            "toMs": 8046
+          }
+        ]
+      },
+      {
+        "durationMs": 1161,
+        "startMs": 8324,
+        "text": "Generals learned armies",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8742,
+            "startMs": 8324,
+            "text": "\n\nGenerals",
+            "timestampMs": 8324,
+            "fromMs": 8324,
+            "toMs": 8742
+          },
+          {
+            "confidence": null,
+            "endMs": 9033,
+            "startMs": 8800,
+            "text": " learned",
+            "timestampMs": 8800,
+            "fromMs": 8800,
+            "toMs": 9033
+          },
+          {
+            "confidence": null,
+            "endMs": 9485,
+            "startMs": 9102,
+            "text": " armies",
+            "timestampMs": 9102,
+            "fromMs": 9102,
+            "toMs": 9485
+          }
+        ]
+      },
+      {
+        "durationMs": 987,
+        "startMs": 9532,
+        "text": "could make rulers,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9683,
+            "startMs": 9532,
+            "text": " could",
+            "timestampMs": 9532,
+            "fromMs": 9532,
+            "toMs": 9683
+          },
+          {
+            "confidence": null,
+            "endMs": 9857,
+            "startMs": 9717,
+            "text": " make",
+            "timestampMs": 9717,
+            "fromMs": 9717,
+            "toMs": 9857
+          },
+          {
+            "confidence": null,
+            "endMs": 10519,
+            "startMs": 9892,
+            "text": " rulers,",
+            "timestampMs": 9892,
+            "fromMs": 9892,
+            "toMs": 10519
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 10623,
+        "text": "then unmake them.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 10867,
+            "startMs": 10623,
+            "text": " then",
+            "timestampMs": 10623,
+            "fromMs": 10623,
+            "toMs": 10867
+          },
+          {
+            "confidence": null,
+            "endMs": 11320,
+            "startMs": 10983,
+            "text": " unmake",
+            "timestampMs": 10983,
+            "fromMs": 10983,
+            "toMs": 11320
+          },
+          {
+            "confidence": null,
+            "endMs": 11703,
+            "startMs": 11355,
+            "text": " them.",
+            "timestampMs": 11355,
+            "fromMs": 11355,
+            "toMs": 11703
+          }
+        ]
+      },
+      {
+        "durationMs": 1498,
+        "startMs": 12086,
+        "text": "Taxes rose, coins",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 12504,
+            "startMs": 12086,
+            "text": "\n\nTaxes",
+            "timestampMs": 12086,
+            "fromMs": 12086,
+            "toMs": 12504
+          },
+          {
+            "confidence": null,
+            "endMs": 13073,
+            "startMs": 12574,
+            "text": " rose,",
+            "timestampMs": 12574,
+            "fromMs": 12574,
+            "toMs": 13073
+          },
+          {
+            "confidence": null,
+            "endMs": 13584,
+            "startMs": 13200,
+            "text": " coins",
+            "timestampMs": 13200,
+            "fromMs": 13200,
+            "toMs": 13584
+          }
+        ]
+      },
+      {
+        "durationMs": 1045,
+        "startMs": 13630,
+        "text": "weakened, and cities",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 14118,
+            "startMs": 13630,
+            "text": " weakened,",
+            "timestampMs": 13630,
+            "fromMs": 13630,
+            "toMs": 14118
+          },
+          {
+            "confidence": null,
+            "endMs": 14327,
+            "startMs": 14176,
+            "text": " and",
+            "timestampMs": 14176,
+            "fromMs": 14176,
+            "toMs": 14327
+          },
+          {
+            "confidence": null,
+            "endMs": 14675,
+            "startMs": 14385,
+            "text": " cities",
+            "timestampMs": 14385,
+            "fromMs": 14385,
+            "toMs": 14675
+          }
+        ]
+      },
+      {
+        "durationMs": 1208,
+        "startMs": 14721,
+        "text": "began feeling abandoned.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15000,
+            "startMs": 14721,
+            "text": " began",
+            "timestampMs": 14721,
+            "fromMs": 14721,
+            "toMs": 15000
+          },
+          {
+            "confidence": null,
+            "endMs": 15302,
+            "startMs": 15058,
+            "text": " feeling",
+            "timestampMs": 15058,
+            "fromMs": 15058,
+            "toMs": 15302
+          },
+          {
+            "confidence": null,
+            "endMs": 15929,
+            "startMs": 15337,
+            "text": " abandoned.",
+            "timestampMs": 15337,
+            "fromMs": 15337,
+            "toMs": 15929
+          }
+        ]
+      },
+      {
+        "durationMs": 1091,
+        "startMs": 16370,
+        "text": "Along the frontiers,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16649,
+            "startMs": 16370,
+            "text": "\n\nAlong",
+            "timestampMs": 16370,
+            "fromMs": 16370,
+            "toMs": 16649
+          },
+          {
+            "confidence": null,
+            "endMs": 16753,
+            "startMs": 16683,
+            "text": " the",
+            "timestampMs": 16683,
+            "fromMs": 16683,
+            "toMs": 16753
+          },
+          {
+            "confidence": null,
+            "endMs": 17461,
+            "startMs": 16788,
+            "text": " frontiers,",
+            "timestampMs": 16788,
+            "fromMs": 16788,
+            "toMs": 17461
+          }
+        ]
+      },
+      {
+        "durationMs": 778,
+        "startMs": 17589,
+        "text": "pressure grew from",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17914,
+            "startMs": 17589,
+            "text": " pressure",
+            "timestampMs": 17589,
+            "fromMs": 17589,
+            "toMs": 17914
+          },
+          {
+            "confidence": null,
+            "endMs": 18170,
+            "startMs": 17949,
+            "text": " grew",
+            "timestampMs": 17949,
+            "fromMs": 17949,
+            "toMs": 18170
+          },
+          {
+            "confidence": null,
+            "endMs": 18367,
+            "startMs": 18228,
+            "text": " from",
+            "timestampMs": 18228,
+            "fromMs": 18228,
+            "toMs": 18367
+          }
+        ]
+      },
+      {
+        "durationMs": 1196,
+        "startMs": 18425,
+        "text": "hungry moving peoples.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18669,
+            "startMs": 18425,
+            "text": " hungry",
+            "timestampMs": 18425,
+            "fromMs": 18425,
+            "toMs": 18669
+          },
+          {
+            "confidence": null,
+            "endMs": 18982,
+            "startMs": 18727,
+            "text": " moving",
+            "timestampMs": 18727,
+            "fromMs": 18727,
+            "toMs": 18982
+          },
+          {
+            "confidence": null,
+            "endMs": 19621,
+            "startMs": 19029,
+            "text": " peoples.",
+            "timestampMs": 19029,
+            "fromMs": 19029,
+            "toMs": 19621
+          }
+        ]
+      },
+      {
+        "durationMs": 1149,
+        "startMs": 20004,
+        "text": "Rome hired outsiders",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20294,
+            "startMs": 20004,
+            "text": "\n\nRome",
+            "timestampMs": 20004,
+            "fromMs": 20004,
+            "toMs": 20294
+          },
+          {
+            "confidence": null,
+            "endMs": 20584,
+            "startMs": 20329,
+            "text": " hired",
+            "timestampMs": 20329,
+            "fromMs": 20329,
+            "toMs": 20584
+          },
+          {
+            "confidence": null,
+            "endMs": 21153,
+            "startMs": 20619,
+            "text": " outsiders",
+            "timestampMs": 20619,
+            "fromMs": 20619,
+            "toMs": 21153
+          }
+        ]
+      },
+      {
+        "durationMs": 754,
+        "startMs": 21200,
+        "text": "to defend borders",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21258,
+            "startMs": 21200,
+            "text": " to",
+            "timestampMs": 21200,
+            "fromMs": 21200,
+            "toMs": 21258
+          },
+          {
+            "confidence": null,
+            "endMs": 21571,
+            "startMs": 21316,
+            "text": " defend",
+            "timestampMs": 21316,
+            "fromMs": 21316,
+            "toMs": 21571
+          },
+          {
+            "confidence": null,
+            "endMs": 21954,
+            "startMs": 21641,
+            "text": " borders",
+            "timestampMs": 21641,
+            "fromMs": 21641,
+            "toMs": 21954
+          }
+        ]
+      },
+      {
+        "durationMs": 418,
+        "startMs": 22001,
+        "text": "it could not",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22070,
+            "startMs": 22001,
+            "text": " it",
+            "timestampMs": 22001,
+            "fromMs": 22001,
+            "toMs": 22070
+          },
+          {
+            "confidence": null,
+            "endMs": 22279,
+            "startMs": 22117,
+            "text": " could",
+            "timestampMs": 22117,
+            "fromMs": 22117,
+            "toMs": 22279
+          },
+          {
+            "confidence": null,
+            "endMs": 22419,
+            "startMs": 22314,
+            "text": " not",
+            "timestampMs": 22314,
+            "fromMs": 22314,
+            "toMs": 22419
+          }
+        ]
+      },
+      {
+        "durationMs": 453,
+        "startMs": 22453,
+        "text": "hold.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22906,
+            "startMs": 22453,
+            "text": " hold.",
+            "timestampMs": 22453,
+            "fromMs": 22453,
+            "toMs": 22906
+          }
+        ]
+      },
+      {
+        "durationMs": 1196,
+        "startMs": 23243,
+        "text": "Some became allies;",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23498,
+            "startMs": 23243,
+            "text": "\n\nSome",
+            "timestampMs": 23243,
+            "fromMs": 23243,
+            "toMs": 23498
+          },
+          {
+            "confidence": null,
+            "endMs": 23812,
+            "startMs": 23533,
+            "text": " became",
+            "timestampMs": 23533,
+            "fromMs": 23533,
+            "toMs": 23812
+          },
+          {
+            "confidence": null,
+            "endMs": 24439,
+            "startMs": 23847,
+            "text": " allies;",
+            "timestampMs": 23847,
+            "fromMs": 23847,
+            "toMs": 24439
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 24624,
+        "text": "others saw power",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24996,
+            "startMs": 24624,
+            "text": " others",
+            "timestampMs": 24624,
+            "fromMs": 24624,
+            "toMs": 24996
+          },
+          {
+            "confidence": null,
+            "endMs": 25344,
+            "startMs": 25124,
+            "text": " saw",
+            "timestampMs": 25124,
+            "fromMs": 25124,
+            "toMs": 25344
+          },
+          {
+            "confidence": null,
+            "endMs": 25704,
+            "startMs": 25414,
+            "text": " power",
+            "timestampMs": 25414,
+            "fromMs": 25414,
+            "toMs": 25704
+          }
+        ]
+      },
+      {
+        "durationMs": 464,
+        "startMs": 25774,
+        "text": "running out of",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26006,
+            "startMs": 25774,
+            "text": " running",
+            "timestampMs": 25774,
+            "fromMs": 25774,
+            "toMs": 26006
+          },
+          {
+            "confidence": null,
+            "endMs": 26145,
+            "startMs": 26041,
+            "text": " out",
+            "timestampMs": 26041,
+            "fromMs": 26041,
+            "toMs": 26145
+          },
+          {
+            "confidence": null,
+            "endMs": 26238,
+            "startMs": 26180,
+            "text": " of",
+            "timestampMs": 26180,
+            "fromMs": 26180,
+            "toMs": 26238
+          }
+        ]
+      },
+      {
+        "durationMs": 534,
+        "startMs": 26285,
+        "text": "answers.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26819,
+            "startMs": 26285,
+            "text": " answers.",
+            "timestampMs": 26285,
+            "fromMs": 26285,
+            "toMs": 26819
+          }
+        ]
+      },
+      {
+        "durationMs": 1567,
+        "startMs": 27260,
+        "text": "In 378, Gothic",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27376,
+            "startMs": 27260,
+            "text": "\n\nIn",
+            "timestampMs": 27260,
+            "fromMs": 27260,
+            "toMs": 27376
+          },
+          {
+            "confidence": null,
+            "endMs": 28351,
+            "startMs": 27446,
+            "text": " 378,",
+            "timestampMs": 27446,
+            "fromMs": 27446,
+            "toMs": 28351
+          },
+          {
+            "confidence": null,
+            "endMs": 28827,
+            "startMs": 28502,
+            "text": " Gothic",
+            "timestampMs": 28502,
+            "fromMs": 28502,
+            "toMs": 28827
+          }
+        ]
+      },
+      {
+        "durationMs": 848,
+        "startMs": 28885,
+        "text": "fighters shattered a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29210,
+            "startMs": 28885,
+            "text": " fighters",
+            "timestampMs": 28885,
+            "fromMs": 28885,
+            "toMs": 29210
+          },
+          {
+            "confidence": null,
+            "endMs": 29686,
+            "startMs": 29315,
+            "text": " shattered",
+            "timestampMs": 29315,
+            "fromMs": 29315,
+            "toMs": 29686
+          },
+          {
+            "confidence": null,
+            "endMs": 29733,
+            "startMs": 29710,
+            "text": " a",
+            "timestampMs": 29710,
+            "fromMs": 29710,
+            "toMs": 29733
+          }
+        ]
+      },
+      {
+        "durationMs": 581,
+        "startMs": 29779,
+        "text": "Roman army at",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30000,
+            "startMs": 29779,
+            "text": " Roman",
+            "timestampMs": 29779,
+            "fromMs": 29779,
+            "toMs": 30000
+          },
+          {
+            "confidence": null,
+            "endMs": 30244,
+            "startMs": 30046,
+            "text": " army",
+            "timestampMs": 30046,
+            "fromMs": 30046,
+            "toMs": 30244
+          },
+          {
+            "confidence": null,
+            "endMs": 30360,
+            "startMs": 30290,
+            "text": " at",
+            "timestampMs": 30290,
+            "fromMs": 30290,
+            "toMs": 30360
+          }
+        ]
+      },
+      {
+        "durationMs": 708,
+        "startMs": 30418,
+        "text": "Adrianople.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31126,
+            "startMs": 30418,
+            "text": " Adrianople.",
+            "timestampMs": 30418,
+            "fromMs": 30418,
+            "toMs": 31126
+          }
+        ]
+      },
+      {
+        "durationMs": 1138,
+        "startMs": 31567,
+        "text": "After that, fear",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31811,
+            "startMs": 31567,
+            "text": "\n\nAfter",
+            "timestampMs": 31567,
+            "fromMs": 31567,
+            "toMs": 31811
+          },
+          {
+            "confidence": null,
+            "endMs": 32252,
+            "startMs": 31846,
+            "text": " that,",
+            "timestampMs": 31846,
+            "fromMs": 31846,
+            "toMs": 32252
+          },
+          {
+            "confidence": null,
+            "endMs": 32705,
+            "startMs": 32403,
+            "text": " fear",
+            "timestampMs": 32403,
+            "fromMs": 32403,
+            "toMs": 32705
+          }
+        ]
+      },
+      {
+        "durationMs": 1172,
+        "startMs": 32810,
+        "text": "started outrunning imperial",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33077,
+            "startMs": 32810,
+            "text": " started",
+            "timestampMs": 32810,
+            "fromMs": 32810,
+            "toMs": 33077
+          },
+          {
+            "confidence": null,
+            "endMs": 33518,
+            "startMs": 33123,
+            "text": " outrunning",
+            "timestampMs": 33123,
+            "fromMs": 33123,
+            "toMs": 33518
+          },
+          {
+            "confidence": null,
+            "endMs": 33982,
+            "startMs": 33564,
+            "text": " imperial",
+            "timestampMs": 33564,
+            "fromMs": 33564,
+            "toMs": 33982
+          }
+        ]
+      },
+      {
+        "durationMs": 476,
+        "startMs": 34029,
+        "text": "orders.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 34505,
+            "startMs": 34029,
+            "text": " orders.",
+            "timestampMs": 34029,
+            "fromMs": 34029,
+            "toMs": 34505
+          }
+        ]
+      },
+      {
+        "durationMs": 1300,
+        "startMs": 34888,
+        "text": "In 410, Alaric",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35004,
+            "startMs": 34888,
+            "text": "\n\nIn",
+            "timestampMs": 34888,
+            "fromMs": 34888,
+            "toMs": 35004
+          },
+          {
+            "confidence": null,
+            "endMs": 35666,
+            "startMs": 35073,
+            "text": " 410,",
+            "timestampMs": 35073,
+            "fromMs": 35073,
+            "toMs": 35666
+          },
+          {
+            "confidence": null,
+            "endMs": 36188,
+            "startMs": 35851,
+            "text": " Alaric",
+            "timestampMs": 35851,
+            "fromMs": 35851,
+            "toMs": 36188
+          }
+        ]
+      },
+      {
+        "durationMs": 651,
+        "startMs": 36234,
+        "text": "entered Rome and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36467,
+            "startMs": 36234,
+            "text": " entered",
+            "timestampMs": 36234,
+            "fromMs": 36234,
+            "toMs": 36467
+          },
+          {
+            "confidence": null,
+            "endMs": 36757,
+            "startMs": 36501,
+            "text": " Rome",
+            "timestampMs": 36501,
+            "fromMs": 36501,
+            "toMs": 36757
+          },
+          {
+            "confidence": null,
+            "endMs": 36885,
+            "startMs": 36792,
+            "text": " and",
+            "timestampMs": 36792,
+            "fromMs": 36792,
+            "toMs": 36885
+          }
+        ]
+      },
+      {
+        "durationMs": 882,
+        "startMs": 36943,
+        "text": "shocked the world.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37210,
+            "startMs": 36943,
+            "text": " shocked",
+            "timestampMs": 36943,
+            "fromMs": 36943,
+            "toMs": 37210
+          },
+          {
+            "confidence": null,
+            "endMs": 37326,
+            "startMs": 37245,
+            "text": " the",
+            "timestampMs": 37245,
+            "fromMs": 37245,
+            "toMs": 37326
+          },
+          {
+            "confidence": null,
+            "endMs": 37825,
+            "startMs": 37372,
+            "text": " world.",
+            "timestampMs": 37372,
+            "fromMs": 37372,
+            "toMs": 37825
+          }
+        ]
+      },
+      {
+        "durationMs": 952,
+        "startMs": 38208,
+        "text": "The city survived,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38301,
+            "startMs": 38208,
+            "text": "\n\nThe",
+            "timestampMs": 38208,
+            "fromMs": 38208,
+            "toMs": 38301
+          },
+          {
+            "confidence": null,
+            "endMs": 38510,
+            "startMs": 38336,
+            "text": " city",
+            "timestampMs": 38336,
+            "fromMs": 38336,
+            "toMs": 38510
+          },
+          {
+            "confidence": null,
+            "endMs": 39160,
+            "startMs": 38556,
+            "text": " survived,",
+            "timestampMs": 38556,
+            "fromMs": 38556,
+            "toMs": 39160
+          }
+        ]
+      },
+      {
+        "durationMs": 453,
+        "startMs": 39311,
+        "text": "but the myth",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39439,
+            "startMs": 39311,
+            "text": " but",
+            "timestampMs": 39311,
+            "fromMs": 39311,
+            "toMs": 39439
+          },
+          {
+            "confidence": null,
+            "endMs": 39543,
+            "startMs": 39474,
+            "text": " the",
+            "timestampMs": 39474,
+            "fromMs": 39474,
+            "toMs": 39543
+          },
+          {
+            "confidence": null,
+            "endMs": 39764,
+            "startMs": 39590,
+            "text": " myth",
+            "timestampMs": 39590,
+            "fromMs": 39590,
+            "toMs": 39764
+          }
+        ]
+      },
+      {
+        "durationMs": 1254,
+        "startMs": 39810,
+        "text": "of invincibility cracked.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39880,
+            "startMs": 39810,
+            "text": " of",
+            "timestampMs": 39810,
+            "fromMs": 39810,
+            "toMs": 39880
+          },
+          {
+            "confidence": null,
+            "endMs": 40542,
+            "startMs": 39938,
+            "text": " invincibility",
+            "timestampMs": 39938,
+            "fromMs": 39938,
+            "toMs": 40542
+          },
+          {
+            "confidence": null,
+            "endMs": 41064,
+            "startMs": 40600,
+            "text": " cracked.",
+            "timestampMs": 40600,
+            "fromMs": 40600,
+            "toMs": 41064
+          }
+        ]
+      },
+      {
+        "durationMs": 1277,
+        "startMs": 41505,
+        "text": "Provinces broke away,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42016,
+            "startMs": 41505,
+            "text": "\n\nProvinces",
+            "timestampMs": 41505,
+            "fromMs": 41505,
+            "toMs": 42016
+          },
+          {
+            "confidence": null,
+            "endMs": 42283,
+            "startMs": 42074,
+            "text": " broke",
+            "timestampMs": 42074,
+            "fromMs": 42074,
+            "toMs": 42283
+          },
+          {
+            "confidence": null,
+            "endMs": 42782,
+            "startMs": 42318,
+            "text": " away,",
+            "timestampMs": 42318,
+            "fromMs": 42318,
+            "toMs": 42782
+          }
+        ]
+      },
+      {
+        "durationMs": 1451,
+        "startMs": 42887,
+        "text": "taking grain, taxes,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43200,
+            "startMs": 42887,
+            "text": " taking",
+            "timestampMs": 42887,
+            "fromMs": 42887,
+            "toMs": 43200
+          },
+          {
+            "confidence": null,
+            "endMs": 43769,
+            "startMs": 43270,
+            "text": " grain,",
+            "timestampMs": 43270,
+            "fromMs": 43270,
+            "toMs": 43769
+          },
+          {
+            "confidence": null,
+            "endMs": 44338,
+            "startMs": 43815,
+            "text": " taxes,",
+            "timestampMs": 43815,
+            "fromMs": 43815,
+            "toMs": 44338
+          }
+        ]
+      },
+      {
+        "durationMs": 673,
+        "startMs": 44361,
+        "text": "and soldiers with",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44454,
+            "startMs": 44361,
+            "text": " and",
+            "timestampMs": 44361,
+            "fromMs": 44361,
+            "toMs": 44454
+          },
+          {
+            "confidence": null,
+            "endMs": 44860,
+            "startMs": 44512,
+            "text": " soldiers",
+            "timestampMs": 44512,
+            "fromMs": 44512,
+            "toMs": 44860
+          },
+          {
+            "confidence": null,
+            "endMs": 45034,
+            "startMs": 44895,
+            "text": " with",
+            "timestampMs": 44895,
+            "fromMs": 44895,
+            "toMs": 45034
+          }
+        ]
+      },
+      {
+        "durationMs": 279,
+        "startMs": 45069,
+        "text": "them.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45348,
+            "startMs": 45069,
+            "text": " them.",
+            "timestampMs": 45069,
+            "fromMs": 45069,
+            "toMs": 45348
+          }
+        ]
+      },
+      {
+        "durationMs": 1451,
+        "startMs": 45731,
+        "text": "By 476, the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45870,
+            "startMs": 45731,
+            "text": "\n\nBy",
+            "timestampMs": 45731,
+            "fromMs": 45731,
+            "toMs": 45870
+          },
+          {
+            "confidence": null,
+            "endMs": 46985,
+            "startMs": 45975,
+            "text": " 476,",
+            "timestampMs": 45975,
+            "fromMs": 45975,
+            "toMs": 46985
+          },
+          {
+            "confidence": null,
+            "endMs": 47182,
+            "startMs": 47089,
+            "text": " the",
+            "timestampMs": 47089,
+            "fromMs": 47089,
+            "toMs": 47182
+          }
+        ]
+      },
+      {
+        "durationMs": 790,
+        "startMs": 47217,
+        "text": "western emperor was",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47496,
+            "startMs": 47217,
+            "text": " western",
+            "timestampMs": 47217,
+            "fromMs": 47217,
+            "toMs": 47496
+          },
+          {
+            "confidence": null,
+            "endMs": 47821,
+            "startMs": 47531,
+            "text": " emperor",
+            "timestampMs": 47531,
+            "fromMs": 47531,
+            "toMs": 47821
+          },
+          {
+            "confidence": null,
+            "endMs": 48007,
+            "startMs": 47890,
+            "text": " was",
+            "timestampMs": 47890,
+            "fromMs": 47890,
+            "toMs": 48007
+          }
+        ]
+      },
+      {
+        "durationMs": 859,
+        "startMs": 48076,
+        "text": "easier to remove",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48401,
+            "startMs": 48076,
+            "text": " easier",
+            "timestampMs": 48076,
+            "fromMs": 48076,
+            "toMs": 48401
+          },
+          {
+            "confidence": null,
+            "endMs": 48506,
+            "startMs": 48448,
+            "text": " to",
+            "timestampMs": 48448,
+            "fromMs": 48448,
+            "toMs": 48506
+          },
+          {
+            "confidence": null,
+            "endMs": 48935,
+            "startMs": 48575,
+            "text": " remove",
+            "timestampMs": 48575,
+            "fromMs": 48575,
+            "toMs": 48935
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 48970,
+        "text": "than rescue.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 49098,
+            "startMs": 48970,
+            "text": " than",
+            "timestampMs": 48970,
+            "fromMs": 48970,
+            "toMs": 49098
+          },
+          {
+            "confidence": null,
+            "endMs": 49690,
+            "startMs": 49156,
+            "text": " rescue.",
+            "timestampMs": 49156,
+            "fromMs": 49156,
+            "toMs": 49690
+          }
+        ]
+      },
+      {
+        "durationMs": 1393,
+        "startMs": 50514,
+        "text": "Constantinople endured, but",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51281,
+            "startMs": 50514,
+            "text": "\n\nConstantinople",
+            "timestampMs": 50514,
+            "fromMs": 50514,
+            "toMs": 51281
+          },
+          {
+            "confidence": null,
+            "endMs": 51780,
+            "startMs": 51315,
+            "text": " endured,",
+            "timestampMs": 51315,
+            "fromMs": 51315,
+            "toMs": 51780
+          },
+          {
+            "confidence": null,
+            "endMs": 51907,
+            "startMs": 51803,
+            "text": " but",
+            "timestampMs": 51803,
+            "fromMs": 51803,
+            "toMs": 51907
+          }
+        ]
+      },
+      {
+        "durationMs": 709,
+        "startMs": 51942,
+        "text": "in the West,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52000,
+            "startMs": 51942,
+            "text": " in",
+            "timestampMs": 51942,
+            "fromMs": 51942,
+            "toMs": 52000
+          },
+          {
+            "confidence": null,
+            "endMs": 52105,
+            "startMs": 52035,
+            "text": " the",
+            "timestampMs": 52035,
+            "fromMs": 52035,
+            "toMs": 52105
+          },
+          {
+            "confidence": null,
+            "endMs": 52651,
+            "startMs": 52151,
+            "text": " West,",
+            "timestampMs": 52151,
+            "fromMs": 52151,
+            "toMs": 52651
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 52894,
+        "text": "Rome became a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53231,
+            "startMs": 52894,
+            "text": " Rome",
+            "timestampMs": 52894,
+            "fromMs": 52894,
+            "toMs": 53231
+          },
+          {
+            "confidence": null,
+            "endMs": 53556,
+            "startMs": 53277,
+            "text": " became",
+            "timestampMs": 53277,
+            "fromMs": 53277,
+            "toMs": 53556
+          },
+          {
+            "confidence": null,
+            "endMs": 53614,
+            "startMs": 53591,
+            "text": " a",
+            "timestampMs": 53591,
+            "fromMs": 53591,
+            "toMs": 53614
+          }
+        ]
+      },
+      {
+        "durationMs": 476,
+        "startMs": 53672,
+        "text": "memory.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54148,
+            "startMs": 53672,
+            "text": " memory.",
+            "timestampMs": 53672,
+            "fromMs": 53672,
+            "toMs": 54148
+          }
+        ]
+      },
+      {
+        "durationMs": 488,
+        "startMs": 54531,
+        "text": "The fall was",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54636,
+            "startMs": 54531,
+            "text": "\n\nThe",
+            "timestampMs": 54531,
+            "fromMs": 54531,
+            "toMs": 54636
+          },
+          {
+            "confidence": null,
+            "endMs": 54880,
+            "startMs": 54671,
+            "text": " fall",
+            "timestampMs": 54671,
+            "fromMs": 54671,
+            "toMs": 54880
+          },
+          {
+            "confidence": null,
+            "endMs": 55019,
+            "startMs": 54926,
+            "text": " was",
+            "timestampMs": 54926,
+            "fromMs": 54926,
+            "toMs": 55019
+          }
+        ]
+      },
+      {
+        "durationMs": 917,
+        "startMs": 55054,
+        "text": "not one collapse,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55170,
+            "startMs": 55054,
+            "text": " not",
+            "timestampMs": 55054,
+            "fromMs": 55054,
+            "toMs": 55170
+          },
+          {
+            "confidence": null,
+            "endMs": 55402,
+            "startMs": 55240,
+            "text": " one",
+            "timestampMs": 55240,
+            "fromMs": 55240,
+            "toMs": 55402
+          },
+          {
+            "confidence": null,
+            "endMs": 55971,
+            "startMs": 55437,
+            "text": " collapse,",
+            "timestampMs": 55437,
+            "fromMs": 55437,
+            "toMs": 55971
+          }
+        ]
+      },
+      {
+        "durationMs": 442,
+        "startMs": 56075,
+        "text": "but a long",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56192,
+            "startMs": 56075,
+            "text": " but",
+            "timestampMs": 56075,
+            "fromMs": 56075,
+            "toMs": 56192
+          },
+          {
+            "confidence": null,
+            "endMs": 56250,
+            "startMs": 56226,
+            "text": " a",
+            "timestampMs": 56226,
+            "fromMs": 56226,
+            "toMs": 56250
+          },
+          {
+            "confidence": null,
+            "endMs": 56517,
+            "startMs": 56284,
+            "text": " long",
+            "timestampMs": 56284,
+            "fromMs": 56284,
+            "toMs": 56517
+          }
+        ]
+      },
+      {
+        "durationMs": 1196,
+        "startMs": 56575,
+        "text": "surrender of trust.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56946,
+            "startMs": 56575,
+            "text": " surrender",
+            "timestampMs": 56575,
+            "fromMs": 56575,
+            "toMs": 56946
+          },
+          {
+            "confidence": null,
+            "endMs": 57051,
+            "startMs": 56993,
+            "text": " of",
+            "timestampMs": 56993,
+            "fromMs": 56993,
+            "toMs": 57051
+          },
+          {
+            "confidence": null,
+            "endMs": 57771,
+            "startMs": 57097,
+            "text": " trust.",
+            "timestampMs": 57097,
+            "fromMs": 57097,
+            "toMs": 57771
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "Rome did not fall in one dramatic night."
+      },
+      {
+        "startMs": 2427,
+        "text": "It slowly forgot how to keep itself together."
+      },
+      {
+        "startMs": 4888,
+        "text": "Emperors changed so fast, the crown became a weapon."
+      },
+      {
+        "startMs": 8324,
+        "text": "Generals learned armies could make rulers, then unmake them."
+      },
+      {
+        "startMs": 12086,
+        "text": "Taxes rose, coins weakened, and cities began feeling abandoned."
+      },
+      {
+        "startMs": 16370,
+        "text": "Along the frontiers, pressure grew from hungry moving peoples."
+      },
+      {
+        "startMs": 20004,
+        "text": "Rome hired outsiders to defend borders it could not hold."
+      },
+      {
+        "startMs": 23243,
+        "text": "Some became allies; others saw power running out of answers."
+      },
+      {
+        "startMs": 27260,
+        "text": "In 378, Gothic fighters shattered a Roman army at Adrianople."
+      },
+      {
+        "startMs": 31567,
+        "text": "After that, fear started outrunning imperial orders."
+      },
+      {
+        "startMs": 34888,
+        "text": "In 410, Alaric entered Rome and shocked the world."
+      },
+      {
+        "startMs": 38208,
+        "text": "The city survived, but the myth of invincibility cracked."
+      },
+      {
+        "startMs": 41505,
+        "text": "Provinces broke away, taking grain, taxes, and soldiers with them."
+      },
+      {
+        "startMs": 45731,
+        "text": "By 476, the western emperor was easier to remove than rescue."
+      },
+      {
+        "startMs": 50514,
+        "text": "Constantinople endured, but in the West, Rome became a memory."
+      },
+      {
+        "startMs": 54531,
+        "text": "The fall was not one collapse, but a long surrender of trust."
+      }
+    ]
+  }
+}

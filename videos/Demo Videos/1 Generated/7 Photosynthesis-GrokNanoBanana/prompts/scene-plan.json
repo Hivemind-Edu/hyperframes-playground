@@ -1,0 +1,120 @@
+{
+  "title": "How Photosynthesis Works",
+  "models": {
+    "image": {
+      "name": "Nano Banana 2",
+      "modelId": "gemini-3.1-flash-image",
+      "aspectRatio": "9:16",
+      "imageSize": "1K"
+    },
+    "video": {
+      "name": "Grok Imagine Video 1.5",
+      "endpoint": "xai/grok-imagine-video/v1.5/image-to-video",
+      "aspectRatio": "9:16",
+      "durationSeconds": 6,
+      "resolution": "720p"
+    },
+    "tts": {
+      "name": "Gemini TTS",
+      "modelId": "gemini-3.1-flash-tts-preview",
+      "voice": "Kore",
+      "languageCode": "en-US"
+    }
+  },
+  "narrationPrompt": "Write a 60-second spoken explainer for a vertical educational short called 'How Photosynthesis Works'. Use ten scenes, each about six seconds. Keep the voice direct, visual, and conversational. Explain that plants do not eat sunlight; they use light energy to rearrange water and carbon dioxide into sugar. Cover chlorophyll catching light, water splitting in the thylakoid membrane, oxygen leaving as waste, carbon dioxide entering through stomata, the Calvin cycle building glucose, and glucose storing energy for the plant and the food chain. Avoid dense jargon unless immediately explained. No stage directions, no markdown, no hashtags.",
+  "imagePromptRules": [
+    "Vertical 9:16 scientific animated-video still.",
+    "Full-frame single scene, no panels, no grid, no split-screen, no storyboard.",
+    "No text, no labels, no logos, no watermarks.",
+    "Show the mechanism literally with visible molecules, chloroplast structures, sunlight, leaf tissue, and soft educational motion cues.",
+    "Cinematic biology illustration, crisp edges, high contrast, luminous greens, gold sunlight, deep teal shadows, clean depth of field."
+  ],
+  "videoPromptRules": [
+    "Image-to-video from one still only.",
+    "No camera cuts, no panels, no grid, no collage.",
+    "Subtle living-painting motion: drifting particles, flowing molecules, gentle camera push, pulsing light.",
+    "Preserve the composition, scientific clarity, and no-text rule."
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "duration": 6,
+      "caption": "Plants do not eat sunlight. They use it like a battery charger.",
+      "imagePrompt": "Vertical 9:16 cinematic scientific animation still of a healthy green leaf held against warm sunlight, seen close enough to reveal translucent veins and tiny glowing chloroplasts beneath the surface. Gold photons stream into the leaf like soft particles. The background is deep teal and forest-green, with shallow depth of field and luminous rim light. Full-frame single scene, no text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "gold sunlight particles drifting into a close green leaf as tiny chloroplasts glow under the surface, the camera pushing in slowly with soft living-painting motion"
+    },
+    {
+      "id": 2,
+      "start": 6,
+      "duration": 6,
+      "caption": "Inside each leaf cell, chloroplasts catch light with a green pigment called chlorophyll.",
+      "imagePrompt": "Vertical 9:16 macro cutaway inside a leaf cell. Several oval chloroplasts float in clear cytoplasm, each filled with stacked thylakoid membranes that glow emerald and gold where sunlight lands. Chlorophyll is represented visually as green light-absorbing surfaces, not text. Scientific animated-video still, crisp biology illustration, no text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "oval chloroplasts floating inside a leaf cell as thylakoid stacks pulse emerald and gold where sunlight touches them, with gentle cytoplasm motion"
+    },
+    {
+      "id": 3,
+      "start": 12,
+      "duration": 6,
+      "caption": "That light energy splits water molecules into hydrogen, electrons, and oxygen.",
+      "imagePrompt": "Vertical 9:16 close scientific illustration of water molecules arriving at a glowing thylakoid membrane inside a chloroplast. The water molecules separate into tiny bright electron sparks, pale hydrogen particles, and paired oxygen bubbles. The mechanism is clear and literal, with a dark teal cellular background and luminous gold-green energy. No text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "water molecules flowing into a glowing thylakoid membrane and separating into electron sparks, hydrogen particles, and oxygen bubbles that drift upward"
+    },
+    {
+      "id": 4,
+      "start": 18,
+      "duration": 6,
+      "caption": "The oxygen is not the goal. It is the leftover waste drifting out.",
+      "imagePrompt": "Vertical 9:16 leaf cross-section showing oxygen bubbles leaving through tiny stomata on the underside of the leaf while the chloroplast interior glows behind them. The stomata are visible as small openings in the leaf surface, and oxygen exits as clear blue-white bubbles into the air. Cinematic educational biology style, no text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "blue-white oxygen bubbles drifting out through tiny stomata under a glowing leaf cross-section while the leaf tissue breathes softly"
+    },
+    {
+      "id": 5,
+      "start": 24,
+      "duration": 6,
+      "caption": "Meanwhile, carbon dioxide slips in through those same tiny pores.",
+      "imagePrompt": "Vertical 9:16 macro view of the underside of a leaf with open stomata. Carbon dioxide molecules enter as small dark-and-silver particles moving inward through the pores, while oxygen bubbles move outward nearby. The leaf surface is detailed but clean, with cinematic shallow depth and teal-green color. No text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "carbon dioxide particles slipping inward through open stomata as oxygen bubbles drift outward, the leaf surface moving with subtle organic texture"
+    },
+    {
+      "id": 6,
+      "start": 30,
+      "duration": 6,
+      "caption": "Now the plant has the ingredients: carbon, hydrogen, and captured energy.",
+      "imagePrompt": "Vertical 9:16 inside a chloroplast stroma, showing carbon dioxide particles, hydrogen particles, and glowing energy carriers gathering around a soft circular reaction space. The image should feel like a precise animated science diagram without any written labels. Deep emerald, gold, and cyan light; crisp molecular forms; no text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "carbon dioxide particles, hydrogen particles, and glowing energy carriers gathering in a chloroplast reaction space as light pulses around them"
+    },
+    {
+      "id": 7,
+      "start": 36,
+      "duration": 6,
+      "caption": "The Calvin cycle locks carbon atoms together until a sugar molecule forms.",
+      "imagePrompt": "Vertical 9:16 scientific animated-video still of carbon atoms assembling inside a chloroplast into a glowing hexagonal glucose molecule. Around it, smaller molecules orbit gently as if part of a circular biochemical cycle, but there is no text or diagram labels. Luminous green-gold biology illustration, full-frame single scene, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "carbon atoms orbiting and locking together into a glowing hexagonal glucose molecule inside a chloroplast, with gentle circular motion"
+    },
+    {
+      "id": 8,
+      "start": 42,
+      "duration": 6,
+      "caption": "Glucose is stored chemical energy. The plant can build with it or burn it later.",
+      "imagePrompt": "Vertical 9:16 cutaway of a plant cell where a glowing glucose molecule branches into two paths: one becoming sturdy cellulose cell-wall fibers, the other flowing toward a mitochondrion as usable energy. Show this visually without arrows or text, using composition and motion cues. Crisp cellular illustration, no text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "a glowing glucose molecule sending energy into cell-wall fibers and toward a mitochondrion, with soft streams of gold light moving through the plant cell"
+    },
+    {
+      "id": 9,
+      "start": 48,
+      "duration": 6,
+      "caption": "That stored sunlight becomes leaves, roots, fruit, wood, and eventually food.",
+      "imagePrompt": "Vertical 9:16 cinematic educational scene showing stored energy moving from a glowing leaf into roots, fruit, and woody stem tissue, then outward into a simple food-chain suggestion: an insect near the leaf and a bird silhouette in the background. Keep it as one continuous natural scene, not a collage. No text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "gold stored energy flowing from a leaf into roots, fruit, and wood as an insect and distant bird shift subtly in the same natural scene"
+    },
+    {
+      "id": 10,
+      "start": 54,
+      "duration": 6,
+      "caption": "Photosynthesis turns sunlight, water, and air into the sugar that powers life.",
+      "imagePrompt": "Vertical 9:16 final synthesis shot of an entire plant glowing softly at sunset. Sunlight flows into leaves, water rises from roots, carbon dioxide enters the leaf surface, oxygen drifts away, and glucose glows inside the plant tissue. The image is unified and cinematic, a clean scientific animation still with no text, no labels, no logos, no watermarks, no panels, no grid.",
+      "videoPrompt": "sunlight, rising water, entering carbon dioxide, drifting oxygen, and glowing glucose moving through one whole plant at sunset, ending with a gentle camera pullback"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "aspectRatio": "9:16",
+  "developerApiImageSize": "1K",
+  "generatedAt": "2026-06-02T16:49:35.963Z",
+  "imageSize": "1K",
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-01-nb2-1k.jpg",
+  "panelCropPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-01-reference-panel-crop.jpg",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/prompts/scene-01-image-nb2-1k.txt",
+  "referencePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/roman-empire-reference-grid-nb2-4k.jpg",
+  "sceneNumber": 1,
+  "thinkingLevel": "high",
+  "latencyMs": 37772,
+  "latencySeconds": 37.772,
+  "usageMetadata": {
+    "promptTokenCount": 945,
+    "candidatesTokenCount": 1609,
+    "totalTokenCount": 5238,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 429
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 2684,
+    "serviceTier": "standard"
+  }
+}

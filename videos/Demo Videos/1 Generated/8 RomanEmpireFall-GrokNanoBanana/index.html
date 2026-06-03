@@ -1,0 +1,1045 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>Brainjuice</title><style>@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url('https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Fanton-400.woff2?alt=media') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Finter-400.woff2?alt=media') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Finter-700.woff2?alt=media') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Finter-900.woff2?alt=media') format('woff2');}
+		.hf-roman-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			inset: 0;
+			justify-content: center;
+			padding: 0 24px 126px;
+			pointer-events: none;
+			position: absolute;
+			z-index: 18;
+		}
+
+		.hf-roman-caption-text {
+			-webkit-text-stroke: 2px #000;
+			color: #fff;
+			font-family: Anton, Impact, 'Arial Black', sans-serif;
+			font-size: 25px;
+			font-weight: 900;
+			letter-spacing: 0;
+			line-height: 1.08;
+			max-width: 282px;
+			paint-order: stroke;
+			text-align: center;
+			text-shadow: 0 4px 14px rgba(0, 0, 0, 0.72);
+			text-transform: none;
+			white-space: normal;
+		}
+
+		.hf-roman-caption-word {
+			color: #fff;
+			display: inline-block;
+			margin: 0 0.07em;
+			transform-origin: 50% 65%;
+		}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/inter-400.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/inter-700.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/inter-900.woff2') format('woff2');}@font-face{font-family:'Oswald';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/oswald-400.woff2') format('woff2');}@font-face{font-family:'Oswald';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/oswald-700.woff2') format('woff2');}
+		html,
+		body {
+			background: #000;
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		[data-composition-id] {
+			background: #000;
+			color: #fff;
+			font-family: Inter, system-ui, sans-serif;
+			height: 768px;
+			overflow: hidden;
+			position: relative;
+			width: 392px;
+		}
+
+		.hf-bg-video,
+		.hf-dynamic-mascot-first-bg,
+		.hf-scene,
+		.hf-scene-media,
+		.hf-overlay,
+		.hf-caption-page,
+		.hf-oneword-caption-page,
+		.hf-kinetic-caption-page,
+		.hf-gradient {
+			inset: 0;
+			position: absolute;
+		}
+
+		.hf-bg-video,
+		.hf-dynamic-mascot-first-bg,
+		.hf-scene-media {
+			height: 100%;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-scene-video {
+			object-fit: cover;
+			z-index: 1;
+		}
+
+		.hf-bg-video-contain-top {
+			background: #000;
+			height: auto;
+			inset: auto 0 auto 0;
+			object-fit: contain;
+			top: 88px;
+			width: 100%;
+		}
+
+		.hf-bg-video-contain-center {
+			background: #000;
+			height: 100%;
+			inset: 0;
+			object-fit: contain;
+			object-position: center center;
+			width: 100%;
+		}
+
+		.hf-scene-bg-image {
+			filter: blur(32px) brightness(0.48);
+			object-fit: cover;
+			transform: scale(1.12);
+			z-index: 0;
+		}
+
+		.hf-scene {
+			background: #050505;
+			clip-path: inset(0);
+			overflow: hidden;
+			z-index: 2;
+		}
+
+		.hf-scene.has-media {
+			background: transparent;
+		}
+
+		.hf-scene-content {
+			align-items: center;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			gap: 18px;
+			height: 100%;
+			justify-content: center;
+			padding: 64px 34px 190px;
+			position: relative;
+			text-align: center;
+			text-shadow: 0 4px 18px rgba(0, 0, 0, 0.78);
+			z-index: 4;
+		}
+
+		.hf-scene-title {
+			font-size: 38px;
+			font-weight: 900;
+			letter-spacing: 0;
+			line-height: 1.03;
+			margin: 0;
+			max-width: 340px;
+		}
+
+		.hf-scene-body {
+			color: rgba(255, 255, 255, 0.84);
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 1.25;
+			margin: 0;
+			max-width: 330px;
+		}
+
+		.hf-gradient {
+			background: linear-gradient(to top, rgba(0,0,0,0.82), rgba(0,0,0,0.2) 48%, rgba(0,0,0,0.15));
+			pointer-events: none;
+			z-index: 2;
+		}
+
+		.hf-overlay {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			pointer-events: none;
+			z-index: 5;
+		}
+
+		.hf-overlay img {
+			filter: drop-shadow(0 18px 32px rgba(0, 0, 0, 0.45));
+			max-height: 76%;
+			max-width: 82%;
+			object-fit: contain;
+		}
+
+		.hf-template-MinecraftStickerTemplate::after {
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.16) 46%, rgba(0, 0, 0, 0.08));
+			content: "";
+			inset: 0;
+			pointer-events: none;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.hf-template-MinecraftStickerTemplate .hf-overlay {
+			bottom: auto;
+			height: 100%;
+			right: auto;
+			transform: translate(-50%, -50%);
+			width: 100%;
+		}
+
+		.hf-template-MinecraftStickerTemplate .hf-overlay img {
+			max-height: 76%;
+			max-width: 110%;
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-scene .hf-scene-media,
+		.hf-template-VideoAvatarTemplate .hf-scene .hf-scene-media,
+		.hf-template-NarratedKenBurnsTemplate .hf-scene .hf-scene-media,
+		.hf-template-NarratedOverviewKenBurnsTemplate .hf-scene .hf-scene-media {
+			object-fit: contain;
+		}
+
+		.hf-template-NarratedKineticKenBurnsTemplate .hf-scene-media-frame {
+			aspect-ratio: 1 / 1;
+			clip-path: inset(0);
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			z-index: 1;
+		}
+
+		.hf-template-NarratedKineticKenBurnsTemplate .hf-scene-media-frame .hf-scene-media {
+			height: 100%;
+			inset: 0;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-scene .hf-gradient {
+			background: radial-gradient(circle at 50% 50%, rgba(0,0,0,0) 28%, rgba(0,0,0,0.24) 100%);
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 126px;
+		}
+
+		.hf-caption-page,
+		.hf-oneword-caption-page {
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			pointer-events: none;
+			z-index: 8;
+		}
+
+		.hf-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 126px;
+		}
+
+		.hf-oneword-caption-page {
+			align-items: center;
+			padding: 0 24px;
+		}
+
+		.hf-caption-page.is-centered {
+			align-items: center;
+			padding: 0 24px 0;
+		}
+
+		.hf-caption-text,
+		.hf-oneword-caption-text {
+			letter-spacing: 0;
+			paint-order: stroke;
+			text-align: center;
+			white-space: pre-wrap;
+		}
+
+		.hf-code-panel {
+			background: rgba(8, 10, 16, 0.92);
+			border: 1px solid rgba(255,255,255,0.14);
+			border-radius: 8px;
+			box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+			color: #e6edf3;
+			font-family: "Roboto Mono", "JetBrains Mono", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", monospace;
+			font-size: 14px;
+			line-height: 1.45;
+			max-height: 460px;
+			max-width: 350px;
+			overflow: hidden;
+			padding: 18px;
+			text-align: left;
+			white-space: pre-wrap;
+		}
+
+		.hf-template-CodeHikeTemplate {
+			background: #232136;
+			font-family: Inter, system-ui, sans-serif;
+		}
+
+		.hf-template-CodeHikeTemplate .hf-scene {
+			background: transparent;
+		}
+
+		.hf-template-CodeHikeTemplate .hf-gradient,
+		.hf-template-CodeHikeTemplate .hf-scene-content {
+			display: none;
+		}
+
+		.hf-codehike-code-stage {
+			align-items: flex-start;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			justify-content: center;
+			padding: 32px;
+			position: relative;
+			width: 100%;
+			z-index: 3;
+		}
+
+		.hf-codehike-pre {
+			background: transparent;
+			font-family: "Roboto Mono", "JetBrains Mono", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", monospace;
+			margin: 0;
+			overflow: visible;
+			padding: 0;
+			position: relative;
+			tab-size: 3;
+			white-space: pre;
+			width: 100%;
+		}
+
+		.hf-codehike-token {
+			display: inline-block;
+			left: 0;
+			position: absolute;
+			top: 0;
+			white-space: pre;
+		}
+
+		.hf-codehike-token-transition,
+		.hf-codehike-token-exit {
+			will-change: color, opacity, transform;
+		}
+
+		.hf-codehike-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			inset: 0;
+			justify-content: center;
+			padding: 0 24px 92px;
+			pointer-events: none;
+			position: absolute;
+			z-index: 8;
+		}
+
+		.hf-codehike-caption-page.is-emphasis {
+			align-items: center;
+			padding: 0 34px 46px;
+		}
+
+		.hf-codehike-caption-text {
+			align-content: flex-start;
+			align-items: baseline;
+			display: flex;
+			flex-wrap: wrap;
+			font-family: Inter, system-ui, sans-serif;
+			font-size: 22px;
+			font-weight: 650;
+			gap: 4px 7px;
+			justify-content: center;
+			letter-spacing: 0;
+			line-height: 1.14;
+			max-width: 260px;
+			min-height: 52px;
+			text-align: center;
+			text-shadow: 0 3px 16px rgba(0, 0, 0, 0.32);
+		}
+
+		.hf-codehike-caption-page.is-emphasis .hf-codehike-caption-text {
+			font-size: 42px;
+			font-weight: 820;
+			gap: 8px 13px;
+			line-height: 1.04;
+			max-width: 330px;
+			min-height: 92px;
+			transform: scale(1);
+		}
+
+		.hf-codehike-caption-text span {
+			color: #777788;
+			display: inline-block;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-gradient {
+			display: none;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-dynamic-mascot-first-bg {
+			z-index: 0;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-scene {
+			z-index: 2;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-overlay {
+			display: block;
+			inset: 0 !important;
+			transform: none;
+			z-index: 5;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-overlay img {
+			bottom: -5%;
+			filter: contrast(1.2) drop-shadow(0 0 5px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.75)) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
+			height: 450px !important;
+			left: -5%;
+			max-height: none;
+			max-width: none;
+			object-fit: contain;
+			position: absolute;
+			transform: scaleX(-1);
+			transform-origin: bottom center;
+			width: 450px !important;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-caption-page {
+			align-items: center;
+			padding: 0 30px;
+			z-index: 4;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-caption-text {
+			-webkit-text-stroke: 5px #111;
+			color: #ffef00;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 38px;
+			font-weight: 400;
+			line-height: 0.95;
+			max-width: 80%;
+			paint-order: stroke fill;
+			text-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+			text-transform: uppercase;
+			transform: translateY(-10px);
+		}
+
+		.hf-template-GameplayQATemplate .hf-bg-video {
+			z-index: 0;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-gradient {
+			background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.08) 18%, rgba(0, 0, 0, 0.18) 42%, rgba(0, 0, 0, 0.5) 76%, rgba(0, 0, 0, 0.72) 100%);
+			inset: 0;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.hf-template-GameplayQATemplate .hf-overlay {
+			display: block;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left,
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right {
+			inset: 0 !important;
+			overflow: hidden;
+			z-index: 3;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left img,
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right img {
+			bottom: -4%;
+			filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.4));
+			height: auto !important;
+			max-height: none;
+			max-width: none;
+			position: absolute;
+			width: 46% !important;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left img {
+			left: 10px;
+			transform-origin: 30% 80%;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right img {
+			right: 10px;
+			transform-origin: 70% 80%;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration {
+			z-index: 4;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration img {
+			border-radius: 12px;
+			filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.35));
+			height: 214px !important;
+			object-fit: contain;
+			object-position: center center;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration-cutout img {
+			border-radius: 0 !important;
+			filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.45));
+			object-fit: contain;
+		}
+
+		.hf-template-GameplayQATemplate .hf-caption-page {
+			align-items: center;
+			padding: 0 30px;
+			z-index: 5;
+		}
+
+		.hf-template-GameplayQATemplate .hf-caption-text {
+			-webkit-text-stroke: 5px #111;
+			color: #ffef00;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 38px;
+			font-weight: 400;
+			line-height: 0.95;
+			max-width: 80%;
+			paint-order: stroke fill;
+			text-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+			text-transform: uppercase;
+			transform: translateY(-10px);
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-bg-video {
+			bottom: auto;
+			height: 402px;
+			inset: auto auto 0 0;
+			object-position: center 70%;
+			top: auto;
+			transform: scale(1.04, 0.86);
+			transform-origin: center bottom;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-scene {
+			bottom: auto;
+			height: 422px;
+			inset: 0 auto auto 0;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-scene-content,
+		.hf-template-SplitBrainrotTemplate .hf-gradient {
+			display: none;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 344px;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-caption-text {
+			max-width: 346px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-gradient,
+		.hf-template-NarratedSlideshowTemplate .hf-scene-content {
+			display: none;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-scene,
+		.hf-template-NarratedSlideshowTemplate .hf-narrated-slide {
+			background: #111;
+		}
+
+		.hf-narrated-slide {
+			inset: 0;
+			overflow: hidden;
+			position: absolute;
+		}
+
+		.hf-narrated-slide-bg {
+			background-position: center;
+			background-size: cover;
+			filter: blur(24px) brightness(0.75);
+			height: 100%;
+			inset: 0;
+			position: absolute;
+			transform: scale(1.15);
+			width: 100%;
+		}
+
+		.hf-narrated-strip {
+			display: flex;
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 274px;
+			z-index: 1;
+		}
+
+		.hf-narrated-strip-image {
+			display: block;
+			height: auto;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-caption-page {
+			padding: 0 48px 164px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 48px 164px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-caption-text {
+			-webkit-text-stroke: 2px #000;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 24px;
+			line-height: 1.15;
+			max-width: 100%;
+			text-shadow: none;
+		}
+
+		.hf-kinetic-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 115px;
+			pointer-events: none;
+			z-index: 5;
+		}
+
+		.hf-kinetic-caption-page.is-centered {
+			align-items: center;
+			padding-bottom: 0;
+		}
+
+		.hf-kinetic-caption-line {
+			align-items: baseline;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 4px 6px;
+			justify-content: center;
+			max-width: 72%;
+		}
+
+		.hf-kinetic-caption-token {
+			display: inline-block;
+			line-height: 1.15;
+			opacity: 0;
+			paint-order: stroke;
+			text-transform: uppercase;
+		}
+	
+		.hf-caption-text {
+			-webkit-text-stroke: 2px #000;
+			color: #fff;
+			font-family: Oswald, 'Arial Black', sans-serif;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 1.12;
+			max-width: 260px;
+			text-shadow: 0 0 12px rgba(0,229,255,0.5), 0 4px 12px rgba(0,0,0,0.6);
+			text-transform: none;
+		}
+	</style><script data-brainjuice-dev-script="autoplay-debug">
+		(() => {
+			const params = new URLSearchParams(window.location.search);
+			if (!params.has("debugAutoplay")) return;
+			if (window.__brainjuiceHyperFramesAutoplayDebugInstalled) return;
+			if (typeof HTMLMediaElement === "undefined") return;
+
+			window.__brainjuiceHyperFramesAutoplayDebugInstalled = true;
+
+			const originalPlay = HTMLMediaElement.prototype.play;
+			HTMLMediaElement.prototype.play = function playWithAutoplayFailureLogging(...args) {
+				const result = originalPlay.apply(this, args);
+				if (!result || typeof result.catch !== "function") return result;
+
+				return result.catch((error) => {
+					if (error?.name === "NotAllowedError") {
+						console.warn("[Brainjuice HyperFrames iframe] autoplay blocked", {
+							id: this.id || undefined,
+							message: error.message,
+							src: this.currentSrc || this.src || undefined,
+							tag: this.tagName.toLowerCase(),
+						});
+					}
+
+					throw error;
+				});
+			};
+		})();
+	</script></head><body><div data-composition-id="brainjuice-animated-video-roman-empire-fall-grok-nano-banana" data-duration="72.320" data-height="768" data-start="0" data-width="392" class="hf-template-AnimatedVideoTemplate" id="brainjuice-animated-video-roman-empire-fall-grok-nano-banana"><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="3.125" data-layout-allow-overflow="" data-start="0" data-track-index="200" id="hf-scene-bg-image-0" src="assets/scene-01-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="3.999" data-layout-allow-overflow="" data-start="3.125" data-track-index="201" id="hf-scene-bg-image-1" src="assets/scene-02-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.635" data-layout-allow-overflow="" data-start="7.124" data-track-index="202" id="hf-scene-bg-image-2" src="assets/scene-03-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.793" data-layout-allow-overflow="" data-start="11.759" data-track-index="203" id="hf-scene-bg-image-3" src="assets/scene-04-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.720" data-layout-allow-overflow="" data-start="16.552" data-track-index="204" id="hf-scene-bg-image-4" src="assets/scene-05-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="5.521" data-layout-allow-overflow="" data-start="21.272" data-track-index="205" id="hf-scene-bg-image-5" src="assets/scene-06-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.557" data-layout-allow-overflow="" data-start="26.793" data-track-index="206" id="hf-scene-bg-image-6" src="assets/scene-07-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.411" data-layout-allow-overflow="" data-start="31.350" data-track-index="207" id="hf-scene-bg-image-7" src="assets/scene-08-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.833" data-layout-allow-overflow="" data-start="35.761" data-track-index="208" id="hf-scene-bg-image-8" src="assets/scene-09-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="5.797" data-layout-allow-overflow="" data-start="40.594" data-track-index="209" id="hf-scene-bg-image-9" src="assets/scene-10-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.478" data-layout-allow-overflow="" data-start="46.391" data-track-index="210" id="hf-scene-bg-image-10" src="assets/scene-11-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="5.367" data-layout-allow-overflow="" data-start="50.869" data-track-index="211" id="hf-scene-bg-image-11" src="assets/scene-12-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="2.242" data-layout-allow-overflow="" data-start="56.236" data-track-index="212" id="hf-scene-bg-image-12" src="assets/scene-13-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="5.116" data-layout-allow-overflow="" data-start="58.478" data-track-index="213" id="hf-scene-bg-image-13" src="assets/scene-14-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.366" data-layout-allow-overflow="" data-start="63.594" data-track-index="214" id="hf-scene-bg-image-14" src="assets/scene-15-nb2-1k.jpg"/><img alt="" class="clip hf-scene-media hf-scene-bg-image" data-duration="4.360" data-layout-allow-overflow="" data-start="67.960" data-track-index="215" id="hf-scene-bg-image-15" src="assets/scene-16-nb2-1k.jpg"/><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.125" data-start="0" data-track-index="300" id="hf-scene-video-0" loop="" muted="" playsinline="" src="assets/videos/scene-01-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.999" data-start="3.125" data-track-index="301" id="hf-scene-video-1" loop="" muted="" playsinline="" src="assets/videos/scene-02-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.635" data-start="7.124" data-track-index="302" id="hf-scene-video-2" loop="" muted="" playsinline="" src="assets/videos/scene-03-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.793" data-start="11.759" data-track-index="303" id="hf-scene-video-3" loop="" muted="" playsinline="" src="assets/videos/scene-04-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.720" data-start="16.552" data-track-index="304" id="hf-scene-video-4" loop="" muted="" playsinline="" src="assets/videos/scene-05-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.521" data-start="21.272" data-track-index="305" id="hf-scene-video-5" loop="" muted="" playsinline="" src="assets/videos/scene-06-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.557" data-start="26.793" data-track-index="306" id="hf-scene-video-6" loop="" muted="" playsinline="" src="assets/videos/scene-07-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.411" data-start="31.350" data-track-index="307" id="hf-scene-video-7" loop="" muted="" playsinline="" src="assets/videos/scene-08-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.833" data-start="35.761" data-track-index="308" id="hf-scene-video-8" loop="" muted="" playsinline="" src="assets/videos/scene-09-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.797" data-start="40.594" data-track-index="309" id="hf-scene-video-9" loop="" muted="" playsinline="" src="assets/videos/scene-10-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.478" data-start="46.391" data-track-index="310" id="hf-scene-video-10" loop="" muted="" playsinline="" src="assets/videos/scene-11-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.367" data-start="50.869" data-track-index="311" id="hf-scene-video-11" loop="" muted="" playsinline="" src="assets/videos/scene-12-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.242" data-start="56.236" data-track-index="312" id="hf-scene-video-12" loop="" muted="" playsinline="" src="assets/videos/scene-13-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.116" data-start="58.478" data-track-index="313" id="hf-scene-video-13" loop="" muted="" playsinline="" src="assets/videos/scene-14-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.366" data-start="63.594" data-track-index="314" id="hf-scene-video-14" loop="" muted="" playsinline="" src="assets/videos/scene-15-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.360" data-start="67.960" data-track-index="315" id="hf-scene-video-15" loop="" muted="" playsinline="" src="assets/videos/scene-16-grok-imagine-1.5-720p.mp4" webkit-playsinline=""></video><div class="scene clip hf-scene has-media" data-duration="3.125" data-start="0" data-track-index="10" id="hf-scene-0"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="3.999" data-start="3.125" data-track-index="11" id="hf-scene-1"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.635" data-start="7.124" data-track-index="12" id="hf-scene-2"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.793" data-start="11.759" data-track-index="13" id="hf-scene-3"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.720" data-start="16.552" data-track-index="14" id="hf-scene-4"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.521" data-start="21.272" data-track-index="15" id="hf-scene-5"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.557" data-start="26.793" data-track-index="16" id="hf-scene-6"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.411" data-start="31.350" data-track-index="17" id="hf-scene-7"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.833" data-start="35.761" data-track-index="18" id="hf-scene-8"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.797" data-start="40.594" data-track-index="19" id="hf-scene-9"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.478" data-start="46.391" data-track-index="20" id="hf-scene-10"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.367" data-start="50.869" data-track-index="21" id="hf-scene-11"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.242" data-start="56.236" data-track-index="22" id="hf-scene-12"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.116" data-start="58.478" data-track-index="23" id="hf-scene-13"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.366" data-start="63.594" data-track-index="24" id="hf-scene-14"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.360" data-start="67.960" data-track-index="25" id="hf-scene-15"><div class="hf-gradient"></div></div><audio crossorigin="anonymous" data-duration="72.320" data-end="72.320" data-start="0" data-track-index="600" id="hf-global-audio" src="assets/voiceover-eleven-v3-adam.mp3"></audio><div class="clip hf-roman-caption-page" data-duration="1.041" data-layout-allow-overflow="" data-start="0" data-track-index="900" id="roman-caption-page-0"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-0-0">Rome’s</span><span class="hf-roman-caption-word" id="roman-caption-0-1">biggest</span><span class="hf-roman-caption-word" id="roman-caption-0-2">threat</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.520" data-layout-allow-overflow="" data-start="1.081" data-track-index="901" id="roman-caption-page-1"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-1-0">was</span><span class="hf-roman-caption-word" id="roman-caption-1-1">not</span><span class="hf-roman-caption-word" id="roman-caption-1-2">the</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.895" data-layout-allow-overflow="" data-start="1.670" data-track-index="902" id="roman-caption-page-2"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-2-0">barbarians</span><span class="hf-roman-caption-word" id="roman-caption-2-1">at</span><span class="hf-roman-caption-word" id="roman-caption-2-2">the</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.070" data-layout-allow-overflow="" data-start="2.645" data-track-index="903" id="roman-caption-page-3"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-3-0">gate.</span><span class="hf-roman-caption-word" id="roman-caption-3-1">It</span><span class="hf-roman-caption-word" id="roman-caption-3-2">was</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.680" data-layout-allow-overflow="" data-start="3.725" data-track-index="904" id="roman-caption-page-4"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-4-0">the</span><span class="hf-roman-caption-word" id="roman-caption-4-1">army</span><span class="hf-roman-caption-word" id="roman-caption-4-2">that</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.642" data-layout-allow-overflow="" data-start="4.445" data-track-index="905" id="roman-caption-page-5"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-5-0">was</span><span class="hf-roman-caption-word" id="roman-caption-5-1">supposed</span><span class="hf-roman-caption-word" id="roman-caption-5-2">to</span></div></div><div class="clip hf-roman-caption-page" data-duration="2.103" data-layout-allow-overflow="" data-start="5.111" data-track-index="906" id="roman-caption-page-6"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-6-0">defend</span><span class="hf-roman-caption-word" id="roman-caption-6-1">it.</span><span class="hf-roman-caption-word" id="roman-caption-6-2">For</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.879" data-layout-allow-overflow="" data-start="7.125" data-track-index="907" id="roman-caption-page-7"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-7-0">centuries,</span><span class="hf-roman-caption-word" id="roman-caption-7-1">emperors</span><span class="hf-roman-caption-word" id="roman-caption-7-2">needed</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.335" data-layout-allow-overflow="" data-start="8.068" data-track-index="908" id="roman-caption-page-8"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-8-0">more</span><span class="hf-roman-caption-word" id="roman-caption-8-1">than</span><span class="hf-roman-caption-word" id="roman-caption-8-2">soldiers.</span></div></div><div class="clip hf-roman-caption-page" data-duration="2.300" data-layout-allow-overflow="" data-start="9.459" data-track-index="909" id="roman-caption-page-9"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-9-0">They</span><span class="hf-roman-caption-word" id="roman-caption-9-1">needed</span><span class="hf-roman-caption-word" id="roman-caption-9-2">legitimacy.</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.477" data-layout-allow-overflow="" data-start="11.759" data-track-index="910" id="roman-caption-page-10"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-10-0">A</span><span class="hf-roman-caption-word" id="roman-caption-10-1">dynasty</span><span class="hf-roman-caption-word" id="roman-caption-10-2">mattered.</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.730" data-layout-allow-overflow="" data-start="13.306" data-track-index="911" id="roman-caption-page-11"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-11-0">The</span><span class="hf-roman-caption-word" id="roman-caption-11-1">Senate</span><span class="hf-roman-caption-word" id="roman-caption-11-2">mattered.</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.460" data-layout-allow-overflow="" data-start="15.092" data-track-index="912" id="roman-caption-page-12"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-12-0">Tradition</span><span class="hf-roman-caption-word" id="roman-caption-12-1">still</span><span class="hf-roman-caption-word" id="roman-caption-12-2">mattered.</span></div></div><div class="clip hf-roman-caption-page" data-duration="2.560" data-layout-allow-overflow="" data-start="16.552" data-track-index="913" id="roman-caption-page-13"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-13-0">Then,</span><span class="hf-roman-caption-word" id="roman-caption-13-1">in</span><span class="hf-roman-caption-word" id="roman-caption-13-2">235,</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.152" data-layout-allow-overflow="" data-start="19.160" data-track-index="914" id="roman-caption-page-14"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-14-0">that</span><span class="hf-roman-caption-word" id="roman-caption-14-1">old</span><span class="hf-roman-caption-word" id="roman-caption-14-2">system</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.860" data-layout-allow-overflow="" data-start="20.372" data-track-index="915" id="roman-caption-page-15"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-15-0">cracked</span><span class="hf-roman-caption-word" id="roman-caption-15-1">open.</span><span class="hf-roman-caption-word" id="roman-caption-15-2">Emperor</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.682" data-layout-allow-overflow="" data-start="22.312" data-track-index="916" id="roman-caption-page-16"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-16-0">Severus</span><span class="hf-roman-caption-word" id="roman-caption-16-1">Alexander</span><span class="hf-roman-caption-word" id="roman-caption-16-2">tried</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.903" data-layout-allow-overflow="" data-start="24.051" data-track-index="917" id="roman-caption-page-17"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-17-0">buying</span><span class="hf-roman-caption-word" id="roman-caption-17-1">peace</span><span class="hf-roman-caption-word" id="roman-caption-17-2">on</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.819" data-layout-allow-overflow="" data-start="24.974" data-track-index="918" id="roman-caption-page-18"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-18-0">the</span><span class="hf-roman-caption-word" id="roman-caption-18-1">German</span><span class="hf-roman-caption-word" id="roman-caption-18-2">frontier.</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.559" data-layout-allow-overflow="" data-start="26.793" data-track-index="919" id="roman-caption-page-19"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-19-0">His</span><span class="hf-roman-caption-word" id="roman-caption-19-1">troops</span><span class="hf-roman-caption-word" id="roman-caption-19-2">saw</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.839" data-layout-allow-overflow="" data-start="27.432" data-track-index="920" id="roman-caption-page-20"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-20-0">diplomacy</span><span class="hf-roman-caption-word" id="roman-caption-20-1">as</span><span class="hf-roman-caption-word" id="roman-caption-20-2">weakness,</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.218" data-layout-allow-overflow="" data-start="29.331" data-track-index="921" id="roman-caption-page-21"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-21-0">and</span><span class="hf-roman-caption-word" id="roman-caption-21-1">weakness</span><span class="hf-roman-caption-word" id="roman-caption-21-2">as</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.511" data-layout-allow-overflow="" data-start="30.638" data-track-index="922" id="roman-caption-page-22"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-22-0">betrayal.</span><span class="hf-roman-caption-word" id="roman-caption-22-1">So</span><span class="hf-roman-caption-word" id="roman-caption-22-2">they</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.591" data-layout-allow-overflow="" data-start="32.193" data-track-index="923" id="roman-caption-page-23"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-23-0">murdered</span><span class="hf-roman-caption-word" id="roman-caption-23-1">him</span><span class="hf-roman-caption-word" id="roman-caption-23-2">in</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.600" data-layout-allow-overflow="" data-start="32.824" data-track-index="924" id="roman-caption-page-24"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-24-0">his</span><span class="hf-roman-caption-word" id="roman-caption-24-1">tent</span><span class="hf-roman-caption-word" id="roman-caption-24-2">and</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.977" data-layout-allow-overflow="" data-start="33.491" data-track-index="925" id="roman-caption-page-25"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-25-0">chose</span><span class="hf-roman-caption-word" id="roman-caption-25-1">their</span><span class="hf-roman-caption-word" id="roman-caption-25-2">own</span></div></div><div class="clip hf-roman-caption-page" data-duration="2.568" data-layout-allow-overflow="" data-start="34.538" data-track-index="926" id="roman-caption-page-26"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-26-0">emperor.</span><span class="hf-roman-caption-word" id="roman-caption-26-1">Maximinus</span><span class="hf-roman-caption-word" id="roman-caption-26-2">Thrax</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.766" data-layout-allow-overflow="" data-start="37.186" data-track-index="927" id="roman-caption-page-27"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-27-0">was</span><span class="hf-roman-caption-word" id="roman-caption-27-1">not</span><span class="hf-roman-caption-word" id="roman-caption-27-2">a</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.106" data-layout-allow-overflow="" data-start="37.976" data-track-index="928" id="roman-caption-page-28"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-28-0">senator.</span><span class="hf-roman-caption-word" id="roman-caption-28-1">He</span><span class="hf-roman-caption-word" id="roman-caption-28-2">was</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.488" data-layout-allow-overflow="" data-start="39.106" data-track-index="929" id="roman-caption-page-29"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-29-0">a</span><span class="hf-roman-caption-word" id="roman-caption-29-1">soldier’s</span><span class="hf-roman-caption-word" id="roman-caption-29-2">soldier.</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.072" data-layout-allow-overflow="" data-start="40.594" data-track-index="930" id="roman-caption-page-30"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-30-0">That</span><span class="hf-roman-caption-word" id="roman-caption-30-1">changed</span><span class="hf-roman-caption-word" id="roman-caption-30-2">the</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.654" data-layout-allow-overflow="" data-start="41.773" data-track-index="931" id="roman-caption-page-31"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-31-0">rules.</span><span class="hf-roman-caption-word" id="roman-caption-31-1">Any</span><span class="hf-roman-caption-word" id="roman-caption-31-2">legion</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.010" data-layout-allow-overflow="" data-start="43.459" data-track-index="932" id="roman-caption-page-32"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-32-0">with</span><span class="hf-roman-caption-word" id="roman-caption-32-1">enough</span><span class="hf-roman-caption-word" id="roman-caption-32-2">swords</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.505" data-layout-allow-overflow="" data-start="44.496" data-track-index="933" id="roman-caption-page-33"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-33-0">could</span><span class="hf-roman-caption-word" id="roman-caption-33-1">make</span><span class="hf-roman-caption-word" id="roman-caption-33-2">a</span></div></div><div class="clip hf-roman-caption-page" data-duration="2.241" data-layout-allow-overflow="" data-start="45.031" data-track-index="934" id="roman-caption-page-34"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-34-0">ruler.</span><span class="hf-roman-caption-word" id="roman-caption-34-1">Soon,</span><span class="hf-roman-caption-word" id="roman-caption-34-2">generals</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.768" data-layout-allow-overflow="" data-start="47.304" data-track-index="935" id="roman-caption-page-35"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-35-0">were</span><span class="hf-roman-caption-word" id="roman-caption-35-1">not</span><span class="hf-roman-caption-word" id="roman-caption-35-2">serving</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.200" data-layout-allow-overflow="" data-start="48.152" data-track-index="936" id="roman-caption-page-36"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-36-0">emperors.</span><span class="hf-roman-caption-word" id="roman-caption-36-1">They</span><span class="hf-roman-caption-word" id="roman-caption-36-2">were</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.144" data-layout-allow-overflow="" data-start="49.405" data-track-index="937" id="roman-caption-page-37"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-37-0">auditioning</span><span class="hf-roman-caption-word" id="roman-caption-37-1">to</span><span class="hf-roman-caption-word" id="roman-caption-37-2">replace</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.217" data-layout-allow-overflow="" data-start="50.613" data-track-index="938" id="roman-caption-page-38"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-38-0">them.</span><span class="hf-roman-caption-word" id="roman-caption-38-1">The</span><span class="hf-roman-caption-word" id="roman-caption-38-2">throne</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.916" data-layout-allow-overflow="" data-start="51.876" data-track-index="939" id="roman-caption-page-39"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-39-0">became</span><span class="hf-roman-caption-word" id="roman-caption-39-1">a</span><span class="hf-roman-caption-word" id="roman-caption-39-2">prize</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.894" data-layout-allow-overflow="" data-start="52.861" data-track-index="940" id="roman-caption-page-40"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-40-0">armies</span><span class="hf-roman-caption-word" id="roman-caption-40-1">could</span><span class="hf-roman-caption-word" id="roman-caption-40-2">sell</span></div></div><div class="clip hf-roman-caption-page" data-duration="2.441" data-layout-allow-overflow="" data-start="53.795" data-track-index="941" id="roman-caption-page-41"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-41-0">for</span><span class="hf-roman-caption-word" id="roman-caption-41-1">higher</span><span class="hf-roman-caption-word" id="roman-caption-41-2">pay.</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.611" data-layout-allow-overflow="" data-start="56.236" data-track-index="942" id="roman-caption-page-42"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-42-0">If</span><span class="hf-roman-caption-word" id="roman-caption-42-1">an</span><span class="hf-roman-caption-word" id="roman-caption-42-2">emperor</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.489" data-layout-allow-overflow="" data-start="56.847" data-track-index="943" id="roman-caption-page-43"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-43-0">ran</span><span class="hf-roman-caption-word" id="roman-caption-43-1">out</span><span class="hf-roman-caption-word" id="roman-caption-43-2">of</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.612" data-layout-allow-overflow="" data-start="57.336" data-track-index="944" id="roman-caption-page-44"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-44-0">money,</span><span class="hf-roman-caption-word" id="roman-caption-44-1">his</span><span class="hf-roman-caption-word" id="roman-caption-44-2">guards</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.530" data-layout-allow-overflow="" data-start="57.948" data-track-index="945" id="roman-caption-page-45"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-45-0">could</span><span class="hf-roman-caption-word" id="roman-caption-45-1">kill</span><span class="hf-roman-caption-word" id="roman-caption-45-2">him.</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.827" data-layout-allow-overflow="" data-start="58.478" data-track-index="946" id="roman-caption-page-46"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-46-0">Rome</span><span class="hf-roman-caption-word" id="roman-caption-46-1">survived</span><span class="hf-roman-caption-word" id="roman-caption-46-2">the</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.425" data-layout-allow-overflow="" data-start="60.329" data-track-index="947" id="roman-caption-page-47"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-47-0">shock,</span><span class="hf-roman-caption-word" id="roman-caption-47-1">but</span><span class="hf-roman-caption-word" id="roman-caption-47-2">authority</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.800" data-layout-allow-overflow="" data-start="61.794" data-track-index="948" id="roman-caption-page-48"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-48-0">stopped</span><span class="hf-roman-caption-word" id="roman-caption-48-1">feeling</span><span class="hf-roman-caption-word" id="roman-caption-48-2">sacred.</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.801" data-layout-allow-overflow="" data-start="63.594" data-track-index="949" id="roman-caption-page-49"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-49-0">The</span><span class="hf-roman-caption-word" id="roman-caption-49-1">empire</span><span class="hf-roman-caption-word" id="roman-caption-49-2">still</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.960" data-layout-allow-overflow="" data-start="64.475" data-track-index="950" id="roman-caption-page-50"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-50-0">had</span><span class="hf-roman-caption-word" id="roman-caption-50-1">walls,</span><span class="hf-roman-caption-word" id="roman-caption-50-2">roads,</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.465" data-layout-allow-overflow="" data-start="66.495" data-track-index="951" id="roman-caption-page-51"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-51-0">taxes,</span><span class="hf-roman-caption-word" id="roman-caption-51-1">and</span><span class="hf-roman-caption-word" id="roman-caption-51-2">armies.</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.071" data-layout-allow-overflow="" data-start="67.960" data-track-index="952" id="roman-caption-page-52"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-52-0">What</span><span class="hf-roman-caption-word" id="roman-caption-52-1">it</span><span class="hf-roman-caption-word" id="roman-caption-52-2">lost</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.900" data-layout-allow-overflow="" data-start="69.091" data-track-index="953" id="roman-caption-page-53"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-53-0">was</span><span class="hf-roman-caption-word" id="roman-caption-53-1">trust</span><span class="hf-roman-caption-word" id="roman-caption-53-2">that</span></div></div><div class="clip hf-roman-caption-page" data-duration="1.200" data-layout-allow-overflow="" data-start="70.071" data-track-index="954" id="roman-caption-page-54"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-54-0">anyone</span><span class="hf-roman-caption-word" id="roman-caption-54-1">truly</span><span class="hf-roman-caption-word" id="roman-caption-54-2">had</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.537" data-layout-allow-overflow="" data-start="71.291" data-track-index="955" id="roman-caption-page-55"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-55-0">the</span><span class="hf-roman-caption-word" id="roman-caption-55-1">right</span><span class="hf-roman-caption-word" id="roman-caption-55-2">to</span></div></div><div class="clip hf-roman-caption-page" data-duration="0.384" data-layout-allow-overflow="" data-start="71.924" data-track-index="956" id="roman-caption-page-56"><div class="hf-roman-caption-text"><span class="hf-roman-caption-word" id="roman-caption-56-0">rule.</span></div></div></div><script src="brainjuice/runtime/gsap/3.14.2/gsap-3.14.2.min.js"></script><script src="brainjuice/runtime/hyperframes/brainjuice-hf-0.6.29-9/runtime/hyperframe.runtime.brainjuice-hf-0.6.29-9.iife.js"></script><script data-brainjuice-obfuscate="timeline" data-javascript-obfuscator="">
+		window.__timelines = window.__timelines || {};
+		const tl = gsap.timeline({ paused: true });
+		const scenes = [{"camera":"static","duration":3.125,"id":"hf-scene-0","mediaId":"hf-scene-video-0","mediaType":"video","start":0,"transition":"cut"},{"camera":"static","duration":3.9989999999999997,"id":"hf-scene-1","mediaId":"hf-scene-video-1","mediaType":"video","start":3.125,"transition":"crossfade"},{"camera":"static","duration":4.635000000000001,"id":"hf-scene-2","mediaId":"hf-scene-video-2","mediaType":"video","start":7.124,"transition":"crossfade"},{"camera":"static","duration":4.792999999999999,"id":"hf-scene-3","mediaId":"hf-scene-video-3","mediaType":"video","start":11.759,"transition":"crossfade"},{"camera":"static","duration":4.719999999999999,"id":"hf-scene-4","mediaId":"hf-scene-video-4","mediaType":"video","start":16.552,"transition":"crossfade"},{"camera":"static","duration":5.521000000000001,"id":"hf-scene-5","mediaId":"hf-scene-video-5","mediaType":"video","start":21.272,"transition":"crossfade"},{"camera":"static","duration":4.557000000000002,"id":"hf-scene-6","mediaId":"hf-scene-video-6","mediaType":"video","start":26.793,"transition":"crossfade"},{"camera":"static","duration":4.411000000000001,"id":"hf-scene-7","mediaId":"hf-scene-video-7","mediaType":"video","start":31.35,"transition":"crossfade"},{"camera":"static","duration":4.832999999999998,"id":"hf-scene-8","mediaId":"hf-scene-video-8","mediaType":"video","start":35.761,"transition":"crossfade"},{"camera":"static","duration":5.796999999999997,"id":"hf-scene-9","mediaId":"hf-scene-video-9","mediaType":"video","start":40.594,"transition":"crossfade"},{"camera":"static","duration":4.4780000000000015,"id":"hf-scene-10","mediaId":"hf-scene-video-10","mediaType":"video","start":46.391,"transition":"crossfade"},{"camera":"static","duration":5.366999999999997,"id":"hf-scene-11","mediaId":"hf-scene-video-11","mediaType":"video","start":50.869,"transition":"crossfade"},{"camera":"static","duration":2.2420000000000044,"id":"hf-scene-12","mediaId":"hf-scene-video-12","mediaType":"video","start":56.236,"transition":"crossfade"},{"camera":"static","duration":5.116,"id":"hf-scene-13","mediaId":"hf-scene-video-13","mediaType":"video","start":58.478,"transition":"crossfade"},{"camera":"static","duration":4.3659999999999926,"id":"hf-scene-14","mediaId":"hf-scene-video-14","mediaType":"video","start":63.594,"transition":"crossfade"},{"camera":"static","duration":4.359999999999999,"id":"hf-scene-15","mediaId":"hf-scene-video-15","mediaType":"video","start":67.96,"transition":"crossfade"}];
+		function cssTransitionDuration(scene) {
+			return Math.min(0.72, Math.max(0.22, scene.duration * 0.28));
+		}
+		function revealScene(scene) {
+			const selector = "#" + scene.id;
+			const start = scene.start;
+			const duration = cssTransitionDuration(scene);
+			const transition = scene.transition || "cut";
+			tl.set(selector, {
+				transformPerspective: 1200,
+				transformOrigin: "50% 50%",
+				clipPath: "none",
+				filter: "none",
+				x: 0,
+				y: 0,
+				xPercent: 0,
+				yPercent: 0,
+				scale: 1,
+				scaleX: 1,
+				scaleY: 1,
+				rotation: 0,
+				rotationX: 0,
+				rotationY: 0,
+				skewX: 0,
+			}, start);
+			switch (transition) {
+				case "cut":
+					tl.set(selector, { opacity: 1 }, start);
+					break;
+				case "cardFlip3d":
+					tl.fromTo(selector, { opacity: 1, rotationY: -180 }, { rotationY: 0, duration: 0.6, ease: "power2.inOut" }, start);
+					break;
+				case "blurThrough":
+					tl.fromTo(selector, { opacity: 0, scale: 1.06, filter: "blur(18px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration, ease: "power2.out" }, start);
+					break;
+				case "directionalBlur":
+					tl.fromTo(selector, { opacity: 0, xPercent: 12, filter: "blur(18px)" }, { opacity: 1, xPercent: 0, filter: "blur(0px)", duration, ease: "power3.out" }, start);
+					break;
+				case "staggeredColorBlocks":
+				case "horizontalBlinds":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.5, ease: "power2.inOut" }, start);
+					break;
+				case "verticalBlinds":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(100% 0 0 0)" }, { clipPath: "inset(0% 0 0 0)", duration: 0.5, ease: "power2.inOut" }, start);
+					break;
+				case "pageBurn":
+				case "filmBurn":
+					tl.fromTo(selector, { opacity: 0, scale: 1.025, filter: "brightness(1.9) saturate(1.5)" }, { opacity: 1, scale: 1, filter: "brightness(1) saturate(1)", duration: 0.5, ease: "power2.out" }, start);
+					break;
+				case "crossfade":
+					tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "none" }, start);
+					break;
+				case "blurCrossfade":
+					tl.fromTo(selector, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.45, ease: "power1.out" }, start);
+					break;
+				case "focusPull":
+					tl.fromTo(selector, { opacity: 0.2, scale: 1.04, filter: "blur(16px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.55, ease: "power2.out" }, start);
+					break;
+				case "colorDip":
+					tl.fromTo(selector, { opacity: 0, filter: "saturate(0) brightness(0.4)" }, { opacity: 1, filter: "saturate(1) brightness(1)", duration: 0.44, ease: "power2.out" }, start);
+					break;
+				case "glitch":
+					tl.fromTo(selector, { opacity: 0, x: -16, skewX: -8, filter: "contrast(1.7) saturate(1.6)" }, { opacity: 1, x: 0, skewX: 0, filter: "contrast(1) saturate(1)", duration: 0.24, ease: "power1.inOut" }, start);
+					break;
+				case "chromaticAberration":
+					tl.fromTo(selector, { opacity: 0, x: 8, filter: "contrast(1.4) saturate(2)" }, { opacity: 1, x: 0, filter: "contrast(1) saturate(1)", duration: 0.34, ease: "power2.out" }, start);
+					break;
+				case "ripple":
+					tl.fromTo(selector, { opacity: 0, scale: 1.12, filter: "blur(6px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.5, ease: "elastic.out(1, 0.65)" }, start);
+					break;
+				case "vhsTape":
+					tl.fromTo(selector, { opacity: 0, y: 18, filter: "contrast(1.6) saturate(0.7)" }, { opacity: 1, y: 0, filter: "contrast(1) saturate(1)", duration: 0.36, ease: "power1.out" }, start);
+					break;
+				case "gridDissolve":
+					tl.fromTo(selector, { opacity: 0, scale: 0.985, filter: "contrast(1.35)" }, { opacity: 1, scale: 1, filter: "contrast(1)", duration: 0.4, ease: "power1.out" }, start);
+					break;
+				case "lightLeak":
+				case "overexposureBurn":
+					tl.fromTo(selector, { opacity: 0, filter: "brightness(2.4) saturate(1.35)" }, { opacity: 1, filter: "brightness(1) saturate(1)", duration: 0.46, ease: "power2.out" }, start);
+					break;
+				case "shutter":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(50% 0 50% 0)" }, { clipPath: "inset(0% 0 0% 0)", duration: 0.38, ease: "power2.inOut" }, start);
+					break;
+				case "clockWipe":
+				case "morphCircle":
+				case "circleIris":
+					tl.fromTo(selector, { opacity: 1, clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(75% at 50% 50%)", duration: 0.52, ease: "power2.inOut" }, start);
+					break;
+				case "gravityDrop":
+					tl.fromTo(selector, { opacity: 0, yPercent: -18, scale: 1.04 }, { opacity: 1, yPercent: 0, scale: 1, duration: 0.48, ease: "bounce.out" }, start);
+					break;
+				case "pushSlide":
+					tl.fromTo(selector, { opacity: 1, xPercent: 100 }, { xPercent: 0, duration: 0.45, ease: "power2.inOut" }, start);
+					break;
+				case "verticalPush":
+					tl.fromTo(selector, { opacity: 1, yPercent: 100 }, { yPercent: 0, duration: 0.45, ease: "power2.inOut" }, start);
+					break;
+				case "elasticPush":
+					tl.fromTo(selector, { opacity: 1, xPercent: 100, scale: 0.96 }, { xPercent: 0, scale: 1, duration: 0.62, ease: "elastic.out(1, 0.75)" }, start);
+					break;
+				case "squeeze":
+					tl.fromTo(selector, { opacity: 0, scaleX: 0.65, scaleY: 1.08 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: 0.42, ease: "back.out(1.4)" }, start);
+					break;
+				case "diamondIris":
+					tl.fromTo(selector, { opacity: 1, clipPath: "polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%)" }, { clipPath: "polygon(50% -25%, 125% 50%, 50% 125%, -25% 50%)", duration: 0.52, ease: "power2.inOut" }, start);
+					break;
+				case "diagonalSplit":
+					tl.fromTo(selector, { opacity: 1, clipPath: "polygon(0 0, 0 0, 0 100%, 0 100%)" }, { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)", duration: 0.44, ease: "power2.inOut" }, start);
+					break;
+				case "zoomThrough":
+					tl.fromTo(selector, { opacity: 0, scale: 1.28, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.46, ease: "power3.out" }, start);
+					break;
+				case "zoomOut":
+					tl.fromTo(selector, { opacity: 0, scale: 0.74, filter: "blur(6px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.46, ease: "power3.out" }, start);
+					break;
+				default:
+					tl.fromTo(selector, { opacity: 0, scale: 1.035 }, { opacity: 1, scale: 1, duration: 0.28, ease: "power2.out" }, start);
+					break;
+			}
+		}
+		for (const scene of scenes) {
+			revealScene(scene);
+			const media = scene.mediaId
+				? document.getElementById(scene.mediaId)
+				: document.querySelector("#" + scene.id + " .hf-scene-media");
+			if (media) {
+				if (false) {
+					tl.fromTo(media, { scale: 1.3 }, { scale: 1, duration: scene.duration, ease: "none" }, scene.start);
+				} else if (true && scene.mediaType !== "video") {
+						tl.set(media, { opacity: 1 }, scene.start);
+					} else if (false || (false && scene.mediaType !== "video")) {
+						
+						const kenBurns = getKenBurnsTransform(scene.camera, 1.2, 1.15);
+						tl.set(media, { transformOrigin: "50% 50%" }, scene.start);
+						tl.fromTo(media, kenBurns.from, { ...kenBurns.to, duration: scene.duration, ease: "none" }, scene.start);
+					} else {
+						tl.set(media, { opacity: 1 }, scene.start);
+						tl.to(media, { scale: scene.transition === "zoom_out" || scene.transition === "zoomOut" ? 1 : 1.075, duration: scene.duration, ease: "none" }, scene.start);
+					}
+				}
+			const content = document.querySelector("#" + scene.id + " .hf-scene-content");
+			if (content) {
+				tl.fromTo(content, { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, scene.start + 0.12);
+			}
+			if (false) {
+				setupCodeHikeTokenTransitions(scene);
+			}
+					const sceneEnd = scene.start + scene.duration;
+					const isFinalScene = scene === scenes[scenes.length - 1];
+					const sceneExitTime =
+						false && !isFinalScene
+							? sceneEnd + 1 / 30
+							: sceneEnd;
+					tl.set("#" + scene.id, { opacity: 0 }, sceneExitTime);
+					if (media) {
+						tl.set(media, { opacity: 0 }, sceneExitTime);
+					}
+				}
+		const overlays = [];
+		for (const overlay of overlays) {
+			const id = overlay.id;
+			const overlayImage = document.querySelector("#" + id + " img");
+			if (overlayImage) {
+				if (false) {
+					tl.set("#" + id, { opacity: 1 }, overlay.start);
+					tl.to("#" + id, { y: -5, duration: 0.16, repeat: Math.ceil(overlay.duration / 0.32) * 2, yoyo: true, ease: "sine.inOut" }, overlay.start);
+				} else if (false) {
+					const sideDirection = overlay.className.includes("speaker-left") ? -1 : 1;
+					if (overlay.className.includes("hf-gameplay-speaker")) {
+						tl.fromTo(overlayImage, { opacity: 0, x: sideDirection * 45, y: 14, scale: 0.94 }, { opacity: 1, x: 0, y: 0, scale: 1, duration: 0.27, ease: "back.out(1.4)" }, overlay.start);
+						tl.to(overlayImage, { y: -2.5, duration: 0.4, repeat: Math.ceil(overlay.duration / 0.8) * 2, yoyo: true, ease: "sine.inOut" }, overlay.start + 0.27);
+					} else {
+						tl.fromTo(overlayImage, { opacity: 0, scale: 0.94, y: 12 }, { opacity: 1, scale: 1, y: 0, duration: 0.24, ease: "power2.out" }, overlay.start);
+					}
+				} else if (false) {
+					tl.fromTo(overlayImage, { opacity: 0, scale: 0.42, y: 28 }, { opacity: 1, scale: 1, y: 0, duration: 1.1, ease: "power2.out" }, overlay.start);
+				} else {
+					tl.fromTo(overlayImage, { opacity: 0, scale: 0.72, y: 30 }, { opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(1.7)" }, overlay.start);
+				}
+			}
+		}
+		const phraseCaptionPages = [];
+		for (const page of phraseCaptionPages) {
+			tl.fromTo("#" + page.id + " .hf-caption-text", { opacity: 0, scale: 0.92, y: 6 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.4)" }, page.start);
+		}
+		const dynamicMascotCaptionPages = [];
+		for (const page of dynamicMascotCaptionPages) {
+			tl.fromTo("#" + page.id + " .hf-caption-text", { scale: 0.85, y: -10 }, { scale: 1, y: -10, duration: 0.18, ease: "back.out(2.2)" }, page.start);
+		}
+		const captionTokens = [];
+		for (const token of captionTokens) {
+			const element = document.getElementById(token.id);
+			if (element) {
+				if (token.activeBackground) {
+					tl.set(element, {
+						color: token.activeTextColor || token.activeColor,
+						backgroundColor: token.activeBackground,
+						padding: "2px 6px",
+						borderRadius: "4px",
+						textShadow: "none",
+						webkitTextStroke: "0px transparent",
+					}, token.from);
+					tl.set(element, {
+						color: token.spokenColor,
+						backgroundColor: "transparent",
+						padding: 0,
+						borderRadius: 0,
+						clearProps: "textShadow,webkitTextStroke",
+					}, token.to);
+				} else {
+					tl.set(element, { color: token.activeColor }, token.from);
+					tl.set(element, { color: token.spokenColor }, token.to);
+				}
+			}
+		}
+		const kineticChunkData = [];
+		const kineticCaptionTokens = [];
+		let kineticTokenIdx = 0;
+		for (const chunk of kineticChunkData) {
+			for (let i = 0; i < chunk.tokenCount; i++) {
+				const token = kineticCaptionTokens[kineticTokenIdx];
+				kineticTokenIdx++;
+				if (!token) continue;
+				const element = document.getElementById(token.id);
+				if (!element) continue;
+				const staggerDelay = i * 0.06;
+				tl.fromTo(element, { opacity: 0, scale: 0.7, y: 8 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.8)" }, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#fff",
+					backgroundColor: "transparent",
+					padding: 0,
+					borderRadius: 0,
+					webkitTextStroke: token.stroke,
+				}, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#000",
+					backgroundColor: "#fff",
+					padding: "2px 6px",
+					borderRadius: 4,
+					webkitTextStroke: "0px transparent",
+				}, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#fff",
+					backgroundColor: "transparent",
+					padding: 0,
+					borderRadius: 0,
+					webkitTextStroke: token.stroke,
+				}, token.to);
+			}
+		}
+		const oneWordTokens = [];
+		for (const token of oneWordTokens) {
+			const element = document.getElementById(token.id);
+			if (element) {
+				tl.fromTo(element, { scale: 1.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.12, ease: "back.out(1.7)" }, token.start);
+			}
+		}
+		function getKenBurnsTransform(camera, intensity, panScale) {
+			const type = mapCamera(camera);
+			const zoomAmount = 0.15 * intensity;
+			const panAmount = 5 * intensity;
+			const minScale = 1.08;
+			const clamp = (value, scale) => {
+				const maxSafe = ((scale - 1) / (2 * scale)) * 100;
+				return Math.max(-maxSafe, Math.min(maxSafe, value));
+			};
+			const transform = (scale, xPercent = 0, yPercent = 0) => ({
+				scale,
+				xPercent: clamp(xPercent, scale),
+				yPercent: clamp(yPercent, scale),
+			});
+			switch (type) {
+				case "static":
+					return { from: transform(minScale), to: transform(minScale) };
+				case "zoom_out":
+					return { from: transform(minScale + zoomAmount), to: transform(minScale) };
+				case "pan_left":
+					return { from: transform(panScale, panAmount, 0), to: transform(panScale, -panAmount, 0) };
+				case "pan_right":
+					return { from: transform(panScale, -panAmount, 0), to: transform(panScale, panAmount, 0) };
+				case "pan_up":
+					return { from: transform(panScale, 0, panAmount), to: transform(panScale, 0, -panAmount) };
+				case "pan_down":
+					return { from: transform(panScale, 0, -panAmount), to: transform(panScale, 0, panAmount) };
+				case "zoom_in_pan_left":
+					return { from: transform(panScale, panAmount / 2, 0), to: transform(panScale + zoomAmount, -panAmount / 2, 0) };
+				case "zoom_in_pan_right":
+					return { from: transform(panScale, -panAmount / 2, 0), to: transform(panScale + zoomAmount, panAmount / 2, 0) };
+				case "zoom_out_pan_left":
+					return { from: transform(panScale + zoomAmount, panAmount / 2, 0), to: transform(panScale, -panAmount / 2, 0) };
+				case "zoom_out_pan_right":
+					return { from: transform(panScale + zoomAmount, -panAmount / 2, 0), to: transform(panScale, panAmount / 2, 0) };
+				default:
+					return { from: transform(minScale), to: transform(minScale + zoomAmount) };
+			}
+		}
+		function mapCamera(camera) {
+			switch (camera) {
+				case "pan_left":
+				case "pan_right":
+				case "pan_up":
+				case "pan_down":
+				case "zoom_out":
+				case "zoom_in_pan_left":
+				case "zoom_in_pan_right":
+				case "zoom_out_pan_left":
+				case "zoom_out_pan_right":
+					return camera;
+				case "static":
+					return "zoom_in";
+				case "drop_in":
+					return "zoom_in";
+				default:
+					return "zoom_in";
+			}
+		}
+		function setupCodeHikeTokenTransitions(scene) {
+			const sceneElement = document.getElementById(scene.id);
+			if (!sceneElement) return;
+			const transitionTokens = Array.from(sceneElement.querySelectorAll("[data-codehike-transition-token='true'], .hf-codehike-token-exit"));
+			for (const token of transitionTokens) {
+				const fromX = Number(token.getAttribute("data-from-x") || 0);
+				const fromY = Number(token.getAttribute("data-from-y") || 0);
+				const toX = Number(token.getAttribute("data-to-x") || 0);
+				const toY = Number(token.getAttribute("data-to-y") || 0);
+				const fromOpacity = Number(token.getAttribute("data-from-opacity") || 0);
+				const toOpacity = Number(token.getAttribute("data-to-opacity") || 0);
+				const fromColor = token.getAttribute("data-from-color") || "#e1e4e8";
+				const toColor = token.getAttribute("data-to-color") || fromColor;
+				const delay = Number(token.getAttribute("data-delay-frames") || 0) / 30;
+				const duration = Math.max(1 / 30, Number(token.getAttribute("data-duration-frames") || 1) / 30);
+				tl.set(token, { opacity: fromOpacity, x: fromX, y: fromY, color: fromColor }, scene.start);
+				tl.to(
+					token,
+					{ opacity: toOpacity, x: toX, y: toY, color: toColor, duration, ease: "power2.inOut" },
+					scene.start + delay,
+				);
+				if (token.classList.contains("hf-codehike-token-exit")) {
+					tl.set(token, { opacity: 0 }, scene.start + delay + duration + 1 / 30);
+				}
+			}
+		}
+		
+		const romanCaptionPages = [{"id":"roman-caption-page-0","start":0},{"id":"roman-caption-page-1","start":1.081},{"id":"roman-caption-page-2","start":1.67},{"id":"roman-caption-page-3","start":2.645},{"id":"roman-caption-page-4","start":3.725},{"id":"roman-caption-page-5","start":4.445},{"id":"roman-caption-page-6","start":5.111},{"id":"roman-caption-page-7","start":7.125},{"id":"roman-caption-page-8","start":8.068},{"id":"roman-caption-page-9","start":9.459},{"id":"roman-caption-page-10","start":11.759},{"id":"roman-caption-page-11","start":13.306},{"id":"roman-caption-page-12","start":15.092},{"id":"roman-caption-page-13","start":16.552},{"id":"roman-caption-page-14","start":19.16},{"id":"roman-caption-page-15","start":20.372},{"id":"roman-caption-page-16","start":22.312},{"id":"roman-caption-page-17","start":24.051},{"id":"roman-caption-page-18","start":24.974},{"id":"roman-caption-page-19","start":26.793},{"id":"roman-caption-page-20","start":27.432},{"id":"roman-caption-page-21","start":29.331},{"id":"roman-caption-page-22","start":30.638},{"id":"roman-caption-page-23","start":32.193},{"id":"roman-caption-page-24","start":32.824},{"id":"roman-caption-page-25","start":33.491},{"id":"roman-caption-page-26","start":34.538},{"id":"roman-caption-page-27","start":37.186},{"id":"roman-caption-page-28","start":37.976},{"id":"roman-caption-page-29","start":39.106},{"id":"roman-caption-page-30","start":40.594},{"id":"roman-caption-page-31","start":41.773},{"id":"roman-caption-page-32","start":43.459},{"id":"roman-caption-page-33","start":44.496},{"id":"roman-caption-page-34","start":45.031},{"id":"roman-caption-page-35","start":47.304},{"id":"roman-caption-page-36","start":48.152},{"id":"roman-caption-page-37","start":49.405},{"id":"roman-caption-page-38","start":50.613},{"id":"roman-caption-page-39","start":51.876},{"id":"roman-caption-page-40","start":52.861},{"id":"roman-caption-page-41","start":53.795},{"id":"roman-caption-page-42","start":56.236},{"id":"roman-caption-page-43","start":56.847},{"id":"roman-caption-page-44","start":57.336},{"id":"roman-caption-page-45","start":57.948},{"id":"roman-caption-page-46","start":58.478},{"id":"roman-caption-page-47","start":60.329},{"id":"roman-caption-page-48","start":61.794},{"id":"roman-caption-page-49","start":63.594},{"id":"roman-caption-page-50","start":64.475},{"id":"roman-caption-page-51","start":66.495},{"id":"roman-caption-page-52","start":67.96},{"id":"roman-caption-page-53","start":69.091},{"id":"roman-caption-page-54","start":70.071},{"id":"roman-caption-page-55","start":71.291},{"id":"roman-caption-page-56","start":71.924}];
+		for (const page of romanCaptionPages) {
+			tl.set("#" + page.id + " .hf-roman-caption-word", { color: "#fff" }, page.start);
+			tl.fromTo("#" + page.id + " .hf-roman-caption-text", { opacity: 0, scale: 0.92, y: 6 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.4)" }, page.start);
+		}
+		const romanCaptionTokens = [{"activeColor":"#F7C204","from":0,"id":"roman-caption-0-0","pageId":"roman-caption-page-0","spokenColor":"#fff","to":0.319},{"activeColor":"#F7C204","from":0.369,"id":"roman-caption-0-1","pageId":"roman-caption-page-0","spokenColor":"#fff","to":0.719},{"activeColor":"#F7C204","from":0.765,"id":"roman-caption-0-2","pageId":"roman-caption-page-0","spokenColor":"#fff","to":1.041},{"activeColor":"#F7C204","from":1.081,"id":"roman-caption-1-0","pageId":"roman-caption-page-1","spokenColor":"#fff","to":1.201},{"activeColor":"#F7C204","from":1.261,"id":"roman-caption-1-1","pageId":"roman-caption-page-1","spokenColor":"#fff","to":1.441},{"activeColor":"#F7C204","from":1.481,"id":"roman-caption-1-2","pageId":"roman-caption-page-1","spokenColor":"#fff","to":1.601},{"activeColor":"#F7C204","from":1.67,"id":"roman-caption-2-0","pageId":"roman-caption-page-2","spokenColor":"#fff","to":2.324},{"activeColor":"#F7C204","from":2.351,"id":"roman-caption-2-1","pageId":"roman-caption-page-2","spokenColor":"#fff","to":2.441},{"activeColor":"#F7C204","from":2.445,"id":"roman-caption-2-2","pageId":"roman-caption-page-2","spokenColor":"#fff","to":2.565},{"activeColor":"#F7C204","from":2.645,"id":"roman-caption-3-0","pageId":"roman-caption-page-3","spokenColor":"#fff","to":3.125},{"activeColor":"#F7C204","from":3.125,"id":"roman-caption-3-1","pageId":"roman-caption-page-3","spokenColor":"#fff","to":3.605},{"activeColor":"#F7C204","from":3.625,"id":"roman-caption-3-2","pageId":"roman-caption-page-3","spokenColor":"#fff","to":3.715},{"activeColor":"#F7C204","from":3.725,"id":"roman-caption-4-0","pageId":"roman-caption-page-4","spokenColor":"#fff","to":3.845},{"activeColor":"#F7C204","from":3.925,"id":"roman-caption-4-1","pageId":"roman-caption-page-4","spokenColor":"#fff","to":4.245},{"activeColor":"#F7C204","from":4.277,"id":"roman-caption-4-2","pageId":"roman-caption-page-4","spokenColor":"#fff","to":4.405},{"activeColor":"#F7C204","from":4.445,"id":"roman-caption-5-0","pageId":"roman-caption-page-5","spokenColor":"#fff","to":4.565},{"activeColor":"#F7C204","from":4.609,"id":"roman-caption-5-1","pageId":"roman-caption-page-5","spokenColor":"#fff","to":4.961},{"activeColor":"#F7C204","from":4.988,"id":"roman-caption-5-2","pageId":"roman-caption-page-5","spokenColor":"#fff","to":5.087},{"activeColor":"#F7C204","from":5.111,"id":"roman-caption-6-0","pageId":"roman-caption-page-6","spokenColor":"#fff","to":5.525},{"activeColor":"#F7C204","from":5.578,"id":"roman-caption-6-1","pageId":"roman-caption-page-6","spokenColor":"#fff","to":7.124},{"activeColor":"#F7C204","from":7.124,"id":"roman-caption-6-2","pageId":"roman-caption-page-6","spokenColor":"#fff","to":7.214},{"activeColor":"#F7C204","from":7.125,"id":"roman-caption-7-0","pageId":"roman-caption-page-7","spokenColor":"#fff","to":7.244},{"activeColor":"#F7C204","from":7.284,"id":"roman-caption-7-1","pageId":"roman-caption-page-7","spokenColor":"#fff","to":7.682},{"activeColor":"#F7C204","from":7.728,"id":"roman-caption-7-2","pageId":"roman-caption-page-7","spokenColor":"#fff","to":8.004},{"activeColor":"#F7C204","from":8.068,"id":"roman-caption-8-0","pageId":"roman-caption-page-8","spokenColor":"#fff","to":8.324},{"activeColor":"#F7C204","from":8.356,"id":"roman-caption-8-1","pageId":"roman-caption-page-8","spokenColor":"#fff","to":8.484},{"activeColor":"#F7C204","from":8.555,"id":"roman-caption-8-2","pageId":"roman-caption-page-8","spokenColor":"#fff","to":9.403},{"activeColor":"#F7C204","from":9.459,"id":"roman-caption-9-0","pageId":"roman-caption-page-9","spokenColor":"#fff","to":9.683},{"activeColor":"#F7C204","from":9.74,"id":"roman-caption-9-1","pageId":"roman-caption-page-9","spokenColor":"#fff","to":10.082},{"activeColor":"#F7C204","from":10.169,"id":"roman-caption-9-2","pageId":"roman-caption-page-9","spokenColor":"#fff","to":11.759},{"activeColor":"#F7C204","from":11.759,"id":"roman-caption-10-0","pageId":"roman-caption-page-10","spokenColor":"#fff","to":11.849},{"activeColor":"#F7C204","from":11.849,"id":"roman-caption-10-1","pageId":"roman-caption-page-10","spokenColor":"#fff","to":12.479},{"activeColor":"#F7C204","from":12.532,"id":"roman-caption-10-2","pageId":"roman-caption-page-10","spokenColor":"#fff","to":13.236},{"activeColor":"#F7C204","from":13.306,"id":"roman-caption-11-0","pageId":"roman-caption-page-11","spokenColor":"#fff","to":13.516},{"activeColor":"#F7C204","from":13.585,"id":"roman-caption-11-1","pageId":"roman-caption-page-11","spokenColor":"#fff","to":13.999},{"activeColor":"#F7C204","from":14.052,"id":"roman-caption-11-2","pageId":"roman-caption-page-11","spokenColor":"#fff","to":15.036},{"activeColor":"#F7C204","from":15.092,"id":"roman-caption-12-0","pageId":"roman-caption-page-12","spokenColor":"#fff","to":15.596},{"activeColor":"#F7C204","from":15.649,"id":"roman-caption-12-1","pageId":"roman-caption-page-12","spokenColor":"#fff","to":15.914},{"activeColor":"#F7C204","from":15.976,"id":"roman-caption-12-2","pageId":"roman-caption-page-12","spokenColor":"#fff","to":16.552},{"activeColor":"#F7C204","from":16.552,"id":"roman-caption-13-0","pageId":"roman-caption-page-13","spokenColor":"#fff","to":17.632},{"activeColor":"#F7C204","from":17.672,"id":"roman-caption-13-1","pageId":"roman-caption-page-13","spokenColor":"#fff","to":17.888},{"activeColor":"#F7C204","from":17.912,"id":"roman-caption-13-2","pageId":"roman-caption-page-13","spokenColor":"#fff","to":19.112},{"activeColor":"#F7C204","from":19.16,"id":"roman-caption-14-0","pageId":"roman-caption-page-14","spokenColor":"#fff","to":19.352},{"activeColor":"#F7C204","from":19.452,"id":"roman-caption-14-1","pageId":"roman-caption-page-14","spokenColor":"#fff","to":19.752},{"activeColor":"#F7C204","from":19.832,"id":"roman-caption-14-2","pageId":"roman-caption-page-14","spokenColor":"#fff","to":20.312},{"activeColor":"#F7C204","from":20.372,"id":"roman-caption-15-0","pageId":"roman-caption-page-15","spokenColor":"#fff","to":20.792},{"activeColor":"#F7C204","from":20.872,"id":"roman-caption-15-1","pageId":"roman-caption-page-15","spokenColor":"#fff","to":21.272},{"activeColor":"#F7C204","from":21.272,"id":"roman-caption-15-2","pageId":"roman-caption-page-15","spokenColor":"#fff","to":22.232},{"activeColor":"#F7C204","from":22.312,"id":"roman-caption-16-0","pageId":"roman-caption-page-16","spokenColor":"#fff","to":22.872},{"activeColor":"#F7C204","from":22.944,"id":"roman-caption-16-1","pageId":"roman-caption-page-16","spokenColor":"#fff","to":23.592},{"activeColor":"#F7C204","from":23.659,"id":"roman-caption-16-2","pageId":"roman-caption-page-16","spokenColor":"#fff","to":23.994},{"activeColor":"#F7C204","from":24.051,"id":"roman-caption-17-0","pageId":"roman-caption-page-17","spokenColor":"#fff","to":24.393},{"activeColor":"#F7C204","from":24.46,"id":"roman-caption-17-1","pageId":"roman-caption-page-17","spokenColor":"#fff","to":24.795},{"activeColor":"#F7C204","from":24.848,"id":"roman-caption-17-2","pageId":"roman-caption-page-17","spokenColor":"#fff","to":24.954},{"activeColor":"#F7C204","from":24.974,"id":"roman-caption-18-0","pageId":"roman-caption-page-18","spokenColor":"#fff","to":25.064},{"activeColor":"#F7C204","from":25.091,"id":"roman-caption-18-1","pageId":"roman-caption-page-18","spokenColor":"#fff","to":25.433},{"activeColor":"#F7C204","from":25.513,"id":"roman-caption-18-2","pageId":"roman-caption-page-18","spokenColor":"#fff","to":26.793},{"activeColor":"#F7C204","from":26.793,"id":"roman-caption-19-0","pageId":"roman-caption-page-19","spokenColor":"#fff","to":26.883},{"activeColor":"#F7C204","from":26.85,"id":"roman-caption-19-1","pageId":"roman-caption-page-19","spokenColor":"#fff","to":27.192},{"activeColor":"#F7C204","from":27.232,"id":"roman-caption-19-2","pageId":"roman-caption-page-19","spokenColor":"#fff","to":27.352},{"activeColor":"#F7C204","from":27.432,"id":"roman-caption-20-0","pageId":"roman-caption-page-20","spokenColor":"#fff","to":28.152},{"activeColor":"#F7C204","from":28.205,"id":"roman-caption-20-1","pageId":"roman-caption-page-20","spokenColor":"#fff","to":28.311},{"activeColor":"#F7C204","from":28.391,"id":"roman-caption-20-2","pageId":"roman-caption-page-20","spokenColor":"#fff","to":29.271},{"activeColor":"#F7C204","from":29.331,"id":"roman-caption-21-0","pageId":"roman-caption-page-21","spokenColor":"#fff","to":29.511},{"activeColor":"#F7C204","from":29.582,"id":"roman-caption-21-1","pageId":"roman-caption-page-21","spokenColor":"#fff","to":30.15},{"activeColor":"#F7C204","from":30.283,"id":"roman-caption-21-2","pageId":"roman-caption-page-21","spokenColor":"#fff","to":30.549},{"activeColor":"#F7C204","from":30.638,"id":"roman-caption-22-0","pageId":"roman-caption-page-22","spokenColor":"#fff","to":31.35},{"activeColor":"#F7C204","from":31.35,"id":"roman-caption-22-1","pageId":"roman-caption-page-22","spokenColor":"#fff","to":31.989},{"activeColor":"#F7C204","from":32.021,"id":"roman-caption-22-2","pageId":"roman-caption-page-22","spokenColor":"#fff","to":32.149},{"activeColor":"#F7C204","from":32.193,"id":"roman-caption-23-0","pageId":"roman-caption-page-23","spokenColor":"#fff","to":32.545},{"activeColor":"#F7C204","from":32.565,"id":"roman-caption-23-1","pageId":"roman-caption-page-23","spokenColor":"#fff","to":32.655},{"activeColor":"#F7C204","from":32.678,"id":"roman-caption-23-2","pageId":"roman-caption-page-23","spokenColor":"#fff","to":32.784},{"activeColor":"#F7C204","from":32.824,"id":"roman-caption-24-0","pageId":"roman-caption-page-24","spokenColor":"#fff","to":32.944},{"activeColor":"#F7C204","from":33.008,"id":"roman-caption-24-1","pageId":"roman-caption-page-24","spokenColor":"#fff","to":33.264},{"activeColor":"#F7C204","from":33.304,"id":"roman-caption-24-2","pageId":"roman-caption-page-24","spokenColor":"#fff","to":33.424},{"activeColor":"#F7C204","from":33.491,"id":"roman-caption-25-0","pageId":"roman-caption-page-25","spokenColor":"#fff","to":33.826},{"activeColor":"#F7C204","from":33.853,"id":"roman-caption-25-1","pageId":"roman-caption-page-25","spokenColor":"#fff","to":33.988},{"activeColor":"#F7C204","from":34.108,"id":"roman-caption-25-2","pageId":"roman-caption-page-25","spokenColor":"#fff","to":34.468},{"activeColor":"#F7C204","from":34.538,"id":"roman-caption-26-0","pageId":"roman-caption-page-26","spokenColor":"#fff","to":35.761},{"activeColor":"#F7C204","from":35.761,"id":"roman-caption-26-1","pageId":"roman-caption-page-26","spokenColor":"#fff","to":36.466},{"activeColor":"#F7C204","from":36.526,"id":"roman-caption-26-2","pageId":"roman-caption-page-26","spokenColor":"#fff","to":37.106},{"activeColor":"#F7C204","from":37.186,"id":"roman-caption-27-0","pageId":"roman-caption-page-27","spokenColor":"#fff","to":37.426},{"activeColor":"#F7C204","from":37.506,"id":"roman-caption-27-1","pageId":"roman-caption-page-27","spokenColor":"#fff","to":37.746},{"activeColor":"#F7C204","from":37.826,"id":"roman-caption-27-2","pageId":"roman-caption-page-27","spokenColor":"#fff","to":37.952},{"activeColor":"#F7C204","from":37.976,"id":"roman-caption-28-0","pageId":"roman-caption-page-28","spokenColor":"#fff","to":38.706},{"activeColor":"#F7C204","from":38.786,"id":"roman-caption-28-1","pageId":"roman-caption-page-28","spokenColor":"#fff","to":38.946},{"activeColor":"#F7C204","from":38.966,"id":"roman-caption-28-2","pageId":"roman-caption-page-28","spokenColor":"#fff","to":39.082},{"activeColor":"#F7C204","from":39.106,"id":"roman-caption-29-0","pageId":"roman-caption-page-29","spokenColor":"#fff","to":39.222},{"activeColor":"#F7C204","from":39.246,"id":"roman-caption-29-1","pageId":"roman-caption-page-29","spokenColor":"#fff","to":39.826},{"activeColor":"#F7C204","from":39.896,"id":"roman-caption-29-2","pageId":"roman-caption-page-29","spokenColor":"#fff","to":40.594},{"activeColor":"#F7C204","from":40.594,"id":"roman-caption-30-0","pageId":"roman-caption-page-30","spokenColor":"#fff","to":41.106},{"activeColor":"#F7C204","from":41.156,"id":"roman-caption-30-1","pageId":"roman-caption-page-30","spokenColor":"#fff","to":41.506},{"activeColor":"#F7C204","from":41.546,"id":"roman-caption-30-2","pageId":"roman-caption-page-30","spokenColor":"#fff","to":41.666},{"activeColor":"#F7C204","from":41.773,"id":"roman-caption-31-0","pageId":"roman-caption-page-31","spokenColor":"#fff","to":42.668},{"activeColor":"#F7C204","from":42.758,"id":"roman-caption-31-1","pageId":"roman-caption-page-31","spokenColor":"#fff","to":43.028},{"activeColor":"#F7C204","from":43.085,"id":"roman-caption-31-2","pageId":"roman-caption-page-31","spokenColor":"#fff","to":43.427},{"activeColor":"#F7C204","from":43.459,"id":"roman-caption-32-0","pageId":"roman-caption-page-32","spokenColor":"#fff","to":43.587},{"activeColor":"#F7C204","from":43.633,"id":"roman-caption-32-1","pageId":"roman-caption-page-32","spokenColor":"#fff","to":43.909},{"activeColor":"#F7C204","from":43.989,"id":"roman-caption-32-2","pageId":"roman-caption-page-32","spokenColor":"#fff","to":44.469},{"activeColor":"#F7C204","from":44.496,"id":"roman-caption-33-0","pageId":"roman-caption-page-33","spokenColor":"#fff","to":44.631},{"activeColor":"#F7C204","from":44.679,"id":"roman-caption-33-1","pageId":"roman-caption-page-33","spokenColor":"#fff","to":44.871},{"activeColor":"#F7C204","from":44.911,"id":"roman-caption-33-2","pageId":"roman-caption-page-33","spokenColor":"#fff","to":45.001},{"activeColor":"#F7C204","from":45.031,"id":"roman-caption-34-0","pageId":"roman-caption-page-34","spokenColor":"#fff","to":46.391},{"activeColor":"#F7C204","from":46.391,"id":"roman-caption-34-1","pageId":"roman-caption-page-34","spokenColor":"#fff","to":46.831},{"activeColor":"#F7C204","from":46.88,"id":"roman-caption-34-2","pageId":"roman-caption-page-34","spokenColor":"#fff","to":47.272},{"activeColor":"#F7C204","from":47.304,"id":"roman-caption-35-0","pageId":"roman-caption-page-35","spokenColor":"#fff","to":47.432},{"activeColor":"#F7C204","from":47.492,"id":"roman-caption-35-1","pageId":"roman-caption-page-35","spokenColor":"#fff","to":47.672},{"activeColor":"#F7C204","from":47.722,"id":"roman-caption-35-2","pageId":"roman-caption-page-35","spokenColor":"#fff","to":48.072},{"activeColor":"#F7C204","from":48.152,"id":"roman-caption-36-0","pageId":"roman-caption-page-36","spokenColor":"#fff","to":48.992},{"activeColor":"#F7C204","from":49.032,"id":"roman-caption-36-1","pageId":"roman-caption-page-36","spokenColor":"#fff","to":49.192},{"activeColor":"#F7C204","from":49.224,"id":"roman-caption-36-2","pageId":"roman-caption-page-36","spokenColor":"#fff","to":49.352},{"activeColor":"#F7C204","from":49.405,"id":"roman-caption-37-0","pageId":"roman-caption-page-37","spokenColor":"#fff","to":49.988},{"activeColor":"#F7C204","from":50.015,"id":"roman-caption-37-1","pageId":"roman-caption-page-37","spokenColor":"#fff","to":50.105},{"activeColor":"#F7C204","from":50.129,"id":"roman-caption-37-2","pageId":"roman-caption-page-37","spokenColor":"#fff","to":50.549},{"activeColor":"#F7C204","from":50.613,"id":"roman-caption-38-0","pageId":"roman-caption-page-38","spokenColor":"#fff","to":50.869},{"activeColor":"#F7C204","from":50.869,"id":"roman-caption-38-1","pageId":"roman-caption-page-38","spokenColor":"#fff","to":51.431},{"activeColor":"#F7C204","from":51.488,"id":"roman-caption-38-2","pageId":"roman-caption-page-38","spokenColor":"#fff","to":51.83},{"activeColor":"#F7C204","from":51.876,"id":"roman-caption-39-0","pageId":"roman-caption-page-39","spokenColor":"#fff","to":52.152},{"activeColor":"#F7C204","from":52.232,"id":"roman-caption-39-1","pageId":"roman-caption-page-39","spokenColor":"#fff","to":52.368},{"activeColor":"#F7C204","from":52.392,"id":"roman-caption-39-2","pageId":"roman-caption-page-39","spokenColor":"#fff","to":52.792},{"activeColor":"#F7C204","from":52.861,"id":"roman-caption-40-0","pageId":"roman-caption-page-40","spokenColor":"#fff","to":53.275},{"activeColor":"#F7C204","from":53.315,"id":"roman-caption-40-1","pageId":"roman-caption-page-40","spokenColor":"#fff","to":53.515},{"activeColor":"#F7C204","from":53.563,"id":"roman-caption-40-2","pageId":"roman-caption-page-40","spokenColor":"#fff","to":53.755},{"activeColor":"#F7C204","from":53.795,"id":"roman-caption-41-0","pageId":"roman-caption-page-41","spokenColor":"#fff","to":53.915},{"activeColor":"#F7C204","from":53.972,"id":"roman-caption-41-1","pageId":"roman-caption-page-41","spokenColor":"#fff","to":54.314},{"activeColor":"#F7C204","from":54.434,"id":"roman-caption-41-2","pageId":"roman-caption-page-41","spokenColor":"#fff","to":56.236},{"activeColor":"#F7C204","from":56.236,"id":"roman-caption-42-0","pageId":"roman-caption-page-42","spokenColor":"#fff","to":56.399},{"activeColor":"#F7C204","from":56.399,"id":"roman-caption-42-1","pageId":"roman-caption-page-42","spokenColor":"#fff","to":56.562},{"activeColor":"#F7C204","from":56.562,"id":"roman-caption-42-2","pageId":"roman-caption-page-42","spokenColor":"#fff","to":56.847},{"activeColor":"#F7C204","from":56.847,"id":"roman-caption-43-0","pageId":"roman-caption-page-43","spokenColor":"#fff","to":57.01},{"activeColor":"#F7C204","from":57.01,"id":"roman-caption-43-1","pageId":"roman-caption-page-43","spokenColor":"#fff","to":57.173},{"activeColor":"#F7C204","from":57.173,"id":"roman-caption-43-2","pageId":"roman-caption-page-43","spokenColor":"#fff","to":57.336},{"activeColor":"#F7C204","from":57.336,"id":"roman-caption-44-0","pageId":"roman-caption-page-44","spokenColor":"#fff","to":57.54},{"activeColor":"#F7C204","from":57.54,"id":"roman-caption-44-1","pageId":"roman-caption-page-44","spokenColor":"#fff","to":57.703},{"activeColor":"#F7C204","from":57.703,"id":"roman-caption-44-2","pageId":"roman-caption-page-44","spokenColor":"#fff","to":57.948},{"activeColor":"#F7C204","from":57.948,"id":"roman-caption-45-0","pageId":"roman-caption-page-45","spokenColor":"#fff","to":58.152},{"activeColor":"#F7C204","from":58.152,"id":"roman-caption-45-1","pageId":"roman-caption-page-45","spokenColor":"#fff","to":58.315},{"activeColor":"#F7C204","from":58.315,"id":"roman-caption-45-2","pageId":"roman-caption-page-45","spokenColor":"#fff","to":58.478},{"activeColor":"#F7C204","from":58.478,"id":"roman-caption-46-0","pageId":"roman-caption-page-46","spokenColor":"#fff","to":59.598},{"activeColor":"#F7C204","from":59.66,"id":"roman-caption-46-1","pageId":"roman-caption-page-46","spokenColor":"#fff","to":60.156},{"activeColor":"#F7C204","from":60.176,"id":"roman-caption-46-2","pageId":"roman-caption-page-46","spokenColor":"#fff","to":60.305},{"activeColor":"#F7C204","from":60.329,"id":"roman-caption-47-0","pageId":"roman-caption-page-47","spokenColor":"#fff","to":60.994},{"activeColor":"#F7C204","from":61.044,"id":"roman-caption-47-1","pageId":"roman-caption-page-47","spokenColor":"#fff","to":61.194},{"activeColor":"#F7C204","from":61.25,"id":"roman-caption-47-2","pageId":"roman-caption-page-47","spokenColor":"#fff","to":61.754},{"activeColor":"#F7C204","from":61.794,"id":"roman-caption-48-0","pageId":"roman-caption-page-48","spokenColor":"#fff","to":62.074},{"activeColor":"#F7C204","from":62.124,"id":"roman-caption-48-1","pageId":"roman-caption-page-48","spokenColor":"#fff","to":62.474},{"activeColor":"#F7C204","from":62.554,"id":"roman-caption-48-2","pageId":"roman-caption-page-48","spokenColor":"#fff","to":63.594},{"activeColor":"#F7C204","from":63.594,"id":"roman-caption-49-0","pageId":"roman-caption-page-49","spokenColor":"#fff","to":63.684},{"activeColor":"#F7C204","from":63.663,"id":"roman-caption-49-1","pageId":"roman-caption-page-49","spokenColor":"#fff","to":64.077},{"activeColor":"#F7C204","from":64.13,"id":"roman-caption-49-2","pageId":"roman-caption-page-49","spokenColor":"#fff","to":64.395},{"activeColor":"#F7C204","from":64.475,"id":"roman-caption-50-0","pageId":"roman-caption-page-50","spokenColor":"#fff","to":64.715},{"activeColor":"#F7C204","from":64.808,"id":"roman-caption-50-1","pageId":"roman-caption-page-50","spokenColor":"#fff","to":65.673},{"activeColor":"#F7C204","from":65.74,"id":"roman-caption-50-2","pageId":"roman-caption-page-50","spokenColor":"#fff","to":66.435},{"activeColor":"#F7C204","from":66.495,"id":"roman-caption-51-0","pageId":"roman-caption-page-51","spokenColor":"#fff","to":66.955},{"activeColor":"#F7C204","from":66.995,"id":"roman-caption-51-1","pageId":"roman-caption-page-51","spokenColor":"#fff","to":67.115},{"activeColor":"#F7C204","from":67.206,"id":"roman-caption-51-2","pageId":"roman-caption-page-51","spokenColor":"#fff","to":67.96},{"activeColor":"#F7C204","from":67.96,"id":"roman-caption-52-0","pageId":"roman-caption-page-52","spokenColor":"#fff","to":68.472},{"activeColor":"#F7C204","from":68.525,"id":"roman-caption-52-1","pageId":"roman-caption-page-52","spokenColor":"#fff","to":68.631},{"activeColor":"#F7C204","from":68.711,"id":"roman-caption-52-2","pageId":"roman-caption-page-52","spokenColor":"#fff","to":69.031},{"activeColor":"#F7C204","from":69.091,"id":"roman-caption-53-0","pageId":"roman-caption-page-53","spokenColor":"#fff","to":69.271},{"activeColor":"#F7C204","from":69.351,"id":"roman-caption-53-1","pageId":"roman-caption-page-53","spokenColor":"#fff","to":69.751},{"activeColor":"#F7C204","from":69.799,"id":"roman-caption-53-2","pageId":"roman-caption-page-53","spokenColor":"#fff","to":69.991},{"activeColor":"#F7C204","from":70.071,"id":"roman-caption-54-0","pageId":"roman-caption-page-54","spokenColor":"#fff","to":70.551},{"activeColor":"#F7C204","from":70.631,"id":"roman-caption-54-1","pageId":"roman-caption-page-54","spokenColor":"#fff","to":71.031},{"activeColor":"#F7C204","from":71.091,"id":"roman-caption-54-2","pageId":"roman-caption-page-54","spokenColor":"#fff","to":71.271},{"activeColor":"#F7C204","from":71.291,"id":"roman-caption-55-0","pageId":"roman-caption-page-55","spokenColor":"#fff","to":71.381},{"activeColor":"#F7C204","from":71.404,"id":"roman-caption-55-1","pageId":"roman-caption-page-55","spokenColor":"#fff","to":71.669},{"activeColor":"#F7C204","from":71.722,"id":"roman-caption-55-2","pageId":"roman-caption-page-55","spokenColor":"#fff","to":71.828},{"activeColor":"#F7C204","from":71.924,"id":"roman-caption-56-0","pageId":"roman-caption-page-56","spokenColor":"#fff","to":72.308}];
+		for (const token of romanCaptionTokens) {
+			tl.set("#" + token.pageId + " .hf-roman-caption-word", { color: token.spokenColor }, token.from);
+			tl.set("#" + token.id, { color: token.activeColor }, token.from);
+			tl.set("#" + token.id, { color: token.spokenColor }, token.to);
+		}
+
+		const registerTimeline = () => {
+			window.__timelines["brainjuice-animated-video-roman-empire-fall-grok-nano-banana"] = tl;
+		};
+		registerTimeline();
+	</script></body></html>

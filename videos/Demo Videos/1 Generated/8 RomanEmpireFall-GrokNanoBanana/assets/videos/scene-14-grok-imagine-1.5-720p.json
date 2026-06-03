@@ -1,0 +1,37 @@
+{
+  "scene": 14,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 6,
+  "voiceoverDurationSeconds": 5.116,
+  "voiceoverStartSeconds": 58.478,
+  "voiceoverEndSeconds": 63.594,
+  "voiceoverText": "Rome survived the shock, but authority stopped feeling sacred.",
+  "imagePrompt": "Rome's marketplace still beautiful but tense, aqueduct arches above, citizens freeze as armed soldiers march straight through the center, interrupting daily life.",
+  "videoPrompt": "Soldiers march through the crowd, citizens step aside, cloth awnings ripple, camera follows a child watching the troops pass.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-14-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-14-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb525/Z288IvQNYmK8YiV2sa-9u_Z2d0N8LP.mp4",
+  "requestId": "019e8964-0ef1-7062-9d60-2db754bc36dc",
+  "generatedAt": "2026-06-02T17:32:28.395Z",
+  "latencyMs": {
+    "upload": 1734,
+    "generation": 50852,
+    "download": 1367,
+    "total": 53953
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb525/Z288IvQNYmK8YiV2sa-9u_Z2d0N8LP.mp4",
+      "content_type": "video/mp4",
+      "file_name": "Z288IvQNYmK8YiV2sa-9u_Z2d0N8LP.mp4",
+      "file_size": 9925413,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 6.041667,
+      "num_frames": 145
+    }
+  }
+}

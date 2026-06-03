@@ -1,0 +1,37 @@
+{
+  "scene": 5,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.72,
+  "voiceoverStartSeconds": 16.552,
+  "voiceoverEndSeconds": 21.272,
+  "voiceoverText": "Then, in 235, that old system cracked open.",
+  "imagePrompt": "Cold frontier command tent, year 235 implied by Roman campaign gear, Severus Alexander bends over maps as wind pulls open the tent flap revealing restless troops outside.",
+  "videoPrompt": "Wind bursts through the tent, maps flutter, the emperor pins them down while silhouettes of soldiers gather outside.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-05-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-05-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb51a/ioXZS-iqlZtcZqq9sdjTA_wZTZJtf2.mp4",
+  "requestId": "019e8962-4936-7192-a7c3-79c104e7d6cf",
+  "generatedAt": "2026-06-02T17:30:36.126Z",
+  "latencyMs": {
+    "upload": 1745,
+    "generation": 52848,
+    "download": 3254,
+    "total": 57847
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb51a/ioXZS-iqlZtcZqq9sdjTA_wZTZJtf2.mp4",
+      "content_type": "video/mp4",
+      "file_name": "ioXZS-iqlZtcZqq9sdjTA_wZTZJtf2.mp4",
+      "file_size": 6874213,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

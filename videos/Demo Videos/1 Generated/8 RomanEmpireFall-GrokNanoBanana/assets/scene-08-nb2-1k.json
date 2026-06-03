@@ -1,0 +1,45 @@
+{
+  "characters": [
+    "veteran-guard",
+    "severus-alexander"
+  ],
+  "sceneNumber": 8,
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-02T17:05:22.342Z",
+  "imageSize": "1K",
+  "latencyMs": 46507,
+  "latencySeconds": 46.507,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-08-nb2-1k.jpg",
+  "references": [
+    "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/references/panel-08.jpg",
+    "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/references/panel-08-neighborhood-2x2.jpg",
+    "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/characters/veteran-guard-portrait-nb2-1k.jpg",
+    "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/characters/severus-alexander-portrait-nb2-1k.jpg"
+  ],
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 1330,
+    "candidatesTokenCount": 2227,
+    "totalTokenCount": 5582,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 298
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1032
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 2025,
+    "serviceTier": "standard"
+  }
+}

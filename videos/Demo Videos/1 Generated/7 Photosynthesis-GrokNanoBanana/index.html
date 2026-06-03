@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=392, height=768" />
+    <title>How Photosynthesis Works</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "Anton";
+        font-display: swap;
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Fanton-400.woff2?alt=media") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Inter";
+        font-display: swap;
+        font-style: normal;
+        font-weight: 400 900;
+        src: url("https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Finter-900.woff2?alt=media") format("woff2");
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        background: #000;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      [data-composition-id] {
+        background: #000;
+        color: #fff;
+        font-family: Inter, system-ui, sans-serif;
+        height: 768px;
+        overflow: hidden;
+        position: relative;
+        width: 392px;
+      }
+
+      .hf-scene,
+      .hf-scene-media,
+      .hf-gradient,
+      .hf-caption-page,
+      .hf-title-layer,
+      .hf-vignette {
+        inset: 0;
+        position: absolute;
+      }
+
+      .hf-scene {
+        background: #050505;
+        clip-path: inset(0);
+        overflow: hidden;
+        z-index: 2;
+      }
+
+      .hf-scene.has-media {
+        background: transparent;
+        pointer-events: none;
+      }
+
+      .hf-scene-media {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .hf-scene-bg-image {
+        filter: blur(32px) brightness(0.48) saturate(1.24);
+        transform: scale(1.14);
+        z-index: 0;
+      }
+
+      .hf-scene-video {
+        object-fit: contain;
+        z-index: 2;
+      }
+
+      .hf-scene-still {
+        object-fit: contain;
+        z-index: 1;
+      }
+
+      .hf-gradient {
+        background: radial-gradient(circle at 50% 48%, rgba(0, 0, 0, 0) 24%, rgba(0, 0, 0, 0.32) 100%);
+        pointer-events: none;
+        z-index: 3;
+      }
+
+      .hf-vignette {
+        background:
+          linear-gradient(to top, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.2) 34%, rgba(0, 0, 0, 0.18)),
+          linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0) 22%);
+        pointer-events: none;
+        z-index: 4;
+      }
+
+      .hf-title-layer {
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        padding: 42px 26px 0;
+        pointer-events: none;
+        text-align: center;
+        z-index: 9;
+      }
+
+      .hf-narrated-title {
+        color: #fff;
+        font-family: Anton, sans-serif;
+        font-size: 40px;
+        letter-spacing: 0;
+        line-height: 0.94;
+        max-width: 342px;
+        text-shadow: 0 5px 28px rgba(0, 0, 0, 0.92);
+        text-transform: uppercase;
+      }
+
+      .hf-caption-page {
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+        padding: 0 24px 104px;
+        pointer-events: none;
+        z-index: 10;
+      }
+
+      .hf-caption-text {
+        color: #fff;
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 1.05;
+        max-width: 350px;
+        paint-order: stroke;
+        text-align: center;
+        text-shadow:
+          0 3px 0 rgba(0, 0, 0, 0.68),
+          0 8px 26px rgba(0, 0, 0, 0.88);
+        -webkit-text-stroke: 6px rgba(0, 0, 0, 0.72);
+      }
+
+      .hf-caption-text span {
+        display: inline;
+        transition: color 0.12s linear;
+      }
+
+      .hf-energy-wisp {
+        background: radial-gradient(circle, rgba(255, 221, 106, 0.95), rgba(255, 221, 106, 0) 68%);
+        border-radius: 999px;
+        filter: blur(1px);
+        height: 132px;
+        opacity: 0.42;
+        position: absolute;
+        right: 10px;
+        top: 100px;
+        width: 132px;
+        z-index: 5;
+      }
+
+      .hf-footer-chip {
+        align-items: center;
+        background: rgba(0, 0, 0, 0.38);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 999px;
+        bottom: 28px;
+        color: rgba(255, 255, 255, 0.74);
+        display: flex;
+        font-size: 11px;
+        font-weight: 800;
+        gap: 7px;
+        left: 50%;
+        letter-spacing: 0.7px;
+        padding: 8px 12px;
+        position: absolute;
+        text-transform: uppercase;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        z-index: 12;
+      }
+
+      .hf-footer-chip::before {
+        background: #d7f25d;
+        border-radius: 999px;
+        box-shadow: 0 0 14px rgba(215, 242, 93, 0.72);
+        content: "";
+        height: 7px;
+        width: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="hf-template-AnimatedVideoTemplate"
+      data-composition-id="photosynthesis-grok-nanobanana"
+      data-duration="61.752"
+      data-height="768"
+      data-start="0"
+      data-width="392"
+      id="photosynthesis-grok-nanobanana"
+    >
+      <div class="clip hf-title-layer" data-duration="61.752" data-start="0" data-track-index="5" id="hf-persistent-title">
+        <div class="hf-narrated-title">How Photosynthesis Works</div>
+      </div>
+
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="0" data-track-index="200" id="hf-scene-bg-image-0" src="assets/placeholders/scene-1.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="6" data-track-index="201" id="hf-scene-bg-image-1" src="assets/placeholders/scene-2.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="12" data-track-index="202" id="hf-scene-bg-image-2" src="assets/placeholders/scene-3.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="18" data-track-index="203" id="hf-scene-bg-image-3" src="assets/placeholders/scene-4.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="24" data-track-index="204" id="hf-scene-bg-image-4" src="assets/placeholders/scene-5.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="30" data-track-index="205" id="hf-scene-bg-image-5" src="assets/placeholders/scene-6.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="36" data-track-index="206" id="hf-scene-bg-image-6" src="assets/placeholders/scene-7.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="42" data-track-index="207" id="hf-scene-bg-image-7" src="assets/placeholders/scene-8.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="6" data-layout-allow-overflow="" data-start="48" data-track-index="208" id="hf-scene-bg-image-8" src="assets/placeholders/scene-9.svg" alt="" />
+      <img class="clip hf-scene-media hf-scene-bg-image" data-duration="7.752" data-layout-allow-overflow="" data-start="54" data-track-index="209" id="hf-scene-bg-image-9" src="assets/placeholders/scene-10.svg" alt="" />
+
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="0" data-track-index="300" id="hf-scene-video-0" loop muted playsinline poster="assets/placeholders/scene-1.svg" src="assets/panel-1.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="6" data-track-index="301" id="hf-scene-video-1" loop muted playsinline poster="assets/placeholders/scene-2.svg" src="assets/panel-2.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="12" data-track-index="302" id="hf-scene-video-2" loop muted playsinline poster="assets/placeholders/scene-3.svg" src="assets/panel-3.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="18" data-track-index="303" id="hf-scene-video-3" loop muted playsinline poster="assets/placeholders/scene-4.svg" src="assets/panel-4.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="24" data-track-index="304" id="hf-scene-video-4" loop muted playsinline poster="assets/placeholders/scene-5.svg" src="assets/panel-5.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="30" data-track-index="305" id="hf-scene-video-5" loop muted playsinline poster="assets/placeholders/scene-6.svg" src="assets/panel-6.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="36" data-track-index="306" id="hf-scene-video-6" loop muted playsinline poster="assets/placeholders/scene-7.svg" src="assets/panel-7.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="42" data-track-index="307" id="hf-scene-video-7" loop muted playsinline poster="assets/placeholders/scene-8.svg" src="assets/panel-8.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="6" data-start="48" data-track-index="308" id="hf-scene-video-8" loop muted playsinline poster="assets/placeholders/scene-9.svg" src="assets/panel-9.mp4"></video>
+      <video class="clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="7.752" data-start="54" data-track-index="309" id="hf-scene-video-9" loop muted playsinline poster="assets/placeholders/scene-10.svg" src="assets/panel-10.mp4"></video>
+
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="0" data-track-index="10" id="hf-scene-0">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="6" data-track-index="11" id="hf-scene-1">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="12" data-track-index="12" id="hf-scene-2">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="18" data-track-index="13" id="hf-scene-3">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="24" data-track-index="14" id="hf-scene-4">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="30" data-track-index="15" id="hf-scene-5">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="36" data-track-index="16" id="hf-scene-6">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="42" data-track-index="17" id="hf-scene-7">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="6" data-start="48" data-track-index="18" id="hf-scene-8">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+      <section class="scene clip hf-scene has-media" data-duration="7.752" data-start="54" data-track-index="19" id="hf-scene-9">
+        <div class="hf-gradient"></div><div class="hf-vignette"></div><div class="hf-energy-wisp"></div>
+      </section>
+
+      <audio class="clip" data-duration="61.752" data-start="0" data-track-index="600" id="hf-global-audio" preload="auto" src="assets/audio.mp3"></audio>
+
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="0" data-track-index="900" id="hf-caption-page-0"><div class="hf-caption-text"><span>Plants do not eat sunlight.</span><br /><span>They use it like a battery charger.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="6" data-track-index="901" id="hf-caption-page-1"><div class="hf-caption-text"><span>Inside each leaf cell,</span><br /><span>chloroplasts catch light.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="12" data-track-index="902" id="hf-caption-page-2"><div class="hf-caption-text"><span>Light energy splits water</span><br /><span>into hydrogen, electrons, and oxygen.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="18" data-track-index="903" id="hf-caption-page-3"><div class="hf-caption-text"><span>Oxygen is not the goal.</span><br /><span>It is leftover waste.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="24" data-track-index="904" id="hf-caption-page-4"><div class="hf-caption-text"><span>Carbon dioxide slips in</span><br /><span>through tiny pores.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="30" data-track-index="905" id="hf-caption-page-5"><div class="hf-caption-text"><span>The plant now has carbon,</span><br /><span>hydrogen, and captured energy.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="36" data-track-index="906" id="hf-caption-page-6"><div class="hf-caption-text"><span>The Calvin cycle locks</span><br /><span>carbon atoms into sugar.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="42" data-track-index="907" id="hf-caption-page-7"><div class="hf-caption-text"><span>Glucose stores energy</span><br /><span>the plant can use later.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="6" data-layout-allow-overflow="" data-start="48" data-track-index="908" id="hf-caption-page-8"><div class="hf-caption-text"><span>Stored sunlight becomes leaves,</span><br /><span>roots, fruit, and food.</span></div></div>
+      <div class="clip hf-caption-page" data-duration="7.752" data-layout-allow-overflow="" data-start="54" data-track-index="909" id="hf-caption-page-9"><div class="hf-caption-text"><span>Photosynthesis turns sunlight, water,</span><br /><span>and air into life.</span></div></div>
+
+      <div class="hf-footer-chip">Grok Imagine 1.5 + Nano Banana 2</div>
+    </main>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const sceneStarts = [0, 6, 12, 18, 24, 30, 36, 42, 48, 54];
+      const sceneDurations = [6, 6, 6, 6, 6, 6, 6, 6, 6, 7.752];
+
+      for (let i = 0; i < sceneStarts.length; i++) {
+        const start = sceneStarts[i];
+        const duration = sceneDurations[i];
+        tl.fromTo(`#hf-scene-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.26, ease: "power1.out" }, start);
+        tl.fromTo(`#hf-scene-bg-image-${i}`, { scale: 1.18 }, { scale: 1.14, duration: duration - 0.2, ease: "none" }, start);
+        tl.fromTo(`#hf-scene-video-${i}`, { scale: 1.018, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.42, ease: "power2.out" }, start + 0.1);
+        tl.fromTo(`#hf-caption-page-${i} .hf-caption-text`, { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, start + 0.2);
+        tl.to(`#hf-caption-page-${i} .hf-caption-text span`, { color: "#D7F25D", duration: 0.18, stagger: 0.52, ease: "none" }, start + 0.55);
+        tl.to(`#hf-caption-page-${i} .hf-caption-text`, { y: -12, opacity: 0, duration: 0.22, ease: "power2.in" }, start + duration - 0.28);
+        tl.to(`#hf-scene-${i}`, { opacity: 0, duration: 0.22, ease: "power1.in" }, start + duration - 0.14);
+      }
+
+      tl.fromTo(".hf-narrated-title", { y: -18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out" }, 0.15);
+      tl.to(".hf-footer-chip", { opacity: 0, duration: 0.25, ease: "power2.in" }, 56);
+      window.__timelines["photosynthesis-grok-nanobanana"] = tl;
+    </script>
+  </body>
+</html>

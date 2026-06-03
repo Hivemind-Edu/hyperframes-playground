@@ -1,0 +1,37 @@
+{
+  "scene": 15,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.366,
+  "voiceoverStartSeconds": 63.594,
+  "voiceoverEndSeconds": 67.96,
+  "voiceoverText": "The empire still had walls, roads, taxes, and armies.",
+  "imagePrompt": "Portrait vertical travel shot of Roman power still functioning: road below, aqueduct above, tax clerks and marching troops layered upward through the frame under heavy clouds.",
+  "videoPrompt": "Camera glides upward from road stones to aqueduct arches as troops march below, tax papers flutter, storm clouds moving overhead.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-15-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-15-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb529/pXUWWWvFwo4WsoNP1SG2l_qXoz1eih.mp4",
+  "requestId": "019e8964-a33d-7c40-9f4b-b22d8c121746",
+  "generatedAt": "2026-06-02T17:33:06.139Z",
+  "latencyMs": {
+    "upload": 1806,
+    "generation": 50561,
+    "download": 1426,
+    "total": 53793
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb529/pXUWWWvFwo4WsoNP1SG2l_qXoz1eih.mp4",
+      "content_type": "video/mp4",
+      "file_name": "pXUWWWvFwo4WsoNP1SG2l_qXoz1eih.mp4",
+      "file_size": 8683347,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

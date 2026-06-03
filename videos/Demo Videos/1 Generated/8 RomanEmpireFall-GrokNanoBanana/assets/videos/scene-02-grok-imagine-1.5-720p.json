@@ -1,0 +1,37 @@
+{
+  "scene": 2,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 4,
+  "voiceoverDurationSeconds": 3.999,
+  "voiceoverStartSeconds": 3.125,
+  "voiceoverEndSeconds": 7.124,
+  "voiceoverText": "It was the army that was supposed to defend it.",
+  "imagePrompt": "A Roman barracks courtyard packed with soldiers, shields stacked high along both sides, one veteran steps forward from the crowd as others close ranks behind him.",
+  "videoPrompt": "Soldiers shift into a tight formation around the viewer, shields clatter, a veteran steps into foreground, banners whipping overhead.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-02-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-02-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb503/F2rMBZDXVDVJjKT7qWgJO_MBOnl5f0.mp4",
+  "requestId": "019e895e-c88f-7853-814d-7b07f932ddf6",
+  "generatedAt": "2026-06-02T17:26:42.053Z",
+  "latencyMs": {
+    "upload": 1729,
+    "generation": 50262,
+    "download": 1300,
+    "total": 53291
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb503/F2rMBZDXVDVJjKT7qWgJO_MBOnl5f0.mp4",
+      "content_type": "video/mp4",
+      "file_name": "F2rMBZDXVDVJjKT7qWgJO_MBOnl5f0.mp4",
+      "file_size": 5789013,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 4.041667,
+      "num_frames": 97
+    }
+  }
+}

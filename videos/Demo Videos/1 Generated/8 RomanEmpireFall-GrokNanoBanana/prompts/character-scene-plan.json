@@ -1,0 +1,117 @@
+{
+  "model": {
+    "image": "gemini-3.1-flash-image",
+    "aspectRatio": "9:16",
+    "imageSize": "1K",
+    "thinkingLevel": "high"
+  },
+  "stylePrompt": "Traditional hand-painted animation cel illustration in the style of Studio Ghibli, specifically the painterly warmth of Hayao Miyazaki's films. Characters drawn with soft rounded features, large expressive eyes full of genuine emotion, simple noses and mouths that carry enormous feeling through subtle shifts, hair and cloth moving with natural weight. Rich natural colors, warm golds, deep earthy browns, soft blue dusk sky, weathered Roman stone, bronze armor, dusty amber atmosphere. Backgrounds are lavish hand-painted watercolor and gouache with visible paper texture and individually crafted surfaces. Light is soft and golden, magic-hour warmth, shadows are warm not cold. No harsh lines, no sharp digital edges, no flat cel-shading. The mood is melancholy beauty and quiet historical tragedy.",
+  "characters": [
+    {
+      "id": "veteran-guard",
+      "name": "Veteran Roman Guard",
+      "referencePanels": [1, 2, 7, 14],
+      "prompt": "Create a clean half-body portrait reference of the recurring weathered Roman veteran guard. He is an older broad Roman soldier with short grey hair, short grey beard, tired scarred face, stern worried eyes, bronze armor, leather shoulder pieces, and a faded red cloak wrapped around his shoulders. Preserve the face and costume from the reference panels. Neutral softly painted dusk-stone background, centered portrait, video-ready, no text, no labels, no logos, no watermarks."
+    },
+    {
+      "id": "severus-alexander",
+      "name": "Severus Alexander",
+      "referencePanels": [3, 4, 5, 6],
+      "prompt": "Create a clean half-body portrait reference of the recurring young emperor Severus Alexander. He is slim and anxious, youthful soft face, short dark curly hair, large uncertain eyes, pale cream Roman cloak with subtle gold trim, delicate posture, not battle-hardened. Preserve the face and costume from the reference panels. Neutral softly painted marble background, centered portrait, video-ready, no text, no labels, no logos, no watermarks."
+    },
+    {
+      "id": "old-senator",
+      "name": "Old Senator",
+      "referencePanels": [3, 4],
+      "prompt": "Create a clean half-body portrait reference of the recurring old Roman senator. He is elderly, narrow solemn face, full white beard, white hair, white toga, dignified posture, tired but authoritative eyes. Preserve the face and costume from the reference panels. Neutral softly painted marble background, centered portrait, video-ready, no text, no labels, no logos, no watermarks."
+    },
+    {
+      "id": "maximinus-thrax",
+      "name": "Maximinus Thrax",
+      "referencePanels": [9, 10],
+      "prompt": "Create a clean half-body portrait reference of the recurring Maximinus Thrax. He is extremely tall and massive, a rough frontier soldier with a broad scarred face, heavy brow, short dark hair, rough cloak, scarred bronze armor, muddy soldier presence, physically imposing but still human. Preserve the face and costume from the reference panels. Neutral softly painted stormy camp background, centered portrait, video-ready, no text, no labels, no logos, no watermarks."
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 1. Recreate the same weathered Roman veteran guard at Rome's outer wall at dusk. Preserve the same composition: guard chest-up in lower-left and center-left foreground, tall square crenellated tower on left, lower wall and small arched gate on right-middle background, open blue-grey valley and low hills beyond, two distant orange fires near the horizon with smoke rising, blue-purple dusk sky with warm orange near horizon. Do not redesign, do not add new architecture, do not crop tighter. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 2,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 2. Recreate the tense Roman barracks courtyard with the same veteran guard centered among soldiers, shields and spears forming vertical lines around him, warm stone courtyard and red cloaks. Preserve the original panel composition and character placement while improving detail and fidelity. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 3,
+      "characters": ["severus-alexander", "old-senator", "veteran-guard"],
+      "prompt": "Exact enhancement of panel 3. Recreate Severus Alexander standing anxiously in a marble throne hall between old senators in white togas and armored Roman officers. Preserve the central young emperor, columns, torches, and competing walls of people from the original panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 4,
+      "characters": ["severus-alexander", "old-senator"],
+      "prompt": "Exact enhancement of panel 4. Recreate the old senator presenting ancestral masks and scrolls to Severus Alexander in a solemn marble interior. Preserve their positions, the senator's white toga, the young emperor's pale cloak, and the golden masks on the table. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 5,
+      "characters": ["severus-alexander"],
+      "prompt": "Exact enhancement of panel 5. Recreate Severus Alexander leaning over frontier maps in a cold command tent, with restless troops outside in grey mist. Preserve the map table, the young emperor's worried pose, the open tent edge, and the muted frontier atmosphere. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 6,
+      "characters": ["severus-alexander", "veteran-guard"],
+      "prompt": "Exact enhancement of panel 6. Recreate Severus Alexander offering gold and treaty gifts to Germanic envoys across a rough table while Roman officers stand behind him in anger. Preserve the frontier setting, the young emperor, the envoy figures, and the tense officers from the source panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 7,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 7. Recreate angry Roman soldiers around a low campfire at night, with the veteran guard rising and gripping a sword while other soldiers watch. Preserve the campfire center, dark mountains, red cloaks, and tense semicircle of soldiers. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 8,
+      "characters": ["veteran-guard", "severus-alexander"],
+      "prompt": "Exact enhancement of panel 8. Recreate soldiers rushing into an imperial tent at night, torn red fabric overhead, swinging lamplight, scattered maps and objects on the floor, violence implied but not graphic. Preserve the chaotic tent composition and red fabric from the original panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 9,
+      "characters": ["maximinus-thrax"],
+      "prompt": "Exact enhancement of panel 9. Recreate Maximinus Thrax standing above a roaring crowd of muddy frontier troops, imposing and massive, with soldiers cheering below and warm camp light behind him. Preserve the heroic vertical framing from the original panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 10,
+      "characters": ["maximinus-thrax"],
+      "prompt": "Exact enhancement of panel 10. Recreate Maximinus Thrax or the new soldier-emperor raised above troops in a camp, surrounded by spears and shields under heavy clouds. Preserve the vertical forest of spears, crowded soldiers, and central raised figure from the source panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 11,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 11. Recreate a torchlit military camp where an ambitious Roman officer reaches for an imperial purple cloak while soldiers look on. Preserve the camp tents, torchlight, purple cloth, and soldiers' arrangement from the source panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 12,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 12. Recreate the army payday close-up with coin sacks dumped beside a purple cloak and imperial standard, soldiers' hands reaching in from every side. Preserve the top-down close composition, gold coins, purple cloth, and Roman eagle detail. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 13,
+      "characters": ["severus-alexander"],
+      "prompt": "Exact enhancement of panel 13. Recreate the emperor walking through a dark Praetorian corridor at night while guards close in behind him, tall lamps and columns making a narrowing tunnel. Preserve the young emperor's pale cloak and the guard placement from the source panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 14,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 14. Recreate the beautiful but tense Roman marketplace with aqueduct arches above and soldiers marching through daily life. Preserve the central marching soldier, market stalls, warm stone streets, and uneasy civilians from the source panel. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 15,
+      "characters": ["veteran-guard"],
+      "prompt": "Exact enhancement of panel 15. Recreate the vertical layered view of Roman systems still functioning: road stones, tax clerks at tables, marching troops, aqueduct arches, heavy clouds. Preserve the original composition and melancholic atmosphere. Clean video-ready frame, no text, no labels, no borders."
+    },
+    {
+      "id": 16,
+      "characters": [],
+      "prompt": "Exact enhancement of panel 16. Recreate the empty imperial throne in a dim marble hall, with a soldier's helmet and a senator's scroll abandoned nearby, dust glowing in golden light. Preserve the quiet symmetrical throne composition from the source panel. Clean video-ready frame, no text, no labels, no borders."
+    }
+  ]
+}

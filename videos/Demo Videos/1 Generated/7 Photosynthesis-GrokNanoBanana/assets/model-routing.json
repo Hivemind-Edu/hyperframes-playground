@@ -1,0 +1,22 @@
+{
+  "imageModel": {
+    "name": "Nano Banana 2",
+    "modelId": "gemini-3.1-flash-image",
+    "aspectRatio": "9:16",
+    "imageSize": "1K"
+  },
+  "note": "Direct scene-by-scene generation. No panel batching or composed image grid is used.",
+  "ttsModel": {
+    "name": "Gemini TTS",
+    "modelId": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "languageCode": "en-US"
+  },
+  "videoModel": {
+    "name": "Grok Imagine Video 1.5",
+    "endpoint": "xai/grok-imagine-video/v1.5/image-to-video",
+    "aspectRatio": "9:16",
+    "durationSeconds": 6,
+    "resolution": "720p"
+  }
+}

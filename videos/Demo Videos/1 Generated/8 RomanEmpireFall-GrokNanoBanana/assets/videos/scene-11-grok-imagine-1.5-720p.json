@@ -1,0 +1,37 @@
+{
+  "scene": 11,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.478,
+  "voiceoverStartSeconds": 46.391,
+  "voiceoverEndSeconds": 50.869,
+  "voiceoverText": "Soon, generals were not serving emperors. They were auditioning to replace them.",
+  "imagePrompt": "Multiple ambitious generals in separate campfires suggested in one cinematic scene: foreground general reaches for a purple cloak while other torchlit figures mirror him in depth.",
+  "videoPrompt": "The foreground general grabs imperial purple as background commanders turn toward their own troops, torches flaring in sequence through the camp.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-11-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-11-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb524/hUp9BEPfdw1hpi0a_FHAj_jx09519E.mp4",
+  "requestId": "019e8963-d962-7402-b59c-0194b05e0c7f",
+  "generatedAt": "2026-06-02T17:32:12.209Z",
+  "latencyMs": {
+    "upload": 1768,
+    "generation": 47560,
+    "download": 2181,
+    "total": 51509
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb524/hUp9BEPfdw1hpi0a_FHAj_jx09519E.mp4",
+      "content_type": "video/mp4",
+      "file_name": "hUp9BEPfdw1hpi0a_FHAj_jx09519E.mp4",
+      "file_size": 6125333,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

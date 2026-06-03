@@ -1,0 +1,40 @@
+{
+  "characters": [],
+  "sceneNumber": 16,
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-02T17:05:05.678Z",
+  "imageSize": "1K",
+  "latencyMs": 29836,
+  "latencySeconds": 29.836,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-16-nb2-1k.jpg",
+  "references": [
+    "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/references/panel-16.jpg",
+    "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/references/panel-16-neighborhood-2x2.jpg"
+  ],
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 811,
+    "candidatesTokenCount": 1583,
+    "totalTokenCount": 4156,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 295
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 1762,
+    "serviceTier": "standard"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene": 9,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.833,
+  "voiceoverStartSeconds": 35.761,
+  "voiceoverEndSeconds": 40.594,
+  "voiceoverText": "Maximinus Thrax was not a senator. He was a soldier’s soldier.",
+  "imagePrompt": "Maximinus Thrax in portrait heroic framing, a huge muddy frontier soldier lifted visually above the crowd, rough cloak and scarred armor, troops roaring beneath him.",
+  "videoPrompt": "Soldiers surge around Maximinus, lifting shields and spears, his cloak snaps in the wind as the camera rises from boots to face.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-09-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-09-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb51f/nfSHMcoDoQlt2CwreFtlS_IgD4tYF6.mp4",
+  "requestId": "019e8963-3033-7983-aaf2-3c06147033a9",
+  "generatedAt": "2026-06-02T17:31:26.090Z",
+  "latencyMs": {
+    "upload": 1890,
+    "generation": 45584,
+    "download": 1339,
+    "total": 48813
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb51f/nfSHMcoDoQlt2CwreFtlS_IgD4tYF6.mp4",
+      "content_type": "video/mp4",
+      "file_name": "nfSHMcoDoQlt2CwreFtlS_IgD4tYF6.mp4",
+      "file_size": 6653764,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

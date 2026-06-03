@@ -1,0 +1,37 @@
+{
+  "scene": 16,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.36,
+  "voiceoverStartSeconds": 67.96,
+  "voiceoverEndSeconds": 72.32,
+  "voiceoverText": "What it lost was trust that anyone truly had the right to rule.",
+  "imagePrompt": "Empty imperial throne in a dim hall, helmet on one side, senator's scroll on the other, dust glowing in a shaft of light, no ruler present.",
+  "videoPrompt": "Slow push toward the empty throne as dust swirls in golden light, a helmet rolls slightly, the hall settling into silence.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-16-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-16-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb529/fkhlQCw3A3Hka_Z9yU1Gn_WMoGJqGb.mp4",
+  "requestId": "019e8964-b157-7592-8ffa-d32d866440de",
+  "generatedAt": "2026-06-02T17:33:04.006Z",
+  "latencyMs": {
+    "upload": 1654,
+    "generation": 45071,
+    "download": 1185,
+    "total": 47910
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb529/fkhlQCw3A3Hka_Z9yU1Gn_WMoGJqGb.mp4",
+      "content_type": "video/mp4",
+      "file_name": "fkhlQCw3A3Hka_Z9yU1Gn_WMoGJqGb.mp4",
+      "file_size": 4485277,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

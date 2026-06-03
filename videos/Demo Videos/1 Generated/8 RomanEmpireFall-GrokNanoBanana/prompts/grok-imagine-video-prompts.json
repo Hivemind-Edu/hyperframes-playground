@@ -1,0 +1,89 @@
+{
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "sourceImagePattern": "assets/scene-XX-nb2-1k.jpg",
+  "outputVideoPattern": "assets/videos/scene-XX-grok-imagine-1.5-720p.mp4",
+  "durationRule": "Use the ElevenLabs scene voiceover duration and round up to the next whole second.",
+  "scenes": [
+    {
+      "id": 1,
+      "imagePrompt": "Rome's city gate at dusk in portrait framing, towering walls rising vertically, barbarian campfires far outside, but the foreground Roman guard turns his worried face back toward the city behind him.",
+      "videoPrompt": "Camera pushes past the guard toward the gate as he slowly turns inward, torch smoke curling upward and distant fires flickering outside the walls."
+    },
+    {
+      "id": 2,
+      "imagePrompt": "A Roman barracks courtyard packed with soldiers, shields stacked high along both sides, one veteran steps forward from the crowd as others close ranks behind him.",
+      "videoPrompt": "Soldiers shift into a tight formation around the viewer, shields clatter, a veteran steps into foreground, banners whipping overhead."
+    },
+    {
+      "id": 3,
+      "imagePrompt": "A young emperor in a marble throne hall caught between senators on one side and armored officers on the other, both groups leaning toward him like competing walls.",
+      "videoPrompt": "Camera circles the emperor as senators gesture and officers step closer, the throne looming behind him while sunlight slides across marble."
+    },
+    {
+      "id": 4,
+      "imagePrompt": "A solemn old senator presenting ancestral wax masks and scrolls to a nervous emperor, tall shelves of family busts rising into shadow above them.",
+      "videoPrompt": "The senator lifts a scroll toward the emperor while dust floats in sunbeams and ancestral masks seem to watch from the darkness."
+    },
+    {
+      "id": 5,
+      "imagePrompt": "Cold frontier command tent, year 235 implied by Roman campaign gear, Severus Alexander bends over maps as wind pulls open the tent flap revealing restless troops outside.",
+      "videoPrompt": "Wind bursts through the tent, maps flutter, the emperor pins them down while silhouettes of soldiers gather outside."
+    },
+    {
+      "id": 6,
+      "imagePrompt": "Severus Alexander offering gold bowls and treaty gifts to Germanic envoys across a rough table, furious Roman officers standing behind him in tight vertical formation.",
+      "videoPrompt": "Gold changes hands across the table as Roman officers tense behind him, one officer steps forward, mist rolling through the frontier camp."
+    },
+    {
+      "id": 7,
+      "imagePrompt": "Battle-hardened Roman soldiers around a low campfire at night, faces angry and wounded, one soldier rises with his sword while others follow his movement.",
+      "videoPrompt": "Sparks rise as soldiers stand one by one, hands gripping sword hilts, the camera tilts up with them toward the emperor's tent."
+    },
+    {
+      "id": 8,
+      "imagePrompt": "The imperial tent at night, soldiers rushing through torn red fabric, lamplight swinging, maps and coins scattering across the floor, violence implied but not graphic.",
+      "videoPrompt": "Soldiers burst into the tent, fabric tears, a lamp swings wildly, maps fly across the frame as the camera stumbles backward."
+    },
+    {
+      "id": 9,
+      "imagePrompt": "Maximinus Thrax in portrait heroic framing, a huge muddy frontier soldier lifted visually above the crowd, rough cloak and scarred armor, troops roaring beneath him.",
+      "videoPrompt": "Soldiers surge around Maximinus, lifting shields and spears, his cloak snaps in the wind as the camera rises from boots to face."
+    },
+    {
+      "id": 10,
+      "imagePrompt": "A legion raising a new emperor on shields in a military camp, vertical forest of spears around him, distant Rome reduced to a hazy marble memory far below.",
+      "videoPrompt": "The shield rises through the crowd, spears thrust upward in waves, camera cranes up with the new emperor over cheering soldiers."
+    },
+    {
+      "id": 11,
+      "imagePrompt": "Multiple ambitious generals in separate campfires suggested in one cinematic scene: foreground general reaches for a purple cloak while other torchlit figures mirror him in depth.",
+      "videoPrompt": "The foreground general grabs imperial purple as background commanders turn toward their own troops, torches flaring in sequence through the camp."
+    },
+    {
+      "id": 12,
+      "imagePrompt": "A brutal army payday: coin sacks dumped onto a wooden table beside a purple cloak and imperial standard, soldiers' hands reaching in from every side.",
+      "videoPrompt": "Coins spill and bounce across the table, hands snatch purses, the purple cloak slides toward the soldiers like something being sold."
+    },
+    {
+      "id": 13,
+      "imagePrompt": "Praetorian corridor at night, emperor walking away from camera, guards behind him drawing closer, tall lamps and columns creating a narrowing tunnel.",
+      "videoPrompt": "Camera tracks behind the emperor as guards close the distance, lamplight flickers across armor, shadows stretch along the marble floor."
+    },
+    {
+      "id": 14,
+      "imagePrompt": "Rome's marketplace still beautiful but tense, aqueduct arches above, citizens freeze as armed soldiers march straight through the center, interrupting daily life.",
+      "videoPrompt": "Soldiers march through the crowd, citizens step aside, cloth awnings ripple, camera follows a child watching the troops pass."
+    },
+    {
+      "id": 15,
+      "imagePrompt": "Portrait vertical travel shot of Roman power still functioning: road below, aqueduct above, tax clerks and marching troops layered upward through the frame under heavy clouds.",
+      "videoPrompt": "Camera glides upward from road stones to aqueduct arches as troops march below, tax papers flutter, storm clouds moving overhead."
+    },
+    {
+      "id": 16,
+      "imagePrompt": "Empty imperial throne in a dim hall, helmet on one side, senator's scroll on the other, dust glowing in a shaft of light, no ruler present.",
+      "videoPrompt": "Slow push toward the empty throne as dust swirls in golden light, a helmet rolls slightly, the hall settling into silence."
+    }
+  ]
+}

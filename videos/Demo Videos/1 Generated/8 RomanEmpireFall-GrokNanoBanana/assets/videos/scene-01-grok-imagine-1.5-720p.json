@@ -1,0 +1,37 @@
+{
+  "scene": 1,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 4,
+  "voiceoverDurationSeconds": 3.125,
+  "voiceoverStartSeconds": 0,
+  "voiceoverEndSeconds": 3.125,
+  "voiceoverText": "Rome’s biggest threat was not the barbarians at the gate.",
+  "imagePrompt": "Rome's city gate at dusk in portrait framing, towering walls rising vertically, barbarian campfires far outside, but the foreground Roman guard turns his worried face back toward the city behind him.",
+  "videoPrompt": "Camera pushes past the guard toward the gate as he slowly turns inward, torch smoke curling upward and distant fires flickering outside the walls.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-01-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-01-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb4ea/5CJn751Lt18P_V42X76Ah_oDGA11zC.mp4",
+  "requestId": "019e895a-f881-7cd1-bbb7-48ebee09afbe",
+  "generatedAt": "2026-06-02T17:22:26.724Z",
+  "latencyMs": {
+    "upload": 1678,
+    "generation": 44808,
+    "download": 1335,
+    "total": 47821
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb4ea/5CJn751Lt18P_V42X76Ah_oDGA11zC.mp4",
+      "content_type": "video/mp4",
+      "file_name": "5CJn751Lt18P_V42X76Ah_oDGA11zC.mp4",
+      "file_size": 4347302,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 4.041667,
+      "num_frames": 97
+    }
+  }
+}

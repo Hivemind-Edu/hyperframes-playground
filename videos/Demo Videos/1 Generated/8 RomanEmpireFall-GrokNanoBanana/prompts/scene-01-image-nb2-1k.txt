@@ -1,0 +1,29 @@
+Use the attached crop of panel 1 as the PRIMARY source image. Use the attached local 2x2 neighborhood crop only as secondary context for style and character consistency. Do not use a full storyboard grid as reference.
+
+This is an exact enhancement / fidelity pass, not a redesign. Recreate the panel 1 crop as nearly identically as possible while making it cleaner and more detailed for video.
+
+Preserve all major image geometry and composition:
+- same portrait crop and camera angle
+- same guard size and position: chest-up, occupying the lower-left and center-left foreground
+- same head angle, same stern worried expression, same grey hair, same short beard, same scarred tired face
+- same red cloak wrapping around the shoulders, same bronze chest armor and leather shoulder pieces
+- same tall square crenellated tower on the left background
+- same lower city wall and small arched gate on the right-middle background
+- same open blue-grey valley and low hills beyond the walls
+- same two distant orange fires near the horizon with smoke rising upward
+- same soft blue-purple dusk sky with warm orange near the horizon
+- same overall spacing between guard, tower, gate, fires, and horizon
+
+Do not add a giant archway. Do not change the setting. Do not make the guard full-body. Do not move the fires. Do not invent new architecture. Do not crop tighter. Do not rotate the camera. Do not change the story moment.
+
+The goal is the same image as panel 1, just more detailed, higher fidelity, cleaner, more polished, and video-ready.
+
+Generate one standalone portrait 9:16 scene image, not a grid, not a crop, and not a storyboard panel. It should be a clean full-frame image for video generation.
+
+Scene 1:
+Rome's outer wall at dusk, exactly like the panel 1 crop. A weathered Roman veteran guard stands in the lower-left foreground, chest-up, three-quarter view, with the same scarred tired face from the source image. He looks worriedly toward the viewer. Behind him on the left is the same square crenellated tower. Behind him on the right is the same lower wall with the same small arched gate. In the far distance, the same open valley and low hills are visible, with the same two fires burning on the horizon and smoke rising. The city feels beautiful, vulnerable, and uneasy.
+
+Style:
+Traditional hand-painted animation cel illustration in the style of Studio Ghibli, specifically the painterly warmth of Hayao Miyazaki's films. Characters drawn with soft rounded features, large expressive eyes full of genuine emotion, simple noses and mouths that carry enormous feeling through subtle shifts, hair and cloth moving with natural weight. Rich natural colors, warm golds, deep earthy browns, soft blue dusk sky, weathered Roman stone, bronze armor, dusty amber atmosphere. Backgrounds are lavish hand-painted watercolor and gouache with visible paper texture and individually crafted surfaces. Light is soft and golden, magic-hour warmth, shadows are warm not cold. No harsh lines, no sharp digital edges, no flat cel-shading. The mood is melancholy beauty and quiet historical tragedy.
+
+No text, no labels, no logos, no watermarks, no panel borders.

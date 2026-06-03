@@ -1,0 +1,31 @@
+Create a single 4K portrait 9:16 reference sheet: a loose 4x4 storyboard grid with 16 small panels about how Rome's army broke imperial power.
+
+This is only a visual reference sheet for style and recurring characters. The grid does not need to be geometrically perfect. Use simple dark separators between panels. No text, labels, numbers, logos, or watermarks.
+
+Use one consistent hand-painted Studio Ghibli-inspired historical animation style across every panel: lavish watercolor and gouache backgrounds, soft expressive faces, warm golden light, dusty amber air, weathered Roman marble, red military cloaks, bronze armor, natural fabric folds, melancholy beauty, no harsh digital edges, no flat vector look.
+
+Recurring characters must stay visually consistent whenever they reappear:
+- young emperor Severus Alexander: slim, anxious, soft youthful face, short dark curls, pale gold-trimmed Roman cloak
+- old senator: elderly, narrow face, white beard, white toga, solemn posture
+- veteran soldier: broad, scarred, weathered face, bronze armor, faded red cloak
+- Maximinus Thrax: very tall, massive frontier soldier, muddy boots, rough cloak, scarred armor
+
+Panel sequence:
+1. Rome's city gate at dusk, a worried Roman guard looking back toward the city while distant fires glow outside.
+2. A tense barracks courtyard, soldiers closing ranks around the veteran soldier.
+3. Severus Alexander caught between senators and armored officers in a marble throne hall.
+4. The old senator presenting ancestral masks and scrolls to Severus Alexander.
+5. Severus Alexander over frontier maps in a cold command tent, restless troops visible outside.
+6. Severus Alexander offering gold and treaty gifts to Germanic envoys while Roman officers glare.
+7. Angry soldiers around a low campfire, the veteran soldier rising with his sword.
+8. Soldiers rushing into the imperial tent at night, torn red fabric, swinging lamplight, scattered maps.
+9. Maximinus Thrax standing above a roaring crowd of muddy frontier troops.
+10. Soldiers raising a new emperor on shields, spears forming a vertical forest around him.
+11. An ambitious general reaching for an imperial purple cloak in a torchlit camp.
+12. Coin sacks dumped beside a purple cloak and imperial standard, soldiers' hands reaching in.
+13. An emperor walking through a Praetorian corridor at night while guards close in behind him.
+14. A beautiful but tense Roman marketplace as soldiers march through daily life.
+15. Roads, tax clerks, marching troops, and aqueduct arches still functioning under heavy clouds.
+16. An empty imperial throne in dusty golden light, with a soldier's helmet and senator's scroll abandoned nearby.
+
+Make the sheet cohesive: same palette, same characters, same costumes, same painterly texture, same tragic historical mood.

@@ -1,0 +1,28 @@
+{
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-02T16:41:35.774Z",
+  "imageSize": "4K",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/roman-empire-reference-grid-nb2-4k.jpg",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/prompts/nano-banana-4k-reference-grid.txt",
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 602,
+    "candidatesTokenCount": 3450,
+    "totalTokenCount": 5685,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 602
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 2520
+      }
+    ],
+    "thoughtsTokenCount": 1633,
+    "serviceTier": "standard"
+  }
+}

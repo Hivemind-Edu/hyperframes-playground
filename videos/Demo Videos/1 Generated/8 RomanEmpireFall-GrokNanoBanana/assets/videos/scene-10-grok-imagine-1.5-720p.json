@@ -1,0 +1,37 @@
+{
+  "scene": 10,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 6,
+  "voiceoverDurationSeconds": 5.797,
+  "voiceoverStartSeconds": 40.594,
+  "voiceoverEndSeconds": 46.391,
+  "voiceoverText": "That changed the rules. Any legion with enough swords could make a ruler.",
+  "imagePrompt": "A legion raising a new emperor on shields in a military camp, vertical forest of spears around him, distant Rome reduced to a hazy marble memory far below.",
+  "videoPrompt": "The shield rises through the crowd, spears thrust upward in waves, camera cranes up with the new emperor over cheering soldiers.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-10-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-10-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb520/T1vQstLgzIn3cBrcCGt3x_psOSstCZ.mp4",
+  "requestId": "019e8963-33c3-7221-a7fc-bcb44add3644",
+  "generatedAt": "2026-06-02T17:31:32.009Z",
+  "latencyMs": {
+    "upload": 1711,
+    "generation": 50541,
+    "download": 1382,
+    "total": 53634
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb520/T1vQstLgzIn3cBrcCGt3x_psOSstCZ.mp4",
+      "content_type": "video/mp4",
+      "file_name": "T1vQstLgzIn3cBrcCGt3x_psOSstCZ.mp4",
+      "file_size": 8196555,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 6.041667,
+      "num_frames": 145
+    }
+  }
+}

@@ -1,0 +1,3554 @@
+{
+  "provider": "elevenlabs",
+  "modelId": "eleven_v3",
+  "voiceKey": "el-adam",
+  "voiceId": "pNInz6obpgDQGcFmaJgB",
+  "wordCount": 169,
+  "wordCaptionCount": 169,
+  "captionCount": 62,
+  "scenes": [
+    {
+      "scene": 1,
+      "words": 10,
+      "startSeconds": 0,
+      "speechEndSeconds": 3.125,
+      "endSeconds": 3.125,
+      "durationSeconds": 3.125,
+      "spokenDurationSeconds": 3.125,
+      "trailingPauseSeconds": 0,
+      "text": "Rome’s biggest threat was not the barbarians at the gate."
+    },
+    {
+      "scene": 2,
+      "words": 10,
+      "startSeconds": 3.125,
+      "speechEndSeconds": 7.124,
+      "endSeconds": 7.124,
+      "durationSeconds": 3.999,
+      "spokenDurationSeconds": 3.999,
+      "trailingPauseSeconds": 0,
+      "text": "It was the army that was supposed to defend it."
+    },
+    {
+      "scene": 3,
+      "words": 10,
+      "startSeconds": 7.124,
+      "speechEndSeconds": 11.759,
+      "endSeconds": 11.759,
+      "durationSeconds": 4.635,
+      "spokenDurationSeconds": 4.635,
+      "trailingPauseSeconds": 0,
+      "text": "For centuries, emperors needed more than soldiers. They needed legitimacy."
+    },
+    {
+      "scene": 4,
+      "words": 9,
+      "startSeconds": 11.759,
+      "speechEndSeconds": 16.552,
+      "endSeconds": 16.552,
+      "durationSeconds": 4.793,
+      "spokenDurationSeconds": 4.793,
+      "trailingPauseSeconds": 0,
+      "text": "A dynasty mattered. The Senate mattered. Tradition still mattered."
+    },
+    {
+      "scene": 5,
+      "words": 8,
+      "startSeconds": 16.552,
+      "speechEndSeconds": 21.272,
+      "endSeconds": 21.272,
+      "durationSeconds": 4.72,
+      "spokenDurationSeconds": 4.72,
+      "trailingPauseSeconds": 0,
+      "text": "Then, in 235, that old system cracked open."
+    },
+    {
+      "scene": 6,
+      "words": 10,
+      "startSeconds": 21.272,
+      "speechEndSeconds": 26.793,
+      "endSeconds": 26.793,
+      "durationSeconds": 5.521,
+      "spokenDurationSeconds": 5.521,
+      "trailingPauseSeconds": 0,
+      "text": "Emperor Severus Alexander tried buying peace on the German frontier."
+    },
+    {
+      "scene": 7,
+      "words": 10,
+      "startSeconds": 26.793,
+      "speechEndSeconds": 31.35,
+      "endSeconds": 31.35,
+      "durationSeconds": 4.557,
+      "spokenDurationSeconds": 4.557,
+      "trailingPauseSeconds": 0,
+      "text": "His troops saw diplomacy as weakness, and weakness as betrayal."
+    },
+    {
+      "scene": 8,
+      "words": 12,
+      "startSeconds": 31.35,
+      "speechEndSeconds": 35.761,
+      "endSeconds": 35.761,
+      "durationSeconds": 4.411,
+      "spokenDurationSeconds": 4.411,
+      "trailingPauseSeconds": 0,
+      "text": "So they murdered him in his tent and chose their own emperor."
+    },
+    {
+      "scene": 9,
+      "words": 11,
+      "startSeconds": 35.761,
+      "speechEndSeconds": 40.594,
+      "endSeconds": 40.594,
+      "durationSeconds": 4.833,
+      "spokenDurationSeconds": 4.833,
+      "trailingPauseSeconds": 0,
+      "text": "Maximinus Thrax was not a senator. He was a soldier’s soldier."
+    },
+    {
+      "scene": 10,
+      "words": 13,
+      "startSeconds": 40.594,
+      "speechEndSeconds": 46.391,
+      "endSeconds": 46.391,
+      "durationSeconds": 5.797,
+      "spokenDurationSeconds": 5.797,
+      "trailingPauseSeconds": 0,
+      "text": "That changed the rules. Any legion with enough swords could make a ruler."
+    },
+    {
+      "scene": 11,
+      "words": 12,
+      "startSeconds": 46.391,
+      "speechEndSeconds": 50.869,
+      "endSeconds": 50.869,
+      "durationSeconds": 4.478,
+      "spokenDurationSeconds": 4.478,
+      "trailingPauseSeconds": 0,
+      "text": "Soon, generals were not serving emperors. They were auditioning to replace them."
+    },
+    {
+      "scene": 12,
+      "words": 11,
+      "startSeconds": 50.869,
+      "speechEndSeconds": 56.236,
+      "endSeconds": 56.236,
+      "durationSeconds": 5.367,
+      "spokenDurationSeconds": 5.367,
+      "trailingPauseSeconds": 0,
+      "text": "The throne became a prize armies could sell for higher pay."
+    },
+    {
+      "scene": 13,
+      "words": 12,
+      "startSeconds": 56.236,
+      "speechEndSeconds": 58.478,
+      "endSeconds": 58.478,
+      "durationSeconds": 2.242,
+      "spokenDurationSeconds": 2.242,
+      "trailingPauseSeconds": 0,
+      "text": "If an emperor ran out of money, his guards could kill him."
+    },
+    {
+      "scene": 14,
+      "words": 9,
+      "startSeconds": 58.478,
+      "speechEndSeconds": 63.594,
+      "endSeconds": 63.594,
+      "durationSeconds": 5.116,
+      "spokenDurationSeconds": 5.116,
+      "trailingPauseSeconds": 0,
+      "text": "Rome survived the shock, but authority stopped feeling sacred."
+    },
+    {
+      "scene": 15,
+      "words": 9,
+      "startSeconds": 63.594,
+      "speechEndSeconds": 67.96,
+      "endSeconds": 67.96,
+      "durationSeconds": 4.366,
+      "spokenDurationSeconds": 4.366,
+      "trailingPauseSeconds": 0,
+      "text": "The empire still had walls, roads, taxes, and armies."
+    },
+    {
+      "scene": 16,
+      "words": 13,
+      "startSeconds": 67.96,
+      "speechEndSeconds": 72.308,
+      "endSeconds": 72.32,
+      "durationSeconds": 4.36,
+      "spokenDurationSeconds": 4.348,
+      "trailingPauseSeconds": 0.012,
+      "text": "What it lost was trust that anyone truly had the right to rule."
+    }
+  ],
+  "wordCaptions": [
+    {
+      "confidence": null,
+      "endMs": 319,
+      "startMs": 0,
+      "text": "Rome’s",
+      "timestampMs": 0
+    },
+    {
+      "confidence": null,
+      "endMs": 719,
+      "startMs": 369,
+      "text": " biggest",
+      "timestampMs": 369
+    },
+    {
+      "confidence": null,
+      "endMs": 1041,
+      "startMs": 765,
+      "text": " threat",
+      "timestampMs": 765
+    },
+    {
+      "confidence": null,
+      "endMs": 1201,
+      "startMs": 1081,
+      "text": " was",
+      "timestampMs": 1081
+    },
+    {
+      "confidence": null,
+      "endMs": 1441,
+      "startMs": 1261,
+      "text": " not",
+      "timestampMs": 1261
+    },
+    {
+      "confidence": null,
+      "endMs": 1601,
+      "startMs": 1481,
+      "text": " the",
+      "timestampMs": 1481
+    },
+    {
+      "confidence": null,
+      "endMs": 2324,
+      "startMs": 1670,
+      "text": " barbarians",
+      "timestampMs": 1670
+    },
+    {
+      "confidence": null,
+      "endMs": 2405,
+      "startMs": 2351,
+      "text": " at",
+      "timestampMs": 2351
+    },
+    {
+      "confidence": null,
+      "endMs": 2565,
+      "startMs": 2445,
+      "text": " the",
+      "timestampMs": 2445
+    },
+    {
+      "confidence": null,
+      "endMs": 3125,
+      "startMs": 2645,
+      "text": " gate.",
+      "timestampMs": 2645
+    },
+    {
+      "confidence": null,
+      "endMs": 3605,
+      "startMs": 3125,
+      "text": "\n\nIt",
+      "timestampMs": 3125
+    },
+    {
+      "confidence": null,
+      "endMs": 3685,
+      "startMs": 3625,
+      "text": " was",
+      "timestampMs": 3625
+    },
+    {
+      "confidence": null,
+      "endMs": 3845,
+      "startMs": 3725,
+      "text": " the",
+      "timestampMs": 3725
+    },
+    {
+      "confidence": null,
+      "endMs": 4245,
+      "startMs": 3925,
+      "text": " army",
+      "timestampMs": 3925
+    },
+    {
+      "confidence": null,
+      "endMs": 4405,
+      "startMs": 4277,
+      "text": " that",
+      "timestampMs": 4277
+    },
+    {
+      "confidence": null,
+      "endMs": 4565,
+      "startMs": 4445,
+      "text": " was",
+      "timestampMs": 4445
+    },
+    {
+      "confidence": null,
+      "endMs": 4961,
+      "startMs": 4609,
+      "text": " supposed",
+      "timestampMs": 4609
+    },
+    {
+      "confidence": null,
+      "endMs": 5042,
+      "startMs": 4988,
+      "text": " to",
+      "timestampMs": 4988
+    },
+    {
+      "confidence": null,
+      "endMs": 5525,
+      "startMs": 5111,
+      "text": " defend",
+      "timestampMs": 5111
+    },
+    {
+      "confidence": null,
+      "endMs": 7124,
+      "startMs": 5578,
+      "text": " it.",
+      "timestampMs": 5578
+    },
+    {
+      "confidence": null,
+      "endMs": 7125,
+      "startMs": 7124,
+      "text": "\n\nFor",
+      "timestampMs": 7124
+    },
+    {
+      "confidence": null,
+      "endMs": 7244,
+      "startMs": 7125,
+      "text": " centuries,",
+      "timestampMs": 7125
+    },
+    {
+      "confidence": null,
+      "endMs": 7682,
+      "startMs": 7284,
+      "text": " emperors",
+      "timestampMs": 7284
+    },
+    {
+      "confidence": null,
+      "endMs": 8004,
+      "startMs": 7728,
+      "text": " needed",
+      "timestampMs": 7728
+    },
+    {
+      "confidence": null,
+      "endMs": 8324,
+      "startMs": 8068,
+      "text": " more",
+      "timestampMs": 8068
+    },
+    {
+      "confidence": null,
+      "endMs": 8484,
+      "startMs": 8356,
+      "text": " than",
+      "timestampMs": 8356
+    },
+    {
+      "confidence": null,
+      "endMs": 9403,
+      "startMs": 8555,
+      "text": " soldiers.",
+      "timestampMs": 8555
+    },
+    {
+      "confidence": null,
+      "endMs": 9683,
+      "startMs": 9459,
+      "text": " They",
+      "timestampMs": 9459
+    },
+    {
+      "confidence": null,
+      "endMs": 10082,
+      "startMs": 9740,
+      "text": " needed",
+      "timestampMs": 9740
+    },
+    {
+      "confidence": null,
+      "endMs": 11759,
+      "startMs": 10169,
+      "text": " legitimacy.",
+      "timestampMs": 10169
+    },
+    {
+      "confidence": null,
+      "endMs": 11760,
+      "startMs": 11759,
+      "text": "\n\nA",
+      "timestampMs": 11759
+    },
+    {
+      "confidence": null,
+      "endMs": 12479,
+      "startMs": 11849,
+      "text": " dynasty",
+      "timestampMs": 11849
+    },
+    {
+      "confidence": null,
+      "endMs": 13236,
+      "startMs": 12532,
+      "text": " mattered.",
+      "timestampMs": 12532
+    },
+    {
+      "confidence": null,
+      "endMs": 13516,
+      "startMs": 13306,
+      "text": " The",
+      "timestampMs": 13306
+    },
+    {
+      "confidence": null,
+      "endMs": 13999,
+      "startMs": 13585,
+      "text": " Senate",
+      "timestampMs": 13585
+    },
+    {
+      "confidence": null,
+      "endMs": 15036,
+      "startMs": 14052,
+      "text": " mattered.",
+      "timestampMs": 14052
+    },
+    {
+      "confidence": null,
+      "endMs": 15596,
+      "startMs": 15092,
+      "text": " Tradition",
+      "timestampMs": 15092
+    },
+    {
+      "confidence": null,
+      "endMs": 15914,
+      "startMs": 15649,
+      "text": " still",
+      "timestampMs": 15649
+    },
+    {
+      "confidence": null,
+      "endMs": 16552,
+      "startMs": 15976,
+      "text": " mattered.",
+      "timestampMs": 15976
+    },
+    {
+      "confidence": null,
+      "endMs": 17632,
+      "startMs": 16552,
+      "text": "\n\nThen,",
+      "timestampMs": 16552
+    },
+    {
+      "confidence": null,
+      "endMs": 17752,
+      "startMs": 17672,
+      "text": " in",
+      "timestampMs": 17672
+    },
+    {
+      "confidence": null,
+      "endMs": 19112,
+      "startMs": 17912,
+      "text": " 235,",
+      "timestampMs": 17912
+    },
+    {
+      "confidence": null,
+      "endMs": 19352,
+      "startMs": 19160,
+      "text": " that",
+      "timestampMs": 19160
+    },
+    {
+      "confidence": null,
+      "endMs": 19752,
+      "startMs": 19452,
+      "text": " old",
+      "timestampMs": 19452
+    },
+    {
+      "confidence": null,
+      "endMs": 20312,
+      "startMs": 19832,
+      "text": " system",
+      "timestampMs": 19832
+    },
+    {
+      "confidence": null,
+      "endMs": 20792,
+      "startMs": 20372,
+      "text": " cracked",
+      "timestampMs": 20372
+    },
+    {
+      "confidence": null,
+      "endMs": 21272,
+      "startMs": 20872,
+      "text": " open.",
+      "timestampMs": 20872
+    },
+    {
+      "confidence": null,
+      "endMs": 22232,
+      "startMs": 21272,
+      "text": "\n\nEmperor",
+      "timestampMs": 21272
+    },
+    {
+      "confidence": null,
+      "endMs": 22872,
+      "startMs": 22312,
+      "text": " Severus",
+      "timestampMs": 22312
+    },
+    {
+      "confidence": null,
+      "endMs": 23592,
+      "startMs": 22944,
+      "text": " Alexander",
+      "timestampMs": 22944
+    },
+    {
+      "confidence": null,
+      "endMs": 23994,
+      "startMs": 23659,
+      "text": " tried",
+      "timestampMs": 23659
+    },
+    {
+      "confidence": null,
+      "endMs": 24393,
+      "startMs": 24051,
+      "text": " buying",
+      "timestampMs": 24051
+    },
+    {
+      "confidence": null,
+      "endMs": 24795,
+      "startMs": 24460,
+      "text": " peace",
+      "timestampMs": 24460
+    },
+    {
+      "confidence": null,
+      "endMs": 24954,
+      "startMs": 24848,
+      "text": " on",
+      "timestampMs": 24848
+    },
+    {
+      "confidence": null,
+      "endMs": 25034,
+      "startMs": 24974,
+      "text": " the",
+      "timestampMs": 24974
+    },
+    {
+      "confidence": null,
+      "endMs": 25433,
+      "startMs": 25091,
+      "text": " German",
+      "timestampMs": 25091
+    },
+    {
+      "confidence": null,
+      "endMs": 26793,
+      "startMs": 25513,
+      "text": " frontier.",
+      "timestampMs": 25513
+    },
+    {
+      "confidence": null,
+      "endMs": 26794,
+      "startMs": 26793,
+      "text": "\n\nHis",
+      "timestampMs": 26793
+    },
+    {
+      "confidence": null,
+      "endMs": 27192,
+      "startMs": 26850,
+      "text": " troops",
+      "timestampMs": 26850
+    },
+    {
+      "confidence": null,
+      "endMs": 27352,
+      "startMs": 27232,
+      "text": " saw",
+      "timestampMs": 27232
+    },
+    {
+      "confidence": null,
+      "endMs": 28152,
+      "startMs": 27432,
+      "text": " diplomacy",
+      "timestampMs": 27432
+    },
+    {
+      "confidence": null,
+      "endMs": 28311,
+      "startMs": 28205,
+      "text": " as",
+      "timestampMs": 28205
+    },
+    {
+      "confidence": null,
+      "endMs": 29271,
+      "startMs": 28391,
+      "text": " weakness,",
+      "timestampMs": 28391
+    },
+    {
+      "confidence": null,
+      "endMs": 29511,
+      "startMs": 29331,
+      "text": " and",
+      "timestampMs": 29331
+    },
+    {
+      "confidence": null,
+      "endMs": 30150,
+      "startMs": 29582,
+      "text": " weakness",
+      "timestampMs": 29582
+    },
+    {
+      "confidence": null,
+      "endMs": 30549,
+      "startMs": 30283,
+      "text": " as",
+      "timestampMs": 30283
+    },
+    {
+      "confidence": null,
+      "endMs": 31350,
+      "startMs": 30638,
+      "text": " betrayal.",
+      "timestampMs": 30638
+    },
+    {
+      "confidence": null,
+      "endMs": 31989,
+      "startMs": 31350,
+      "text": "\n\nSo",
+      "timestampMs": 31350
+    },
+    {
+      "confidence": null,
+      "endMs": 32149,
+      "startMs": 32021,
+      "text": " they",
+      "timestampMs": 32021
+    },
+    {
+      "confidence": null,
+      "endMs": 32545,
+      "startMs": 32193,
+      "text": " murdered",
+      "timestampMs": 32193
+    },
+    {
+      "confidence": null,
+      "endMs": 32625,
+      "startMs": 32565,
+      "text": " him",
+      "timestampMs": 32565
+    },
+    {
+      "confidence": null,
+      "endMs": 32784,
+      "startMs": 32678,
+      "text": " in",
+      "timestampMs": 32678
+    },
+    {
+      "confidence": null,
+      "endMs": 32944,
+      "startMs": 32824,
+      "text": " his",
+      "timestampMs": 32824
+    },
+    {
+      "confidence": null,
+      "endMs": 33264,
+      "startMs": 33008,
+      "text": " tent",
+      "timestampMs": 33008
+    },
+    {
+      "confidence": null,
+      "endMs": 33424,
+      "startMs": 33304,
+      "text": " and",
+      "timestampMs": 33304
+    },
+    {
+      "confidence": null,
+      "endMs": 33826,
+      "startMs": 33491,
+      "text": " chose",
+      "timestampMs": 33491
+    },
+    {
+      "confidence": null,
+      "endMs": 33988,
+      "startMs": 33853,
+      "text": " their",
+      "timestampMs": 33853
+    },
+    {
+      "confidence": null,
+      "endMs": 34468,
+      "startMs": 34108,
+      "text": " own",
+      "timestampMs": 34108
+    },
+    {
+      "confidence": null,
+      "endMs": 35761,
+      "startMs": 34538,
+      "text": " emperor.",
+      "timestampMs": 34538
+    },
+    {
+      "confidence": null,
+      "endMs": 36466,
+      "startMs": 35761,
+      "text": "\n\nMaximinus",
+      "timestampMs": 35761
+    },
+    {
+      "confidence": null,
+      "endMs": 37106,
+      "startMs": 36526,
+      "text": " Thrax",
+      "timestampMs": 36526
+    },
+    {
+      "confidence": null,
+      "endMs": 37426,
+      "startMs": 37186,
+      "text": " was",
+      "timestampMs": 37186
+    },
+    {
+      "confidence": null,
+      "endMs": 37746,
+      "startMs": 37506,
+      "text": " not",
+      "timestampMs": 37506
+    },
+    {
+      "confidence": null,
+      "endMs": 37906,
+      "startMs": 37826,
+      "text": " a",
+      "timestampMs": 37826
+    },
+    {
+      "confidence": null,
+      "endMs": 38706,
+      "startMs": 37976,
+      "text": " senator.",
+      "timestampMs": 37976
+    },
+    {
+      "confidence": null,
+      "endMs": 38946,
+      "startMs": 38786,
+      "text": " He",
+      "timestampMs": 38786
+    },
+    {
+      "confidence": null,
+      "endMs": 39026,
+      "startMs": 38966,
+      "text": " was",
+      "timestampMs": 38966
+    },
+    {
+      "confidence": null,
+      "endMs": 39186,
+      "startMs": 39106,
+      "text": " a",
+      "timestampMs": 39106
+    },
+    {
+      "confidence": null,
+      "endMs": 39826,
+      "startMs": 39246,
+      "text": " soldier’s",
+      "timestampMs": 39246
+    },
+    {
+      "confidence": null,
+      "endMs": 40594,
+      "startMs": 39896,
+      "text": " soldier.",
+      "timestampMs": 39896
+    },
+    {
+      "confidence": null,
+      "endMs": 41106,
+      "startMs": 40594,
+      "text": "\n\nThat",
+      "timestampMs": 40594
+    },
+    {
+      "confidence": null,
+      "endMs": 41506,
+      "startMs": 41156,
+      "text": " changed",
+      "timestampMs": 41156
+    },
+    {
+      "confidence": null,
+      "endMs": 41666,
+      "startMs": 41546,
+      "text": " the",
+      "timestampMs": 41546
+    },
+    {
+      "confidence": null,
+      "endMs": 42668,
+      "startMs": 41773,
+      "text": " rules.",
+      "timestampMs": 41773
+    },
+    {
+      "confidence": null,
+      "endMs": 43028,
+      "startMs": 42758,
+      "text": " Any",
+      "timestampMs": 42758
+    },
+    {
+      "confidence": null,
+      "endMs": 43427,
+      "startMs": 43085,
+      "text": " legion",
+      "timestampMs": 43085
+    },
+    {
+      "confidence": null,
+      "endMs": 43587,
+      "startMs": 43459,
+      "text": " with",
+      "timestampMs": 43459
+    },
+    {
+      "confidence": null,
+      "endMs": 43909,
+      "startMs": 43633,
+      "text": " enough",
+      "timestampMs": 43633
+    },
+    {
+      "confidence": null,
+      "endMs": 44469,
+      "startMs": 43989,
+      "text": " swords",
+      "timestampMs": 43989
+    },
+    {
+      "confidence": null,
+      "endMs": 44631,
+      "startMs": 44496,
+      "text": " could",
+      "timestampMs": 44496
+    },
+    {
+      "confidence": null,
+      "endMs": 44871,
+      "startMs": 44679,
+      "text": " make",
+      "timestampMs": 44679
+    },
+    {
+      "confidence": null,
+      "endMs": 44951,
+      "startMs": 44911,
+      "text": " a",
+      "timestampMs": 44911
+    },
+    {
+      "confidence": null,
+      "endMs": 46391,
+      "startMs": 45031,
+      "text": " ruler.",
+      "timestampMs": 45031
+    },
+    {
+      "confidence": null,
+      "endMs": 46831,
+      "startMs": 46391,
+      "text": "\n\nSoon,",
+      "timestampMs": 46391
+    },
+    {
+      "confidence": null,
+      "endMs": 47272,
+      "startMs": 46880,
+      "text": " generals",
+      "timestampMs": 46880
+    },
+    {
+      "confidence": null,
+      "endMs": 47432,
+      "startMs": 47304,
+      "text": " were",
+      "timestampMs": 47304
+    },
+    {
+      "confidence": null,
+      "endMs": 47672,
+      "startMs": 47492,
+      "text": " not",
+      "timestampMs": 47492
+    },
+    {
+      "confidence": null,
+      "endMs": 48072,
+      "startMs": 47722,
+      "text": " serving",
+      "timestampMs": 47722
+    },
+    {
+      "confidence": null,
+      "endMs": 48992,
+      "startMs": 48152,
+      "text": " emperors.",
+      "timestampMs": 48152
+    },
+    {
+      "confidence": null,
+      "endMs": 49192,
+      "startMs": 49032,
+      "text": " They",
+      "timestampMs": 49032
+    },
+    {
+      "confidence": null,
+      "endMs": 49352,
+      "startMs": 49224,
+      "text": " were",
+      "timestampMs": 49224
+    },
+    {
+      "confidence": null,
+      "endMs": 49988,
+      "startMs": 49405,
+      "text": " auditioning",
+      "timestampMs": 49405
+    },
+    {
+      "confidence": null,
+      "endMs": 50069,
+      "startMs": 50015,
+      "text": " to",
+      "timestampMs": 50015
+    },
+    {
+      "confidence": null,
+      "endMs": 50549,
+      "startMs": 50129,
+      "text": " replace",
+      "timestampMs": 50129
+    },
+    {
+      "confidence": null,
+      "endMs": 50869,
+      "startMs": 50613,
+      "text": " them.",
+      "timestampMs": 50613
+    },
+    {
+      "confidence": null,
+      "endMs": 51431,
+      "startMs": 50869,
+      "text": "\n\nThe",
+      "timestampMs": 50869
+    },
+    {
+      "confidence": null,
+      "endMs": 51830,
+      "startMs": 51488,
+      "text": " throne",
+      "timestampMs": 51488
+    },
+    {
+      "confidence": null,
+      "endMs": 52152,
+      "startMs": 51876,
+      "text": " became",
+      "timestampMs": 51876
+    },
+    {
+      "confidence": null,
+      "endMs": 52312,
+      "startMs": 52232,
+      "text": " a",
+      "timestampMs": 52232
+    },
+    {
+      "confidence": null,
+      "endMs": 52792,
+      "startMs": 52392,
+      "text": " prize",
+      "timestampMs": 52392
+    },
+    {
+      "confidence": null,
+      "endMs": 53275,
+      "startMs": 52861,
+      "text": " armies",
+      "timestampMs": 52861
+    },
+    {
+      "confidence": null,
+      "endMs": 53515,
+      "startMs": 53315,
+      "text": " could",
+      "timestampMs": 53315
+    },
+    {
+      "confidence": null,
+      "endMs": 53755,
+      "startMs": 53563,
+      "text": " sell",
+      "timestampMs": 53563
+    },
+    {
+      "confidence": null,
+      "endMs": 53915,
+      "startMs": 53795,
+      "text": " for",
+      "timestampMs": 53795
+    },
+    {
+      "confidence": null,
+      "endMs": 54314,
+      "startMs": 53972,
+      "text": " higher",
+      "timestampMs": 53972
+    },
+    {
+      "confidence": null,
+      "endMs": 56236,
+      "startMs": 54434,
+      "text": " pay.",
+      "timestampMs": 54434
+    },
+    {
+      "confidence": null,
+      "endMs": 56237,
+      "startMs": 56236,
+      "text": "\n\nIf",
+      "timestampMs": 56236
+    },
+    {
+      "confidence": null,
+      "endMs": 56238,
+      "startMs": 56237,
+      "text": " an",
+      "timestampMs": 56237
+    },
+    {
+      "confidence": null,
+      "endMs": 56239,
+      "startMs": 56238,
+      "text": " emperor",
+      "timestampMs": 56238
+    },
+    {
+      "confidence": null,
+      "endMs": 56240,
+      "startMs": 56239,
+      "text": " ran",
+      "timestampMs": 56239
+    },
+    {
+      "confidence": null,
+      "endMs": 56316,
+      "startMs": 56240,
+      "text": " out",
+      "timestampMs": 56240
+    },
+    {
+      "confidence": null,
+      "endMs": 56475,
+      "startMs": 56369,
+      "text": " of",
+      "timestampMs": 56369
+    },
+    {
+      "confidence": null,
+      "endMs": 57033,
+      "startMs": 56528,
+      "text": " money,",
+      "timestampMs": 56528
+    },
+    {
+      "confidence": null,
+      "endMs": 57273,
+      "startMs": 57093,
+      "text": " his",
+      "timestampMs": 57093
+    },
+    {
+      "confidence": null,
+      "endMs": 57756,
+      "startMs": 57342,
+      "text": " guards",
+      "timestampMs": 57342
+    },
+    {
+      "confidence": null,
+      "endMs": 57918,
+      "startMs": 57783,
+      "text": " could",
+      "timestampMs": 57783
+    },
+    {
+      "confidence": null,
+      "endMs": 58158,
+      "startMs": 57966,
+      "text": " kill",
+      "timestampMs": 57966
+    },
+    {
+      "confidence": null,
+      "endMs": 58478,
+      "startMs": 58218,
+      "text": " him.",
+      "timestampMs": 58218
+    },
+    {
+      "confidence": null,
+      "endMs": 59598,
+      "startMs": 58478,
+      "text": "\n\nRome",
+      "timestampMs": 58478
+    },
+    {
+      "confidence": null,
+      "endMs": 60156,
+      "startMs": 59660,
+      "text": " survived",
+      "timestampMs": 59660
+    },
+    {
+      "confidence": null,
+      "endMs": 60236,
+      "startMs": 60176,
+      "text": " the",
+      "timestampMs": 60176
+    },
+    {
+      "confidence": null,
+      "endMs": 60994,
+      "startMs": 60329,
+      "text": " shock,",
+      "timestampMs": 60329
+    },
+    {
+      "confidence": null,
+      "endMs": 61194,
+      "startMs": 61044,
+      "text": " but",
+      "timestampMs": 61044
+    },
+    {
+      "confidence": null,
+      "endMs": 61754,
+      "startMs": 61250,
+      "text": " authority",
+      "timestampMs": 61250
+    },
+    {
+      "confidence": null,
+      "endMs": 62074,
+      "startMs": 61794,
+      "text": " stopped",
+      "timestampMs": 61794
+    },
+    {
+      "confidence": null,
+      "endMs": 62474,
+      "startMs": 62124,
+      "text": " feeling",
+      "timestampMs": 62124
+    },
+    {
+      "confidence": null,
+      "endMs": 63594,
+      "startMs": 62554,
+      "text": " sacred.",
+      "timestampMs": 62554
+    },
+    {
+      "confidence": null,
+      "endMs": 63595,
+      "startMs": 63594,
+      "text": "\n\nThe",
+      "timestampMs": 63594
+    },
+    {
+      "confidence": null,
+      "endMs": 64077,
+      "startMs": 63663,
+      "text": " empire",
+      "timestampMs": 63663
+    },
+    {
+      "confidence": null,
+      "endMs": 64395,
+      "startMs": 64130,
+      "text": " still",
+      "timestampMs": 64130
+    },
+    {
+      "confidence": null,
+      "endMs": 64715,
+      "startMs": 64475,
+      "text": " had",
+      "timestampMs": 64475
+    },
+    {
+      "confidence": null,
+      "endMs": 65673,
+      "startMs": 64808,
+      "text": " walls,",
+      "timestampMs": 64808
+    },
+    {
+      "confidence": null,
+      "endMs": 66435,
+      "startMs": 65740,
+      "text": " roads,",
+      "timestampMs": 65740
+    },
+    {
+      "confidence": null,
+      "endMs": 66955,
+      "startMs": 66495,
+      "text": " taxes,",
+      "timestampMs": 66495
+    },
+    {
+      "confidence": null,
+      "endMs": 67115,
+      "startMs": 66995,
+      "text": " and",
+      "timestampMs": 66995
+    },
+    {
+      "confidence": null,
+      "endMs": 67960,
+      "startMs": 67206,
+      "text": " armies.",
+      "timestampMs": 67206
+    },
+    {
+      "confidence": null,
+      "endMs": 68472,
+      "startMs": 67960,
+      "text": "\n\nWhat",
+      "timestampMs": 67960
+    },
+    {
+      "confidence": null,
+      "endMs": 68631,
+      "startMs": 68525,
+      "text": " it",
+      "timestampMs": 68525
+    },
+    {
+      "confidence": null,
+      "endMs": 69031,
+      "startMs": 68711,
+      "text": " lost",
+      "timestampMs": 68711
+    },
+    {
+      "confidence": null,
+      "endMs": 69271,
+      "startMs": 69091,
+      "text": " was",
+      "timestampMs": 69091
+    },
+    {
+      "confidence": null,
+      "endMs": 69751,
+      "startMs": 69351,
+      "text": " trust",
+      "timestampMs": 69351
+    },
+    {
+      "confidence": null,
+      "endMs": 69991,
+      "startMs": 69799,
+      "text": " that",
+      "timestampMs": 69799
+    },
+    {
+      "confidence": null,
+      "endMs": 70551,
+      "startMs": 70071,
+      "text": " anyone",
+      "timestampMs": 70071
+    },
+    {
+      "confidence": null,
+      "endMs": 71031,
+      "startMs": 70631,
+      "text": " truly",
+      "timestampMs": 70631
+    },
+    {
+      "confidence": null,
+      "endMs": 71271,
+      "startMs": 71091,
+      "text": " had",
+      "timestampMs": 71091
+    },
+    {
+      "confidence": null,
+      "endMs": 71351,
+      "startMs": 71291,
+      "text": " the",
+      "timestampMs": 71291
+    },
+    {
+      "confidence": null,
+      "endMs": 71669,
+      "startMs": 71404,
+      "text": " right",
+      "timestampMs": 71404
+    },
+    {
+      "confidence": null,
+      "endMs": 71828,
+      "startMs": 71722,
+      "text": " to",
+      "timestampMs": 71722
+    },
+    {
+      "confidence": null,
+      "endMs": 72308,
+      "startMs": 71924,
+      "text": " rule.",
+      "timestampMs": 71924
+    }
+  ],
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 1041,
+        "startMs": 0,
+        "text": "Rome’s biggest threat",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 319,
+            "startMs": 0,
+            "text": "Rome’s",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 319
+          },
+          {
+            "confidence": null,
+            "endMs": 719,
+            "startMs": 369,
+            "text": " biggest",
+            "timestampMs": 369,
+            "fromMs": 369,
+            "toMs": 719
+          },
+          {
+            "confidence": null,
+            "endMs": 1041,
+            "startMs": 765,
+            "text": " threat",
+            "timestampMs": 765,
+            "fromMs": 765,
+            "toMs": 1041
+          }
+        ]
+      },
+      {
+        "durationMs": 520,
+        "startMs": 1081,
+        "text": "was not the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1201,
+            "startMs": 1081,
+            "text": " was",
+            "timestampMs": 1081,
+            "fromMs": 1081,
+            "toMs": 1201
+          },
+          {
+            "confidence": null,
+            "endMs": 1441,
+            "startMs": 1261,
+            "text": " not",
+            "timestampMs": 1261,
+            "fromMs": 1261,
+            "toMs": 1441
+          },
+          {
+            "confidence": null,
+            "endMs": 1601,
+            "startMs": 1481,
+            "text": " the",
+            "timestampMs": 1481,
+            "fromMs": 1481,
+            "toMs": 1601
+          }
+        ]
+      },
+      {
+        "durationMs": 895,
+        "startMs": 1670,
+        "text": "barbarians at the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2324,
+            "startMs": 1670,
+            "text": " barbarians",
+            "timestampMs": 1670,
+            "fromMs": 1670,
+            "toMs": 2324
+          },
+          {
+            "confidence": null,
+            "endMs": 2405,
+            "startMs": 2351,
+            "text": " at",
+            "timestampMs": 2351,
+            "fromMs": 2351,
+            "toMs": 2405
+          },
+          {
+            "confidence": null,
+            "endMs": 2565,
+            "startMs": 2445,
+            "text": " the",
+            "timestampMs": 2445,
+            "fromMs": 2445,
+            "toMs": 2565
+          }
+        ]
+      },
+      {
+        "durationMs": 480,
+        "startMs": 2645,
+        "text": "gate.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3125,
+            "startMs": 2645,
+            "text": " gate.",
+            "timestampMs": 2645,
+            "fromMs": 2645,
+            "toMs": 3125
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 3125,
+        "text": "It was the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3605,
+            "startMs": 3125,
+            "text": "\n\nIt",
+            "timestampMs": 3125,
+            "fromMs": 3125,
+            "toMs": 3605
+          },
+          {
+            "confidence": null,
+            "endMs": 3685,
+            "startMs": 3625,
+            "text": " was",
+            "timestampMs": 3625,
+            "fromMs": 3625,
+            "toMs": 3685
+          },
+          {
+            "confidence": null,
+            "endMs": 3845,
+            "startMs": 3725,
+            "text": " the",
+            "timestampMs": 3725,
+            "fromMs": 3725,
+            "toMs": 3845
+          }
+        ]
+      },
+      {
+        "durationMs": 640,
+        "startMs": 3925,
+        "text": "army that was",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4245,
+            "startMs": 3925,
+            "text": " army",
+            "timestampMs": 3925,
+            "fromMs": 3925,
+            "toMs": 4245
+          },
+          {
+            "confidence": null,
+            "endMs": 4405,
+            "startMs": 4277,
+            "text": " that",
+            "timestampMs": 4277,
+            "fromMs": 4277,
+            "toMs": 4405
+          },
+          {
+            "confidence": null,
+            "endMs": 4565,
+            "startMs": 4445,
+            "text": " was",
+            "timestampMs": 4445,
+            "fromMs": 4445,
+            "toMs": 4565
+          }
+        ]
+      },
+      {
+        "durationMs": 916,
+        "startMs": 4609,
+        "text": "supposed to defend",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4961,
+            "startMs": 4609,
+            "text": " supposed",
+            "timestampMs": 4609,
+            "fromMs": 4609,
+            "toMs": 4961
+          },
+          {
+            "confidence": null,
+            "endMs": 5042,
+            "startMs": 4988,
+            "text": " to",
+            "timestampMs": 4988,
+            "fromMs": 4988,
+            "toMs": 5042
+          },
+          {
+            "confidence": null,
+            "endMs": 5525,
+            "startMs": 5111,
+            "text": " defend",
+            "timestampMs": 5111,
+            "fromMs": 5111,
+            "toMs": 5525
+          }
+        ]
+      },
+      {
+        "durationMs": 1546,
+        "startMs": 5578,
+        "text": "it.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7124,
+            "startMs": 5578,
+            "text": " it.",
+            "timestampMs": 5578,
+            "fromMs": 5578,
+            "toMs": 7124
+          }
+        ]
+      },
+      {
+        "durationMs": 558,
+        "startMs": 7124,
+        "text": "For centuries, emperors",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7125,
+            "startMs": 7124,
+            "text": "\n\nFor",
+            "timestampMs": 7124,
+            "fromMs": 7124,
+            "toMs": 7125
+          },
+          {
+            "confidence": null,
+            "endMs": 7244,
+            "startMs": 7125,
+            "text": " centuries,",
+            "timestampMs": 7125,
+            "fromMs": 7125,
+            "toMs": 7244
+          },
+          {
+            "confidence": null,
+            "endMs": 7682,
+            "startMs": 7284,
+            "text": " emperors",
+            "timestampMs": 7284,
+            "fromMs": 7284,
+            "toMs": 7682
+          }
+        ]
+      },
+      {
+        "durationMs": 756,
+        "startMs": 7728,
+        "text": "needed more than",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8004,
+            "startMs": 7728,
+            "text": " needed",
+            "timestampMs": 7728,
+            "fromMs": 7728,
+            "toMs": 8004
+          },
+          {
+            "confidence": null,
+            "endMs": 8324,
+            "startMs": 8068,
+            "text": " more",
+            "timestampMs": 8068,
+            "fromMs": 8068,
+            "toMs": 8324
+          },
+          {
+            "confidence": null,
+            "endMs": 8484,
+            "startMs": 8356,
+            "text": " than",
+            "timestampMs": 8356,
+            "fromMs": 8356,
+            "toMs": 8484
+          }
+        ]
+      },
+      {
+        "durationMs": 848,
+        "startMs": 8555,
+        "text": "soldiers.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9403,
+            "startMs": 8555,
+            "text": " soldiers.",
+            "timestampMs": 8555,
+            "fromMs": 8555,
+            "toMs": 9403
+          }
+        ]
+      },
+      {
+        "durationMs": 2300,
+        "startMs": 9459,
+        "text": "They needed legitimacy.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9683,
+            "startMs": 9459,
+            "text": " They",
+            "timestampMs": 9459,
+            "fromMs": 9459,
+            "toMs": 9683
+          },
+          {
+            "confidence": null,
+            "endMs": 10082,
+            "startMs": 9740,
+            "text": " needed",
+            "timestampMs": 9740,
+            "fromMs": 9740,
+            "toMs": 10082
+          },
+          {
+            "confidence": null,
+            "endMs": 11759,
+            "startMs": 10169,
+            "text": " legitimacy.",
+            "timestampMs": 10169,
+            "fromMs": 10169,
+            "toMs": 11759
+          }
+        ]
+      },
+      {
+        "durationMs": 1477,
+        "startMs": 11759,
+        "text": "A dynasty mattered.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11760,
+            "startMs": 11759,
+            "text": "\n\nA",
+            "timestampMs": 11759,
+            "fromMs": 11759,
+            "toMs": 11760
+          },
+          {
+            "confidence": null,
+            "endMs": 12479,
+            "startMs": 11849,
+            "text": " dynasty",
+            "timestampMs": 11849,
+            "fromMs": 11849,
+            "toMs": 12479
+          },
+          {
+            "confidence": null,
+            "endMs": 13236,
+            "startMs": 12532,
+            "text": " mattered.",
+            "timestampMs": 12532,
+            "fromMs": 12532,
+            "toMs": 13236
+          }
+        ]
+      },
+      {
+        "durationMs": 1730,
+        "startMs": 13306,
+        "text": "The Senate mattered.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13516,
+            "startMs": 13306,
+            "text": " The",
+            "timestampMs": 13306,
+            "fromMs": 13306,
+            "toMs": 13516
+          },
+          {
+            "confidence": null,
+            "endMs": 13999,
+            "startMs": 13585,
+            "text": " Senate",
+            "timestampMs": 13585,
+            "fromMs": 13585,
+            "toMs": 13999
+          },
+          {
+            "confidence": null,
+            "endMs": 15036,
+            "startMs": 14052,
+            "text": " mattered.",
+            "timestampMs": 14052,
+            "fromMs": 14052,
+            "toMs": 15036
+          }
+        ]
+      },
+      {
+        "durationMs": 1460,
+        "startMs": 15092,
+        "text": "Tradition still mattered.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15596,
+            "startMs": 15092,
+            "text": " Tradition",
+            "timestampMs": 15092,
+            "fromMs": 15092,
+            "toMs": 15596
+          },
+          {
+            "confidence": null,
+            "endMs": 15914,
+            "startMs": 15649,
+            "text": " still",
+            "timestampMs": 15649,
+            "fromMs": 15649,
+            "toMs": 15914
+          },
+          {
+            "confidence": null,
+            "endMs": 16552,
+            "startMs": 15976,
+            "text": " mattered.",
+            "timestampMs": 15976,
+            "fromMs": 15976,
+            "toMs": 16552
+          }
+        ]
+      },
+      {
+        "durationMs": 2560,
+        "startMs": 16552,
+        "text": "Then, in 235,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17632,
+            "startMs": 16552,
+            "text": "\n\nThen,",
+            "timestampMs": 16552,
+            "fromMs": 16552,
+            "toMs": 17632
+          },
+          {
+            "confidence": null,
+            "endMs": 17752,
+            "startMs": 17672,
+            "text": " in",
+            "timestampMs": 17672,
+            "fromMs": 17672,
+            "toMs": 17752
+          },
+          {
+            "confidence": null,
+            "endMs": 19112,
+            "startMs": 17912,
+            "text": " 235,",
+            "timestampMs": 17912,
+            "fromMs": 17912,
+            "toMs": 19112
+          }
+        ]
+      },
+      {
+        "durationMs": 1152,
+        "startMs": 19160,
+        "text": "that old system",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19352,
+            "startMs": 19160,
+            "text": " that",
+            "timestampMs": 19160,
+            "fromMs": 19160,
+            "toMs": 19352
+          },
+          {
+            "confidence": null,
+            "endMs": 19752,
+            "startMs": 19452,
+            "text": " old",
+            "timestampMs": 19452,
+            "fromMs": 19452,
+            "toMs": 19752
+          },
+          {
+            "confidence": null,
+            "endMs": 20312,
+            "startMs": 19832,
+            "text": " system",
+            "timestampMs": 19832,
+            "fromMs": 19832,
+            "toMs": 20312
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 20372,
+        "text": "cracked open.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20792,
+            "startMs": 20372,
+            "text": " cracked",
+            "timestampMs": 20372,
+            "fromMs": 20372,
+            "toMs": 20792
+          },
+          {
+            "confidence": null,
+            "endMs": 21272,
+            "startMs": 20872,
+            "text": " open.",
+            "timestampMs": 20872,
+            "fromMs": 20872,
+            "toMs": 21272
+          }
+        ]
+      },
+      {
+        "durationMs": 2320,
+        "startMs": 21272,
+        "text": "Emperor Severus Alexander",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22232,
+            "startMs": 21272,
+            "text": "\n\nEmperor",
+            "timestampMs": 21272,
+            "fromMs": 21272,
+            "toMs": 22232
+          },
+          {
+            "confidence": null,
+            "endMs": 22872,
+            "startMs": 22312,
+            "text": " Severus",
+            "timestampMs": 22312,
+            "fromMs": 22312,
+            "toMs": 22872
+          },
+          {
+            "confidence": null,
+            "endMs": 23592,
+            "startMs": 22944,
+            "text": " Alexander",
+            "timestampMs": 22944,
+            "fromMs": 22944,
+            "toMs": 23592
+          }
+        ]
+      },
+      {
+        "durationMs": 1136,
+        "startMs": 23659,
+        "text": "tried buying peace",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23994,
+            "startMs": 23659,
+            "text": " tried",
+            "timestampMs": 23659,
+            "fromMs": 23659,
+            "toMs": 23994
+          },
+          {
+            "confidence": null,
+            "endMs": 24393,
+            "startMs": 24051,
+            "text": " buying",
+            "timestampMs": 24051,
+            "fromMs": 24051,
+            "toMs": 24393
+          },
+          {
+            "confidence": null,
+            "endMs": 24795,
+            "startMs": 24460,
+            "text": " peace",
+            "timestampMs": 24460,
+            "fromMs": 24460,
+            "toMs": 24795
+          }
+        ]
+      },
+      {
+        "durationMs": 585,
+        "startMs": 24848,
+        "text": "on the German",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24954,
+            "startMs": 24848,
+            "text": " on",
+            "timestampMs": 24848,
+            "fromMs": 24848,
+            "toMs": 24954
+          },
+          {
+            "confidence": null,
+            "endMs": 25034,
+            "startMs": 24974,
+            "text": " the",
+            "timestampMs": 24974,
+            "fromMs": 24974,
+            "toMs": 25034
+          },
+          {
+            "confidence": null,
+            "endMs": 25433,
+            "startMs": 25091,
+            "text": " German",
+            "timestampMs": 25091,
+            "fromMs": 25091,
+            "toMs": 25433
+          }
+        ]
+      },
+      {
+        "durationMs": 1280,
+        "startMs": 25513,
+        "text": "frontier.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26793,
+            "startMs": 25513,
+            "text": " frontier.",
+            "timestampMs": 25513,
+            "fromMs": 25513,
+            "toMs": 26793
+          }
+        ]
+      },
+      {
+        "durationMs": 559,
+        "startMs": 26793,
+        "text": "His troops saw",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26794,
+            "startMs": 26793,
+            "text": "\n\nHis",
+            "timestampMs": 26793,
+            "fromMs": 26793,
+            "toMs": 26794
+          },
+          {
+            "confidence": null,
+            "endMs": 27192,
+            "startMs": 26850,
+            "text": " troops",
+            "timestampMs": 26850,
+            "fromMs": 26850,
+            "toMs": 27192
+          },
+          {
+            "confidence": null,
+            "endMs": 27352,
+            "startMs": 27232,
+            "text": " saw",
+            "timestampMs": 27232,
+            "fromMs": 27232,
+            "toMs": 27352
+          }
+        ]
+      },
+      {
+        "durationMs": 1839,
+        "startMs": 27432,
+        "text": "diplomacy as weakness,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28152,
+            "startMs": 27432,
+            "text": " diplomacy",
+            "timestampMs": 27432,
+            "fromMs": 27432,
+            "toMs": 28152
+          },
+          {
+            "confidence": null,
+            "endMs": 28311,
+            "startMs": 28205,
+            "text": " as",
+            "timestampMs": 28205,
+            "fromMs": 28205,
+            "toMs": 28311
+          },
+          {
+            "confidence": null,
+            "endMs": 29271,
+            "startMs": 28391,
+            "text": " weakness,",
+            "timestampMs": 28391,
+            "fromMs": 28391,
+            "toMs": 29271
+          }
+        ]
+      },
+      {
+        "durationMs": 1218,
+        "startMs": 29331,
+        "text": "and weakness as",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29511,
+            "startMs": 29331,
+            "text": " and",
+            "timestampMs": 29331,
+            "fromMs": 29331,
+            "toMs": 29511
+          },
+          {
+            "confidence": null,
+            "endMs": 30150,
+            "startMs": 29582,
+            "text": " weakness",
+            "timestampMs": 29582,
+            "fromMs": 29582,
+            "toMs": 30150
+          },
+          {
+            "confidence": null,
+            "endMs": 30549,
+            "startMs": 30283,
+            "text": " as",
+            "timestampMs": 30283,
+            "fromMs": 30283,
+            "toMs": 30549
+          }
+        ]
+      },
+      {
+        "durationMs": 712,
+        "startMs": 30638,
+        "text": "betrayal.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31350,
+            "startMs": 30638,
+            "text": " betrayal.",
+            "timestampMs": 30638,
+            "fromMs": 30638,
+            "toMs": 31350
+          }
+        ]
+      },
+      {
+        "durationMs": 1195,
+        "startMs": 31350,
+        "text": "So they murdered",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31989,
+            "startMs": 31350,
+            "text": "\n\nSo",
+            "timestampMs": 31350,
+            "fromMs": 31350,
+            "toMs": 31989
+          },
+          {
+            "confidence": null,
+            "endMs": 32149,
+            "startMs": 32021,
+            "text": " they",
+            "timestampMs": 32021,
+            "fromMs": 32021,
+            "toMs": 32149
+          },
+          {
+            "confidence": null,
+            "endMs": 32545,
+            "startMs": 32193,
+            "text": " murdered",
+            "timestampMs": 32193,
+            "fromMs": 32193,
+            "toMs": 32545
+          }
+        ]
+      },
+      {
+        "durationMs": 379,
+        "startMs": 32565,
+        "text": "him in his",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32625,
+            "startMs": 32565,
+            "text": " him",
+            "timestampMs": 32565,
+            "fromMs": 32565,
+            "toMs": 32625
+          },
+          {
+            "confidence": null,
+            "endMs": 32784,
+            "startMs": 32678,
+            "text": " in",
+            "timestampMs": 32678,
+            "fromMs": 32678,
+            "toMs": 32784
+          },
+          {
+            "confidence": null,
+            "endMs": 32944,
+            "startMs": 32824,
+            "text": " his",
+            "timestampMs": 32824,
+            "fromMs": 32824,
+            "toMs": 32944
+          }
+        ]
+      },
+      {
+        "durationMs": 818,
+        "startMs": 33008,
+        "text": "tent and chose",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33264,
+            "startMs": 33008,
+            "text": " tent",
+            "timestampMs": 33008,
+            "fromMs": 33008,
+            "toMs": 33264
+          },
+          {
+            "confidence": null,
+            "endMs": 33424,
+            "startMs": 33304,
+            "text": " and",
+            "timestampMs": 33304,
+            "fromMs": 33304,
+            "toMs": 33424
+          },
+          {
+            "confidence": null,
+            "endMs": 33826,
+            "startMs": 33491,
+            "text": " chose",
+            "timestampMs": 33491,
+            "fromMs": 33491,
+            "toMs": 33826
+          }
+        ]
+      },
+      {
+        "durationMs": 1908,
+        "startMs": 33853,
+        "text": "their own emperor.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33988,
+            "startMs": 33853,
+            "text": " their",
+            "timestampMs": 33853,
+            "fromMs": 33853,
+            "toMs": 33988
+          },
+          {
+            "confidence": null,
+            "endMs": 34468,
+            "startMs": 34108,
+            "text": " own",
+            "timestampMs": 34108,
+            "fromMs": 34108,
+            "toMs": 34468
+          },
+          {
+            "confidence": null,
+            "endMs": 35761,
+            "startMs": 34538,
+            "text": " emperor.",
+            "timestampMs": 34538,
+            "fromMs": 34538,
+            "toMs": 35761
+          }
+        ]
+      },
+      {
+        "durationMs": 1665,
+        "startMs": 35761,
+        "text": "Maximinus Thrax was",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36466,
+            "startMs": 35761,
+            "text": "\n\nMaximinus",
+            "timestampMs": 35761,
+            "fromMs": 35761,
+            "toMs": 36466
+          },
+          {
+            "confidence": null,
+            "endMs": 37106,
+            "startMs": 36526,
+            "text": " Thrax",
+            "timestampMs": 36526,
+            "fromMs": 36526,
+            "toMs": 37106
+          },
+          {
+            "confidence": null,
+            "endMs": 37426,
+            "startMs": 37186,
+            "text": " was",
+            "timestampMs": 37186,
+            "fromMs": 37186,
+            "toMs": 37426
+          }
+        ]
+      },
+      {
+        "durationMs": 1200,
+        "startMs": 37506,
+        "text": "not a senator.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37746,
+            "startMs": 37506,
+            "text": " not",
+            "timestampMs": 37506,
+            "fromMs": 37506,
+            "toMs": 37746
+          },
+          {
+            "confidence": null,
+            "endMs": 37906,
+            "startMs": 37826,
+            "text": " a",
+            "timestampMs": 37826,
+            "fromMs": 37826,
+            "toMs": 37906
+          },
+          {
+            "confidence": null,
+            "endMs": 38706,
+            "startMs": 37976,
+            "text": " senator.",
+            "timestampMs": 37976,
+            "fromMs": 37976,
+            "toMs": 38706
+          }
+        ]
+      },
+      {
+        "durationMs": 400,
+        "startMs": 38786,
+        "text": "He was a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38946,
+            "startMs": 38786,
+            "text": " He",
+            "timestampMs": 38786,
+            "fromMs": 38786,
+            "toMs": 38946
+          },
+          {
+            "confidence": null,
+            "endMs": 39026,
+            "startMs": 38966,
+            "text": " was",
+            "timestampMs": 38966,
+            "fromMs": 38966,
+            "toMs": 39026
+          },
+          {
+            "confidence": null,
+            "endMs": 39186,
+            "startMs": 39106,
+            "text": " a",
+            "timestampMs": 39106,
+            "fromMs": 39106,
+            "toMs": 39186
+          }
+        ]
+      },
+      {
+        "durationMs": 1348,
+        "startMs": 39246,
+        "text": "soldier’s soldier.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39826,
+            "startMs": 39246,
+            "text": " soldier’s",
+            "timestampMs": 39246,
+            "fromMs": 39246,
+            "toMs": 39826
+          },
+          {
+            "confidence": null,
+            "endMs": 40594,
+            "startMs": 39896,
+            "text": " soldier.",
+            "timestampMs": 39896,
+            "fromMs": 39896,
+            "toMs": 40594
+          }
+        ]
+      },
+      {
+        "durationMs": 1072,
+        "startMs": 40594,
+        "text": "That changed the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 41106,
+            "startMs": 40594,
+            "text": "\n\nThat",
+            "timestampMs": 40594,
+            "fromMs": 40594,
+            "toMs": 41106
+          },
+          {
+            "confidence": null,
+            "endMs": 41506,
+            "startMs": 41156,
+            "text": " changed",
+            "timestampMs": 41156,
+            "fromMs": 41156,
+            "toMs": 41506
+          },
+          {
+            "confidence": null,
+            "endMs": 41666,
+            "startMs": 41546,
+            "text": " the",
+            "timestampMs": 41546,
+            "fromMs": 41546,
+            "toMs": 41666
+          }
+        ]
+      },
+      {
+        "durationMs": 895,
+        "startMs": 41773,
+        "text": "rules.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42668,
+            "startMs": 41773,
+            "text": " rules.",
+            "timestampMs": 41773,
+            "fromMs": 41773,
+            "toMs": 42668
+          }
+        ]
+      },
+      {
+        "durationMs": 829,
+        "startMs": 42758,
+        "text": "Any legion with",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43028,
+            "startMs": 42758,
+            "text": " Any",
+            "timestampMs": 42758,
+            "fromMs": 42758,
+            "toMs": 43028
+          },
+          {
+            "confidence": null,
+            "endMs": 43427,
+            "startMs": 43085,
+            "text": " legion",
+            "timestampMs": 43085,
+            "fromMs": 43085,
+            "toMs": 43427
+          },
+          {
+            "confidence": null,
+            "endMs": 43587,
+            "startMs": 43459,
+            "text": " with",
+            "timestampMs": 43459,
+            "fromMs": 43459,
+            "toMs": 43587
+          }
+        ]
+      },
+      {
+        "durationMs": 998,
+        "startMs": 43633,
+        "text": "enough swords could",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43909,
+            "startMs": 43633,
+            "text": " enough",
+            "timestampMs": 43633,
+            "fromMs": 43633,
+            "toMs": 43909
+          },
+          {
+            "confidence": null,
+            "endMs": 44469,
+            "startMs": 43989,
+            "text": " swords",
+            "timestampMs": 43989,
+            "fromMs": 43989,
+            "toMs": 44469
+          },
+          {
+            "confidence": null,
+            "endMs": 44631,
+            "startMs": 44496,
+            "text": " could",
+            "timestampMs": 44496,
+            "fromMs": 44496,
+            "toMs": 44631
+          }
+        ]
+      },
+      {
+        "durationMs": 1712,
+        "startMs": 44679,
+        "text": "make a ruler.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44871,
+            "startMs": 44679,
+            "text": " make",
+            "timestampMs": 44679,
+            "fromMs": 44679,
+            "toMs": 44871
+          },
+          {
+            "confidence": null,
+            "endMs": 44951,
+            "startMs": 44911,
+            "text": " a",
+            "timestampMs": 44911,
+            "fromMs": 44911,
+            "toMs": 44951
+          },
+          {
+            "confidence": null,
+            "endMs": 46391,
+            "startMs": 45031,
+            "text": " ruler.",
+            "timestampMs": 45031,
+            "fromMs": 45031,
+            "toMs": 46391
+          }
+        ]
+      },
+      {
+        "durationMs": 1041,
+        "startMs": 46391,
+        "text": "Soon, generals were",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46831,
+            "startMs": 46391,
+            "text": "\n\nSoon,",
+            "timestampMs": 46391,
+            "fromMs": 46391,
+            "toMs": 46831
+          },
+          {
+            "confidence": null,
+            "endMs": 47272,
+            "startMs": 46880,
+            "text": " generals",
+            "timestampMs": 46880,
+            "fromMs": 46880,
+            "toMs": 47272
+          },
+          {
+            "confidence": null,
+            "endMs": 47432,
+            "startMs": 47304,
+            "text": " were",
+            "timestampMs": 47304,
+            "fromMs": 47304,
+            "toMs": 47432
+          }
+        ]
+      },
+      {
+        "durationMs": 1500,
+        "startMs": 47492,
+        "text": "not serving emperors.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47672,
+            "startMs": 47492,
+            "text": " not",
+            "timestampMs": 47492,
+            "fromMs": 47492,
+            "toMs": 47672
+          },
+          {
+            "confidence": null,
+            "endMs": 48072,
+            "startMs": 47722,
+            "text": " serving",
+            "timestampMs": 47722,
+            "fromMs": 47722,
+            "toMs": 48072
+          },
+          {
+            "confidence": null,
+            "endMs": 48992,
+            "startMs": 48152,
+            "text": " emperors.",
+            "timestampMs": 48152,
+            "fromMs": 48152,
+            "toMs": 48992
+          }
+        ]
+      },
+      {
+        "durationMs": 956,
+        "startMs": 49032,
+        "text": "They were auditioning",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 49192,
+            "startMs": 49032,
+            "text": " They",
+            "timestampMs": 49032,
+            "fromMs": 49032,
+            "toMs": 49192
+          },
+          {
+            "confidence": null,
+            "endMs": 49352,
+            "startMs": 49224,
+            "text": " were",
+            "timestampMs": 49224,
+            "fromMs": 49224,
+            "toMs": 49352
+          },
+          {
+            "confidence": null,
+            "endMs": 49988,
+            "startMs": 49405,
+            "text": " auditioning",
+            "timestampMs": 49405,
+            "fromMs": 49405,
+            "toMs": 49988
+          }
+        ]
+      },
+      {
+        "durationMs": 854,
+        "startMs": 50015,
+        "text": "to replace them.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50069,
+            "startMs": 50015,
+            "text": " to",
+            "timestampMs": 50015,
+            "fromMs": 50015,
+            "toMs": 50069
+          },
+          {
+            "confidence": null,
+            "endMs": 50549,
+            "startMs": 50129,
+            "text": " replace",
+            "timestampMs": 50129,
+            "fromMs": 50129,
+            "toMs": 50549
+          },
+          {
+            "confidence": null,
+            "endMs": 50869,
+            "startMs": 50613,
+            "text": " them.",
+            "timestampMs": 50613,
+            "fromMs": 50613,
+            "toMs": 50869
+          }
+        ]
+      },
+      {
+        "durationMs": 1283,
+        "startMs": 50869,
+        "text": "The throne became",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51431,
+            "startMs": 50869,
+            "text": "\n\nThe",
+            "timestampMs": 50869,
+            "fromMs": 50869,
+            "toMs": 51431
+          },
+          {
+            "confidence": null,
+            "endMs": 51830,
+            "startMs": 51488,
+            "text": " throne",
+            "timestampMs": 51488,
+            "fromMs": 51488,
+            "toMs": 51830
+          },
+          {
+            "confidence": null,
+            "endMs": 52152,
+            "startMs": 51876,
+            "text": " became",
+            "timestampMs": 51876,
+            "fromMs": 51876,
+            "toMs": 52152
+          }
+        ]
+      },
+      {
+        "durationMs": 1043,
+        "startMs": 52232,
+        "text": "a prize armies",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52312,
+            "startMs": 52232,
+            "text": " a",
+            "timestampMs": 52232,
+            "fromMs": 52232,
+            "toMs": 52312
+          },
+          {
+            "confidence": null,
+            "endMs": 52792,
+            "startMs": 52392,
+            "text": " prize",
+            "timestampMs": 52392,
+            "fromMs": 52392,
+            "toMs": 52792
+          },
+          {
+            "confidence": null,
+            "endMs": 53275,
+            "startMs": 52861,
+            "text": " armies",
+            "timestampMs": 52861,
+            "fromMs": 52861,
+            "toMs": 53275
+          }
+        ]
+      },
+      {
+        "durationMs": 600,
+        "startMs": 53315,
+        "text": "could sell for",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53515,
+            "startMs": 53315,
+            "text": " could",
+            "timestampMs": 53315,
+            "fromMs": 53315,
+            "toMs": 53515
+          },
+          {
+            "confidence": null,
+            "endMs": 53755,
+            "startMs": 53563,
+            "text": " sell",
+            "timestampMs": 53563,
+            "fromMs": 53563,
+            "toMs": 53755
+          },
+          {
+            "confidence": null,
+            "endMs": 53915,
+            "startMs": 53795,
+            "text": " for",
+            "timestampMs": 53795,
+            "fromMs": 53795,
+            "toMs": 53915
+          }
+        ]
+      },
+      {
+        "durationMs": 2264,
+        "startMs": 53972,
+        "text": "higher pay.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54314,
+            "startMs": 53972,
+            "text": " higher",
+            "timestampMs": 53972,
+            "fromMs": 53972,
+            "toMs": 54314
+          },
+          {
+            "confidence": null,
+            "endMs": 56236,
+            "startMs": 54434,
+            "text": " pay.",
+            "timestampMs": 54434,
+            "fromMs": 54434,
+            "toMs": 56236
+          }
+        ]
+      },
+      {
+        "durationMs": 40,
+        "startMs": 56236,
+        "text": "If an emperor",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56237,
+            "startMs": 56236,
+            "text": "\n\nIf",
+            "timestampMs": 56236,
+            "fromMs": 56236,
+            "toMs": 56237
+          },
+          {
+            "confidence": null,
+            "endMs": 56238,
+            "startMs": 56237,
+            "text": " an",
+            "timestampMs": 56237,
+            "fromMs": 56237,
+            "toMs": 56238
+          },
+          {
+            "confidence": null,
+            "endMs": 56239,
+            "startMs": 56238,
+            "text": " emperor",
+            "timestampMs": 56238,
+            "fromMs": 56238,
+            "toMs": 56239
+          }
+        ]
+      },
+      {
+        "durationMs": 236,
+        "startMs": 56239,
+        "text": "ran out of",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56240,
+            "startMs": 56239,
+            "text": " ran",
+            "timestampMs": 56239,
+            "fromMs": 56239,
+            "toMs": 56240
+          },
+          {
+            "confidence": null,
+            "endMs": 56316,
+            "startMs": 56240,
+            "text": " out",
+            "timestampMs": 56240,
+            "fromMs": 56240,
+            "toMs": 56316
+          },
+          {
+            "confidence": null,
+            "endMs": 56475,
+            "startMs": 56369,
+            "text": " of",
+            "timestampMs": 56369,
+            "fromMs": 56369,
+            "toMs": 56475
+          }
+        ]
+      },
+      {
+        "durationMs": 1228,
+        "startMs": 56528,
+        "text": "money, his guards",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57033,
+            "startMs": 56528,
+            "text": " money,",
+            "timestampMs": 56528,
+            "fromMs": 56528,
+            "toMs": 57033
+          },
+          {
+            "confidence": null,
+            "endMs": 57273,
+            "startMs": 57093,
+            "text": " his",
+            "timestampMs": 57093,
+            "fromMs": 57093,
+            "toMs": 57273
+          },
+          {
+            "confidence": null,
+            "endMs": 57756,
+            "startMs": 57342,
+            "text": " guards",
+            "timestampMs": 57342,
+            "fromMs": 57342,
+            "toMs": 57756
+          }
+        ]
+      },
+      {
+        "durationMs": 695,
+        "startMs": 57783,
+        "text": "could kill him.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57918,
+            "startMs": 57783,
+            "text": " could",
+            "timestampMs": 57783,
+            "fromMs": 57783,
+            "toMs": 57918
+          },
+          {
+            "confidence": null,
+            "endMs": 58158,
+            "startMs": 57966,
+            "text": " kill",
+            "timestampMs": 57966,
+            "fromMs": 57966,
+            "toMs": 58158
+          },
+          {
+            "confidence": null,
+            "endMs": 58478,
+            "startMs": 58218,
+            "text": " him.",
+            "timestampMs": 58218,
+            "fromMs": 58218,
+            "toMs": 58478
+          }
+        ]
+      },
+      {
+        "durationMs": 1758,
+        "startMs": 58478,
+        "text": "Rome survived the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 59598,
+            "startMs": 58478,
+            "text": "\n\nRome",
+            "timestampMs": 58478,
+            "fromMs": 58478,
+            "toMs": 59598
+          },
+          {
+            "confidence": null,
+            "endMs": 60156,
+            "startMs": 59660,
+            "text": " survived",
+            "timestampMs": 59660,
+            "fromMs": 59660,
+            "toMs": 60156
+          },
+          {
+            "confidence": null,
+            "endMs": 60236,
+            "startMs": 60176,
+            "text": " the",
+            "timestampMs": 60176,
+            "fromMs": 60176,
+            "toMs": 60236
+          }
+        ]
+      },
+      {
+        "durationMs": 1425,
+        "startMs": 60329,
+        "text": "shock, but authority",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60994,
+            "startMs": 60329,
+            "text": " shock,",
+            "timestampMs": 60329,
+            "fromMs": 60329,
+            "toMs": 60994
+          },
+          {
+            "confidence": null,
+            "endMs": 61194,
+            "startMs": 61044,
+            "text": " but",
+            "timestampMs": 61044,
+            "fromMs": 61044,
+            "toMs": 61194
+          },
+          {
+            "confidence": null,
+            "endMs": 61754,
+            "startMs": 61250,
+            "text": " authority",
+            "timestampMs": 61250,
+            "fromMs": 61250,
+            "toMs": 61754
+          }
+        ]
+      },
+      {
+        "durationMs": 1800,
+        "startMs": 61794,
+        "text": "stopped feeling sacred.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 62074,
+            "startMs": 61794,
+            "text": " stopped",
+            "timestampMs": 61794,
+            "fromMs": 61794,
+            "toMs": 62074
+          },
+          {
+            "confidence": null,
+            "endMs": 62474,
+            "startMs": 62124,
+            "text": " feeling",
+            "timestampMs": 62124,
+            "fromMs": 62124,
+            "toMs": 62474
+          },
+          {
+            "confidence": null,
+            "endMs": 63594,
+            "startMs": 62554,
+            "text": " sacred.",
+            "timestampMs": 62554,
+            "fromMs": 62554,
+            "toMs": 63594
+          }
+        ]
+      },
+      {
+        "durationMs": 801,
+        "startMs": 63594,
+        "text": "The empire still",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63595,
+            "startMs": 63594,
+            "text": "\n\nThe",
+            "timestampMs": 63594,
+            "fromMs": 63594,
+            "toMs": 63595
+          },
+          {
+            "confidence": null,
+            "endMs": 64077,
+            "startMs": 63663,
+            "text": " empire",
+            "timestampMs": 63663,
+            "fromMs": 63663,
+            "toMs": 64077
+          },
+          {
+            "confidence": null,
+            "endMs": 64395,
+            "startMs": 64130,
+            "text": " still",
+            "timestampMs": 64130,
+            "fromMs": 64130,
+            "toMs": 64395
+          }
+        ]
+      },
+      {
+        "durationMs": 1960,
+        "startMs": 64475,
+        "text": "had walls, roads,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 64715,
+            "startMs": 64475,
+            "text": " had",
+            "timestampMs": 64475,
+            "fromMs": 64475,
+            "toMs": 64715
+          },
+          {
+            "confidence": null,
+            "endMs": 65673,
+            "startMs": 64808,
+            "text": " walls,",
+            "timestampMs": 64808,
+            "fromMs": 64808,
+            "toMs": 65673
+          },
+          {
+            "confidence": null,
+            "endMs": 66435,
+            "startMs": 65740,
+            "text": " roads,",
+            "timestampMs": 65740,
+            "fromMs": 65740,
+            "toMs": 66435
+          }
+        ]
+      },
+      {
+        "durationMs": 1465,
+        "startMs": 66495,
+        "text": "taxes, and armies.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 66955,
+            "startMs": 66495,
+            "text": " taxes,",
+            "timestampMs": 66495,
+            "fromMs": 66495,
+            "toMs": 66955
+          },
+          {
+            "confidence": null,
+            "endMs": 67115,
+            "startMs": 66995,
+            "text": " and",
+            "timestampMs": 66995,
+            "fromMs": 66995,
+            "toMs": 67115
+          },
+          {
+            "confidence": null,
+            "endMs": 67960,
+            "startMs": 67206,
+            "text": " armies.",
+            "timestampMs": 67206,
+            "fromMs": 67206,
+            "toMs": 67960
+          }
+        ]
+      },
+      {
+        "durationMs": 1071,
+        "startMs": 67960,
+        "text": "What it lost",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 68472,
+            "startMs": 67960,
+            "text": "\n\nWhat",
+            "timestampMs": 67960,
+            "fromMs": 67960,
+            "toMs": 68472
+          },
+          {
+            "confidence": null,
+            "endMs": 68631,
+            "startMs": 68525,
+            "text": " it",
+            "timestampMs": 68525,
+            "fromMs": 68525,
+            "toMs": 68631
+          },
+          {
+            "confidence": null,
+            "endMs": 69031,
+            "startMs": 68711,
+            "text": " lost",
+            "timestampMs": 68711,
+            "fromMs": 68711,
+            "toMs": 69031
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 69091,
+        "text": "was trust that",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69271,
+            "startMs": 69091,
+            "text": " was",
+            "timestampMs": 69091,
+            "fromMs": 69091,
+            "toMs": 69271
+          },
+          {
+            "confidence": null,
+            "endMs": 69751,
+            "startMs": 69351,
+            "text": " trust",
+            "timestampMs": 69351,
+            "fromMs": 69351,
+            "toMs": 69751
+          },
+          {
+            "confidence": null,
+            "endMs": 69991,
+            "startMs": 69799,
+            "text": " that",
+            "timestampMs": 69799,
+            "fromMs": 69799,
+            "toMs": 69991
+          }
+        ]
+      },
+      {
+        "durationMs": 1200,
+        "startMs": 70071,
+        "text": "anyone truly had",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 70551,
+            "startMs": 70071,
+            "text": " anyone",
+            "timestampMs": 70071,
+            "fromMs": 70071,
+            "toMs": 70551
+          },
+          {
+            "confidence": null,
+            "endMs": 71031,
+            "startMs": 70631,
+            "text": " truly",
+            "timestampMs": 70631,
+            "fromMs": 70631,
+            "toMs": 71031
+          },
+          {
+            "confidence": null,
+            "endMs": 71271,
+            "startMs": 71091,
+            "text": " had",
+            "timestampMs": 71091,
+            "fromMs": 71091,
+            "toMs": 71271
+          }
+        ]
+      },
+      {
+        "durationMs": 537,
+        "startMs": 71291,
+        "text": "the right to",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 71351,
+            "startMs": 71291,
+            "text": " the",
+            "timestampMs": 71291,
+            "fromMs": 71291,
+            "toMs": 71351
+          },
+          {
+            "confidence": null,
+            "endMs": 71669,
+            "startMs": 71404,
+            "text": " right",
+            "timestampMs": 71404,
+            "fromMs": 71404,
+            "toMs": 71669
+          },
+          {
+            "confidence": null,
+            "endMs": 71828,
+            "startMs": 71722,
+            "text": " to",
+            "timestampMs": 71722,
+            "fromMs": 71722,
+            "toMs": 71828
+          }
+        ]
+      },
+      {
+        "durationMs": 384,
+        "startMs": 71924,
+        "text": "rule.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 72308,
+            "startMs": 71924,
+            "text": " rule.",
+            "timestampMs": 71924,
+            "fromMs": 71924,
+            "toMs": 72308
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "Rome’s biggest threat was not the barbarians at the gate."
+      },
+      {
+        "startMs": 3125,
+        "text": "It was the army that was supposed to defend it."
+      },
+      {
+        "startMs": 7124,
+        "text": "For centuries, emperors needed more than soldiers."
+      },
+      {
+        "startMs": 9459,
+        "text": "They needed legitimacy."
+      },
+      {
+        "startMs": 11759,
+        "text": "A dynasty mattered."
+      },
+      {
+        "startMs": 13306,
+        "text": "The Senate mattered."
+      },
+      {
+        "startMs": 15092,
+        "text": "Tradition still mattered."
+      },
+      {
+        "startMs": 16552,
+        "text": "Then, in 235, that old system cracked open."
+      },
+      {
+        "startMs": 21272,
+        "text": "Emperor Severus Alexander tried buying peace on the German frontier."
+      },
+      {
+        "startMs": 26793,
+        "text": "His troops saw diplomacy as weakness, and weakness as betrayal."
+      },
+      {
+        "startMs": 31350,
+        "text": "So they murdered him in his tent and chose their own emperor."
+      },
+      {
+        "startMs": 35761,
+        "text": "Maximinus Thrax was not a senator."
+      },
+      {
+        "startMs": 38786,
+        "text": "He was a soldier’s soldier."
+      },
+      {
+        "startMs": 40594,
+        "text": "That changed the rules."
+      },
+      {
+        "startMs": 42758,
+        "text": "Any legion with enough swords could make a ruler."
+      },
+      {
+        "startMs": 46391,
+        "text": "Soon, generals were not serving emperors."
+      },
+      {
+        "startMs": 49032,
+        "text": "They were auditioning to replace them."
+      },
+      {
+        "startMs": 50869,
+        "text": "The throne became a prize armies could sell for higher pay."
+      },
+      {
+        "startMs": 56236,
+        "text": "If an emperor ran out of money, his guards could kill him."
+      },
+      {
+        "startMs": 58478,
+        "text": "Rome survived the shock, but authority stopped feeling sacred."
+      },
+      {
+        "startMs": 63594,
+        "text": "The empire still had walls, roads, taxes, and armies."
+      },
+      {
+        "startMs": 67960,
+        "text": "What it lost was trust that anyone truly had the right to rule."
+      }
+    ]
+  },
+  "audioDurationSeconds": 72.32,
+  "honoFindSceneStartsMs": [
+    0,
+    3125,
+    7124,
+    11759,
+    16552,
+    21272,
+    26793,
+    31350,
+    35761,
+    40594,
+    46391,
+    50869,
+    56236,
+    58478,
+    63594,
+    67960
+  ],
+  "honoTimelineScenes": [
+    {
+      "scene": 1,
+      "startSeconds": 0,
+      "endSeconds": 3.125,
+      "durationSeconds": 3.125,
+      "text": "Rome’s biggest threat was not the barbarians at the gate."
+    },
+    {
+      "scene": 2,
+      "startSeconds": 3.125,
+      "endSeconds": 7.124,
+      "durationSeconds": 3.999,
+      "text": "It was the army that was supposed to defend it."
+    },
+    {
+      "scene": 3,
+      "startSeconds": 7.124,
+      "endSeconds": 11.759,
+      "durationSeconds": 4.635,
+      "text": "For centuries, emperors needed more than soldiers. They needed legitimacy."
+    },
+    {
+      "scene": 4,
+      "startSeconds": 11.759,
+      "endSeconds": 16.552,
+      "durationSeconds": 4.793,
+      "text": "A dynasty mattered. The Senate mattered. Tradition still mattered."
+    },
+    {
+      "scene": 5,
+      "startSeconds": 16.552,
+      "endSeconds": 21.272,
+      "durationSeconds": 4.72,
+      "text": "Then, in 235, that old system cracked open."
+    },
+    {
+      "scene": 6,
+      "startSeconds": 21.272,
+      "endSeconds": 26.793,
+      "durationSeconds": 5.521,
+      "text": "Emperor Severus Alexander tried buying peace on the German frontier."
+    },
+    {
+      "scene": 7,
+      "startSeconds": 26.793,
+      "endSeconds": 31.35,
+      "durationSeconds": 4.557,
+      "text": "His troops saw diplomacy as weakness, and weakness as betrayal."
+    },
+    {
+      "scene": 8,
+      "startSeconds": 31.35,
+      "endSeconds": 35.761,
+      "durationSeconds": 4.411,
+      "text": "So they murdered him in his tent and chose their own emperor."
+    },
+    {
+      "scene": 9,
+      "startSeconds": 35.761,
+      "endSeconds": 40.594,
+      "durationSeconds": 4.833,
+      "text": "Maximinus Thrax was not a senator. He was a soldier’s soldier."
+    },
+    {
+      "scene": 10,
+      "startSeconds": 40.594,
+      "endSeconds": 46.391,
+      "durationSeconds": 5.797,
+      "text": "That changed the rules. Any legion with enough swords could make a ruler."
+    },
+    {
+      "scene": 11,
+      "startSeconds": 46.391,
+      "endSeconds": 50.869,
+      "durationSeconds": 4.478,
+      "text": "Soon, generals were not serving emperors. They were auditioning to replace them."
+    },
+    {
+      "scene": 12,
+      "startSeconds": 50.869,
+      "endSeconds": 56.236,
+      "durationSeconds": 5.367,
+      "text": "The throne became a prize armies could sell for higher pay."
+    },
+    {
+      "scene": 13,
+      "startSeconds": 56.236,
+      "endSeconds": 58.478,
+      "durationSeconds": 2.242,
+      "text": "If an emperor ran out of money, his guards could kill him."
+    },
+    {
+      "scene": 14,
+      "startSeconds": 58.478,
+      "endSeconds": 63.594,
+      "durationSeconds": 5.116,
+      "text": "Rome survived the shock, but authority stopped feeling sacred."
+    },
+    {
+      "scene": 15,
+      "startSeconds": 63.594,
+      "endSeconds": 67.96,
+      "durationSeconds": 4.366,
+      "text": "The empire still had walls, roads, taxes, and armies."
+    },
+    {
+      "scene": 16,
+      "startSeconds": 67.96,
+      "endSeconds": 72.32,
+      "durationSeconds": 4.36,
+      "text": "What it lost was trust that anyone truly had the right to rule."
+    }
+  ]
+}

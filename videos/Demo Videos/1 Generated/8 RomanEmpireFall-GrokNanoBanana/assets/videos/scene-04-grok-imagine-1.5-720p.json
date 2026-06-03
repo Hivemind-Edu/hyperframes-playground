@@ -1,0 +1,37 @@
+{
+  "scene": 4,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.793,
+  "voiceoverStartSeconds": 11.759,
+  "voiceoverEndSeconds": 16.552,
+  "voiceoverText": "A dynasty mattered. The Senate mattered. Tradition still mattered.",
+  "imagePrompt": "A solemn old senator presenting ancestral wax masks and scrolls to a nervous emperor, tall shelves of family busts rising into shadow above them.",
+  "videoPrompt": "The senator lifts a scroll toward the emperor while dust floats in sunbeams and ancestral masks seem to watch from the darkness.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-04-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-04-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb51a/uZ6NacAg06Uofo_MvxXwr_NIBO0t6w.mp4",
+  "requestId": "019e8962-49f6-7f32-91a8-06a653f9fa76",
+  "generatedAt": "2026-06-02T17:30:31.674Z",
+  "latencyMs": {
+    "upload": 1954,
+    "generation": 49724,
+    "download": 1718,
+    "total": 53396
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb51a/uZ6NacAg06Uofo_MvxXwr_NIBO0t6w.mp4",
+      "content_type": "video/mp4",
+      "file_name": "uZ6NacAg06Uofo_MvxXwr_NIBO0t6w.mp4",
+      "file_size": 4459938,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

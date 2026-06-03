@@ -1,0 +1,37 @@
+{
+  "scene": 8,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.411,
+  "voiceoverStartSeconds": 31.35,
+  "voiceoverEndSeconds": 35.761,
+  "voiceoverText": "So they murdered him in his tent and chose their own emperor.",
+  "imagePrompt": "The imperial tent at night, soldiers rushing through torn red fabric, lamplight swinging, maps and coins scattering across the floor, violence implied but not graphic.",
+  "videoPrompt": "Soldiers burst into the tent, fabric tears, a lamp swings wildly, maps fly across the frame as the camera stumbles backward.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-08-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-08-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb51f/X1IXbtO64OTLCUUECzNRF_s9QNI5Os.mp4",
+  "requestId": "019e8963-2b05-7990-81a7-65249758913b",
+  "generatedAt": "2026-06-02T17:31:34.348Z",
+  "latencyMs": {
+    "upload": 1617,
+    "generation": 55141,
+    "download": 1360,
+    "total": 58118
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb51f/X1IXbtO64OTLCUUECzNRF_s9QNI5Os.mp4",
+      "content_type": "video/mp4",
+      "file_name": "X1IXbtO64OTLCUUECzNRF_s9QNI5Os.mp4",
+      "file_size": 8430026,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene": 13,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 3,
+  "voiceoverDurationSeconds": 2.242,
+  "voiceoverStartSeconds": 56.236,
+  "voiceoverEndSeconds": 58.478,
+  "voiceoverText": "If an emperor ran out of money, his guards could kill him.",
+  "imagePrompt": "Praetorian corridor at night, emperor walking away from camera, guards behind him drawing closer, tall lamps and columns creating a narrowing tunnel.",
+  "videoPrompt": "Camera tracks behind the emperor as guards close the distance, lamplight flickers across armor, shadows stretch along the marble floor.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-13-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-13-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb525/ogaTsXH6jf4KFPyBxRYar_GfUNw2sQ.mp4",
+  "requestId": "019e8964-06b6-7ed0-8f96-917585f650fd",
+  "generatedAt": "2026-06-02T17:32:16.015Z",
+  "latencyMs": {
+    "upload": 1983,
+    "generation": 40670,
+    "download": 1260,
+    "total": 43913
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb525/ogaTsXH6jf4KFPyBxRYar_GfUNw2sQ.mp4",
+      "content_type": "video/mp4",
+      "file_name": "ogaTsXH6jf4KFPyBxRYar_GfUNw2sQ.mp4",
+      "file_size": 4031999,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 3.041667,
+      "num_frames": 73
+    }
+  }
+}

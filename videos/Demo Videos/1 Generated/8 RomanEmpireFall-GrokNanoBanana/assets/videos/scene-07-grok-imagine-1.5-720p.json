@@ -1,0 +1,37 @@
+{
+  "scene": 7,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 5,
+  "voiceoverDurationSeconds": 4.557,
+  "voiceoverStartSeconds": 26.793,
+  "voiceoverEndSeconds": 31.35,
+  "voiceoverText": "His troops saw diplomacy as weakness, and weakness as betrayal.",
+  "imagePrompt": "Battle-hardened Roman soldiers around a low campfire at night, faces angry and wounded, one soldier rises with his sword while others follow his movement.",
+  "videoPrompt": "Sparks rise as soldiers stand one by one, hands gripping sword hilts, the camera tilts up with them toward the emperor's tent.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-07-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-07-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb51f/p3Ggk77a0tuD2BlUPrdx3_4vOfJg0z.mp4",
+  "requestId": "019e8963-1a85-7831-8c90-389b713096d8",
+  "generatedAt": "2026-06-02T17:31:20.575Z",
+  "latencyMs": {
+    "upload": 1790,
+    "generation": 45511,
+    "download": 1449,
+    "total": 48750
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb51f/p3Ggk77a0tuD2BlUPrdx3_4vOfJg0z.mp4",
+      "content_type": "video/mp4",
+      "file_name": "p3Ggk77a0tuD2BlUPrdx3_4vOfJg0z.mp4",
+      "file_size": 6992264,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 5.041667,
+      "num_frames": 121
+    }
+  }
+}

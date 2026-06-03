@@ -1,0 +1,37 @@
+{
+  "scene": 12,
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "durationSeconds": 6,
+  "voiceoverDurationSeconds": 5.367,
+  "voiceoverStartSeconds": 50.869,
+  "voiceoverEndSeconds": 56.236,
+  "voiceoverText": "The throne became a prize armies could sell for higher pay.",
+  "imagePrompt": "A brutal army payday: coin sacks dumped onto a wooden table beside a purple cloak and imperial standard, soldiers' hands reaching in from every side.",
+  "videoPrompt": "Coins spill and bounce across the table, hands snatch purses, the purple cloak slides toward the soldiers like something being sold.",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/scene-12-nb2-1k.jpg",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana/assets/videos/scene-12-grok-imagine-1.5-720p.mp4",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cb524/-yENRaSKok73HZeeOY800_VZH507DF.mp4",
+  "requestId": "019e8963-eea6-7cd0-a76e-261fe947dc56",
+  "generatedAt": "2026-06-02T17:32:21.223Z",
+  "latencyMs": {
+    "upload": 1741,
+    "generation": 51706,
+    "download": 1589,
+    "total": 55036
+  },
+  "projectDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/8 RomanEmpireFall-GrokNanoBanana",
+  "rawFalData": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0a9cb524/-yENRaSKok73HZeeOY800_VZH507DF.mp4",
+      "content_type": "video/mp4",
+      "file_name": "-yENRaSKok73HZeeOY800_VZH507DF.mp4",
+      "file_size": 10645675,
+      "width": 704,
+      "height": 1280,
+      "fps": 24,
+      "duration": 6.041667,
+      "num_frames": 145
+    }
+  }
+}
