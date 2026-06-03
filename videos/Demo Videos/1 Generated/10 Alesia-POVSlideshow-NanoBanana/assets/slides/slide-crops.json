@@ -1,0 +1,106 @@
+{
+  "gridHeight": 5504,
+  "gridPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/alesia-3x3-grid-nb2-4k.jpg",
+  "gridWidth": 3072,
+  "slides": [
+    {
+      "column": 0,
+      "cropHeight": 1799,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 1,
+      "left": 18,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-01.jpg",
+      "row": 0,
+      "top": 18
+    },
+    {
+      "column": 1,
+      "cropHeight": 1799,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 2,
+      "left": 1042,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-02.jpg",
+      "row": 0,
+      "top": 18
+    },
+    {
+      "column": 2,
+      "cropHeight": 1799,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 3,
+      "left": 2066,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-03.jpg",
+      "row": 0,
+      "top": 18
+    },
+    {
+      "column": 0,
+      "cropHeight": 1798,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 4,
+      "left": 18,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-04.jpg",
+      "row": 1,
+      "top": 1853
+    },
+    {
+      "column": 1,
+      "cropHeight": 1798,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 5,
+      "left": 1042,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-05.jpg",
+      "row": 1,
+      "top": 1853
+    },
+    {
+      "column": 2,
+      "cropHeight": 1798,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 6,
+      "left": 2066,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-06.jpg",
+      "row": 1,
+      "top": 1853
+    },
+    {
+      "column": 0,
+      "cropHeight": 1799,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 7,
+      "left": 18,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-07.jpg",
+      "row": 2,
+      "top": 3687
+    },
+    {
+      "column": 1,
+      "cropHeight": 1799,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 8,
+      "left": 1042,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-08.jpg",
+      "row": 2,
+      "top": 3687
+    },
+    {
+      "column": 2,
+      "cropHeight": 1799,
+      "cropWidth": 988,
+      "inset": 18,
+      "index": 9,
+      "left": 2066,
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-09.jpg",
+      "row": 2,
+      "top": 3687
+    }
+  ]
+}

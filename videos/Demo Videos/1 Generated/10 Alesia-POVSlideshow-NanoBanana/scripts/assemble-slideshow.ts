@@ -1,0 +1,198 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+type SlidePlan = {
+	slideDurationMs: number;
+	slides: Array<{
+		index: number;
+		text: string;
+	}>;
+	title: string;
+};
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const projectDir = dirname(__dirname);
+const planPath = join(projectDir, "prompts", "slide-plan.json");
+const outputPath = join(projectDir, "index.html");
+const width = 392;
+const height = 768;
+
+const plan = JSON.parse(await readFile(planPath, "utf8")) as SlidePlan;
+
+const escapeHtml = (value: string) =>
+	value
+		.replaceAll("&", "&amp;")
+		.replaceAll("<", "&lt;")
+		.replaceAll(">", "&gt;")
+		.replaceAll('"', "&quot;");
+
+const slides = plan.slides
+	.map((slide) => {
+		const imagePath = `assets/slides/slide-${String(slide.index + 1).padStart(2, "0")}.jpg`;
+		return `<section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="${imagePath}"/><div class="bj-gradient" style="background:none"></div><div style="display:flex;flex-direction:column;justify-content:flex-end;position:absolute;inset:0;padding:0 0 120px"><div style="background:rgba(0,0,0,0.65);padding:10px 50px 10px 20px;width:100%"><div style="color:#ffffff;font-family:'Inter', 'SF Pro Text', sans-serif;font-size:14px;font-weight:400;line-height:1.4;text-align:right">${escapeHtml(slide.text)}</div></div></div></section>`;
+	})
+	.join("");
+
+const dots = plan.slides
+	.map(
+		(_slide, index) =>
+			`<div aria-hidden="true" class="bj-pagination-dot${index === 0 ? " is-selected" : ""}"></div>`,
+	)
+	.join("");
+
+const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>${escapeHtml(plan.title)}</title><style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2FstaticVideoAssets%2Ffonts%2Finter-400.woff2?alt=media') format('woff2');}
+html,body{background:black;height:100%;margin:0;overflow:hidden;width:100%}
+body{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none!important;font-family:Inter,"SF Pro Text",system-ui,sans-serif;touch-action:pan-y;user-select:none!important}
+body *{-webkit-touch-callout:none!important;-webkit-user-select:none!important;box-sizing:border-box;user-select:none!important}
+::selection{background:transparent!important}
+.bj-slideshow-viewport{background:black;height:100vh;overflow:hidden;position:relative;width:100vw}
+.bj-slideshow-stage{background:black;height:${height}px;left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%) scale(var(--bj-stage-scale,1));transform-origin:center;width:${width}px}
+.bj-embla,.bj-embla__container,.bj-embla__slide{height:100%}
+.bj-embla{overflow:hidden;width:100%}
+.bj-embla__container{display:flex}
+.bj-embla__slide{flex:0 0 100%;min-width:0;overflow:hidden;pointer-events:none;position:relative}
+.bj-pagination{align-items:center;bottom:80px;display:flex;gap:6px;justify-content:center;left:0;pointer-events:none;position:absolute;right:0;z-index:20}
+.bj-pagination-dot{background:rgba(255,255,255,.35);border-radius:999px;height:8px;width:8px}
+.bj-pagination-dot.is-selected{background:#fff}
+.bj-cover-image{display:block;height:100%;object-fit:cover;user-select:none;width:100%}
+.bj-gradient{height:100%;inset:0;pointer-events:none;position:absolute;width:100%}
+</style></head><body><div class="bj-slideshow-viewport bj-template-POVSlideshowTemplate"><main class="bj-slideshow-stage" data-brainjuice-slideshow data-slide-duration-ms="${plan.slideDurationMs}"><div class="bj-embla"><div class="bj-embla__container">${slides}</div></div><div class="bj-pagination">${dots}</div></main></div><script src="https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2Fruntime%2Fhtml-slideshow%2Fembla%2F8.6.0%2Fembla-carousel-8.6.0.umd.js?alt=media"></script><script src="https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2Fruntime%2Fhtml-slideshow%2Fembla%2F8.6.0%2Fembla-carousel-autoplay-8.6.0.umd.js?alt=media"></script><script>
+(() => {
+	const stage = document.querySelector(".bj-slideshow-stage");
+	const root = document.querySelector("[data-brainjuice-slideshow]");
+	const emblaNode = document.querySelector(".bj-embla");
+	const dots = Array.from(document.querySelectorAll(".bj-pagination-dot"));
+	const slideDurationMs = Number(root && root.dataset.slideDurationMs) || 10000;
+	const TAP_THRESHOLD_PX = 5;
+	const logPrefix = "[Brainjuice HTML Slideshow]";
+	let embla = null;
+	let autoplay = null;
+	let latestCommandId = null;
+	let playing = false;
+	let pointerDown = null;
+	function post(type, data) {
+		const message = JSON.stringify({ data: data || {}, type });
+		if (window.ReactNativeWebView) {
+			window.ReactNativeWebView.postMessage(message);
+			return;
+		}
+		window.parent && window.parent.postMessage({ source: "brainjuice-html-slideshow", type, data: data || {} }, "*");
+	}
+	function updateScale() {
+		if (!stage) return;
+		const scale = Math.max(window.innerWidth / ${width}, window.innerHeight / ${height});
+		stage.style.setProperty("--bj-stage-scale", String(scale));
+	}
+	function syncDots() {
+		const index = embla && embla.selectedScrollSnap ? embla.selectedScrollSnap() : 0;
+		for (const [dotIndex, dot] of dots.entries()) dot.classList.toggle("is-selected", dotIndex === index);
+		post("brainjuice:html-slideshow:slidechange", { index });
+	}
+	function syncPlayback() {
+		if (playing) {
+			autoplay && autoplay.reset && autoplay.reset();
+			autoplay && autoplay.play && autoplay.play();
+			return;
+		}
+		autoplay && autoplay.stop && autoplay.stop();
+	}
+	function postAck(command, state) {
+		if (!command || command.commandId !== latestCommandId) return;
+		post("brainjuice:html-slideshow:ack", {
+			commandId: command.commandId,
+			playerId: command.playerId,
+			postId: command.postId,
+			state
+		});
+	}
+	function normalizeCommand(data) {
+		return {
+			command: data && data.command === "PLAY" ? "PLAY" : "PAUSE",
+			commandId: data && typeof data.commandId === "string" ? data.commandId : null,
+			playerId: data && typeof data.playerId === "string" ? data.playerId : null,
+			postId: data && typeof data.postId === "string" ? data.postId : null,
+			resetOnPause: Boolean(data && data.resetOnPause)
+		};
+	}
+	function applyPlaybackCommand(command) {
+		if (!command.commandId) return;
+		latestCommandId = command.commandId;
+		playing = command.command === "PLAY";
+		if (!playing && command.resetOnPause) {
+			embla && embla.scrollTo && embla.scrollTo(0, true);
+			syncDots();
+		}
+		syncPlayback();
+		postAck(command, playing ? "playing" : "paused");
+	}
+	function resetSlideshow() {
+		embla && embla.scrollTo && embla.scrollTo(0, true);
+		syncDots();
+	}
+	function initEmbla() {
+		if (!emblaNode || !window.EmblaCarousel || !window.EmblaCarouselAutoplay) throw new Error("Embla scripts did not load.");
+		autoplay = window.EmblaCarouselAutoplay({
+			delay: slideDurationMs,
+			playOnInit: false,
+			stopOnFocusIn: false,
+			stopOnInteraction: false,
+			stopOnMouseEnter: false
+		});
+		embla = window.EmblaCarousel(emblaNode, { align: "start", loop: true }, [autoplay]);
+		embla.on("reInit", syncDots);
+		embla.on("select", syncDots);
+		syncDots();
+		post("brainjuice:html-slideshow:runtime-ready", { audio: "none" });
+		post("brainjuice:html-slideshow:playback-ready", { audio: "none" });
+	}
+	window.__brainjuiceHtmlSlideshowDispatch = function(serializedMessage) {
+		try {
+			const message = JSON.parse(serializedMessage);
+			if (message.type === "command") {
+				applyPlaybackCommand(normalizeCommand(message.data));
+				return true;
+			}
+			if (message.type === "reset") resetSlideshow();
+			return true;
+		} catch (error) {
+			console.warn(logPrefix, "dispatch failed", error);
+			post("brainjuice:html-slideshow:error", { message: error && error.message ? error.message : String(error), source: "dispatch" });
+			return true;
+		}
+	};
+	window.addEventListener("resize", updateScale);
+	window.addEventListener("message", function(event) {
+		if (!event.data || event.data.source !== "brainjuice") return;
+		if (event.data.type === "reset") resetSlideshow();
+	});
+	root && root.addEventListener("pointerdown", function(event) {
+		pointerDown = {
+			snap: embla && embla.selectedScrollSnap ? embla.selectedScrollSnap() : 0,
+			x: event.clientX,
+			y: event.clientY
+		};
+	});
+	root && root.addEventListener("pointerup", function(event) {
+		const down = pointerDown;
+		pointerDown = null;
+		if (!down || !embla) return;
+		if (embla.selectedScrollSnap() !== down.snap) return;
+		const dx = event.clientX - down.x;
+		const dy = event.clientY - down.y;
+		if (Math.sqrt(dx * dx + dy * dy) > TAP_THRESHOLD_PX) return;
+		post("brainjuice:html-slideshow:togglePlayPause", {});
+	});
+	try {
+		updateScale();
+		initEmbla();
+	} catch (error) {
+		console.warn(logPrefix, "init failed", error);
+		post("brainjuice:html-slideshow:error", { message: error && error.message ? error.message : String(error), source: "init" });
+	}
+})();
+</script></body></html>`;
+
+await writeFile(outputPath, html);
+console.log(JSON.stringify({ outputPath, slides: plan.slides.length }, null, 2));

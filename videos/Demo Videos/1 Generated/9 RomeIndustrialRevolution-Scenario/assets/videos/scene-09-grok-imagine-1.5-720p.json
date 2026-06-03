@@ -1,0 +1,23 @@
+{
+  "durationSeconds": 8,
+  "generatedAt": "2026-06-03T17:53:09.639Z",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/keyframes/scene-09-keyframe-v3-iphone-nb2-1k.jpg",
+  "latencyMs": {
+    "download": 1510,
+    "generation": 56135,
+    "total": 58956,
+    "upload": 1311
+  },
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/videos/scene-09-grok-imagine-1.5-720p.mp4",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-09-video-grok-imagine-v15.txt",
+  "requestId": "019e8e9d-4509-7f70-9fec-0bb7e195078d",
+  "resolution": "720p",
+  "scene": 9,
+  "videoPrompt": "Use the provided image as the first frame and preserve the composition, character identity, clothing, props, lighting, and ancient Roman setting. Create a photorealistic vertical 9:16 video, shot like iPhone 11 handheld footage with cinematic natural light. Keep the skeleton engineer consistent: green-and-white cap, normal green overshirt, white T-shirt, tan shorts, brown satchel, bright green Crocs-style clogs, exposed bones with only a very subtle translucent skin sheen on arms and legs. Realistic physics, real smoke, dust, water, firelight, cloth, metal, stone. No subtitles, no text, no logos, no cartoon style, no horror, no exaggerated comedy, no extra limbs, no identity drift.\n\nScene action: Small bronze Hero-style aeolipile on a marble table. Steam gathers, then the sphere begins spinning smoothly. Onlookers lean in, one Roman's mouth opens in surprise. The skeleton engineer stands proudly but cautiously, one hand hovering near the device. Smoke curls upward; marble and bronze stay photorealistic.",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cd761/x1a6ZnHdi3bXByFRJXNCy_7cDlykgU.mp4",
+  "voiceoverDurationSeconds": 7.315,
+  "voiceoverEndSeconds": 59.35,
+  "voiceoverStartSeconds": 52.035,
+  "voiceoverText": "Month one, you build a Hero-style steam spinner. It hisses. It spins. Everyone stares."
+}

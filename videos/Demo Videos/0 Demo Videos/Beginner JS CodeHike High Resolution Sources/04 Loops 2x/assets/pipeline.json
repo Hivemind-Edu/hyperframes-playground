@@ -1,0 +1,136 @@
+{
+  "language": "typescript",
+  "voiceover": "Loops are for doing the same action more than once. That sounds small. But it changes how beginners read code. Without a loop, three plants means three statements. Water plant one. Water plant two. Water plant three. This works, but the pattern is doing the thinking for us. If the list becomes twenty plants, copying lines becomes the bug. So we give the computer a small plan. Start with a number. Keep going while the number is still small enough. After each turn, move to the next number. That number is the loop variable. The condition decides whether the loop keeps running. The update changes the variable so the loop can eventually stop. Now the repeated action lives in one place. Print the current plant number. Then update the number. A for loop puts the three loop parts on one line. Start at one. Stop at three. Add one after every turn. That is the classic loop shape. But beginners do not always need the classic shape. When you already have a list, use the list directly. Here the array names the things we care about. For each plant in the array, run the same action. No counter math. No less-than-or-equal detail. Just one item at a time. Loops are not magic. They are instructions for repeating a small, clear step.",
+  "slides": [
+    {
+      "enterOn": "Loops are for",
+      "emphasis": true
+    },
+    {
+      "enterOn": "But it changes",
+      "emphasis": true
+    },
+    {
+      "enterOn": "Without a loop",
+      "code": "console.log(\"Water plant 1\");\nconsole.log(\"Water plant 2\");\nconsole.log(\"Water plant 3\");\n"
+    },
+    {
+      "enterOn": "Water plant one",
+      "code": "// !focus(1)\nconsole.log(\"Water plant 1\");\nconsole.log(\"Water plant 2\");\nconsole.log(\"Water plant 3\");\n"
+    },
+    {
+      "enterOn": "Water plant two",
+      "code": "// !focus(2)\nconsole.log(\"Water plant 1\");\nconsole.log(\"Water plant 2\");\nconsole.log(\"Water plant 3\");\n"
+    },
+    {
+      "enterOn": "Water plant three",
+      "code": "// !focus(3)\nconsole.log(\"Water plant 1\");\nconsole.log(\"Water plant 2\");\nconsole.log(\"Water plant 3\");\n"
+    },
+    {
+      "enterOn": "This works",
+      "code": "console.log(\"Water plant 1\");\nconsole.log(\"Water plant 2\");\nconsole.log(\"Water plant 3\");\n"
+    },
+    {
+      "enterOn": "copying lines",
+      "emphasis": true
+    },
+    {
+      "enterOn": "So we give",
+      "code": "let plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "Start with a number",
+      "code": "// !focus(1)\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "Keep going",
+      "code": "// !focus(3)\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "After each turn",
+      "code": "// !focus(5)\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "That number is",
+      "code": "// !focus(1,\"plant\")\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "The condition",
+      "code": "// !focus(3,\"plant <= 3\")\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "The update",
+      "code": "// !focus(5)\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "Now the repeated",
+      "code": "let plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "Print the current",
+      "code": "// !focus(4)\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "Then update",
+      "code": "// !focus(5)\nlet plant = 1;\n\nwhile (plant <= 3) {\n  console.log(\"Water plant \" + plant);\n  plant = plant + 1;\n}\n"
+    },
+    {
+      "enterOn": "A for loop",
+      "code": "for (let n = 1; n <= 3; n++) {\n  console.log(\"Water plant \" + n);\n}\n"
+    },
+    {
+      "enterOn": "Start at one",
+      "code": "// !focus(1,\"let n = 1\")\nfor (let n = 1; n <= 3; n++) {\n  console.log(\"Water plant \" + n);\n}\n"
+    },
+    {
+      "enterOn": "Stop at three",
+      "code": "// !focus(1,\"n <= 3\")\nfor (let n = 1; n <= 3; n++) {\n  console.log(\"Water plant \" + n);\n}\n"
+    },
+    {
+      "enterOn": "Add one",
+      "code": "// !focus(1,\"n++\")\nfor (let n = 1; n <= 3; n++) {\n  console.log(\"Water plant \" + n);\n}\n"
+    },
+    {
+      "enterOn": "classic loop shape",
+      "emphasis": true
+    },
+    {
+      "enterOn": "But beginners",
+      "emphasis": true
+    },
+    {
+      "enterOn": "When you already",
+      "code": "const plants = [\"basil\", \"mint\", \"thyme\"];\n\nfor (const plant of plants) {\n  console.log(\"Water \" + plant);\n}\n"
+    },
+    {
+      "enterOn": "Here the array",
+      "code": "// !focus(1)\nconst plants = [\"basil\", \"mint\", \"thyme\"];\n\nfor (const plant of plants) {\n  console.log(\"Water \" + plant);\n}\n"
+    },
+    {
+      "enterOn": "For each plant",
+      "code": "// !focus(3)\nconst plants = [\"basil\", \"mint\", \"thyme\"];\n\nfor (const plant of plants) {\n  console.log(\"Water \" + plant);\n}\n"
+    },
+    {
+      "enterOn": "No counter math",
+      "emphasis": true
+    },
+    {
+      "enterOn": "No less-than-or-equal",
+      "emphasis": true
+    },
+    {
+      "enterOn": "Just one item",
+      "code": "// !focus(3,\"plant\")\nconst plants = [\"basil\", \"mint\", \"thyme\"];\n\nfor (const plant of plants) {\n  console.log(\"Water \" + plant);\n}\n"
+    },
+    {
+      "enterOn": "Loops are not",
+      "emphasis": true
+    },
+    {
+      "enterOn": "clear step",
+      "code": "const plants = [\"basil\", \"mint\", \"thyme\"];\n\n// Repeat a step with a loop\nfor (const plant of plants) {\n  console.log(\"Water \" + plant);\n}\n"
+    }
+  ]
+}

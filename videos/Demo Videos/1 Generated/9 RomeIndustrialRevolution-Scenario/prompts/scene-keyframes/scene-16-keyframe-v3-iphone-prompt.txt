@@ -1,0 +1,49 @@
+Generate one standalone full-bleed vertical keyframe for a photorealistic video.
+
+Reference images:
+1. The first image is the canonical character sheet for The Engineer. Preserve identity, outfit, body proportions, and practical-effects skeleton look.
+2. The second image is a 2x2 crop from the iPhone-realism 4x4 reference grid. The bright green border marks the target scene. Use the bordered tile as composition and realism context. Use adjacent tiles only for continuity. The green border is a guide only; never include it in the final image.
+
+Scene 16 / FINAL
+Voiceover line: "Rome had engineers. What it lacked was the world that makes engineering compound. Inventions do not cause revolutions alone. Supply chains do."
+Educational point: Final thesis: technology compounds only when supply chains, institutions, energy, skills, and markets support it.
+
+Scene goal:
+This is the final thesis frame: Rome had engineers, but lacked the world that makes engineering compound. The mood should be reflective and grounded.
+
+Composition:
+Twilight rooftop view over ancient Rome. The Engineer sits or stands with a worn notebook, a tiny steam prototype beside him, aqueducts and workshops in the distance. Thoughtful, not defeated.
+
+Camera and lighting:
+iPhone 11 rear wide camera, realistic dusk phone exposure, slight grain/noise, soft skyline haze, grounded color.
+
+Storyboard content:
+Photorealistic twilight view over ancient Rome with aqueducts and workshops in the distance, The Engineer on a rooftop holding a worn notebook, tiny steam prototype beside him, expression thoughtful rather than defeated, cinematic golden smoke and stone textures.
+
+Later video motion:
+Slow pullback from skeleton and notebook to vast Rome, captions land cleanly, final hold.
+
+Required visual style:
+- Extreme photorealism, as if shot on an iPhone 11 rear wide camera.
+- 26mm-equivalent wide lens, candid framing, natural Smart HDR, deep-ish focus, modest phone-camera sharpening, believable shadows.
+- Real ancient-Rome historical reenactment sets: dusty stone, linen, bronze, charcoal, wood, smoke, sunlight, practical props.
+- The skeleton must feel physically present in the scene lighting, not pasted in.
+- Practical-effects skeleton realism, not glossy CGI.
+- Make the final frame more realistic than the reference grid if possible.
+
+The Engineer rules when he appears:
+- Photorealistic skeleton mascot, clean ivory skull, expressive dark eye sockets, non-horror grin.
+- Bright green cap with white front panel, no logo.
+- Normal-length opaque bright green short-sleeve utility overshirt over white T-shirt.
+- Tan knee-length work shorts, brown belt, compact brown satchel.
+- Bright green unbranded Crocs-style clogs worn on his feet.
+- Mostly exposed arm and leg bones with only a barely visible clear translucent sheen.
+- Bones stay dominant. No long pants. No cropped tiny shirt.
+
+Do not include:
+- The green reference border, panel seams, gutters, grid layout, captions, subtitles, title text, UI, watermark, or readable text.
+- Logos, brand names, modern vehicles, modern buildings, modern signage, electric lights, fantasy armor, gore, horror, blood, rotten tissue, organs, cartoon style, painterly style, anime, toy-like plastic render, glossy CGI, or exaggerated comedy faces.
+- No fantasy sunset, no glowing city, no modern skyline, no text on notebook, no heroic poster pose.
+
+Output:
+One clean portrait 9:16 image, 1K image size, high-thinking, extremely photorealistic iPhone 11-style keyframe.

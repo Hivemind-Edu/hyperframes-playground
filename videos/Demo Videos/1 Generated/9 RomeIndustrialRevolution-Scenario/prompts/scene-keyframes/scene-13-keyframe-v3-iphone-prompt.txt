@@ -1,0 +1,49 @@
+Generate one standalone full-bleed vertical keyframe for a photorealistic video.
+
+Reference images:
+1. The first image is the canonical character sheet for The Engineer. Preserve identity, outfit, body proportions, and practical-effects skeleton look.
+2. The second image is a 2x2 crop from the iPhone-realism 4x4 reference grid. The bright green border marks the target scene. Use the bordered tile as composition and realism context. Use adjacent tiles only for continuity. The green border is a guide only; never include it in the final image.
+
+Scene 13 / YEAR ONE
+Voiceover line: "Year one, a senator asks why he should buy machines when labor is cheaper."
+Educational point: Labor systems and incentives affect whether mechanization is economically attractive.
+
+Scene goal:
+Show the incentive problem seriously: the senator is not stupid; he is deciding whether a risky machine is worth funding in his world.
+
+Composition:
+Roman courtyard meeting. A senator in white toga sits beside tablets and coin piles while The Engineer presents a small machine model. In the distant background, ordinary Roman workers move stone and supplies as part of normal city life.
+
+Camera and lighting:
+iPhone 11 rear wide camera, candid courtyard angle, daylight Smart HDR, realistic faces, stone, linen, coins, and shadows.
+
+Storyboard content:
+Photorealistic Roman courtyard meeting, senator in white toga seated beside tablets and coin piles, The Engineer presenting a small machine model, enslaved laborers and hired workers in distant background, serious not comic.
+
+Later video motion:
+Senator weighs coins, skeleton gestures to machine, background workers continue manual labor.
+
+Required visual style:
+- Extreme photorealism, as if shot on an iPhone 11 rear wide camera.
+- 26mm-equivalent wide lens, candid framing, natural Smart HDR, deep-ish focus, modest phone-camera sharpening, believable shadows.
+- Real ancient-Rome historical reenactment sets: dusty stone, linen, bronze, charcoal, wood, smoke, sunlight, practical props.
+- The skeleton must feel physically present in the scene lighting, not pasted in.
+- Practical-effects skeleton realism, not glossy CGI.
+- Make the final frame more realistic than the reference grid if possible.
+
+The Engineer rules when he appears:
+- Photorealistic skeleton mascot, clean ivory skull, expressive dark eye sockets, non-horror grin.
+- Bright green cap with white front panel, no logo.
+- Normal-length opaque bright green short-sleeve utility overshirt over white T-shirt.
+- Tan knee-length work shorts, brown belt, compact brown satchel.
+- Bright green unbranded Crocs-style clogs worn on his feet.
+- Mostly exposed arm and leg bones with only a barely visible clear translucent sheen.
+- Bones stay dominant. No long pants. No cropped tiny shirt.
+
+Do not include:
+- The green reference border, panel seams, gutters, grid layout, captions, subtitles, title text, UI, watermark, or readable text.
+- Logos, brand names, modern vehicles, modern buildings, modern signage, electric lights, fantasy armor, gore, horror, blood, rotten tissue, organs, cartoon style, painterly style, anime, toy-like plastic render, glossy CGI, or exaggerated comedy faces.
+- No goofy senator, no modern office desk, no readable documents, no pile of modern coins, no courtroom fantasy, no violence, no chains, no cruelty.
+
+Output:
+One clean portrait 9:16 image, 1K image size, high-thinking, extremely photorealistic iPhone 11-style keyframe.

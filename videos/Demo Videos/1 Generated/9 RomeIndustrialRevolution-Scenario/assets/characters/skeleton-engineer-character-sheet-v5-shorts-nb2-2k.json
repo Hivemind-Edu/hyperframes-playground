@@ -1,0 +1,31 @@
+{
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-03T15:08:51.448Z",
+  "imageSize": "2K",
+  "latencyMs": 27832,
+  "latencySeconds": 27.832,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/characters/skeleton-engineer-character-sheet-v5-shorts-nb2-2k.jpg",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/skeleton-engineer-character-sheet-v5-shorts-prompt.txt",
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 1358,
+    "candidatesTokenCount": 2576,
+    "totalTokenCount": 5623,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1358
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1680
+      }
+    ],
+    "thoughtsTokenCount": 1689,
+    "serviceTier": "standard"
+  }
+}

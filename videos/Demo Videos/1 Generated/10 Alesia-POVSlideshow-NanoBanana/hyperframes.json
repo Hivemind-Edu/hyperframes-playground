@@ -1,0 +1,8 @@
+{
+  "name": "Alesia-POVSlideshow-NanoBanana",
+  "renderer": "html-slideshow",
+  "width": 392,
+  "height": 768,
+  "durationSeconds": 90,
+  "entry": "index.html"
+}

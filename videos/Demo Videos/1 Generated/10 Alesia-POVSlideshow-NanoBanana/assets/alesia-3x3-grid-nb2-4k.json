@@ -1,0 +1,31 @@
+{
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-03T17:04:12.715Z",
+  "imageSize": "4K",
+  "latencyMs": 51915,
+  "latencySeconds": 51.915,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/alesia-3x3-grid-nb2-4k.jpg",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/prompts/nano-banana-3x3-grid-nb2-4k.txt",
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 961,
+    "candidatesTokenCount": 4273,
+    "totalTokenCount": 6335,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 961
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 2520
+      }
+    ],
+    "thoughtsTokenCount": 1101,
+    "serviceTier": "standard"
+  }
+}

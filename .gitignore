@@ -6,6 +6,8 @@ node_modules
 out
 dist
 *.tgz
+**/renders/
+**/work-*/
 
 # code coverage
 coverage
@@ -32,6 +34,8 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .eslintcache
 .cache
 *.tsbuildinfo
+**/assets/.scene-reference-grid*/
+**/assets/keyframes/.selected-*/
 
 # IntelliJ based IDEs
 .idea

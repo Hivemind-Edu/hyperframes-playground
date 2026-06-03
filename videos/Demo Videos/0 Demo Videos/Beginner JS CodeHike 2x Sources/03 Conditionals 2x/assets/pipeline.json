@@ -1,0 +1,133 @@
+{
+  "language": "javascript",
+  "voiceover": "Code often needs to make a decision. Should we show one message, or a different message? That is what an if else statement is for. Start with one input value. Here the input is age. Now ask a yes or no question about that value. Is age greater than or equal to eighteen? The comparison operator is this part. It compares left with right. If the question is true, JavaScript runs the first block. In this case, the result becomes access granted. If the question is false, JavaScript skips that block. Then it runs the else block instead. Now the result becomes ask an adult. The braces group the lines that belong to each path. Only one path runs. When age is sixteen, the question is false. So JavaScript chooses else. When age is twenty one, the question is true. So JavaScript chooses if. The mental model is simple. An if statement asks a question. The if block is the yes path. The else block is the no path. Conditionals are how code makes decisions.",
+  "slides": [
+    {
+      "enterOn": "Code often needs",
+      "emphasis": true
+    },
+    {
+      "enterOn": "one message",
+      "emphasis": true
+    },
+    {
+      "enterOn": "if else statement",
+      "code": "if (question) {\n  // yes path\n} else {\n  // no path\n}\n"
+    },
+    {
+      "enterOn": "Start with one input value",
+      "emphasis": true
+    },
+    {
+      "enterOn": "Here the input is age",
+      "code": "let age = 16;\nlet message;\n"
+    },
+    {
+      "enterOn": "the input is age",
+      "code": "// !focus(1,\"age\")\nlet age = 16;\nlet message;\n"
+    },
+    {
+      "enterOn": "yes or no question",
+      "code": "let age = 16;\nlet message;\n\nage >= 18\n"
+    },
+    {
+      "enterOn": "greater than or equal",
+      "code": "// !focus(4,\"age >= 18\")\nlet age = 16;\nlet message;\n\nage >= 18\n"
+    },
+    {
+      "enterOn": "comparison operator",
+      "code": "// !focus(4,\">=\")\nlet age = 16;\nlet message;\n\nage >= 18\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "left with right",
+      "code": "// !focus(4,\"age >= 18\")\nlet age = 16;\nlet message;\n\nage >= 18\n"
+    },
+    {
+      "enterOn": "If the question is true",
+      "code": "let age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\n"
+    },
+    {
+      "enterOn": "first block",
+      "code": "// !focus(4:6)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\n",
+      "startOffsetMs": -100
+    },
+    {
+      "enterOn": "access granted",
+      "code": "// !focus(5)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\n"
+    },
+    {
+      "enterOn": "If the question is false",
+      "code": "let age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "skips that block",
+      "code": "// !focus(4:6)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "else block",
+      "code": "// !focus(7:9)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "Ask an adult",
+      "code": "// !focus(8)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "The braces group",
+      "code": "// !focus(4,6,7,9)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "group the lines",
+      "code": "// !focus(4:9)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "Only one path",
+      "emphasis": true
+    },
+    {
+      "enterOn": "age is sixteen",
+      "code": "// !focus(1)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "sixteen, the question is false",
+      "code": "// !focus(4,\"age >= 18\")\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "chooses else",
+      "code": "// !focus(7:9)\nlet age = 16;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\nelse {\n  message = \"Ask an adult\";\n}\n"
+    },
+    {
+      "enterOn": "age is twenty one",
+      "emphasis": true
+    },
+    {
+      "enterOn": "twenty one, the question is true",
+      "code": "// !focus(4,\"age >= 18\")\nlet age = 21;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\n"
+    },
+    {
+      "enterOn": "chooses if",
+      "code": "// !focus(4:6)\nlet age = 21;\nlet message;\n\nif (age >= 18) {\n  message = \"Access granted\";\n}\n"
+    },
+    {
+      "enterOn": "mental model",
+      "code": "if (question) {\n  // yes path\n} else {\n  // no path\n}\n"
+    },
+    {
+      "enterOn": "asks a question",
+      "code": "// !focus(1,\"question\")\nif (question) {\n  // yes path\n} else {\n  // no path\n}\n"
+    },
+    {
+      "enterOn": "yes path",
+      "code": "// !focus(2)\nif (question) {\n  // yes path\n} else {\n  // no path\n}\n"
+    },
+    {
+      "enterOn": "no path",
+      "code": "// !focus(4)\nif (question) {\n  // yes path\n} else {\n  // no path\n}\n"
+    },
+    {
+      "enterOn": "code makes decisions",
+      "emphasis": true
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "language": "typescript",
+  "voiceover": "This code is not broken. That is why beginners often leave it alone. But it has a hidden cost. The same two lines are copied three times. Only the name changes. When copied code changes later, you have to fix every copy. Miss one, and the program starts saying two different things. A function solves that by giving the repeated idea a name. First, look for the repeated shape. Each block says hi to someone. Then it prints the same welcome message. The changing part is the person's name. That changing part becomes a parameter. We write function greet, with name inside the parentheses. Inside the function, we keep the repeated lines once. Then we use name where the real name should go. Now the code has a reusable instruction. Calling greet with Maya runs the two lines for Maya. Calling greet with Sam runs the same two lines for Sam. Calling greet with Ari does it again. The function is the recipe. The argument is the ingredient you hand to the recipe. So the mental model is simple. Put repeated steps inside a function. Put changing values in parameters. Then call the function whenever you need those steps again.",
+  "slides": [
+    {
+      "enterOn": "This code is not",
+      "emphasis": true
+    },
+    {
+      "enterOn": "That is why",
+      "code": "const firstName = \"Maya\";\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst secondName = \"Sam\";\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst thirdName = \"Ari\";\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "hidden cost",
+      "emphasis": true
+    },
+    {
+      "enterOn": "same two lines",
+      "code": "const firstName = \"Maya\";\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst secondName = \"Sam\";\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst thirdName = \"Ari\";\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "same two lines",
+      "code": "// !focus(2:3,6:7,10:11)\nconst firstName = \"Maya\";\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst secondName = \"Sam\";\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst thirdName = \"Ari\";\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n",
+      "startOffsetMs": 480
+    },
+    {
+      "enterOn": "Only the name",
+      "code": "// !focus(1,5,9)\nconst firstName = \"Maya\";\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst secondName = \"Sam\";\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst thirdName = \"Ari\";\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "copied code changes",
+      "code": "const firstName = \"Maya\";\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst secondName = \"Sam\";\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconst thirdName = \"Ari\";\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "Miss one",
+      "emphasis": true
+    },
+    {
+      "enterOn": "A function solves",
+      "emphasis": true
+    },
+    {
+      "enterOn": "look for the repeated shape",
+      "code": "console.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "Each block says hi",
+      "code": "// !focus(1,4,7)\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "same welcome message",
+      "code": "// !focus(2,5,8)\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "changing part",
+      "code": "// !focus(1,\"firstName\")\n// !focus(4,\"secondName\")\n// !focus(7,\"thirdName\")\nconsole.log(\"Hi, \" + firstName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + secondName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n\nconsole.log(\"Hi, \" + thirdName + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "becomes a parameter",
+      "code": "console.log(\"Hi, \" + name + \"!\");\nconsole.log(\"Welcome to JavaScript.\");\n"
+    },
+    {
+      "enterOn": "function greet",
+      "code": "// !focus(1)\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n"
+    },
+    {
+      "enterOn": "inside the parentheses",
+      "code": "// !focus(1,\"name\")\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n",
+      "startOffsetMs": 320
+    },
+    {
+      "enterOn": "repeated lines once",
+      "code": "// !focus(2:3)\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n"
+    },
+    {
+      "enterOn": "use name",
+      "code": "// !focus(2,\"name\")\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n"
+    },
+    {
+      "enterOn": "reusable instruction",
+      "code": "function greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n"
+    },
+    {
+      "enterOn": "Calling greet with Maya",
+      "code": "// !focus(6)\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\ngreet(\"Maya\");\n"
+    },
+    {
+      "enterOn": "two lines for Maya",
+      "code": "// !focus(2:3,6)\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\ngreet(\"Maya\");\n",
+      "startOffsetMs": 160
+    },
+    {
+      "enterOn": "Calling greet with Sam",
+      "code": "// !focus(7)\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    },
+    {
+      "enterOn": "Calling greet with Ari",
+      "code": "// !focus(8)\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    },
+    {
+      "enterOn": "function is the recipe",
+      "emphasis": true
+    },
+    {
+      "enterOn": "argument is the ingredient",
+      "code": "function greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    },
+    {
+      "enterOn": "argument is the ingredient",
+      "code": "// !focus(6,\"\\\"Maya\\\"\")\n// !focus(7,\"\\\"Sam\\\"\")\n// !focus(8,\"\\\"Ari\\\"\")\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n",
+      "startOffsetMs": 220
+    },
+    {
+      "enterOn": "mental model is simple",
+      "emphasis": true
+    },
+    {
+      "enterOn": "Put repeated steps",
+      "code": "// A function is a reusable recipe\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\n// Arguments fill in the changing parts\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    },
+    {
+      "enterOn": "repeated steps",
+      "code": "// !focus(2:5)\n// A function is a reusable recipe\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\n// Arguments fill in the changing parts\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    },
+    {
+      "enterOn": "changing values",
+      "code": "// !focus(2,\"name\")\n// !focus(8,\"\\\"Maya\\\"\")\n// !focus(9,\"\\\"Sam\\\"\")\n// !focus(10,\"\\\"Ari\\\"\")\n// A function is a reusable recipe\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\n// Arguments fill in the changing parts\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    },
+    {
+      "enterOn": "call the function",
+      "code": "// A function is a reusable recipe\nfunction greet(name) {\n  console.log(\"Hi, \" + name + \"!\");\n  console.log(\"Welcome to JavaScript.\");\n}\n\n// Arguments fill in the changing parts\ngreet(\"Maya\");\ngreet(\"Sam\");\ngreet(\"Ari\");\n"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Memory Edits Itself</title>
+    <style>
+      html, body {
+        background: #000;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      [data-composition-id] {
+        background: #050505;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        height: 768px;
+        overflow: hidden;
+        position: relative;
+        width: 392px;
+      }
+
+      .scene-video {
+        height: 100%;
+        inset: 0;
+        object-fit: cover;
+        position: absolute;
+        width: 100%;
+      }
+
+      .shade {
+        background:
+          radial-gradient(circle at 50% 16%, hsla(185, 82%, 55%, 0.28), transparent 34%),
+          linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.88));
+        inset: 0;
+        position: absolute;
+        z-index: 8;
+      }
+
+      .grain {
+        background-image:
+          repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 5px);
+        inset: 0;
+        mix-blend-mode: overlay;
+        opacity: 0.22;
+        position: absolute;
+        z-index: 9;
+      }
+
+      .title {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        left: 0;
+        padding: 42px 28px 0;
+        position: absolute;
+        right: 0;
+        text-shadow: 0 5px 18px rgba(0,0,0,0.75);
+        top: 0;
+        z-index: 12;
+      }
+
+      .title span {
+        color: hsla(185, 100%, 82%, 0.92);
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .title h1 {
+        font-size: 38px;
+        font-weight: 950;
+        letter-spacing: 0;
+        line-height: 1.02;
+        margin: 0;
+        max-width: 340px;
+      }
+
+      .caption-card {
+        align-items: center;
+        bottom: 118px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        left: 22px;
+        padding: 16px 18px;
+        position: absolute;
+        right: 22px;
+        text-align: center;
+        text-shadow: 0 4px 16px rgba(0,0,0,0.88);
+        z-index: 14;
+      }
+
+      .caption-card span {
+        color: hsla(185, 95%, 82%, 0.94);
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .caption-card strong {
+        -webkit-text-stroke: 1.5px #000;
+        color: #fff;
+        font-size: 27px;
+        font-weight: 950;
+        letter-spacing: 0;
+        line-height: 1.06;
+        paint-order: stroke;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p_brainjuice-onboarding-dev-rendered-06-memory-tricks" data-composition-id="p_brainjuice-onboarding-dev-rendered-06-memory-tricks" data-start="0" data-duration="48" data-width="392" data-height="768">
+      <video id="scene-video-0" class="clip scene-video" data-start="0.000" data-duration="4.000" data-track-index="100" src="assets/videos/scene-01-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-1" class="clip scene-video" data-start="4.000" data-duration="4.000" data-track-index="101" src="assets/videos/scene-02-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-2" class="clip scene-video" data-start="8.000" data-duration="4.000" data-track-index="102" src="assets/videos/scene-03-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-3" class="clip scene-video" data-start="12.000" data-duration="4.000" data-track-index="103" src="assets/videos/scene-04-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-4" class="clip scene-video" data-start="16.000" data-duration="4.000" data-track-index="104" src="assets/videos/scene-05-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-5" class="clip scene-video" data-start="20.000" data-duration="4.000" data-track-index="105" src="assets/videos/scene-06-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-6" class="clip scene-video" data-start="24.000" data-duration="4.000" data-track-index="106" src="assets/videos/scene-07-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-7" class="clip scene-video" data-start="28.000" data-duration="4.000" data-track-index="107" src="assets/videos/scene-08-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-8" class="clip scene-video" data-start="32.000" data-duration="4.000" data-track-index="108" src="assets/videos/scene-09-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-9" class="clip scene-video" data-start="36.000" data-duration="4.000" data-track-index="109" src="assets/videos/scene-10-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-10" class="clip scene-video" data-start="40.000" data-duration="4.000" data-track-index="110" src="assets/videos/scene-11-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+<video id="scene-video-11" class="clip scene-video" data-start="44.000" data-duration="4.000" data-track-index="111" src="assets/videos/scene-12-grok-imagine-1.5-720p.mp4" muted playsinline loop></video>
+      <div class="shade"></div>
+      <div class="grain"></div>
+      <div class="title">
+        <span>Brainjuice demo</span>
+        <h1>Your Memory Edits Itself</h1>
+      </div>
+      <div id="caption-0" class="clip caption-card" data-start="0.000" data-duration="8.000" data-track-index="200"><span>Start here</span><strong>A compact explanation of how recall can reshape the memories it tries to retrieve</strong></div>
+<div id="caption-1" class="clip caption-card" data-start="8.000" data-duration="8.000" data-track-index="201"><span>Key idea</span><strong>Edits Itself is easier when you see the system.</strong></div>
+<div id="caption-2" class="clip caption-card" data-start="16.000" data-duration="8.000" data-track-index="202"><span>Look closer</span><strong>Small forces stack into visible change.</strong></div>
+<div id="caption-3" class="clip caption-card" data-start="24.000" data-duration="8.000" data-track-index="203"><span>Pattern</span><strong>The important part is the feedback loop.</strong></div>
+<div id="caption-4" class="clip caption-card" data-start="32.000" data-duration="8.000" data-track-index="204"><span>Remember</span><strong>Cause and effect rarely move in one line.</strong></div>
+<div id="caption-5" class="clip caption-card" data-start="40.000" data-duration="8.000" data-track-index="205"><span>Final beat</span><strong>Once you spot the pattern, the topic clicks.</strong></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["p_brainjuice-onboarding-dev-rendered-06-memory-tricks"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

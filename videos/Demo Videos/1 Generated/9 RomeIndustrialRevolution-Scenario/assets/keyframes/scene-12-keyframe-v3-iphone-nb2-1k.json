@@ -1,0 +1,39 @@
+{
+  "aspectRatio": "9:16",
+  "characterReferencePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/characters/skeleton-engineer-character-sheet-v7-barely-translucent-skin-nb2-2k.jpg",
+  "contextReferencePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/references/scene-12-v3-iphone-context-current-panel-highlight.jpg",
+  "generatedAt": "2026-06-03T16:46:12.206Z",
+  "imageSize": "1K",
+  "latencyMs": 45883,
+  "latencySeconds": 45.883,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/keyframes/scene-12-keyframe-v3-iphone-nb2-1k.jpg",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-keyframes/scene-12-keyframe-v3-iphone-prompt.txt",
+  "referenceGridPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/scene-reference-grid-v3-iphone-realism-borderless-trim32-4k.jpg",
+  "sceneNumber": 12,
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 1252,
+    "candidatesTokenCount": 1593,
+    "totalTokenCount": 4811,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 736
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 1966,
+    "serviceTier": "standard"
+  }
+}

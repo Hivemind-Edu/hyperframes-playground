@@ -1,0 +1,32 @@
+{
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-03T17:27:46.482Z",
+  "imageSize": "1K",
+  "latencyMs": 21470,
+  "latencySeconds": 21.47,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/10 Alesia-POVSlideshow-NanoBanana/assets/slides/slide-07.jpg",
+  "prompt": "Chaotic rear-camera iPhone night photo from the Roman fortifications. Gauls attack outward from Alesia while the relief army attacks from the countryside, Roman soldiers fight in both directions through smoke, torches, dust, and thrown spears. Timber palisade, shield edges, stake pits, and blurred motion in realistic low-light phone photography. No selfie, no gore, no fantasy lighting.\n\nRegenerate this as a clean standalone slide image for a POV slideshow.\n\nImportant composition requirements:\n- Full-bleed 9:16 portrait image.\n- Photorealistic iPhone photo, as if shot with an iPhone rear camera.\n- Preserve the documentary Roman siege-of-Alesia setting from the surrounding slideshow.\n- No border, no panel divider, no gutter, no margin, no letterboxing.\n- No text, no labels, no captions inside the image.\n- No gore, no fantasy armor, no modern objects.\n\nGlobal style:\nPhotorealistic iPhone photo, shot on an iPhone with natural phone-camera HDR, realistic lens distortion, real skin texture, muddy fabric and metal detail, documentary handheld framing, true-to-life lighting and color, historically grounded Roman siege camp at Alesia in 52 BCE. No illustration, no painting, no CGI, no fantasy armor, no anachronistic equipment, no readable text, no captions inside the image.",
+  "slideNumber": 7,
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 284,
+    "candidatesTokenCount": 1634,
+    "totalTokenCount": 2824,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 284
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 906,
+    "serviceTier": "standard"
+  }
+}

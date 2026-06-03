@@ -1,0 +1,144 @@
+{
+  "language": "typescript",
+  "voiceover": "This function works. And that is why it is easy to miss the problem. Every check pushes the real work one level deeper. First the cart has to be valid. Then the user has to be logged in. Then the payment method has to exist. By the time we finally charge the card, your brain is holding three unfinished if statements at once. That shape is called the pyramid of doom. The fix is not clever. It is just honest. Handle the boring failure cases immediately. If the cart is empty, leave. Now that case is done. If the user is not logged in, leave. Another branch disappears. If there is no payment method, leave. Now look at the bottom. The happy path is flat. Notice what did not change. The behavior is the same. The order is easier to read. No else blocks. No mental stack. Just the real work. Guard clauses are not about fewer lines. They are about fewer things in your head.",
+  "slides": [
+    {
+      "enterOn": "This function works",
+      "emphasis": true
+    },
+    {
+      "enterOn": "And that is why",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "Every check pushes",
+      "code": "// !focus(2,3,4)\nfunction checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "First the cart",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "First the cart",
+      "code": "// !focus(2,\"cart.items.length > 0\")\nfunction checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n",
+      "startOffsetMs": 430
+    },
+    {
+      "enterOn": "Then the user",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "Then the user",
+      "code": "// !focus(3,\"user.isLoggedIn\")\nfunction checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n",
+      "startOffsetMs": 360
+    },
+    {
+      "enterOn": "Then the payment",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "Then the payment",
+      "code": "// !focus(4,\"user.hasPaymentMethod\")\nfunction checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n",
+      "startOffsetMs": 360
+    },
+    {
+      "enterOn": "By the time",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "charge the card",
+      "code": "// !focus(5)\nfunction checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n",
+      "startOffsetMs": -140
+    },
+    {
+      "enterOn": "three unfinished if",
+      "emphasis": true
+    },
+    {
+      "enterOn": "pyramid of doom",
+      "emphasis": true
+    },
+    {
+      "enterOn": "The fix",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length > 0) {\n    if (user.isLoggedIn) {\n      if (user.hasPaymentMethod) {\n        return charge(cart, user);\n      } else {\n        return \"Add payment method\";\n      }\n    } else {\n      return \"Log in first\";\n    }\n  } else {\n    return \"Cart is empty\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "Handle the boring",
+      "emphasis": true
+    },
+    {
+      "enterOn": "If the cart is empty",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (user.isLoggedIn) {\n    if (user.hasPaymentMethod) {\n      return charge(cart, user);\n    } else {\n      return \"Add payment method\";\n    }\n  } else {\n    return \"Log in first\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "If the cart is empty",
+      "code": "// !focus(2:4)\nfunction checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (user.isLoggedIn) {\n    if (user.hasPaymentMethod) {\n      return charge(cart, user);\n    } else {\n      return \"Add payment method\";\n    }\n  } else {\n    return \"Log in first\";\n  }\n}\n",
+      "startOffsetMs": 720
+    },
+    {
+      "enterOn": "Now that case",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (user.isLoggedIn) {\n    if (user.hasPaymentMethod) {\n      return charge(cart, user);\n    } else {\n      return \"Add payment method\";\n    }\n  } else {\n    return \"Log in first\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "If the user is not",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (user.hasPaymentMethod) {\n    return charge(cart, user);\n  } else {\n    return \"Add payment method\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "If the user is not",
+      "code": "// !focus(6:8)\nfunction checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (user.hasPaymentMethod) {\n    return charge(cart, user);\n  } else {\n    return \"Add payment method\";\n  }\n}\n",
+      "startOffsetMs": 820
+    },
+    {
+      "enterOn": "Another branch",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (user.hasPaymentMethod) {\n    return charge(cart, user);\n  } else {\n    return \"Add payment method\";\n  }\n}\n"
+    },
+    {
+      "enterOn": "If there is no payment",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n"
+    },
+    {
+      "enterOn": "If there is no payment",
+      "code": "// !focus(10:12)\nfunction checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n",
+      "startOffsetMs": 760
+    },
+    {
+      "enterOn": "Now look at",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n"
+    },
+    {
+      "enterOn": "The happy path",
+      "code": "// !focus(14)\nfunction checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "Notice what did not",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n"
+    },
+    {
+      "enterOn": "The behavior",
+      "code": "// !focus(2:4,6:8,10:12,14)\nfunction checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n",
+      "startOffsetMs": -80
+    },
+    {
+      "enterOn": "The order",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n"
+    },
+    {
+      "enterOn": "No else",
+      "emphasis": true
+    },
+    {
+      "enterOn": "Just the real",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n"
+    },
+    {
+      "enterOn": "Guard clauses are not",
+      "emphasis": true
+    },
+    {
+      "enterOn": "They are about",
+      "code": "function checkout(cart, user) {\n  if (cart.items.length === 0) {\n    return \"Cart is empty\";\n  }\n\n  if (!user.isLoggedIn) {\n    return \"Log in first\";\n  }\n\n  if (!user.hasPaymentMethod) {\n    return \"Add payment method\";\n  }\n\n  return charge(cart, user);\n}\n"
+    }
+  ]
+}

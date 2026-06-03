@@ -1,0 +1,1872 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "019e8e81-d4b7-7f90-93b4-1128f8d4e687",
+    "sha256": "638a1c9d588d0d3ecccb87b81d19f2b14c5f72d07d3d10edb2c5bcb6679eae2f",
+    "created": "2026-06-03T17:22:20.863Z",
+    "duration": 102.60894,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Could you start the industrial revolution in ancient Rome? Probably not, but you are going to try. Day one. You wake near the forum with a modern engineering degree and incredibly suspicious crocs. First surprise, Rome is already an engineering machine. Roads, aqueducts, cranes, concrete, water mills. So you skip sightseeing and find a workshop. Day three, you sketch a steam engine in charcoal. The Smiths understand heat, pressure, and cast metal, but the first cylinder leaks. The piston scrapes. Every part is almost right, which is exactly the problem. Week two, you need precision boring, standard screws, reliable seals, and metal that behaves the same way twice. Rome has brilliant craftsmen. It does not have factory tooling. Month one, you build a hero style steam spinner. It hisses. It spins. Everyone stares. It also powers basically nothing. A clever toy is not an engine room. Month six, you try a mine pump. For one afternoon, it works, then seals fail, fuel runs short, and replacement parts do not match. Year one, a senator asks why he should buy machines when labor is cheaper. The army wants siege engines. Merchants want profit now. Officials want taxes, not experiments. You finally see the bottleneck. Not one missing invention, but an ecosystem. Rome had engineers. What it lacked was the world that makes engineering compound. Inventions do not cause revolutions alone. Supply chains do.",
+            "confidence": 1,
+            "words": [
+              {
+                "word": "could",
+                "start": 0.08,
+                "end": 0.24,
+                "confidence": 0.6748047,
+                "punctuated_word": "Could"
+              },
+              {
+                "word": "you",
+                "start": 0.24,
+                "end": 0.39999998,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "start",
+                "start": 0.39999998,
+                "end": 0.56,
+                "confidence": 1,
+                "punctuated_word": "start"
+              },
+              {
+                "word": "the",
+                "start": 0.56,
+                "end": 0.79999995,
+                "confidence": 0.9980469,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "industrial",
+                "start": 0.79999995,
+                "end": 1.3,
+                "confidence": 0.8125,
+                "punctuated_word": "industrial"
+              },
+              {
+                "word": "revolution",
+                "start": 1.36,
+                "end": 1.8399999,
+                "confidence": 1,
+                "punctuated_word": "revolution"
+              },
+              {
+                "word": "in",
+                "start": 1.8399999,
+                "end": 2.08,
+                "confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "ancient",
+                "start": 2.08,
+                "end": 2.3999999,
+                "confidence": 0.9526367,
+                "punctuated_word": "ancient"
+              },
+              {
+                "word": "rome",
+                "start": 2.3999999,
+                "end": 2.8999999,
+                "confidence": 0.9995117,
+                "punctuated_word": "Rome?"
+              },
+              {
+                "word": "probably",
+                "start": 3.28,
+                "end": 3.76,
+                "confidence": 1,
+                "punctuated_word": "Probably"
+              },
+              {
+                "word": "not",
+                "start": 3.76,
+                "end": 4.26,
+                "confidence": 0.9213867,
+                "punctuated_word": "not,"
+              },
+              {
+                "word": "but",
+                "start": 4.48,
+                "end": 4.72,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "you",
+                "start": 4.72,
+                "end": 4.88,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 4.88,
+                "end": 5.04,
+                "confidence": 0.9970703,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "going",
+                "start": 5.04,
+                "end": 5.2799997,
+                "confidence": 1,
+                "punctuated_word": "going"
+              },
+              {
+                "word": "to",
+                "start": 5.2799997,
+                "end": 5.3599997,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "try",
+                "start": 5.3599997,
+                "end": 5.8599997,
+                "confidence": 1,
+                "punctuated_word": "try."
+              },
+              {
+                "word": "day",
+                "start": 6.56,
+                "end": 6.8799996,
+                "confidence": 1,
+                "punctuated_word": "Day"
+              },
+              {
+                "word": "one",
+                "start": 6.8799996,
+                "end": 7.3799996,
+                "confidence": 0.87890625,
+                "punctuated_word": "one."
+              },
+              {
+                "word": "you",
+                "start": 7.6,
+                "end": 7.8399997,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "wake",
+                "start": 7.8399997,
+                "end": 8.08,
+                "confidence": 0.9951172,
+                "punctuated_word": "wake"
+              },
+              {
+                "word": "near",
+                "start": 8.08,
+                "end": 8.32,
+                "confidence": 1,
+                "punctuated_word": "near"
+              },
+              {
+                "word": "the",
+                "start": 8.32,
+                "end": 8.48,
+                "confidence": 0.9970703,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "forum",
+                "start": 8.48,
+                "end": 8.8,
+                "confidence": 0.86621094,
+                "punctuated_word": "forum"
+              },
+              {
+                "word": "with",
+                "start": 8.8,
+                "end": 9.04,
+                "confidence": 1,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "a",
+                "start": 9.04,
+                "end": 9.2,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "modern",
+                "start": 9.2,
+                "end": 9.599999,
+                "confidence": 0.9980469,
+                "punctuated_word": "modern"
+              },
+              {
+                "word": "engineering",
+                "start": 9.599999,
+                "end": 10.099999,
+                "confidence": 1,
+                "punctuated_word": "engineering"
+              },
+              {
+                "word": "degree",
+                "start": 10.16,
+                "end": 10.48,
+                "confidence": 1,
+                "punctuated_word": "degree"
+              },
+              {
+                "word": "and",
+                "start": 10.48,
+                "end": 10.8,
+                "confidence": 0.98828125,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "incredibly",
+                "start": 10.8,
+                "end": 11.3,
+                "confidence": 1,
+                "punctuated_word": "incredibly"
+              },
+              {
+                "word": "suspicious",
+                "start": 11.44,
+                "end": 11.94,
+                "confidence": 1,
+                "punctuated_word": "suspicious"
+              },
+              {
+                "word": "crocs",
+                "start": 12,
+                "end": 12.5,
+                "confidence": 0.98876953,
+                "punctuated_word": "crocs."
+              },
+              {
+                "word": "first",
+                "start": 13.184999,
+                "end": 13.684999,
+                "confidence": 0.99902344,
+                "punctuated_word": "First"
+              },
+              {
+                "word": "surprise",
+                "start": 14.224999,
+                "end": 14.625,
+                "confidence": 0.8635254,
+                "punctuated_word": "surprise,"
+              },
+              {
+                "word": "rome",
+                "start": 14.625,
+                "end": 14.945,
+                "confidence": 0.98828125,
+                "punctuated_word": "Rome"
+              },
+              {
+                "word": "is",
+                "start": 14.945,
+                "end": 15.105,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "already",
+                "start": 15.105,
+                "end": 15.504999,
+                "confidence": 1,
+                "punctuated_word": "already"
+              },
+              {
+                "word": "an",
+                "start": 15.504999,
+                "end": 15.745,
+                "confidence": 0.99902344,
+                "punctuated_word": "an"
+              },
+              {
+                "word": "engineering",
+                "start": 15.745,
+                "end": 16.244999,
+                "confidence": 1,
+                "punctuated_word": "engineering"
+              },
+              {
+                "word": "machine",
+                "start": 16.305,
+                "end": 16.805,
+                "confidence": 0.95996094,
+                "punctuated_word": "machine."
+              },
+              {
+                "word": "roads",
+                "start": 17.505,
+                "end": 18.005,
+                "confidence": 0.9975586,
+                "punctuated_word": "Roads,"
+              },
+              {
+                "word": "aqueducts",
+                "start": 18.064999,
+                "end": 18.564999,
+                "confidence": 0.9957031,
+                "punctuated_word": "aqueducts,"
+              },
+              {
+                "word": "cranes",
+                "start": 18.865,
+                "end": 19.365,
+                "confidence": 1,
+                "punctuated_word": "cranes,"
+              },
+              {
+                "word": "concrete",
+                "start": 19.505,
+                "end": 20.005,
+                "confidence": 0.9980469,
+                "punctuated_word": "concrete,"
+              },
+              {
+                "word": "water",
+                "start": 20.224998,
+                "end": 20.545,
+                "confidence": 1,
+                "punctuated_word": "water"
+              },
+              {
+                "word": "mills",
+                "start": 20.545,
+                "end": 21.045,
+                "confidence": 0.60595703,
+                "punctuated_word": "mills."
+              },
+              {
+                "word": "so",
+                "start": 21.425,
+                "end": 21.665,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "you",
+                "start": 21.665,
+                "end": 21.825,
+                "confidence": 0.99316406,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "skip",
+                "start": 21.825,
+                "end": 22.224998,
+                "confidence": 0.9873047,
+                "punctuated_word": "skip"
+              },
+              {
+                "word": "sightseeing",
+                "start": 22.224998,
+                "end": 22.724998,
+                "confidence": 0.9748535,
+                "punctuated_word": "sightseeing"
+              },
+              {
+                "word": "and",
+                "start": 22.785,
+                "end": 22.945,
+                "confidence": 0.9863281,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "find",
+                "start": 22.945,
+                "end": 23.185,
+                "confidence": 1,
+                "punctuated_word": "find"
+              },
+              {
+                "word": "a",
+                "start": 23.185,
+                "end": 23.265,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "workshop",
+                "start": 23.265,
+                "end": 23.765,
+                "confidence": 1,
+                "punctuated_word": "workshop."
+              },
+              {
+                "word": "day",
+                "start": 24.465,
+                "end": 24.865,
+                "confidence": 1,
+                "punctuated_word": "Day"
+              },
+              {
+                "word": "three",
+                "start": 24.865,
+                "end": 25.365,
+                "confidence": 0.95874023,
+                "punctuated_word": "three,"
+              },
+              {
+                "word": "you",
+                "start": 25.425,
+                "end": 25.664999,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "sketch",
+                "start": 25.664999,
+                "end": 25.985,
+                "confidence": 1,
+                "punctuated_word": "sketch"
+              },
+              {
+                "word": "a",
+                "start": 25.985,
+                "end": 26.064999,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "steam",
+                "start": 26.064999,
+                "end": 26.305,
+                "confidence": 1,
+                "punctuated_word": "steam"
+              },
+              {
+                "word": "engine",
+                "start": 26.305,
+                "end": 26.704998,
+                "confidence": 1,
+                "punctuated_word": "engine"
+              },
+              {
+                "word": "in",
+                "start": 26.704998,
+                "end": 26.865,
+                "confidence": 0.9951172,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "charcoal",
+                "start": 26.865,
+                "end": 27.365,
+                "confidence": 0.9995117,
+                "punctuated_word": "charcoal."
+              },
+              {
+                "word": "the",
+                "start": 27.86,
+                "end": 28.18,
+                "confidence": 1,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "smiths",
+                "start": 28.18,
+                "end": 28.42,
+                "confidence": 0.9477539,
+                "punctuated_word": "Smiths"
+              },
+              {
+                "word": "understand",
+                "start": 28.42,
+                "end": 28.92,
+                "confidence": 0.99902344,
+                "punctuated_word": "understand"
+              },
+              {
+                "word": "heat",
+                "start": 29.140001,
+                "end": 29.640001,
+                "confidence": 0.9946289,
+                "punctuated_word": "heat,"
+              },
+              {
+                "word": "pressure",
+                "start": 29.7,
+                "end": 30.18,
+                "confidence": 0.9797363,
+                "punctuated_word": "pressure,"
+              },
+              {
+                "word": "and",
+                "start": 30.18,
+                "end": 30.5,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "cast",
+                "start": 30.5,
+                "end": 30.900002,
+                "confidence": 1,
+                "punctuated_word": "cast"
+              },
+              {
+                "word": "metal",
+                "start": 30.900002,
+                "end": 31.400002,
+                "confidence": 0.8083496,
+                "punctuated_word": "metal,"
+              },
+              {
+                "word": "but",
+                "start": 31.62,
+                "end": 31.86,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "the",
+                "start": 31.86,
+                "end": 32.02,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "first",
+                "start": 32.02,
+                "end": 32.34,
+                "confidence": 1,
+                "punctuated_word": "first"
+              },
+              {
+                "word": "cylinder",
+                "start": 32.34,
+                "end": 32.84,
+                "confidence": 1,
+                "punctuated_word": "cylinder"
+              },
+              {
+                "word": "leaks",
+                "start": 32.9,
+                "end": 33.4,
+                "confidence": 0.8876953,
+                "punctuated_word": "leaks."
+              },
+              {
+                "word": "the",
+                "start": 33.54,
+                "end": 33.78,
+                "confidence": 1,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "piston",
+                "start": 33.78,
+                "end": 34.260002,
+                "confidence": 0.99609375,
+                "punctuated_word": "piston"
+              },
+              {
+                "word": "scrapes",
+                "start": 34.260002,
+                "end": 34.760002,
+                "confidence": 0.9767253,
+                "punctuated_word": "scrapes."
+              },
+              {
+                "word": "every",
+                "start": 35.22,
+                "end": 35.54,
+                "confidence": 1,
+                "punctuated_word": "Every"
+              },
+              {
+                "word": "part",
+                "start": 35.54,
+                "end": 35.78,
+                "confidence": 1,
+                "punctuated_word": "part"
+              },
+              {
+                "word": "is",
+                "start": 35.78,
+                "end": 36.02,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "almost",
+                "start": 36.02,
+                "end": 36.42,
+                "confidence": 1,
+                "punctuated_word": "almost"
+              },
+              {
+                "word": "right",
+                "start": 36.42,
+                "end": 36.74,
+                "confidence": 0.90283203,
+                "punctuated_word": "right,"
+              },
+              {
+                "word": "which",
+                "start": 36.74,
+                "end": 36.98,
+                "confidence": 1,
+                "punctuated_word": "which"
+              },
+              {
+                "word": "is",
+                "start": 36.98,
+                "end": 37.3,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "exactly",
+                "start": 37.3,
+                "end": 37.78,
+                "confidence": 1,
+                "punctuated_word": "exactly"
+              },
+              {
+                "word": "the",
+                "start": 37.78,
+                "end": 37.940002,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "problem",
+                "start": 37.940002,
+                "end": 38.440002,
+                "confidence": 1,
+                "punctuated_word": "problem."
+              },
+              {
+                "word": "week",
+                "start": 39.14,
+                "end": 39.54,
+                "confidence": 1,
+                "punctuated_word": "Week"
+              },
+              {
+                "word": "two",
+                "start": 39.54,
+                "end": 40.035,
+                "confidence": 0.9501953,
+                "punctuated_word": "two,"
+              },
+              {
+                "word": "you",
+                "start": 40.195,
+                "end": 40.435,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "need",
+                "start": 40.435,
+                "end": 40.675,
+                "confidence": 1,
+                "punctuated_word": "need"
+              },
+              {
+                "word": "precision",
+                "start": 40.675,
+                "end": 41.175,
+                "confidence": 1,
+                "punctuated_word": "precision"
+              },
+              {
+                "word": "boring",
+                "start": 41.235,
+                "end": 41.735,
+                "confidence": 0.9951172,
+                "punctuated_word": "boring,"
+              },
+              {
+                "word": "standard",
+                "start": 41.875,
+                "end": 42.355,
+                "confidence": 1,
+                "punctuated_word": "standard"
+              },
+              {
+                "word": "screws",
+                "start": 42.355,
+                "end": 42.855,
+                "confidence": 0.9995117,
+                "punctuated_word": "screws,"
+              },
+              {
+                "word": "reliable",
+                "start": 43.155,
+                "end": 43.655,
+                "confidence": 1,
+                "punctuated_word": "reliable"
+              },
+              {
+                "word": "seals",
+                "start": 43.795,
+                "end": 44.295,
+                "confidence": 0.98950195,
+                "punctuated_word": "seals,"
+              },
+              {
+                "word": "and",
+                "start": 44.435,
+                "end": 44.675,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "metal",
+                "start": 44.675,
+                "end": 44.995,
+                "confidence": 0.99902344,
+                "punctuated_word": "metal"
+              },
+              {
+                "word": "that",
+                "start": 44.995,
+                "end": 45.235,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "behaves",
+                "start": 45.235,
+                "end": 45.715,
+                "confidence": 1,
+                "punctuated_word": "behaves"
+              },
+              {
+                "word": "the",
+                "start": 45.715,
+                "end": 45.875,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "same",
+                "start": 45.875,
+                "end": 46.114998,
+                "confidence": 0.99902344,
+                "punctuated_word": "same"
+              },
+              {
+                "word": "way",
+                "start": 46.114998,
+                "end": 46.434998,
+                "confidence": 1,
+                "punctuated_word": "way"
+              },
+              {
+                "word": "twice",
+                "start": 46.434998,
+                "end": 46.934998,
+                "confidence": 0.9995117,
+                "punctuated_word": "twice."
+              },
+              {
+                "word": "rome",
+                "start": 47.475,
+                "end": 47.875,
+                "confidence": 0.76123047,
+                "punctuated_word": "Rome"
+              },
+              {
+                "word": "has",
+                "start": 47.875,
+                "end": 48.275,
+                "confidence": 1,
+                "punctuated_word": "has"
+              },
+              {
+                "word": "brilliant",
+                "start": 48.275,
+                "end": 48.755,
+                "confidence": 0.9892578,
+                "punctuated_word": "brilliant"
+              },
+              {
+                "word": "craftsmen",
+                "start": 48.755,
+                "end": 49.255,
+                "confidence": 0.8805339,
+                "punctuated_word": "craftsmen."
+              },
+              {
+                "word": "it",
+                "start": 49.635,
+                "end": 49.795,
+                "confidence": 1,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "does",
+                "start": 49.795,
+                "end": 50.035,
+                "confidence": 1,
+                "punctuated_word": "does"
+              },
+              {
+                "word": "not",
+                "start": 50.035,
+                "end": 50.195,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "have",
+                "start": 50.195,
+                "end": 50.434998,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "factory",
+                "start": 50.434998,
+                "end": 50.915,
+                "confidence": 1,
+                "punctuated_word": "factory"
+              },
+              {
+                "word": "tooling",
+                "start": 50.915,
+                "end": 51.415,
+                "confidence": 0.99934894,
+                "punctuated_word": "tooling."
+              },
+              {
+                "word": "month",
+                "start": 52.035,
+                "end": 52.434998,
+                "confidence": 1,
+                "punctuated_word": "Month"
+              },
+              {
+                "word": "one",
+                "start": 52.434998,
+                "end": 52.934998,
+                "confidence": 0.9914551,
+                "punctuated_word": "one,"
+              },
+              {
+                "word": "you",
+                "start": 53.030003,
+                "end": 53.27,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "build",
+                "start": 53.27,
+                "end": 53.43,
+                "confidence": 1,
+                "punctuated_word": "build"
+              },
+              {
+                "word": "a",
+                "start": 53.43,
+                "end": 53.75,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "hero",
+                "start": 53.75,
+                "end": 54.23,
+                "confidence": 0.99902344,
+                "punctuated_word": "hero"
+              },
+              {
+                "word": "style",
+                "start": 54.23,
+                "end": 54.71,
+                "confidence": 1,
+                "punctuated_word": "style"
+              },
+              {
+                "word": "steam",
+                "start": 54.71,
+                "end": 55.11,
+                "confidence": 0.99316406,
+                "punctuated_word": "steam"
+              },
+              {
+                "word": "spinner",
+                "start": 55.11,
+                "end": 55.61,
+                "confidence": 0.99934894,
+                "punctuated_word": "spinner."
+              },
+              {
+                "word": "it",
+                "start": 55.75,
+                "end": 55.99,
+                "confidence": 1,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "hisses",
+                "start": 55.99,
+                "end": 56.49,
+                "confidence": 0.97477216,
+                "punctuated_word": "hisses."
+              },
+              {
+                "word": "it",
+                "start": 56.71,
+                "end": 56.95,
+                "confidence": 1,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "spins",
+                "start": 56.95,
+                "end": 57.45,
+                "confidence": 0.99902344,
+                "punctuated_word": "spins."
+              },
+              {
+                "word": "everyone",
+                "start": 57.83,
+                "end": 58.33,
+                "confidence": 1,
+                "punctuated_word": "Everyone"
+              },
+              {
+                "word": "stares",
+                "start": 58.47,
+                "end": 58.97,
+                "confidence": 0.9970703,
+                "punctuated_word": "stares."
+              },
+              {
+                "word": "it",
+                "start": 59.35,
+                "end": 59.59,
+                "confidence": 1,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "also",
+                "start": 59.59,
+                "end": 59.83,
+                "confidence": 1,
+                "punctuated_word": "also"
+              },
+              {
+                "word": "powers",
+                "start": 59.83,
+                "end": 60.31,
+                "confidence": 1,
+                "punctuated_word": "powers"
+              },
+              {
+                "word": "basically",
+                "start": 60.31,
+                "end": 60.71,
+                "confidence": 0.9951172,
+                "punctuated_word": "basically"
+              },
+              {
+                "word": "nothing",
+                "start": 60.71,
+                "end": 61.21,
+                "confidence": 0.9995117,
+                "punctuated_word": "nothing."
+              },
+              {
+                "word": "a",
+                "start": 61.43,
+                "end": 61.59,
+                "confidence": 1,
+                "punctuated_word": "A"
+              },
+              {
+                "word": "clever",
+                "start": 61.59,
+                "end": 62.09,
+                "confidence": 1,
+                "punctuated_word": "clever"
+              },
+              {
+                "word": "toy",
+                "start": 62.15,
+                "end": 62.63,
+                "confidence": 1,
+                "punctuated_word": "toy"
+              },
+              {
+                "word": "is",
+                "start": 62.63,
+                "end": 62.79,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "not",
+                "start": 62.79,
+                "end": 63.03,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "an",
+                "start": 63.03,
+                "end": 63.27,
+                "confidence": 1,
+                "punctuated_word": "an"
+              },
+              {
+                "word": "engine",
+                "start": 63.27,
+                "end": 63.59,
+                "confidence": 1,
+                "punctuated_word": "engine"
+              },
+              {
+                "word": "room",
+                "start": 63.59,
+                "end": 64.09,
+                "confidence": 1,
+                "punctuated_word": "room."
+              },
+              {
+                "word": "month",
+                "start": 64.87,
+                "end": 65.270004,
+                "confidence": 1,
+                "punctuated_word": "Month"
+              },
+              {
+                "word": "six",
+                "start": 65.270004,
+                "end": 65.770004,
+                "confidence": 0.9951172,
+                "punctuated_word": "six,"
+              },
+              {
+                "word": "you",
+                "start": 65.945,
+                "end": 66.185,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "try",
+                "start": 66.185,
+                "end": 66.345,
+                "confidence": 1,
+                "punctuated_word": "try"
+              },
+              {
+                "word": "a",
+                "start": 66.345,
+                "end": 66.505,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "mine",
+                "start": 66.505,
+                "end": 66.905,
+                "confidence": 0.5541992,
+                "punctuated_word": "mine"
+              },
+              {
+                "word": "pump",
+                "start": 66.905,
+                "end": 67.405,
+                "confidence": 0.9980469,
+                "punctuated_word": "pump."
+              },
+              {
+                "word": "for",
+                "start": 67.545,
+                "end": 67.704994,
+                "confidence": 1,
+                "punctuated_word": "For"
+              },
+              {
+                "word": "one",
+                "start": 67.704994,
+                "end": 67.945,
+                "confidence": 1,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "afternoon",
+                "start": 67.945,
+                "end": 68.424995,
+                "confidence": 0.9260254,
+                "punctuated_word": "afternoon,"
+              },
+              {
+                "word": "it",
+                "start": 68.424995,
+                "end": 68.585,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "works",
+                "start": 68.585,
+                "end": 69.085,
+                "confidence": 0.7883301,
+                "punctuated_word": "works,"
+              },
+              {
+                "word": "then",
+                "start": 69.305,
+                "end": 69.704994,
+                "confidence": 1,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "seals",
+                "start": 69.704994,
+                "end": 70.104996,
+                "confidence": 0.984375,
+                "punctuated_word": "seals"
+              },
+              {
+                "word": "fail",
+                "start": 70.104996,
+                "end": 70.604996,
+                "confidence": 0.984375,
+                "punctuated_word": "fail,"
+              },
+              {
+                "word": "fuel",
+                "start": 70.825,
+                "end": 71.145,
+                "confidence": 1,
+                "punctuated_word": "fuel"
+              },
+              {
+                "word": "runs",
+                "start": 71.145,
+                "end": 71.545,
+                "confidence": 0.95166016,
+                "punctuated_word": "runs"
+              },
+              {
+                "word": "short",
+                "start": 71.545,
+                "end": 71.945,
+                "confidence": 0.9885254,
+                "punctuated_word": "short,"
+              },
+              {
+                "word": "and",
+                "start": 71.945,
+                "end": 72.185,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "replacement",
+                "start": 72.185,
+                "end": 72.685,
+                "confidence": 1,
+                "punctuated_word": "replacement"
+              },
+              {
+                "word": "parts",
+                "start": 72.825,
+                "end": 73.225,
+                "confidence": 1,
+                "punctuated_word": "parts"
+              },
+              {
+                "word": "do",
+                "start": 73.225,
+                "end": 73.384995,
+                "confidence": 1,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "not",
+                "start": 73.384995,
+                "end": 73.625,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "match",
+                "start": 73.625,
+                "end": 74.125,
+                "confidence": 1,
+                "punctuated_word": "match."
+              },
+              {
+                "word": "year",
+                "start": 74.825,
+                "end": 75.145,
+                "confidence": 1,
+                "punctuated_word": "Year"
+              },
+              {
+                "word": "one",
+                "start": 75.145,
+                "end": 75.645,
+                "confidence": 0.94091797,
+                "punctuated_word": "one,"
+              },
+              {
+                "word": "a",
+                "start": 75.865,
+                "end": 76.024994,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "senator",
+                "start": 76.024994,
+                "end": 76.524994,
+                "confidence": 0.9951172,
+                "punctuated_word": "senator"
+              },
+              {
+                "word": "asks",
+                "start": 76.585,
+                "end": 76.985,
+                "confidence": 0.9980469,
+                "punctuated_word": "asks"
+              },
+              {
+                "word": "why",
+                "start": 76.985,
+                "end": 77.305,
+                "confidence": 0.9951172,
+                "punctuated_word": "why"
+              },
+              {
+                "word": "he",
+                "start": 77.305,
+                "end": 77.465,
+                "confidence": 1,
+                "punctuated_word": "he"
+              },
+              {
+                "word": "should",
+                "start": 77.465,
+                "end": 77.705,
+                "confidence": 1,
+                "punctuated_word": "should"
+              },
+              {
+                "word": "buy",
+                "start": 77.705,
+                "end": 77.945,
+                "confidence": 0.99902344,
+                "punctuated_word": "buy"
+              },
+              {
+                "word": "machines",
+                "start": 77.945,
+                "end": 78.424995,
+                "confidence": 1,
+                "punctuated_word": "machines"
+              },
+              {
+                "word": "when",
+                "start": 78.424995,
+                "end": 78.66499,
+                "confidence": 1,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "labor",
+                "start": 78.66499,
+                "end": 79.064995,
+                "confidence": 1,
+                "punctuated_word": "labor"
+              },
+              {
+                "word": "is",
+                "start": 79.064995,
+                "end": 79.305,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "cheaper",
+                "start": 79.305,
+                "end": 79.805,
+                "confidence": 0.9645996,
+                "punctuated_word": "cheaper."
+              },
+              {
+                "word": "the",
+                "start": 80.22,
+                "end": 80.380005,
+                "confidence": 1,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "army",
+                "start": 80.380005,
+                "end": 80.700005,
+                "confidence": 0.9838867,
+                "punctuated_word": "army"
+              },
+              {
+                "word": "wants",
+                "start": 80.700005,
+                "end": 81.18,
+                "confidence": 0.9404297,
+                "punctuated_word": "wants"
+              },
+              {
+                "word": "siege",
+                "start": 81.18,
+                "end": 81.5,
+                "confidence": 0.99902344,
+                "punctuated_word": "siege"
+              },
+              {
+                "word": "engines",
+                "start": 81.5,
+                "end": 82,
+                "confidence": 0.97094727,
+                "punctuated_word": "engines."
+              },
+              {
+                "word": "merchants",
+                "start": 82.3,
+                "end": 82.78001,
+                "confidence": 1,
+                "punctuated_word": "Merchants"
+              },
+              {
+                "word": "want",
+                "start": 82.78001,
+                "end": 83.100006,
+                "confidence": 0.99902344,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "profit",
+                "start": 83.100006,
+                "end": 83.5,
+                "confidence": 1,
+                "punctuated_word": "profit"
+              },
+              {
+                "word": "now",
+                "start": 83.5,
+                "end": 84,
+                "confidence": 0.9995117,
+                "punctuated_word": "now."
+              },
+              {
+                "word": "officials",
+                "start": 84.22,
+                "end": 84.700005,
+                "confidence": 0.9941406,
+                "punctuated_word": "Officials"
+              },
+              {
+                "word": "want",
+                "start": 84.700005,
+                "end": 85.100006,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "taxes",
+                "start": 85.100006,
+                "end": 85.58,
+                "confidence": 0.9499512,
+                "punctuated_word": "taxes,"
+              },
+              {
+                "word": "not",
+                "start": 85.58,
+                "end": 85.82,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "experiments",
+                "start": 85.82,
+                "end": 86.32,
+                "confidence": 1,
+                "punctuated_word": "experiments."
+              },
+              {
+                "word": "you",
+                "start": 87.020004,
+                "end": 87.340004,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "finally",
+                "start": 87.340004,
+                "end": 87.66,
+                "confidence": 1,
+                "punctuated_word": "finally"
+              },
+              {
+                "word": "see",
+                "start": 87.66,
+                "end": 87.9,
+                "confidence": 1,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "the",
+                "start": 87.9,
+                "end": 87.98,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "bottleneck",
+                "start": 87.98,
+                "end": 88.48,
+                "confidence": 0.75219727,
+                "punctuated_word": "bottleneck."
+              },
+              {
+                "word": "not",
+                "start": 88.94,
+                "end": 89.26,
+                "confidence": 1,
+                "punctuated_word": "Not"
+              },
+              {
+                "word": "one",
+                "start": 89.26,
+                "end": 89.58,
+                "confidence": 1,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "missing",
+                "start": 89.58,
+                "end": 89.98,
+                "confidence": 0.99902344,
+                "punctuated_word": "missing"
+              },
+              {
+                "word": "invention",
+                "start": 89.98,
+                "end": 90.48,
+                "confidence": 0.953125,
+                "punctuated_word": "invention,"
+              },
+              {
+                "word": "but",
+                "start": 90.86,
+                "end": 91.100006,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "an",
+                "start": 91.100006,
+                "end": 91.340004,
+                "confidence": 0.99902344,
+                "punctuated_word": "an"
+              },
+              {
+                "word": "ecosystem",
+                "start": 91.340004,
+                "end": 91.840004,
+                "confidence": 0.9995117,
+                "punctuated_word": "ecosystem."
+              },
+              {
+                "word": "rome",
+                "start": 92.923874,
+                "end": 93.24387,
+                "confidence": 1,
+                "punctuated_word": "Rome"
+              },
+              {
+                "word": "had",
+                "start": 93.24387,
+                "end": 93.56387,
+                "confidence": 1,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "engineers",
+                "start": 93.56387,
+                "end": 94.06387,
+                "confidence": 0.984375,
+                "punctuated_word": "engineers."
+              },
+              {
+                "word": "what",
+                "start": 94.52387,
+                "end": 94.76387,
+                "confidence": 1,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "it",
+                "start": 94.76387,
+                "end": 94.923874,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "lacked",
+                "start": 94.923874,
+                "end": 95.24387,
+                "confidence": 1,
+                "punctuated_word": "lacked"
+              },
+              {
+                "word": "was",
+                "start": 95.24387,
+                "end": 95.40388,
+                "confidence": 1,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "the",
+                "start": 95.40388,
+                "end": 95.56387,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "world",
+                "start": 95.56387,
+                "end": 95.88387,
+                "confidence": 1,
+                "punctuated_word": "world"
+              },
+              {
+                "word": "that",
+                "start": 95.88387,
+                "end": 96.04388,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "makes",
+                "start": 96.04388,
+                "end": 96.52387,
+                "confidence": 1,
+                "punctuated_word": "makes"
+              },
+              {
+                "word": "engineering",
+                "start": 96.52387,
+                "end": 97.02387,
+                "confidence": 1,
+                "punctuated_word": "engineering"
+              },
+              {
+                "word": "compound",
+                "start": 97.24387,
+                "end": 97.74387,
+                "confidence": 1,
+                "punctuated_word": "compound."
+              },
+              {
+                "word": "inventions",
+                "start": 98.52387,
+                "end": 99.02387,
+                "confidence": 1,
+                "punctuated_word": "Inventions"
+              },
+              {
+                "word": "do",
+                "start": 99.08388,
+                "end": 99.323875,
+                "confidence": 1,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "not",
+                "start": 99.323875,
+                "end": 99.48387,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "cause",
+                "start": 99.48387,
+                "end": 99.88387,
+                "confidence": 1,
+                "punctuated_word": "cause"
+              },
+              {
+                "word": "revolutions",
+                "start": 99.88387,
+                "end": 100.38387,
+                "confidence": 1,
+                "punctuated_word": "revolutions"
+              },
+              {
+                "word": "alone",
+                "start": 100.52387,
+                "end": 101.02387,
+                "confidence": 0.8461914,
+                "punctuated_word": "alone."
+              },
+              {
+                "word": "supply",
+                "start": 101.323875,
+                "end": 101.80387,
+                "confidence": 1,
+                "punctuated_word": "Supply"
+              },
+              {
+                "word": "chains",
+                "start": 101.80387,
+                "end": 102.283875,
+                "confidence": 1,
+                "punctuated_word": "chains"
+              },
+              {
+                "word": "do",
+                "start": 102.283875,
+                "end": 102.60894,
+                "confidence": 0.9995117,
+                "punctuated_word": "do."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nCould you start the industrial revolution in ancient Rome? Probably not, but you are going to try. Day one. You wake near the forum with a modern engineering degree and incredibly suspicious crocs. First surprise, Rome is already an engineering machine.\n\nRoads, aqueducts, cranes, concrete, water mills. So you skip sightseeing and find a workshop. Day three, you sketch a steam engine in charcoal. The Smiths understand heat, pressure, and cast metal, but the first cylinder leaks. The piston scrapes.\n\nEvery part is almost right, which is exactly the problem. Week two, you need precision boring, standard screws, reliable seals, and metal that behaves the same way twice. Rome has brilliant craftsmen. It does not have factory tooling. Month one, you build a hero style steam spinner.\n\nIt hisses. It spins. Everyone stares. It also powers basically nothing. A clever toy is not an engine room.\n\nMonth six, you try a mine pump. For one afternoon, it works, then seals fail, fuel runs short, and replacement parts do not match. Year one, a senator asks why he should buy machines when labor is cheaper. The army wants siege engines. Merchants want profit now.\n\nOfficials want taxes, not experiments. You finally see the bottleneck. Not one missing invention, but an ecosystem. Rome had engineers. What it lacked was the world that makes engineering compound.\n\nInventions do not cause revolutions alone. Supply chains do.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Could you start the industrial revolution in ancient Rome?",
+                      "start": 0.08,
+                      "end": 2.8999999
+                    },
+                    {
+                      "text": "Probably not, but you are going to try.",
+                      "start": 3.28,
+                      "end": 5.8599997
+                    },
+                    {
+                      "text": "Day one.",
+                      "start": 6.56,
+                      "end": 7.3799996
+                    },
+                    {
+                      "text": "You wake near the forum with a modern engineering degree and incredibly suspicious crocs.",
+                      "start": 7.6,
+                      "end": 12.5
+                    },
+                    {
+                      "text": "First surprise, Rome is already an engineering machine.",
+                      "start": 13.184999,
+                      "end": 16.805
+                    }
+                  ],
+                  "num_words": 41,
+                  "start": 0.08,
+                  "end": 16.805
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Roads, aqueducts, cranes, concrete, water mills.",
+                      "start": 17.505,
+                      "end": 21.045
+                    },
+                    {
+                      "text": "So you skip sightseeing and find a workshop.",
+                      "start": 21.425,
+                      "end": 23.765
+                    },
+                    {
+                      "text": "Day three, you sketch a steam engine in charcoal.",
+                      "start": 24.465,
+                      "end": 27.365
+                    },
+                    {
+                      "text": "The Smiths understand heat, pressure, and cast metal, but the first cylinder leaks.",
+                      "start": 27.86,
+                      "end": 33.4
+                    },
+                    {
+                      "text": "The piston scrapes.",
+                      "start": 33.54,
+                      "end": 34.760002
+                    }
+                  ],
+                  "num_words": 39,
+                  "start": 17.505,
+                  "end": 34.760002
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Every part is almost right, which is exactly the problem.",
+                      "start": 35.22,
+                      "end": 38.440002
+                    },
+                    {
+                      "text": "Week two, you need precision boring, standard screws, reliable seals, and metal that behaves the same way twice.",
+                      "start": 39.14,
+                      "end": 46.934998
+                    },
+                    {
+                      "text": "Rome has brilliant craftsmen.",
+                      "start": 47.475,
+                      "end": 49.255
+                    },
+                    {
+                      "text": "It does not have factory tooling.",
+                      "start": 49.635,
+                      "end": 51.415
+                    },
+                    {
+                      "text": "Month one, you build a hero style steam spinner.",
+                      "start": 52.035,
+                      "end": 55.61
+                    }
+                  ],
+                  "num_words": 47,
+                  "start": 35.22,
+                  "end": 55.61
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "It hisses.",
+                      "start": 55.75,
+                      "end": 56.49
+                    },
+                    {
+                      "text": "It spins.",
+                      "start": 56.71,
+                      "end": 57.45
+                    },
+                    {
+                      "text": "Everyone stares.",
+                      "start": 57.83,
+                      "end": 58.97
+                    },
+                    {
+                      "text": "It also powers basically nothing.",
+                      "start": 59.35,
+                      "end": 61.21
+                    },
+                    {
+                      "text": "A clever toy is not an engine room.",
+                      "start": 61.43,
+                      "end": 64.09
+                    }
+                  ],
+                  "num_words": 19,
+                  "start": 55.75,
+                  "end": 64.09
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Month six, you try a mine pump.",
+                      "start": 64.87,
+                      "end": 67.405
+                    },
+                    {
+                      "text": "For one afternoon, it works, then seals fail, fuel runs short, and replacement parts do not match.",
+                      "start": 67.545,
+                      "end": 74.125
+                    },
+                    {
+                      "text": "Year one, a senator asks why he should buy machines when labor is cheaper.",
+                      "start": 74.825,
+                      "end": 79.805
+                    },
+                    {
+                      "text": "The army wants siege engines.",
+                      "start": 80.22,
+                      "end": 82
+                    },
+                    {
+                      "text": "Merchants want profit now.",
+                      "start": 82.3,
+                      "end": 84
+                    }
+                  ],
+                  "num_words": 47,
+                  "start": 64.87,
+                  "end": 84
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Officials want taxes, not experiments.",
+                      "start": 84.22,
+                      "end": 86.32
+                    },
+                    {
+                      "text": "You finally see the bottleneck.",
+                      "start": 87.020004,
+                      "end": 88.48
+                    },
+                    {
+                      "text": "Not one missing invention, but an ecosystem.",
+                      "start": 88.94,
+                      "end": 91.840004
+                    },
+                    {
+                      "text": "Rome had engineers.",
+                      "start": 92.923874,
+                      "end": 94.06387
+                    },
+                    {
+                      "text": "What it lacked was the world that makes engineering compound.",
+                      "start": 94.52387,
+                      "end": 97.74387
+                    }
+                  ],
+                  "num_words": 30,
+                  "start": 84.22,
+                  "end": 97.74387
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Inventions do not cause revolutions alone.",
+                      "start": 98.52387,
+                      "end": 101.02387
+                    },
+                    {
+                      "text": "Supply chains do.",
+                      "start": 101.323875,
+                      "end": 102.60894
+                    }
+                  ],
+                  "num_words": 9,
+                  "start": 98.52387,
+                  "end": 102.60894
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

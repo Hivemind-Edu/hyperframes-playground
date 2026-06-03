@@ -1,0 +1,23 @@
+{
+  "durationSeconds": 6,
+  "generatedAt": "2026-06-03T17:53:42.100Z",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/keyframes/scene-12-keyframe-v3-iphone-nb2-1k.jpg",
+  "latencyMs": {
+    "download": 2189,
+    "generation": 54474,
+    "total": 58127,
+    "upload": 1464
+  },
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/videos/scene-12-grok-imagine-1.5-720p.mp4",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-12-video-grok-imagine-v15.txt",
+  "requestId": "019e8e9d-c7ab-7951-a502-c6533dfb6607",
+  "resolution": "720p",
+  "scene": 12,
+  "videoPrompt": "Use the provided image as the first frame and preserve the composition, character identity, clothing, props, lighting, and ancient Roman setting. Create a photorealistic vertical 9:16 video, shot like iPhone 11 handheld footage with cinematic natural light. Keep the skeleton engineer consistent: green-and-white cap, normal green overshirt, white T-shirt, tan shorts, brown satchel, bright green Crocs-style clogs, exposed bones with only a very subtle translucent skin sheen on arms and legs. Realistic physics, real smoke, dust, water, firelight, cloth, metal, stone. No subtitles, no text, no logos, no cartoon style, no horror, no exaggerated comedy, no extra limbs, no identity drift.\n\nScene action: Close ground-level failure scene. A leather seal is split, charcoal dust falls from the basket, wrong-sized bronze ring sits beside calipers. The skeleton engineer kneels and compares the parts. Steam thins in the background and water flow stops. Keep this quiet and educational, like a forensic failure moment.",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cd764/-RmRWM1cQCnu3m5lpKTiO_07Qn4xhN.mp4",
+  "voiceoverDurationSeconds": 5.52,
+  "voiceoverEndSeconds": 74.825,
+  "voiceoverStartSeconds": 69.305,
+  "voiceoverText": "Then seals fail, fuel runs short, and replacement parts do not match."
+}

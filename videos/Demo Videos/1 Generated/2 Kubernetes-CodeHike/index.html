@@ -782,7 +782,7 @@
 				} else if (false && scene.mediaType !== "video") {
 						tl.set(media, { opacity: 1 }, scene.start);
 					} else if (false || (false && scene.mediaType !== "video")) {
-						
+
 						const kenBurns = getKenBurnsTransform(scene.camera, 1.2, 1.15);
 						tl.set(media, { transformOrigin: "50% 50%" }, scene.start);
 						tl.fromTo(media, kenBurns.from, { ...kenBurns.to, duration: scene.duration, ease: "none" }, scene.start);

@@ -1,0 +1,23 @@
+{
+  "durationSeconds": 10,
+  "generatedAt": "2026-06-03T17:54:49.676Z",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/keyframes/scene-16-keyframe-v3-iphone-nb2-1k.jpg",
+  "latencyMs": {
+    "download": 1352,
+    "generation": 65144,
+    "total": 67566,
+    "upload": 1070
+  },
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/videos/scene-16-grok-imagine-1.5-720p.mp4",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-16-video-grok-imagine-v15.txt",
+  "requestId": "019e8e9e-a939-72c3-aeb3-f2543fd6fe18",
+  "resolution": "720p",
+  "scene": 16,
+  "videoPrompt": "Use the provided image as the first frame and preserve the composition, character identity, clothing, props, lighting, and ancient Roman setting. Create a photorealistic vertical 9:16 video, shot like iPhone 11 handheld footage with cinematic natural light. Keep the skeleton engineer consistent: green-and-white cap, normal green overshirt, white T-shirt, tan shorts, brown satchel, bright green Crocs-style clogs, exposed bones with only a very subtle translucent skin sheen on arms and legs. Realistic physics, real smoke, dust, water, firelight, cloth, metal, stone. No subtitles, no text, no logos, no cartoon style, no horror, no exaggerated comedy, no extra limbs, no identity drift.\n\nScene action: Twilight rooftop over Rome. The skeleton engineer holds notebook beside the tiny steam prototype. Slow pullback from notebook and skull to the wide city. Smoke drifts from workshops, evening sky darkens subtly, distant Rome feels huge and indifferent. Skeleton looks from the prototype to the city, thoughtful rather than defeated. End on a steady hold.",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cd76a/oHKP2XbYKpoXZdYy3zZOP_sRROUwBD.mp4",
+  "voiceoverDurationSeconds": 9.685,
+  "voiceoverEndSeconds": 102.609,
+  "voiceoverStartSeconds": 92.924,
+  "voiceoverText": "Rome had engineers. What it lacked was the world that makes engineering compound. Inventions do not cause revolutions alone. Supply chains do."
+}

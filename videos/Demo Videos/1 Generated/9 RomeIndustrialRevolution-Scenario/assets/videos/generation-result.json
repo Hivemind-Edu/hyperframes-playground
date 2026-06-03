@@ -1,0 +1,15 @@
+{
+  "concurrency": 4,
+  "force": true,
+  "generatedAt": "2026-06-03T18:15:24.375Z",
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "results": [
+    {
+      "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/videos/scene-02-grok-imagine-1.5-720p.mp4",
+      "skipped": false
+    }
+  ],
+  "selectedScene": 2,
+  "sceneCount": 1
+}

@@ -1,0 +1,147 @@
+{
+  "language": "typescript",
+  "voiceover": "The bug is not inside this function. It is hiding at the call site. Render invoice, true, false. What does true mean? What does false mean? You cannot know without jumping away from the code you were reading. So you open the function. The first boolean means show prices. The second boolean means send the invoice by email. Now your brain has to carry a tiny translation table. True means visible. False means preview. That is the smell. A boolean flag is asking the reader to remember a secret. The first fix is simple. Give the flags names at the boundary. Now the call says price display visible, delivery preview. No guessing. No jumping. But there is one more step. When a flag chooses a different workflow, do not keep the flag. Name the workflows. Preview an invoice. Email an invoice. Now the caller chooses the behavior directly. The function name carries the intent. The options only describe details. Replace boolean flags when the meaning is not obvious from the call. The goal is not fewer booleans. The goal is code you can read without leaving the line.",
+  "slides": [
+    {
+      "enterOn": "The bug is not",
+      "emphasis": true
+    },
+    {
+      "enterOn": "It is hiding",
+      "code": "render(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "Render invoice",
+      "code": "render(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "What does true",
+      "code": "// !focus(1,\"true\")\nrender(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "What does false",
+      "code": "// !focus(1,\"false\")\nrender(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "without jumping",
+      "emphasis": true
+    },
+    {
+      "enterOn": "So you open",
+      "code": "function renderInvoice(\n  invoice,\n  showPrices,\n  sendEmail,\n) {\n  const html = buildInvoiceHtml(\n    invoice,\n    showPrices,\n  );\n\n  if (sendEmail) {\n    return sendInvoiceEmail(html);\n  }\n\n  return showPreview(html);\n}\n"
+    },
+    {
+      "enterOn": "first boolean",
+      "code": "// !focus(3)\nfunction renderInvoice(\n  invoice,\n  showPrices,\n  sendEmail,\n) {\n  const html = buildInvoiceHtml(\n    invoice,\n    showPrices,\n  );\n\n  if (sendEmail) {\n    return sendInvoiceEmail(html);\n  }\n\n  return showPreview(html);\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "show prices",
+      "code": "// !focus(7:10)\nfunction renderInvoice(\n  invoice,\n  showPrices,\n  sendEmail,\n) {\n  const html = buildInvoiceHtml(\n    invoice,\n    showPrices,\n  );\n\n  if (sendEmail) {\n    return sendInvoiceEmail(html);\n  }\n\n  return showPreview(html);\n}\n",
+      "startOffsetMs": 280
+    },
+    {
+      "enterOn": "second boolean",
+      "code": "// !focus(4)\nfunction renderInvoice(\n  invoice,\n  showPrices,\n  sendEmail,\n) {\n  const html = buildInvoiceHtml(\n    invoice,\n    showPrices,\n  );\n\n  if (sendEmail) {\n    return sendInvoiceEmail(html);\n  }\n\n  return showPreview(html);\n}\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "send the invoice",
+      "code": "// !focus(12:14)\nfunction renderInvoice(\n  invoice,\n  showPrices,\n  sendEmail,\n) {\n  const html = buildInvoiceHtml(\n    invoice,\n    showPrices,\n  );\n\n  if (sendEmail) {\n    return sendInvoiceEmail(html);\n  }\n\n  return showPreview(html);\n}\n",
+      "startOffsetMs": 220
+    },
+    {
+      "enterOn": "tiny translation",
+      "emphasis": true
+    },
+    {
+      "enterOn": "True means",
+      "code": "render(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "False means",
+      "code": "render(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "That is the smell",
+      "emphasis": true
+    },
+    {
+      "enterOn": "asking the reader",
+      "emphasis": true
+    },
+    {
+      "enterOn": "The first fix",
+      "code": "render(invoice, true, false);\n"
+    },
+    {
+      "enterOn": "Give the flags",
+      "code": "renderInvoice(invoice, {\n  priceDisplay: \"visible\",\n  delivery: \"preview\",\n});\n"
+    },
+    {
+      "enterOn": "price display",
+      "code": "// !focus(2)\nrenderInvoice(invoice, {\n  priceDisplay: \"visible\",\n  delivery: \"preview\",\n});\n"
+    },
+    {
+      "enterOn": "delivery preview",
+      "code": "// !focus(3)\nrenderInvoice(invoice, {\n  priceDisplay: \"visible\",\n  delivery: \"preview\",\n});\n"
+    },
+    {
+      "enterOn": "No guessing",
+      "emphasis": true
+    },
+    {
+      "enterOn": "But there is",
+      "code": "type RenderOptions = {\n  priceDisplay: \"visible\" | \"hidden\";\n  delivery: \"preview\" | \"email\";\n};\n\nfunction renderInvoice(\n  invoice,\n  options: RenderOptions,\n) {\n  if (options.delivery === \"email\") {\n    return emailInvoice(invoice, options);\n  }\n\n  return previewInvoice(invoice, options);\n}\n"
+    },
+    {
+      "enterOn": "different workflow",
+      "code": "// !focus(10:14)\ntype RenderOptions = {\n  priceDisplay: \"visible\" | \"hidden\";\n  delivery: \"preview\" | \"email\";\n};\n\nfunction renderInvoice(\n  invoice,\n  options: RenderOptions,\n) {\n  if (options.delivery === \"email\") {\n    return emailInvoice(invoice, options);\n  }\n\n  return previewInvoice(invoice, options);\n}\n",
+      "startOffsetMs": -160
+    },
+    {
+      "enterOn": "do not keep",
+      "emphasis": true
+    },
+    {
+      "enterOn": "Name the workflows",
+      "code": "previewInvoice(invoice, {\n  priceDisplay: \"visible\",\n});\n\nemailInvoice(invoice, {\n  priceDisplay: \"hidden\",\n});\n"
+    },
+    {
+      "enterOn": "Preview an invoice",
+      "code": "// !focus(1)\npreviewInvoice(invoice, {\n  priceDisplay: \"visible\",\n});\n\nemailInvoice(invoice, {\n  priceDisplay: \"hidden\",\n});\n"
+    },
+    {
+      "enterOn": "Email an invoice",
+      "code": "// !focus(5)\npreviewInvoice(invoice, {\n  priceDisplay: \"visible\",\n});\n\nemailInvoice(invoice, {\n  priceDisplay: \"hidden\",\n});\n"
+    },
+    {
+      "enterOn": "caller chooses",
+      "code": "function previewInvoice(\n  invoice,\n  options,\n) {\n  return showPreview(invoice, options);\n}\n\nfunction emailInvoice(\n  invoice,\n  options,\n) {\n  return sendInvoiceEmail(invoice, options);\n}\n"
+    },
+    {
+      "enterOn": "function name carries",
+      "code": "// !focus(1,10)\nfunction previewInvoice(\n  invoice,\n  options,\n) {\n  return showPreview(invoice, options);\n}\n\nfunction emailInvoice(\n  invoice,\n  options,\n) {\n  return sendInvoiceEmail(invoice, options);\n}\n"
+    },
+    {
+      "enterOn": "options only describe",
+      "code": "// !focus(3,12)\nfunction previewInvoice(\n  invoice,\n  options,\n) {\n  return showPreview(invoice, options);\n}\n\nfunction emailInvoice(\n  invoice,\n  options,\n) {\n  return sendInvoiceEmail(invoice, options);\n}\n"
+    },
+    {
+      "enterOn": "Replace boolean flags",
+      "code": "// Boolean flags hide intent\nrender(invoice, true, false);\n\n// Named options reveal intent\nrenderInvoice(invoice, {\n  priceDisplay: \"visible\",\n  delivery: \"preview\",\n});\n\n// Named workflows reveal behavior\npreviewInvoice(invoice, {\n  priceDisplay: \"visible\",\n});\n"
+    },
+    {
+      "enterOn": "not obvious",
+      "code": "// Boolean flags hide intent\nrender(invoice, true, false);\n\n// Named options reveal intent\nrenderInvoice(invoice, {\n  priceDisplay: \"visible\",\n  delivery: \"preview\",\n});\n\n// Named workflows reveal behavior\npreviewInvoice(invoice, {\n  priceDisplay: \"visible\",\n});\n"
+    },
+    {
+      "enterOn": "The goal is not",
+      "emphasis": true
+    },
+    {
+      "enterOn": "without leaving",
+      "code": "// Boolean flags hide intent\nrender(invoice, true, false);\n\n// Named options reveal intent\nrenderInvoice(invoice, {\n  priceDisplay: \"visible\",\n  delivery: \"preview\",\n});\n\n// Named workflows reveal behavior\npreviewInvoice(invoice, {\n  priceDisplay: \"visible\",\n});\n"
+    }
+  ]
+}

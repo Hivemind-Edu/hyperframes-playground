@@ -1,0 +1,185 @@
+{
+  "title": "Could You Start the Industrial Revolution in Ancient Rome?",
+  "format": {
+    "aspectRatio": "9:16",
+    "targetCompositionSize": {
+      "width": 392,
+      "height": 768
+    },
+    "targetDurationSeconds": 71,
+    "style": "photorealistic cinematic vertical video",
+    "captionStyle": "fast word-by-word second-person captions with hard cuts and time-jump cards"
+  },
+  "thesis": "A modern engineer could impress ancient Rome with prototypes, but probably could not start a full Industrial Revolution alone because the missing pieces are precision tooling, fuel, reliable materials, repeatable parts, incentives, institutions, markets, and supply chains.",
+  "canonicalCharacterReference": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/characters/skeleton-engineer-character-sheet-v7-barely-translucent-skin-nb2-2k.jpg",
+  "globalVisualRules": [
+    "The Engineer remains photorealistic, not cartoonish or toy-like.",
+    "Keep the green cap, normal-length green overshirt, tan knee-length shorts, brown satchel, and green Crocs-style clogs consistent.",
+    "Keep exposed arm and leg bones dominant with only a barely visible clear translucent sheen.",
+    "Ancient Rome scenes should feel physically real: dust, stone, linen, bronze, charcoal, water, smoke, crowds, lamplight, and practical machinery.",
+    "Comedy should come from the skeleton's body acting and modern outfit, while the world and facts remain serious.",
+    "Avoid logos, modern readable text, gore, horror, fantasy armor, painterly style, or exaggerated cartoon expressions."
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "durationSeconds": 3.5,
+      "timeJump": "HOOK",
+      "voiceover": "Could you start the Industrial Revolution in ancient Rome? Probably not. But you are going to try.",
+      "educationalPoint": "The premise is framed as a systems problem, not a single-invention fantasy.",
+      "visualPrompt": "Photorealistic vertical cinematic shot of ancient Rome near the Forum at dawn, marble temples and dusty street depth, The Engineer skeleton in green cap, green overshirt, tan shorts, green Crocs, and satchel standing in the foreground with confused determination, Romans in the background reacting with mild curiosity, no readable text.",
+      "motionDirection": "Fast push-in from wide street to the skeleton's face and Crocs, slight crowd movement, dust in sunlight.",
+      "captionChunks": ["Could you start", "the Industrial Revolution", "in ancient Rome?", "Probably not.", "But you try."]
+    },
+    {
+      "id": 2,
+      "durationSeconds": 4.5,
+      "timeJump": "DAY ONE",
+      "voiceover": "Day one, you wake near the Forum with a modern engineering degree and incredibly suspicious Crocs.",
+      "educationalPoint": "Second-person scenario begins with the modern outsider dropped into Rome.",
+      "visualPrompt": "Photorealistic low-angle street shot near the Roman Forum, The Engineer waking up on stone pavement, satchel open with blank notebook and calipers, green Crocs absurdly visible among Roman sandals, warm morning light, no logos, no readable text.",
+      "motionDirection": "Skeleton sits up, checks his shoes, Romans walk past, camera tilts from Crocs to skull.",
+      "captionChunks": ["Day one.", "You wake near the Forum", "with a modern degree", "and suspicious Crocs."]
+    },
+    {
+      "id": 3,
+      "durationSeconds": 4,
+      "timeJump": "FIRST SURPRISE",
+      "voiceover": "First surprise: Rome is already an engineering machine. Roads, aqueducts, cranes, concrete, watermills.",
+      "educationalPoint": "Rome already had advanced civil engineering and mechanical infrastructure.",
+      "visualPrompt": "Photorealistic montage-style Roman engineering scene in one frame: aqueduct arches, paved road, treadwheel crane, concrete construction, watermill wheel, The Engineer tiny in foreground looking impressed, realistic scale and materials.",
+      "motionDirection": "Hard cuts or whip-pan montage across aqueduct, crane, watermill, and road.",
+      "captionChunks": ["First surprise:", "Rome is already", "an engineering machine.", "Roads. Aqueducts. Cranes."]
+    },
+    {
+      "id": 4,
+      "durationSeconds": 4,
+      "timeJump": "DAY ONE",
+      "voiceover": "So you skip sightseeing and find a workshop.",
+      "educationalPoint": "The protagonist moves from wonder to practical experimentation.",
+      "visualPrompt": "Photorealistic Roman metal workshop interior, charcoal forge, bronze tools, rough lathe-like hand tools, The Engineer entering with rolled blueprint while Roman smiths look up, warm firelight and dusty shafts of light.",
+      "motionDirection": "Door curtain swings, forge sparks, skeleton steps into frame with purposeful body language.",
+      "captionChunks": ["So you skip sightseeing", "and find", "a workshop."]
+    },
+    {
+      "id": 5,
+      "durationSeconds": 4,
+      "timeJump": "DAY THREE",
+      "voiceover": "Day three, you sketch a steam engine in charcoal. The smiths understand heat, pressure, and cast metal.",
+      "educationalPoint": "Roman artisans had relevant knowledge of heat, casting, and metalwork.",
+      "visualPrompt": "Photorealistic close workshop table shot, The Engineer sketching a simple steam piston diagram in charcoal on blank parchment, Roman smiths leaning in, bronze ingots and tools nearby, no readable labels.",
+      "motionDirection": "Charcoal hand movement, smiths lean closer, fire flicker on parchment.",
+      "captionChunks": ["Day three.", "You sketch steam.", "The smiths understand", "heat and metal."]
+    },
+    {
+      "id": 6,
+      "durationSeconds": 4.5,
+      "timeJump": "FIRST BUILD",
+      "voiceover": "But the first cylinder leaks. The piston scrapes. Every part is almost right, which is exactly the problem.",
+      "educationalPoint": "Steam power depends on tolerances, smooth cylinders, seals, and fit.",
+      "visualPrompt": "Photorealistic Roman workshop test bench, rough bronze cylinder leaking steam at seams, piston misaligned, The Engineer flinching while a blacksmith shields his face, dramatic steam but no danger gore.",
+      "motionDirection": "Steam bursts from seam, piston judders, skeleton recoils and grabs calipers.",
+      "captionChunks": ["The cylinder leaks.", "The piston scrapes.", "Almost right", "is the problem."]
+    },
+    {
+      "id": 7,
+      "durationSeconds": 4.5,
+      "timeJump": "WEEK TWO",
+      "voiceover": "Week two, you need precision boring, standard screws, reliable seals, and metal that behaves the same way twice.",
+      "educationalPoint": "Industrial scaling requires precision machine tools, standards, materials control, and seals.",
+      "visualPrompt": "Photorealistic macro-workshop scene with calipers measuring an uneven cylinder, hand-cut screws of mismatched sizes, leather seals, inconsistent metal blanks, The Engineer frustrated but focused.",
+      "motionDirection": "Quick inserts: calipers fail to close, screws do not match, seal crumbles, skeleton taps notebook.",
+      "captionChunks": ["Week two:", "precision boring.", "standard screws.", "reliable seals."]
+    },
+    {
+      "id": 8,
+      "durationSeconds": 4,
+      "timeJump": "BOTTLENECK",
+      "voiceover": "Rome has brilliant craftsmen. It does not have factory tooling.",
+      "educationalPoint": "Skilled craft is not the same as repeatable machine-tool production.",
+      "visualPrompt": "Photorealistic split-feeling workshop shot without graphic split: one Roman artisan beautifully finishing a bronze object by hand, while The Engineer holds two mismatched parts that should be identical, serious educational mood.",
+      "motionDirection": "Camera racks focus from beautiful handmade object to mismatched machine parts in skeleton hands.",
+      "captionChunks": ["Brilliant craftsmen.", "No factory tooling."]
+    },
+    {
+      "id": 9,
+      "durationSeconds": 4,
+      "timeJump": "MONTH ONE",
+      "voiceover": "Month one, you build a Hero-style steam spinner. It hisses. It spins. Everyone stares.",
+      "educationalPoint": "Hero of Alexandria's aeolipile-like steam device demonstrates steam motion but not useful industrial power.",
+      "visualPrompt": "Photorealistic demonstration of a small bronze Hero-style aeolipile steam spinner on a stone table, steam jets spinning the sphere, Roman onlookers amazed, The Engineer proud but cautious.",
+      "motionDirection": "Steam spinner rotates, crowd leans in, skeleton gives small celebratory gesture.",
+      "captionChunks": ["Month one.", "It hisses.", "It spins.", "Everyone stares."]
+    },
+    {
+      "id": 10,
+      "durationSeconds": 5,
+      "timeJump": "REALITY CHECK",
+      "voiceover": "It also powers basically nothing. A clever toy is not an engine room.",
+      "educationalPoint": "A demonstration device is not automatically a practical power source.",
+      "visualPrompt": "Photorealistic wider shot of the tiny steam spinner beside heavy millstones, pumps, and workshop machinery that remain unmoved, The Engineer staring at the scale mismatch, Romans confused.",
+      "motionDirection": "Camera pulls back from spinning toy to huge still machinery, sound and motion drop.",
+      "captionChunks": ["It powers", "basically nothing.", "A clever toy", "is not an engine room."]
+    },
+    {
+      "id": 11,
+      "durationSeconds": 4.5,
+      "timeJump": "MONTH SIX",
+      "voiceover": "Month six, you try a mine pump. For one afternoon, it works.",
+      "educationalPoint": "Useful steam applications like pumping are plausible targets but reliability is the hard part.",
+      "visualPrompt": "Photorealistic Roman mine entrance or quarry pump test, crude bronze-and-wood steam pump lifting water through a pipe, The Engineer and workers watching with tense excitement, smoky practical machinery.",
+      "motionDirection": "Water begins flowing, workers cheer quietly, skeleton straightens with hope.",
+      "captionChunks": ["Month six.", "You try a mine pump.", "For one afternoon,", "it works."]
+    },
+    {
+      "id": 12,
+      "durationSeconds": 4,
+      "timeJump": "FAILURE",
+      "voiceover": "Then seals fail, fuel runs short, and replacement parts do not match.",
+      "educationalPoint": "Reliability depends on seals, fuel logistics, and interchangeable or at least repeatable parts.",
+      "visualPrompt": "Photorealistic mine pump failure scene, leather seal split, charcoal basket nearly empty, replacement bronze part visibly wrong size, The Engineer kneeling with calipers in frustration, no explosion.",
+      "motionDirection": "Steam fades, water stops, skeleton compares mismatched parts, charcoal dust falls.",
+      "captionChunks": ["Then seals fail.", "Fuel runs short.", "Parts do not match."]
+    },
+    {
+      "id": 13,
+      "durationSeconds": 4.5,
+      "timeJump": "YEAR ONE",
+      "voiceover": "Year one, a senator asks why he should buy machines when labor is cheaper.",
+      "educationalPoint": "Labor systems and incentives affect whether mechanization is economically attractive.",
+      "visualPrompt": "Photorealistic Roman courtyard meeting, senator in white toga seated beside tablets and coin piles, The Engineer presenting a small machine model, enslaved laborers and hired workers in distant background, serious not comic.",
+      "motionDirection": "Senator weighs coins, skeleton gestures to machine, background workers continue manual labor.",
+      "captionChunks": ["Year one.", "Why buy machines", "when labor is cheaper?"]
+    },
+    {
+      "id": 14,
+      "durationSeconds": 4.5,
+      "timeJump": "POLITICS",
+      "voiceover": "The army wants siege engines. Merchants want profit now. Officials want taxes, not experiments.",
+      "educationalPoint": "Institutions and demand shape which technologies get funded and scaled.",
+      "visualPrompt": "Photorealistic Roman administrative courtyard, army officer pointing at siege engine plans, merchant counting coins, official with wax tablets, The Engineer caught between them holding a steam sketch, no readable text.",
+      "motionDirection": "Hard cuts between officer, merchant, official, and skeleton's overwhelmed reaction.",
+      "captionChunks": ["The army wants siege engines.", "Merchants want profit now.", "Officials want taxes."]
+    },
+    {
+      "id": 15,
+      "durationSeconds": 4.5,
+      "timeJump": "REALIZATION",
+      "voiceover": "You finally see the bottleneck: not one missing invention, but an ecosystem.",
+      "educationalPoint": "Industrial revolutions emerge from connected systems, not isolated devices.",
+      "visualPrompt": "Photorealistic overhead table scene lit by oil lamps: charcoal, ore, gears, mismatched screws, seals, coins, road map, watermill model, blank parchment, The Engineer's skeletal hands arranging pieces like a system map, no readable text.",
+      "motionDirection": "Hands connect objects with string, camera slowly rises to reveal the whole table ecosystem.",
+      "captionChunks": ["The bottleneck", "is not one invention.", "It is an ecosystem."]
+    },
+    {
+      "id": 16,
+      "durationSeconds": 7,
+      "timeJump": "FINAL",
+      "voiceover": "Rome had engineers. What it lacked was the world that makes engineering compound. Inventions do not cause revolutions alone. Supply chains do.",
+      "educationalPoint": "Final thesis: technology compounds only when supply chains, institutions, energy, skills, and markets support it.",
+      "visualPrompt": "Photorealistic twilight view over ancient Rome with aqueducts and workshops in the distance, The Engineer on a rooftop holding a worn notebook, tiny steam prototype beside him, expression thoughtful rather than defeated, cinematic golden smoke and stone textures.",
+      "motionDirection": "Slow pullback from skeleton and notebook to vast Rome, captions land cleanly, final hold.",
+      "captionChunks": ["Rome had engineers.", "It lacked the world", "that makes engineering compound.", "Supply chains do."]
+    }
+  ]
+}

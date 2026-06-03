@@ -1,0 +1,126 @@
+{
+  "language": "javascript",
+  "voiceover": "Imagine you are tracking three favorite snacks. At first, separate variables feel fine. Snack one is apples. Snack two is pretzels. Snack three is yogurt. But the code is already telling you something. These values belong together. When several related values travel together, use an array. An array is one variable that holds a list. The square brackets mean, make a list. Each item goes inside, separated by commas. Now the name snacks points to the whole list. To get one item back, use its position. JavaScript starts counting at zero. So snacks zero is the first snack. Snacks one is the second snack. That feels strange for a minute, then it becomes normal. The important rule is this. The index is the item's address inside the array. Once the values are in one list, the payoff starts. We can ask how many snacks we have with snacks dot length. We can also do the same work for every snack. Map means, make a new array by transforming each item. Here every snack becomes a label. The code does not need snack one, snack two, and snack three anymore. It has one name for the collection, and tools for working with the collection. Use arrays when the question changes from, what is this one value, to, what are all these related values.",
+  "slides": [
+    {
+      "enterOn": "Imagine you are tracking",
+      "emphasis": true
+    },
+    {
+      "enterOn": "At first",
+      "code": "const snack1 = \"apples\";\nconst snack2 = \"pretzels\";\nconst snack3 = \"yogurt\";\n\nconsole.log(snack1);\nconsole.log(snack2);\nconsole.log(snack3);\n"
+    },
+    {
+      "enterOn": "Snack one",
+      "code": "// !focus(1)\nconst snack1 = \"apples\";\nconst snack2 = \"pretzels\";\nconst snack3 = \"yogurt\";\n\nconsole.log(snack1);\nconsole.log(snack2);\nconsole.log(snack3);\n"
+    },
+    {
+      "enterOn": "Snack two",
+      "code": "// !focus(2)\nconst snack1 = \"apples\";\nconst snack2 = \"pretzels\";\nconst snack3 = \"yogurt\";\n\nconsole.log(snack1);\nconsole.log(snack2);\nconsole.log(snack3);\n"
+    },
+    {
+      "enterOn": "Snack three",
+      "code": "// !focus(3)\nconst snack1 = \"apples\";\nconst snack2 = \"pretzels\";\nconst snack3 = \"yogurt\";\n\nconsole.log(snack1);\nconsole.log(snack2);\nconsole.log(snack3);\n"
+    },
+    {
+      "enterOn": "But the code",
+      "code": "const snack1 = \"apples\";\nconst snack2 = \"pretzels\";\nconst snack3 = \"yogurt\";\n\nconsole.log(snack1);\nconsole.log(snack2);\nconsole.log(snack3);\n"
+    },
+    {
+      "enterOn": "These values belong",
+      "emphasis": true
+    },
+    {
+      "enterOn": "When several related",
+      "code": "const snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n"
+    },
+    {
+      "enterOn": "An array is",
+      "code": "// One name for the whole group\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n"
+    },
+    {
+      "enterOn": "square brackets",
+      "code": "// !focus(2,6)\n// One name for the whole group\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "Each item",
+      "code": "// !focus(3:5)\n// One name for the whole group\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n",
+      "startOffsetMs": -80
+    },
+    {
+      "enterOn": "name snacks",
+      "code": "// !focus(2,\"snacks\")\n// One name for the whole group\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n"
+    },
+    {
+      "enterOn": "To get one",
+      "code": "const snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst firstSnack = snacks[0];\nconst secondSnack = snacks[1];\n"
+    },
+    {
+      "enterOn": "JavaScript starts",
+      "emphasis": true
+    },
+    {
+      "enterOn": "snacks zero",
+      "code": "// !focus(7)\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst firstSnack = snacks[0];\nconst secondSnack = snacks[1];\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "Snacks one",
+      "code": "// !focus(8)\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst firstSnack = snacks[0];\nconst secondSnack = snacks[1];\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "feels strange",
+      "emphasis": true
+    },
+    {
+      "enterOn": "important rule",
+      "code": "// index:     0          1           2\nconst snacks = [\"apples\", \"pretzels\", \"yogurt\"];\n\nconst firstSnack = snacks[0];\n"
+    },
+    {
+      "enterOn": "index is",
+      "code": "// !focus(1,4)\n// index:     0          1           2\nconst snacks = [\"apples\", \"pretzels\", \"yogurt\"];\n\nconst firstSnack = snacks[0];\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "payoff starts",
+      "code": "const snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst snackCount = snacks.length;\n// 3\n"
+    },
+    {
+      "enterOn": "snacks dot length",
+      "code": "// !focus(7:8)\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst snackCount = snacks.length;\n// 3\n",
+      "startOffsetMs": -140
+    },
+    {
+      "enterOn": "same work",
+      "code": "const snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst labels = snacks.map((snack) => {\n  return \"Snack: \" + snack;\n});\n"
+    },
+    {
+      "enterOn": "Map means",
+      "code": "// !focus(7:9)\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst labels = snacks.map((snack) => {\n  return \"Snack: \" + snack;\n});\n",
+      "startOffsetMs": -120
+    },
+    {
+      "enterOn": "every snack becomes",
+      "code": "// !focus(8)\nconst snacks = [\n  \"apples\",\n  \"pretzels\",\n  \"yogurt\",\n];\n\nconst labels = snacks.map((snack) => {\n  return \"Snack: \" + snack;\n});\n",
+      "startOffsetMs": -100
+    },
+    {
+      "enterOn": "does not need",
+      "code": "const snacks = [\"apples\", \"pretzels\", \"yogurt\"];\n\nconst firstSnack = snacks[0];\nconst snackCount = snacks.length;\n\nconst labels = snacks.map((snack) => {\n  return \"Snack: \" + snack;\n});\n"
+    },
+    {
+      "enterOn": "one name for the collection",
+      "code": "const snacks = [\"apples\", \"pretzels\", \"yogurt\"];\n\nconst firstSnack = snacks[0];\nconst snackCount = snacks.length;\n\nconst labels = snacks.map((snack) => {\n  return \"Snack: \" + snack;\n});\n"
+    },
+    {
+      "enterOn": "Use arrays",
+      "emphasis": true
+    },
+    {
+      "enterOn": "all these related",
+      "code": "const snacks = [\"apples\", \"pretzels\", \"yogurt\"];\n\nconst firstSnack = snacks[0];\nconst snackCount = snacks.length;\n\nconst labels = snacks.map((snack) => {\n  return \"Snack: \" + snack;\n});\n"
+    }
+  ]
+}

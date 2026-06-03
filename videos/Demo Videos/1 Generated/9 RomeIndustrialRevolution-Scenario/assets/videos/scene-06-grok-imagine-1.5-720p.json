@@ -1,0 +1,23 @@
+{
+  "durationSeconds": 8,
+  "generatedAt": "2026-06-03T17:52:10.825Z",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/keyframes/scene-06-keyframe-v3-iphone-nb2-1k.jpg",
+  "latencyMs": {
+    "download": 2031,
+    "generation": 55188,
+    "total": 58532,
+    "upload": 1313
+  },
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/videos/scene-06-grok-imagine-1.5-720p.mp4",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-06-video-grok-imagine-v15.txt",
+  "requestId": "019e8e9c-60fa-7f91-8368-a5bcd6acba0e",
+  "resolution": "720p",
+  "scene": 6,
+  "videoPrompt": "Use the provided image as the first frame and preserve the composition, character identity, clothing, props, lighting, and ancient Roman setting. Create a photorealistic vertical 9:16 video, shot like iPhone 11 handheld footage with cinematic natural light. Keep the skeleton engineer consistent: green-and-white cap, normal green overshirt, white T-shirt, tan shorts, brown satchel, bright green Crocs-style clogs, exposed bones with only a very subtle translucent skin sheen on arms and legs. Realistic physics, real smoke, dust, water, firelight, cloth, metal, stone. No subtitles, no text, no logos, no cartoon style, no horror, no exaggerated comedy, no extra limbs, no identity drift.\n\nScene action: The bronze cylinder on the test bench starts hissing. Steam leaks from seams, then pulses harder; piston judders unevenly. The blacksmith flinches and shields his face while the skeleton engineer raises one skeletal hand in a cautious wait gesture. Camera shakes slightly with the steam burst, then settles.",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cd75b/B8-bG4wLKIMnedgopSmcr_RhJ5tcWG.mp4",
+  "voiceoverDurationSeconds": 7.52,
+  "voiceoverEndSeconds": 39.14,
+  "voiceoverStartSeconds": 31.62,
+  "voiceoverText": "But the first cylinder leaks. The piston scrapes. Every part is almost right, which is exactly the problem."
+}

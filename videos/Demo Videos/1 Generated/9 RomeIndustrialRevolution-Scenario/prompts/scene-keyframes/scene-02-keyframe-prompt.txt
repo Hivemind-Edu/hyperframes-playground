@@ -1,0 +1,55 @@
+You are generating a final standalone keyframe for a vertical photorealistic video.
+
+Reference images provided:
+1. The first image is the canonical character sheet for The Engineer. Preserve the character identity, outfit, proportions, and photorealistic practical-effects look.
+2. The second image is a 2x2 crop from the 4x4 scene reference grid. The bright green border marks the current target scene. Use the bordered tile as local composition/style context, and use the three adjacent tiles only to understand continuity with neighboring scenes. The green border is a reference marker only; do not include any border in the final image.
+
+Scene 02 / DAY ONE
+Voiceover line: "Day one, you wake near the Forum with a modern engineering degree and incredibly suspicious Crocs."
+Educational point: Second-person scenario begins with the modern outsider dropped into Rome.
+
+Final image goal:
+Make this the comedic but photoreal Day One image: the joke is the suspicious modern Crocs and skeleton body in a serious Roman street. Keep it grounded, like a live-action historical film with one absurd protagonist.
+
+Composition:
+Low-angle street-level shot on uneven Roman paving stones. The Engineer sits or half-kneels after waking up, satchel open beside him with a blank notebook and calipers. The green Crocs are prominent in the foreground beside Roman sandals.
+
+Camera and lighting:
+Large-format cinema camera, 28mm lens close to the pavement, foreground Crocs in sharp focus with Forum architecture receding behind.
+
+Scene content from storyboard:
+Photorealistic low-angle street shot near the Roman Forum, The Engineer waking up on stone pavement, satchel open with blank notebook and calipers, green Crocs absurdly visible among Roman sandals, warm morning light, no logos, no readable text.
+
+Motion planning for later image-to-video:
+Skeleton sits up, checks his shoes, Romans walk past, camera tilts from Crocs to skull.
+
+Character rules when The Engineer appears:
+- He is a photorealistic skeleton mascot, not a cartoon and not a horror character.
+- Clean ivory skull, expressive dark eye sockets, non-horror grin, slim bony build.
+- Bright green cap with a white front panel and no logo.
+- Normal-length opaque bright green short-sleeve utility overshirt over a white T-shirt.
+- Tan knee-length work shorts, brown belt, compact brown crossbody tool satchel.
+- Bright green unbranded Crocs-style clogs with ventilation holes.
+- Mostly exposed arm and leg bones with only a barely visible clear translucent sheen; bones remain dominant.
+- Keep cap, shirt length, shorts, satchel, and Crocs consistent with the character sheet.
+
+Photorealism rules:
+- Make the image look like a real frame from an expensive live-action historical film.
+- Use physically plausible Roman stone, linen, bronze, wood, charcoal smoke, dust, lamplight, sunlight, and human extras.
+- Keep the visual tone serious and educational, with only slight humor from The Engineer's body acting and modern outfit.
+- No painterly look, no illustration, no anime, no toy render, no fantasy styling, no flat AI gloss.
+
+Reference handling:
+- Do not copy the 2x2 grid layout.
+- Do not include the green highlight border.
+- Do not include panel seams, gutters, captions, labels, subtitles, title text, watermarks, UI, or readable text.
+- Create one clean full-bleed 9:16 movie keyframe for scene 02 only.
+
+Additional scene-specific avoid rules:
+Do not make the Crocs branded or add logos. Do not turn the shot into a meme, cartoon, or posed studio portrait. Do not add text on the notebook.
+
+Global avoid rules:
+No logos, brand names, modern vehicles, modern buildings, modern signage, readable patches, gore, horror, blood, rotten tissue, organs, armor, fantasy weapons, sunglasses, duplicate skeletons, duplicate heads, distorted hands, missing limbs, long pants on The Engineer, cropped tiny shirt, strong translucent skin, border, frame, or letterbox.
+
+Output:
+Portrait 9:16 aspect ratio, 1K image size, high-thinking photorealistic cinematic keyframe.

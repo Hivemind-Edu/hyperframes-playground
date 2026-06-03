@@ -1,0 +1,42 @@
+Create one single photorealistic 3x3 contact sheet made of nine portrait iPhone photos for a POV slideshow about the Siege of Alesia in 52 BCE.
+
+Critical layout:
+- Output is a vertical 9:16 image containing a 3x3 grid.
+- Each panel is a portrait 9:16 iPhone photo.
+- No border, no gutter, no divider lines, no white margin, no black frame.
+- The nine panels touch edge-to-edge as a seamless contact sheet.
+- No labels, no numbers, no text in the image.
+- Arrange panels left to right, top to bottom, matching slides 1 through 9.
+
+Character consistency:
+Same person in every selfie panel: a 24-year-old Roman legionary in 52 BCE, Mediterranean skin, tired angular face, dark brown eyes, short dark curly hair visible under a dented bronze Montefortino-style helmet, faint stubble, muddy chainmail over a faded red wool tunic, leather shoulder straps, weathered scarf at the neck, realistic grime and sweat. Keep his face recognizably the same across all selfie panels.
+
+Global visual style:
+Photorealistic iPhone photos, shot on an iPhone with natural phone-camera HDR, realistic lens distortion, real skin texture, muddy fabric and metal detail, documentary handheld framing, true-to-life lighting and color, historically grounded Roman siege camp at Alesia in 52 BCE. No illustration, no painting, no CGI, no fantasy armor, no anachronistic equipment.
+
+Panel 1:
+Front-camera iPhone selfie of the same Roman legionary outside Alesia. He holds the phone at arm's length slightly above eye level, subtle wide-angle front-camera distortion, exhausted expression. Behind him, the hilltop fortress of Alesia rises above Roman tents, standards, baggage, mules, and camp smoke in a muddy valley.
+
+Panel 2:
+Front-camera iPhone selfie of the same Roman legionary holding a wooden Roman shovel and looking exhausted. His arm is extended with classic selfie framing, slight above-eye angle, front-camera distortion. Behind him, Roman soldiers dig a long trench below Alesia with baskets of earth, timber posts, survey markers, and engineers marking the siege line.
+
+Panel 3:
+Normal rear-camera iPhone photo from the Roman work line, no selfie. Trenches, palisades, towers, wicker baskets, sharpened stakes, muddy walkways, and timber obstacles spread across the valley around Alesia. The Gallic town remains high in the background under a pale overcast sky.
+
+Panel 4:
+Normal rear-camera iPhone photo from inside a Roman trench looking upward toward Alesia. Gallic defenders stand along the ridge, quiet and still, small figures against the sky. Roman workers below raise more palisades and carry posts. Mud walls close to the lens.
+
+Panel 5:
+Front-camera iPhone selfie of the same Roman legionary at dusk, dusty cheeks, tense expression. Phone held at arm's length, slight above angle, front-camera lens distortion. Behind him, Roman cavalry scouts ride fast into camp while soldiers stop working and stare toward the countryside, orange dusk light and dust in the air.
+
+Panel 6:
+Wide rear-camera iPhone photo from a Roman watchtower showing the double siege line at Alesia: one wall and ditch facing the hilltop town, another wall facing the outside countryside, with Roman tents and soldiers trapped between both defensive rings. Timber towers, palisades, ditches, campfires, muddy tracks, and distant hills visible.
+
+Panel 7:
+Chaotic rear-camera iPhone night photo from the Roman fortifications. Gauls attack outward from Alesia while the relief army attacks from the countryside, Roman soldiers fight in both directions through smoke, torches, dust, and thrown spears. Timber palisade, shield edges, stake pits, and blurred motion in realistic low-light phone photography. No gore.
+
+Panel 8:
+Front-camera iPhone selfie of the same Roman legionary at night, face lit by fire, eyes wide and exhausted. Phone held at arm's length, slight above angle, front-camera distortion. Behind him, a commander in a red cloak rides along the Roman defenses as soldiers rally at the palisade, torches and smoke in the background.
+
+Panel 9:
+Quiet dawn rear-camera iPhone photo after the battle. Roman double walls, ditches, broken Gallic shields, abandoned weapons, muddy stake pits, trampled grass, scattered torches, and mist stretch across the valley. Alesia sits silent on the hill in the background.

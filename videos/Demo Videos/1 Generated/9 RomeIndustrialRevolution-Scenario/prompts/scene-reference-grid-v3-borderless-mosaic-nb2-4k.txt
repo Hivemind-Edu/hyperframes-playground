@@ -1,0 +1,75 @@
+Create one seamless 4x4 cinematic mosaic containing sixteen separate photorealistic movie keyframes for an educational video.
+
+Use the attached character sheet only as the canonical character reference for The Engineer. Do not use any other image reference. Preserve the v7 character design whenever he appears: photorealistic skeleton, bright green cap with white front panel, normal-length opaque bright green utility overshirt over a white T-shirt, tan knee-length work shorts, brown belt, compact brown crossbody satchel, bright green unbranded Crocs-style clogs, exposed ivory arm and leg bones with only a barely visible clear translucent sheen. No long pants.
+
+Mandatory layout:
+The final image is a 16:9 landscape 4K overview made from exactly sixteen rectangular movie frames packed in a four by four matrix.
+There must be exactly four columns and exactly four rows.
+Each of the sixteen frames touches its neighboring frames directly edge-to-edge.
+There must be zero gutters, zero black lines, zero dividers, zero strokes, zero frame borders, zero spacing, zero margins between frames, and zero outer border.
+Do not draw black contact-sheet separators.
+Do not draw white gutters.
+Do not draw any graphic grid lines.
+Do not number or label anything.
+
+The seams between frames may exist only because one cinematic image ends and the next cinematic image begins. The viewer should see a packed mosaic of sixteen movie stills, not a contact sheet with borders.
+
+Scene ordering:
+Top row from left to right is scenes 1, 2, 3, 4.
+Second row from left to right is scenes 5, 6, 7, 8.
+Third row from left to right is scenes 9, 10, 11, 12.
+Bottom row from left to right is scenes 13, 14, 15, 16.
+
+Global style:
+Photorealistic ancient Rome, like frames from an expensive historical movie shot on an ARRI Alexa 35 with natural lenses. Realistic dust, stone, bronze, charcoal smoke, water, linen, leather, lamplight, metal, and practical machinery. Serious educational tone with a slightly absurd protagonist. Comedy comes only from The Engineer's modern outfit and restrained body acting. Roman people react with mild curiosity or skepticism, not slapstick. No painterly look, no illustration, no cartoon, no Ghibli style, no toy render, no plastic render, no fantasy styling.
+
+The sixteen movie frames:
+
+1. Ancient Rome near the Forum at dawn. Marble temples and dusty street depth. The Engineer stands foreground, determined and slightly out of place. Romans in background react with mild curiosity. Green cap, knee-length shorts, exposed legs, and Crocs visible.
+
+2. Low-angle street shot near the Forum. The Engineer sits up on stone pavement with satchel open, blank notebook and calipers spilling out, green Crocs conspicuous among Roman sandals. Camera emphasizes Crocs and skull.
+
+3. World-only Roman engineering frame, no skeleton. Aqueduct arches, paved road, treadwheel crane, concrete construction, watermill wheel in one grand believable composition.
+
+4. Roman metal workshop interior. Charcoal forge, bronze tools, rough hand tools, smoky warm light. The Engineer enters with rolled blueprint while two Roman smiths look up. Shorts and Crocs visible.
+
+5. Workshop table. The Engineer sketches a simple steam piston concept in charcoal on blank parchment with no readable labels. Roman smiths lean in, bronze ingots and tools nearby, firelight on table.
+
+6. First failed build. Rough bronze cylinder leaks steam at seams on a Roman test bench, piston misaligned, The Engineer flinches while blacksmith shields his face. Dramatic steam, no explosion.
+
+7. Precision bottleneck macro. Calipers measure uneven cylinder, hand-cut screws of mismatched sizes, leather seals, inconsistent metal blanks. The Engineer's skeletal hands or partial figure visible, focused and frustrated.
+
+8. Craft versus tooling. Roman artisan hand-finishes a beautiful bronze object while The Engineer holds two mismatched machine parts that should be identical. Serious rack-focus movie feeling.
+
+9. Hero-style steam spinner demonstration. Small bronze aeolipile-like sphere on a stone table spins with steam jets. Roman onlookers amazed. The Engineer looks proud but cautious.
+
+10. Reality check. Tiny steam spinner beside huge unmoving millstones, pump parts, and workshop machinery. The Engineer stares at the scale mismatch. Clear sense that it powers almost nothing.
+
+11. Mine pump attempt. Roman mine entrance or quarry test with crude bronze-and-wood steam pump lifting water through a pipe. Workers and The Engineer watch with tense excitement. Smoke, wet stone, practical machinery.
+
+12. Mine pump failure. Split leather seal, nearly empty charcoal basket, replacement bronze part visibly wrong size, The Engineer kneeling with calipers in frustration. Steam fading, water stopped, no explosion.
+
+13. Roman courtyard meeting. Senator in white toga seated beside tablets and coin piles, The Engineer presents a small machine model, manual laborers in distant background. Serious economic-incentive moment.
+
+14. Institutional pressure. Roman administrative courtyard with army officer pointing at siege engine plans, merchant counting coins, official with wax tablets, The Engineer caught between them holding a steam sketch. No readable text.
+
+15. Systems realization. Overhead oil-lamp table scene: charcoal, ore, gears, mismatched screws, seals, coins, road map with no readable labels, watermill model, blank parchment. The Engineer's skeletal hands arrange objects like an ecosystem map.
+
+16. Final reflective shot. Twilight view over ancient Rome with aqueducts and workshops in distance. The Engineer on a rooftop with worn notebook and tiny steam prototype beside him, thoughtful rather than defeated, cinematic golden smoke and stone textures.
+
+Character usage:
+The Engineer should appear only where he naturally belongs, roughly 12 to 13 frames. It is fine for frame 3 and some object/system frames to be world-only or hands-only. Whenever The Engineer appears, use the exact canonical v7 outfit and body design: green cap, normal-length green overshirt, tan knee-length shorts, exposed skeletal legs with faint clear sheen, green Crocs. Do not give him long trousers.
+
+Hard constraints:
+Exactly 4 columns and 4 rows.
+No 2-column grid.
+No 8-row grid.
+No visible borders, no black lines, no divider rules, no graphic frames, no gutters, no spacing.
+No labels, no scene numbers, no captions, no readable text.
+No long pants on The Engineer.
+No old trouser outfit.
+No painterly look, no illustration, no cartoon, no Ghibli style, no toy render.
+No logos, brand names, modern street signs, modern vehicles, modern buildings, modern readable documents, watermarks, duplicate skeletons, distorted hands, missing limbs, gore, horror, blood, rotten tissue, organs, fantasy armor, sunglasses, or glowing eyes.
+
+Output:
+16:9 aspect ratio, 4K image size, high-detail photorealistic seamless 4x4 mosaic.

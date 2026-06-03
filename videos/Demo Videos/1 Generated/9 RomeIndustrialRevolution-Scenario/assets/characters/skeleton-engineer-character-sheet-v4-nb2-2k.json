@@ -1,0 +1,31 @@
+{
+  "aspectRatio": "9:16",
+  "generatedAt": "2026-06-03T14:47:46.024Z",
+  "imageSize": "2K",
+  "latencyMs": 47188,
+  "latencySeconds": 47.188,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/tmp/rome-industrial-revolution-reference/skeleton-engineer-character-sheet-v4-nb2-2k.jpg",
+  "promptPath": "/Users/mark/hivemind/tmp/rome-industrial-revolution-reference/skeleton-engineer-character-sheet-v4-prompt.txt",
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 1192,
+    "candidatesTokenCount": 2482,
+    "totalTokenCount": 5024,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1192
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1680
+      }
+    ],
+    "thoughtsTokenCount": 1350,
+    "serviceTier": "standard"
+  }
+}

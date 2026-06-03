@@ -1,0 +1,23 @@
+{
+  "durationSeconds": 6,
+  "generatedAt": "2026-06-03T17:53:50.997Z",
+  "inputImagePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/keyframes/scene-13-keyframe-v3-iphone-nb2-1k.jpg",
+  "latencyMs": {
+    "download": 1524,
+    "generation": 44397,
+    "total": 47390,
+    "upload": 1469
+  },
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/videos/scene-13-grok-imagine-1.5-720p.mp4",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-13-video-grok-imagine-v15.txt",
+  "requestId": "019e8e9e-1463-7753-be02-c0d0f8e4a52a",
+  "resolution": "720p",
+  "scene": 13,
+  "videoPrompt": "Use the provided image as the first frame and preserve the composition, character identity, clothing, props, lighting, and ancient Roman setting. Create a photorealistic vertical 9:16 video, shot like iPhone 11 handheld footage with cinematic natural light. Keep the skeleton engineer consistent: green-and-white cap, normal green overshirt, white T-shirt, tan shorts, brown satchel, bright green Crocs-style clogs, exposed bones with only a very subtle translucent skin sheen on arms and legs. Realistic physics, real smoke, dust, water, firelight, cloth, metal, stone. No subtitles, no text, no logos, no cartoon style, no horror, no exaggerated comedy, no extra limbs, no identity drift.\n\nScene action: Roman courtyard meeting. Senator sits calmly while workers continue manual labor in the background. The skeleton engineer gestures toward the small machine on the table. Senator slowly weighs coins in one hand, unimpressed. Camera drifts from machine to coin pile to background labor, making the economics obvious.",
+  "videoUrl": "https://v3b.fal.media/files/b/0a9cd766/UNARbT-u-wSKeJueRc-wt_coM7U4r1.mp4",
+  "voiceoverDurationSeconds": 5.395,
+  "voiceoverEndSeconds": 80.22,
+  "voiceoverStartSeconds": 74.825,
+  "voiceoverText": "Year one, a senator asks why he should buy machines when labor is cheaper."
+}

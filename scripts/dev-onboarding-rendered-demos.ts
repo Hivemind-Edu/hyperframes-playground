@@ -1,4 +1,4 @@
-import { cert, getApps, initializeApp } from "firebase-admin/app";
+import { cert, getApps, initializeApp, type ServiceAccount } from "firebase-admin/app";
 import { getStorage } from "firebase-admin/storage";
 import { mkdir, readFile, rm, symlink, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync, statSync } from "node:fs";
@@ -513,7 +513,7 @@ async function renderPost(post: DemoPost, index: number) {
 function initFirebase(firebaseConfigPath: string) {
   const serviceAccount = JSON.parse(
     readFileSync(firebaseConfigPath, "utf8"),
-  ) as {
+  ) as ServiceAccount & {
     project_id?: string;
   };
   if (!serviceAccount.project_id) {

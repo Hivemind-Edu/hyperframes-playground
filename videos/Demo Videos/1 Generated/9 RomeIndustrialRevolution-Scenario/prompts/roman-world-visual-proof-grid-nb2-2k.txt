@@ -1,0 +1,34 @@
+Create a 2x2 Roman-world visual proof grid in a single portrait 9:16 image at 2K output, photorealistic cinematic style, ultra-real material detail.
+
+Input image role:
+Use the attached skeleton engineer character sheet as the exact recurring-character reference. Preserve the character's identity, outfit, proportions, green cap with white front panel, normal-length opaque green utility overshirt, white T-shirt, tan trousers, leather satchel, green Crocs-style clogs, and translucent forearms/hands. Do not copy the plain studio background from the reference; place the same character into cinematic ancient Rome scenes.
+
+Subject:
+The recurring protagonist is The Engineer, a funny but serious photoreal skeleton engineer dropped into ancient Rome. He is an adult human skeleton with clean ivory bones, expressive dark eye sockets, a cheerful mischievous grin, subtle glossy translucent skin-like substance only on forearms, wrists, and hands, and no gore, horror, rot, blood, organs, or wounds. He wears the same modern green cap, normal-length green short-sleeve utility overshirt, white T-shirt, tan canvas trousers, brown belt, brown leather crossbody satchel, and green Crocs-style foam clogs in every panel.
+
+Composition:
+Clean 2x2 grid, four equal cinematic panels, thin black divider lines, no captions, no labels, no readable text, no logos, no brand names. Each panel should feel like a production still for a vertical photoreal educational video. The character should be visible enough in each panel to recognize the cap, shirt length, satchel, translucent arms, and green clogs where framing allows.
+
+Panel 1, top-left, hook:
+Ancient Rome street near the Forum at morning, marble columns and an aqueduct arch in the distance, Roman pedestrians in tunics staring. The Engineer stands in the foreground holding a rolled blueprint and notebook, modern green outfit and green clogs obvious, looking amazed but ready to work. Camera: low 35mm vertical hero shot, dust in sunlight, premium realism.
+
+Panel 2, top-right, precision bottleneck:
+Roman metal workshop interior with forge glow, bronze filings, hand tools, and a skeptical blacksmith beside a rough bronze cylinder on a workbench. The Engineer points calipers at the cylinder seam; a tiny steam leak escapes from a badly sealed joint. Show the lesson visually: skilled craft exists, but precision standardized machining is missing. Camera: medium close vertical shot, warm lamplight, photoreal textures.
+
+Panel 3, bottom-left, prototype success:
+Small Hero-of-Alexandria-style steam spinner or primitive steam pump sits on a stone table, spinning with a harmless puff of steam. Roman onlookers react with amazement while the Engineer gives a half-proud, half-worried gesture, realizing it impresses people but powers almost nothing useful. Camera: cinematic workshop-table angle, steam catching light, brass and stone detail.
+
+Panel 4, bottom-right, system constraint:
+Marble administrative hall or senate-adjacent courtyard. A senator, an officer, a tax clerk, and workers surround a table with coins, charcoal, parchment supply routes, gears, and the small machine. The Engineer stands beside it, gesturing at the whole ecosystem rather than one invention. The visual idea is that industry needs fuel, logistics, markets, incentives, and repeatable manufacturing. Camera: wide vertical tableau, serious historical realism with a slightly comic skeleton center.
+
+Style:
+Photorealistic cinematic ancient Rome, shot as if on an ARRI Alexa 35 with Cooke lenses, natural dust, warm sunlight, forge glow, realistic stone, bronze, leather, fabric, bone, steam, and crowd textures. The image should look like high-end historical live-action production stills with one absurd practical-effects skeleton character. Serious educational mood with a little visual comedy from the modern outfit and clogs.
+
+Hard constraints:
+The green utility overshirt must be normal length and opaque, never cropped and never ending above the belt.
+The cap must remain on the character in every panel.
+The translucent substance appears only on forearms, wrists, and hands, not as clothing.
+No readable text, no logos, no brand marks, no Subway-like marks, no modern advertisements, no gore, no horror, no blood, no extra skeletons, no duplicate heads, no missing limbs, no cartoon style, no painting style, no toy render, no fantasy armor, no smartphones, no laptops, no modern vehicles.
+
+Output:
+9:16 aspect ratio, 2K image size.

@@ -1,0 +1,60 @@
+{
+  "title": "Alesia POV Slideshow",
+  "templateId": "POVSlideshowTemplate",
+  "slideDurationMs": 10000,
+  "model": {
+    "image": "gemini-3.1-flash-image",
+    "aspectRatio": "9:16",
+    "imageSize": "4K",
+    "thinkingLevel": "high"
+  },
+  "character": "Same person in every selfie: a 24-year-old Roman legionary in 52 BCE, Mediterranean skin, tired angular face, dark brown eyes, short dark curly hair visible under a dented bronze Montefortino-style helmet, faint stubble, muddy chainmail over a faded red wool tunic, leather shoulder straps, weathered scarf at the neck, realistic grime and sweat, no modern objects except the invisible iPhone camera implied by the image style.",
+  "stylePrompt": "Photorealistic iPhone photo, shot on an iPhone with natural phone-camera HDR, realistic lens distortion, real skin texture, muddy fabric and metal detail, documentary handheld framing, true-to-life lighting and color, historically grounded Roman siege camp at Alesia in 52 BCE. No illustration, no painting, no CGI, no fantasy armor, no anachronistic equipment, no readable text, no captions inside the image.",
+  "slides": [
+    {
+      "index": 0,
+      "text": "We thought we were here to take the city.",
+      "imagePrompt": "Front-camera iPhone selfie of the same 24-year-old Roman legionary outside Alesia in 52 BCE: Mediterranean skin, tired angular face, dark brown eyes, short dark curly hair under a dented bronze Montefortino-style helmet, faint stubble, muddy chainmail over a faded red wool tunic, leather shoulder straps, weathered scarf. He holds the phone at arm's length slightly above eye level, subtle wide-angle front-camera distortion, exhausted expression. Behind him, the hilltop fortress of Alesia rises above Roman tents, standards, baggage, mules, and camp smoke in a muddy valley."
+    },
+    {
+      "index": 1,
+      "text": "Then Caesar told us to dig around it.",
+      "imagePrompt": "Front-camera iPhone selfie of the same Roman legionary holding a wooden Roman shovel and looking exhausted, same face, helmet, muddy chainmail, faded red tunic, leather straps and scarf. His arm is extended with classic selfie framing, slight above-eye angle, front-camera distortion. Behind him, Roman soldiers dig a long trench below Alesia with baskets of earth, timber posts, survey markers, and engineers marking the siege line."
+    },
+    {
+      "index": 2,
+      "text": "Every day the circle gets tighter.",
+      "imagePrompt": "Normal rear-camera iPhone photo from the Roman work line, no selfie. Trenches, palisades, towers, wicker baskets, sharpened stakes, muddy walkways, and timber obstacles spread across the valley around Alesia. The Gallic town remains high in the background under a pale overcast sky. Handheld documentary phone-photo realism, natural depth and slight motion blur."
+    },
+    {
+      "index": 3,
+      "text": "The men on the hill watch in silence.",
+      "imagePrompt": "Normal rear-camera iPhone photo from inside a Roman trench looking upward toward Alesia. Gallic defenders stand along the ridge, quiet and still, small figures against the sky. Roman workers below raise more palisades and carry posts. Mud walls close to the lens, realistic phone perspective, natural daylight, no selfie."
+    },
+    {
+      "index": 4,
+      "text": "Scouts say their relief army is close.",
+      "imagePrompt": "Front-camera iPhone selfie of the same Roman legionary at dusk, same tired angular face, dark eyes, short dark hair under dented bronze helmet, muddy chainmail over faded red tunic, leather straps, dusty cheeks, tense expression. Phone held at arm's length, slight above angle, front-camera lens distortion. Behind him, Roman cavalry scouts ride fast into camp while soldiers stop working and stare toward the countryside, orange dusk light and dust in the air."
+    },
+    {
+      "index": 5,
+      "text": "So we build another wall behind us.",
+      "imagePrompt": "Wide rear-camera iPhone photo from a Roman watchtower showing the double siege line at Alesia: one wall and ditch facing the hilltop town, another wall facing the outside countryside, with Roman tents and soldiers trapped between both defensive rings. Timber towers, palisades, ditches, campfires, muddy tracks, and distant hills visible. Photorealistic handheld phone look, no selfie."
+    },
+    {
+      "index": 6,
+      "text": "Tonight they came from both sides.",
+      "imagePrompt": "Chaotic rear-camera iPhone night photo from the Roman fortifications. Gauls attack outward from Alesia while the relief army attacks from the countryside, Roman soldiers fight in both directions through smoke, torches, dust, and thrown spears. Timber palisade, shield edges, stake pits, and blurred motion in realistic low-light phone photography. No selfie, no gore, no fantasy lighting."
+    },
+    {
+      "index": 7,
+      "text": "Caesar rode the line himself.",
+      "imagePrompt": "Front-camera iPhone selfie of the same Roman legionary at night, face lit by fire, eyes wide and exhausted, same dented bronze helmet, muddy chainmail, faded red tunic, leather straps, dust and sweat. Phone held at arm's length, slight above angle, front-camera distortion. Behind him, a commander in a red cloak rides along the Roman defenses as soldiers rally at the palisade, torches and smoke in the background."
+    },
+    {
+      "index": 8,
+      "text": "Morning. The walls held. Alesia did not.",
+      "imagePrompt": "Quiet dawn rear-camera iPhone photo after the battle. Roman double walls, ditches, broken Gallic shields, abandoned weapons, muddy stake pits, trampled grass, scattered torches, and mist stretch across the valley. Alesia sits silent on the hill in the background. Photorealistic documentary phone photo, soft dawn light, no selfie, no text."
+    }
+  ]
+}

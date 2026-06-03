@@ -1,0 +1,38 @@
+CHARACTER STRING:
+"A recurring photorealistic absurd skeleton protagonist called The Engineer: an adult human skeleton with a clean ivory skull, subtle glossy translucent skin-like membrane only on the forearms, wrists, and hands, large expressive dark eye sockets, intact teeth in a cheerful mischievous grin, slim bony build, upright energetic posture, and no blood, gore, rot, horror, organs, wounds, or decay. He always wears the same bright green baseball cap or visor-cap with a white front panel and no logo in every pose. He wears a normal-length opaque bright green short-sleeve utility overshirt, open over a plain white T-shirt; the overshirt has a real collar, buttons, chest pockets, natural fabric drape, and falls normally to the hip line below the belt, never cropped and never transparent. He also wears tan canvas work trousers, a brown leather belt, a compact brown crossbody tool satchel, and unbranded bright green Crocs-style foam clogs with ventilation holes. His props are a rolled blueprint, calipers, charcoal pencil, small brass gear, and battered notebook with no readable text. He feels like a funny modern service-worker skeleton dropped into ancient Rome, but reinterpreted as a serious educational engineering character: optimistic, clever, slightly chaotic, and photoreal."
+
+IMAGE GENERATION PROMPT:
+Create a new 2x2 character sheet from scratch in a single portrait 9:16 image at 2K output, photorealistic cinematic studio photography, ultra-real material detail. Do not use any prior image as a reference.
+
+Subject:
+Use exactly this same character in all four panels:
+A recurring photorealistic absurd skeleton protagonist called The Engineer: an adult human skeleton with a clean ivory skull, subtle glossy translucent skin-like membrane only on the forearms, wrists, and hands, large expressive dark eye sockets, intact teeth in a cheerful mischievous grin, slim bony build, upright energetic posture, and no blood, gore, rot, horror, organs, wounds, or decay. He always wears the same bright green baseball cap or visor-cap with a white front panel and no logo in every pose. He wears a normal-length opaque bright green short-sleeve utility overshirt, open over a plain white T-shirt; the overshirt has a real collar, buttons, chest pockets, natural fabric drape, and falls normally to the hip line below the belt, never cropped and never transparent. He also wears tan canvas work trousers, a brown leather belt, a compact brown crossbody tool satchel, and unbranded bright green Crocs-style foam clogs with ventilation holes. His props are a rolled blueprint, calipers, charcoal pencil, small brass gear, and battered notebook with no readable text.
+
+Composition:
+Clean 2x2 grid, four equal panels, thin dark divider lines, no labels, no captions, no readable text. Plain warm beige-to-soft-olive studio gradient background in every panel. Keep the character full-body or nearly full-body in every panel so the normal-length shirt, cap, and Crocs-style clogs are visible.
+
+Panel 1, top-left:
+Neutral full-body front pose, standing upright and facing camera, green cap/visor with white front panel clearly visible, satchel strap visible, holding a rolled blueprint. The green overshirt is opaque cloth and hangs normally below the belt.
+
+Panel 2, top-right:
+Three-quarter engineering pose, green cap/visor clearly visible, pointing at a blank parchment blueprint while holding calipers. Normal-length opaque green overshirt with chest pockets and buttons. Translucent forearms and hands catch studio light and reveal bones inside.
+
+Panel 3, bottom-left:
+Comedic problem-solving pose, green cap/visor clearly visible, crouching beside a small brass gear and notebook on the floor, one translucent skeletal hand giving a thumbs-up. The shirt remains normal-length opaque fabric and the green clogs are clearly visible.
+
+Panel 4, bottom-right:
+Reaction pose, green cap/visor clearly visible, standing with one hand on hip and the other holding a charcoal pencil and small brass gear, slightly overwhelmed but determined. The green overshirt hangs naturally to the hip line with realistic folds.
+
+Style:
+Photorealistic studio character photography, shot as if on a Hasselblad X2D with an 85mm lens at f/5.6, crisp focus, soft key light from upper left, subtle rim light, realistic ivory bone, realistic glossy translucent membrane on arms only, woven opaque work-shirt fabric, matte cotton undershirt, worn leather satchel, tan canvas texture, and molded rubber clogs. The final image should look like a real physical practical-effects character photographed in a studio, not an illustration, not a cartoon, and not a toy render.
+
+Hard constraints:
+The cap/visor must appear in all four panels.
+The green shirt must be normal length and opaque in all four panels.
+The green shirt must not be cropped, not baby-sized, not a bolero, not a tiny vest, not transparent, not plastic, and not tucked tight above the belt.
+The translucent skin-like substance appears only around the forearms, wrists, and hands, not as transparent clothing or a skirt-like hem.
+
+Do not include Roman streets, workshops, diagrams, scenery, typography, captions, labels, logos, brand names, readable patches, watermarks, extra characters, extra skeletons, duplicate heads, distorted hands, missing limbs, gore, horror, blood, rotten tissue, organs, sunglasses, armor, fantasy styling, cartoon style, illustration style, or toy-like plastic render.
+
+Output:
+9:16 aspect ratio, 2K image size.

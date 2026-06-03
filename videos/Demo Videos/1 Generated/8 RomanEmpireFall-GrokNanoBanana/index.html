@@ -639,7 +639,7 @@
 			paint-order: stroke;
 			text-transform: uppercase;
 		}
-	
+
 		.hf-caption-text {
 			-webkit-text-stroke: 2px #000;
 			color: #fff;
@@ -814,7 +814,7 @@
 				} else if (true && scene.mediaType !== "video") {
 						tl.set(media, { opacity: 1 }, scene.start);
 					} else if (false || (false && scene.mediaType !== "video")) {
-						
+
 						const kenBurns = getKenBurnsTransform(scene.camera, 1.2, 1.15);
 						tl.set(media, { transformOrigin: "50% 50%" }, scene.start);
 						tl.fromTo(media, kenBurns.from, { ...kenBurns.to, duration: scene.duration, ease: "none" }, scene.start);
@@ -1025,7 +1025,7 @@
 				}
 			}
 		}
-		
+
 		const romanCaptionPages = [{"id":"roman-caption-page-0","start":0},{"id":"roman-caption-page-1","start":1.081},{"id":"roman-caption-page-2","start":1.67},{"id":"roman-caption-page-3","start":2.645},{"id":"roman-caption-page-4","start":3.725},{"id":"roman-caption-page-5","start":4.445},{"id":"roman-caption-page-6","start":5.111},{"id":"roman-caption-page-7","start":7.125},{"id":"roman-caption-page-8","start":8.068},{"id":"roman-caption-page-9","start":9.459},{"id":"roman-caption-page-10","start":11.759},{"id":"roman-caption-page-11","start":13.306},{"id":"roman-caption-page-12","start":15.092},{"id":"roman-caption-page-13","start":16.552},{"id":"roman-caption-page-14","start":19.16},{"id":"roman-caption-page-15","start":20.372},{"id":"roman-caption-page-16","start":22.312},{"id":"roman-caption-page-17","start":24.051},{"id":"roman-caption-page-18","start":24.974},{"id":"roman-caption-page-19","start":26.793},{"id":"roman-caption-page-20","start":27.432},{"id":"roman-caption-page-21","start":29.331},{"id":"roman-caption-page-22","start":30.638},{"id":"roman-caption-page-23","start":32.193},{"id":"roman-caption-page-24","start":32.824},{"id":"roman-caption-page-25","start":33.491},{"id":"roman-caption-page-26","start":34.538},{"id":"roman-caption-page-27","start":37.186},{"id":"roman-caption-page-28","start":37.976},{"id":"roman-caption-page-29","start":39.106},{"id":"roman-caption-page-30","start":40.594},{"id":"roman-caption-page-31","start":41.773},{"id":"roman-caption-page-32","start":43.459},{"id":"roman-caption-page-33","start":44.496},{"id":"roman-caption-page-34","start":45.031},{"id":"roman-caption-page-35","start":47.304},{"id":"roman-caption-page-36","start":48.152},{"id":"roman-caption-page-37","start":49.405},{"id":"roman-caption-page-38","start":50.613},{"id":"roman-caption-page-39","start":51.876},{"id":"roman-caption-page-40","start":52.861},{"id":"roman-caption-page-41","start":53.795},{"id":"roman-caption-page-42","start":56.236},{"id":"roman-caption-page-43","start":56.847},{"id":"roman-caption-page-44","start":57.336},{"id":"roman-caption-page-45","start":57.948},{"id":"roman-caption-page-46","start":58.478},{"id":"roman-caption-page-47","start":60.329},{"id":"roman-caption-page-48","start":61.794},{"id":"roman-caption-page-49","start":63.594},{"id":"roman-caption-page-50","start":64.475},{"id":"roman-caption-page-51","start":66.495},{"id":"roman-caption-page-52","start":67.96},{"id":"roman-caption-page-53","start":69.091},{"id":"roman-caption-page-54","start":70.071},{"id":"roman-caption-page-55","start":71.291},{"id":"roman-caption-page-56","start":71.924}];
 		for (const page of romanCaptionPages) {
 			tl.set("#" + page.id + " .hf-roman-caption-word", { color: "#fff" }, page.start);

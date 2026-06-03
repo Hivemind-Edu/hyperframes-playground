@@ -1,0 +1,80 @@
+Create a new 4x4 scene reference grid for a vertical photorealistic video, using the attached character sheet only as the recurring character reference. The output must be one portrait 9:16 image at native 4K resolution. It should contain exactly 16 tiny vertical 9:16 scene frames arranged in reading order, four columns by four rows.
+
+New visual direction:
+Make every scene look like real phone footage from a serious historical reenactment or behind-the-scenes documentary, as if shot on an iPhone 11 rear wide camera. Use iPhone 11-style realism: 26mm-equivalent wide-angle perspective, natural Smart HDR exposure, slightly deep focus, modest phone-camera sharpening, ordinary lens contrast, practical available light, occasional imperfect framing, realistic motion-ready candid composition, and real-world texture. The goal is maximum believability, not polished fantasy cinema.
+
+This should feel like someone physically put a practical-effects skeleton engineer into real ancient-Rome sets and photographed him with an iPhone 11. The skeleton should look like a real prop or prosthetic character in a live-action environment, not a 3D toy, not an illustration, not a glossy AI render.
+
+Video premise:
+"Could you start the Industrial Revolution in ancient Rome?" The answer is probably no. You could build impressive prototypes, but the missing pieces are precision tooling, reliable fuel, repeatable parts, institutions, labor incentives, markets, and supply chains.
+
+Grid rules:
+Exactly 16 panels in reading order, four columns by four rows. No labels, no captions, no subtitles, no title, no numbers, no readable text, no UI, no watermark. Do not add graphic design elements. Avoid thick borders, white gutters, and black divider lines. If the grid needs separation, use only natural hard cuts between adjacent phone frames, not drawn outlines.
+
+Canonical character:
+Use the attached character sheet as the exact reference for The Engineer whenever he appears. He is a recurring photorealistic skeleton mascot with a clean ivory skull, expressive dark eye sockets, a mischievous but non-horror grin, a bright green cap with a white front panel, a normal-length opaque bright green short-sleeve utility overshirt over a white T-shirt, tan knee-length work shorts, brown belt, compact brown crossbody tool satchel, and bright green unbranded Crocs-style clogs. His arms and legs are mostly exposed ivory bone with only a barely visible clear translucent sheen. Keep the bones dominant. He must stay photorealistic and physically plausible.
+
+Character placement:
+Include The Engineer only where the scene naturally needs him. He should appear in about 12 or 13 of the 16 panels. Some panels should be object/world-only shots for variety. When he appears, keep the cap, normal-length shirt, knee-length shorts, green Crocs, satchel, and subtle exposed skeletal arms/legs consistent.
+
+Panel 1, hook near the Forum:
+Ancient Rome near the Forum in realistic morning light, dusty street, marble and stone buildings, The Engineer standing among Romans with confused determination. Candid iPhone 11 full-body framing, slightly imperfect but clear.
+
+Panel 2, suspicious Crocs:
+Low street-level phone shot on uneven Roman paving stones. The Engineer sits or half-kneels after waking up, satchel open with a blank notebook and calipers, green Crocs prominent beside Roman sandals. Natural daylight, realistic shadows.
+
+Panel 3, Rome already engineered:
+World-focused phone shot of Roman infrastructure: aqueduct arches, paved road, treadwheel crane, concrete construction, and watermill wheel. The Engineer can be tiny or absent. It should look like a real location, not a fantasy megacity.
+
+Panel 4, workshop entrance:
+Roman metal workshop interior shot with phone-camera dynamic range: charcoal forge, bronze tools, rough hand tools, dust beams, The Engineer entering with rolled blueprint while Roman smiths look up.
+
+Panel 5, steam sketch:
+Close phone shot over a workshop table, The Engineer sketching a simple steam piston idea in charcoal on blank parchment, Roman smiths leaning in, bronze ingots and tools nearby. No readable labels.
+
+Panel 6, leaking cylinder:
+Realistic workshop test bench, rough bronze cylinder leaking steam at seams, piston misaligned, The Engineer flinching while a blacksmith shields his face. Natural smoky phone-footage look, no explosion.
+
+Panel 7, precision bottleneck:
+Macro-ish iPhone close-up of calipers measuring an uneven bronze cylinder, hand-cut screws of mismatched sizes, leather seals, inconsistent metal blanks. The Engineer can be partly visible at the edge. The facts should read visually through objects.
+
+Panel 8, craftsmen not tooling:
+Roman artisan beautifully finishing a bronze object by hand while The Engineer holds two mismatched parts that should be identical. Serious workshop realism: skilled craft is impressive, but repeatability is missing.
+
+Panel 9, Hero-style steam spinner:
+Small bronze Hero-of-Alexandria-style aeolipile steam spinner on a stone table, steam jets spinning the sphere, Roman onlookers amazed, The Engineer proud but cautious. Phone camera should catch steam and brass in believable available light.
+
+Panel 10, clever toy not engine room:
+Tiny steam spinner beside heavy millstones, pumps, and workshop machinery that remain unmoved. The Engineer stares at the scale mismatch; Romans look confused. Candid pullback composition.
+
+Panel 11, mine pump works:
+Roman mine entrance or quarry pump test, crude bronze-and-wood steam pump lifting water through a pipe, The Engineer and workers watching with tense excitement. Realistic stone, mud, water, smoke.
+
+Panel 12, mine pump fails:
+Object-focused phone shot: split leather seal, nearly empty charcoal basket, replacement bronze part visibly wrong size, steam fading, water stopped. The Engineer may kneel at frame edge with calipers.
+
+Panel 13, senator and labor economics:
+Roman courtyard meeting, senator in white toga seated beside tablets and coin piles, The Engineer presenting a small machine model, manual workers in distant background. Serious, documentary-like, not goofy.
+
+Panel 14, institutions want other things:
+Roman administrative courtyard, army officer pointing at siege engine plans, merchant counting coins, official with wax tablets, The Engineer caught between them holding a steam sketch. No readable text.
+
+Panel 15, ecosystem realization:
+Overhead iPhone shot of an oil-lamp table: charcoal, ore, gears, mismatched screws, seals, coins, road map with no readable labels, watermill model, blank parchment. The Engineer's skeletal hands arrange pieces like a system map.
+
+Panel 16, final thesis:
+Twilight phone shot over ancient Rome with aqueducts and workshops in the distance, The Engineer on a rooftop holding a worn notebook, tiny steam prototype beside him, thoughtful rather than defeated. Realistic dusk haze, not fantasy sunset.
+
+Hard constraints:
+Every panel must look photorealistic and physically real, like phone-shot live action.
+Use iPhone 11 rear-camera realism, not cinematic fantasy polish.
+Do not use the earlier Rome proof grid as a style reference.
+Do not include labels, captions, subtitles, title text, numbers, UI, watermarks, logos, brand names, or readable text.
+Do not include modern vehicles, modern buildings, modern signage, electric lights, welding equipment, fantasy armor, gore, horror, rotten tissue, blood, cartoon style, painterly style, anime, claymation, toy-like plastic render, glossy CGI, or exaggerated comedy faces.
+Do not put long pants on The Engineer. He wears tan knee-length work shorts.
+Do not crop the green shirt into a short jacket. It is a normal-length opaque utility overshirt.
+Do not make the translucent skin effect strong. It is only a faint clear sheen on exposed arms and legs; bones stay dominant.
+Do not make the skeleton too cleanly composited; he should sit naturally in the phone-photo lighting and shadows.
+
+Output:
+Portrait 9:16 aspect ratio, 4K image size, high-thinking photorealistic iPhone 11-style scene contact sheet.

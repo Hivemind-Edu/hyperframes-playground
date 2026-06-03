@@ -1,0 +1,78 @@
+Create a single borderless 4x4 scene reference contact sheet for a photorealistic vertical historical movie, using the attached character sheet only as the recurring character reference. The output must be one portrait 9:16 image at native 4K resolution. Because the whole image is 9:16 and the grid is 4x4, each individual tile must also be a tiny 9:16 vertical movie frame.
+
+This is for a serious-but-hooky educational video: "Could you start the Industrial Revolution in ancient Rome?" The answer is probably no, because one modern engineer could build impressive prototypes, but the missing pieces are precision tooling, reliable fuel, repeatable parts, institutions, labor incentives, markets, and supply chains.
+
+Most important composition requirement:
+The contact sheet must be completely borderless. No white gutters, no black gutters, no divider lines, no panel outlines, no frames, no empty spacing, no grid strokes, no graphic separators. The 16 movie frames should touch edge-to-edge directly, like a seamless tiled contact sheet. Each tile is separate content, but adjacent tile edges must meet directly with no visible border or blank gap.
+
+Global visual style:
+Photorealistic cinematic live-action movie frames, not illustration, not painterly, not fantasy, not cartoon, not toy render. Think expensive historical film production: real dusty stone, linen, bronze, charcoal smoke, wet aqueduct stone, forge sparks, worn parchment, practical machinery, natural Roman daylight, oil-lamp interiors, shallow depth of field, believable extras, and physical camera language. Shot on large-format cinema camera with realistic lensing and natural filmic contrast. Every panel must look like a still from the same photorealistic movie.
+
+Grid rules:
+Arrange exactly 16 panels in reading order, four columns by four rows. No borders, no gutters, no divider lines, no panel labels, no captions, no readable text, no numbers, no title. Do not add any graphic layout treatment. This is a raw contact sheet of 16 edge-to-edge cinematic frames.
+
+Canonical character:
+Use the attached character sheet as the exact reference for The Engineer whenever he appears. He is a recurring photorealistic skeleton mascot with a clean ivory skull, expressive dark eye sockets, a mischievous but non-horror grin, a bright green cap with a white front panel, a normal-length opaque bright green short-sleeve utility overshirt over a white T-shirt, tan knee-length work shorts, brown belt, compact brown crossbody tool satchel, and bright green unbranded Crocs-style clogs. His arms and legs are mostly exposed bone with only a barely visible clear translucent sheen. Bones should remain dominant. Keep him photorealistic and physically plausible.
+
+Character placement rule:
+Include The Engineer only where the scene naturally needs him. He should appear in about 12 or 13 of the 16 panels. Some panels should be object/world-only shots for cinematic variety. When he appears, keep the cap, normal-length shirt, shorts, Crocs, satchel, and subtle exposed skeletal arms/legs consistent.
+
+Panel 1, hook near the Forum:
+Ancient Rome near the Forum at dawn, marble temples and dusty street depth, The Engineer standing in the foreground with confused determination, Romans in the background reacting with mild curiosity, cinematic sunlight and dust.
+
+Panel 2, suspicious Crocs:
+Low-angle Roman street shot near the Forum, The Engineer waking up on stone pavement, satchel open with blank notebook and calipers, green Crocs absurdly visible among Roman sandals, warm morning light.
+
+Panel 3, Rome already engineered:
+World-only or tiny-character wide shot showing Roman engineering in one cinematic frame: aqueduct arches, paved road, treadwheel crane, concrete construction, and a watermill wheel. Make it feel physically real and historically grounded.
+
+Panel 4, workshop entrance:
+Roman metal workshop interior, charcoal forge, bronze tools, rough hand tools, The Engineer entering with rolled blueprint while Roman smiths look up, warm firelight and dusty shafts of light.
+
+Panel 5, steam sketch:
+Close workshop table shot, The Engineer sketching a simple steam piston idea in charcoal on blank parchment, Roman smiths leaning in, bronze ingots and tools nearby. No readable labels.
+
+Panel 6, leaking cylinder:
+Workshop test bench, rough bronze cylinder leaking steam at seams, piston misaligned, The Engineer flinching while a blacksmith shields his face, dramatic steam but no explosion and no gore.
+
+Panel 7, precision bottleneck:
+Macro workshop scene with calipers measuring an uneven cylinder, hand-cut screws of mismatched sizes, leather seals, inconsistent metal blanks, The Engineer frustrated but focused. The facts should be visually legible through objects, not text.
+
+Panel 8, craftsmen not tooling:
+Roman artisan beautifully finishing a bronze object by hand while The Engineer holds two mismatched parts that should be identical. Serious mood: skilled craft is impressive, but repeatability is missing.
+
+Panel 9, Hero-style steam spinner:
+Small bronze Hero-of-Alexandria-style aeolipile steam spinner on a stone table, steam jets spinning the sphere, Roman onlookers amazed, The Engineer proud but cautious.
+
+Panel 10, clever toy not engine room:
+The tiny steam spinner beside heavy millstones, pumps, and workshop machinery that remain unmoved. The Engineer stares at the scale mismatch; Romans look confused. Cinematic pullback feeling.
+
+Panel 11, mine pump works:
+Roman mine entrance or quarry pump test, crude bronze-and-wood steam pump lifting water through a pipe, The Engineer and workers watching with tense excitement, smoky practical machinery.
+
+Panel 12, mine pump fails:
+Object-focused failure scene: split leather seal, nearly empty charcoal basket, replacement bronze part visibly wrong size, steam fading, water stopped. The Engineer may be kneeling at frame edge with calipers.
+
+Panel 13, senator and labor economics:
+Roman courtyard meeting, senator in white toga seated beside tablets and coin piles, The Engineer presenting a small machine model, workers in distant background doing manual labor. Serious, not goofy.
+
+Panel 14, institutions want other things:
+Roman administrative courtyard, army officer pointing at siege engine plans, merchant counting coins, official with wax tablets, The Engineer caught between them holding a steam sketch. No readable text.
+
+Panel 15, ecosystem realization:
+Overhead oil-lamp table scene: charcoal, ore, gears, mismatched screws, seals, coins, road map with no readable labels, watermill model, blank parchment. The Engineer's skeletal hands arrange pieces like a system map.
+
+Panel 16, final thesis:
+Twilight view over ancient Rome with aqueducts and workshops in the distance, The Engineer on a rooftop holding a worn notebook, tiny steam prototype beside him, thoughtful rather than defeated, cinematic golden smoke and stone textures.
+
+Hard constraints:
+Every panel must be photorealistic and movie-like.
+Do not use the earlier Rome proof grid as a style reference.
+No borders, no gutters, no divider lines, no visible tile spacing, no blank separators, no labels, no captions, no subtitles, no UI, no title text, no numbers, and no readable text.
+Do not include logos, brand names, modern vehicles, modern buildings, modern signage, fantasy armor, gore, horror, rotten tissue, blood, cartoon style, painterly style, anime, claymation, toy-like plastic render, or exaggerated comedy faces.
+Do not put long pants on The Engineer. He wears tan knee-length work shorts.
+Do not crop the green shirt into a short jacket. It is a normal-length opaque utility overshirt.
+Do not make the translucent skin effect strong. It is only a faint clear sheen on exposed arms and legs; bones stay dominant.
+
+Output:
+Portrait 9:16 aspect ratio, 4K image size, high-detail photorealistic cinematic borderless contact sheet.

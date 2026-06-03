@@ -1,0 +1,74 @@
+{
+  "model": "xai/grok-imagine-video/v1.5/image-to-video",
+  "resolution": "720p",
+  "sourceImagePattern": "assets/keyframes/scene-XX-keyframe-*.jpg",
+  "outputVideoPattern": "assets/videos/scene-XX-grok-imagine-1.5-720p.mp4",
+  "durationRule": "Use the Deepgram scene voiceover duration and round up to the next whole second.",
+  "globalPromptPrefix": "Use the provided image as the first frame and preserve the composition, character identity, clothing, props, lighting, and ancient Roman setting. Create a photorealistic vertical 9:16 video, shot like iPhone 11 handheld footage with cinematic natural light. Keep the skeleton engineer consistent: green-and-white cap, normal green overshirt, white T-shirt, tan shorts, brown satchel, bright green Crocs-style clogs, exposed bones with only a very subtle translucent skin sheen on arms and legs. Realistic physics, real smoke, dust, water, firelight, cloth, metal, stone. No subtitles, no text, no logos, no cartoon style, no horror, no exaggerated comedy, no extra limbs, no identity drift.",
+  "scenes": [
+    {
+      "id": 1,
+      "videoPrompt": "The skeleton engineer stands in the Roman Forum street while people pass around him. Slow handheld push-in from full body to upper torso and skull. Dust floats in golden morning light, tunics move slightly, background Romans glance at him with confused curiosity. He subtly turns his skull toward camera, then looks down at his bright green Crocs for a tiny deadpan beat."
+    },
+    {
+      "id": 2,
+      "videoPrompt": "The skeleton engineer remains seated on the cobblestone floor for the entire clip, exactly like the source image. Do not make him stand, walk, crawl, slide, levitate, or change pose dramatically. Keep his legs and bright green Crocs planted in place. Use only subtle believable motion: he props himself slightly on one hand, shifts his shoulders a little, adjusts the brim of his green-and-white cap with one hand, turns his skull to look around, then glances down at the Crocs. The open notebook, calipers, satchel, cobblestones, and Roman pedestrians stay consistent. Roman feet pass in the foreground naturally, but do not obscure the skeleton. Camera starts low on the Crocs and skeletal legs, then performs a gentle handheld tilt up to his skull. Preserve anatomy and outfit; no extra limbs, no melted legs, no standing transition."
+    },
+    {
+      "id": 3,
+      "videoPrompt": "Keep the aqueduct, crane, waterwheel, canal, and tiny skeleton engineer visible. Add slow descending handheld movement through the engineering site. Waterwheel turns slowly, water runs below, crane rope sways, workers move in the distance. The skeleton looks up at the aqueduct, impressed, with a small serious body reaction."
+    },
+    {
+      "id": 4,
+      "videoPrompt": "Interior forge shot. Fire flickers, smoke and dust shafts move through sunlight. Smiths hammer and pause as the skeleton engineer steps forward slightly holding the rolled plan. Camera makes a short forward push from the workbench toward the skeleton. Keep the mood practical and cinematic, not comedic."
+    },
+    {
+      "id": 5,
+      "videoPrompt": "Close workshop table scene with smiths leaning over the parchment. The skeleton engineer's hand draws charcoal lines on the steam-engine sketch; black charcoal dust smears realistically. The smiths point and lean closer, eyes tracking the diagram. Firelight flickers across tools, bronze, parchment, and skull."
+    },
+    {
+      "id": 6,
+      "videoPrompt": "The bronze cylinder on the test bench starts hissing. Steam leaks from seams, then pulses harder; piston judders unevenly. The blacksmith flinches and shields his face while the skeleton engineer raises one skeletal hand in a cautious wait gesture. Camera shakes slightly with the steam burst, then settles."
+    },
+    {
+      "id": 7,
+      "videoPrompt": "Macro workshop scene of calipers and cylinder. The skeleton engineer tries to measure the bronze part; the calipers do not line up cleanly. Nearby screws and seals shift as his hand compares them. Use shallow depth of field: rack focus from the caliper jaws to mismatched screws and rough metal surfaces. Serious frustration, no slapstick."
+    },
+    {
+      "id": 8,
+      "videoPrompt": "Roman artisan works carefully on a bronze object while the skeleton engineer holds gears and parts that should match but do not. Slow rack focus from the artisan's skilled hands to the skeleton's mismatched parts. The skeleton rotates one gear, tries to fit it, fails by a few millimeters, then freezes."
+    },
+    {
+      "id": 9,
+      "videoPrompt": "Small bronze Hero-style aeolipile on a marble table. Steam gathers, then the sphere begins spinning smoothly. Onlookers lean in, one Roman's mouth opens in surprise. The skeleton engineer stands proudly but cautiously, one hand hovering near the device. Smoke curls upward; marble and bronze stay photorealistic."
+    },
+    {
+      "id": 10,
+      "videoPrompt": "Start on the tiny steam spinner, then slowly pull back to reveal large millstones, gears, and heavy machinery around it. The spinner keeps hissing, but nothing else moves. Romans look from the tiny device to the large machines, confused. The skeleton engineer's posture drops slightly as he realizes scale is the problem."
+    },
+    {
+      "id": 11,
+      "videoPrompt": "Crude pump at the mine or quarry. Steam puffs from the machine and water begins flowing from the pipe into muddy ground. Workers look surprised and hopeful. The skeleton engineer straightens up with cautious excitement, hands half-raised. Add realistic vibration to the wood-and-bronze pump."
+    },
+    {
+      "id": 12,
+      "videoPrompt": "Close ground-level failure scene. A leather seal is split, charcoal dust falls from the basket, wrong-sized bronze ring sits beside calipers. The skeleton engineer kneels and compares the parts. Steam thins in the background and water flow stops. Keep this quiet and educational, like a forensic failure moment."
+    },
+    {
+      "id": 13,
+      "videoPrompt": "Roman courtyard meeting. Senator sits calmly while workers continue manual labor in the background. The skeleton engineer gestures toward the small machine on the table. Senator slowly weighs coins in one hand, unimpressed. Camera drifts from machine to coin pile to background labor, making the economics obvious."
+    },
+    {
+      "id": 14,
+      "videoPrompt": "Administrative courtyard with soldier, merchant, official, and skeleton engineer holding plans. Use quick but realistic micro-movements: officer points at siege-engine plans, merchant counts coins, official writes on tablet, skeleton looks between them. Slight handheld lateral move across the table to show conflicting incentives."
+    },
+    {
+      "id": 15,
+      "videoPrompt": "Overhead table scene. The skeleton engineer's hands arrange coal, gears, screws, seals, coins, map, and model pieces into a network. Thin strings are placed between objects. Camera slowly rises from close hands to full table view, revealing the ecosystem visually without any readable text."
+    },
+    {
+      "id": 16,
+      "videoPrompt": "Twilight rooftop over Rome. The skeleton engineer holds notebook beside the tiny steam prototype. Slow pullback from notebook and skull to the wide city. Smoke drifts from workshops, evening sky darkens subtly, distant Rome feels huge and indifferent. Skeleton looks from the prototype to the city, thoughtful rather than defeated. End on a steady hold."
+    }
+  ]
+}

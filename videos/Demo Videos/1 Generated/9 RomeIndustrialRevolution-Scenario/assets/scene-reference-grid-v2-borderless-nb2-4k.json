@@ -1,0 +1,36 @@
+{
+  "aspectRatio": "9:16",
+  "characterReferencePath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/characters/skeleton-engineer-character-sheet-v7-barely-translucent-skin-nb2-2k.jpg",
+  "generatedAt": "2026-06-03T16:06:58.528Z",
+  "imageSize": "4K",
+  "latencyMs": 53524,
+  "latencySeconds": 53.524,
+  "mimeType": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "outputPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/assets/scene-reference-grid-v2-borderless-nb2-4k.jpg",
+  "promptPath": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario/prompts/scene-reference-grid-v2-borderless-nb2-4k.txt",
+  "thinkingLevel": "high",
+  "usageMetadata": {
+    "promptTokenCount": 1923,
+    "candidatesTokenCount": 4080,
+    "totalTokenCount": 8392,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1665
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 2520
+      }
+    ],
+    "thoughtsTokenCount": 2389,
+    "serviceTier": "standard"
+  }
+}

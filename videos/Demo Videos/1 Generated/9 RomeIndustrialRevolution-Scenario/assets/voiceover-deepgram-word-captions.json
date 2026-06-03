@@ -1,0 +1,1633 @@
+{
+  "audioDurationSeconds": 102.609,
+  "provider": "deepgram",
+  "modelId": "nova-2",
+  "transcript": "Could you start the industrial revolution in ancient Rome? Probably not, but you are going to try. Day one. You wake near the forum with a modern engineering degree and incredibly suspicious crocs. First surprise, Rome is already an engineering machine. Roads, aqueducts, cranes, concrete, water mills. So you skip sightseeing and find a workshop. Day three, you sketch a steam engine in charcoal. The Smiths understand heat, pressure, and cast metal, but the first cylinder leaks. The piston scrapes. Every part is almost right, which is exactly the problem. Week two, you need precision boring, standard screws, reliable seals, and metal that behaves the same way twice. Rome has brilliant craftsmen. It does not have factory tooling. Month one, you build a hero style steam spinner. It hisses. It spins. Everyone stares. It also powers basically nothing. A clever toy is not an engine room. Month six, you try a mine pump. For one afternoon, it works, then seals fail, fuel runs short, and replacement parts do not match. Year one, a senator asks why he should buy machines when labor is cheaper. The army wants siege engines. Merchants want profit now. Officials want taxes, not experiments. You finally see the bottleneck. Not one missing invention, but an ecosystem. Rome had engineers. What it lacked was the world that makes engineering compound. Inventions do not cause revolutions alone. Supply chains do.",
+  "wordCaptions": [
+    {
+      "confidence": 0.6748047,
+      "endMs": 240,
+      "startMs": 80,
+      "text": "Could",
+      "timestampMs": 80
+    },
+    {
+      "confidence": 1,
+      "endMs": 400,
+      "startMs": 240,
+      "text": " you",
+      "timestampMs": 240
+    },
+    {
+      "confidence": 1,
+      "endMs": 560,
+      "startMs": 400,
+      "text": " start",
+      "timestampMs": 400
+    },
+    {
+      "confidence": 0.9980469,
+      "endMs": 800,
+      "startMs": 560,
+      "text": " the",
+      "timestampMs": 560
+    },
+    {
+      "confidence": 0.8125,
+      "endMs": 1300,
+      "startMs": 800,
+      "text": " industrial",
+      "timestampMs": 800
+    },
+    {
+      "confidence": 1,
+      "endMs": 1840,
+      "startMs": 1360,
+      "text": " revolution",
+      "timestampMs": 1360
+    },
+    {
+      "confidence": 1,
+      "endMs": 2080,
+      "startMs": 1840,
+      "text": " in",
+      "timestampMs": 1840
+    },
+    {
+      "confidence": 0.9526367,
+      "endMs": 2400,
+      "startMs": 2080,
+      "text": " ancient",
+      "timestampMs": 2080
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 2900,
+      "startMs": 2400,
+      "text": " Rome?",
+      "timestampMs": 2400
+    },
+    {
+      "confidence": 1,
+      "endMs": 3760,
+      "startMs": 3280,
+      "text": " Probably",
+      "timestampMs": 3280
+    },
+    {
+      "confidence": 0.9213867,
+      "endMs": 4260,
+      "startMs": 3760,
+      "text": " not,",
+      "timestampMs": 3760
+    },
+    {
+      "confidence": 1,
+      "endMs": 4720,
+      "startMs": 4480,
+      "text": " but",
+      "timestampMs": 4480
+    },
+    {
+      "confidence": 1,
+      "endMs": 4880,
+      "startMs": 4720,
+      "text": " you",
+      "timestampMs": 4720
+    },
+    {
+      "confidence": 0.9970703,
+      "endMs": 5040,
+      "startMs": 4880,
+      "text": " are",
+      "timestampMs": 4880
+    },
+    {
+      "confidence": 1,
+      "endMs": 5280,
+      "startMs": 5040,
+      "text": " going",
+      "timestampMs": 5040
+    },
+    {
+      "confidence": 1,
+      "endMs": 5360,
+      "startMs": 5280,
+      "text": " to",
+      "timestampMs": 5280
+    },
+    {
+      "confidence": 1,
+      "endMs": 5860,
+      "startMs": 5360,
+      "text": " try.",
+      "timestampMs": 5360
+    },
+    {
+      "confidence": 1,
+      "endMs": 6880,
+      "startMs": 6560,
+      "text": " Day",
+      "timestampMs": 6560
+    },
+    {
+      "confidence": 0.87890625,
+      "endMs": 7380,
+      "startMs": 6880,
+      "text": " one.",
+      "timestampMs": 6880
+    },
+    {
+      "confidence": 1,
+      "endMs": 7840,
+      "startMs": 7600,
+      "text": " You",
+      "timestampMs": 7600
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 8080,
+      "startMs": 7840,
+      "text": " wake",
+      "timestampMs": 7840
+    },
+    {
+      "confidence": 1,
+      "endMs": 8320,
+      "startMs": 8080,
+      "text": " near",
+      "timestampMs": 8080
+    },
+    {
+      "confidence": 0.9970703,
+      "endMs": 8480,
+      "startMs": 8320,
+      "text": " the",
+      "timestampMs": 8320
+    },
+    {
+      "confidence": 0.86621094,
+      "endMs": 8800,
+      "startMs": 8480,
+      "text": " forum",
+      "timestampMs": 8480
+    },
+    {
+      "confidence": 1,
+      "endMs": 9040,
+      "startMs": 8800,
+      "text": " with",
+      "timestampMs": 8800
+    },
+    {
+      "confidence": 1,
+      "endMs": 9200,
+      "startMs": 9040,
+      "text": " a",
+      "timestampMs": 9040
+    },
+    {
+      "confidence": 0.9980469,
+      "endMs": 9600,
+      "startMs": 9200,
+      "text": " modern",
+      "timestampMs": 9200
+    },
+    {
+      "confidence": 1,
+      "endMs": 10100,
+      "startMs": 9600,
+      "text": " engineering",
+      "timestampMs": 9600
+    },
+    {
+      "confidence": 1,
+      "endMs": 10480,
+      "startMs": 10160,
+      "text": " degree",
+      "timestampMs": 10160
+    },
+    {
+      "confidence": 0.98828125,
+      "endMs": 10800,
+      "startMs": 10480,
+      "text": " and",
+      "timestampMs": 10480
+    },
+    {
+      "confidence": 1,
+      "endMs": 11300,
+      "startMs": 10800,
+      "text": " incredibly",
+      "timestampMs": 10800
+    },
+    {
+      "confidence": 1,
+      "endMs": 11940,
+      "startMs": 11440,
+      "text": " suspicious",
+      "timestampMs": 11440
+    },
+    {
+      "confidence": 0.98876953,
+      "endMs": 12500,
+      "startMs": 12000,
+      "text": " crocs.",
+      "timestampMs": 12000
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 13685,
+      "startMs": 13185,
+      "text": " First",
+      "timestampMs": 13185
+    },
+    {
+      "confidence": 0.8635254,
+      "endMs": 14625,
+      "startMs": 14225,
+      "text": " surprise,",
+      "timestampMs": 14225
+    },
+    {
+      "confidence": 0.98828125,
+      "endMs": 14945,
+      "startMs": 14625,
+      "text": " Rome",
+      "timestampMs": 14625
+    },
+    {
+      "confidence": 1,
+      "endMs": 15105,
+      "startMs": 14945,
+      "text": " is",
+      "timestampMs": 14945
+    },
+    {
+      "confidence": 1,
+      "endMs": 15505,
+      "startMs": 15105,
+      "text": " already",
+      "timestampMs": 15105
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 15745,
+      "startMs": 15505,
+      "text": " an",
+      "timestampMs": 15505
+    },
+    {
+      "confidence": 1,
+      "endMs": 16245,
+      "startMs": 15745,
+      "text": " engineering",
+      "timestampMs": 15745
+    },
+    {
+      "confidence": 0.95996094,
+      "endMs": 16805,
+      "startMs": 16305,
+      "text": " machine.",
+      "timestampMs": 16305
+    },
+    {
+      "confidence": 0.9975586,
+      "endMs": 18005,
+      "startMs": 17505,
+      "text": " Roads,",
+      "timestampMs": 17505
+    },
+    {
+      "confidence": 0.9957031,
+      "endMs": 18565,
+      "startMs": 18065,
+      "text": " aqueducts,",
+      "timestampMs": 18065
+    },
+    {
+      "confidence": 1,
+      "endMs": 19365,
+      "startMs": 18865,
+      "text": " cranes,",
+      "timestampMs": 18865
+    },
+    {
+      "confidence": 0.9980469,
+      "endMs": 20005,
+      "startMs": 19505,
+      "text": " concrete,",
+      "timestampMs": 19505
+    },
+    {
+      "confidence": 1,
+      "endMs": 20545,
+      "startMs": 20225,
+      "text": " water",
+      "timestampMs": 20225
+    },
+    {
+      "confidence": 0.60595703,
+      "endMs": 21045,
+      "startMs": 20545,
+      "text": " mills.",
+      "timestampMs": 20545
+    },
+    {
+      "confidence": 1,
+      "endMs": 21665,
+      "startMs": 21425,
+      "text": " So",
+      "timestampMs": 21425
+    },
+    {
+      "confidence": 0.99316406,
+      "endMs": 21825,
+      "startMs": 21665,
+      "text": " you",
+      "timestampMs": 21665
+    },
+    {
+      "confidence": 0.9873047,
+      "endMs": 22225,
+      "startMs": 21825,
+      "text": " skip",
+      "timestampMs": 21825
+    },
+    {
+      "confidence": 0.9748535,
+      "endMs": 22725,
+      "startMs": 22225,
+      "text": " sightseeing",
+      "timestampMs": 22225
+    },
+    {
+      "confidence": 0.9863281,
+      "endMs": 22945,
+      "startMs": 22785,
+      "text": " and",
+      "timestampMs": 22785
+    },
+    {
+      "confidence": 1,
+      "endMs": 23185,
+      "startMs": 22945,
+      "text": " find",
+      "timestampMs": 22945
+    },
+    {
+      "confidence": 0.9980469,
+      "endMs": 23265,
+      "startMs": 23185,
+      "text": " a",
+      "timestampMs": 23185
+    },
+    {
+      "confidence": 1,
+      "endMs": 23765,
+      "startMs": 23265,
+      "text": " workshop.",
+      "timestampMs": 23265
+    },
+    {
+      "confidence": 1,
+      "endMs": 24865,
+      "startMs": 24465,
+      "text": " Day",
+      "timestampMs": 24465
+    },
+    {
+      "confidence": 0.95874023,
+      "endMs": 25365,
+      "startMs": 24865,
+      "text": " three,",
+      "timestampMs": 24865
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 25665,
+      "startMs": 25425,
+      "text": " you",
+      "timestampMs": 25425
+    },
+    {
+      "confidence": 1,
+      "endMs": 25985,
+      "startMs": 25665,
+      "text": " sketch",
+      "timestampMs": 25665
+    },
+    {
+      "confidence": 1,
+      "endMs": 26065,
+      "startMs": 25985,
+      "text": " a",
+      "timestampMs": 25985
+    },
+    {
+      "confidence": 1,
+      "endMs": 26305,
+      "startMs": 26065,
+      "text": " steam",
+      "timestampMs": 26065
+    },
+    {
+      "confidence": 1,
+      "endMs": 26705,
+      "startMs": 26305,
+      "text": " engine",
+      "timestampMs": 26305
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 26865,
+      "startMs": 26705,
+      "text": " in",
+      "timestampMs": 26705
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 27365,
+      "startMs": 26865,
+      "text": " charcoal.",
+      "timestampMs": 26865
+    },
+    {
+      "confidence": 1,
+      "endMs": 28180,
+      "startMs": 27860,
+      "text": " The",
+      "timestampMs": 27860
+    },
+    {
+      "confidence": 0.9477539,
+      "endMs": 28420,
+      "startMs": 28180,
+      "text": " Smiths",
+      "timestampMs": 28180
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 28920,
+      "startMs": 28420,
+      "text": " understand",
+      "timestampMs": 28420
+    },
+    {
+      "confidence": 0.9946289,
+      "endMs": 29640,
+      "startMs": 29140,
+      "text": " heat,",
+      "timestampMs": 29140
+    },
+    {
+      "confidence": 0.9797363,
+      "endMs": 30180,
+      "startMs": 29700,
+      "text": " pressure,",
+      "timestampMs": 29700
+    },
+    {
+      "confidence": 1,
+      "endMs": 30500,
+      "startMs": 30180,
+      "text": " and",
+      "timestampMs": 30180
+    },
+    {
+      "confidence": 1,
+      "endMs": 30900,
+      "startMs": 30500,
+      "text": " cast",
+      "timestampMs": 30500
+    },
+    {
+      "confidence": 0.8083496,
+      "endMs": 31400,
+      "startMs": 30900,
+      "text": " metal,",
+      "timestampMs": 30900
+    },
+    {
+      "confidence": 1,
+      "endMs": 31860,
+      "startMs": 31620,
+      "text": " but",
+      "timestampMs": 31620
+    },
+    {
+      "confidence": 1,
+      "endMs": 32020,
+      "startMs": 31860,
+      "text": " the",
+      "timestampMs": 31860
+    },
+    {
+      "confidence": 1,
+      "endMs": 32340,
+      "startMs": 32020,
+      "text": " first",
+      "timestampMs": 32020
+    },
+    {
+      "confidence": 1,
+      "endMs": 32840,
+      "startMs": 32340,
+      "text": " cylinder",
+      "timestampMs": 32340
+    },
+    {
+      "confidence": 0.8876953,
+      "endMs": 33400,
+      "startMs": 32900,
+      "text": " leaks.",
+      "timestampMs": 32900
+    },
+    {
+      "confidence": 1,
+      "endMs": 33780,
+      "startMs": 33540,
+      "text": " The",
+      "timestampMs": 33540
+    },
+    {
+      "confidence": 0.99609375,
+      "endMs": 34260,
+      "startMs": 33780,
+      "text": " piston",
+      "timestampMs": 33780
+    },
+    {
+      "confidence": 0.9767253,
+      "endMs": 34760,
+      "startMs": 34260,
+      "text": " scrapes.",
+      "timestampMs": 34260
+    },
+    {
+      "confidence": 1,
+      "endMs": 35540,
+      "startMs": 35220,
+      "text": " Every",
+      "timestampMs": 35220
+    },
+    {
+      "confidence": 1,
+      "endMs": 35780,
+      "startMs": 35540,
+      "text": " part",
+      "timestampMs": 35540
+    },
+    {
+      "confidence": 1,
+      "endMs": 36020,
+      "startMs": 35780,
+      "text": " is",
+      "timestampMs": 35780
+    },
+    {
+      "confidence": 1,
+      "endMs": 36420,
+      "startMs": 36020,
+      "text": " almost",
+      "timestampMs": 36020
+    },
+    {
+      "confidence": 0.90283203,
+      "endMs": 36740,
+      "startMs": 36420,
+      "text": " right,",
+      "timestampMs": 36420
+    },
+    {
+      "confidence": 1,
+      "endMs": 36980,
+      "startMs": 36740,
+      "text": " which",
+      "timestampMs": 36740
+    },
+    {
+      "confidence": 1,
+      "endMs": 37300,
+      "startMs": 36980,
+      "text": " is",
+      "timestampMs": 36980
+    },
+    {
+      "confidence": 1,
+      "endMs": 37780,
+      "startMs": 37300,
+      "text": " exactly",
+      "timestampMs": 37300
+    },
+    {
+      "confidence": 1,
+      "endMs": 37940,
+      "startMs": 37780,
+      "text": " the",
+      "timestampMs": 37780
+    },
+    {
+      "confidence": 1,
+      "endMs": 38440,
+      "startMs": 37940,
+      "text": " problem.",
+      "timestampMs": 37940
+    },
+    {
+      "confidence": 1,
+      "endMs": 39540,
+      "startMs": 39140,
+      "text": " Week",
+      "timestampMs": 39140
+    },
+    {
+      "confidence": 0.9501953,
+      "endMs": 40035,
+      "startMs": 39540,
+      "text": " two,",
+      "timestampMs": 39540
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 40435,
+      "startMs": 40195,
+      "text": " you",
+      "timestampMs": 40195
+    },
+    {
+      "confidence": 1,
+      "endMs": 40675,
+      "startMs": 40435,
+      "text": " need",
+      "timestampMs": 40435
+    },
+    {
+      "confidence": 1,
+      "endMs": 41175,
+      "startMs": 40675,
+      "text": " precision",
+      "timestampMs": 40675
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 41735,
+      "startMs": 41235,
+      "text": " boring,",
+      "timestampMs": 41235
+    },
+    {
+      "confidence": 1,
+      "endMs": 42355,
+      "startMs": 41875,
+      "text": " standard",
+      "timestampMs": 41875
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 42855,
+      "startMs": 42355,
+      "text": " screws,",
+      "timestampMs": 42355
+    },
+    {
+      "confidence": 1,
+      "endMs": 43655,
+      "startMs": 43155,
+      "text": " reliable",
+      "timestampMs": 43155
+    },
+    {
+      "confidence": 0.98950195,
+      "endMs": 44295,
+      "startMs": 43795,
+      "text": " seals,",
+      "timestampMs": 43795
+    },
+    {
+      "confidence": 1,
+      "endMs": 44675,
+      "startMs": 44435,
+      "text": " and",
+      "timestampMs": 44435
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 44995,
+      "startMs": 44675,
+      "text": " metal",
+      "timestampMs": 44675
+    },
+    {
+      "confidence": 1,
+      "endMs": 45235,
+      "startMs": 44995,
+      "text": " that",
+      "timestampMs": 44995
+    },
+    {
+      "confidence": 1,
+      "endMs": 45715,
+      "startMs": 45235,
+      "text": " behaves",
+      "timestampMs": 45235
+    },
+    {
+      "confidence": 1,
+      "endMs": 45875,
+      "startMs": 45715,
+      "text": " the",
+      "timestampMs": 45715
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 46115,
+      "startMs": 45875,
+      "text": " same",
+      "timestampMs": 45875
+    },
+    {
+      "confidence": 1,
+      "endMs": 46435,
+      "startMs": 46115,
+      "text": " way",
+      "timestampMs": 46115
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 46935,
+      "startMs": 46435,
+      "text": " twice.",
+      "timestampMs": 46435
+    },
+    {
+      "confidence": 0.76123047,
+      "endMs": 47875,
+      "startMs": 47475,
+      "text": " Rome",
+      "timestampMs": 47475
+    },
+    {
+      "confidence": 1,
+      "endMs": 48275,
+      "startMs": 47875,
+      "text": " has",
+      "timestampMs": 47875
+    },
+    {
+      "confidence": 0.9892578,
+      "endMs": 48755,
+      "startMs": 48275,
+      "text": " brilliant",
+      "timestampMs": 48275
+    },
+    {
+      "confidence": 0.8805339,
+      "endMs": 49255,
+      "startMs": 48755,
+      "text": " craftsmen.",
+      "timestampMs": 48755
+    },
+    {
+      "confidence": 1,
+      "endMs": 49795,
+      "startMs": 49635,
+      "text": " It",
+      "timestampMs": 49635
+    },
+    {
+      "confidence": 1,
+      "endMs": 50035,
+      "startMs": 49795,
+      "text": " does",
+      "timestampMs": 49795
+    },
+    {
+      "confidence": 1,
+      "endMs": 50195,
+      "startMs": 50035,
+      "text": " not",
+      "timestampMs": 50035
+    },
+    {
+      "confidence": 1,
+      "endMs": 50435,
+      "startMs": 50195,
+      "text": " have",
+      "timestampMs": 50195
+    },
+    {
+      "confidence": 1,
+      "endMs": 50915,
+      "startMs": 50435,
+      "text": " factory",
+      "timestampMs": 50435
+    },
+    {
+      "confidence": 0.99934894,
+      "endMs": 51415,
+      "startMs": 50915,
+      "text": " tooling.",
+      "timestampMs": 50915
+    },
+    {
+      "confidence": 1,
+      "endMs": 52435,
+      "startMs": 52035,
+      "text": " Month",
+      "timestampMs": 52035
+    },
+    {
+      "confidence": 0.9914551,
+      "endMs": 52935,
+      "startMs": 52435,
+      "text": " one,",
+      "timestampMs": 52435
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 53270,
+      "startMs": 53030,
+      "text": " you",
+      "timestampMs": 53030
+    },
+    {
+      "confidence": 1,
+      "endMs": 53430,
+      "startMs": 53270,
+      "text": " build",
+      "timestampMs": 53270
+    },
+    {
+      "confidence": 1,
+      "endMs": 53750,
+      "startMs": 53430,
+      "text": " a",
+      "timestampMs": 53430
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 54230,
+      "startMs": 53750,
+      "text": " hero",
+      "timestampMs": 53750
+    },
+    {
+      "confidence": 1,
+      "endMs": 54710,
+      "startMs": 54230,
+      "text": " style",
+      "timestampMs": 54230
+    },
+    {
+      "confidence": 0.99316406,
+      "endMs": 55110,
+      "startMs": 54710,
+      "text": " steam",
+      "timestampMs": 54710
+    },
+    {
+      "confidence": 0.99934894,
+      "endMs": 55610,
+      "startMs": 55110,
+      "text": " spinner.",
+      "timestampMs": 55110
+    },
+    {
+      "confidence": 1,
+      "endMs": 55990,
+      "startMs": 55750,
+      "text": " It",
+      "timestampMs": 55750
+    },
+    {
+      "confidence": 0.97477216,
+      "endMs": 56490,
+      "startMs": 55990,
+      "text": " hisses.",
+      "timestampMs": 55990
+    },
+    {
+      "confidence": 1,
+      "endMs": 56950,
+      "startMs": 56710,
+      "text": " It",
+      "timestampMs": 56710
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 57450,
+      "startMs": 56950,
+      "text": " spins.",
+      "timestampMs": 56950
+    },
+    {
+      "confidence": 1,
+      "endMs": 58330,
+      "startMs": 57830,
+      "text": " Everyone",
+      "timestampMs": 57830
+    },
+    {
+      "confidence": 0.9970703,
+      "endMs": 58970,
+      "startMs": 58470,
+      "text": " stares.",
+      "timestampMs": 58470
+    },
+    {
+      "confidence": 1,
+      "endMs": 59590,
+      "startMs": 59350,
+      "text": " It",
+      "timestampMs": 59350
+    },
+    {
+      "confidence": 1,
+      "endMs": 59830,
+      "startMs": 59590,
+      "text": " also",
+      "timestampMs": 59590
+    },
+    {
+      "confidence": 1,
+      "endMs": 60310,
+      "startMs": 59830,
+      "text": " powers",
+      "timestampMs": 59830
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 60710,
+      "startMs": 60310,
+      "text": " basically",
+      "timestampMs": 60310
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 61210,
+      "startMs": 60710,
+      "text": " nothing.",
+      "timestampMs": 60710
+    },
+    {
+      "confidence": 1,
+      "endMs": 61590,
+      "startMs": 61430,
+      "text": " A",
+      "timestampMs": 61430
+    },
+    {
+      "confidence": 1,
+      "endMs": 62090,
+      "startMs": 61590,
+      "text": " clever",
+      "timestampMs": 61590
+    },
+    {
+      "confidence": 1,
+      "endMs": 62630,
+      "startMs": 62150,
+      "text": " toy",
+      "timestampMs": 62150
+    },
+    {
+      "confidence": 1,
+      "endMs": 62790,
+      "startMs": 62630,
+      "text": " is",
+      "timestampMs": 62630
+    },
+    {
+      "confidence": 1,
+      "endMs": 63030,
+      "startMs": 62790,
+      "text": " not",
+      "timestampMs": 62790
+    },
+    {
+      "confidence": 1,
+      "endMs": 63270,
+      "startMs": 63030,
+      "text": " an",
+      "timestampMs": 63030
+    },
+    {
+      "confidence": 1,
+      "endMs": 63590,
+      "startMs": 63270,
+      "text": " engine",
+      "timestampMs": 63270
+    },
+    {
+      "confidence": 1,
+      "endMs": 64090,
+      "startMs": 63590,
+      "text": " room.",
+      "timestampMs": 63590
+    },
+    {
+      "confidence": 1,
+      "endMs": 65270,
+      "startMs": 64870,
+      "text": " Month",
+      "timestampMs": 64870
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 65770,
+      "startMs": 65270,
+      "text": " six,",
+      "timestampMs": 65270
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 66185,
+      "startMs": 65945,
+      "text": " you",
+      "timestampMs": 65945
+    },
+    {
+      "confidence": 1,
+      "endMs": 66345,
+      "startMs": 66185,
+      "text": " try",
+      "timestampMs": 66185
+    },
+    {
+      "confidence": 1,
+      "endMs": 66505,
+      "startMs": 66345,
+      "text": " a",
+      "timestampMs": 66345
+    },
+    {
+      "confidence": 0.5541992,
+      "endMs": 66905,
+      "startMs": 66505,
+      "text": " mine",
+      "timestampMs": 66505
+    },
+    {
+      "confidence": 0.9980469,
+      "endMs": 67405,
+      "startMs": 66905,
+      "text": " pump.",
+      "timestampMs": 66905
+    },
+    {
+      "confidence": 1,
+      "endMs": 67705,
+      "startMs": 67545,
+      "text": " For",
+      "timestampMs": 67545
+    },
+    {
+      "confidence": 1,
+      "endMs": 67945,
+      "startMs": 67705,
+      "text": " one",
+      "timestampMs": 67705
+    },
+    {
+      "confidence": 0.9260254,
+      "endMs": 68425,
+      "startMs": 67945,
+      "text": " afternoon,",
+      "timestampMs": 67945
+    },
+    {
+      "confidence": 1,
+      "endMs": 68585,
+      "startMs": 68425,
+      "text": " it",
+      "timestampMs": 68425
+    },
+    {
+      "confidence": 0.7883301,
+      "endMs": 69085,
+      "startMs": 68585,
+      "text": " works,",
+      "timestampMs": 68585
+    },
+    {
+      "confidence": 1,
+      "endMs": 69705,
+      "startMs": 69305,
+      "text": " then",
+      "timestampMs": 69305
+    },
+    {
+      "confidence": 0.984375,
+      "endMs": 70105,
+      "startMs": 69705,
+      "text": " seals",
+      "timestampMs": 69705
+    },
+    {
+      "confidence": 0.984375,
+      "endMs": 70605,
+      "startMs": 70105,
+      "text": " fail,",
+      "timestampMs": 70105
+    },
+    {
+      "confidence": 1,
+      "endMs": 71145,
+      "startMs": 70825,
+      "text": " fuel",
+      "timestampMs": 70825
+    },
+    {
+      "confidence": 0.95166016,
+      "endMs": 71545,
+      "startMs": 71145,
+      "text": " runs",
+      "timestampMs": 71145
+    },
+    {
+      "confidence": 0.9885254,
+      "endMs": 71945,
+      "startMs": 71545,
+      "text": " short,",
+      "timestampMs": 71545
+    },
+    {
+      "confidence": 1,
+      "endMs": 72185,
+      "startMs": 71945,
+      "text": " and",
+      "timestampMs": 71945
+    },
+    {
+      "confidence": 1,
+      "endMs": 72685,
+      "startMs": 72185,
+      "text": " replacement",
+      "timestampMs": 72185
+    },
+    {
+      "confidence": 1,
+      "endMs": 73225,
+      "startMs": 72825,
+      "text": " parts",
+      "timestampMs": 72825
+    },
+    {
+      "confidence": 1,
+      "endMs": 73385,
+      "startMs": 73225,
+      "text": " do",
+      "timestampMs": 73225
+    },
+    {
+      "confidence": 1,
+      "endMs": 73625,
+      "startMs": 73385,
+      "text": " not",
+      "timestampMs": 73385
+    },
+    {
+      "confidence": 1,
+      "endMs": 74125,
+      "startMs": 73625,
+      "text": " match.",
+      "timestampMs": 73625
+    },
+    {
+      "confidence": 1,
+      "endMs": 75145,
+      "startMs": 74825,
+      "text": " Year",
+      "timestampMs": 74825
+    },
+    {
+      "confidence": 0.94091797,
+      "endMs": 75645,
+      "startMs": 75145,
+      "text": " one,",
+      "timestampMs": 75145
+    },
+    {
+      "confidence": 1,
+      "endMs": 76025,
+      "startMs": 75865,
+      "text": " a",
+      "timestampMs": 75865
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 76525,
+      "startMs": 76025,
+      "text": " senator",
+      "timestampMs": 76025
+    },
+    {
+      "confidence": 0.9980469,
+      "endMs": 76985,
+      "startMs": 76585,
+      "text": " asks",
+      "timestampMs": 76585
+    },
+    {
+      "confidence": 0.9951172,
+      "endMs": 77305,
+      "startMs": 76985,
+      "text": " why",
+      "timestampMs": 76985
+    },
+    {
+      "confidence": 1,
+      "endMs": 77465,
+      "startMs": 77305,
+      "text": " he",
+      "timestampMs": 77305
+    },
+    {
+      "confidence": 1,
+      "endMs": 77705,
+      "startMs": 77465,
+      "text": " should",
+      "timestampMs": 77465
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 77945,
+      "startMs": 77705,
+      "text": " buy",
+      "timestampMs": 77705
+    },
+    {
+      "confidence": 1,
+      "endMs": 78425,
+      "startMs": 77945,
+      "text": " machines",
+      "timestampMs": 77945
+    },
+    {
+      "confidence": 1,
+      "endMs": 78665,
+      "startMs": 78425,
+      "text": " when",
+      "timestampMs": 78425
+    },
+    {
+      "confidence": 1,
+      "endMs": 79065,
+      "startMs": 78665,
+      "text": " labor",
+      "timestampMs": 78665
+    },
+    {
+      "confidence": 1,
+      "endMs": 79305,
+      "startMs": 79065,
+      "text": " is",
+      "timestampMs": 79065
+    },
+    {
+      "confidence": 0.9645996,
+      "endMs": 79805,
+      "startMs": 79305,
+      "text": " cheaper.",
+      "timestampMs": 79305
+    },
+    {
+      "confidence": 1,
+      "endMs": 80380,
+      "startMs": 80220,
+      "text": " The",
+      "timestampMs": 80220
+    },
+    {
+      "confidence": 0.9838867,
+      "endMs": 80700,
+      "startMs": 80380,
+      "text": " army",
+      "timestampMs": 80380
+    },
+    {
+      "confidence": 0.9404297,
+      "endMs": 81180,
+      "startMs": 80700,
+      "text": " wants",
+      "timestampMs": 80700
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 81500,
+      "startMs": 81180,
+      "text": " siege",
+      "timestampMs": 81180
+    },
+    {
+      "confidence": 0.97094727,
+      "endMs": 82000,
+      "startMs": 81500,
+      "text": " engines.",
+      "timestampMs": 81500
+    },
+    {
+      "confidence": 1,
+      "endMs": 82780,
+      "startMs": 82300,
+      "text": " Merchants",
+      "timestampMs": 82300
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 83100,
+      "startMs": 82780,
+      "text": " want",
+      "timestampMs": 82780
+    },
+    {
+      "confidence": 1,
+      "endMs": 83500,
+      "startMs": 83100,
+      "text": " profit",
+      "timestampMs": 83100
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 84000,
+      "startMs": 83500,
+      "text": " now.",
+      "timestampMs": 83500
+    },
+    {
+      "confidence": 0.9941406,
+      "endMs": 84700,
+      "startMs": 84220,
+      "text": " Officials",
+      "timestampMs": 84220
+    },
+    {
+      "confidence": 1,
+      "endMs": 85100,
+      "startMs": 84700,
+      "text": " want",
+      "timestampMs": 84700
+    },
+    {
+      "confidence": 0.9499512,
+      "endMs": 85580,
+      "startMs": 85100,
+      "text": " taxes,",
+      "timestampMs": 85100
+    },
+    {
+      "confidence": 1,
+      "endMs": 85820,
+      "startMs": 85580,
+      "text": " not",
+      "timestampMs": 85580
+    },
+    {
+      "confidence": 1,
+      "endMs": 86320,
+      "startMs": 85820,
+      "text": " experiments.",
+      "timestampMs": 85820
+    },
+    {
+      "confidence": 1,
+      "endMs": 87340,
+      "startMs": 87020,
+      "text": " You",
+      "timestampMs": 87020
+    },
+    {
+      "confidence": 1,
+      "endMs": 87660,
+      "startMs": 87340,
+      "text": " finally",
+      "timestampMs": 87340
+    },
+    {
+      "confidence": 1,
+      "endMs": 87900,
+      "startMs": 87660,
+      "text": " see",
+      "timestampMs": 87660
+    },
+    {
+      "confidence": 1,
+      "endMs": 87980,
+      "startMs": 87900,
+      "text": " the",
+      "timestampMs": 87900
+    },
+    {
+      "confidence": 0.75219727,
+      "endMs": 88480,
+      "startMs": 87980,
+      "text": " bottleneck.",
+      "timestampMs": 87980
+    },
+    {
+      "confidence": 1,
+      "endMs": 89260,
+      "startMs": 88940,
+      "text": " Not",
+      "timestampMs": 88940
+    },
+    {
+      "confidence": 1,
+      "endMs": 89580,
+      "startMs": 89260,
+      "text": " one",
+      "timestampMs": 89260
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 89980,
+      "startMs": 89580,
+      "text": " missing",
+      "timestampMs": 89580
+    },
+    {
+      "confidence": 0.953125,
+      "endMs": 90480,
+      "startMs": 89980,
+      "text": " invention,",
+      "timestampMs": 89980
+    },
+    {
+      "confidence": 1,
+      "endMs": 91100,
+      "startMs": 90860,
+      "text": " but",
+      "timestampMs": 90860
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 91340,
+      "startMs": 91100,
+      "text": " an",
+      "timestampMs": 91100
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 91840,
+      "startMs": 91340,
+      "text": " ecosystem.",
+      "timestampMs": 91340
+    },
+    {
+      "confidence": 1,
+      "endMs": 93244,
+      "startMs": 92924,
+      "text": " Rome",
+      "timestampMs": 92924
+    },
+    {
+      "confidence": 1,
+      "endMs": 93564,
+      "startMs": 93244,
+      "text": " had",
+      "timestampMs": 93244
+    },
+    {
+      "confidence": 0.984375,
+      "endMs": 94064,
+      "startMs": 93564,
+      "text": " engineers.",
+      "timestampMs": 93564
+    },
+    {
+      "confidence": 1,
+      "endMs": 94764,
+      "startMs": 94524,
+      "text": " What",
+      "timestampMs": 94524
+    },
+    {
+      "confidence": 1,
+      "endMs": 94924,
+      "startMs": 94764,
+      "text": " it",
+      "timestampMs": 94764
+    },
+    {
+      "confidence": 1,
+      "endMs": 95244,
+      "startMs": 94924,
+      "text": " lacked",
+      "timestampMs": 94924
+    },
+    {
+      "confidence": 1,
+      "endMs": 95404,
+      "startMs": 95244,
+      "text": " was",
+      "timestampMs": 95244
+    },
+    {
+      "confidence": 0.99902344,
+      "endMs": 95564,
+      "startMs": 95404,
+      "text": " the",
+      "timestampMs": 95404
+    },
+    {
+      "confidence": 1,
+      "endMs": 95884,
+      "startMs": 95564,
+      "text": " world",
+      "timestampMs": 95564
+    },
+    {
+      "confidence": 1,
+      "endMs": 96044,
+      "startMs": 95884,
+      "text": " that",
+      "timestampMs": 95884
+    },
+    {
+      "confidence": 1,
+      "endMs": 96524,
+      "startMs": 96044,
+      "text": " makes",
+      "timestampMs": 96044
+    },
+    {
+      "confidence": 1,
+      "endMs": 97024,
+      "startMs": 96524,
+      "text": " engineering",
+      "timestampMs": 96524
+    },
+    {
+      "confidence": 1,
+      "endMs": 97744,
+      "startMs": 97244,
+      "text": " compound.",
+      "timestampMs": 97244
+    },
+    {
+      "confidence": 1,
+      "endMs": 99024,
+      "startMs": 98524,
+      "text": " Inventions",
+      "timestampMs": 98524
+    },
+    {
+      "confidence": 1,
+      "endMs": 99324,
+      "startMs": 99084,
+      "text": " do",
+      "timestampMs": 99084
+    },
+    {
+      "confidence": 1,
+      "endMs": 99484,
+      "startMs": 99324,
+      "text": " not",
+      "timestampMs": 99324
+    },
+    {
+      "confidence": 1,
+      "endMs": 99884,
+      "startMs": 99484,
+      "text": " cause",
+      "timestampMs": 99484
+    },
+    {
+      "confidence": 1,
+      "endMs": 100384,
+      "startMs": 99884,
+      "text": " revolutions",
+      "timestampMs": 99884
+    },
+    {
+      "confidence": 0.8461914,
+      "endMs": 101024,
+      "startMs": 100524,
+      "text": " alone.",
+      "timestampMs": 100524
+    },
+    {
+      "confidence": 1,
+      "endMs": 101804,
+      "startMs": 101324,
+      "text": " Supply",
+      "timestampMs": 101324
+    },
+    {
+      "confidence": 1,
+      "endMs": 102284,
+      "startMs": 101804,
+      "text": " chains",
+      "timestampMs": 101804
+    },
+    {
+      "confidence": 0.9995117,
+      "endMs": 102609,
+      "startMs": 102284,
+      "text": " do.",
+      "timestampMs": 102284
+    }
+  ],
+  "wordCount": 232
+}
