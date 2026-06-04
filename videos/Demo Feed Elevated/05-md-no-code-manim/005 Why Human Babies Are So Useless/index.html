@@ -1,0 +1,1043 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>BrainJuice</title><style>@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/anton-400.woff2') format('woff2');}@font-face{font-family:'Archivo Black';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/archivo-black-400.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/inter-400.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/inter-700.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/inter-900.woff2') format('woff2');}
+		html,
+		body {
+			background: #000;
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		[data-composition-id] {
+			background: #000;
+			color: #fff;
+			font-family: Inter, system-ui, sans-serif;
+			height: 768px;
+			overflow: hidden;
+			position: relative;
+			width: 392px;
+		}
+
+		.hf-bg-video,
+		.hf-dynamic-mascot-first-bg,
+		.hf-scene,
+		.hf-scene-media,
+		.hf-overlay,
+		.hf-caption-page,
+		.hf-oneword-caption-page,
+		.hf-kinetic-caption-page,
+		.hf-gradient {
+			inset: 0;
+			position: absolute;
+		}
+
+		.hf-bg-video,
+		.hf-dynamic-mascot-first-bg,
+		.hf-scene-media {
+			height: 100%;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-scene-video {
+			object-fit: contain;
+			z-index: 1;
+		}
+
+		.hf-bg-video-contain-top {
+			background: #000;
+			height: auto;
+			inset: auto 0 auto 0;
+			object-fit: contain;
+			top: 88px;
+			width: 100%;
+		}
+
+		.hf-bg-video-contain-center {
+			background: #000;
+			height: 100%;
+			inset: 0;
+			object-fit: contain;
+			object-position: center center;
+			width: 100%;
+		}
+
+		.hf-scene-bg-image {
+			filter: blur(32px) brightness(0.48);
+			object-fit: cover;
+			transform: scale(1.12);
+			z-index: 0;
+		}
+
+		.hf-scene {
+			background: #050505;
+			clip-path: inset(0);
+			overflow: hidden;
+			z-index: 2;
+		}
+
+		.hf-scene.has-media {
+			background: transparent;
+		}
+
+		.hf-scene-content {
+			align-items: center;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			gap: 18px;
+			height: 100%;
+			justify-content: center;
+			padding: 64px 34px 190px;
+			position: relative;
+			text-align: center;
+			text-shadow: 0 4px 18px rgba(0, 0, 0, 0.78);
+			z-index: 4;
+		}
+
+		.hf-scene-title {
+			font-size: 38px;
+			font-weight: 900;
+			letter-spacing: 0;
+			line-height: 1.03;
+			margin: 0;
+			max-width: 340px;
+		}
+
+		.hf-scene-body {
+			color: rgba(255, 255, 255, 0.84);
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 1.25;
+			margin: 0;
+			max-width: 330px;
+		}
+
+		.hf-gradient {
+			background: linear-gradient(to top, rgba(0,0,0,0.82), rgba(0,0,0,0.2) 48%, rgba(0,0,0,0.15));
+			pointer-events: none;
+			z-index: 2;
+		}
+
+		.hf-overlay {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			pointer-events: none;
+			z-index: 5;
+		}
+
+		.hf-overlay img {
+			filter: drop-shadow(0 18px 32px rgba(0, 0, 0, 0.45));
+			max-height: 76%;
+			max-width: 82%;
+			object-fit: contain;
+		}
+
+		.hf-template-MinecraftStickerTemplate::after {
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.16) 46%, rgba(0, 0, 0, 0.08));
+			content: "";
+			inset: 0;
+			pointer-events: none;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.hf-template-MinecraftStickerTemplate .hf-overlay {
+			bottom: auto;
+			height: 100%;
+			right: auto;
+			transform: translate(-50%, -50%);
+			width: 100%;
+		}
+
+		.hf-template-MinecraftStickerTemplate .hf-overlay img {
+			max-height: 76%;
+			max-width: 110%;
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-scene .hf-scene-media,
+		.hf-template-VideoAvatarTemplate .hf-scene .hf-scene-media,
+		.hf-template-NarratedKenBurnsTemplate .hf-scene .hf-scene-media,
+		.hf-template-NarratedOverviewKenBurnsTemplate .hf-scene .hf-scene-media {
+			object-fit: contain;
+		}
+
+		.hf-template-NarratedKineticKenBurnsTemplate .hf-scene-media-frame {
+			aspect-ratio: 1 / 1;
+			clip-path: inset(0);
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			z-index: 1;
+		}
+
+		.hf-template-NarratedKineticKenBurnsTemplate .hf-scene-media-frame .hf-scene-media {
+			height: 100%;
+			inset: 0;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-scene .hf-gradient {
+			background: radial-gradient(circle at 50% 50%, rgba(0,0,0,0) 28%, rgba(0,0,0,0.24) 100%);
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 126px;
+		}
+
+		.hf-caption-page,
+		.hf-oneword-caption-page {
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			pointer-events: none;
+			z-index: 8;
+		}
+
+		.hf-caption-page,
+		.hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 126px;
+		}
+
+		.hf-caption-page.is-centered,
+		.hf-oneword-caption-page.is-centered {
+			align-items: center;
+			padding: 0 24px 0;
+		}
+
+		.hf-caption-text,
+		.hf-oneword-caption-text {
+			letter-spacing: 0;
+			paint-order: stroke;
+			text-align: center;
+			white-space: pre-wrap;
+		}
+
+		.hf-code-panel {
+			background: rgba(8, 10, 16, 0.92);
+			border: 1px solid rgba(255,255,255,0.14);
+			border-radius: 8px;
+			box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+			color: #e6edf3;
+			font-family: "Roboto Mono", "JetBrains Mono", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", monospace;
+			font-size: 14px;
+			line-height: 1.45;
+			max-height: 460px;
+			max-width: 350px;
+			overflow: hidden;
+			padding: 18px;
+			text-align: left;
+			white-space: pre-wrap;
+		}
+
+		.hf-template-CodeHikeTemplate {
+			background: #232136;
+			font-family: Inter, system-ui, sans-serif;
+		}
+
+		.hf-template-CodeHikeTemplate .hf-scene {
+			background: transparent;
+		}
+
+		.hf-template-CodeHikeTemplate .hf-gradient,
+		.hf-template-CodeHikeTemplate .hf-scene-content {
+			display: none;
+		}
+
+		.hf-codehike-code-stage {
+			align-items: flex-start;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			justify-content: center;
+			padding: 32px;
+			position: relative;
+			width: 100%;
+			z-index: 3;
+		}
+
+		.hf-codehike-pre {
+			background: transparent;
+			font-family: "Roboto Mono", "JetBrains Mono", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", monospace;
+			margin: 0;
+			overflow: visible;
+			padding: 0;
+			position: relative;
+			tab-size: 3;
+			white-space: pre;
+			width: 100%;
+		}
+
+		.hf-codehike-token {
+			display: inline-block;
+			left: 0;
+			position: absolute;
+			top: 0;
+			white-space: pre;
+		}
+
+		.hf-codehike-token-transition,
+		.hf-codehike-token-exit {
+			will-change: color, opacity, transform;
+		}
+
+		.hf-codehike-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			inset: 0;
+			justify-content: center;
+			padding: 0 24px 92px;
+			pointer-events: none;
+			position: absolute;
+			z-index: 8;
+		}
+
+		.hf-codehike-caption-page.is-emphasis {
+			align-items: center;
+			padding: 0 34px 46px;
+		}
+
+		.hf-codehike-caption-text {
+			align-content: flex-start;
+			align-items: baseline;
+			display: flex;
+			flex-wrap: wrap;
+			font-family: Inter, system-ui, sans-serif;
+			font-size: 22px;
+			font-weight: 650;
+			gap: 4px 7px;
+			justify-content: center;
+			letter-spacing: 0;
+			line-height: 1.14;
+			max-width: 260px;
+			min-height: 52px;
+			text-align: center;
+			text-shadow: 0 3px 16px rgba(0, 0, 0, 0.32);
+		}
+
+		.hf-codehike-caption-page.is-emphasis .hf-codehike-caption-text {
+			font-size: 42px;
+			font-weight: 820;
+			gap: 8px 13px;
+			line-height: 1.04;
+			max-width: 330px;
+			min-height: 92px;
+			transform: scale(1);
+		}
+
+		.hf-codehike-caption-text span {
+			color: #777788;
+			display: inline-block;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-gradient {
+			display: none;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-dynamic-mascot-first-bg {
+			z-index: 0;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-scene {
+			z-index: 2;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-overlay {
+			display: block;
+			inset: 0 !important;
+			transform: none;
+			z-index: 5;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-overlay img {
+			bottom: -5%;
+			filter: contrast(1.2) drop-shadow(0 0 5px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.75)) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
+			height: 450px !important;
+			left: -5%;
+			max-height: none;
+			max-width: none;
+			object-fit: contain;
+			position: absolute;
+			transform: scaleX(-1);
+			transform-origin: bottom center;
+			width: 450px !important;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-caption-page {
+			align-items: center;
+			padding: 0 30px;
+			z-index: 4;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-caption-text {
+			-webkit-text-stroke: 5px #111;
+			color: #ffef00;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 38px;
+			font-weight: 400;
+			line-height: 0.95;
+			max-width: 80%;
+			paint-order: stroke fill;
+			text-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+			text-transform: uppercase;
+			transform: translateY(-10px);
+		}
+
+		.hf-template-GameplayQATemplate .hf-bg-video {
+			z-index: 0;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-gradient {
+			background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.08) 18%, rgba(0, 0, 0, 0.18) 42%, rgba(0, 0, 0, 0.5) 76%, rgba(0, 0, 0, 0.72) 100%);
+			inset: 0;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.hf-template-GameplayQATemplate .hf-overlay {
+			display: block;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left,
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right {
+			inset: 0 !important;
+			overflow: hidden;
+			z-index: 3;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left img,
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right img {
+			bottom: -4%;
+			filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.4));
+			height: auto !important;
+			max-height: none;
+			max-width: none;
+			position: absolute;
+			width: 46% !important;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left img {
+			left: 10px;
+			transform-origin: 30% 80%;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right img {
+			right: 10px;
+			transform-origin: 70% 80%;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration {
+			z-index: 4;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration img {
+			border-radius: 12px;
+			filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.35));
+			height: 214px !important;
+			object-fit: contain;
+			object-position: center center;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration-cutout img {
+			border-radius: 0 !important;
+			filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.45));
+			object-fit: contain;
+		}
+
+		.hf-template-GameplayQATemplate .hf-caption-page {
+			align-items: center;
+			padding: 0 30px;
+			z-index: 5;
+		}
+
+		.hf-template-GameplayQATemplate .hf-caption-text {
+			-webkit-text-stroke: 5px #111;
+			color: #ffef00;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 38px;
+			font-weight: 400;
+			line-height: 0.95;
+			max-width: 80%;
+			paint-order: stroke fill;
+			text-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+			text-transform: uppercase;
+			transform: translateY(-10px);
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-bg-video {
+			bottom: auto;
+			height: 402px;
+			inset: auto auto 0 0;
+			object-position: center 70%;
+			top: auto;
+			transform: scale(1.04, 0.86);
+			transform-origin: center bottom;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-scene {
+			bottom: auto;
+			height: 422px;
+			inset: 0 auto auto 0;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-scene-content,
+		.hf-template-SplitBrainrotTemplate .hf-gradient {
+			display: none;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 344px;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-caption-text {
+			max-width: 346px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-gradient,
+		.hf-template-NarratedSlideshowTemplate .hf-scene-content {
+			display: none;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-scene,
+		.hf-template-NarratedSlideshowTemplate .hf-narrated-slide {
+			background: #111;
+		}
+
+		.hf-narrated-slide {
+			inset: 0;
+			overflow: hidden;
+			position: absolute;
+		}
+
+		.hf-narrated-slide-bg {
+			background-position: center;
+			background-size: cover;
+			filter: blur(24px) brightness(0.75);
+			height: 100%;
+			inset: 0;
+			position: absolute;
+			transform: scale(1.15);
+			width: 100%;
+		}
+
+		.hf-narrated-title {
+			align-items: center;
+			-webkit-text-stroke: 2px #000;
+			box-sizing: border-box;
+			color: #fff;
+			display: flex;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 22px;
+			font-weight: 900;
+			height: auto;
+			justify-content: center;
+			left: 40px;
+			letter-spacing: 0;
+			line-height: 1.15;
+			padding: 16px 0 8px;
+			paint-order: stroke fill;
+			position: absolute;
+			right: 40px;
+			text-align: center;
+			text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+			top: 160px;
+			z-index: 2;
+		}
+
+		.hf-persistent-title-overlay {
+			inset: 0;
+			pointer-events: none;
+			position: absolute;
+			z-index: 6;
+		}
+
+		.hf-narrated-strip {
+			display: flex;
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 274px;
+			z-index: 1;
+		}
+
+		.hf-narrated-strip-image {
+			display: block;
+			height: auto;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-caption-page {
+			padding: 0 48px 164px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 48px 164px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-caption-text {
+			-webkit-text-stroke: 2px #000;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 24px;
+			line-height: 1.15;
+			max-width: 100%;
+			text-shadow: none;
+		}
+
+		.hf-kinetic-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 115px;
+			pointer-events: none;
+			z-index: 5;
+		}
+
+		.hf-kinetic-caption-page.is-centered {
+			align-items: center;
+			padding-bottom: 0;
+		}
+
+		.hf-kinetic-caption-line {
+			align-items: baseline;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 4px 6px;
+			justify-content: center;
+			max-width: 72%;
+		}
+
+		.hf-kinetic-caption-token {
+			display: inline-block;
+			line-height: 1.15;
+			opacity: 0;
+			paint-order: stroke;
+			text-transform: uppercase;
+		}
+	
+		.hf-caption-text {
+			-webkit-text-stroke: 2px #000;
+			color: #fff;
+			font-family: Anton, Impact, 'Arial Black', sans-serif;
+			font-size: 26px;
+			font-weight: 900;
+			line-height: 1.08;
+			max-width: 255px;
+			text-shadow: 0 4px 12px rgba(0,0,0,0.65);
+			text-transform: none;
+		}
+		.hf-narrated-title {
+			font-family: Anton, Impact, 'Arial Black', sans-serif;
+		}
+	
+/* hf-demo-feed-cover-fix */
+video.scene.hf-scene-media,
+img.scene.hf-scene-media,
+.hf-scene > video.hf-scene-media,
+.hf-scene > img.hf-scene-media,
+.hf-template-AnimatedVideoTemplate .hf-scene .hf-scene-media,
+.hf-template-VideoAvatarTemplate .hf-scene .hf-scene-media,
+.hf-template-NarratedKenBurnsTemplate .hf-scene .hf-scene-media,
+.hf-template-NarratedOverviewKenBurnsTemplate .hf-scene .hf-scene-media {
+	height: 100% !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+	width: 100% !important;
+}
+</style><script data-brainjuice-dev-script="autoplay-debug">
+		(() => {
+			const params = new URLSearchParams(window.location.search);
+			if (!params.has("debugAutoplay")) return;
+			if (window.__brainjuiceHyperFramesAutoplayDebugInstalled) return;
+			if (typeof HTMLMediaElement === "undefined") return;
+
+			window.__brainjuiceHyperFramesAutoplayDebugInstalled = true;
+
+			const originalPlay = HTMLMediaElement.prototype.play;
+			HTMLMediaElement.prototype.play = function playWithAutoplayFailureLogging(...args) {
+				const result = originalPlay.apply(this, args);
+				if (!result || typeof result.catch !== "function") return result;
+
+				return result.catch((error) => {
+					if (error?.name === "NotAllowedError") {
+						console.warn("[Brainjuice HyperFrames iframe] autoplay blocked", {
+							id: this.id || undefined,
+							message: error.message,
+							src: this.currentSrc || this.src || undefined,
+							tag: this.tagName.toLowerCase(),
+						});
+					}
+
+					throw error;
+				});
+			};
+		})();
+	</script></head><body><div data-composition-id="brainjuice-narrated-slideshow-demo-feed-elevated-v2-5" data-duration="90.690" data-height="768" data-start="0" data-width="392" class="hf-template-NarratedSlideshowTemplate" id="brainjuice-narrated-slideshow-demo-feed-elevated-v2-5"><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="4.580" data-start="0" data-track-index="10" id="hf-scene-0"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-1.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-1.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="4.020" data-start="4.580" data-track-index="11" id="hf-scene-1"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-2.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-2.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.500" data-start="8.600" data-track-index="12" id="hf-scene-2"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-3.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-3.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.470" data-start="12.100" data-track-index="13" id="hf-scene-3"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-4.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-4.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.970" data-start="14.570" data-track-index="14" id="hf-scene-4"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-5.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-5.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.950" data-start="18.540" data-track-index="15" id="hf-scene-5"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-6.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-6.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.520" data-start="22.490" data-track-index="16" id="hf-scene-6"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-7.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-7.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.970" data-start="26.010" data-track-index="17" id="hf-scene-7"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-8.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-8.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.870" data-start="28.980" data-track-index="18" id="hf-scene-8"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-9.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-9.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.700" data-start="31.850" data-track-index="19" id="hf-scene-9"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-10.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-10.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.580" data-start="35.550" data-track-index="20" id="hf-scene-10"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-11.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-11.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.780" data-start="38.130" data-track-index="21" id="hf-scene-11"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-12.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-12.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="5.100" data-start="40.910" data-track-index="22" id="hf-scene-12"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-13.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-13.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.160" data-start="46.010" data-track-index="23" id="hf-scene-13"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-14.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-14.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="4.530" data-start="49.170" data-track-index="24" id="hf-scene-14"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-15.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-15.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="4.770" data-start="53.700" data-track-index="25" id="hf-scene-15"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-16.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-16.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.490" data-start="58.470" data-track-index="26" id="hf-scene-16"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-17.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-17.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.760" data-start="60.960" data-track-index="27" id="hf-scene-17"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-18.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-18.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="1.830" data-start="64.720" data-track-index="28" id="hf-scene-18"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-19.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-19.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.250" data-start="66.550" data-track-index="29" id="hf-scene-19"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-20.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-20.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.460" data-start="69.800" data-track-index="30" id="hf-scene-20"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-21.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-21.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.430" data-start="72.260" data-track-index="31" id="hf-scene-21"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-22.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-22.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.500" data-start="75.690" data-track-index="32" id="hf-scene-22"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-23.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-23.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.400" data-start="78.190" data-track-index="33" id="hf-scene-23"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-24.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-24.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="2.620" data-start="80.590" data-track-index="34" id="hf-scene-24"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-25.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-25.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.930" data-start="83.210" data-track-index="35" id="hf-scene-25"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-26.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-26.png"/></div></div></div><div class="clip hf-scene hf-narrated-slideshow-scene" data-duration="3.550" data-start="87.140" data-track-index="36" id="hf-scene-26"><div class="hf-narrated-slide"><div aria-hidden="true" class="hf-narrated-slide-bg" data-layout-allow-overflow="" style="background-image:url(scene-27.png)"></div><div class="hf-narrated-title">The Problem That Created Helpless Babies</div><div class="hf-narrated-strip"><img alt="" class="hf-narrated-strip-image" src="assets/scene-27.png"/></div></div></div><audio crossorigin="anonymous" data-duration="89.690" data-end="90.190" data-start="0.500" data-track-index="600" id="hf-global-audio" src="assets/audio.mp3"></audio><div class="clip hf-caption-page" data-duration="1.220" data-layout-allow-overflow="" data-start="0.500" data-track-index="900" id="hf-caption-page-0"><div class="hf-caption-text"><span id="hf-caption-0-0">Human</span> <span id="hf-caption-0-1">babies</span> <span id="hf-caption-0-2">arrive</span></div></div><div class="clip hf-caption-page" data-duration="1.050" data-layout-allow-overflow="" data-start="1.720" data-track-index="901" id="hf-caption-page-1"><div class="hf-caption-text"> <span id="hf-caption-1-0">with</span> <span id="hf-caption-1-1">the</span> <span id="hf-caption-1-2">coordination</span></div></div><div class="clip hf-caption-page" data-duration="0.540" data-layout-allow-overflow="" data-start="2.770" data-track-index="902" id="hf-caption-page-2"><div class="hf-caption-text"> <span id="hf-caption-2-0">of</span> <span id="hf-caption-2-1">a</span> <span id="hf-caption-2-2">badly</span></div></div><div class="clip hf-caption-page" data-duration="1.270" data-layout-allow-overflow="" data-start="3.310" data-track-index="903" id="hf-caption-page-3"><div class="hf-caption-text"> <span id="hf-caption-3-0">packed</span> <span id="hf-caption-3-1">nervous</span> <span id="hf-caption-3-2">system.</span></div></div><div class="clip hf-caption-page" data-duration="0.880" data-layout-allow-overflow="" data-start="4.580" data-track-index="904" id="hf-caption-page-4"><div class="hf-caption-text"> <span id="hf-caption-4-0">A</span> <span id="hf-caption-4-1">foal</span> <span id="hf-caption-4-2">stands</span></div></div><div class="clip hf-caption-page" data-duration="0.830" data-layout-allow-overflow="" data-start="5.460" data-track-index="905" id="hf-caption-page-5"><div class="hf-caption-text"> <span id="hf-caption-5-0">in</span> <span id="hf-caption-5-1">hours.</span></div></div><div class="clip hf-caption-page" data-duration="1.030" data-layout-allow-overflow="" data-start="6.290" data-track-index="906" id="hf-caption-page-6"><div class="hf-caption-text"> <span id="hf-caption-6-0">A</span> <span id="hf-caption-6-1">human</span> <span id="hf-caption-6-2">newborn</span></div></div><div class="clip hf-caption-page" data-duration="0.710" data-layout-allow-overflow="" data-start="7.320" data-track-index="907" id="hf-caption-page-7"><div class="hf-caption-text"> <span id="hf-caption-7-0">cannot</span> <span id="hf-caption-7-1">lift</span> <span id="hf-caption-7-2">its</span></div></div><div class="clip hf-caption-page" data-duration="0.570" data-layout-allow-overflow="" data-start="8.030" data-track-index="908" id="hf-caption-page-8"><div class="hf-caption-text"> <span id="hf-caption-8-0">head.</span></div></div><div class="clip hf-caption-page" data-duration="1.450" data-layout-allow-overflow="" data-start="8.600" data-track-index="909" id="hf-caption-page-9"><div class="hf-caption-text"> <span id="hf-caption-9-0">Same</span> <span id="hf-caption-9-1">mammal</span> <span id="hf-caption-9-2">class.</span></div></div><div class="clip hf-caption-page" data-duration="1.080" data-layout-allow-overflow="" data-start="10.050" data-track-index="910" id="hf-caption-page-10"><div class="hf-caption-text"> <span id="hf-caption-10-0">Completely</span> <span id="hf-caption-10-1">different</span> <span id="hf-caption-10-2">launch</span></div></div><div class="clip hf-caption-page" data-duration="0.970" data-layout-allow-overflow="" data-start="11.130" data-track-index="911" id="hf-caption-page-11"><div class="hf-caption-text"> <span id="hf-caption-11-0">condition.</span></div></div><div class="clip hf-caption-page" data-duration="1.260" data-layout-allow-overflow="" data-start="12.100" data-track-index="912" id="hf-caption-page-12"><div class="hf-caption-text"> <span id="hf-caption-12-0">The</span> <span id="hf-caption-12-1">old</span> <span id="hf-caption-12-2">explanation</span></div></div><div class="clip hf-caption-page" data-duration="0.550" data-layout-allow-overflow="" data-start="13.360" data-track-index="913" id="hf-caption-page-13"><div class="hf-caption-text"> <span id="hf-caption-13-0">points</span> <span id="hf-caption-13-1">to</span> <span id="hf-caption-13-2">the</span></div></div><div class="clip hf-caption-page" data-duration="0.660" data-layout-allow-overflow="" data-start="13.910" data-track-index="914" id="hf-caption-page-14"><div class="hf-caption-text"> <span id="hf-caption-14-0">pelvis.</span></div></div><div class="clip hf-caption-page" data-duration="1.470" data-layout-allow-overflow="" data-start="14.570" data-track-index="915" id="hf-caption-page-15"><div class="hf-caption-text"> <span id="hf-caption-15-0">Upright</span> <span id="hf-caption-15-1">walking</span> <span id="hf-caption-15-2">reshapes</span></div></div><div class="clip hf-caption-page" data-duration="0.770" data-layout-allow-overflow="" data-start="16.040" data-track-index="916" id="hf-caption-page-16"><div class="hf-caption-text"> <span id="hf-caption-16-0">the</span> <span id="hf-caption-16-1">birth</span> <span id="hf-caption-16-2">canal</span></div></div><div class="clip hf-caption-page" data-duration="0.800" data-layout-allow-overflow="" data-start="16.810" data-track-index="917" id="hf-caption-page-17"><div class="hf-caption-text"> <span id="hf-caption-17-0">into</span> <span id="hf-caption-17-1">a</span> <span id="hf-caption-17-2">narrow,</span></div></div><div class="clip hf-caption-page" data-duration="0.930" data-layout-allow-overflow="" data-start="17.610" data-track-index="918" id="hf-caption-page-18"><div class="hf-caption-text"> <span id="hf-caption-18-0">twisted</span> <span id="hf-caption-18-1">route.</span></div></div><div class="clip hf-caption-page" data-duration="0.530" data-layout-allow-overflow="" data-start="18.540" data-track-index="919" id="hf-caption-page-19"><div class="hf-caption-text"> <span id="hf-caption-19-0">At</span> <span id="hf-caption-19-1">the</span> <span id="hf-caption-19-2">same</span></div></div><div class="clip hf-caption-page" data-duration="1.040" data-layout-allow-overflow="" data-start="19.070" data-track-index="920" id="hf-caption-page-20"><div class="hf-caption-text"> <span id="hf-caption-20-0">time,</span> <span id="hf-caption-20-1">the</span> <span id="hf-caption-20-2">human</span></div></div><div class="clip hf-caption-page" data-duration="1.100" data-layout-allow-overflow="" data-start="20.110" data-track-index="921" id="hf-caption-page-21"><div class="hf-caption-text"> <span id="hf-caption-21-0">brain</span> <span id="hf-caption-21-1">expands</span> <span id="hf-caption-21-2">into</span></div></div><div class="clip hf-caption-page" data-duration="1.280" data-layout-allow-overflow="" data-start="21.210" data-track-index="922" id="hf-caption-page-22"><div class="hf-caption-text"> <span id="hf-caption-22-0">an</span> <span id="hf-caption-22-1">expensive</span> <span id="hf-caption-22-2">organ.</span></div></div><div class="clip hf-caption-page" data-duration="1" data-layout-allow-overflow="" data-start="22.490" data-track-index="923" id="hf-caption-page-23"><div class="hf-caption-text"> <span id="hf-caption-23-0">A</span> <span id="hf-caption-23-1">larger</span> <span id="hf-caption-23-2">skull</span></div></div><div class="clip hf-caption-page" data-duration="0.770" data-layout-allow-overflow="" data-start="23.490" data-track-index="924" id="hf-caption-page-24"><div class="hf-caption-text"> <span id="hf-caption-24-0">and</span> <span id="hf-caption-24-1">a</span> <span id="hf-caption-24-2">narrower</span></div></div><div class="clip hf-caption-page" data-duration="1" data-layout-allow-overflow="" data-start="24.260" data-track-index="925" id="hf-caption-page-25"><div class="hf-caption-text"> <span id="hf-caption-25-0">exit</span> <span id="hf-caption-25-1">collide</span> <span id="hf-caption-25-2">in</span></div></div><div class="clip hf-caption-page" data-duration="0.750" data-layout-allow-overflow="" data-start="25.260" data-track-index="926" id="hf-caption-page-26"><div class="hf-caption-text"> <span id="hf-caption-26-0">one</span> <span id="hf-caption-26-1">body.</span></div></div><div class="clip hf-caption-page" data-duration="0.970" data-layout-allow-overflow="" data-start="26.010" data-track-index="927" id="hf-caption-page-27"><div class="hf-caption-text"> <span id="hf-caption-27-0">Birth</span> <span id="hf-caption-27-1">moves</span> <span id="hf-caption-27-2">earlier</span></div></div><div class="clip hf-caption-page" data-duration="1.110" data-layout-allow-overflow="" data-start="26.980" data-track-index="928" id="hf-caption-page-28"><div class="hf-caption-text"> <span id="hf-caption-28-0">because</span> <span id="hf-caption-28-1">waiting</span> <span id="hf-caption-28-2">longer</span></div></div><div class="clip hf-caption-page" data-duration="0.890" data-layout-allow-overflow="" data-start="28.090" data-track-index="929" id="hf-caption-page-29"><div class="hf-caption-text"> <span id="hf-caption-29-0">gets</span> <span id="hf-caption-29-1">dangerous.</span></div></div><div class="clip hf-caption-page" data-duration="0.770" data-layout-allow-overflow="" data-start="28.980" data-track-index="930" id="hf-caption-page-30"><div class="hf-caption-text"> <span id="hf-caption-30-0">The</span> <span id="hf-caption-30-1">baby</span> <span id="hf-caption-30-2">leaves</span></div></div><div class="clip hf-caption-page" data-duration="0.810" data-layout-allow-overflow="" data-start="29.750" data-track-index="931" id="hf-caption-page-31"><div class="hf-caption-text"> <span id="hf-caption-31-0">the</span> <span id="hf-caption-31-1">womb</span> <span id="hf-caption-31-2">before</span></div></div><div class="clip hf-caption-page" data-duration="0.650" data-layout-allow-overflow="" data-start="30.560" data-track-index="932" id="hf-caption-page-32"><div class="hf-caption-text"> <span id="hf-caption-32-0">the</span> <span id="hf-caption-32-1">motor</span> <span id="hf-caption-32-2">system</span></div></div><div class="clip hf-caption-page" data-duration="0.640" data-layout-allow-overflow="" data-start="31.210" data-track-index="933" id="hf-caption-page-33"><div class="hf-caption-text"> <span id="hf-caption-33-0">is</span> <span id="hf-caption-33-1">ready.</span></div></div><div class="clip hf-caption-page" data-duration="0.780" data-layout-allow-overflow="" data-start="31.850" data-track-index="934" id="hf-caption-page-34"><div class="hf-caption-text"> <span id="hf-caption-34-0">The</span> <span id="hf-caption-34-1">skull</span> <span id="hf-caption-34-2">is</span></div></div><div class="clip hf-caption-page" data-duration="0.610" data-layout-allow-overflow="" data-start="32.630" data-track-index="935" id="hf-caption-page-35"><div class="hf-caption-text"> <span id="hf-caption-35-0">flexible.</span></div></div><div class="clip hf-caption-page" data-duration="0.640" data-layout-allow-overflow="" data-start="33.240" data-track-index="936" id="hf-caption-page-36"><div class="hf-caption-text"> <span id="hf-caption-36-0">The</span> <span id="hf-caption-36-1">neck</span> <span id="hf-caption-36-2">is</span></div></div><div class="clip hf-caption-page" data-duration="0.380" data-layout-allow-overflow="" data-start="33.880" data-track-index="937" id="hf-caption-page-37"><div class="hf-caption-text"> <span id="hf-caption-37-0">weak.</span></div></div><div class="clip hf-caption-page" data-duration="0.850" data-layout-allow-overflow="" data-start="34.260" data-track-index="938" id="hf-caption-page-38"><div class="hf-caption-text"> <span id="hf-caption-38-0">The</span> <span id="hf-caption-38-1">hands</span> <span id="hf-caption-38-2">cannot</span></div></div><div class="clip hf-caption-page" data-duration="0.440" data-layout-allow-overflow="" data-start="35.110" data-track-index="939" id="hf-caption-page-39"><div class="hf-caption-text"> <span id="hf-caption-39-0">help.</span></div></div><div class="clip hf-caption-page" data-duration="1.030" data-layout-allow-overflow="" data-start="35.550" data-track-index="940" id="hf-caption-page-40"><div class="hf-caption-text"> <span id="hf-caption-40-0">Helplessness</span> <span id="hf-caption-40-1">looks</span> <span id="hf-caption-40-2">like</span></div></div><div class="clip hf-caption-page" data-duration="0.670" data-layout-allow-overflow="" data-start="36.580" data-track-index="941" id="hf-caption-page-41"><div class="hf-caption-text"> <span id="hf-caption-41-0">a</span> <span id="hf-caption-41-1">defect</span> <span id="hf-caption-41-2">from</span></div></div><div class="clip hf-caption-page" data-duration="0.880" data-layout-allow-overflow="" data-start="37.250" data-track-index="942" id="hf-caption-page-42"><div class="hf-caption-text"> <span id="hf-caption-42-0">the</span> <span id="hf-caption-42-1">outside.</span></div></div><div class="clip hf-caption-page" data-duration="0.840" data-layout-allow-overflow="" data-start="38.130" data-track-index="943" id="hf-caption-page-43"><div class="hf-caption-text"> <span id="hf-caption-43-0">From</span> <span id="hf-caption-43-1">the</span> <span id="hf-caption-43-2">inside,</span></div></div><div class="clip hf-caption-page" data-duration="0.900" data-layout-allow-overflow="" data-start="38.970" data-track-index="944" id="hf-caption-page-44"><div class="hf-caption-text"> <span id="hf-caption-44-0">it</span> <span id="hf-caption-44-1">moves</span> <span id="hf-caption-44-2">development</span></div></div><div class="clip hf-caption-page" data-duration="0.720" data-layout-allow-overflow="" data-start="39.870" data-track-index="945" id="hf-caption-page-45"><div class="hf-caption-text"> <span id="hf-caption-45-0">into</span> <span id="hf-caption-45-1">the</span> <span id="hf-caption-45-2">social</span></div></div><div class="clip hf-caption-page" data-duration="0.320" data-layout-allow-overflow="" data-start="40.590" data-track-index="946" id="hf-caption-page-46"><div class="hf-caption-text"> <span id="hf-caption-46-0">world.</span></div></div><div class="clip hf-caption-page" data-duration="0.830" data-layout-allow-overflow="" data-start="40.910" data-track-index="947" id="hf-caption-page-47"><div class="hf-caption-text"> <span id="hf-caption-47-0">The</span> <span id="hf-caption-47-1">brain</span> <span id="hf-caption-47-2">keeps</span></div></div><div class="clip hf-caption-page" data-duration="1.380" data-layout-allow-overflow="" data-start="41.740" data-track-index="948" id="hf-caption-page-48"><div class="hf-caption-text"> <span id="hf-caption-48-0">wiring</span> <span id="hf-caption-48-1">after</span> <span id="hf-caption-48-2">birth,</span></div></div><div class="clip hf-caption-page" data-duration="1.500" data-layout-allow-overflow="" data-start="43.120" data-track-index="949" id="hf-caption-page-49"><div class="hf-caption-text"> <span id="hf-caption-49-0">under</span> <span id="hf-caption-49-1">faces,</span> <span id="hf-caption-49-2">voices,</span></div></div><div class="clip hf-caption-page" data-duration="1.390" data-layout-allow-overflow="" data-start="44.620" data-track-index="950" id="hf-caption-page-50"><div class="hf-caption-text"> <span id="hf-caption-50-0">touch,</span> <span id="hf-caption-50-1">and</span> <span id="hf-caption-50-2">language.</span></div></div><div class="clip hf-caption-page" data-duration="1.080" data-layout-allow-overflow="" data-start="46.010" data-track-index="951" id="hf-caption-page-51"><div class="hf-caption-text"> <span id="hf-caption-51-0">That</span> <span id="hf-caption-51-1">long</span> <span id="hf-caption-51-2">unfinished</span></div></div><div class="clip hf-caption-page" data-duration="1.170" data-layout-allow-overflow="" data-start="47.090" data-track-index="952" id="hf-caption-page-52"><div class="hf-caption-text"> <span id="hf-caption-52-0">period</span> <span id="hf-caption-52-1">changes</span> <span id="hf-caption-52-2">the</span></div></div><div class="clip hf-caption-page" data-duration="0.910" data-layout-allow-overflow="" data-start="48.260" data-track-index="953" id="hf-caption-page-53"><div class="hf-caption-text"> <span id="hf-caption-53-0">entire</span> <span id="hf-caption-53-1">group.</span></div></div><div class="clip hf-caption-page" data-duration="0.960" data-layout-allow-overflow="" data-start="49.170" data-track-index="954" id="hf-caption-page-54"><div class="hf-caption-text"> <span id="hf-caption-54-0">One</span> <span id="hf-caption-54-1">adult</span> <span id="hf-caption-54-2">cannot</span></div></div><div class="clip hf-caption-page" data-duration="1.640" data-layout-allow-overflow="" data-start="50.130" data-track-index="955" id="hf-caption-page-55"><div class="hf-caption-text"> <span id="hf-caption-55-0">easily</span> <span id="hf-caption-55-1">feed,</span> <span id="hf-caption-55-2">protect,</span></div></div><div class="clip hf-caption-page" data-duration="1.020" data-layout-allow-overflow="" data-start="51.770" data-track-index="956" id="hf-caption-page-56"><div class="hf-caption-text"> <span id="hf-caption-56-0">carry,</span> <span id="hf-caption-56-1">and</span> <span id="hf-caption-56-2">teach</span></div></div><div class="clip hf-caption-page" data-duration="0.910" data-layout-allow-overflow="" data-start="52.790" data-track-index="957" id="hf-caption-page-57"><div class="hf-caption-text"> <span id="hf-caption-57-0">for</span> <span id="hf-caption-57-1">years</span> <span id="hf-caption-57-2">alone.</span></div></div><div class="clip hf-caption-page" data-duration="1.240" data-layout-allow-overflow="" data-start="53.700" data-track-index="958" id="hf-caption-page-58"><div class="hf-caption-text"> <span id="hf-caption-58-0">Human</span> <span id="hf-caption-58-1">childhood</span> <span id="hf-caption-58-2">pulls</span></div></div><div class="clip hf-caption-page" data-duration="1.540" data-layout-allow-overflow="" data-start="54.940" data-track-index="959" id="hf-caption-page-59"><div class="hf-caption-text"> <span id="hf-caption-59-0">in</span> <span id="hf-caption-59-1">fathers,</span> <span id="hf-caption-59-2">siblings,</span></div></div><div class="clip hf-caption-page" data-duration="1.470" data-layout-allow-overflow="" data-start="56.480" data-track-index="960" id="hf-caption-page-60"><div class="hf-caption-text"> <span id="hf-caption-60-0">grandparents,</span> <span id="hf-caption-60-1">and</span> <span id="hf-caption-60-2">unrelated</span></div></div><div class="clip hf-caption-page" data-duration="0.520" data-layout-allow-overflow="" data-start="57.950" data-track-index="961" id="hf-caption-page-61"><div class="hf-caption-text"> <span id="hf-caption-61-0">helpers.</span></div></div><div class="clip hf-caption-page" data-duration="1.170" data-layout-allow-overflow="" data-start="58.470" data-track-index="962" id="hf-caption-page-62"><div class="hf-caption-text"> <span id="hf-caption-62-0">Biologists</span> <span id="hf-caption-62-1">call</span> <span id="hf-caption-62-2">this</span></div></div><div class="clip hf-caption-page" data-duration="1.320" data-layout-allow-overflow="" data-start="59.640" data-track-index="963" id="hf-caption-page-63"><div class="hf-caption-text"> <span id="hf-caption-63-0">cooperative</span> <span id="hf-caption-63-1">breeding.</span></div></div><div class="clip hf-caption-page" data-duration="0.810" data-layout-allow-overflow="" data-start="60.960" data-track-index="964" id="hf-caption-page-64"><div class="hf-caption-text"> <span id="hf-caption-64-0">The</span> <span id="hf-caption-64-1">baby</span> <span id="hf-caption-64-2">becomes</span></div></div><div class="clip hf-caption-page" data-duration="0.840" data-layout-allow-overflow="" data-start="61.770" data-track-index="965" id="hf-caption-page-65"><div class="hf-caption-text"> <span id="hf-caption-65-0">a</span> <span id="hf-caption-65-1">social</span> <span id="hf-caption-65-2">engine</span></div></div><div class="clip hf-caption-page" data-duration="1.040" data-layout-allow-overflow="" data-start="62.610" data-track-index="966" id="hf-caption-page-66"><div class="hf-caption-text"> <span id="hf-caption-66-0">by</span> <span id="hf-caption-66-1">being</span> <span id="hf-caption-66-2">impossible</span></div></div><div class="clip hf-caption-page" data-duration="1.070" data-layout-allow-overflow="" data-start="63.650" data-track-index="967" id="hf-caption-page-67"><div class="hf-caption-text"> <span id="hf-caption-67-0">to</span> <span id="hf-caption-67-1">raise</span> <span id="hf-caption-67-2">solo.</span></div></div><div class="clip hf-caption-page" data-duration="0.670" data-layout-allow-overflow="" data-start="64.720" data-track-index="968" id="hf-caption-page-68"><div class="hf-caption-text"> <span id="hf-caption-68-0">The</span> <span id="hf-caption-68-1">cost</span> <span id="hf-caption-68-2">is</span></div></div><div class="clip hf-caption-page" data-duration="1.160" data-layout-allow-overflow="" data-start="65.390" data-track-index="969" id="hf-caption-page-69"><div class="hf-caption-text"> <span id="hf-caption-69-0">years</span> <span id="hf-caption-69-1">of</span> <span id="hf-caption-69-2">dependence.</span></div></div><div class="clip hf-caption-page" data-duration="1.110" data-layout-allow-overflow="" data-start="66.550" data-track-index="970" id="hf-caption-page-70"><div class="hf-caption-text"> <span id="hf-caption-70-0">The</span> <span id="hf-caption-70-1">payoff</span> <span id="hf-caption-70-2">is</span></div></div><div class="clip hf-caption-page" data-duration="1" data-layout-allow-overflow="" data-start="67.660" data-track-index="971" id="hf-caption-page-71"><div class="hf-caption-text"> <span id="hf-caption-71-0">a</span> <span id="hf-caption-71-1">brain</span> <span id="hf-caption-71-2">shaped</span></div></div><div class="clip hf-caption-page" data-duration="0.630" data-layout-allow-overflow="" data-start="68.660" data-track-index="972" id="hf-caption-page-72"><div class="hf-caption-text"> <span id="hf-caption-72-0">by</span> <span id="hf-caption-72-1">its</span> <span id="hf-caption-72-2">local</span></div></div><div class="clip hf-caption-page" data-duration="0.510" data-layout-allow-overflow="" data-start="69.290" data-track-index="973" id="hf-caption-page-73"><div class="hf-caption-text"> <span id="hf-caption-73-0">world.</span></div></div><div class="clip hf-caption-page" data-duration="1.130" data-layout-allow-overflow="" data-start="69.800" data-track-index="974" id="hf-caption-page-74"><div class="hf-caption-text"> <span id="hf-caption-74-0">Other</span> <span id="hf-caption-74-1">animals</span> <span id="hf-caption-74-2">arrive</span></div></div><div class="clip hf-caption-page" data-duration="0.620" data-layout-allow-overflow="" data-start="70.930" data-track-index="975" id="hf-caption-page-75"><div class="hf-caption-text"> <span id="hf-caption-75-0">ready</span> <span id="hf-caption-75-1">for</span> <span id="hf-caption-75-2">one</span></div></div><div class="clip hf-caption-page" data-duration="0.710" data-layout-allow-overflow="" data-start="71.550" data-track-index="976" id="hf-caption-page-76"><div class="hf-caption-text"> <span id="hf-caption-76-0">environment.</span></div></div><div class="clip hf-caption-page" data-duration="1.170" data-layout-allow-overflow="" data-start="72.260" data-track-index="977" id="hf-caption-page-77"><div class="hf-caption-text"> <span id="hf-caption-77-0">Humans</span> <span id="hf-caption-77-1">arrive</span> <span id="hf-caption-77-2">ready</span></div></div><div class="clip hf-caption-page" data-duration="0.560" data-layout-allow-overflow="" data-start="73.430" data-track-index="978" id="hf-caption-page-78"><div class="hf-caption-text"> <span id="hf-caption-78-0">to</span> <span id="hf-caption-78-1">be</span> <span id="hf-caption-78-2">trained</span></div></div><div class="clip hf-caption-page" data-duration="0.960" data-layout-allow-overflow="" data-start="73.990" data-track-index="979" id="hf-caption-page-79"><div class="hf-caption-text"> <span id="hf-caption-79-0">by</span> <span id="hf-caption-79-1">almost</span> <span id="hf-caption-79-2">any</span></div></div><div class="clip hf-caption-page" data-duration="0.740" data-layout-allow-overflow="" data-start="74.950" data-track-index="980" id="hf-caption-page-80"><div class="hf-caption-text"> <span id="hf-caption-80-0">environment.</span></div></div><div class="clip hf-caption-page" data-duration="0.530" data-layout-allow-overflow="" data-start="75.690" data-track-index="981" id="hf-caption-page-81"><div class="hf-caption-text"> <span id="hf-caption-81-0">That</span> <span id="hf-caption-81-1">is</span> <span id="hf-caption-81-2">why</span></div></div><div class="clip hf-caption-page" data-duration="1.340" data-layout-allow-overflow="" data-start="76.220" data-track-index="982" id="hf-caption-page-82"><div class="hf-caption-text"> <span id="hf-caption-82-0">infancy</span> <span id="hf-caption-82-1">lasts</span> <span id="hf-caption-82-2">so</span></div></div><div class="clip hf-caption-page" data-duration="0.630" data-layout-allow-overflow="" data-start="77.560" data-track-index="983" id="hf-caption-page-83"><div class="hf-caption-text"> <span id="hf-caption-83-0">long.</span></div></div><div class="clip hf-caption-page" data-duration="1.130" data-layout-allow-overflow="" data-start="78.190" data-track-index="984" id="hf-caption-page-84"><div class="hf-caption-text"> <span id="hf-caption-84-0">Culture</span> <span id="hf-caption-84-1">gets</span> <span id="hf-caption-84-2">time</span></div></div><div class="clip hf-caption-page" data-duration="0.470" data-layout-allow-overflow="" data-start="79.320" data-track-index="985" id="hf-caption-page-85"><div class="hf-caption-text"> <span id="hf-caption-85-0">to</span> <span id="hf-caption-85-1">enter</span> <span id="hf-caption-85-2">the</span></div></div><div class="clip hf-caption-page" data-duration="0.800" data-layout-allow-overflow="" data-start="79.790" data-track-index="986" id="hf-caption-page-86"><div class="hf-caption-text"> <span id="hf-caption-86-0">nervous</span> <span id="hf-caption-86-1">system.</span></div></div><div class="clip hf-caption-page" data-duration="0.970" data-layout-allow-overflow="" data-start="80.590" data-track-index="987" id="hf-caption-page-87"><div class="hf-caption-text"> <span id="hf-caption-87-0">The</span> <span id="hf-caption-87-1">useless</span> <span id="hf-caption-87-2">baby</span></div></div><div class="clip hf-caption-page" data-duration="0.580" data-layout-allow-overflow="" data-start="81.560" data-track-index="988" id="hf-caption-page-88"><div class="hf-caption-text"> <span id="hf-caption-88-0">is</span> <span id="hf-caption-88-1">not</span> <span id="hf-caption-88-2">a</span></div></div><div class="clip hf-caption-page" data-duration="1.070" data-layout-allow-overflow="" data-start="82.140" data-track-index="989" id="hf-caption-page-89"><div class="hf-caption-text"> <span id="hf-caption-89-0">failed</span> <span id="hf-caption-89-1">adult.</span></div></div><div class="clip hf-caption-page" data-duration="0.390" data-layout-allow-overflow="" data-start="83.210" data-track-index="990" id="hf-caption-page-90"><div class="hf-caption-text"> <span id="hf-caption-90-0">It</span> <span id="hf-caption-90-1">is</span> <span id="hf-caption-90-2">an</span></div></div><div class="clip hf-caption-page" data-duration="1.470" data-layout-allow-overflow="" data-start="83.600" data-track-index="991" id="hf-caption-page-91"><div class="hf-caption-text"> <span id="hf-caption-91-0">unfinished</span> <span id="hf-caption-91-1">brain</span> <span id="hf-caption-91-2">wrapped</span></div></div><div class="clip hf-caption-page" data-duration="0.570" data-layout-allow-overflow="" data-start="85.070" data-track-index="992" id="hf-caption-page-92"><div class="hf-caption-text"> <span id="hf-caption-92-0">in</span> <span id="hf-caption-92-1">a</span> <span id="hf-caption-92-2">body</span></div></div><div class="clip hf-caption-page" data-duration="1.500" data-layout-allow-overflow="" data-start="85.640" data-track-index="993" id="hf-caption-page-93"><div class="hf-caption-text"> <span id="hf-caption-93-0">that</span> <span id="hf-caption-93-1">forces</span> <span id="hf-caption-93-2">cooperation.</span></div></div><div class="clip hf-caption-page" data-duration="1.370" data-layout-allow-overflow="" data-start="87.140" data-track-index="994" id="hf-caption-page-94"><div class="hf-caption-text"> <span id="hf-caption-94-0">Human</span> <span id="hf-caption-94-1">helplessness</span> <span id="hf-caption-94-2">is</span></div></div><div class="clip hf-caption-page" data-duration="0.590" data-layout-allow-overflow="" data-start="88.510" data-track-index="995" id="hf-caption-page-95"><div class="hf-caption-text"> <span id="hf-caption-95-0">the</span> <span id="hf-caption-95-1">price</span> <span id="hf-caption-95-2">of</span></div></div><div class="clip hf-caption-page" data-duration="1.090" data-layout-allow-overflow="" data-start="89.100" data-track-index="996" id="hf-caption-page-96"><div class="hf-caption-text"> <span id="hf-caption-96-0">human</span> <span id="hf-caption-96-1">teachability.</span></div></div></div><script src="brainjuice/runtime/gsap/3.14.2/gsap-3.14.2.min.js"></script><script src="brainjuice/runtime/hyperframes/brainjuice-hf-0.6.29-8/runtime/hyperframe.runtime.brainjuice-hf-0.6.29-8.iife.js"></script><script data-brainjuice-obfuscate="timeline" data-javascript-obfuscator="">
+		window.__timelines = window.__timelines || {};
+		const tl = gsap.timeline({ paused: true });
+		const scenes = [{"camera":"static","duration":4.58,"id":"hf-scene-0","mediaId":"hf-scene-image-0","mediaType":"image","start":0,"transition":"cut"},{"camera":"static","duration":4.02,"id":"hf-scene-1","mediaId":"hf-scene-image-1","mediaType":"image","start":4.58,"transition":"cut"},{"camera":"static","duration":3.5,"id":"hf-scene-2","mediaId":"hf-scene-image-2","mediaType":"image","start":8.6,"transition":"cut"},{"camera":"static","duration":2.4700000000000006,"id":"hf-scene-3","mediaId":"hf-scene-image-3","mediaType":"image","start":12.1,"transition":"cut"},{"camera":"static","duration":3.969999999999999,"id":"hf-scene-4","mediaId":"hf-scene-image-4","mediaType":"image","start":14.57,"transition":"cut"},{"camera":"static","duration":3.9499999999999993,"id":"hf-scene-5","mediaId":"hf-scene-image-5","mediaType":"image","start":18.54,"transition":"cut"},{"camera":"static","duration":3.520000000000003,"id":"hf-scene-6","mediaId":"hf-scene-image-6","mediaType":"image","start":22.49,"transition":"crossfade"},{"camera":"static","duration":2.969999999999999,"id":"hf-scene-7","mediaId":"hf-scene-image-7","mediaType":"image","start":26.01,"transition":"cut"},{"camera":"static","duration":2.870000000000001,"id":"hf-scene-8","mediaId":"hf-scene-image-8","mediaType":"image","start":28.98,"transition":"cut"},{"camera":"static","duration":3.6999999999999957,"id":"hf-scene-9","mediaId":"hf-scene-image-9","mediaType":"image","start":31.85,"transition":"cut"},{"camera":"static","duration":2.5800000000000054,"id":"hf-scene-10","mediaId":"hf-scene-image-10","mediaType":"image","start":35.55,"transition":"cut"},{"camera":"static","duration":2.779999999999994,"id":"hf-scene-11","mediaId":"hf-scene-image-11","mediaType":"image","start":38.13,"transition":"cut"},{"camera":"static","duration":5.100000000000001,"id":"hf-scene-12","mediaId":"hf-scene-image-12","mediaType":"image","start":40.91,"transition":"crossfade"},{"camera":"static","duration":3.1600000000000037,"id":"hf-scene-13","mediaId":"hf-scene-image-13","mediaType":"image","start":46.01,"transition":"cut"},{"camera":"static","duration":4.530000000000001,"id":"hf-scene-14","mediaId":"hf-scene-image-14","mediaType":"image","start":49.17,"transition":"cut"},{"camera":"static","duration":4.769999999999996,"id":"hf-scene-15","mediaId":"hf-scene-image-15","mediaType":"image","start":53.7,"transition":"cut"},{"camera":"static","duration":2.490000000000002,"id":"hf-scene-16","mediaId":"hf-scene-image-16","mediaType":"image","start":58.47,"transition":"cut"},{"camera":"static","duration":3.759999999999998,"id":"hf-scene-17","mediaId":"hf-scene-image-17","mediaType":"image","start":60.96,"transition":"cut"},{"camera":"static","duration":1.8299999999999983,"id":"hf-scene-18","mediaId":"hf-scene-image-18","mediaType":"image","start":64.72,"transition":"diagonalSplit"},{"camera":"static","duration":3.25,"id":"hf-scene-19","mediaId":"hf-scene-image-19","mediaType":"image","start":66.55,"transition":"cut"},{"camera":"static","duration":2.460000000000008,"id":"hf-scene-20","mediaId":"hf-scene-image-20","mediaType":"image","start":69.8,"transition":"cut"},{"camera":"static","duration":3.4299999999999926,"id":"hf-scene-21","mediaId":"hf-scene-image-21","mediaType":"image","start":72.26,"transition":"cut"},{"camera":"static","duration":2.5,"id":"hf-scene-22","mediaId":"hf-scene-image-22","mediaType":"image","start":75.69,"transition":"cut"},{"camera":"static","duration":2.4000000000000057,"id":"hf-scene-23","mediaId":"hf-scene-image-23","mediaType":"image","start":78.19,"transition":"cut"},{"camera":"static","duration":2.6199999999999903,"id":"hf-scene-24","mediaId":"hf-scene-image-24","mediaType":"image","start":80.59,"transition":"crossfade"},{"camera":"static","duration":3.930000000000007,"id":"hf-scene-25","mediaId":"hf-scene-image-25","mediaType":"image","start":83.21,"transition":"cut"},{"camera":"static","duration":3.049999999999997,"id":"hf-scene-26","mediaId":"hf-scene-image-26","mediaType":"image","start":87.14,"transition":"cut"}];
+		function cssTransitionDuration(scene) {
+			return Math.min(0.72, Math.max(0.22, scene.duration * 0.28));
+		}
+		function revealScene(scene) {
+			const selector = "#" + scene.id;
+			const start = scene.start;
+			const duration = cssTransitionDuration(scene);
+			const transition = scene.transition || "cut";
+			tl.set(selector, {
+				transformPerspective: 1200,
+				transformOrigin: "50% 50%",
+				clipPath: "none",
+				filter: "none",
+				x: 0,
+				y: 0,
+				xPercent: 0,
+				yPercent: 0,
+				scale: 1,
+				scaleX: 1,
+				scaleY: 1,
+				rotation: 0,
+				rotationX: 0,
+				rotationY: 0,
+				skewX: 0,
+			}, start);
+			switch (transition) {
+				case "cut":
+					tl.set(selector, { opacity: 1 }, start);
+					break;
+				case "cardFlip3d":
+					tl.fromTo(selector, { opacity: 1, rotationY: -180 }, { rotationY: 0, duration: 0.6, ease: "power2.inOut" }, start);
+					break;
+				case "blurThrough":
+					tl.fromTo(selector, { opacity: 0, scale: 1.06, filter: "blur(18px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration, ease: "power2.out" }, start);
+					break;
+				case "directionalBlur":
+					tl.fromTo(selector, { opacity: 0, xPercent: 12, filter: "blur(18px)" }, { opacity: 1, xPercent: 0, filter: "blur(0px)", duration, ease: "power3.out" }, start);
+					break;
+				case "staggeredColorBlocks":
+				case "horizontalBlinds":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.5, ease: "power2.inOut" }, start);
+					break;
+				case "verticalBlinds":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(100% 0 0 0)" }, { clipPath: "inset(0% 0 0 0)", duration: 0.5, ease: "power2.inOut" }, start);
+					break;
+				case "pageBurn":
+				case "filmBurn":
+					tl.fromTo(selector, { opacity: 0, scale: 1.025, filter: "brightness(1.9) saturate(1.5)" }, { opacity: 1, scale: 1, filter: "brightness(1) saturate(1)", duration: 0.5, ease: "power2.out" }, start);
+					break;
+				case "crossfade":
+					tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "none" }, start);
+					break;
+				case "blurCrossfade":
+					tl.fromTo(selector, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.45, ease: "power1.out" }, start);
+					break;
+				case "focusPull":
+					tl.fromTo(selector, { opacity: 0.2, scale: 1.04, filter: "blur(16px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.55, ease: "power2.out" }, start);
+					break;
+				case "colorDip":
+					tl.fromTo(selector, { opacity: 0, filter: "saturate(0) brightness(0.4)" }, { opacity: 1, filter: "saturate(1) brightness(1)", duration: 0.44, ease: "power2.out" }, start);
+					break;
+				case "glitch":
+					tl.fromTo(selector, { opacity: 0, x: -16, skewX: -8, filter: "contrast(1.7) saturate(1.6)" }, { opacity: 1, x: 0, skewX: 0, filter: "contrast(1) saturate(1)", duration: 0.24, ease: "power1.inOut" }, start);
+					break;
+				case "chromaticAberration":
+					tl.fromTo(selector, { opacity: 0, x: 8, filter: "contrast(1.4) saturate(2)" }, { opacity: 1, x: 0, filter: "contrast(1) saturate(1)", duration: 0.34, ease: "power2.out" }, start);
+					break;
+				case "ripple":
+					tl.fromTo(selector, { opacity: 0, scale: 1.12, filter: "blur(6px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.5, ease: "elastic.out(1, 0.65)" }, start);
+					break;
+				case "vhsTape":
+					tl.fromTo(selector, { opacity: 0, y: 18, filter: "contrast(1.6) saturate(0.7)" }, { opacity: 1, y: 0, filter: "contrast(1) saturate(1)", duration: 0.36, ease: "power1.out" }, start);
+					break;
+				case "gridDissolve":
+					tl.fromTo(selector, { opacity: 0, scale: 0.985, filter: "contrast(1.35)" }, { opacity: 1, scale: 1, filter: "contrast(1)", duration: 0.4, ease: "power1.out" }, start);
+					break;
+				case "lightLeak":
+				case "overexposureBurn":
+					tl.fromTo(selector, { opacity: 0, filter: "brightness(2.4) saturate(1.35)" }, { opacity: 1, filter: "brightness(1) saturate(1)", duration: 0.46, ease: "power2.out" }, start);
+					break;
+				case "shutter":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(50% 0 50% 0)" }, { clipPath: "inset(0% 0 0% 0)", duration: 0.38, ease: "power2.inOut" }, start);
+					break;
+				case "clockWipe":
+				case "morphCircle":
+				case "circleIris":
+					tl.fromTo(selector, { opacity: 1, clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(75% at 50% 50%)", duration: 0.52, ease: "power2.inOut" }, start);
+					break;
+				case "gravityDrop":
+					tl.fromTo(selector, { opacity: 0, yPercent: -18, scale: 1.04 }, { opacity: 1, yPercent: 0, scale: 1, duration: 0.48, ease: "bounce.out" }, start);
+					break;
+				case "pushSlide":
+					tl.fromTo(selector, { opacity: 1, xPercent: 100 }, { xPercent: 0, duration: 0.45, ease: "power2.inOut" }, start);
+					break;
+				case "verticalPush":
+					tl.fromTo(selector, { opacity: 1, yPercent: 100 }, { yPercent: 0, duration: 0.45, ease: "power2.inOut" }, start);
+					break;
+				case "elasticPush":
+					tl.fromTo(selector, { opacity: 1, xPercent: 100, scale: 0.96 }, { xPercent: 0, scale: 1, duration: 0.62, ease: "elastic.out(1, 0.75)" }, start);
+					break;
+				case "squeeze":
+					tl.fromTo(selector, { opacity: 0, scaleX: 0.65, scaleY: 1.08 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: 0.42, ease: "back.out(1.4)" }, start);
+					break;
+				case "diamondIris":
+					tl.fromTo(selector, { opacity: 1, clipPath: "polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%)" }, { clipPath: "polygon(50% -25%, 125% 50%, 50% 125%, -25% 50%)", duration: 0.52, ease: "power2.inOut" }, start);
+					break;
+				case "diagonalSplit":
+					tl.fromTo(selector, { opacity: 1, clipPath: "polygon(0 0, 0 0, 0 100%, 0 100%)" }, { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)", duration: 0.44, ease: "power2.inOut" }, start);
+					break;
+				case "zoomThrough":
+					tl.fromTo(selector, { opacity: 0, scale: 1.28, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.46, ease: "power3.out" }, start);
+					break;
+				case "zoomOut":
+					tl.fromTo(selector, { opacity: 0, scale: 0.74, filter: "blur(6px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.46, ease: "power3.out" }, start);
+					break;
+				default:
+					tl.fromTo(selector, { opacity: 0, scale: 1.035 }, { opacity: 1, scale: 1, duration: 0.28, ease: "power2.out" }, start);
+					break;
+			}
+		}
+		for (const scene of scenes) {
+			revealScene(scene);
+			const media = scene.mediaId
+				? document.getElementById(scene.mediaId)
+				: document.querySelector("#" + scene.id + " .hf-scene-media");
+			if (media) {
+				if (false) {
+					tl.fromTo(media, { scale: 1.3 }, { scale: 1, duration: scene.duration, ease: "none" }, scene.start);
+				} else if (false && scene.mediaType !== "video") {
+						tl.set(media, { opacity: 1 }, scene.start);
+					} else if (false || (false && scene.mediaType !== "video")) {
+						
+						const kenBurns = getKenBurnsTransform(scene.camera, 1.2, 1.15);
+						tl.set(media, { transformOrigin: "50% 50%" }, scene.start);
+						tl.fromTo(media, kenBurns.from, { ...kenBurns.to, duration: scene.duration, ease: "none" }, scene.start);
+					} else {
+						tl.set(media, { opacity: 1 }, scene.start);
+						tl.to(media, { scale: scene.transition === "zoom_out" || scene.transition === "zoomOut" ? 1 : 1.075, duration: scene.duration, ease: "none" }, scene.start);
+					}
+				}
+			const content = document.querySelector("#" + scene.id + " .hf-scene-content");
+			if (content) {
+				tl.fromTo(content, { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, scene.start + 0.12);
+			}
+			if (false) {
+				setupCodeHikeTokenTransitions(scene);
+			}
+					const sceneEnd = scene.start + scene.duration;
+					const isFinalScene = scene === scenes[scenes.length - 1];
+					const sceneExitTime =
+						true && !isFinalScene
+							? sceneEnd + 1 / 30
+							: sceneEnd;
+					tl.set("#" + scene.id, { opacity: 0 }, sceneExitTime);
+					if (media) {
+						tl.set(media, { opacity: 0 }, sceneExitTime);
+					}
+				}
+		const overlays = [];
+		for (const overlay of overlays) {
+			const id = overlay.id;
+			const overlayImage = document.querySelector("#" + id + " img");
+			if (overlayImage) {
+				if (false) {
+					tl.set("#" + id, { opacity: 1 }, overlay.start);
+					tl.to("#" + id, { y: -5, duration: 0.16, repeat: Math.ceil(overlay.duration / 0.32) * 2, yoyo: true, ease: "sine.inOut" }, overlay.start);
+				} else if (false) {
+					const sideDirection = overlay.className.includes("speaker-left") ? -1 : 1;
+					if (overlay.className.includes("hf-gameplay-speaker")) {
+						tl.fromTo(overlayImage, { opacity: 0, x: sideDirection * 45, y: 14, scale: 0.94 }, { opacity: 1, x: 0, y: 0, scale: 1, duration: 0.27, ease: "back.out(1.4)" }, overlay.start);
+						tl.to(overlayImage, { y: -2.5, duration: 0.4, repeat: Math.ceil(overlay.duration / 0.8) * 2, yoyo: true, ease: "sine.inOut" }, overlay.start + 0.27);
+					} else {
+						tl.fromTo(overlayImage, { opacity: 0, scale: 0.94, y: 12 }, { opacity: 1, scale: 1, y: 0, duration: 0.24, ease: "power2.out" }, overlay.start);
+					}
+				} else if (false) {
+					tl.fromTo(overlayImage, { opacity: 0, scale: 0.42, y: 28 }, { opacity: 1, scale: 1, y: 0, duration: 1.1, ease: "power2.out" }, overlay.start);
+				} else {
+					tl.fromTo(overlayImage, { opacity: 0, scale: 0.72, y: 30 }, { opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(1.7)" }, overlay.start);
+				}
+			}
+		}
+		const phraseCaptionPages = [{"id":"hf-caption-page-0","start":0.5},{"id":"hf-caption-page-1","start":1.72},{"id":"hf-caption-page-2","start":2.77},{"id":"hf-caption-page-3","start":3.31},{"id":"hf-caption-page-4","start":4.58},{"id":"hf-caption-page-5","start":5.46},{"id":"hf-caption-page-6","start":6.29},{"id":"hf-caption-page-7","start":7.32},{"id":"hf-caption-page-8","start":8.03},{"id":"hf-caption-page-9","start":8.6},{"id":"hf-caption-page-10","start":10.05},{"id":"hf-caption-page-11","start":11.13},{"id":"hf-caption-page-12","start":12.1},{"id":"hf-caption-page-13","start":13.36},{"id":"hf-caption-page-14","start":13.91},{"id":"hf-caption-page-15","start":14.57},{"id":"hf-caption-page-16","start":16.04},{"id":"hf-caption-page-17","start":16.81},{"id":"hf-caption-page-18","start":17.61},{"id":"hf-caption-page-19","start":18.54},{"id":"hf-caption-page-20","start":19.07},{"id":"hf-caption-page-21","start":20.11},{"id":"hf-caption-page-22","start":21.21},{"id":"hf-caption-page-23","start":22.49},{"id":"hf-caption-page-24","start":23.49},{"id":"hf-caption-page-25","start":24.26},{"id":"hf-caption-page-26","start":25.26},{"id":"hf-caption-page-27","start":26.01},{"id":"hf-caption-page-28","start":26.98},{"id":"hf-caption-page-29","start":28.09},{"id":"hf-caption-page-30","start":28.98},{"id":"hf-caption-page-31","start":29.75},{"id":"hf-caption-page-32","start":30.56},{"id":"hf-caption-page-33","start":31.21},{"id":"hf-caption-page-34","start":31.85},{"id":"hf-caption-page-35","start":32.63},{"id":"hf-caption-page-36","start":33.24},{"id":"hf-caption-page-37","start":33.88},{"id":"hf-caption-page-38","start":34.26},{"id":"hf-caption-page-39","start":35.11},{"id":"hf-caption-page-40","start":35.55},{"id":"hf-caption-page-41","start":36.58},{"id":"hf-caption-page-42","start":37.25},{"id":"hf-caption-page-43","start":38.13},{"id":"hf-caption-page-44","start":38.97},{"id":"hf-caption-page-45","start":39.87},{"id":"hf-caption-page-46","start":40.59},{"id":"hf-caption-page-47","start":40.91},{"id":"hf-caption-page-48","start":41.74},{"id":"hf-caption-page-49","start":43.12},{"id":"hf-caption-page-50","start":44.62},{"id":"hf-caption-page-51","start":46.01},{"id":"hf-caption-page-52","start":47.09},{"id":"hf-caption-page-53","start":48.26},{"id":"hf-caption-page-54","start":49.17},{"id":"hf-caption-page-55","start":50.13},{"id":"hf-caption-page-56","start":51.77},{"id":"hf-caption-page-57","start":52.79},{"id":"hf-caption-page-58","start":53.7},{"id":"hf-caption-page-59","start":54.94},{"id":"hf-caption-page-60","start":56.48},{"id":"hf-caption-page-61","start":57.95},{"id":"hf-caption-page-62","start":58.47},{"id":"hf-caption-page-63","start":59.64},{"id":"hf-caption-page-64","start":60.96},{"id":"hf-caption-page-65","start":61.77},{"id":"hf-caption-page-66","start":62.61},{"id":"hf-caption-page-67","start":63.65},{"id":"hf-caption-page-68","start":64.72},{"id":"hf-caption-page-69","start":65.39},{"id":"hf-caption-page-70","start":66.55},{"id":"hf-caption-page-71","start":67.66},{"id":"hf-caption-page-72","start":68.66},{"id":"hf-caption-page-73","start":69.29},{"id":"hf-caption-page-74","start":69.8},{"id":"hf-caption-page-75","start":70.93},{"id":"hf-caption-page-76","start":71.55},{"id":"hf-caption-page-77","start":72.26},{"id":"hf-caption-page-78","start":73.43},{"id":"hf-caption-page-79","start":73.99},{"id":"hf-caption-page-80","start":74.95},{"id":"hf-caption-page-81","start":75.69},{"id":"hf-caption-page-82","start":76.22},{"id":"hf-caption-page-83","start":77.56},{"id":"hf-caption-page-84","start":78.19},{"id":"hf-caption-page-85","start":79.32},{"id":"hf-caption-page-86","start":79.79},{"id":"hf-caption-page-87","start":80.59},{"id":"hf-caption-page-88","start":81.56},{"id":"hf-caption-page-89","start":82.14},{"id":"hf-caption-page-90","start":83.21},{"id":"hf-caption-page-91","start":83.6},{"id":"hf-caption-page-92","start":85.07},{"id":"hf-caption-page-93","start":85.64},{"id":"hf-caption-page-94","start":87.14},{"id":"hf-caption-page-95","start":88.51},{"id":"hf-caption-page-96","start":89.1}];
+		for (const page of phraseCaptionPages) {
+			tl.fromTo("#" + page.id + " .hf-caption-text", { opacity: 0, scale: 0.92, y: 6 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.4)" }, page.start);
+		}
+		const dynamicMascotCaptionPages = [];
+		for (const page of dynamicMascotCaptionPages) {
+			tl.fromTo("#" + page.id + " .hf-caption-text", { scale: 0.85, y: -10 }, { scale: 1, y: -10, duration: 0.18, ease: "back.out(2.2)" }, page.start);
+		}
+		const captionTokens = [{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":0.5,"id":"hf-caption-0-0","spokenColor":"#fff","to":0.92},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":0.92,"id":"hf-caption-0-1","spokenColor":"#fff","to":1.3},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":1.3,"id":"hf-caption-0-2","spokenColor":"#fff","to":1.72},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":1.72,"id":"hf-caption-1-0","spokenColor":"#fff","to":1.94},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":1.94,"id":"hf-caption-1-1","spokenColor":"#fff","to":2.01},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":2.01,"id":"hf-caption-1-2","spokenColor":"#fff","to":2.77},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":2.77,"id":"hf-caption-2-0","spokenColor":"#fff","to":2.91},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":2.91,"id":"hf-caption-2-1","spokenColor":"#fff","to":2.96},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":2.96,"id":"hf-caption-2-2","spokenColor":"#fff","to":3.31},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":3.31,"id":"hf-caption-3-0","spokenColor":"#fff","to":3.66},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":3.66,"id":"hf-caption-3-1","spokenColor":"#fff","to":4.04},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":4.04,"id":"hf-caption-3-2","spokenColor":"#fff","to":4.58},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":4.58,"id":"hf-caption-4-0","spokenColor":"#fff","to":4.71},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":4.71,"id":"hf-caption-4-1","spokenColor":"#fff","to":5.08},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":5.08,"id":"hf-caption-4-2","spokenColor":"#fff","to":5.46},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":5.46,"id":"hf-caption-5-0","spokenColor":"#fff","to":5.55},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":5.55,"id":"hf-caption-5-1","spokenColor":"#fff","to":6.29},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":6.29,"id":"hf-caption-6-0","spokenColor":"#fff","to":6.44},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":6.44,"id":"hf-caption-6-1","spokenColor":"#fff","to":6.78},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":6.78,"id":"hf-caption-6-2","spokenColor":"#fff","to":7.32},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":7.32,"id":"hf-caption-7-0","spokenColor":"#fff","to":7.7},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":7.7,"id":"hf-caption-7-1","spokenColor":"#fff","to":7.89},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":7.89,"id":"hf-caption-7-2","spokenColor":"#fff","to":8.03},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":8.03,"id":"hf-caption-8-0","spokenColor":"#fff","to":8.6},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":8.6,"id":"hf-caption-9-0","spokenColor":"#fff","to":8.99},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":8.99,"id":"hf-caption-9-1","spokenColor":"#fff","to":9.27},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":9.27,"id":"hf-caption-9-2","spokenColor":"#fff","to":10.05},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":10.05,"id":"hf-caption-10-0","spokenColor":"#fff","to":10.56},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":10.56,"id":"hf-caption-10-1","spokenColor":"#fff","to":10.9},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":10.9,"id":"hf-caption-10-2","spokenColor":"#fff","to":11.13},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":11.13,"id":"hf-caption-11-0","spokenColor":"#fff","to":12.1},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":12.1,"id":"hf-caption-12-0","spokenColor":"#fff","to":12.3},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":12.3,"id":"hf-caption-12-1","spokenColor":"#fff","to":12.54},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":12.54,"id":"hf-caption-12-2","spokenColor":"#fff","to":13.36},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":13.36,"id":"hf-caption-13-0","spokenColor":"#fff","to":13.74},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":13.74,"id":"hf-caption-13-1","spokenColor":"#fff","to":13.84},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":13.84,"id":"hf-caption-13-2","spokenColor":"#fff","to":13.91},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":13.91,"id":"hf-caption-14-0","spokenColor":"#fff","to":14.57},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":14.57,"id":"hf-caption-15-0","spokenColor":"#fff","to":14.99},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":14.99,"id":"hf-caption-15-1","spokenColor":"#fff","to":15.44},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":15.44,"id":"hf-caption-15-2","spokenColor":"#fff","to":16.04},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":16.04,"id":"hf-caption-16-0","spokenColor":"#fff","to":16.13},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":16.13,"id":"hf-caption-16-1","spokenColor":"#fff","to":16.39},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":16.39,"id":"hf-caption-16-2","spokenColor":"#fff","to":16.81},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":16.81,"id":"hf-caption-17-0","spokenColor":"#fff","to":17.12},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":17.12,"id":"hf-caption-17-1","spokenColor":"#fff","to":17.15},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":17.15,"id":"hf-caption-17-2","spokenColor":"#fff","to":17.61},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":17.61,"id":"hf-caption-18-0","spokenColor":"#fff","to":18.11},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":18.11,"id":"hf-caption-18-1","spokenColor":"#fff","to":18.54},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":18.54,"id":"hf-caption-19-0","spokenColor":"#fff","to":18.73},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":18.73,"id":"hf-caption-19-1","spokenColor":"#fff","to":18.8},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":18.8,"id":"hf-caption-19-2","spokenColor":"#fff","to":19.07},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":19.07,"id":"hf-caption-20-0","spokenColor":"#fff","to":19.59},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":19.59,"id":"hf-caption-20-1","spokenColor":"#fff","to":19.78},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":19.78,"id":"hf-caption-20-2","spokenColor":"#fff","to":20.11},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":20.11,"id":"hf-caption-21-0","spokenColor":"#fff","to":20.37},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":20.37,"id":"hf-caption-21-1","spokenColor":"#fff","to":20.88},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":20.88,"id":"hf-caption-21-2","spokenColor":"#fff","to":21.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":21.21,"id":"hf-caption-22-0","spokenColor":"#fff","to":21.27},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":21.27,"id":"hf-caption-22-1","spokenColor":"#fff","to":21.88},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":21.88,"id":"hf-caption-22-2","spokenColor":"#fff","to":22.49},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":22.49,"id":"hf-caption-23-0","spokenColor":"#fff","to":22.72},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":22.72,"id":"hf-caption-23-1","spokenColor":"#fff","to":23.04},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":23.04,"id":"hf-caption-23-2","spokenColor":"#fff","to":23.49},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":23.49,"id":"hf-caption-24-0","spokenColor":"#fff","to":23.67},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":23.67,"id":"hf-caption-24-1","spokenColor":"#fff","to":23.7},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":23.7,"id":"hf-caption-24-2","spokenColor":"#fff","to":24.26},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":24.26,"id":"hf-caption-25-0","spokenColor":"#fff","to":24.54},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":24.54,"id":"hf-caption-25-1","spokenColor":"#fff","to":25.06},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":25.06,"id":"hf-caption-25-2","spokenColor":"#fff","to":25.26},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":25.26,"id":"hf-caption-26-0","spokenColor":"#fff","to":25.42},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":25.42,"id":"hf-caption-26-1","spokenColor":"#fff","to":26.01},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":26.01,"id":"hf-caption-27-0","spokenColor":"#fff","to":26.27},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":26.27,"id":"hf-caption-27-1","spokenColor":"#fff","to":26.58},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":26.58,"id":"hf-caption-27-2","spokenColor":"#fff","to":26.98},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":26.98,"id":"hf-caption-28-0","spokenColor":"#fff","to":27.39},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":27.39,"id":"hf-caption-28-1","spokenColor":"#fff","to":27.68},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":27.68,"id":"hf-caption-28-2","spokenColor":"#fff","to":28.09},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":28.09,"id":"hf-caption-29-0","spokenColor":"#fff","to":28.34},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":28.34,"id":"hf-caption-29-1","spokenColor":"#fff","to":28.98},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":28.98,"id":"hf-caption-30-0","spokenColor":"#fff","to":29.15},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":29.15,"id":"hf-caption-30-1","spokenColor":"#fff","to":29.46},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":29.46,"id":"hf-caption-30-2","spokenColor":"#fff","to":29.75},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":29.75,"id":"hf-caption-31-0","spokenColor":"#fff","to":29.83},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":29.83,"id":"hf-caption-31-1","spokenColor":"#fff","to":30.14},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":30.14,"id":"hf-caption-31-2","spokenColor":"#fff","to":30.56},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":30.56,"id":"hf-caption-32-0","spokenColor":"#fff","to":30.65},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":30.65,"id":"hf-caption-32-1","spokenColor":"#fff","to":30.89},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":30.89,"id":"hf-caption-32-2","spokenColor":"#fff","to":31.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":31.21,"id":"hf-caption-33-0","spokenColor":"#fff","to":31.34},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":31.34,"id":"hf-caption-33-1","spokenColor":"#fff","to":31.85},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":31.85,"id":"hf-caption-34-0","spokenColor":"#fff","to":32.05},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":32.05,"id":"hf-caption-34-1","spokenColor":"#fff","to":32.48},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":32.48,"id":"hf-caption-34-2","spokenColor":"#fff","to":32.63},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":32.63,"id":"hf-caption-35-0","spokenColor":"#fff","to":33.24},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":33.24,"id":"hf-caption-36-0","spokenColor":"#fff","to":33.39},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":33.39,"id":"hf-caption-36-1","spokenColor":"#fff","to":33.66},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":33.66,"id":"hf-caption-36-2","spokenColor":"#fff","to":33.88},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":33.88,"id":"hf-caption-37-0","spokenColor":"#fff","to":34.26},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":34.26,"id":"hf-caption-38-0","spokenColor":"#fff","to":34.41},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":34.41,"id":"hf-caption-38-1","spokenColor":"#fff","to":34.81},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":34.81,"id":"hf-caption-38-2","spokenColor":"#fff","to":35.11},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":35.11,"id":"hf-caption-39-0","spokenColor":"#fff","to":35.55},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":35.55,"id":"hf-caption-40-0","spokenColor":"#fff","to":36.23},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":36.23,"id":"hf-caption-40-1","spokenColor":"#fff","to":36.43},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":36.43,"id":"hf-caption-40-2","spokenColor":"#fff","to":36.58},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":36.58,"id":"hf-caption-41-0","spokenColor":"#fff","to":36.62},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":36.62,"id":"hf-caption-41-1","spokenColor":"#fff","to":37.07},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":37.07,"id":"hf-caption-41-2","spokenColor":"#fff","to":37.25},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":37.25,"id":"hf-caption-42-0","spokenColor":"#fff","to":37.36},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":37.36,"id":"hf-caption-42-1","spokenColor":"#fff","to":38.13},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":38.13,"id":"hf-caption-43-0","spokenColor":"#fff","to":38.38},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":38.38,"id":"hf-caption-43-1","spokenColor":"#fff","to":38.49},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":38.49,"id":"hf-caption-43-2","spokenColor":"#fff","to":38.97},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":38.97,"id":"hf-caption-44-0","spokenColor":"#fff","to":39.12},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":39.12,"id":"hf-caption-44-1","spokenColor":"#fff","to":39.36},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":39.36,"id":"hf-caption-44-2","spokenColor":"#fff","to":39.87},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":39.87,"id":"hf-caption-45-0","spokenColor":"#fff","to":40.11},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":40.11,"id":"hf-caption-45-1","spokenColor":"#fff","to":40.19},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":40.19,"id":"hf-caption-45-2","spokenColor":"#fff","to":40.59},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":40.59,"id":"hf-caption-46-0","spokenColor":"#fff","to":40.91},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":40.91,"id":"hf-caption-47-0","spokenColor":"#fff","to":41.09},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":41.09,"id":"hf-caption-47-1","spokenColor":"#fff","to":41.43},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":41.43,"id":"hf-caption-47-2","spokenColor":"#fff","to":41.74},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":41.74,"id":"hf-caption-48-0","spokenColor":"#fff","to":42.15},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":42.15,"id":"hf-caption-48-1","spokenColor":"#fff","to":42.48},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":42.48,"id":"hf-caption-48-2","spokenColor":"#fff","to":43.12},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":43.12,"id":"hf-caption-49-0","spokenColor":"#fff","to":43.31},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":43.31,"id":"hf-caption-49-1","spokenColor":"#fff","to":43.9},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":43.9,"id":"hf-caption-49-2","spokenColor":"#fff","to":44.62},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":44.62,"id":"hf-caption-50-0","spokenColor":"#fff","to":45.14},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":45.14,"id":"hf-caption-50-1","spokenColor":"#fff","to":45.34},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":45.34,"id":"hf-caption-50-2","spokenColor":"#fff","to":46.01},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":46.01,"id":"hf-caption-51-0","spokenColor":"#fff","to":46.28},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":46.28,"id":"hf-caption-51-1","spokenColor":"#fff","to":46.58},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":46.58,"id":"hf-caption-51-2","spokenColor":"#fff","to":47.09},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":47.09,"id":"hf-caption-52-0","spokenColor":"#fff","to":47.56},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":47.56,"id":"hf-caption-52-1","spokenColor":"#fff","to":48.12},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":48.12,"id":"hf-caption-52-2","spokenColor":"#fff","to":48.26},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":48.26,"id":"hf-caption-53-0","spokenColor":"#fff","to":48.69},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":48.69,"id":"hf-caption-53-1","spokenColor":"#fff","to":49.17},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":49.17,"id":"hf-caption-54-0","spokenColor":"#fff","to":49.45},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":49.45,"id":"hf-caption-54-1","spokenColor":"#fff","to":49.8},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":49.8,"id":"hf-caption-54-2","spokenColor":"#fff","to":50.13},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":50.13,"id":"hf-caption-55-0","spokenColor":"#fff","to":50.56},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":50.56,"id":"hf-caption-55-1","spokenColor":"#fff","to":51.12},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":51.12,"id":"hf-caption-55-2","spokenColor":"#fff","to":51.77},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":51.77,"id":"hf-caption-56-0","spokenColor":"#fff","to":52.24},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":52.24,"id":"hf-caption-56-1","spokenColor":"#fff","to":52.43},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":52.43,"id":"hf-caption-56-2","spokenColor":"#fff","to":52.79},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":52.79,"id":"hf-caption-57-0","spokenColor":"#fff","to":52.89},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":52.89,"id":"hf-caption-57-1","spokenColor":"#fff","to":53.14},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":53.14,"id":"hf-caption-57-2","spokenColor":"#fff","to":53.7},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":53.7,"id":"hf-caption-58-0","spokenColor":"#fff","to":54.05},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":54.05,"id":"hf-caption-58-1","spokenColor":"#fff","to":54.62},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":54.62,"id":"hf-caption-58-2","spokenColor":"#fff","to":54.94},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":54.94,"id":"hf-caption-59-0","spokenColor":"#fff","to":55.06},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":55.06,"id":"hf-caption-59-1","spokenColor":"#fff","to":55.7},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":55.7,"id":"hf-caption-59-2","spokenColor":"#fff","to":56.48},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":56.48,"id":"hf-caption-60-0","spokenColor":"#fff","to":57.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":57.21,"id":"hf-caption-60-1","spokenColor":"#fff","to":57.41},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":57.41,"id":"hf-caption-60-2","spokenColor":"#fff","to":57.95},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":57.95,"id":"hf-caption-61-0","spokenColor":"#fff","to":58.47},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":58.47,"id":"hf-caption-62-0","spokenColor":"#fff","to":59.19},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":59.19,"id":"hf-caption-62-1","spokenColor":"#fff","to":59.41},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":59.41,"id":"hf-caption-62-2","spokenColor":"#fff","to":59.64},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":59.64,"id":"hf-caption-63-0","spokenColor":"#fff","to":60.34},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":60.34,"id":"hf-caption-63-1","spokenColor":"#fff","to":60.96},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":60.96,"id":"hf-caption-64-0","spokenColor":"#fff","to":61.07},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":61.07,"id":"hf-caption-64-1","spokenColor":"#fff","to":61.39},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":61.39,"id":"hf-caption-64-2","spokenColor":"#fff","to":61.77},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":61.77,"id":"hf-caption-65-0","spokenColor":"#fff","to":61.82},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":61.82,"id":"hf-caption-65-1","spokenColor":"#fff","to":62.25},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":62.25,"id":"hf-caption-65-2","spokenColor":"#fff","to":62.61},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":62.61,"id":"hf-caption-66-0","spokenColor":"#fff","to":62.76},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":62.76,"id":"hf-caption-66-1","spokenColor":"#fff","to":63.01},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":63.01,"id":"hf-caption-66-2","spokenColor":"#fff","to":63.65},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":63.65,"id":"hf-caption-67-0","spokenColor":"#fff","to":63.77},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":63.77,"id":"hf-caption-67-1","spokenColor":"#fff","to":64.05},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":64.05,"id":"hf-caption-67-2","spokenColor":"#fff","to":64.72},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":64.72,"id":"hf-caption-68-0","spokenColor":"#fff","to":64.9},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":64.9,"id":"hf-caption-68-1","spokenColor":"#fff","to":65.2},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":65.2,"id":"hf-caption-68-2","spokenColor":"#fff","to":65.39},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":65.39,"id":"hf-caption-69-0","spokenColor":"#fff","to":65.76},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":65.76,"id":"hf-caption-69-1","spokenColor":"#fff","to":65.83},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":65.83,"id":"hf-caption-69-2","spokenColor":"#fff","to":66.55},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":66.55,"id":"hf-caption-70-0","spokenColor":"#fff","to":66.75},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":66.75,"id":"hf-caption-70-1","spokenColor":"#fff","to":67.39},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":67.39,"id":"hf-caption-70-2","spokenColor":"#fff","to":67.66},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":67.66,"id":"hf-caption-71-0","spokenColor":"#fff","to":67.71},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":67.71,"id":"hf-caption-71-1","spokenColor":"#fff","to":68.17},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":68.17,"id":"hf-caption-71-2","spokenColor":"#fff","to":68.66},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":68.66,"id":"hf-caption-72-0","spokenColor":"#fff","to":68.84},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":68.84,"id":"hf-caption-72-1","spokenColor":"#fff","to":68.98},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":68.98,"id":"hf-caption-72-2","spokenColor":"#fff","to":69.29},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":69.29,"id":"hf-caption-73-0","spokenColor":"#fff","to":69.8},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":69.8,"id":"hf-caption-74-0","spokenColor":"#fff","to":70.08},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":70.08,"id":"hf-caption-74-1","spokenColor":"#fff","to":70.48},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":70.48,"id":"hf-caption-74-2","spokenColor":"#fff","to":70.93},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":70.93,"id":"hf-caption-75-0","spokenColor":"#fff","to":71.16},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":71.16,"id":"hf-caption-75-1","spokenColor":"#fff","to":71.31},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":71.31,"id":"hf-caption-75-2","spokenColor":"#fff","to":71.55},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":71.55,"id":"hf-caption-76-0","spokenColor":"#fff","to":72.26},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":72.26,"id":"hf-caption-77-0","spokenColor":"#fff","to":72.81},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":72.81,"id":"hf-caption-77-1","spokenColor":"#fff","to":73.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":73.21,"id":"hf-caption-77-2","spokenColor":"#fff","to":73.43},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":73.43,"id":"hf-caption-78-0","spokenColor":"#fff","to":73.52},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":73.52,"id":"hf-caption-78-1","spokenColor":"#fff","to":73.63},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":73.63,"id":"hf-caption-78-2","spokenColor":"#fff","to":73.99},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":73.99,"id":"hf-caption-79-0","spokenColor":"#fff","to":74.2},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":74.2,"id":"hf-caption-79-1","spokenColor":"#fff","to":74.63},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":74.63,"id":"hf-caption-79-2","spokenColor":"#fff","to":74.95},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":74.95,"id":"hf-caption-80-0","spokenColor":"#fff","to":75.69},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":75.69,"id":"hf-caption-81-0","spokenColor":"#fff","to":75.89},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":75.89,"id":"hf-caption-81-1","spokenColor":"#fff","to":76.03},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":76.03,"id":"hf-caption-81-2","spokenColor":"#fff","to":76.22},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":76.22,"id":"hf-caption-82-0","spokenColor":"#fff","to":76.77},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":76.77,"id":"hf-caption-82-1","spokenColor":"#fff","to":77.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":77.21,"id":"hf-caption-82-2","spokenColor":"#fff","to":77.56},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":77.56,"id":"hf-caption-83-0","spokenColor":"#fff","to":78.19},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":78.19,"id":"hf-caption-84-0","spokenColor":"#fff","to":78.66},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":78.66,"id":"hf-caption-84-1","spokenColor":"#fff","to":78.96},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":78.96,"id":"hf-caption-84-2","spokenColor":"#fff","to":79.32},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":79.32,"id":"hf-caption-85-0","spokenColor":"#fff","to":79.43},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":79.43,"id":"hf-caption-85-1","spokenColor":"#fff","to":79.71},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":79.71,"id":"hf-caption-85-2","spokenColor":"#fff","to":79.79},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":79.79,"id":"hf-caption-86-0","spokenColor":"#fff","to":80.11},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":80.11,"id":"hf-caption-86-1","spokenColor":"#fff","to":80.59},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":80.59,"id":"hf-caption-87-0","spokenColor":"#fff","to":80.78},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":80.78,"id":"hf-caption-87-1","spokenColor":"#fff","to":81.25},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":81.25,"id":"hf-caption-87-2","spokenColor":"#fff","to":81.56},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":81.56,"id":"hf-caption-88-0","spokenColor":"#fff","to":81.8},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":81.8,"id":"hf-caption-88-1","spokenColor":"#fff","to":82.1},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":82.1,"id":"hf-caption-88-2","spokenColor":"#fff","to":82.14},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":82.14,"id":"hf-caption-89-0","spokenColor":"#fff","to":82.49},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":82.49,"id":"hf-caption-89-1","spokenColor":"#fff","to":83.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":83.21,"id":"hf-caption-90-0","spokenColor":"#fff","to":83.33},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":83.33,"id":"hf-caption-90-1","spokenColor":"#fff","to":83.45},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":83.45,"id":"hf-caption-90-2","spokenColor":"#fff","to":83.6},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":83.6,"id":"hf-caption-91-0","spokenColor":"#fff","to":84.2},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":84.2,"id":"hf-caption-91-1","spokenColor":"#fff","to":84.63},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":84.63,"id":"hf-caption-91-2","spokenColor":"#fff","to":85.07},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":85.07,"id":"hf-caption-92-0","spokenColor":"#fff","to":85.16},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":85.16,"id":"hf-caption-92-1","spokenColor":"#fff","to":85.21},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":85.21,"id":"hf-caption-92-2","spokenColor":"#fff","to":85.64},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":85.64,"id":"hf-caption-93-0","spokenColor":"#fff","to":85.83},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":85.83,"id":"hf-caption-93-1","spokenColor":"#fff","to":86.22},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":86.22,"id":"hf-caption-93-2","spokenColor":"#fff","to":87.14},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":87.14,"id":"hf-caption-94-0","spokenColor":"#fff","to":87.59},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":87.59,"id":"hf-caption-94-1","spokenColor":"#fff","to":88.29},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":88.29,"id":"hf-caption-94-2","spokenColor":"#fff","to":88.51},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":88.51,"id":"hf-caption-95-0","spokenColor":"#fff","to":88.58},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":88.58,"id":"hf-caption-95-1","spokenColor":"#fff","to":88.97},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":88.97,"id":"hf-caption-95-2","spokenColor":"#fff","to":89.1},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":89.1,"id":"hf-caption-96-0","spokenColor":"#fff","to":89.45},{"activeBackground":null,"activeColor":"#F7C204","activeTextColor":null,"from":89.45,"id":"hf-caption-96-1","spokenColor":"#fff","to":90.19}];
+		for (const token of captionTokens) {
+			const element = document.getElementById(token.id);
+			if (element) {
+				if (token.activeBackground) {
+					tl.set(element, {
+						color: token.activeTextColor || token.activeColor,
+						backgroundColor: token.activeBackground,
+						padding: "2px 6px",
+						borderRadius: "4px",
+						textShadow: "none",
+						webkitTextStroke: "0px transparent",
+					}, token.from);
+					tl.set(element, {
+						color: token.spokenColor,
+						backgroundColor: "transparent",
+						padding: 0,
+						borderRadius: 0,
+						clearProps: "textShadow,webkitTextStroke",
+					}, token.to);
+				} else {
+					tl.set(element, { color: token.activeColor }, token.from);
+					tl.set(element, { color: token.spokenColor }, token.to);
+				}
+			}
+		}
+		const kineticChunkData = [];
+		const kineticCaptionTokens = [];
+		let kineticTokenIdx = 0;
+		for (const chunk of kineticChunkData) {
+			for (let i = 0; i < chunk.tokenCount; i++) {
+				const token = kineticCaptionTokens[kineticTokenIdx];
+				kineticTokenIdx++;
+				if (!token) continue;
+				const element = document.getElementById(token.id);
+				if (!element) continue;
+				const staggerDelay = i * 0.06;
+				tl.fromTo(element, { opacity: 0, scale: 0.7, y: 8 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.8)" }, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#fff",
+					backgroundColor: "transparent",
+					padding: 0,
+					borderRadius: 0,
+					webkitTextStroke: token.stroke,
+				}, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#000",
+					backgroundColor: "#fff",
+					padding: "2px 6px",
+					borderRadius: 4,
+					webkitTextStroke: "0px transparent",
+				}, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#fff",
+					backgroundColor: "transparent",
+					padding: 0,
+					borderRadius: 0,
+					webkitTextStroke: token.stroke,
+				}, token.to);
+			}
+		}
+		const oneWordTokens = [];
+		for (const token of oneWordTokens) {
+			const element = document.getElementById(token.id);
+			if (element) {
+				tl.fromTo(element, { scale: 1.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.12, ease: "back.out(1.7)" }, token.start);
+			}
+		}
+		function getKenBurnsTransform(camera, intensity, panScale) {
+			const type = mapCamera(camera);
+			const zoomAmount = 0.15 * intensity;
+			const panAmount = 5 * intensity;
+			const minScale = 1.08;
+			const clamp = (value, scale) => {
+				const maxSafe = ((scale - 1) / (2 * scale)) * 100;
+				return Math.max(-maxSafe, Math.min(maxSafe, value));
+			};
+			const transform = (scale, xPercent = 0, yPercent = 0) => ({
+				scale,
+				xPercent: clamp(xPercent, scale),
+				yPercent: clamp(yPercent, scale),
+			});
+			switch (type) {
+				case "static":
+					return { from: transform(minScale), to: transform(minScale) };
+				case "zoom_out":
+					return { from: transform(minScale + zoomAmount), to: transform(minScale) };
+				case "pan_left":
+					return { from: transform(panScale, panAmount, 0), to: transform(panScale, -panAmount, 0) };
+				case "pan_right":
+					return { from: transform(panScale, -panAmount, 0), to: transform(panScale, panAmount, 0) };
+				case "pan_up":
+					return { from: transform(panScale, 0, panAmount), to: transform(panScale, 0, -panAmount) };
+				case "pan_down":
+					return { from: transform(panScale, 0, -panAmount), to: transform(panScale, 0, panAmount) };
+				case "zoom_in_pan_left":
+					return { from: transform(panScale, panAmount / 2, 0), to: transform(panScale + zoomAmount, -panAmount / 2, 0) };
+				case "zoom_in_pan_right":
+					return { from: transform(panScale, -panAmount / 2, 0), to: transform(panScale + zoomAmount, panAmount / 2, 0) };
+				case "zoom_out_pan_left":
+					return { from: transform(panScale + zoomAmount, panAmount / 2, 0), to: transform(panScale, -panAmount / 2, 0) };
+				case "zoom_out_pan_right":
+					return { from: transform(panScale + zoomAmount, -panAmount / 2, 0), to: transform(panScale, panAmount / 2, 0) };
+				default:
+					return { from: transform(minScale), to: transform(minScale + zoomAmount) };
+			}
+		}
+		function mapCamera(camera) {
+			switch (camera) {
+				case "pan_left":
+				case "pan_right":
+				case "pan_up":
+				case "pan_down":
+				case "zoom_out":
+				case "zoom_in_pan_left":
+				case "zoom_in_pan_right":
+				case "zoom_out_pan_left":
+				case "zoom_out_pan_right":
+					return camera;
+				case "static":
+					return "zoom_in";
+				case "drop_in":
+					return "zoom_in";
+				default:
+					return "zoom_in";
+			}
+		}
+		function setupCodeHikeTokenTransitions(scene) {
+			const sceneElement = document.getElementById(scene.id);
+			if (!sceneElement) return;
+			const transitionTokens = Array.from(sceneElement.querySelectorAll("[data-codehike-transition-token='true'], .hf-codehike-token-exit"));
+			for (const token of transitionTokens) {
+				const fromX = Number(token.getAttribute("data-from-x") || 0);
+				const fromY = Number(token.getAttribute("data-from-y") || 0);
+				const toX = Number(token.getAttribute("data-to-x") || 0);
+				const toY = Number(token.getAttribute("data-to-y") || 0);
+				const fromOpacity = Number(token.getAttribute("data-from-opacity") || 0);
+				const toOpacity = Number(token.getAttribute("data-to-opacity") || 0);
+				const fromColor = token.getAttribute("data-from-color") || "#e1e4e8";
+				const toColor = token.getAttribute("data-to-color") || fromColor;
+				const delay = Number(token.getAttribute("data-delay-frames") || 0) / 30;
+				const duration = Math.max(1 / 30, Number(token.getAttribute("data-duration-frames") || 1) / 30);
+				tl.set(token, { opacity: fromOpacity, x: fromX, y: fromY, color: fromColor }, scene.start);
+				tl.to(
+					token,
+					{ opacity: toOpacity, x: toX, y: toY, color: toColor, duration, ease: "power2.inOut" },
+					scene.start + delay,
+				);
+				if (token.classList.contains("hf-codehike-token-exit")) {
+					tl.set(token, { opacity: 0 }, scene.start + delay + duration + 1 / 30);
+				}
+			}
+		}
+		const registerTimeline = () => {
+			window.__timelines["brainjuice-narrated-slideshow-demo-feed-elevated-v2-5"] = tl;
+		};
+		registerTimeline();
+	</script></body></html>

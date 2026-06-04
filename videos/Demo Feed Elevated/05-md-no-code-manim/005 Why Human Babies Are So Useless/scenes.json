@@ -1,0 +1,3341 @@
+{
+  "title": "The Problem That Created Helpless Babies",
+  "styleId": "ns_rounded_stickman",
+  "timeline": {
+    "totalDuration": 89.69,
+    "scenes": [
+      {
+        "script": "Human babies arrive with the coordination of a badly packed nervous system.",
+        "startTime": 0,
+        "endTime": 4.08,
+        "audioFilePath": "audio.mp3",
+        "imageFilePath": "scene-1.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "A foal stands in hours. A human newborn cannot lift its head.",
+        "startTime": 4.08,
+        "endTime": 8.1,
+        "imageFilePath": "scene-2.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Same mammal class. Completely different launch condition.",
+        "startTime": 8.1,
+        "endTime": 11.6,
+        "imageFilePath": "scene-3.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The old explanation points to the pelvis.",
+        "startTime": 11.6,
+        "endTime": 14.07,
+        "imageFilePath": "scene-4.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Upright walking reshapes the birth canal into a narrow, twisted route.",
+        "startTime": 14.07,
+        "endTime": 18.04,
+        "imageFilePath": "scene-5.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "At the same time, the human brain expands into an expensive organ.",
+        "startTime": 18.04,
+        "endTime": 21.99,
+        "imageFilePath": "scene-6.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "A larger skull and a narrower exit collide in one body.",
+        "startTime": 21.99,
+        "endTime": 25.51,
+        "imageFilePath": "scene-7.png",
+        "camera": "static",
+        "transition": "crossfade"
+      },
+      {
+        "script": "Birth moves earlier because waiting longer gets dangerous.",
+        "startTime": 25.51,
+        "endTime": 28.48,
+        "imageFilePath": "scene-8.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The baby leaves the womb before the motor system is ready.",
+        "startTime": 28.48,
+        "endTime": 31.35,
+        "imageFilePath": "scene-9.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The skull is flexible. The neck is weak. The hands cannot help.",
+        "startTime": 31.35,
+        "endTime": 35.05,
+        "imageFilePath": "scene-10.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Helplessness looks like a defect from the outside.",
+        "startTime": 35.05,
+        "endTime": 37.63,
+        "imageFilePath": "scene-11.png",
+        "camera": "static",
+        "transition": "cut",
+        "sfxFilePath": "staticVideoAssets/sfx/dragon-studio-cinematic-boom-405463.m4a"
+      },
+      {
+        "script": "From the inside, it moves development into the social world.",
+        "startTime": 37.63,
+        "endTime": 40.41,
+        "imageFilePath": "scene-12.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The brain keeps wiring after birth, under faces, voices, touch, and language.",
+        "startTime": 40.41,
+        "endTime": 45.51,
+        "imageFilePath": "scene-13.png",
+        "camera": "static",
+        "transition": "crossfade"
+      },
+      {
+        "script": "That long unfinished period changes the entire group.",
+        "startTime": 45.51,
+        "endTime": 48.67,
+        "imageFilePath": "scene-14.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "One adult cannot easily feed, protect, carry, and teach for years alone.",
+        "startTime": 48.67,
+        "endTime": 53.2,
+        "imageFilePath": "scene-15.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Human childhood pulls in fathers, siblings, grandparents, and unrelated helpers.",
+        "startTime": 53.2,
+        "endTime": 57.97,
+        "imageFilePath": "scene-16.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Biologists call this cooperative breeding.",
+        "startTime": 57.97,
+        "endTime": 60.46,
+        "imageFilePath": "scene-17.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The baby becomes a social engine by being impossible to raise solo.",
+        "startTime": 60.46,
+        "endTime": 64.22,
+        "imageFilePath": "scene-18.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The cost is years of dependence.",
+        "startTime": 64.22,
+        "endTime": 66.05,
+        "imageFilePath": "scene-19.png",
+        "camera": "static",
+        "transition": "diagonalSplit",
+        "sfxFilePath": "staticVideoAssets/sfx/dragon-studio-riser-swoosh-transition-390289.m4a"
+      },
+      {
+        "script": "The payoff is a brain shaped by its local world.",
+        "startTime": 66.05,
+        "endTime": 69.3,
+        "imageFilePath": "scene-20.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Other animals arrive ready for one environment.",
+        "startTime": 69.3,
+        "endTime": 71.76,
+        "imageFilePath": "scene-21.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Humans arrive ready to be trained by almost any environment.",
+        "startTime": 71.76,
+        "endTime": 75.19,
+        "imageFilePath": "scene-22.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "That is why infancy lasts so long.",
+        "startTime": 75.19,
+        "endTime": 77.69,
+        "imageFilePath": "scene-23.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Culture gets time to enter the nervous system.",
+        "startTime": 77.69,
+        "endTime": 80.09,
+        "imageFilePath": "scene-24.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "The useless baby is not a failed adult.",
+        "startTime": 80.09,
+        "endTime": 82.71,
+        "imageFilePath": "scene-25.png",
+        "camera": "static",
+        "transition": "crossfade"
+      },
+      {
+        "script": "It is an unfinished brain wrapped in a body that forces cooperation.",
+        "startTime": 82.71,
+        "endTime": 86.64,
+        "imageFilePath": "scene-26.png",
+        "camera": "static",
+        "transition": "cut"
+      },
+      {
+        "script": "Human helplessness is the price of human teachability.",
+        "startTime": 86.64,
+        "endTime": 89.69,
+        "imageFilePath": "scene-27.png",
+        "camera": "static",
+        "transition": "cut"
+      }
+    ]
+  },
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 1220,
+        "startMs": 0,
+        "text": "Human babies arrive",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 420,
+            "startMs": 0,
+            "text": "Human",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 420
+          },
+          {
+            "confidence": null,
+            "endMs": 800,
+            "startMs": 420,
+            "text": " babies",
+            "timestampMs": 420,
+            "fromMs": 420,
+            "toMs": 800
+          },
+          {
+            "confidence": null,
+            "endMs": 1220,
+            "startMs": 800,
+            "text": " arrive",
+            "timestampMs": 800,
+            "fromMs": 800,
+            "toMs": 1220
+          }
+        ]
+      },
+      {
+        "durationMs": 1050,
+        "startMs": 1220,
+        "text": "with the coordination",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1440,
+            "startMs": 1220,
+            "text": " with",
+            "timestampMs": 1220,
+            "fromMs": 1220,
+            "toMs": 1440
+          },
+          {
+            "confidence": null,
+            "endMs": 1510,
+            "startMs": 1440,
+            "text": " the",
+            "timestampMs": 1440,
+            "fromMs": 1440,
+            "toMs": 1510
+          },
+          {
+            "confidence": null,
+            "endMs": 2270,
+            "startMs": 1510,
+            "text": " coordination",
+            "timestampMs": 1510,
+            "fromMs": 1510,
+            "toMs": 2270
+          }
+        ]
+      },
+      {
+        "durationMs": 540,
+        "startMs": 2270,
+        "text": "of a badly",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2410,
+            "startMs": 2270,
+            "text": " of",
+            "timestampMs": 2270,
+            "fromMs": 2270,
+            "toMs": 2410
+          },
+          {
+            "confidence": null,
+            "endMs": 2460,
+            "startMs": 2410,
+            "text": " a",
+            "timestampMs": 2410,
+            "fromMs": 2410,
+            "toMs": 2460
+          },
+          {
+            "confidence": null,
+            "endMs": 2810,
+            "startMs": 2460,
+            "text": " badly",
+            "timestampMs": 2460,
+            "fromMs": 2460,
+            "toMs": 2810
+          }
+        ]
+      },
+      {
+        "durationMs": 1270,
+        "startMs": 2810,
+        "text": "packed nervous system.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3160,
+            "startMs": 2810,
+            "text": " packed",
+            "timestampMs": 2810,
+            "fromMs": 2810,
+            "toMs": 3160
+          },
+          {
+            "confidence": null,
+            "endMs": 3540,
+            "startMs": 3160,
+            "text": " nervous",
+            "timestampMs": 3160,
+            "fromMs": 3160,
+            "toMs": 3540
+          },
+          {
+            "confidence": null,
+            "endMs": 4080,
+            "startMs": 3540,
+            "text": " system.",
+            "timestampMs": 3540,
+            "fromMs": 3540,
+            "toMs": 4080
+          }
+        ]
+      },
+      {
+        "durationMs": 880,
+        "startMs": 4080,
+        "text": "A foal stands",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4210,
+            "startMs": 4080,
+            "text": " A",
+            "timestampMs": 4080,
+            "fromMs": 4080,
+            "toMs": 4210
+          },
+          {
+            "confidence": null,
+            "endMs": 4580,
+            "startMs": 4210,
+            "text": " foal",
+            "timestampMs": 4210,
+            "fromMs": 4210,
+            "toMs": 4580
+          },
+          {
+            "confidence": null,
+            "endMs": 4960,
+            "startMs": 4580,
+            "text": " stands",
+            "timestampMs": 4580,
+            "fromMs": 4580,
+            "toMs": 4960
+          }
+        ]
+      },
+      {
+        "durationMs": 830,
+        "startMs": 4960,
+        "text": "in hours.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5050,
+            "startMs": 4960,
+            "text": " in",
+            "timestampMs": 4960,
+            "fromMs": 4960,
+            "toMs": 5050
+          },
+          {
+            "confidence": null,
+            "endMs": 5790,
+            "startMs": 5050,
+            "text": " hours.",
+            "timestampMs": 5050,
+            "fromMs": 5050,
+            "toMs": 5790
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 5790,
+        "text": "A human newborn",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5940,
+            "startMs": 5790,
+            "text": " A",
+            "timestampMs": 5790,
+            "fromMs": 5790,
+            "toMs": 5940
+          },
+          {
+            "confidence": null,
+            "endMs": 6280,
+            "startMs": 5940,
+            "text": " human",
+            "timestampMs": 5940,
+            "fromMs": 5940,
+            "toMs": 6280
+          },
+          {
+            "confidence": null,
+            "endMs": 6820,
+            "startMs": 6280,
+            "text": " newborn",
+            "timestampMs": 6280,
+            "fromMs": 6280,
+            "toMs": 6820
+          }
+        ]
+      },
+      {
+        "durationMs": 710,
+        "startMs": 6820,
+        "text": "cannot lift its",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7200,
+            "startMs": 6820,
+            "text": " cannot",
+            "timestampMs": 6820,
+            "fromMs": 6820,
+            "toMs": 7200
+          },
+          {
+            "confidence": null,
+            "endMs": 7390,
+            "startMs": 7200,
+            "text": " lift",
+            "timestampMs": 7200,
+            "fromMs": 7200,
+            "toMs": 7390
+          },
+          {
+            "confidence": null,
+            "endMs": 7530,
+            "startMs": 7390,
+            "text": " its",
+            "timestampMs": 7390,
+            "fromMs": 7390,
+            "toMs": 7530
+          }
+        ]
+      },
+      {
+        "durationMs": 570,
+        "startMs": 7530,
+        "text": "head.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8100,
+            "startMs": 7530,
+            "text": " head.",
+            "timestampMs": 7530,
+            "fromMs": 7530,
+            "toMs": 8100
+          }
+        ]
+      },
+      {
+        "durationMs": 1450,
+        "startMs": 8100,
+        "text": "Same mammal class.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8490,
+            "startMs": 8100,
+            "text": " Same",
+            "timestampMs": 8100,
+            "fromMs": 8100,
+            "toMs": 8490
+          },
+          {
+            "confidence": null,
+            "endMs": 8770,
+            "startMs": 8490,
+            "text": " mammal",
+            "timestampMs": 8490,
+            "fromMs": 8490,
+            "toMs": 8770
+          },
+          {
+            "confidence": null,
+            "endMs": 9550,
+            "startMs": 8770,
+            "text": " class.",
+            "timestampMs": 8770,
+            "fromMs": 8770,
+            "toMs": 9550
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 9550,
+        "text": "Completely different launch",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 10060,
+            "startMs": 9550,
+            "text": " Completely",
+            "timestampMs": 9550,
+            "fromMs": 9550,
+            "toMs": 10060
+          },
+          {
+            "confidence": null,
+            "endMs": 10400,
+            "startMs": 10060,
+            "text": " different",
+            "timestampMs": 10060,
+            "fromMs": 10060,
+            "toMs": 10400
+          },
+          {
+            "confidence": null,
+            "endMs": 10630,
+            "startMs": 10400,
+            "text": " launch",
+            "timestampMs": 10400,
+            "fromMs": 10400,
+            "toMs": 10630
+          }
+        ]
+      },
+      {
+        "durationMs": 970,
+        "startMs": 10630,
+        "text": "condition.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11600,
+            "startMs": 10630,
+            "text": " condition.",
+            "timestampMs": 10630,
+            "fromMs": 10630,
+            "toMs": 11600
+          }
+        ]
+      },
+      {
+        "durationMs": 1260,
+        "startMs": 11600,
+        "text": "The old explanation",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11800,
+            "startMs": 11600,
+            "text": " The",
+            "timestampMs": 11600,
+            "fromMs": 11600,
+            "toMs": 11800
+          },
+          {
+            "confidence": null,
+            "endMs": 12040,
+            "startMs": 11800,
+            "text": " old",
+            "timestampMs": 11800,
+            "fromMs": 11800,
+            "toMs": 12040
+          },
+          {
+            "confidence": null,
+            "endMs": 12860,
+            "startMs": 12040,
+            "text": " explanation",
+            "timestampMs": 12040,
+            "fromMs": 12040,
+            "toMs": 12860
+          }
+        ]
+      },
+      {
+        "durationMs": 550,
+        "startMs": 12860,
+        "text": "points to the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13240,
+            "startMs": 12860,
+            "text": " points",
+            "timestampMs": 12860,
+            "fromMs": 12860,
+            "toMs": 13240
+          },
+          {
+            "confidence": null,
+            "endMs": 13340,
+            "startMs": 13240,
+            "text": " to",
+            "timestampMs": 13240,
+            "fromMs": 13240,
+            "toMs": 13340
+          },
+          {
+            "confidence": null,
+            "endMs": 13410,
+            "startMs": 13340,
+            "text": " the",
+            "timestampMs": 13340,
+            "fromMs": 13340,
+            "toMs": 13410
+          }
+        ]
+      },
+      {
+        "durationMs": 660,
+        "startMs": 13410,
+        "text": "pelvis.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 14070,
+            "startMs": 13410,
+            "text": " pelvis.",
+            "timestampMs": 13410,
+            "fromMs": 13410,
+            "toMs": 14070
+          }
+        ]
+      },
+      {
+        "durationMs": 1470,
+        "startMs": 14070,
+        "text": "Upright walking reshapes",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 14490,
+            "startMs": 14070,
+            "text": " Upright",
+            "timestampMs": 14070,
+            "fromMs": 14070,
+            "toMs": 14490
+          },
+          {
+            "confidence": null,
+            "endMs": 14940,
+            "startMs": 14490,
+            "text": " walking",
+            "timestampMs": 14490,
+            "fromMs": 14490,
+            "toMs": 14940
+          },
+          {
+            "confidence": null,
+            "endMs": 15540,
+            "startMs": 14940,
+            "text": " reshapes",
+            "timestampMs": 14940,
+            "fromMs": 14940,
+            "toMs": 15540
+          }
+        ]
+      },
+      {
+        "durationMs": 770,
+        "startMs": 15540,
+        "text": "the birth canal",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15630,
+            "startMs": 15540,
+            "text": " the",
+            "timestampMs": 15540,
+            "fromMs": 15540,
+            "toMs": 15630
+          },
+          {
+            "confidence": null,
+            "endMs": 15890,
+            "startMs": 15630,
+            "text": " birth",
+            "timestampMs": 15630,
+            "fromMs": 15630,
+            "toMs": 15890
+          },
+          {
+            "confidence": null,
+            "endMs": 16310,
+            "startMs": 15890,
+            "text": " canal",
+            "timestampMs": 15890,
+            "fromMs": 15890,
+            "toMs": 16310
+          }
+        ]
+      },
+      {
+        "durationMs": 800,
+        "startMs": 16310,
+        "text": "into a narrow,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16620,
+            "startMs": 16310,
+            "text": " into",
+            "timestampMs": 16310,
+            "fromMs": 16310,
+            "toMs": 16620
+          },
+          {
+            "confidence": null,
+            "endMs": 16650,
+            "startMs": 16620,
+            "text": " a",
+            "timestampMs": 16620,
+            "fromMs": 16620,
+            "toMs": 16650
+          },
+          {
+            "confidence": null,
+            "endMs": 17110,
+            "startMs": 16650,
+            "text": " narrow,",
+            "timestampMs": 16650,
+            "fromMs": 16650,
+            "toMs": 17110
+          }
+        ]
+      },
+      {
+        "durationMs": 930,
+        "startMs": 17110,
+        "text": "twisted route.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17610,
+            "startMs": 17110,
+            "text": " twisted",
+            "timestampMs": 17110,
+            "fromMs": 17110,
+            "toMs": 17610
+          },
+          {
+            "confidence": null,
+            "endMs": 18040,
+            "startMs": 17610,
+            "text": " route.",
+            "timestampMs": 17610,
+            "fromMs": 17610,
+            "toMs": 18040
+          }
+        ]
+      },
+      {
+        "durationMs": 530,
+        "startMs": 18040,
+        "text": "At the same",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18230,
+            "startMs": 18040,
+            "text": " At",
+            "timestampMs": 18040,
+            "fromMs": 18040,
+            "toMs": 18230
+          },
+          {
+            "confidence": null,
+            "endMs": 18300,
+            "startMs": 18230,
+            "text": " the",
+            "timestampMs": 18230,
+            "fromMs": 18230,
+            "toMs": 18300
+          },
+          {
+            "confidence": null,
+            "endMs": 18570,
+            "startMs": 18300,
+            "text": " same",
+            "timestampMs": 18300,
+            "fromMs": 18300,
+            "toMs": 18570
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 18570,
+        "text": "time, the human",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19090,
+            "startMs": 18570,
+            "text": " time,",
+            "timestampMs": 18570,
+            "fromMs": 18570,
+            "toMs": 19090
+          },
+          {
+            "confidence": null,
+            "endMs": 19280,
+            "startMs": 19090,
+            "text": " the",
+            "timestampMs": 19090,
+            "fromMs": 19090,
+            "toMs": 19280
+          },
+          {
+            "confidence": null,
+            "endMs": 19610,
+            "startMs": 19280,
+            "text": " human",
+            "timestampMs": 19280,
+            "fromMs": 19280,
+            "toMs": 19610
+          }
+        ]
+      },
+      {
+        "durationMs": 1100,
+        "startMs": 19610,
+        "text": "brain expands into",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19870,
+            "startMs": 19610,
+            "text": " brain",
+            "timestampMs": 19610,
+            "fromMs": 19610,
+            "toMs": 19870
+          },
+          {
+            "confidence": null,
+            "endMs": 20380,
+            "startMs": 19870,
+            "text": " expands",
+            "timestampMs": 19870,
+            "fromMs": 19870,
+            "toMs": 20380
+          },
+          {
+            "confidence": null,
+            "endMs": 20710,
+            "startMs": 20380,
+            "text": " into",
+            "timestampMs": 20380,
+            "fromMs": 20380,
+            "toMs": 20710
+          }
+        ]
+      },
+      {
+        "durationMs": 1280,
+        "startMs": 20710,
+        "text": "an expensive organ.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20770,
+            "startMs": 20710,
+            "text": " an",
+            "timestampMs": 20710,
+            "fromMs": 20710,
+            "toMs": 20770
+          },
+          {
+            "confidence": null,
+            "endMs": 21380,
+            "startMs": 20770,
+            "text": " expensive",
+            "timestampMs": 20770,
+            "fromMs": 20770,
+            "toMs": 21380
+          },
+          {
+            "confidence": null,
+            "endMs": 21990,
+            "startMs": 21380,
+            "text": " organ.",
+            "timestampMs": 21380,
+            "fromMs": 21380,
+            "toMs": 21990
+          }
+        ]
+      },
+      {
+        "durationMs": 1000,
+        "startMs": 21990,
+        "text": "A larger skull",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22220,
+            "startMs": 21990,
+            "text": " A",
+            "timestampMs": 21990,
+            "fromMs": 21990,
+            "toMs": 22220
+          },
+          {
+            "confidence": null,
+            "endMs": 22540,
+            "startMs": 22220,
+            "text": " larger",
+            "timestampMs": 22220,
+            "fromMs": 22220,
+            "toMs": 22540
+          },
+          {
+            "confidence": null,
+            "endMs": 22990,
+            "startMs": 22540,
+            "text": " skull",
+            "timestampMs": 22540,
+            "fromMs": 22540,
+            "toMs": 22990
+          }
+        ]
+      },
+      {
+        "durationMs": 770,
+        "startMs": 22990,
+        "text": "and a narrower",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23170,
+            "startMs": 22990,
+            "text": " and",
+            "timestampMs": 22990,
+            "fromMs": 22990,
+            "toMs": 23170
+          },
+          {
+            "confidence": null,
+            "endMs": 23200,
+            "startMs": 23170,
+            "text": " a",
+            "timestampMs": 23170,
+            "fromMs": 23170,
+            "toMs": 23200
+          },
+          {
+            "confidence": null,
+            "endMs": 23760,
+            "startMs": 23200,
+            "text": " narrower",
+            "timestampMs": 23200,
+            "fromMs": 23200,
+            "toMs": 23760
+          }
+        ]
+      },
+      {
+        "durationMs": 1000,
+        "startMs": 23760,
+        "text": "exit collide in",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24040,
+            "startMs": 23760,
+            "text": " exit",
+            "timestampMs": 23760,
+            "fromMs": 23760,
+            "toMs": 24040
+          },
+          {
+            "confidence": null,
+            "endMs": 24560,
+            "startMs": 24040,
+            "text": " collide",
+            "timestampMs": 24040,
+            "fromMs": 24040,
+            "toMs": 24560
+          },
+          {
+            "confidence": null,
+            "endMs": 24760,
+            "startMs": 24560,
+            "text": " in",
+            "timestampMs": 24560,
+            "fromMs": 24560,
+            "toMs": 24760
+          }
+        ]
+      },
+      {
+        "durationMs": 750,
+        "startMs": 24760,
+        "text": "one body.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24920,
+            "startMs": 24760,
+            "text": " one",
+            "timestampMs": 24760,
+            "fromMs": 24760,
+            "toMs": 24920
+          },
+          {
+            "confidence": null,
+            "endMs": 25510,
+            "startMs": 24920,
+            "text": " body.",
+            "timestampMs": 24920,
+            "fromMs": 24920,
+            "toMs": 25510
+          }
+        ]
+      },
+      {
+        "durationMs": 970,
+        "startMs": 25510,
+        "text": "Birth moves earlier",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 25770,
+            "startMs": 25510,
+            "text": " Birth",
+            "timestampMs": 25510,
+            "fromMs": 25510,
+            "toMs": 25770
+          },
+          {
+            "confidence": null,
+            "endMs": 26080,
+            "startMs": 25770,
+            "text": " moves",
+            "timestampMs": 25770,
+            "fromMs": 25770,
+            "toMs": 26080
+          },
+          {
+            "confidence": null,
+            "endMs": 26480,
+            "startMs": 26080,
+            "text": " earlier",
+            "timestampMs": 26080,
+            "fromMs": 26080,
+            "toMs": 26480
+          }
+        ]
+      },
+      {
+        "durationMs": 1110,
+        "startMs": 26480,
+        "text": "because waiting longer",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26890,
+            "startMs": 26480,
+            "text": " because",
+            "timestampMs": 26480,
+            "fromMs": 26480,
+            "toMs": 26890
+          },
+          {
+            "confidence": null,
+            "endMs": 27180,
+            "startMs": 26890,
+            "text": " waiting",
+            "timestampMs": 26890,
+            "fromMs": 26890,
+            "toMs": 27180
+          },
+          {
+            "confidence": null,
+            "endMs": 27590,
+            "startMs": 27180,
+            "text": " longer",
+            "timestampMs": 27180,
+            "fromMs": 27180,
+            "toMs": 27590
+          }
+        ]
+      },
+      {
+        "durationMs": 890,
+        "startMs": 27590,
+        "text": "gets dangerous.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27840,
+            "startMs": 27590,
+            "text": " gets",
+            "timestampMs": 27590,
+            "fromMs": 27590,
+            "toMs": 27840
+          },
+          {
+            "confidence": null,
+            "endMs": 28480,
+            "startMs": 27840,
+            "text": " dangerous.",
+            "timestampMs": 27840,
+            "fromMs": 27840,
+            "toMs": 28480
+          }
+        ]
+      },
+      {
+        "durationMs": 770,
+        "startMs": 28480,
+        "text": "The baby leaves",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28650,
+            "startMs": 28480,
+            "text": " The",
+            "timestampMs": 28480,
+            "fromMs": 28480,
+            "toMs": 28650
+          },
+          {
+            "confidence": null,
+            "endMs": 28960,
+            "startMs": 28650,
+            "text": " baby",
+            "timestampMs": 28650,
+            "fromMs": 28650,
+            "toMs": 28960
+          },
+          {
+            "confidence": null,
+            "endMs": 29250,
+            "startMs": 28960,
+            "text": " leaves",
+            "timestampMs": 28960,
+            "fromMs": 28960,
+            "toMs": 29250
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 29250,
+        "text": "the womb before",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29330,
+            "startMs": 29250,
+            "text": " the",
+            "timestampMs": 29250,
+            "fromMs": 29250,
+            "toMs": 29330
+          },
+          {
+            "confidence": null,
+            "endMs": 29640,
+            "startMs": 29330,
+            "text": " womb",
+            "timestampMs": 29330,
+            "fromMs": 29330,
+            "toMs": 29640
+          },
+          {
+            "confidence": null,
+            "endMs": 30060,
+            "startMs": 29640,
+            "text": " before",
+            "timestampMs": 29640,
+            "fromMs": 29640,
+            "toMs": 30060
+          }
+        ]
+      },
+      {
+        "durationMs": 650,
+        "startMs": 30060,
+        "text": "the motor system",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30150,
+            "startMs": 30060,
+            "text": " the",
+            "timestampMs": 30060,
+            "fromMs": 30060,
+            "toMs": 30150
+          },
+          {
+            "confidence": null,
+            "endMs": 30390,
+            "startMs": 30150,
+            "text": " motor",
+            "timestampMs": 30150,
+            "fromMs": 30150,
+            "toMs": 30390
+          },
+          {
+            "confidence": null,
+            "endMs": 30710,
+            "startMs": 30390,
+            "text": " system",
+            "timestampMs": 30390,
+            "fromMs": 30390,
+            "toMs": 30710
+          }
+        ]
+      },
+      {
+        "durationMs": 640,
+        "startMs": 30710,
+        "text": "is ready.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30840,
+            "startMs": 30710,
+            "text": " is",
+            "timestampMs": 30710,
+            "fromMs": 30710,
+            "toMs": 30840
+          },
+          {
+            "confidence": null,
+            "endMs": 31350,
+            "startMs": 30840,
+            "text": " ready.",
+            "timestampMs": 30840,
+            "fromMs": 30840,
+            "toMs": 31350
+          }
+        ]
+      },
+      {
+        "durationMs": 780,
+        "startMs": 31350,
+        "text": "The skull is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31550,
+            "startMs": 31350,
+            "text": " The",
+            "timestampMs": 31350,
+            "fromMs": 31350,
+            "toMs": 31550
+          },
+          {
+            "confidence": null,
+            "endMs": 31980,
+            "startMs": 31550,
+            "text": " skull",
+            "timestampMs": 31550,
+            "fromMs": 31550,
+            "toMs": 31980
+          },
+          {
+            "confidence": null,
+            "endMs": 32130,
+            "startMs": 31980,
+            "text": " is",
+            "timestampMs": 31980,
+            "fromMs": 31980,
+            "toMs": 32130
+          }
+        ]
+      },
+      {
+        "durationMs": 610,
+        "startMs": 32130,
+        "text": "flexible.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32740,
+            "startMs": 32130,
+            "text": " flexible.",
+            "timestampMs": 32130,
+            "fromMs": 32130,
+            "toMs": 32740
+          }
+        ]
+      },
+      {
+        "durationMs": 640,
+        "startMs": 32740,
+        "text": "The neck is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32890,
+            "startMs": 32740,
+            "text": " The",
+            "timestampMs": 32740,
+            "fromMs": 32740,
+            "toMs": 32890
+          },
+          {
+            "confidence": null,
+            "endMs": 33160,
+            "startMs": 32890,
+            "text": " neck",
+            "timestampMs": 32890,
+            "fromMs": 32890,
+            "toMs": 33160
+          },
+          {
+            "confidence": null,
+            "endMs": 33380,
+            "startMs": 33160,
+            "text": " is",
+            "timestampMs": 33160,
+            "fromMs": 33160,
+            "toMs": 33380
+          }
+        ]
+      },
+      {
+        "durationMs": 380,
+        "startMs": 33380,
+        "text": "weak.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33760,
+            "startMs": 33380,
+            "text": " weak.",
+            "timestampMs": 33380,
+            "fromMs": 33380,
+            "toMs": 33760
+          }
+        ]
+      },
+      {
+        "durationMs": 850,
+        "startMs": 33760,
+        "text": "The hands cannot",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33910,
+            "startMs": 33760,
+            "text": " The",
+            "timestampMs": 33760,
+            "fromMs": 33760,
+            "toMs": 33910
+          },
+          {
+            "confidence": null,
+            "endMs": 34310,
+            "startMs": 33910,
+            "text": " hands",
+            "timestampMs": 33910,
+            "fromMs": 33910,
+            "toMs": 34310
+          },
+          {
+            "confidence": null,
+            "endMs": 34610,
+            "startMs": 34310,
+            "text": " cannot",
+            "timestampMs": 34310,
+            "fromMs": 34310,
+            "toMs": 34610
+          }
+        ]
+      },
+      {
+        "durationMs": 440,
+        "startMs": 34610,
+        "text": "help.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35050,
+            "startMs": 34610,
+            "text": " help.",
+            "timestampMs": 34610,
+            "fromMs": 34610,
+            "toMs": 35050
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 35050,
+        "text": "Helplessness looks like",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35730,
+            "startMs": 35050,
+            "text": " Helplessness",
+            "timestampMs": 35050,
+            "fromMs": 35050,
+            "toMs": 35730
+          },
+          {
+            "confidence": null,
+            "endMs": 35930,
+            "startMs": 35730,
+            "text": " looks",
+            "timestampMs": 35730,
+            "fromMs": 35730,
+            "toMs": 35930
+          },
+          {
+            "confidence": null,
+            "endMs": 36080,
+            "startMs": 35930,
+            "text": " like",
+            "timestampMs": 35930,
+            "fromMs": 35930,
+            "toMs": 36080
+          }
+        ]
+      },
+      {
+        "durationMs": 670,
+        "startMs": 36080,
+        "text": "a defect from",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36120,
+            "startMs": 36080,
+            "text": " a",
+            "timestampMs": 36080,
+            "fromMs": 36080,
+            "toMs": 36120
+          },
+          {
+            "confidence": null,
+            "endMs": 36570,
+            "startMs": 36120,
+            "text": " defect",
+            "timestampMs": 36120,
+            "fromMs": 36120,
+            "toMs": 36570
+          },
+          {
+            "confidence": null,
+            "endMs": 36750,
+            "startMs": 36570,
+            "text": " from",
+            "timestampMs": 36570,
+            "fromMs": 36570,
+            "toMs": 36750
+          }
+        ]
+      },
+      {
+        "durationMs": 880,
+        "startMs": 36750,
+        "text": "the outside.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36860,
+            "startMs": 36750,
+            "text": " the",
+            "timestampMs": 36750,
+            "fromMs": 36750,
+            "toMs": 36860
+          },
+          {
+            "confidence": null,
+            "endMs": 37630,
+            "startMs": 36860,
+            "text": " outside.",
+            "timestampMs": 36860,
+            "fromMs": 36860,
+            "toMs": 37630
+          }
+        ]
+      },
+      {
+        "durationMs": 840,
+        "startMs": 37630,
+        "text": "From the inside,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37880,
+            "startMs": 37630,
+            "text": " From",
+            "timestampMs": 37630,
+            "fromMs": 37630,
+            "toMs": 37880
+          },
+          {
+            "confidence": null,
+            "endMs": 37990,
+            "startMs": 37880,
+            "text": " the",
+            "timestampMs": 37880,
+            "fromMs": 37880,
+            "toMs": 37990
+          },
+          {
+            "confidence": null,
+            "endMs": 38470,
+            "startMs": 37990,
+            "text": " inside,",
+            "timestampMs": 37990,
+            "fromMs": 37990,
+            "toMs": 38470
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 38470,
+        "text": "it moves development",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38620,
+            "startMs": 38470,
+            "text": " it",
+            "timestampMs": 38470,
+            "fromMs": 38470,
+            "toMs": 38620
+          },
+          {
+            "confidence": null,
+            "endMs": 38860,
+            "startMs": 38620,
+            "text": " moves",
+            "timestampMs": 38620,
+            "fromMs": 38620,
+            "toMs": 38860
+          },
+          {
+            "confidence": null,
+            "endMs": 39370,
+            "startMs": 38860,
+            "text": " development",
+            "timestampMs": 38860,
+            "fromMs": 38860,
+            "toMs": 39370
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 39370,
+        "text": "into the social",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39610,
+            "startMs": 39370,
+            "text": " into",
+            "timestampMs": 39370,
+            "fromMs": 39370,
+            "toMs": 39610
+          },
+          {
+            "confidence": null,
+            "endMs": 39690,
+            "startMs": 39610,
+            "text": " the",
+            "timestampMs": 39610,
+            "fromMs": 39610,
+            "toMs": 39690
+          },
+          {
+            "confidence": null,
+            "endMs": 40090,
+            "startMs": 39690,
+            "text": " social",
+            "timestampMs": 39690,
+            "fromMs": 39690,
+            "toMs": 40090
+          }
+        ]
+      },
+      {
+        "durationMs": 320,
+        "startMs": 40090,
+        "text": "world.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40410,
+            "startMs": 40090,
+            "text": " world.",
+            "timestampMs": 40090,
+            "fromMs": 40090,
+            "toMs": 40410
+          }
+        ]
+      },
+      {
+        "durationMs": 830,
+        "startMs": 40410,
+        "text": "The brain keeps",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40590,
+            "startMs": 40410,
+            "text": " The",
+            "timestampMs": 40410,
+            "fromMs": 40410,
+            "toMs": 40590
+          },
+          {
+            "confidence": null,
+            "endMs": 40930,
+            "startMs": 40590,
+            "text": " brain",
+            "timestampMs": 40590,
+            "fromMs": 40590,
+            "toMs": 40930
+          },
+          {
+            "confidence": null,
+            "endMs": 41240,
+            "startMs": 40930,
+            "text": " keeps",
+            "timestampMs": 40930,
+            "fromMs": 40930,
+            "toMs": 41240
+          }
+        ]
+      },
+      {
+        "durationMs": 1380,
+        "startMs": 41240,
+        "text": "wiring after birth,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 41650,
+            "startMs": 41240,
+            "text": " wiring",
+            "timestampMs": 41240,
+            "fromMs": 41240,
+            "toMs": 41650
+          },
+          {
+            "confidence": null,
+            "endMs": 41980,
+            "startMs": 41650,
+            "text": " after",
+            "timestampMs": 41650,
+            "fromMs": 41650,
+            "toMs": 41980
+          },
+          {
+            "confidence": null,
+            "endMs": 42620,
+            "startMs": 41980,
+            "text": " birth,",
+            "timestampMs": 41980,
+            "fromMs": 41980,
+            "toMs": 42620
+          }
+        ]
+      },
+      {
+        "durationMs": 1500,
+        "startMs": 42620,
+        "text": "under faces, voices,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42810,
+            "startMs": 42620,
+            "text": " under",
+            "timestampMs": 42620,
+            "fromMs": 42620,
+            "toMs": 42810
+          },
+          {
+            "confidence": null,
+            "endMs": 43400,
+            "startMs": 42810,
+            "text": " faces,",
+            "timestampMs": 42810,
+            "fromMs": 42810,
+            "toMs": 43400
+          },
+          {
+            "confidence": null,
+            "endMs": 44120,
+            "startMs": 43400,
+            "text": " voices,",
+            "timestampMs": 43400,
+            "fromMs": 43400,
+            "toMs": 44120
+          }
+        ]
+      },
+      {
+        "durationMs": 1390,
+        "startMs": 44120,
+        "text": "touch, and language.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44640,
+            "startMs": 44120,
+            "text": " touch,",
+            "timestampMs": 44120,
+            "fromMs": 44120,
+            "toMs": 44640
+          },
+          {
+            "confidence": null,
+            "endMs": 44840,
+            "startMs": 44640,
+            "text": " and",
+            "timestampMs": 44640,
+            "fromMs": 44640,
+            "toMs": 44840
+          },
+          {
+            "confidence": null,
+            "endMs": 45510,
+            "startMs": 44840,
+            "text": " language.",
+            "timestampMs": 44840,
+            "fromMs": 44840,
+            "toMs": 45510
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 45510,
+        "text": "That long unfinished",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45780,
+            "startMs": 45510,
+            "text": " That",
+            "timestampMs": 45510,
+            "fromMs": 45510,
+            "toMs": 45780
+          },
+          {
+            "confidence": null,
+            "endMs": 46080,
+            "startMs": 45780,
+            "text": " long",
+            "timestampMs": 45780,
+            "fromMs": 45780,
+            "toMs": 46080
+          },
+          {
+            "confidence": null,
+            "endMs": 46590,
+            "startMs": 46080,
+            "text": " unfinished",
+            "timestampMs": 46080,
+            "fromMs": 46080,
+            "toMs": 46590
+          }
+        ]
+      },
+      {
+        "durationMs": 1170,
+        "startMs": 46590,
+        "text": "period changes the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47060,
+            "startMs": 46590,
+            "text": " period",
+            "timestampMs": 46590,
+            "fromMs": 46590,
+            "toMs": 47060
+          },
+          {
+            "confidence": null,
+            "endMs": 47620,
+            "startMs": 47060,
+            "text": " changes",
+            "timestampMs": 47060,
+            "fromMs": 47060,
+            "toMs": 47620
+          },
+          {
+            "confidence": null,
+            "endMs": 47760,
+            "startMs": 47620,
+            "text": " the",
+            "timestampMs": 47620,
+            "fromMs": 47620,
+            "toMs": 47760
+          }
+        ]
+      },
+      {
+        "durationMs": 910,
+        "startMs": 47760,
+        "text": "entire group.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48190,
+            "startMs": 47760,
+            "text": " entire",
+            "timestampMs": 47760,
+            "fromMs": 47760,
+            "toMs": 48190
+          },
+          {
+            "confidence": null,
+            "endMs": 48670,
+            "startMs": 48190,
+            "text": " group.",
+            "timestampMs": 48190,
+            "fromMs": 48190,
+            "toMs": 48670
+          }
+        ]
+      },
+      {
+        "durationMs": 960,
+        "startMs": 48670,
+        "text": "One adult cannot",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48950,
+            "startMs": 48670,
+            "text": " One",
+            "timestampMs": 48670,
+            "fromMs": 48670,
+            "toMs": 48950
+          },
+          {
+            "confidence": null,
+            "endMs": 49300,
+            "startMs": 48950,
+            "text": " adult",
+            "timestampMs": 48950,
+            "fromMs": 48950,
+            "toMs": 49300
+          },
+          {
+            "confidence": null,
+            "endMs": 49630,
+            "startMs": 49300,
+            "text": " cannot",
+            "timestampMs": 49300,
+            "fromMs": 49300,
+            "toMs": 49630
+          }
+        ]
+      },
+      {
+        "durationMs": 1640,
+        "startMs": 49630,
+        "text": "easily feed, protect,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50060,
+            "startMs": 49630,
+            "text": " easily",
+            "timestampMs": 49630,
+            "fromMs": 49630,
+            "toMs": 50060
+          },
+          {
+            "confidence": null,
+            "endMs": 50620,
+            "startMs": 50060,
+            "text": " feed,",
+            "timestampMs": 50060,
+            "fromMs": 50060,
+            "toMs": 50620
+          },
+          {
+            "confidence": null,
+            "endMs": 51270,
+            "startMs": 50620,
+            "text": " protect,",
+            "timestampMs": 50620,
+            "fromMs": 50620,
+            "toMs": 51270
+          }
+        ]
+      },
+      {
+        "durationMs": 1020,
+        "startMs": 51270,
+        "text": "carry, and teach",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51740,
+            "startMs": 51270,
+            "text": " carry,",
+            "timestampMs": 51270,
+            "fromMs": 51270,
+            "toMs": 51740
+          },
+          {
+            "confidence": null,
+            "endMs": 51930,
+            "startMs": 51740,
+            "text": " and",
+            "timestampMs": 51740,
+            "fromMs": 51740,
+            "toMs": 51930
+          },
+          {
+            "confidence": null,
+            "endMs": 52290,
+            "startMs": 51930,
+            "text": " teach",
+            "timestampMs": 51930,
+            "fromMs": 51930,
+            "toMs": 52290
+          }
+        ]
+      },
+      {
+        "durationMs": 910,
+        "startMs": 52290,
+        "text": "for years alone.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52390,
+            "startMs": 52290,
+            "text": " for",
+            "timestampMs": 52290,
+            "fromMs": 52290,
+            "toMs": 52390
+          },
+          {
+            "confidence": null,
+            "endMs": 52640,
+            "startMs": 52390,
+            "text": " years",
+            "timestampMs": 52390,
+            "fromMs": 52390,
+            "toMs": 52640
+          },
+          {
+            "confidence": null,
+            "endMs": 53200,
+            "startMs": 52640,
+            "text": " alone.",
+            "timestampMs": 52640,
+            "fromMs": 52640,
+            "toMs": 53200
+          }
+        ]
+      },
+      {
+        "durationMs": 1240,
+        "startMs": 53200,
+        "text": "Human childhood pulls",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53550,
+            "startMs": 53200,
+            "text": " Human",
+            "timestampMs": 53200,
+            "fromMs": 53200,
+            "toMs": 53550
+          },
+          {
+            "confidence": null,
+            "endMs": 54120,
+            "startMs": 53550,
+            "text": " childhood",
+            "timestampMs": 53550,
+            "fromMs": 53550,
+            "toMs": 54120
+          },
+          {
+            "confidence": null,
+            "endMs": 54440,
+            "startMs": 54120,
+            "text": " pulls",
+            "timestampMs": 54120,
+            "fromMs": 54120,
+            "toMs": 54440
+          }
+        ]
+      },
+      {
+        "durationMs": 1540,
+        "startMs": 54440,
+        "text": "in fathers, siblings,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54560,
+            "startMs": 54440,
+            "text": " in",
+            "timestampMs": 54440,
+            "fromMs": 54440,
+            "toMs": 54560
+          },
+          {
+            "confidence": null,
+            "endMs": 55200,
+            "startMs": 54560,
+            "text": " fathers,",
+            "timestampMs": 54560,
+            "fromMs": 54560,
+            "toMs": 55200
+          },
+          {
+            "confidence": null,
+            "endMs": 55980,
+            "startMs": 55200,
+            "text": " siblings,",
+            "timestampMs": 55200,
+            "fromMs": 55200,
+            "toMs": 55980
+          }
+        ]
+      },
+      {
+        "durationMs": 1470,
+        "startMs": 55980,
+        "text": "grandparents, and unrelated",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56710,
+            "startMs": 55980,
+            "text": " grandparents,",
+            "timestampMs": 55980,
+            "fromMs": 55980,
+            "toMs": 56710
+          },
+          {
+            "confidence": null,
+            "endMs": 56910,
+            "startMs": 56710,
+            "text": " and",
+            "timestampMs": 56710,
+            "fromMs": 56710,
+            "toMs": 56910
+          },
+          {
+            "confidence": null,
+            "endMs": 57450,
+            "startMs": 56910,
+            "text": " unrelated",
+            "timestampMs": 56910,
+            "fromMs": 56910,
+            "toMs": 57450
+          }
+        ]
+      },
+      {
+        "durationMs": 520,
+        "startMs": 57450,
+        "text": "helpers.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57970,
+            "startMs": 57450,
+            "text": " helpers.",
+            "timestampMs": 57450,
+            "fromMs": 57450,
+            "toMs": 57970
+          }
+        ]
+      },
+      {
+        "durationMs": 1170,
+        "startMs": 57970,
+        "text": "Biologists call this",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 58690,
+            "startMs": 57970,
+            "text": " Biologists",
+            "timestampMs": 57970,
+            "fromMs": 57970,
+            "toMs": 58690
+          },
+          {
+            "confidence": null,
+            "endMs": 58910,
+            "startMs": 58690,
+            "text": " call",
+            "timestampMs": 58690,
+            "fromMs": 58690,
+            "toMs": 58910
+          },
+          {
+            "confidence": null,
+            "endMs": 59140,
+            "startMs": 58910,
+            "text": " this",
+            "timestampMs": 58910,
+            "fromMs": 58910,
+            "toMs": 59140
+          }
+        ]
+      },
+      {
+        "durationMs": 1320,
+        "startMs": 59140,
+        "text": "cooperative breeding.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 59840,
+            "startMs": 59140,
+            "text": " cooperative",
+            "timestampMs": 59140,
+            "fromMs": 59140,
+            "toMs": 59840
+          },
+          {
+            "confidence": null,
+            "endMs": 60460,
+            "startMs": 59840,
+            "text": " breeding.",
+            "timestampMs": 59840,
+            "fromMs": 59840,
+            "toMs": 60460
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 60460,
+        "text": "The baby becomes",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60570,
+            "startMs": 60460,
+            "text": " The",
+            "timestampMs": 60460,
+            "fromMs": 60460,
+            "toMs": 60570
+          },
+          {
+            "confidence": null,
+            "endMs": 60890,
+            "startMs": 60570,
+            "text": " baby",
+            "timestampMs": 60570,
+            "fromMs": 60570,
+            "toMs": 60890
+          },
+          {
+            "confidence": null,
+            "endMs": 61270,
+            "startMs": 60890,
+            "text": " becomes",
+            "timestampMs": 60890,
+            "fromMs": 60890,
+            "toMs": 61270
+          }
+        ]
+      },
+      {
+        "durationMs": 840,
+        "startMs": 61270,
+        "text": "a social engine",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 61320,
+            "startMs": 61270,
+            "text": " a",
+            "timestampMs": 61270,
+            "fromMs": 61270,
+            "toMs": 61320
+          },
+          {
+            "confidence": null,
+            "endMs": 61750,
+            "startMs": 61320,
+            "text": " social",
+            "timestampMs": 61320,
+            "fromMs": 61320,
+            "toMs": 61750
+          },
+          {
+            "confidence": null,
+            "endMs": 62110,
+            "startMs": 61750,
+            "text": " engine",
+            "timestampMs": 61750,
+            "fromMs": 61750,
+            "toMs": 62110
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 62110,
+        "text": "by being impossible",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 62260,
+            "startMs": 62110,
+            "text": " by",
+            "timestampMs": 62110,
+            "fromMs": 62110,
+            "toMs": 62260
+          },
+          {
+            "confidence": null,
+            "endMs": 62510,
+            "startMs": 62260,
+            "text": " being",
+            "timestampMs": 62260,
+            "fromMs": 62260,
+            "toMs": 62510
+          },
+          {
+            "confidence": null,
+            "endMs": 63150,
+            "startMs": 62510,
+            "text": " impossible",
+            "timestampMs": 62510,
+            "fromMs": 62510,
+            "toMs": 63150
+          }
+        ]
+      },
+      {
+        "durationMs": 1070,
+        "startMs": 63150,
+        "text": "to raise solo.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63270,
+            "startMs": 63150,
+            "text": " to",
+            "timestampMs": 63150,
+            "fromMs": 63150,
+            "toMs": 63270
+          },
+          {
+            "confidence": null,
+            "endMs": 63550,
+            "startMs": 63270,
+            "text": " raise",
+            "timestampMs": 63270,
+            "fromMs": 63270,
+            "toMs": 63550
+          },
+          {
+            "confidence": null,
+            "endMs": 64220,
+            "startMs": 63550,
+            "text": " solo.",
+            "timestampMs": 63550,
+            "fromMs": 63550,
+            "toMs": 64220
+          }
+        ]
+      },
+      {
+        "durationMs": 670,
+        "startMs": 64220,
+        "text": "The cost is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 64400,
+            "startMs": 64220,
+            "text": " The",
+            "timestampMs": 64220,
+            "fromMs": 64220,
+            "toMs": 64400
+          },
+          {
+            "confidence": null,
+            "endMs": 64700,
+            "startMs": 64400,
+            "text": " cost",
+            "timestampMs": 64400,
+            "fromMs": 64400,
+            "toMs": 64700
+          },
+          {
+            "confidence": null,
+            "endMs": 64890,
+            "startMs": 64700,
+            "text": " is",
+            "timestampMs": 64700,
+            "fromMs": 64700,
+            "toMs": 64890
+          }
+        ]
+      },
+      {
+        "durationMs": 1160,
+        "startMs": 64890,
+        "text": "years of dependence.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 65260,
+            "startMs": 64890,
+            "text": " years",
+            "timestampMs": 64890,
+            "fromMs": 64890,
+            "toMs": 65260
+          },
+          {
+            "confidence": null,
+            "endMs": 65330,
+            "startMs": 65260,
+            "text": " of",
+            "timestampMs": 65260,
+            "fromMs": 65260,
+            "toMs": 65330
+          },
+          {
+            "confidence": null,
+            "endMs": 66050,
+            "startMs": 65330,
+            "text": " dependence.",
+            "timestampMs": 65330,
+            "fromMs": 65330,
+            "toMs": 66050
+          }
+        ]
+      },
+      {
+        "durationMs": 1110,
+        "startMs": 66050,
+        "text": "The payoff is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 66250,
+            "startMs": 66050,
+            "text": " The",
+            "timestampMs": 66050,
+            "fromMs": 66050,
+            "toMs": 66250
+          },
+          {
+            "confidence": null,
+            "endMs": 66890,
+            "startMs": 66250,
+            "text": " payoff",
+            "timestampMs": 66250,
+            "fromMs": 66250,
+            "toMs": 66890
+          },
+          {
+            "confidence": null,
+            "endMs": 67160,
+            "startMs": 66890,
+            "text": " is",
+            "timestampMs": 66890,
+            "fromMs": 66890,
+            "toMs": 67160
+          }
+        ]
+      },
+      {
+        "durationMs": 1000,
+        "startMs": 67160,
+        "text": "a brain shaped",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 67210,
+            "startMs": 67160,
+            "text": " a",
+            "timestampMs": 67160,
+            "fromMs": 67160,
+            "toMs": 67210
+          },
+          {
+            "confidence": null,
+            "endMs": 67670,
+            "startMs": 67210,
+            "text": " brain",
+            "timestampMs": 67210,
+            "fromMs": 67210,
+            "toMs": 67670
+          },
+          {
+            "confidence": null,
+            "endMs": 68160,
+            "startMs": 67670,
+            "text": " shaped",
+            "timestampMs": 67670,
+            "fromMs": 67670,
+            "toMs": 68160
+          }
+        ]
+      },
+      {
+        "durationMs": 630,
+        "startMs": 68160,
+        "text": "by its local",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 68340,
+            "startMs": 68160,
+            "text": " by",
+            "timestampMs": 68160,
+            "fromMs": 68160,
+            "toMs": 68340
+          },
+          {
+            "confidence": null,
+            "endMs": 68480,
+            "startMs": 68340,
+            "text": " its",
+            "timestampMs": 68340,
+            "fromMs": 68340,
+            "toMs": 68480
+          },
+          {
+            "confidence": null,
+            "endMs": 68790,
+            "startMs": 68480,
+            "text": " local",
+            "timestampMs": 68480,
+            "fromMs": 68480,
+            "toMs": 68790
+          }
+        ]
+      },
+      {
+        "durationMs": 510,
+        "startMs": 68790,
+        "text": "world.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69300,
+            "startMs": 68790,
+            "text": " world.",
+            "timestampMs": 68790,
+            "fromMs": 68790,
+            "toMs": 69300
+          }
+        ]
+      },
+      {
+        "durationMs": 1130,
+        "startMs": 69300,
+        "text": "Other animals arrive",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69580,
+            "startMs": 69300,
+            "text": " Other",
+            "timestampMs": 69300,
+            "fromMs": 69300,
+            "toMs": 69580
+          },
+          {
+            "confidence": null,
+            "endMs": 69980,
+            "startMs": 69580,
+            "text": " animals",
+            "timestampMs": 69580,
+            "fromMs": 69580,
+            "toMs": 69980
+          },
+          {
+            "confidence": null,
+            "endMs": 70430,
+            "startMs": 69980,
+            "text": " arrive",
+            "timestampMs": 69980,
+            "fromMs": 69980,
+            "toMs": 70430
+          }
+        ]
+      },
+      {
+        "durationMs": 620,
+        "startMs": 70430,
+        "text": "ready for one",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 70660,
+            "startMs": 70430,
+            "text": " ready",
+            "timestampMs": 70430,
+            "fromMs": 70430,
+            "toMs": 70660
+          },
+          {
+            "confidence": null,
+            "endMs": 70810,
+            "startMs": 70660,
+            "text": " for",
+            "timestampMs": 70660,
+            "fromMs": 70660,
+            "toMs": 70810
+          },
+          {
+            "confidence": null,
+            "endMs": 71050,
+            "startMs": 70810,
+            "text": " one",
+            "timestampMs": 70810,
+            "fromMs": 70810,
+            "toMs": 71050
+          }
+        ]
+      },
+      {
+        "durationMs": 710,
+        "startMs": 71050,
+        "text": "environment.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 71760,
+            "startMs": 71050,
+            "text": " environment.",
+            "timestampMs": 71050,
+            "fromMs": 71050,
+            "toMs": 71760
+          }
+        ]
+      },
+      {
+        "durationMs": 1170,
+        "startMs": 71760,
+        "text": "Humans arrive ready",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 72310,
+            "startMs": 71760,
+            "text": " Humans",
+            "timestampMs": 71760,
+            "fromMs": 71760,
+            "toMs": 72310
+          },
+          {
+            "confidence": null,
+            "endMs": 72710,
+            "startMs": 72310,
+            "text": " arrive",
+            "timestampMs": 72310,
+            "fromMs": 72310,
+            "toMs": 72710
+          },
+          {
+            "confidence": null,
+            "endMs": 72930,
+            "startMs": 72710,
+            "text": " ready",
+            "timestampMs": 72710,
+            "fromMs": 72710,
+            "toMs": 72930
+          }
+        ]
+      },
+      {
+        "durationMs": 560,
+        "startMs": 72930,
+        "text": "to be trained",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 73020,
+            "startMs": 72930,
+            "text": " to",
+            "timestampMs": 72930,
+            "fromMs": 72930,
+            "toMs": 73020
+          },
+          {
+            "confidence": null,
+            "endMs": 73130,
+            "startMs": 73020,
+            "text": " be",
+            "timestampMs": 73020,
+            "fromMs": 73020,
+            "toMs": 73130
+          },
+          {
+            "confidence": null,
+            "endMs": 73490,
+            "startMs": 73130,
+            "text": " trained",
+            "timestampMs": 73130,
+            "fromMs": 73130,
+            "toMs": 73490
+          }
+        ]
+      },
+      {
+        "durationMs": 960,
+        "startMs": 73490,
+        "text": "by almost any",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 73700,
+            "startMs": 73490,
+            "text": " by",
+            "timestampMs": 73490,
+            "fromMs": 73490,
+            "toMs": 73700
+          },
+          {
+            "confidence": null,
+            "endMs": 74130,
+            "startMs": 73700,
+            "text": " almost",
+            "timestampMs": 73700,
+            "fromMs": 73700,
+            "toMs": 74130
+          },
+          {
+            "confidence": null,
+            "endMs": 74450,
+            "startMs": 74130,
+            "text": " any",
+            "timestampMs": 74130,
+            "fromMs": 74130,
+            "toMs": 74450
+          }
+        ]
+      },
+      {
+        "durationMs": 740,
+        "startMs": 74450,
+        "text": "environment.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 75190,
+            "startMs": 74450,
+            "text": " environment.",
+            "timestampMs": 74450,
+            "fromMs": 74450,
+            "toMs": 75190
+          }
+        ]
+      },
+      {
+        "durationMs": 530,
+        "startMs": 75190,
+        "text": "That is why",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 75390,
+            "startMs": 75190,
+            "text": " That",
+            "timestampMs": 75190,
+            "fromMs": 75190,
+            "toMs": 75390
+          },
+          {
+            "confidence": null,
+            "endMs": 75530,
+            "startMs": 75390,
+            "text": " is",
+            "timestampMs": 75390,
+            "fromMs": 75390,
+            "toMs": 75530
+          },
+          {
+            "confidence": null,
+            "endMs": 75720,
+            "startMs": 75530,
+            "text": " why",
+            "timestampMs": 75530,
+            "fromMs": 75530,
+            "toMs": 75720
+          }
+        ]
+      },
+      {
+        "durationMs": 1340,
+        "startMs": 75720,
+        "text": "infancy lasts so",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 76270,
+            "startMs": 75720,
+            "text": " infancy",
+            "timestampMs": 75720,
+            "fromMs": 75720,
+            "toMs": 76270
+          },
+          {
+            "confidence": null,
+            "endMs": 76710,
+            "startMs": 76270,
+            "text": " lasts",
+            "timestampMs": 76270,
+            "fromMs": 76270,
+            "toMs": 76710
+          },
+          {
+            "confidence": null,
+            "endMs": 77060,
+            "startMs": 76710,
+            "text": " so",
+            "timestampMs": 76710,
+            "fromMs": 76710,
+            "toMs": 77060
+          }
+        ]
+      },
+      {
+        "durationMs": 630,
+        "startMs": 77060,
+        "text": "long.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 77690,
+            "startMs": 77060,
+            "text": " long.",
+            "timestampMs": 77060,
+            "fromMs": 77060,
+            "toMs": 77690
+          }
+        ]
+      },
+      {
+        "durationMs": 1130,
+        "startMs": 77690,
+        "text": "Culture gets time",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 78160,
+            "startMs": 77690,
+            "text": " Culture",
+            "timestampMs": 77690,
+            "fromMs": 77690,
+            "toMs": 78160
+          },
+          {
+            "confidence": null,
+            "endMs": 78460,
+            "startMs": 78160,
+            "text": " gets",
+            "timestampMs": 78160,
+            "fromMs": 78160,
+            "toMs": 78460
+          },
+          {
+            "confidence": null,
+            "endMs": 78820,
+            "startMs": 78460,
+            "text": " time",
+            "timestampMs": 78460,
+            "fromMs": 78460,
+            "toMs": 78820
+          }
+        ]
+      },
+      {
+        "durationMs": 470,
+        "startMs": 78820,
+        "text": "to enter the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 78930,
+            "startMs": 78820,
+            "text": " to",
+            "timestampMs": 78820,
+            "fromMs": 78820,
+            "toMs": 78930
+          },
+          {
+            "confidence": null,
+            "endMs": 79210,
+            "startMs": 78930,
+            "text": " enter",
+            "timestampMs": 78930,
+            "fromMs": 78930,
+            "toMs": 79210
+          },
+          {
+            "confidence": null,
+            "endMs": 79290,
+            "startMs": 79210,
+            "text": " the",
+            "timestampMs": 79210,
+            "fromMs": 79210,
+            "toMs": 79290
+          }
+        ]
+      },
+      {
+        "durationMs": 800,
+        "startMs": 79290,
+        "text": "nervous system.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 79610,
+            "startMs": 79290,
+            "text": " nervous",
+            "timestampMs": 79290,
+            "fromMs": 79290,
+            "toMs": 79610
+          },
+          {
+            "confidence": null,
+            "endMs": 80090,
+            "startMs": 79610,
+            "text": " system.",
+            "timestampMs": 79610,
+            "fromMs": 79610,
+            "toMs": 80090
+          }
+        ]
+      },
+      {
+        "durationMs": 970,
+        "startMs": 80090,
+        "text": "The useless baby",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 80280,
+            "startMs": 80090,
+            "text": " The",
+            "timestampMs": 80090,
+            "fromMs": 80090,
+            "toMs": 80280
+          },
+          {
+            "confidence": null,
+            "endMs": 80750,
+            "startMs": 80280,
+            "text": " useless",
+            "timestampMs": 80280,
+            "fromMs": 80280,
+            "toMs": 80750
+          },
+          {
+            "confidence": null,
+            "endMs": 81060,
+            "startMs": 80750,
+            "text": " baby",
+            "timestampMs": 80750,
+            "fromMs": 80750,
+            "toMs": 81060
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 81060,
+        "text": "is not a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 81300,
+            "startMs": 81060,
+            "text": " is",
+            "timestampMs": 81060,
+            "fromMs": 81060,
+            "toMs": 81300
+          },
+          {
+            "confidence": null,
+            "endMs": 81600,
+            "startMs": 81300,
+            "text": " not",
+            "timestampMs": 81300,
+            "fromMs": 81300,
+            "toMs": 81600
+          },
+          {
+            "confidence": null,
+            "endMs": 81640,
+            "startMs": 81600,
+            "text": " a",
+            "timestampMs": 81600,
+            "fromMs": 81600,
+            "toMs": 81640
+          }
+        ]
+      },
+      {
+        "durationMs": 1070,
+        "startMs": 81640,
+        "text": "failed adult.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 81990,
+            "startMs": 81640,
+            "text": " failed",
+            "timestampMs": 81640,
+            "fromMs": 81640,
+            "toMs": 81990
+          },
+          {
+            "confidence": null,
+            "endMs": 82710,
+            "startMs": 81990,
+            "text": " adult.",
+            "timestampMs": 81990,
+            "fromMs": 81990,
+            "toMs": 82710
+          }
+        ]
+      },
+      {
+        "durationMs": 390,
+        "startMs": 82710,
+        "text": "It is an",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 82830,
+            "startMs": 82710,
+            "text": " It",
+            "timestampMs": 82710,
+            "fromMs": 82710,
+            "toMs": 82830
+          },
+          {
+            "confidence": null,
+            "endMs": 82950,
+            "startMs": 82830,
+            "text": " is",
+            "timestampMs": 82830,
+            "fromMs": 82830,
+            "toMs": 82950
+          },
+          {
+            "confidence": null,
+            "endMs": 83100,
+            "startMs": 82950,
+            "text": " an",
+            "timestampMs": 82950,
+            "fromMs": 82950,
+            "toMs": 83100
+          }
+        ]
+      },
+      {
+        "durationMs": 1470,
+        "startMs": 83100,
+        "text": "unfinished brain wrapped",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 83700,
+            "startMs": 83100,
+            "text": " unfinished",
+            "timestampMs": 83100,
+            "fromMs": 83100,
+            "toMs": 83700
+          },
+          {
+            "confidence": null,
+            "endMs": 84130,
+            "startMs": 83700,
+            "text": " brain",
+            "timestampMs": 83700,
+            "fromMs": 83700,
+            "toMs": 84130
+          },
+          {
+            "confidence": null,
+            "endMs": 84570,
+            "startMs": 84130,
+            "text": " wrapped",
+            "timestampMs": 84130,
+            "fromMs": 84130,
+            "toMs": 84570
+          }
+        ]
+      },
+      {
+        "durationMs": 570,
+        "startMs": 84570,
+        "text": "in a body",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 84660,
+            "startMs": 84570,
+            "text": " in",
+            "timestampMs": 84570,
+            "fromMs": 84570,
+            "toMs": 84660
+          },
+          {
+            "confidence": null,
+            "endMs": 84710,
+            "startMs": 84660,
+            "text": " a",
+            "timestampMs": 84660,
+            "fromMs": 84660,
+            "toMs": 84710
+          },
+          {
+            "confidence": null,
+            "endMs": 85140,
+            "startMs": 84710,
+            "text": " body",
+            "timestampMs": 84710,
+            "fromMs": 84710,
+            "toMs": 85140
+          }
+        ]
+      },
+      {
+        "durationMs": 1500,
+        "startMs": 85140,
+        "text": "that forces cooperation.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 85330,
+            "startMs": 85140,
+            "text": " that",
+            "timestampMs": 85140,
+            "fromMs": 85140,
+            "toMs": 85330
+          },
+          {
+            "confidence": null,
+            "endMs": 85720,
+            "startMs": 85330,
+            "text": " forces",
+            "timestampMs": 85330,
+            "fromMs": 85330,
+            "toMs": 85720
+          },
+          {
+            "confidence": null,
+            "endMs": 86640,
+            "startMs": 85720,
+            "text": " cooperation.",
+            "timestampMs": 85720,
+            "fromMs": 85720,
+            "toMs": 86640
+          }
+        ]
+      },
+      {
+        "durationMs": 1370,
+        "startMs": 86640,
+        "text": "Human helplessness is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 87090,
+            "startMs": 86640,
+            "text": " Human",
+            "timestampMs": 86640,
+            "fromMs": 86640,
+            "toMs": 87090
+          },
+          {
+            "confidence": null,
+            "endMs": 87790,
+            "startMs": 87090,
+            "text": " helplessness",
+            "timestampMs": 87090,
+            "fromMs": 87090,
+            "toMs": 87790
+          },
+          {
+            "confidence": null,
+            "endMs": 88010,
+            "startMs": 87790,
+            "text": " is",
+            "timestampMs": 87790,
+            "fromMs": 87790,
+            "toMs": 88010
+          }
+        ]
+      },
+      {
+        "durationMs": 590,
+        "startMs": 88010,
+        "text": "the price of",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 88080,
+            "startMs": 88010,
+            "text": " the",
+            "timestampMs": 88010,
+            "fromMs": 88010,
+            "toMs": 88080
+          },
+          {
+            "confidence": null,
+            "endMs": 88470,
+            "startMs": 88080,
+            "text": " price",
+            "timestampMs": 88080,
+            "fromMs": 88080,
+            "toMs": 88470
+          },
+          {
+            "confidence": null,
+            "endMs": 88600,
+            "startMs": 88470,
+            "text": " of",
+            "timestampMs": 88470,
+            "fromMs": 88470,
+            "toMs": 88600
+          }
+        ]
+      },
+      {
+        "durationMs": 1090,
+        "startMs": 88600,
+        "text": "human teachability.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 88950,
+            "startMs": 88600,
+            "text": " human",
+            "timestampMs": 88600,
+            "fromMs": 88600,
+            "toMs": 88950
+          },
+          {
+            "confidence": null,
+            "endMs": 89690,
+            "startMs": 88950,
+            "text": " teachability.",
+            "timestampMs": 88950,
+            "fromMs": 88950,
+            "toMs": 89690
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "Human babies arrive with the coordination of a badly packed nervous system."
+      },
+      {
+        "startMs": 4080,
+        "text": "A foal stands in hours."
+      },
+      {
+        "startMs": 5790,
+        "text": "A human newborn cannot lift its head."
+      },
+      {
+        "startMs": 8100,
+        "text": "Same mammal class."
+      },
+      {
+        "startMs": 9550,
+        "text": "Completely different launch condition."
+      },
+      {
+        "startMs": 11600,
+        "text": "The old explanation points to the pelvis."
+      },
+      {
+        "startMs": 14070,
+        "text": "Upright walking reshapes the birth canal into a narrow, twisted route."
+      },
+      {
+        "startMs": 18040,
+        "text": "At the same time, the human brain expands into an expensive organ."
+      },
+      {
+        "startMs": 21990,
+        "text": "A larger skull and a narrower exit collide in one body."
+      },
+      {
+        "startMs": 25510,
+        "text": "Birth moves earlier because waiting longer gets dangerous."
+      },
+      {
+        "startMs": 28480,
+        "text": "The baby leaves the womb before the motor system is ready."
+      },
+      {
+        "startMs": 31350,
+        "text": "The skull is flexible."
+      },
+      {
+        "startMs": 32740,
+        "text": "The neck is weak."
+      },
+      {
+        "startMs": 33760,
+        "text": "The hands cannot help."
+      },
+      {
+        "startMs": 35050,
+        "text": "Helplessness looks like a defect from the outside."
+      },
+      {
+        "startMs": 37630,
+        "text": "From the inside, it moves development into the social world."
+      },
+      {
+        "startMs": 40410,
+        "text": "The brain keeps wiring after birth, under faces, voices, touch, and language."
+      },
+      {
+        "startMs": 45510,
+        "text": "That long unfinished period changes the entire group."
+      },
+      {
+        "startMs": 48670,
+        "text": "One adult cannot easily feed, protect, carry, and teach for years alone."
+      },
+      {
+        "startMs": 53200,
+        "text": "Human childhood pulls in fathers, siblings, grandparents, and unrelated helpers."
+      },
+      {
+        "startMs": 57970,
+        "text": "Biologists call this cooperative breeding."
+      },
+      {
+        "startMs": 60460,
+        "text": "The baby becomes a social engine by being impossible to raise solo."
+      },
+      {
+        "startMs": 64220,
+        "text": "The cost is years of dependence."
+      },
+      {
+        "startMs": 66050,
+        "text": "The payoff is a brain shaped by its local world."
+      },
+      {
+        "startMs": 69300,
+        "text": "Other animals arrive ready for one environment."
+      },
+      {
+        "startMs": 71760,
+        "text": "Humans arrive ready to be trained by almost any environment."
+      },
+      {
+        "startMs": 75190,
+        "text": "That is why infancy lasts so long."
+      },
+      {
+        "startMs": 77690,
+        "text": "Culture gets time to enter the nervous system."
+      },
+      {
+        "startMs": 80090,
+        "text": "The useless baby is not a failed adult."
+      },
+      {
+        "startMs": 82710,
+        "text": "It is an unfinished brain wrapped in a body that forces cooperation."
+      },
+      {
+        "startMs": 86640,
+        "text": "Human helplessness is the price of human teachability."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+TOPIC_CLUSTER: Evolution / anthropology
+TEMPLATE: NarratedSlideshowTemplate
+ROLE: origin
+SUBROLE: causal_origin
+TITLE: Why Human Babies Are So Useless
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+- `AnimatedVideoTemplate / scenario / day_by_day` normally includes two black-screen beats. Because this demo animates every animated scene, I replaced those with animatable pressure beats. Confirm if you want strict black screens instead.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Explain why human babies are born so helpless. Trace the causal origin: big metabolically expensive brains, bipedal pelvic constraints, birth before full neural maturity, prolonged dependency, social learning, cooperative care, and childhood as an evolutionary strategy for absorbing complex culture. Avoid cute fluff; make the tradeoff biologically serious and visually clear.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 5. Why Human Babies Are So Useless
+
+Template: `NarratedSlideshowTemplate`
+Role/subrole: `origin / causal_origin`
+Scene count: 27
+Style: `ns_ink_editorial`, anatomical sketches, evolutionary comparison panels, restrained human caregiving scenes.
+
+Slide scripts:
+1. Human babies arrive with the coordination of a badly packed nervous system.
+2. A foal stands in hours. A human newborn cannot lift its head.
+3. Same mammal class. Completely different launch condition.
+4. The old explanation points to the pelvis.
+5. Upright walking reshapes the birth canal into a narrow, twisted route.
+6. At the same time, the human brain expands into an expensive organ.
+7. A larger skull and a narrower exit collide in one body.
+8. Birth moves earlier because waiting longer gets dangerous.
+9. The baby leaves the womb before the motor system is ready.
+10. The skull is flexible. The neck is weak. The hands cannot help.
+11. Helplessness looks like a defect from the outside.
+12. From the inside, it moves development into the social world.
+13. The brain keeps wiring after birth, under faces, voices, touch, and language.
+14. That long unfinished period changes the entire group.
+15. One adult cannot easily feed, protect, carry, and teach for years alone.
+16. Human childhood pulls in fathers, siblings, grandparents, and unrelated helpers.
+17. Biologists call this cooperative breeding.
+18. The baby becomes a social engine by being impossible to raise solo.
+19. The cost is years of dependence.
+20. The payoff is a brain shaped by its local world.
+21. Other animals arrive ready for one environment.
+22. Humans arrive ready to be trained by almost any environment.
+23. That is why infancy lasts so long.
+24. Culture gets time to enter the nervous system.
+25. The useless baby is not a failed adult.
+26. It is an unfinished brain wrapped in a body that forces cooperation.
+27. Human helplessness is the price of human teachability.
