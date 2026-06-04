@@ -1,0 +1,2257 @@
+{
+  "styleId": "greasley",
+  "layoutId": "single_3x3_landscape",
+  "timeline": {
+    "totalDuration": 60.48,
+    "scenes": [
+      {
+        "script": "CRISPR targeting. Everything depends on two RNAs and one permission signal.",
+        "startTime": 0,
+        "endTime": 4.47,
+        "audioFilePath": "audio.mp3",
+        "mediaFilePath": "panel-1.mp4",
+        "bgFilePath": "panel-bg-1.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "blurThrough"
+      },
+      {
+        "script": "The crRNA carries the address: a spacer copied from an old invader.",
+        "startTime": 4.47,
+        "endTime": 8.76,
+        "mediaFilePath": "panel-2.mp4",
+        "bgFilePath": "panel-bg-2.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "directionalBlur"
+      },
+      {
+        "script": "The tracrRNA is the handle Cas9 knows how to grab.",
+        "startTime": 8.76,
+        "endTime": 11.68,
+        "mediaFilePath": "panel-3.mp4",
+        "bgFilePath": "panel-bg-3.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "staggeredColorBlocks",
+        "soundEffect": "staticVideoAssets/sfx/machinery_hum.m4a"
+      },
+      {
+        "script": "Together, they become the guide Cas9 can actually use.",
+        "startTime": 11.68,
+        "endTime": 15.04,
+        "mediaFilePath": "panel-4.mp4",
+        "bgFilePath": "panel-bg-4.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "horizontalBlinds"
+      },
+      {
+        "script": "Cas9 patrols DNA, but it does not read every base first.",
+        "startTime": 15.04,
+        "endTime": 18.88,
+        "mediaFilePath": "panel-5.mp4",
+        "bgFilePath": "panel-bg-5.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "verticalBlinds"
+      },
+      {
+        "script": "It hunts for PAM, the short motif that says: check here.",
+        "startTime": 18.88,
+        "endTime": 22.31,
+        "mediaFilePath": "panel-6.mp4",
+        "bgFilePath": "panel-bg-6.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "pageBurn"
+      },
+      {
+        "script": "No PAM, no cut. Even a perfect match gets ignored.",
+        "startTime": 22.31,
+        "endTime": 25.82,
+        "mediaFilePath": "panel-7.mp4",
+        "bgFilePath": "panel-bg-7.png",
+        "mediaType": "video",
+        "camera": "pan_left",
+        "transition": "crossfade"
+      },
+      {
+        "script": "With PAM present, Cas9 pries open a few DNA bases.",
+        "startTime": 25.82,
+        "endTime": 29.77,
+        "mediaFilePath": "panel-8.mp4",
+        "bgFilePath": "panel-bg-8.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "blurCrossfade"
+      },
+      {
+        "script": "The crRNA tests the exposed strand one base at a time.",
+        "startTime": 29.77,
+        "endTime": 33.59,
+        "mediaFilePath": "panel-9.mp4",
+        "bgFilePath": "panel-bg-9.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "focusPull"
+      },
+      {
+        "script": "A mismatch makes the complex let go.",
+        "startTime": 33.59,
+        "endTime": 35.65,
+        "mediaFilePath": "panel-10.mp4",
+        "bgFilePath": "panel-bg-10.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "colorDip",
+        "soundEffect": "staticVideoAssets/sfx/machinery_hum.m4a"
+      },
+      {
+        "script": "A correct seed match makes the target worth testing fully.",
+        "startTime": 35.65,
+        "endTime": 38.92,
+        "mediaFilePath": "panel-11.mp4",
+        "bgFilePath": "panel-bg-11.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "glitch"
+      },
+      {
+        "script": "A full match forms an R-loop inside the protein.",
+        "startTime": 38.92,
+        "endTime": 41.75,
+        "mediaFilePath": "panel-12.mp4",
+        "bgFilePath": "panel-bg-12.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "chromaticAberration"
+      },
+      {
+        "script": "That R-loop changes Cas9's shape.",
+        "startTime": 41.75,
+        "endTime": 43.73,
+        "mediaFilePath": "panel-13.mp4",
+        "bgFilePath": "panel-bg-13.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "ripple",
+        "soundEffect": "staticVideoAssets/sfx/machinery_hum.m4a"
+      },
+      {
+        "script": "The HNH domain lines up with the strand matching the guide.",
+        "startTime": 43.73,
+        "endTime": 47.28,
+        "mediaFilePath": "panel-14.mp4",
+        "bgFilePath": "panel-bg-14.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "vhsTape",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-cinematic-boom-405463.m4a"
+      },
+      {
+        "script": "The RuvC domain lines up with the opposite strand.",
+        "startTime": 47.28,
+        "endTime": 50.16,
+        "mediaFilePath": "panel-15.mp4",
+        "bgFilePath": "panel-bg-15.png",
+        "mediaType": "video",
+        "camera": "pan_left",
+        "transition": "gridDissolve"
+      },
+      {
+        "script": "Two cuts land almost together.",
+        "startTime": 50.16,
+        "endTime": 52.31,
+        "mediaFilePath": "panel-16.mp4",
+        "bgFilePath": "panel-bg-16.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "sparks",
+        "transition": "lightLeak"
+      },
+      {
+        "script": "The famous edit begins as a bacterial memory test.",
+        "startTime": 52.31,
+        "endTime": 55.52,
+        "mediaFilePath": "panel-17.mp4",
+        "bgFilePath": "panel-bg-17.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "overexposureBurn"
+      },
+      {
+        "script": "Dual-RNA targeting is memory, scaffold, PAM, match, shape-change, cut.",
+        "startTime": 55.52,
+        "endTime": 60.48,
+        "mediaFilePath": "panel-18.mp4",
+        "bgFilePath": "panel-bg-18.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "dust",
+        "transition": "filmBurn"
+      }
+    ]
+  },
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 1130,
+        "startMs": 0,
+        "text": "CRISPR targeting.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 420,
+            "startMs": 0,
+            "text": "CRISPR",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 420
+          },
+          {
+            "confidence": null,
+            "endMs": 1130,
+            "startMs": 420,
+            "text": " targeting.",
+            "timestampMs": 420,
+            "fromMs": 420,
+            "toMs": 1130
+          }
+        ]
+      },
+      {
+        "durationMs": 1020,
+        "startMs": 1130,
+        "text": "Everything depends on",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1570,
+            "startMs": 1130,
+            "text": " Everything",
+            "timestampMs": 1130,
+            "fromMs": 1130,
+            "toMs": 1570
+          },
+          {
+            "confidence": null,
+            "endMs": 2020,
+            "startMs": 1570,
+            "text": " depends",
+            "timestampMs": 1570,
+            "fromMs": 1570,
+            "toMs": 2020
+          },
+          {
+            "confidence": null,
+            "endMs": 2150,
+            "startMs": 2020,
+            "text": " on",
+            "timestampMs": 2020,
+            "fromMs": 2020,
+            "toMs": 2150
+          }
+        ]
+      },
+      {
+        "durationMs": 990,
+        "startMs": 2150,
+        "text": "two RNAs and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2410,
+            "startMs": 2150,
+            "text": " two",
+            "timestampMs": 2150,
+            "fromMs": 2150,
+            "toMs": 2410
+          },
+          {
+            "confidence": null,
+            "endMs": 2950,
+            "startMs": 2410,
+            "text": " RNAs",
+            "timestampMs": 2410,
+            "fromMs": 2410,
+            "toMs": 2950
+          },
+          {
+            "confidence": null,
+            "endMs": 3140,
+            "startMs": 2950,
+            "text": " and",
+            "timestampMs": 2950,
+            "fromMs": 2950,
+            "toMs": 3140
+          }
+        ]
+      },
+      {
+        "durationMs": 1330,
+        "startMs": 3140,
+        "text": "one permission signal.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3410,
+            "startMs": 3140,
+            "text": " one",
+            "timestampMs": 3140,
+            "fromMs": 3140,
+            "toMs": 3410
+          },
+          {
+            "confidence": null,
+            "endMs": 3900,
+            "startMs": 3410,
+            "text": " permission",
+            "timestampMs": 3410,
+            "fromMs": 3410,
+            "toMs": 3900
+          },
+          {
+            "confidence": null,
+            "endMs": 4470,
+            "startMs": 3900,
+            "text": " signal.",
+            "timestampMs": 3900,
+            "fromMs": 3900,
+            "toMs": 4470
+          }
+        ]
+      },
+      {
+        "durationMs": 1230,
+        "startMs": 4470,
+        "text": "The crRNA carries",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4620,
+            "startMs": 4470,
+            "text": " The",
+            "timestampMs": 4470,
+            "fromMs": 4470,
+            "toMs": 4620
+          },
+          {
+            "confidence": null,
+            "endMs": 5330,
+            "startMs": 4620,
+            "text": " crRNA",
+            "timestampMs": 4620,
+            "fromMs": 4620,
+            "toMs": 5330
+          },
+          {
+            "confidence": null,
+            "endMs": 5700,
+            "startMs": 5330,
+            "text": " carries",
+            "timestampMs": 5330,
+            "fromMs": 5330,
+            "toMs": 5700
+          }
+        ]
+      },
+      {
+        "durationMs": 860,
+        "startMs": 5700,
+        "text": "the address: a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5830,
+            "startMs": 5700,
+            "text": " the",
+            "timestampMs": 5700,
+            "fromMs": 5700,
+            "toMs": 5830
+          },
+          {
+            "confidence": null,
+            "endMs": 6420,
+            "startMs": 5830,
+            "text": " address:",
+            "timestampMs": 5830,
+            "fromMs": 5830,
+            "toMs": 6420
+          },
+          {
+            "confidence": null,
+            "endMs": 6560,
+            "startMs": 6420,
+            "text": " a",
+            "timestampMs": 6420,
+            "fromMs": 6420,
+            "toMs": 6560
+          }
+        ]
+      },
+      {
+        "durationMs": 1180,
+        "startMs": 6560,
+        "text": "spacer copied from",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7140,
+            "startMs": 6560,
+            "text": " spacer",
+            "timestampMs": 6560,
+            "fromMs": 6560,
+            "toMs": 7140
+          },
+          {
+            "confidence": null,
+            "endMs": 7570,
+            "startMs": 7140,
+            "text": " copied",
+            "timestampMs": 7140,
+            "fromMs": 7140,
+            "toMs": 7570
+          },
+          {
+            "confidence": null,
+            "endMs": 7740,
+            "startMs": 7570,
+            "text": " from",
+            "timestampMs": 7570,
+            "fromMs": 7570,
+            "toMs": 7740
+          }
+        ]
+      },
+      {
+        "durationMs": 1020,
+        "startMs": 7740,
+        "text": "an old invader.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7850,
+            "startMs": 7740,
+            "text": " an",
+            "timestampMs": 7740,
+            "fromMs": 7740,
+            "toMs": 7850
+          },
+          {
+            "confidence": null,
+            "endMs": 8120,
+            "startMs": 7850,
+            "text": " old",
+            "timestampMs": 7850,
+            "fromMs": 7850,
+            "toMs": 8120
+          },
+          {
+            "confidence": null,
+            "endMs": 8760,
+            "startMs": 8120,
+            "text": " invader.",
+            "timestampMs": 8120,
+            "fromMs": 8120,
+            "toMs": 8760
+          }
+        ]
+      },
+      {
+        "durationMs": 1060,
+        "startMs": 8760,
+        "text": "The tracrRNA is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8900,
+            "startMs": 8760,
+            "text": " The",
+            "timestampMs": 8760,
+            "fromMs": 8760,
+            "toMs": 8900
+          },
+          {
+            "confidence": null,
+            "endMs": 9620,
+            "startMs": 8900,
+            "text": " tracrRNA",
+            "timestampMs": 8900,
+            "fromMs": 8900,
+            "toMs": 9620
+          },
+          {
+            "confidence": null,
+            "endMs": 9820,
+            "startMs": 9620,
+            "text": " is",
+            "timestampMs": 9620,
+            "fromMs": 9620,
+            "toMs": 9820
+          }
+        ]
+      },
+      {
+        "durationMs": 1020,
+        "startMs": 9820,
+        "text": "the handle Cas9",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9890,
+            "startMs": 9820,
+            "text": " the",
+            "timestampMs": 9820,
+            "fromMs": 9820,
+            "toMs": 9890
+          },
+          {
+            "confidence": null,
+            "endMs": 10220,
+            "startMs": 9890,
+            "text": " handle",
+            "timestampMs": 9890,
+            "fromMs": 9890,
+            "toMs": 10220
+          },
+          {
+            "confidence": null,
+            "endMs": 10840,
+            "startMs": 10220,
+            "text": " Cas9",
+            "timestampMs": 10220,
+            "fromMs": 10220,
+            "toMs": 10840
+          }
+        ]
+      },
+      {
+        "durationMs": 420,
+        "startMs": 10840,
+        "text": "knows how to",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11080,
+            "startMs": 10840,
+            "text": " knows",
+            "timestampMs": 10840,
+            "fromMs": 10840,
+            "toMs": 11080
+          },
+          {
+            "confidence": null,
+            "endMs": 11190,
+            "startMs": 11080,
+            "text": " how",
+            "timestampMs": 11080,
+            "fromMs": 11080,
+            "toMs": 11190
+          },
+          {
+            "confidence": null,
+            "endMs": 11260,
+            "startMs": 11190,
+            "text": " to",
+            "timestampMs": 11190,
+            "fromMs": 11190,
+            "toMs": 11260
+          }
+        ]
+      },
+      {
+        "durationMs": 420,
+        "startMs": 11260,
+        "text": "grab.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11680,
+            "startMs": 11260,
+            "text": " grab.",
+            "timestampMs": 11260,
+            "fromMs": 11260,
+            "toMs": 11680
+          }
+        ]
+      },
+      {
+        "durationMs": 1090,
+        "startMs": 11680,
+        "text": "Together, they become",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 12220,
+            "startMs": 11680,
+            "text": " Together,",
+            "timestampMs": 11680,
+            "fromMs": 11680,
+            "toMs": 12220
+          },
+          {
+            "confidence": null,
+            "endMs": 12400,
+            "startMs": 12220,
+            "text": " they",
+            "timestampMs": 12220,
+            "fromMs": 12220,
+            "toMs": 12400
+          },
+          {
+            "confidence": null,
+            "endMs": 12770,
+            "startMs": 12400,
+            "text": " become",
+            "timestampMs": 12400,
+            "fromMs": 12400,
+            "toMs": 12770
+          }
+        ]
+      },
+      {
+        "durationMs": 1010,
+        "startMs": 12770,
+        "text": "the guide Cas9",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 12850,
+            "startMs": 12770,
+            "text": " the",
+            "timestampMs": 12770,
+            "fromMs": 12770,
+            "toMs": 12850
+          },
+          {
+            "confidence": null,
+            "endMs": 13160,
+            "startMs": 12850,
+            "text": " guide",
+            "timestampMs": 12850,
+            "fromMs": 12850,
+            "toMs": 13160
+          },
+          {
+            "confidence": null,
+            "endMs": 13780,
+            "startMs": 13160,
+            "text": " Cas9",
+            "timestampMs": 13160,
+            "fromMs": 13160,
+            "toMs": 13780
+          }
+        ]
+      },
+      {
+        "durationMs": 1260,
+        "startMs": 13780,
+        "text": "can actually use.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13920,
+            "startMs": 13780,
+            "text": " can",
+            "timestampMs": 13780,
+            "fromMs": 13780,
+            "toMs": 13920
+          },
+          {
+            "confidence": null,
+            "endMs": 14410,
+            "startMs": 13920,
+            "text": " actually",
+            "timestampMs": 13920,
+            "fromMs": 13920,
+            "toMs": 14410
+          },
+          {
+            "confidence": null,
+            "endMs": 15040,
+            "startMs": 14410,
+            "text": " use.",
+            "timestampMs": 14410,
+            "fromMs": 14410,
+            "toMs": 15040
+          }
+        ]
+      },
+      {
+        "durationMs": 1680,
+        "startMs": 15040,
+        "text": "Cas9 patrols DNA,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15600,
+            "startMs": 15040,
+            "text": " Cas9",
+            "timestampMs": 15040,
+            "fromMs": 15040,
+            "toMs": 15600
+          },
+          {
+            "confidence": null,
+            "endMs": 16060,
+            "startMs": 15600,
+            "text": " patrols",
+            "timestampMs": 15600,
+            "fromMs": 15600,
+            "toMs": 16060
+          },
+          {
+            "confidence": null,
+            "endMs": 16720,
+            "startMs": 16060,
+            "text": " DNA,",
+            "timestampMs": 16060,
+            "fromMs": 16060,
+            "toMs": 16720
+          }
+        ]
+      },
+      {
+        "durationMs": 420,
+        "startMs": 16720,
+        "text": "but it does",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16890,
+            "startMs": 16720,
+            "text": " but",
+            "timestampMs": 16720,
+            "fromMs": 16720,
+            "toMs": 16890
+          },
+          {
+            "confidence": null,
+            "endMs": 16970,
+            "startMs": 16890,
+            "text": " it",
+            "timestampMs": 16890,
+            "fromMs": 16890,
+            "toMs": 16970
+          },
+          {
+            "confidence": null,
+            "endMs": 17140,
+            "startMs": 16970,
+            "text": " does",
+            "timestampMs": 16970,
+            "fromMs": 16970,
+            "toMs": 17140
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 17140,
+        "text": "not read every",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17350,
+            "startMs": 17140,
+            "text": " not",
+            "timestampMs": 17140,
+            "fromMs": 17140,
+            "toMs": 17350
+          },
+          {
+            "confidence": null,
+            "endMs": 17660,
+            "startMs": 17350,
+            "text": " read",
+            "timestampMs": 17350,
+            "fromMs": 17350,
+            "toMs": 17660
+          },
+          {
+            "confidence": null,
+            "endMs": 17950,
+            "startMs": 17660,
+            "text": " every",
+            "timestampMs": 17660,
+            "fromMs": 17660,
+            "toMs": 17950
+          }
+        ]
+      },
+      {
+        "durationMs": 930,
+        "startMs": 17950,
+        "text": "base first.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18300,
+            "startMs": 17950,
+            "text": " base",
+            "timestampMs": 17950,
+            "fromMs": 17950,
+            "toMs": 18300
+          },
+          {
+            "confidence": null,
+            "endMs": 18880,
+            "startMs": 18300,
+            "text": " first.",
+            "timestampMs": 18300,
+            "fromMs": 18300,
+            "toMs": 18880
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 18880,
+        "text": "It hunts for",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19050,
+            "startMs": 18880,
+            "text": " It",
+            "timestampMs": 18880,
+            "fromMs": 18880,
+            "toMs": 19050
+          },
+          {
+            "confidence": null,
+            "endMs": 19340,
+            "startMs": 19050,
+            "text": " hunts",
+            "timestampMs": 19050,
+            "fromMs": 19050,
+            "toMs": 19340
+          },
+          {
+            "confidence": null,
+            "endMs": 19460,
+            "startMs": 19340,
+            "text": " for",
+            "timestampMs": 19340,
+            "fromMs": 19340,
+            "toMs": 19460
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 19460,
+        "text": "PAM, the short",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20050,
+            "startMs": 19460,
+            "text": " PAM,",
+            "timestampMs": 19460,
+            "fromMs": 19460,
+            "toMs": 20050
+          },
+          {
+            "confidence": null,
+            "endMs": 20190,
+            "startMs": 20050,
+            "text": " the",
+            "timestampMs": 20050,
+            "fromMs": 20050,
+            "toMs": 20190
+          },
+          {
+            "confidence": null,
+            "endMs": 20490,
+            "startMs": 20190,
+            "text": " short",
+            "timestampMs": 20190,
+            "fromMs": 20190,
+            "toMs": 20490
+          }
+        ]
+      },
+      {
+        "durationMs": 890,
+        "startMs": 20490,
+        "text": "motif that says:",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20890,
+            "startMs": 20490,
+            "text": " motif",
+            "timestampMs": 20490,
+            "fromMs": 20490,
+            "toMs": 20890
+          },
+          {
+            "confidence": null,
+            "endMs": 21040,
+            "startMs": 20890,
+            "text": " that",
+            "timestampMs": 20890,
+            "fromMs": 20890,
+            "toMs": 21040
+          },
+          {
+            "confidence": null,
+            "endMs": 21380,
+            "startMs": 21040,
+            "text": " says:",
+            "timestampMs": 21040,
+            "fromMs": 21040,
+            "toMs": 21380
+          }
+        ]
+      },
+      {
+        "durationMs": 930,
+        "startMs": 21380,
+        "text": "check here.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21840,
+            "startMs": 21380,
+            "text": " check",
+            "timestampMs": 21380,
+            "fromMs": 21380,
+            "toMs": 21840
+          },
+          {
+            "confidence": null,
+            "endMs": 22310,
+            "startMs": 21840,
+            "text": " here.",
+            "timestampMs": 21840,
+            "fromMs": 21840,
+            "toMs": 22310
+          }
+        ]
+      },
+      {
+        "durationMs": 1070,
+        "startMs": 22310,
+        "text": "No PAM, no",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22600,
+            "startMs": 22310,
+            "text": " No",
+            "timestampMs": 22310,
+            "fromMs": 22310,
+            "toMs": 22600
+          },
+          {
+            "confidence": null,
+            "endMs": 23160,
+            "startMs": 22600,
+            "text": " PAM,",
+            "timestampMs": 22600,
+            "fromMs": 22600,
+            "toMs": 23160
+          },
+          {
+            "confidence": null,
+            "endMs": 23380,
+            "startMs": 23160,
+            "text": " no",
+            "timestampMs": 23160,
+            "fromMs": 23160,
+            "toMs": 23380
+          }
+        ]
+      },
+      {
+        "durationMs": 370,
+        "startMs": 23380,
+        "text": "cut.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23750,
+            "startMs": 23380,
+            "text": " cut.",
+            "timestampMs": 23380,
+            "fromMs": 23380,
+            "toMs": 23750
+          }
+        ]
+      },
+      {
+        "durationMs": 780,
+        "startMs": 23750,
+        "text": "Even a perfect",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24080,
+            "startMs": 23750,
+            "text": " Even",
+            "timestampMs": 23750,
+            "fromMs": 23750,
+            "toMs": 24080
+          },
+          {
+            "confidence": null,
+            "endMs": 24120,
+            "startMs": 24080,
+            "text": " a",
+            "timestampMs": 24080,
+            "fromMs": 24080,
+            "toMs": 24120
+          },
+          {
+            "confidence": null,
+            "endMs": 24530,
+            "startMs": 24120,
+            "text": " perfect",
+            "timestampMs": 24120,
+            "fromMs": 24120,
+            "toMs": 24530
+          }
+        ]
+      },
+      {
+        "durationMs": 1290,
+        "startMs": 24530,
+        "text": "match gets ignored.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24870,
+            "startMs": 24530,
+            "text": " match",
+            "timestampMs": 24530,
+            "fromMs": 24530,
+            "toMs": 24870
+          },
+          {
+            "confidence": null,
+            "endMs": 25080,
+            "startMs": 24870,
+            "text": " gets",
+            "timestampMs": 24870,
+            "fromMs": 24870,
+            "toMs": 25080
+          },
+          {
+            "confidence": null,
+            "endMs": 25820,
+            "startMs": 25080,
+            "text": " ignored.",
+            "timestampMs": 25080,
+            "fromMs": 25080,
+            "toMs": 25820
+          }
+        ]
+      },
+      {
+        "durationMs": 1250,
+        "startMs": 25820,
+        "text": "With PAM present,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26070,
+            "startMs": 25820,
+            "text": " With",
+            "timestampMs": 25820,
+            "fromMs": 25820,
+            "toMs": 26070
+          },
+          {
+            "confidence": null,
+            "endMs": 26410,
+            "startMs": 26070,
+            "text": " PAM",
+            "timestampMs": 26070,
+            "fromMs": 26070,
+            "toMs": 26410
+          },
+          {
+            "confidence": null,
+            "endMs": 27070,
+            "startMs": 26410,
+            "text": " present,",
+            "timestampMs": 26410,
+            "fromMs": 26410,
+            "toMs": 27070
+          }
+        ]
+      },
+      {
+        "durationMs": 1200,
+        "startMs": 27070,
+        "text": "Cas9 pries open",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27690,
+            "startMs": 27070,
+            "text": " Cas9",
+            "timestampMs": 27070,
+            "fromMs": 27070,
+            "toMs": 27690
+          },
+          {
+            "confidence": null,
+            "endMs": 28020,
+            "startMs": 27690,
+            "text": " pries",
+            "timestampMs": 27690,
+            "fromMs": 27690,
+            "toMs": 28020
+          },
+          {
+            "confidence": null,
+            "endMs": 28270,
+            "startMs": 28020,
+            "text": " open",
+            "timestampMs": 28020,
+            "fromMs": 28020,
+            "toMs": 28270
+          }
+        ]
+      },
+      {
+        "durationMs": 790,
+        "startMs": 28270,
+        "text": "a few DNA",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28370,
+            "startMs": 28270,
+            "text": " a",
+            "timestampMs": 28270,
+            "fromMs": 28270,
+            "toMs": 28370
+          },
+          {
+            "confidence": null,
+            "endMs": 28660,
+            "startMs": 28370,
+            "text": " few",
+            "timestampMs": 28370,
+            "fromMs": 28370,
+            "toMs": 28660
+          },
+          {
+            "confidence": null,
+            "endMs": 29060,
+            "startMs": 28660,
+            "text": " DNA",
+            "timestampMs": 28660,
+            "fromMs": 28660,
+            "toMs": 29060
+          }
+        ]
+      },
+      {
+        "durationMs": 710,
+        "startMs": 29060,
+        "text": "bases.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29770,
+            "startMs": 29060,
+            "text": " bases.",
+            "timestampMs": 29060,
+            "fromMs": 29060,
+            "toMs": 29770
+          }
+        ]
+      },
+      {
+        "durationMs": 1320,
+        "startMs": 29770,
+        "text": "The crRNA tests",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29990,
+            "startMs": 29770,
+            "text": " The",
+            "timestampMs": 29770,
+            "fromMs": 29770,
+            "toMs": 29990
+          },
+          {
+            "confidence": null,
+            "endMs": 30640,
+            "startMs": 29990,
+            "text": " crRNA",
+            "timestampMs": 29990,
+            "fromMs": 29990,
+            "toMs": 30640
+          },
+          {
+            "confidence": null,
+            "endMs": 31090,
+            "startMs": 30640,
+            "text": " tests",
+            "timestampMs": 30640,
+            "fromMs": 30640,
+            "toMs": 31090
+          }
+        ]
+      },
+      {
+        "durationMs": 1200,
+        "startMs": 31090,
+        "text": "the exposed strand",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31280,
+            "startMs": 31090,
+            "text": " the",
+            "timestampMs": 31090,
+            "fromMs": 31090,
+            "toMs": 31280
+          },
+          {
+            "confidence": null,
+            "endMs": 31840,
+            "startMs": 31280,
+            "text": " exposed",
+            "timestampMs": 31280,
+            "fromMs": 31280,
+            "toMs": 31840
+          },
+          {
+            "confidence": null,
+            "endMs": 32290,
+            "startMs": 31840,
+            "text": " strand",
+            "timestampMs": 31840,
+            "fromMs": 31840,
+            "toMs": 32290
+          }
+        ]
+      },
+      {
+        "durationMs": 570,
+        "startMs": 32290,
+        "text": "one base at",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32530,
+            "startMs": 32290,
+            "text": " one",
+            "timestampMs": 32290,
+            "fromMs": 32290,
+            "toMs": 32530
+          },
+          {
+            "confidence": null,
+            "endMs": 32790,
+            "startMs": 32530,
+            "text": " base",
+            "timestampMs": 32530,
+            "fromMs": 32530,
+            "toMs": 32790
+          },
+          {
+            "confidence": null,
+            "endMs": 32860,
+            "startMs": 32790,
+            "text": " at",
+            "timestampMs": 32790,
+            "fromMs": 32790,
+            "toMs": 32860
+          }
+        ]
+      },
+      {
+        "durationMs": 730,
+        "startMs": 32860,
+        "text": "a time.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32900,
+            "startMs": 32860,
+            "text": " a",
+            "timestampMs": 32860,
+            "fromMs": 32860,
+            "toMs": 32900
+          },
+          {
+            "confidence": null,
+            "endMs": 33590,
+            "startMs": 32900,
+            "text": " time.",
+            "timestampMs": 32900,
+            "fromMs": 32900,
+            "toMs": 33590
+          }
+        ]
+      },
+      {
+        "durationMs": 890,
+        "startMs": 33590,
+        "text": "A mismatch makes",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33680,
+            "startMs": 33590,
+            "text": " A",
+            "timestampMs": 33590,
+            "fromMs": 33590,
+            "toMs": 33680
+          },
+          {
+            "confidence": null,
+            "endMs": 34240,
+            "startMs": 33680,
+            "text": " mismatch",
+            "timestampMs": 33680,
+            "fromMs": 33680,
+            "toMs": 34240
+          },
+          {
+            "confidence": null,
+            "endMs": 34480,
+            "startMs": 34240,
+            "text": " makes",
+            "timestampMs": 34240,
+            "fromMs": 34240,
+            "toMs": 34480
+          }
+        ]
+      },
+      {
+        "durationMs": 790,
+        "startMs": 34480,
+        "text": "the complex let",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 34550,
+            "startMs": 34480,
+            "text": " the",
+            "timestampMs": 34480,
+            "fromMs": 34480,
+            "toMs": 34550
+          },
+          {
+            "confidence": null,
+            "endMs": 35130,
+            "startMs": 34550,
+            "text": " complex",
+            "timestampMs": 34550,
+            "fromMs": 34550,
+            "toMs": 35130
+          },
+          {
+            "confidence": null,
+            "endMs": 35270,
+            "startMs": 35130,
+            "text": " let",
+            "timestampMs": 35130,
+            "fromMs": 35130,
+            "toMs": 35270
+          }
+        ]
+      },
+      {
+        "durationMs": 340,
+        "startMs": 35270,
+        "text": "go.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35610,
+            "startMs": 35270,
+            "text": " go.",
+            "timestampMs": 35270,
+            "fromMs": 35270,
+            "toMs": 35610
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 35650,
+        "text": "A correct seed",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35780,
+            "startMs": 35650,
+            "text": " A",
+            "timestampMs": 35650,
+            "fromMs": 35650,
+            "toMs": 35780
+          },
+          {
+            "confidence": null,
+            "endMs": 36200,
+            "startMs": 35780,
+            "text": " correct",
+            "timestampMs": 35780,
+            "fromMs": 35780,
+            "toMs": 36200
+          },
+          {
+            "confidence": null,
+            "endMs": 36550,
+            "startMs": 36200,
+            "text": " seed",
+            "timestampMs": 36200,
+            "fromMs": 36200,
+            "toMs": 36550
+          }
+        ]
+      },
+      {
+        "durationMs": 660,
+        "startMs": 36550,
+        "text": "match makes the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36860,
+            "startMs": 36550,
+            "text": " match",
+            "timestampMs": 36550,
+            "fromMs": 36550,
+            "toMs": 36860
+          },
+          {
+            "confidence": null,
+            "endMs": 37120,
+            "startMs": 36860,
+            "text": " makes",
+            "timestampMs": 36860,
+            "fromMs": 36860,
+            "toMs": 37120
+          },
+          {
+            "confidence": null,
+            "endMs": 37210,
+            "startMs": 37120,
+            "text": " the",
+            "timestampMs": 37120,
+            "fromMs": 37120,
+            "toMs": 37210
+          }
+        ]
+      },
+      {
+        "durationMs": 1100,
+        "startMs": 37210,
+        "text": "target worth testing",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37630,
+            "startMs": 37210,
+            "text": " target",
+            "timestampMs": 37210,
+            "fromMs": 37210,
+            "toMs": 37630
+          },
+          {
+            "confidence": null,
+            "endMs": 37900,
+            "startMs": 37630,
+            "text": " worth",
+            "timestampMs": 37630,
+            "fromMs": 37630,
+            "toMs": 37900
+          },
+          {
+            "confidence": null,
+            "endMs": 38310,
+            "startMs": 37900,
+            "text": " testing",
+            "timestampMs": 37900,
+            "fromMs": 37900,
+            "toMs": 38310
+          }
+        ]
+      },
+      {
+        "durationMs": 610,
+        "startMs": 38310,
+        "text": "fully.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38920,
+            "startMs": 38310,
+            "text": " fully.",
+            "timestampMs": 38310,
+            "fromMs": 38310,
+            "toMs": 38920
+          }
+        ]
+      },
+      {
+        "durationMs": 780,
+        "startMs": 38920,
+        "text": "A full match",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39040,
+            "startMs": 38920,
+            "text": " A",
+            "timestampMs": 38920,
+            "fromMs": 38920,
+            "toMs": 39040
+          },
+          {
+            "confidence": null,
+            "endMs": 39360,
+            "startMs": 39040,
+            "text": " full",
+            "timestampMs": 39040,
+            "fromMs": 39040,
+            "toMs": 39360
+          },
+          {
+            "confidence": null,
+            "endMs": 39700,
+            "startMs": 39360,
+            "text": " match",
+            "timestampMs": 39360,
+            "fromMs": 39360,
+            "toMs": 39700
+          }
+        ]
+      },
+      {
+        "durationMs": 930,
+        "startMs": 39700,
+        "text": "forms an R-loop",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40000,
+            "startMs": 39700,
+            "text": " forms",
+            "timestampMs": 39700,
+            "fromMs": 39700,
+            "toMs": 40000
+          },
+          {
+            "confidence": null,
+            "endMs": 40100,
+            "startMs": 40000,
+            "text": " an",
+            "timestampMs": 40000,
+            "fromMs": 40000,
+            "toMs": 40100
+          },
+          {
+            "confidence": null,
+            "endMs": 40630,
+            "startMs": 40100,
+            "text": " R-loop",
+            "timestampMs": 40100,
+            "fromMs": 40100,
+            "toMs": 40630
+          }
+        ]
+      },
+      {
+        "durationMs": 1120,
+        "startMs": 40630,
+        "text": "inside the protein.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40950,
+            "startMs": 40630,
+            "text": " inside",
+            "timestampMs": 40630,
+            "fromMs": 40630,
+            "toMs": 40950
+          },
+          {
+            "confidence": null,
+            "endMs": 41020,
+            "startMs": 40950,
+            "text": " the",
+            "timestampMs": 40950,
+            "fromMs": 40950,
+            "toMs": 41020
+          },
+          {
+            "confidence": null,
+            "endMs": 41750,
+            "startMs": 41020,
+            "text": " protein.",
+            "timestampMs": 41020,
+            "fromMs": 41020,
+            "toMs": 41750
+          }
+        ]
+      },
+      {
+        "durationMs": 990,
+        "startMs": 41750,
+        "text": "That R-loop changes",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 41990,
+            "startMs": 41750,
+            "text": " That",
+            "timestampMs": 41750,
+            "fromMs": 41750,
+            "toMs": 41990
+          },
+          {
+            "confidence": null,
+            "endMs": 42330,
+            "startMs": 41990,
+            "text": " R-loop",
+            "timestampMs": 41990,
+            "fromMs": 41990,
+            "toMs": 42330
+          },
+          {
+            "confidence": null,
+            "endMs": 42740,
+            "startMs": 42330,
+            "text": " changes",
+            "timestampMs": 42330,
+            "fromMs": 42330,
+            "toMs": 42740
+          }
+        ]
+      },
+      {
+        "durationMs": 990,
+        "startMs": 42740,
+        "text": "Cas9's shape.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43290,
+            "startMs": 42740,
+            "text": " Cas9's",
+            "timestampMs": 42740,
+            "fromMs": 42740,
+            "toMs": 43290
+          },
+          {
+            "confidence": null,
+            "endMs": 43730,
+            "startMs": 43290,
+            "text": " shape.",
+            "timestampMs": 43290,
+            "fromMs": 43290,
+            "toMs": 43730
+          }
+        ]
+      },
+      {
+        "durationMs": 1290,
+        "startMs": 43730,
+        "text": "The HNH domain",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44090,
+            "startMs": 43730,
+            "text": " The",
+            "timestampMs": 43730,
+            "fromMs": 43730,
+            "toMs": 44090
+          },
+          {
+            "confidence": null,
+            "endMs": 44490,
+            "startMs": 44090,
+            "text": " HNH",
+            "timestampMs": 44090,
+            "fromMs": 44090,
+            "toMs": 44490
+          },
+          {
+            "confidence": null,
+            "endMs": 45020,
+            "startMs": 44490,
+            "text": " domain",
+            "timestampMs": 44490,
+            "fromMs": 44490,
+            "toMs": 45020
+          }
+        ]
+      },
+      {
+        "durationMs": 680,
+        "startMs": 45020,
+        "text": "lines up with",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45490,
+            "startMs": 45020,
+            "text": " lines",
+            "timestampMs": 45020,
+            "fromMs": 45020,
+            "toMs": 45490
+          },
+          {
+            "confidence": null,
+            "endMs": 45610,
+            "startMs": 45490,
+            "text": " up",
+            "timestampMs": 45490,
+            "fromMs": 45490,
+            "toMs": 45610
+          },
+          {
+            "confidence": null,
+            "endMs": 45700,
+            "startMs": 45610,
+            "text": " with",
+            "timestampMs": 45610,
+            "fromMs": 45610,
+            "toMs": 45700
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 45700,
+        "text": "the strand matching",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45780,
+            "startMs": 45700,
+            "text": " the",
+            "timestampMs": 45700,
+            "fromMs": 45700,
+            "toMs": 45780
+          },
+          {
+            "confidence": null,
+            "endMs": 46310,
+            "startMs": 45780,
+            "text": " strand",
+            "timestampMs": 45780,
+            "fromMs": 45780,
+            "toMs": 46310
+          },
+          {
+            "confidence": null,
+            "endMs": 46600,
+            "startMs": 46310,
+            "text": " matching",
+            "timestampMs": 46310,
+            "fromMs": 46310,
+            "toMs": 46600
+          }
+        ]
+      },
+      {
+        "durationMs": 680,
+        "startMs": 46600,
+        "text": "the guide.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46670,
+            "startMs": 46600,
+            "text": " the",
+            "timestampMs": 46600,
+            "fromMs": 46600,
+            "toMs": 46670
+          },
+          {
+            "confidence": null,
+            "endMs": 47280,
+            "startMs": 46670,
+            "text": " guide.",
+            "timestampMs": 46670,
+            "fromMs": 46670,
+            "toMs": 47280
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 47280,
+        "text": "The RuvC domain",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47430,
+            "startMs": 47280,
+            "text": " The",
+            "timestampMs": 47280,
+            "fromMs": 47280,
+            "toMs": 47430
+          },
+          {
+            "confidence": null,
+            "endMs": 47910,
+            "startMs": 47430,
+            "text": " RuvC",
+            "timestampMs": 47430,
+            "fromMs": 47430,
+            "toMs": 47910
+          },
+          {
+            "confidence": null,
+            "endMs": 48320,
+            "startMs": 47910,
+            "text": " domain",
+            "timestampMs": 47910,
+            "fromMs": 47910,
+            "toMs": 48320
+          }
+        ]
+      },
+      {
+        "durationMs": 530,
+        "startMs": 48320,
+        "text": "lines up with",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48650,
+            "startMs": 48320,
+            "text": " lines",
+            "timestampMs": 48320,
+            "fromMs": 48320,
+            "toMs": 48650
+          },
+          {
+            "confidence": null,
+            "endMs": 48750,
+            "startMs": 48650,
+            "text": " up",
+            "timestampMs": 48650,
+            "fromMs": 48650,
+            "toMs": 48750
+          },
+          {
+            "confidence": null,
+            "endMs": 48850,
+            "startMs": 48750,
+            "text": " with",
+            "timestampMs": 48750,
+            "fromMs": 48750,
+            "toMs": 48850
+          }
+        ]
+      },
+      {
+        "durationMs": 1310,
+        "startMs": 48850,
+        "text": "the opposite strand.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48960,
+            "startMs": 48850,
+            "text": " the",
+            "timestampMs": 48850,
+            "fromMs": 48850,
+            "toMs": 48960
+          },
+          {
+            "confidence": null,
+            "endMs": 49440,
+            "startMs": 48960,
+            "text": " opposite",
+            "timestampMs": 48960,
+            "fromMs": 48960,
+            "toMs": 49440
+          },
+          {
+            "confidence": null,
+            "endMs": 50160,
+            "startMs": 49440,
+            "text": " strand.",
+            "timestampMs": 49440,
+            "fromMs": 49440,
+            "toMs": 50160
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 50160,
+        "text": "Two cuts land",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50540,
+            "startMs": 50160,
+            "text": " Two",
+            "timestampMs": 50160,
+            "fromMs": 50160,
+            "toMs": 50540
+          },
+          {
+            "confidence": null,
+            "endMs": 50910,
+            "startMs": 50540,
+            "text": " cuts",
+            "timestampMs": 50540,
+            "fromMs": 50540,
+            "toMs": 50910
+          },
+          {
+            "confidence": null,
+            "endMs": 51190,
+            "startMs": 50910,
+            "text": " land",
+            "timestampMs": 50910,
+            "fromMs": 50910,
+            "toMs": 51190
+          }
+        ]
+      },
+      {
+        "durationMs": 1120,
+        "startMs": 51190,
+        "text": "almost together.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51620,
+            "startMs": 51190,
+            "text": " almost",
+            "timestampMs": 51190,
+            "fromMs": 51190,
+            "toMs": 51620
+          },
+          {
+            "confidence": null,
+            "endMs": 52310,
+            "startMs": 51620,
+            "text": " together.",
+            "timestampMs": 51620,
+            "fromMs": 51620,
+            "toMs": 52310
+          }
+        ]
+      },
+      {
+        "durationMs": 800,
+        "startMs": 52310,
+        "text": "The famous edit",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52450,
+            "startMs": 52310,
+            "text": " The",
+            "timestampMs": 52310,
+            "fromMs": 52310,
+            "toMs": 52450
+          },
+          {
+            "confidence": null,
+            "endMs": 52820,
+            "startMs": 52450,
+            "text": " famous",
+            "timestampMs": 52450,
+            "fromMs": 52450,
+            "toMs": 52820
+          },
+          {
+            "confidence": null,
+            "endMs": 53110,
+            "startMs": 52820,
+            "text": " edit",
+            "timestampMs": 52820,
+            "fromMs": 52820,
+            "toMs": 53110
+          }
+        ]
+      },
+      {
+        "durationMs": 640,
+        "startMs": 53110,
+        "text": "begins as a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53550,
+            "startMs": 53110,
+            "text": " begins",
+            "timestampMs": 53110,
+            "fromMs": 53110,
+            "toMs": 53550
+          },
+          {
+            "confidence": null,
+            "endMs": 53710,
+            "startMs": 53550,
+            "text": " as",
+            "timestampMs": 53550,
+            "fromMs": 53550,
+            "toMs": 53710
+          },
+          {
+            "confidence": null,
+            "endMs": 53750,
+            "startMs": 53710,
+            "text": " a",
+            "timestampMs": 53710,
+            "fromMs": 53710,
+            "toMs": 53750
+          }
+        ]
+      },
+      {
+        "durationMs": 1770,
+        "startMs": 53750,
+        "text": "bacterial memory test.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54370,
+            "startMs": 53750,
+            "text": " bacterial",
+            "timestampMs": 53750,
+            "fromMs": 53750,
+            "toMs": 54370
+          },
+          {
+            "confidence": null,
+            "endMs": 54690,
+            "startMs": 54370,
+            "text": " memory",
+            "timestampMs": 54370,
+            "fromMs": 54370,
+            "toMs": 54690
+          },
+          {
+            "confidence": null,
+            "endMs": 55520,
+            "startMs": 54690,
+            "text": " test.",
+            "timestampMs": 54690,
+            "fromMs": 54690,
+            "toMs": 55520
+          }
+        ]
+      },
+      {
+        "durationMs": 1570,
+        "startMs": 55520,
+        "text": "Dual-RNA targeting is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56380,
+            "startMs": 55520,
+            "text": " Dual-RNA",
+            "timestampMs": 55520,
+            "fromMs": 55520,
+            "toMs": 56380
+          },
+          {
+            "confidence": null,
+            "endMs": 56880,
+            "startMs": 56380,
+            "text": " targeting",
+            "timestampMs": 56380,
+            "fromMs": 56380,
+            "toMs": 56880
+          },
+          {
+            "confidence": null,
+            "endMs": 57090,
+            "startMs": 56880,
+            "text": " is",
+            "timestampMs": 56880,
+            "fromMs": 56880,
+            "toMs": 57090
+          }
+        ]
+      },
+      {
+        "durationMs": 1540,
+        "startMs": 57090,
+        "text": "memory, scaffold, PAM,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57500,
+            "startMs": 57090,
+            "text": " memory,",
+            "timestampMs": 57090,
+            "fromMs": 57090,
+            "toMs": 57500
+          },
+          {
+            "confidence": null,
+            "endMs": 58120,
+            "startMs": 57500,
+            "text": " scaffold,",
+            "timestampMs": 57500,
+            "fromMs": 57500,
+            "toMs": 58120
+          },
+          {
+            "confidence": null,
+            "endMs": 58630,
+            "startMs": 58120,
+            "text": " PAM,",
+            "timestampMs": 58120,
+            "fromMs": 58120,
+            "toMs": 58630
+          }
+        ]
+      },
+      {
+        "durationMs": 1850,
+        "startMs": 58630,
+        "text": "match, shape-change, cut.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 59170,
+            "startMs": 58630,
+            "text": " match,",
+            "timestampMs": 58630,
+            "fromMs": 58630,
+            "toMs": 59170
+          },
+          {
+            "confidence": null,
+            "endMs": 60040,
+            "startMs": 59170,
+            "text": " shape-change,",
+            "timestampMs": 59170,
+            "fromMs": 59170,
+            "toMs": 60040
+          },
+          {
+            "confidence": null,
+            "endMs": 60480,
+            "startMs": 60040,
+            "text": " cut.",
+            "timestampMs": 60040,
+            "fromMs": 60040,
+            "toMs": 60480
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "CRISPR targeting."
+      },
+      {
+        "startMs": 1130,
+        "text": "Everything depends on two RNAs and one permission signal."
+      },
+      {
+        "startMs": 4470,
+        "text": "The crRNA carries the address: a spacer copied from an old invader."
+      },
+      {
+        "startMs": 8760,
+        "text": "The tracrRNA is the handle Cas9 knows how to grab."
+      },
+      {
+        "startMs": 11680,
+        "text": "Together, they become the guide Cas9 can actually use."
+      },
+      {
+        "startMs": 15040,
+        "text": "Cas9 patrols DNA, but it does not read every base first."
+      },
+      {
+        "startMs": 18880,
+        "text": "It hunts for PAM, the short motif that says: check here."
+      },
+      {
+        "startMs": 22310,
+        "text": "No PAM, no cut."
+      },
+      {
+        "startMs": 23750,
+        "text": "Even a perfect match gets ignored."
+      },
+      {
+        "startMs": 25820,
+        "text": "With PAM present, Cas9 pries open a few DNA bases."
+      },
+      {
+        "startMs": 29770,
+        "text": "The crRNA tests the exposed strand one base at a time."
+      },
+      {
+        "startMs": 33590,
+        "text": "A mismatch makes the complex let go."
+      },
+      {
+        "startMs": 35650,
+        "text": "A correct seed match makes the target worth testing fully."
+      },
+      {
+        "startMs": 38920,
+        "text": "A full match forms an R-loop inside the protein."
+      },
+      {
+        "startMs": 41750,
+        "text": "That R-loop changes Cas9's shape."
+      },
+      {
+        "startMs": 43730,
+        "text": "The HNH domain lines up with the strand matching the guide."
+      },
+      {
+        "startMs": 47280,
+        "text": "The RuvC domain lines up with the opposite strand."
+      },
+      {
+        "startMs": 50160,
+        "text": "Two cuts land almost together."
+      },
+      {
+        "startMs": 52310,
+        "text": "The famous edit begins as a bacterial memory test."
+      },
+      {
+        "startMs": 55520,
+        "text": "Dual-RNA targeting is memory, scaffold, PAM, match, shape-change, cut."
+      }
+    ]
+  },
+  "visualSfx": {
+    "dustFilePath": "staticVideoAssets/visualSfx/dust.mov",
+    "embersFilePath": "staticVideoAssets/visualSfx/embers.mov",
+    "filmGrainFilePath": "staticVideoAssets/visualSfx/film-grain.mov",
+    "fogDriftFilePath": "staticVideoAssets/visualSfx/fog-drift.mov",
+    "rainFilePath": "staticVideoAssets/visualSfx/rain.mov",
+    "snowFilePath": "staticVideoAssets/visualSfx/snow.mov",
+    "sparksFilePath": "staticVideoAssets/visualSfx/sparks.mov"
+  },
+  "transitionOverlayVideoSrcByName": {
+    "bokehWash": "staticVideoAssets/transitionOverlays/bokehWash.mov",
+    "flashCut": "staticVideoAssets/transitionOverlays/flashCut.mov",
+    "glitchCover": "staticVideoAssets/transitionOverlays/glitchCover.mov",
+    "impactSlam": "staticVideoAssets/transitionOverlays/impactSlam.mov",
+    "lightLeakDissolve": "staticVideoAssets/transitionOverlays/lightLeakDissolve.mov",
+    "smokeWipe": "staticVideoAssets/transitionOverlays/smokeWipe.mov",
+    "whipCoverLeft": "staticVideoAssets/transitionOverlays/whipCoverLeft.mov",
+    "whipCoverRight": "staticVideoAssets/transitionOverlays/whipCoverRight.mov"
+  }
+}

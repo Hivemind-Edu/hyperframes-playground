@@ -1,0 +1,134 @@
+TOPIC_CLUSTER: Biology
+TEMPLATE: AnimatedVideoTemplate
+ROLE: speedrun_stem
+SUBROLE: science_blitz
+TITLE: CRISPR Dual-RNA Targeting
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+- `AnimatedVideoTemplate / scenario / day_by_day` normally includes two black-screen beats. Because this demo animates every animated scene, I replaced those with animatable pressure beats. Confirm if you want strict black screens instead.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Explain CRISPR-Cas9 dual-RNA targeting as a mechanism, not a metaphor. Cover crRNA spacer memory, tracrRNA scaffold binding Cas9, engineered sgRNA preserving both functions, PAM-first checking, seed matching, R-loop formation, HNH/RuvC catalytic alignment, double-strand break, off-target risk, and why Cas9 cutting only starts cellular repair. Strict media rule: generated scene media must contain no written text, no labels, no callout words, no letters, no numbers, no pseudo-scientific annotations, and no title text. All words belong only to the HyperFrames subtitle layer.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 2. CRISPR Dual-RNA Targeting
+
+Template: `AnimatedVideoTemplate`
+Role/subrole: `speedrun_stem / science_blitz`
+Scene count: 18
+Style: clean biomedical editorial illustration; dark graphite lab-screen diagrams, precise molecular cutaways, no Arcane/Fortiche, no Ghibli, no noir.
+Subtitle treatment: animated scene videos with the `kinetic` caption variant borrowed from `NarratedKineticKenBurnsTemplate`. This is deliberate for CRISPR only, not the default for animated videos.
+Title overlay: `CRISPR-Cas9 Targeting`
+
+Scene 0:
+script: "CRISPR targeting. Everything depends on two RNAs and one permission signal."
+imageDescription: "Dark biotech diagram space with no visible text, labels, letters, or numbers. Cas9 sits at center like a sculpted protein machine. A magenta guide strand, cyan scaffold strand, and tiny unlabeled golden permission marker hover around it."
+animation: "two glowing RNA strands curling toward a Cas9 protein as an unlabeled golden marker pulses beside a DNA helix"
+
+Scene 1:
+script: "The crRNA carries the address: a spacer copied from an old invader."
+imageDescription: "Close-up with no visible text, labels, letters, or numbers. A magenta RNA strand has one highlighted spacer segment. Behind it, a faint ghost image of viral DNA shows where the spacer was copied from."
+animation: "a highlighted spacer segment sliding from ghost viral DNA into a magenta RNA strand"
+
+Scene 2:
+script: "The tracrRNA is the handle Cas9 knows how to grab."
+imageDescription: "No visible text, labels, letters, or numbers. A cyan RNA strand folds into a stem-loop scaffold. Cas9 protein clamps around the folded structure while the magenta guide strand remains exposed."
+animation: "a folded cyan RNA scaffold bending into place as Cas9 closes around it like a molecular hand"
+
+Scene 3:
+script: "Together, they become the guide Cas9 can actually use."
+imageDescription: "No visible text, labels, letters, or numbers. The magenta guide strand and cyan scaffold strand interlock beside Cas9. Matching base-pair rungs light up where the two RNAs pair."
+animation: "magenta and cyan RNA strands pairing rung by rung as Cas9 locks onto the completed guide complex"
+
+Scene 4:
+script: "Cas9 patrols DNA, but it does not read every base first."
+imageDescription: "Long DNA helix stretches across frame. Cas9 moves along it while most bases remain dim and unread, giving the sense of scanning without full inspection."
+animation: "Cas9 sliding along a DNA helix while nearby base pairs flicker faintly and stay mostly dim"
+
+Scene 5:
+script: "It hunts for PAM, the short motif that says: check here."
+imageDescription: "Several DNA segments pass by with no visible text, labels, letters, or numbers. Only one tiny golden permission motif glows beside the target sequence, drawing Cas9 toward it."
+animation: "a golden permission motif flaring beside one DNA segment as Cas9 turns toward it"
+
+Scene 6:
+script: "No PAM, no cut. Even a perfect match gets ignored."
+imageDescription: "Split diagram with no visible text, labels, letters, or numbers. One side shows a perfect spacer match greyed out because the golden permission marker is absent. The other side shows an active inspection gate opening beside the golden marker."
+animation: "a perfect RNA-DNA match dimming on one side while an unlabeled golden gate opens on the other"
+
+Scene 7:
+script: "With PAM present, Cas9 pries open a few DNA bases."
+imageDescription: "No visible text, labels, letters, or numbers. Cas9 grips the DNA helix beside the unlabeled golden permission marker and separates a small bubble of exposed bases, painted like glowing wet brushstrokes."
+animation: "Cas9 pulling two DNA strands apart into a small glowing bubble beside an unlabeled golden marker"
+
+Scene 8:
+script: "The crRNA tests the exposed strand one base at a time."
+imageDescription: "No visible text, labels, letters, or numbers. The magenta guide strand aligns with exposed DNA bases. Individual base-pair contacts click on sequentially like small lights."
+animation: "base pairs lighting up one by one as the magenta guide strand settles against the exposed DNA strand"
+
+Scene 9:
+script: "A mismatch makes the complex let go."
+imageDescription: "A wrong base pair glows red. The RNA-DNA contact kinks, and Cas9 begins to release the DNA bubble."
+animation: "a red mismatch flashing inside the RNA-DNA pair as Cas9 loosens and the DNA bubble starts closing"
+
+Scene 10:
+script: "A correct seed match makes the target worth testing fully."
+imageDescription: "The first section of RNA-DNA pairing glows green, then the rest of the guide region begins to align behind it."
+animation: "a green seed region locking into place as the remaining guide bases begin pairing behind it"
+
+Scene 11:
+script: "A full match forms an R-loop inside the protein."
+imageDescription: "No visible text, labels, letters, or numbers. Cutaway of Cas9 showing one DNA strand paired with the magenta guide strand while the displaced DNA strand loops outward inside the protein cavity."
+animation: "an RNA-DNA hybrid twisting into an R-loop as the displaced DNA strand bows outward inside Cas9"
+
+Scene 12:
+script: "That R-loop changes Cas9's shape."
+imageDescription: "Cas9 protein domains rotate around the locked target. Two catalytic lobes shift from open to armed positions."
+animation: "Cas9 domains rotating inward around the R-loop as two catalytic lobes slide into alignment"
+
+Scene 13:
+script: "The HNH domain lines up with the strand matching the guide."
+imageDescription: "Protein cutaway with one catalytic domain highlighted amber, positioned over the guide-matched DNA strand."
+animation: "an amber catalytic domain lowering toward the guide-matched DNA strand as the strand tenses"
+
+Scene 14:
+script: "The RuvC domain lines up with the opposite strand."
+imageDescription: "Second catalytic domain highlighted blue, positioned across the opposite DNA strand in the same Cas9 pocket."
+animation: "a blue catalytic domain swinging into position over the opposite DNA strand"
+
+Scene 15:
+script: "Two cuts land almost together."
+imageDescription: "Both DNA strands snap at nearby positions inside Cas9. Tiny sparks and broken sugar-phosphate backbones mark the double-strand break."
+animation: "two catalytic domains striking almost together as both DNA strands snap and recoil inside the protein"
+
+Scene 16:
+script: "The famous edit begins as a bacterial memory test."
+imageDescription: "Bacterial cell diagram showing old viral DNA fragment stored in a CRISPR array, then transcribed into guide RNA that leads Cas9 to matching invader DNA."
+animation: "a stored viral spacer glowing inside a CRISPR array then flowing into guide RNA that pulls Cas9 toward matching invader DNA"
+
+Scene 17:
+script: "Dual-RNA targeting is memory, scaffold, PAM, match, shape-change, cut."
+imageDescription: "Final unlabeled mechanism map with no visible text, labels, letters, or numbers. Six distinct colored molecular icons form a loop around Cas9: a stored fragment shape, magenta guide strand, cyan scaffold loop, golden permission marker, paired helix bubble, and broken helix. Arrows connect the icons in order."
+animation: "six unlabeled molecular icons lighting around Cas9 in sequence as arrows connect fragment to scaffold to marker to match to cut"
