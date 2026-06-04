@@ -1,0 +1,2833 @@
+{
+  "styleId": "photoreal",
+  "characterId": "sweater-guy",
+  "timeline": {
+    "scenes": [
+      {
+        "audioFilePath": "audio.mp3",
+        "endTime": 3.181,
+        "mediaFilePath": "avatar-register-0.mp4",
+        "mediaType": "video",
+        "sceneType": "avatar",
+        "script": "The Fermi Paradox describes a simple contradiction. If life is possible on Earth, it should be possible on many other planets. The Milky Way has hundreds of billions of stars. Many have planets. Some are rocky. Some sit in stable orbits. And the galaxy is old, much older than human civilization. If intelligent life happens often, some civilizations should be millions of years ahead of us. A million-year head start is enough to send probes, signals, or machines across huge distances. They do not need faster-than-light travel. Slow expansion is enough over galactic time. So we should expect evidence somewhere: a signal, a probe, a changed star, a megastructure, something. But so far, there is no confirmed signal from another civilization. No confirmed alien probe. No confirmed megastructure. That is the paradox: the numbers make the galaxy look crowded, but the evidence says silence. So one assumption is wrong. Maybe life is extremely rare. Maybe simple life is common, but intelligence is rare. Maybe technological civilizations destroy themselves, go quiet, or leave traces we do not recognize. Or maybe our search is still too small. The Fermi Paradox is not proof that we are alone. It is proof that one of our easy guesses about life in the galaxy is probably wrong.",
+        "startTime": 0,
+        "transition": "cut"
+      },
+      {
+        "camera": "static",
+        "endTime": 7.372,
+        "imageFilePath": "scene-register-merged-earth-many-worlds.png",
+        "mediaFilePath": "image-register-motion-merged-earth-many-worlds.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "Earth and many possible worlds",
+        "startTime": 3.181,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 10.135,
+        "imageFilePath": "scene-register-03.png",
+        "mediaFilePath": "image-register-motion-03.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "hundreds of billions of stars",
+        "startTime": 7.372,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 11.482,
+        "imageFilePath": "scene-register-04.png",
+        "mediaFilePath": "image-register-motion-04.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "stars with planets",
+        "startTime": 10.135,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 12.654,
+        "imageFilePath": "scene-register-05.png",
+        "mediaFilePath": "image-register-motion-05.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "rocky worlds",
+        "startTime": 11.482,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 14.431,
+        "imageFilePath": "scene-register-06.png",
+        "mediaFilePath": "image-register-motion-06.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "stable orbits",
+        "startTime": 12.654,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 17.774,
+        "imageFilePath": "scene-register-07.png",
+        "mediaFilePath": "image-register-motion-07.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "old galaxy",
+        "startTime": 14.431,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 19.353,
+        "imageFilePath": "scene-register-08.png",
+        "mediaFilePath": "image-register-motion-08.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "civilization frequency",
+        "startTime": 17.774,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 22.14,
+        "imageFilePath": "scene-register-09.png",
+        "mediaFilePath": "image-register-motion-09.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "million year head start",
+        "startTime": 19.353,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 27.26,
+        "imageFilePath": "scene-register-10.png",
+        "mediaFilePath": "image-register-motion-10.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "probes and machines",
+        "startTime": 22.14,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 29.361,
+        "imageFilePath": "scene-register-11.png",
+        "mediaFilePath": "image-register-motion-11.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "no faster than light",
+        "startTime": 27.26,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 32.415,
+        "imageFilePath": "scene-register-12.png",
+        "mediaFilePath": "image-register-motion-12.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "slow expansion",
+        "startTime": 29.361,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 34.064,
+        "imageFilePath": "scene-register-13.png",
+        "mediaFilePath": "image-register-motion-13.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "expect evidence",
+        "startTime": 32.415,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 38.719,
+        "imageFilePath": "scene-register-14.png",
+        "mediaFilePath": "image-register-motion-14.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "signal probe megastructure",
+        "startTime": 34.064,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 42.399,
+        "imageFilePath": "scene-register-15.png",
+        "mediaFilePath": "image-register-motion-15.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "no confirmed signal",
+        "startTime": 38.719,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 44.002,
+        "imageFilePath": "scene-register-16.png",
+        "mediaFilePath": "image-register-motion-16.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "no confirmed probe",
+        "startTime": 42.399,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 46.01,
+        "imageFilePath": "scene-register-17.png",
+        "mediaFilePath": "image-register-motion-17.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "no confirmed megastructure",
+        "startTime": 44.002,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 51.188,
+        "imageFilePath": "scene-register-merged-crowded-galaxy-silence.png",
+        "mediaFilePath": "image-register-motion-merged-crowded-galaxy-silence.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "crowded galaxy, silent evidence",
+        "startTime": 46.01,
+        "transition": "cut"
+      },
+      {
+        "camera": "static",
+        "endTime": 53.417,
+        "imageFilePath": "scene-register-19.png",
+        "mediaFilePath": "image-register-motion-19.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "wrong assumption",
+        "startTime": 51.188,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 55.391,
+        "imageFilePath": "scene-register-20.png",
+        "mediaFilePath": "image-register-motion-20.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "rare life",
+        "startTime": 53.417,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 58.653,
+        "imageFilePath": "scene-register-21.png",
+        "mediaFilePath": "image-register-motion-21.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "intelligence rare",
+        "startTime": 55.391,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 63.68,
+        "imageFilePath": "scene-register-22.png",
+        "mediaFilePath": "image-register-motion-22.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "civilizations disappear",
+        "startTime": 58.653,
+        "transition": "crossfade"
+      },
+      {
+        "camera": "static",
+        "endTime": 65.933,
+        "imageFilePath": "scene-register-23.png",
+        "mediaFilePath": "image-register-motion-23.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "search too small",
+        "startTime": 63.68,
+        "transition": "crossfade"
+      },
+      {
+        "endTime": 68.522,
+        "mediaFilePath": "avatar-register-2.mp4",
+        "mediaType": "video",
+        "sceneType": "avatar",
+        "script": "The Fermi Paradox describes a simple contradiction. If life is possible on Earth, it should be possible on many other planets. The Milky Way has hundreds of billions of stars. Many have planets. Some are rocky. Some sit in stable orbits. And the galaxy is old, much older than human civilization. If intelligent life happens often, some civilizations should be millions of years ahead of us. A million-year head start is enough to send probes, signals, or machines across huge distances. They do not need faster-than-light travel. Slow expansion is enough over galactic time. So we should expect evidence somewhere: a signal, a probe, a changed star, a megastructure, something. But so far, there is no confirmed signal from another civilization. No confirmed alien probe. No confirmed megastructure. That is the paradox: the numbers make the galaxy look crowded, but the evidence says silence. So one assumption is wrong. Maybe life is extremely rare. Maybe simple life is common, but intelligence is rare. Maybe technological civilizations destroy themselves, go quiet, or leave traces we do not recognize. Or maybe our search is still too small. The Fermi Paradox is not proof that we are alone. It is proof that one of our easy guesses about life in the galaxy is probably wrong.",
+        "startTime": 65.933,
+        "transition": "cut"
+      },
+      {
+        "camera": "static",
+        "endTime": 71.982,
+        "imageFilePath": "scene-register-24.png",
+        "mediaFilePath": "image-register-motion-24.mp4",
+        "mediaType": "video",
+        "sceneType": "image",
+        "script": "wrong easy guess",
+        "startTime": 68.522,
+        "transition": "crossfade"
+      }
+    ],
+    "totalDuration": 71.981859
+  },
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 940,
+        "startMs": 0,
+        "text": "The Fermi Paradox",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 104,
+            "startMs": 0,
+            "text": "The",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 104
+          },
+          {
+            "confidence": null,
+            "endMs": 418,
+            "startMs": 163,
+            "text": " Fermi",
+            "timestampMs": 163,
+            "fromMs": 163,
+            "toMs": 418
+          },
+          {
+            "confidence": null,
+            "endMs": 940,
+            "startMs": 476,
+            "text": " Paradox",
+            "timestampMs": 476,
+            "fromMs": 476,
+            "toMs": 940
+          }
+        ]
+      },
+      {
+        "durationMs": 778,
+        "startMs": 998,
+        "text": "describes a simple",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1370,
+            "startMs": 998,
+            "text": " describes",
+            "timestampMs": 998,
+            "fromMs": 998,
+            "toMs": 1370
+          },
+          {
+            "confidence": null,
+            "endMs": 1428,
+            "startMs": 1404,
+            "text": " a",
+            "timestampMs": 1404,
+            "fromMs": 1404,
+            "toMs": 1428
+          },
+          {
+            "confidence": null,
+            "endMs": 1776,
+            "startMs": 1509,
+            "text": " simple",
+            "timestampMs": 1509,
+            "fromMs": 1509,
+            "toMs": 1776
+          }
+        ]
+      },
+      {
+        "durationMs": 847,
+        "startMs": 1811,
+        "text": "contradiction.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2658,
+            "startMs": 1811,
+            "text": " contradiction.",
+            "timestampMs": 1811,
+            "fromMs": 1811,
+            "toMs": 2658
+          }
+        ]
+      },
+      {
+        "durationMs": 487,
+        "startMs": 3181,
+        "text": "If life is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3308,
+            "startMs": 3181,
+            "text": " If",
+            "timestampMs": 3181,
+            "fromMs": 3181,
+            "toMs": 3308
+          },
+          {
+            "confidence": null,
+            "endMs": 3564,
+            "startMs": 3378,
+            "text": " life",
+            "timestampMs": 3378,
+            "fromMs": 3378,
+            "toMs": 3564
+          },
+          {
+            "confidence": null,
+            "endMs": 3668,
+            "startMs": 3599,
+            "text": " is",
+            "timestampMs": 3599,
+            "fromMs": 3599,
+            "toMs": 3668
+          }
+        ]
+      },
+      {
+        "durationMs": 929,
+        "startMs": 3726,
+        "text": "possible on Earth,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4098,
+            "startMs": 3726,
+            "text": " possible",
+            "timestampMs": 3726,
+            "fromMs": 3726,
+            "toMs": 4098
+          },
+          {
+            "confidence": null,
+            "endMs": 4202,
+            "startMs": 4133,
+            "text": " on",
+            "timestampMs": 4133,
+            "fromMs": 4133,
+            "toMs": 4202
+          },
+          {
+            "confidence": null,
+            "endMs": 4655,
+            "startMs": 4249,
+            "text": " Earth,",
+            "timestampMs": 4249,
+            "fromMs": 4249,
+            "toMs": 4655
+          }
+        ]
+      },
+      {
+        "durationMs": 395,
+        "startMs": 5038,
+        "text": "it should be",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5120,
+            "startMs": 5038,
+            "text": " it",
+            "timestampMs": 5038,
+            "fromMs": 5038,
+            "toMs": 5120
+          },
+          {
+            "confidence": null,
+            "endMs": 5340,
+            "startMs": 5154,
+            "text": " should",
+            "timestampMs": 5154,
+            "fromMs": 5154,
+            "toMs": 5340
+          },
+          {
+            "confidence": null,
+            "endMs": 5433,
+            "startMs": 5375,
+            "text": " be",
+            "timestampMs": 5375,
+            "fromMs": 5375,
+            "toMs": 5433
+          }
+        ]
+      },
+      {
+        "durationMs": 661,
+        "startMs": 5468,
+        "text": "possible on many",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5804,
+            "startMs": 5468,
+            "text": " possible",
+            "timestampMs": 5468,
+            "fromMs": 5468,
+            "toMs": 5804
+          },
+          {
+            "confidence": null,
+            "endMs": 5909,
+            "startMs": 5839,
+            "text": " on",
+            "timestampMs": 5839,
+            "fromMs": 5839,
+            "toMs": 5909
+          },
+          {
+            "confidence": null,
+            "endMs": 6129,
+            "startMs": 5967,
+            "text": " many",
+            "timestampMs": 5967,
+            "fromMs": 5967,
+            "toMs": 6129
+          }
+        ]
+      },
+      {
+        "durationMs": 755,
+        "startMs": 6176,
+        "text": "other planets.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 6338,
+            "startMs": 6176,
+            "text": " other",
+            "timestampMs": 6176,
+            "fromMs": 6176,
+            "toMs": 6338
+          },
+          {
+            "confidence": null,
+            "endMs": 6931,
+            "startMs": 6385,
+            "text": " planets.",
+            "timestampMs": 6385,
+            "fromMs": 6385,
+            "toMs": 6931
+          }
+        ]
+      },
+      {
+        "durationMs": 615,
+        "startMs": 7372,
+        "text": "The Milky Way",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7476,
+            "startMs": 7372,
+            "text": " The",
+            "timestampMs": 7372,
+            "fromMs": 7372,
+            "toMs": 7476
+          },
+          {
+            "confidence": null,
+            "endMs": 7743,
+            "startMs": 7523,
+            "text": " Milky",
+            "timestampMs": 7523,
+            "fromMs": 7523,
+            "toMs": 7743
+          },
+          {
+            "confidence": null,
+            "endMs": 7987,
+            "startMs": 7790,
+            "text": " Way",
+            "timestampMs": 7790,
+            "fromMs": 7790,
+            "toMs": 7987
+          }
+        ]
+      },
+      {
+        "durationMs": 581,
+        "startMs": 8045,
+        "text": "has hundreds of",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8150,
+            "startMs": 8045,
+            "text": " has",
+            "timestampMs": 8045,
+            "fromMs": 8045,
+            "toMs": 8150
+          },
+          {
+            "confidence": null,
+            "endMs": 8533,
+            "startMs": 8231,
+            "text": " hundreds",
+            "timestampMs": 8231,
+            "fromMs": 8231,
+            "toMs": 8533
+          },
+          {
+            "confidence": null,
+            "endMs": 8626,
+            "startMs": 8568,
+            "text": " of",
+            "timestampMs": 8568,
+            "fromMs": 8568,
+            "toMs": 8626
+          }
+        ]
+      },
+      {
+        "durationMs": 1103,
+        "startMs": 8695,
+        "text": "billions of stars.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9009,
+            "startMs": 8695,
+            "text": " billions",
+            "timestampMs": 8695,
+            "fromMs": 8695,
+            "toMs": 9009
+          },
+          {
+            "confidence": null,
+            "endMs": 9113,
+            "startMs": 9044,
+            "text": " of",
+            "timestampMs": 9044,
+            "fromMs": 9044,
+            "toMs": 9113
+          },
+          {
+            "confidence": null,
+            "endMs": 9798,
+            "startMs": 9148,
+            "text": " stars.",
+            "timestampMs": 9148,
+            "fromMs": 9148,
+            "toMs": 9798
+          }
+        ]
+      },
+      {
+        "durationMs": 964,
+        "startMs": 10135,
+        "text": "Many have planets.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 10321,
+            "startMs": 10135,
+            "text": " Many",
+            "timestampMs": 10135,
+            "fromMs": 10135,
+            "toMs": 10321
+          },
+          {
+            "confidence": null,
+            "endMs": 10495,
+            "startMs": 10367,
+            "text": " have",
+            "timestampMs": 10367,
+            "fromMs": 10367,
+            "toMs": 10495
+          },
+          {
+            "confidence": null,
+            "endMs": 11099,
+            "startMs": 10530,
+            "text": " planets.",
+            "timestampMs": 10530,
+            "fromMs": 10530,
+            "toMs": 11099
+          }
+        ]
+      },
+      {
+        "durationMs": 928,
+        "startMs": 11482,
+        "text": "Some are rocky.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11691,
+            "startMs": 11482,
+            "text": " Some",
+            "timestampMs": 11482,
+            "fromMs": 11482,
+            "toMs": 11691
+          },
+          {
+            "confidence": null,
+            "endMs": 11865,
+            "startMs": 11737,
+            "text": " are",
+            "timestampMs": 11737,
+            "fromMs": 11737,
+            "toMs": 11865
+          },
+          {
+            "confidence": null,
+            "endMs": 12410,
+            "startMs": 11900,
+            "text": " rocky.",
+            "timestampMs": 11900,
+            "fromMs": 11900,
+            "toMs": 12410
+          }
+        ]
+      },
+      {
+        "durationMs": 488,
+        "startMs": 12654,
+        "text": "Some sit in",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 12875,
+            "startMs": 12654,
+            "text": " Some",
+            "timestampMs": 12654,
+            "fromMs": 12654,
+            "toMs": 12875
+          },
+          {
+            "confidence": null,
+            "endMs": 13049,
+            "startMs": 12921,
+            "text": " sit",
+            "timestampMs": 12921,
+            "fromMs": 12921,
+            "toMs": 13049
+          },
+          {
+            "confidence": null,
+            "endMs": 13142,
+            "startMs": 13084,
+            "text": " in",
+            "timestampMs": 13084,
+            "fromMs": 13084,
+            "toMs": 13142
+          }
+        ]
+      },
+      {
+        "durationMs": 859,
+        "startMs": 13188,
+        "text": "stable orbits.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13467,
+            "startMs": 13188,
+            "text": " stable",
+            "timestampMs": 13188,
+            "fromMs": 13188,
+            "toMs": 13467
+          },
+          {
+            "confidence": null,
+            "endMs": 14047,
+            "startMs": 13502,
+            "text": " orbits.",
+            "timestampMs": 13502,
+            "fromMs": 13502,
+            "toMs": 14047
+          }
+        ]
+      },
+      {
+        "durationMs": 568,
+        "startMs": 14431,
+        "text": "And the galaxy",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 14558,
+            "startMs": 14431,
+            "text": " And",
+            "timestampMs": 14431,
+            "fromMs": 14431,
+            "toMs": 14558
+          },
+          {
+            "confidence": null,
+            "endMs": 14663,
+            "startMs": 14593,
+            "text": " the",
+            "timestampMs": 14593,
+            "fromMs": 14593,
+            "toMs": 14663
+          },
+          {
+            "confidence": null,
+            "endMs": 14999,
+            "startMs": 14698,
+            "text": " galaxy",
+            "timestampMs": 14698,
+            "fromMs": 14698,
+            "toMs": 14999
+          }
+        ]
+      },
+      {
+        "durationMs": 1034,
+        "startMs": 15034,
+        "text": "is old, much",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15104,
+            "startMs": 15034,
+            "text": " is",
+            "timestampMs": 15034,
+            "fromMs": 15034,
+            "toMs": 15104
+          },
+          {
+            "confidence": null,
+            "endMs": 15580,
+            "startMs": 15174,
+            "text": " old,",
+            "timestampMs": 15174,
+            "fromMs": 15174,
+            "toMs": 15580
+          },
+          {
+            "confidence": null,
+            "endMs": 16068,
+            "startMs": 15917,
+            "text": " much",
+            "timestampMs": 15917,
+            "fromMs": 15917,
+            "toMs": 16068
+          }
+        ]
+      },
+      {
+        "durationMs": 546,
+        "startMs": 16102,
+        "text": "older than human",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16265,
+            "startMs": 16102,
+            "text": " older",
+            "timestampMs": 16102,
+            "fromMs": 16102,
+            "toMs": 16265
+          },
+          {
+            "confidence": null,
+            "endMs": 16404,
+            "startMs": 16300,
+            "text": " than",
+            "timestampMs": 16300,
+            "fromMs": 16300,
+            "toMs": 16404
+          },
+          {
+            "confidence": null,
+            "endMs": 16648,
+            "startMs": 16451,
+            "text": " human",
+            "timestampMs": 16451,
+            "fromMs": 16451,
+            "toMs": 16648
+          }
+        ]
+      },
+      {
+        "durationMs": 708,
+        "startMs": 16683,
+        "text": "civilization.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17391,
+            "startMs": 16683,
+            "text": " civilization.",
+            "timestampMs": 16683,
+            "fromMs": 16683,
+            "toMs": 17391
+          }
+        ]
+      },
+      {
+        "durationMs": 697,
+        "startMs": 17774,
+        "text": "If intelligent life",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17879,
+            "startMs": 17774,
+            "text": " If",
+            "timestampMs": 17774,
+            "fromMs": 17774,
+            "toMs": 17879
+          },
+          {
+            "confidence": null,
+            "endMs": 18285,
+            "startMs": 17925,
+            "text": " intelligent",
+            "timestampMs": 17925,
+            "fromMs": 17925,
+            "toMs": 18285
+          },
+          {
+            "confidence": null,
+            "endMs": 18471,
+            "startMs": 18320,
+            "text": " life",
+            "timestampMs": 18320,
+            "fromMs": 18320,
+            "toMs": 18471
+          }
+        ]
+      },
+      {
+        "durationMs": 1034,
+        "startMs": 18494,
+        "text": "happens often, some",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18738,
+            "startMs": 18494,
+            "text": " happens",
+            "timestampMs": 18494,
+            "fromMs": 18494,
+            "toMs": 18738
+          },
+          {
+            "confidence": null,
+            "endMs": 19249,
+            "startMs": 18796,
+            "text": " often,",
+            "timestampMs": 18796,
+            "fromMs": 18796,
+            "toMs": 19249
+          },
+          {
+            "confidence": null,
+            "endMs": 19528,
+            "startMs": 19353,
+            "text": " some",
+            "timestampMs": 19353,
+            "fromMs": 19353,
+            "toMs": 19528
+          }
+        ]
+      },
+      {
+        "durationMs": 789,
+        "startMs": 19563,
+        "text": "civilizations should be",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20085,
+            "startMs": 19563,
+            "text": " civilizations",
+            "timestampMs": 19563,
+            "fromMs": 19563,
+            "toMs": 20085
+          },
+          {
+            "confidence": null,
+            "endMs": 20259,
+            "startMs": 20108,
+            "text": " should",
+            "timestampMs": 20108,
+            "fromMs": 20108,
+            "toMs": 20259
+          },
+          {
+            "confidence": null,
+            "endMs": 20352,
+            "startMs": 20294,
+            "text": " be",
+            "timestampMs": 20294,
+            "fromMs": 20294,
+            "toMs": 20352
+          }
+        ]
+      },
+      {
+        "durationMs": 616,
+        "startMs": 20410,
+        "text": "millions of years",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20712,
+            "startMs": 20410,
+            "text": " millions",
+            "timestampMs": 20410,
+            "fromMs": 20410,
+            "toMs": 20712
+          },
+          {
+            "confidence": null,
+            "endMs": 20805,
+            "startMs": 20747,
+            "text": " of",
+            "timestampMs": 20747,
+            "fromMs": 20747,
+            "toMs": 20805
+          },
+          {
+            "confidence": null,
+            "endMs": 21026,
+            "startMs": 20851,
+            "text": " years",
+            "timestampMs": 20851,
+            "fromMs": 20851,
+            "toMs": 21026
+          }
+        ]
+      },
+      {
+        "durationMs": 639,
+        "startMs": 21060,
+        "text": "ahead of us.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21234,
+            "startMs": 21060,
+            "text": " ahead",
+            "timestampMs": 21060,
+            "fromMs": 21060,
+            "toMs": 21234
+          },
+          {
+            "confidence": null,
+            "endMs": 21316,
+            "startMs": 21258,
+            "text": " of",
+            "timestampMs": 21258,
+            "fromMs": 21258,
+            "toMs": 21316
+          },
+          {
+            "confidence": null,
+            "endMs": 21699,
+            "startMs": 21374,
+            "text": " us.",
+            "timestampMs": 21374,
+            "fromMs": 21374,
+            "toMs": 21699
+          }
+        ]
+      },
+      {
+        "durationMs": 813,
+        "startMs": 22140,
+        "text": "A million-year head",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22198,
+            "startMs": 22140,
+            "text": " A",
+            "timestampMs": 22140,
+            "fromMs": 22140,
+            "toMs": 22198
+          },
+          {
+            "confidence": null,
+            "endMs": 22755,
+            "startMs": 22303,
+            "text": " million-year",
+            "timestampMs": 22303,
+            "fromMs": 22303,
+            "toMs": 22755
+          },
+          {
+            "confidence": null,
+            "endMs": 22953,
+            "startMs": 22825,
+            "text": " head",
+            "timestampMs": 22825,
+            "fromMs": 22825,
+            "toMs": 22953
+          }
+        ]
+      },
+      {
+        "durationMs": 592,
+        "startMs": 22988,
+        "text": "start is enough",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23231,
+            "startMs": 22988,
+            "text": " start",
+            "timestampMs": 22988,
+            "fromMs": 22988,
+            "toMs": 23231
+          },
+          {
+            "confidence": null,
+            "endMs": 23336,
+            "startMs": 23266,
+            "text": " is",
+            "timestampMs": 23266,
+            "fromMs": 23266,
+            "toMs": 23336
+          },
+          {
+            "confidence": null,
+            "endMs": 23580,
+            "startMs": 23371,
+            "text": " enough",
+            "timestampMs": 23371,
+            "fromMs": 23371,
+            "toMs": 23580
+          }
+        ]
+      },
+      {
+        "durationMs": 708,
+        "startMs": 23615,
+        "text": "to send probes,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23661,
+            "startMs": 23615,
+            "text": " to",
+            "timestampMs": 23615,
+            "fromMs": 23615,
+            "toMs": 23661
+          },
+          {
+            "confidence": null,
+            "endMs": 23858,
+            "startMs": 23707,
+            "text": " send",
+            "timestampMs": 23707,
+            "fromMs": 23707,
+            "toMs": 23858
+          },
+          {
+            "confidence": null,
+            "endMs": 24323,
+            "startMs": 23916,
+            "text": " probes,",
+            "timestampMs": 23916,
+            "fromMs": 23916,
+            "toMs": 24323
+          }
+        ]
+      },
+      {
+        "durationMs": 882,
+        "startMs": 24358,
+        "text": "signals, or machines",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24717,
+            "startMs": 24358,
+            "text": " signals,",
+            "timestampMs": 24358,
+            "fromMs": 24358,
+            "toMs": 24717
+          },
+          {
+            "confidence": null,
+            "endMs": 24822,
+            "startMs": 24752,
+            "text": " or",
+            "timestampMs": 24752,
+            "fromMs": 24752,
+            "toMs": 24822
+          },
+          {
+            "confidence": null,
+            "endMs": 25240,
+            "startMs": 24857,
+            "text": " machines",
+            "timestampMs": 24857,
+            "fromMs": 24857,
+            "toMs": 25240
+          }
+        ]
+      },
+      {
+        "durationMs": 1381,
+        "startMs": 25275,
+        "text": "across huge distances.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 25530,
+            "startMs": 25275,
+            "text": " across",
+            "timestampMs": 25275,
+            "fromMs": 25275,
+            "toMs": 25530
+          },
+          {
+            "confidence": null,
+            "endMs": 25913,
+            "startMs": 25588,
+            "text": " huge",
+            "timestampMs": 25588,
+            "fromMs": 25588,
+            "toMs": 25913
+          },
+          {
+            "confidence": null,
+            "endMs": 26656,
+            "startMs": 25948,
+            "text": " distances.",
+            "timestampMs": 25948,
+            "fromMs": 25948,
+            "toMs": 26656
+          }
+        ]
+      },
+      {
+        "durationMs": 372,
+        "startMs": 27260,
+        "text": "They do not",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27399,
+            "startMs": 27260,
+            "text": " They",
+            "timestampMs": 27260,
+            "fromMs": 27260,
+            "toMs": 27399
+          },
+          {
+            "confidence": null,
+            "endMs": 27492,
+            "startMs": 27434,
+            "text": " do",
+            "timestampMs": 27434,
+            "fromMs": 27434,
+            "toMs": 27492
+          },
+          {
+            "confidence": null,
+            "endMs": 27632,
+            "startMs": 27539,
+            "text": " not",
+            "timestampMs": 27539,
+            "fromMs": 27539,
+            "toMs": 27632
+          }
+        ]
+      },
+      {
+        "durationMs": 1312,
+        "startMs": 27666,
+        "text": "need faster-than-light travel.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27806,
+            "startMs": 27666,
+            "text": " need",
+            "timestampMs": 27666,
+            "fromMs": 27666,
+            "toMs": 27806
+          },
+          {
+            "confidence": null,
+            "endMs": 28514,
+            "startMs": 27852,
+            "text": " faster-than-light",
+            "timestampMs": 27852,
+            "fromMs": 27852,
+            "toMs": 28514
+          },
+          {
+            "confidence": null,
+            "endMs": 28978,
+            "startMs": 28537,
+            "text": " travel.",
+            "timestampMs": 28537,
+            "fromMs": 28537,
+            "toMs": 28978
+          }
+        ]
+      },
+      {
+        "durationMs": 848,
+        "startMs": 29361,
+        "text": "Slow expansion is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29605,
+            "startMs": 29361,
+            "text": " Slow",
+            "timestampMs": 29361,
+            "fromMs": 29361,
+            "toMs": 29605
+          },
+          {
+            "confidence": null,
+            "endMs": 30105,
+            "startMs": 29640,
+            "text": " expansion",
+            "timestampMs": 29640,
+            "fromMs": 29640,
+            "toMs": 30105
+          },
+          {
+            "confidence": null,
+            "endMs": 30209,
+            "startMs": 30139,
+            "text": " is",
+            "timestampMs": 30139,
+            "fromMs": 30139,
+            "toMs": 30209
+          }
+        ]
+      },
+      {
+        "durationMs": 790,
+        "startMs": 30255,
+        "text": "enough over galactic",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30499,
+            "startMs": 30255,
+            "text": " enough",
+            "timestampMs": 30255,
+            "fromMs": 30255,
+            "toMs": 30499
+          },
+          {
+            "confidence": null,
+            "endMs": 30673,
+            "startMs": 30546,
+            "text": " over",
+            "timestampMs": 30546,
+            "fromMs": 30546,
+            "toMs": 30673
+          },
+          {
+            "confidence": null,
+            "endMs": 31045,
+            "startMs": 30720,
+            "text": " galactic",
+            "timestampMs": 30720,
+            "fromMs": 30720,
+            "toMs": 31045
+          }
+        ]
+      },
+      {
+        "durationMs": 500,
+        "startMs": 31091,
+        "text": "time.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31591,
+            "startMs": 31091,
+            "text": " time.",
+            "timestampMs": 31091,
+            "fromMs": 31091,
+            "toMs": 31591
+          }
+        ]
+      },
+      {
+        "durationMs": 418,
+        "startMs": 32415,
+        "text": "So we should",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32531,
+            "startMs": 32415,
+            "text": " So",
+            "timestampMs": 32415,
+            "fromMs": 32415,
+            "toMs": 32531
+          },
+          {
+            "confidence": null,
+            "endMs": 32635,
+            "startMs": 32577,
+            "text": " we",
+            "timestampMs": 32577,
+            "fromMs": 32577,
+            "toMs": 32635
+          },
+          {
+            "confidence": null,
+            "endMs": 32833,
+            "startMs": 32670,
+            "text": " should",
+            "timestampMs": 32670,
+            "fromMs": 32670,
+            "toMs": 32833
+          }
+        ]
+      },
+      {
+        "durationMs": 1149,
+        "startMs": 32868,
+        "text": "expect evidence somewhere:",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33158,
+            "startMs": 32868,
+            "text": " expect",
+            "timestampMs": 32868,
+            "fromMs": 32868,
+            "toMs": 33158
+          },
+          {
+            "confidence": null,
+            "endMs": 33529,
+            "startMs": 33216,
+            "text": " evidence",
+            "timestampMs": 33216,
+            "fromMs": 33216,
+            "toMs": 33529
+          },
+          {
+            "confidence": null,
+            "endMs": 34017,
+            "startMs": 33553,
+            "text": " somewhere:",
+            "timestampMs": 33553,
+            "fromMs": 33553,
+            "toMs": 34017
+          }
+        ]
+      },
+      {
+        "durationMs": 835,
+        "startMs": 34064,
+        "text": "a signal, a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 34133,
+            "startMs": 34064,
+            "text": " a",
+            "timestampMs": 34064,
+            "fromMs": 34064,
+            "toMs": 34133
+          },
+          {
+            "confidence": null,
+            "endMs": 34737,
+            "startMs": 34203,
+            "text": " signal,",
+            "timestampMs": 34203,
+            "fromMs": 34203,
+            "toMs": 34737
+          },
+          {
+            "confidence": null,
+            "endMs": 34899,
+            "startMs": 34841,
+            "text": " a",
+            "timestampMs": 34841,
+            "fromMs": 34841,
+            "toMs": 34899
+          }
+        ]
+      },
+      {
+        "durationMs": 1022,
+        "startMs": 34946,
+        "text": "probe, a changed",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35457,
+            "startMs": 34946,
+            "text": " probe,",
+            "timestampMs": 34946,
+            "fromMs": 34946,
+            "toMs": 35457
+          },
+          {
+            "confidence": null,
+            "endMs": 35642,
+            "startMs": 35573,
+            "text": " a",
+            "timestampMs": 35573,
+            "fromMs": 35573,
+            "toMs": 35642
+          },
+          {
+            "confidence": null,
+            "endMs": 35968,
+            "startMs": 35689,
+            "text": " changed",
+            "timestampMs": 35689,
+            "fromMs": 35689,
+            "toMs": 35968
+          }
+        ]
+      },
+      {
+        "durationMs": 1463,
+        "startMs": 36014,
+        "text": "star, a megastructure,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36583,
+            "startMs": 36014,
+            "text": " star,",
+            "timestampMs": 36014,
+            "fromMs": 36014,
+            "toMs": 36583
+          },
+          {
+            "confidence": null,
+            "endMs": 36711,
+            "startMs": 36653,
+            "text": " a",
+            "timestampMs": 36653,
+            "fromMs": 36653,
+            "toMs": 36711
+          },
+          {
+            "confidence": null,
+            "endMs": 37477,
+            "startMs": 36769,
+            "text": " megastructure,",
+            "timestampMs": 36769,
+            "fromMs": 36769,
+            "toMs": 37477
+          }
+        ]
+      },
+      {
+        "durationMs": 534,
+        "startMs": 37663,
+        "text": "something.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38197,
+            "startMs": 37663,
+            "text": " something.",
+            "timestampMs": 37663,
+            "fromMs": 37663,
+            "toMs": 38197
+          }
+        ]
+      },
+      {
+        "durationMs": 743,
+        "startMs": 38719,
+        "text": "But so far,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38847,
+            "startMs": 38719,
+            "text": " But",
+            "timestampMs": 38719,
+            "fromMs": 38719,
+            "toMs": 38847
+          },
+          {
+            "confidence": null,
+            "endMs": 39032,
+            "startMs": 38882,
+            "text": " so",
+            "timestampMs": 38882,
+            "fromMs": 38882,
+            "toMs": 39032
+          },
+          {
+            "confidence": null,
+            "endMs": 39462,
+            "startMs": 39102,
+            "text": " far,",
+            "timestampMs": 39102,
+            "fromMs": 39102,
+            "toMs": 39462
+          }
+        ]
+      },
+      {
+        "durationMs": 407,
+        "startMs": 39508,
+        "text": "there is no",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39671,
+            "startMs": 39508,
+            "text": " there",
+            "timestampMs": 39508,
+            "fromMs": 39508,
+            "toMs": 39671
+          },
+          {
+            "confidence": null,
+            "endMs": 39764,
+            "startMs": 39706,
+            "text": " is",
+            "timestampMs": 39706,
+            "fromMs": 39706,
+            "toMs": 39764
+          },
+          {
+            "confidence": null,
+            "endMs": 39915,
+            "startMs": 39822,
+            "text": " no",
+            "timestampMs": 39822,
+            "fromMs": 39822,
+            "toMs": 39915
+          }
+        ]
+      },
+      {
+        "durationMs": 836,
+        "startMs": 39973,
+        "text": "confirmed signal from",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40356,
+            "startMs": 39973,
+            "text": " confirmed",
+            "timestampMs": 39973,
+            "fromMs": 39973,
+            "toMs": 40356
+          },
+          {
+            "confidence": null,
+            "endMs": 40635,
+            "startMs": 40391,
+            "text": " signal",
+            "timestampMs": 40391,
+            "fromMs": 40391,
+            "toMs": 40635
+          },
+          {
+            "confidence": null,
+            "endMs": 40809,
+            "startMs": 40681,
+            "text": " from",
+            "timestampMs": 40681,
+            "fromMs": 40681,
+            "toMs": 40809
+          }
+        ]
+      },
+      {
+        "durationMs": 1033,
+        "startMs": 40844,
+        "text": "another civilization.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 41064,
+            "startMs": 40844,
+            "text": " another",
+            "timestampMs": 40844,
+            "fromMs": 40844,
+            "toMs": 41064
+          },
+          {
+            "confidence": null,
+            "endMs": 41877,
+            "startMs": 41099,
+            "text": " civilization.",
+            "timestampMs": 41099,
+            "fromMs": 41099,
+            "toMs": 41877
+          }
+        ]
+      },
+      {
+        "durationMs": 952,
+        "startMs": 42399,
+        "text": "No confirmed alien",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42574,
+            "startMs": 42399,
+            "text": " No",
+            "timestampMs": 42399,
+            "fromMs": 42399,
+            "toMs": 42574
+          },
+          {
+            "confidence": null,
+            "endMs": 43026,
+            "startMs": 42632,
+            "text": " confirmed",
+            "timestampMs": 42632,
+            "fromMs": 42632,
+            "toMs": 43026
+          },
+          {
+            "confidence": null,
+            "endMs": 43351,
+            "startMs": 43084,
+            "text": " alien",
+            "timestampMs": 43084,
+            "fromMs": 43084,
+            "toMs": 43351
+          }
+        ]
+      },
+      {
+        "durationMs": 476,
+        "startMs": 43398,
+        "text": "probe.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43874,
+            "startMs": 43398,
+            "text": " probe.",
+            "timestampMs": 43398,
+            "fromMs": 43398,
+            "toMs": 43874
+          }
+        ]
+      },
+      {
+        "durationMs": 1486,
+        "startMs": 44002,
+        "text": "No confirmed megastructure.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44141,
+            "startMs": 44002,
+            "text": " No",
+            "timestampMs": 44002,
+            "fromMs": 44002,
+            "toMs": 44141
+          },
+          {
+            "confidence": null,
+            "endMs": 44640,
+            "startMs": 44199,
+            "text": " confirmed",
+            "timestampMs": 44199,
+            "fromMs": 44199,
+            "toMs": 44640
+          },
+          {
+            "confidence": null,
+            "endMs": 45488,
+            "startMs": 44698,
+            "text": " megastructure.",
+            "timestampMs": 44698,
+            "fromMs": 44698,
+            "toMs": 45488
+          }
+        ]
+      },
+      {
+        "durationMs": 383,
+        "startMs": 46010,
+        "text": "That is the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46184,
+            "startMs": 46010,
+            "text": " That",
+            "timestampMs": 46010,
+            "fromMs": 46010,
+            "toMs": 46184
+          },
+          {
+            "confidence": null,
+            "endMs": 46289,
+            "startMs": 46219,
+            "text": " is",
+            "timestampMs": 46219,
+            "fromMs": 46219,
+            "toMs": 46289
+          },
+          {
+            "confidence": null,
+            "endMs": 46393,
+            "startMs": 46324,
+            "text": " the",
+            "timestampMs": 46324,
+            "fromMs": 46324,
+            "toMs": 46393
+          }
+        ]
+      },
+      {
+        "durationMs": 1370,
+        "startMs": 46428,
+        "text": "paradox: the numbers",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47136,
+            "startMs": 46428,
+            "text": " paradox:",
+            "timestampMs": 46428,
+            "fromMs": 46428,
+            "toMs": 47136
+          },
+          {
+            "confidence": null,
+            "endMs": 47485,
+            "startMs": 47380,
+            "text": " the",
+            "timestampMs": 47380,
+            "fromMs": 47380,
+            "toMs": 47485
+          },
+          {
+            "confidence": null,
+            "endMs": 47798,
+            "startMs": 47543,
+            "text": " numbers",
+            "timestampMs": 47543,
+            "fromMs": 47543,
+            "toMs": 47798
+          }
+        ]
+      },
+      {
+        "durationMs": 569,
+        "startMs": 47844,
+        "text": "make the galaxy",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47984,
+            "startMs": 47844,
+            "text": " make",
+            "timestampMs": 47844,
+            "fromMs": 47844,
+            "toMs": 47984
+          },
+          {
+            "confidence": null,
+            "endMs": 48077,
+            "startMs": 48007,
+            "text": " the",
+            "timestampMs": 48007,
+            "fromMs": 48007,
+            "toMs": 48077
+          },
+          {
+            "confidence": null,
+            "endMs": 48413,
+            "startMs": 48111,
+            "text": " galaxy",
+            "timestampMs": 48111,
+            "fromMs": 48111,
+            "toMs": 48413
+          }
+        ]
+      },
+      {
+        "durationMs": 906,
+        "startMs": 48448,
+        "text": "look crowded, but",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48588,
+            "startMs": 48448,
+            "text": " look",
+            "timestampMs": 48448,
+            "fromMs": 48448,
+            "toMs": 48588
+          },
+          {
+            "confidence": null,
+            "endMs": 49110,
+            "startMs": 48622,
+            "text": " crowded,",
+            "timestampMs": 48622,
+            "fromMs": 48622,
+            "toMs": 49110
+          },
+          {
+            "confidence": null,
+            "endMs": 49354,
+            "startMs": 49238,
+            "text": " but",
+            "timestampMs": 49238,
+            "fromMs": 49238,
+            "toMs": 49354
+          }
+        ]
+      },
+      {
+        "durationMs": 638,
+        "startMs": 49389,
+        "text": "the evidence says",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 49458,
+            "startMs": 49389,
+            "text": " the",
+            "timestampMs": 49389,
+            "fromMs": 49389,
+            "toMs": 49458
+          },
+          {
+            "confidence": null,
+            "endMs": 49830,
+            "startMs": 49516,
+            "text": " evidence",
+            "timestampMs": 49516,
+            "fromMs": 49516,
+            "toMs": 49830
+          },
+          {
+            "confidence": null,
+            "endMs": 50027,
+            "startMs": 49865,
+            "text": " says",
+            "timestampMs": 49865,
+            "fromMs": 49865,
+            "toMs": 50027
+          }
+        ]
+      },
+      {
+        "durationMs": 581,
+        "startMs": 50085,
+        "text": "silence.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50666,
+            "startMs": 50085,
+            "text": " silence.",
+            "timestampMs": 50085,
+            "fromMs": 50085,
+            "toMs": 50666
+          }
+        ]
+      },
+      {
+        "durationMs": 894,
+        "startMs": 51188,
+        "text": "So one assumption",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51362,
+            "startMs": 51188,
+            "text": " So",
+            "timestampMs": 51188,
+            "fromMs": 51188,
+            "toMs": 51362
+          },
+          {
+            "confidence": null,
+            "endMs": 51641,
+            "startMs": 51444,
+            "text": " one",
+            "timestampMs": 51444,
+            "fromMs": 51444,
+            "toMs": 51641
+          },
+          {
+            "confidence": null,
+            "endMs": 52082,
+            "startMs": 51676,
+            "text": " assumption",
+            "timestampMs": 51676,
+            "fromMs": 51676,
+            "toMs": 52082
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 52129,
+        "text": "is wrong.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52198,
+            "startMs": 52129,
+            "text": " is",
+            "timestampMs": 52129,
+            "fromMs": 52129,
+            "toMs": 52198
+          },
+          {
+            "confidence": null,
+            "endMs": 52709,
+            "startMs": 52233,
+            "text": " wrong.",
+            "timestampMs": 52233,
+            "fromMs": 52233,
+            "toMs": 52709
+          }
+        ]
+      },
+      {
+        "durationMs": 534,
+        "startMs": 53417,
+        "text": "Maybe life is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53615,
+            "startMs": 53417,
+            "text": " Maybe",
+            "timestampMs": 53417,
+            "fromMs": 53417,
+            "toMs": 53615
+          },
+          {
+            "confidence": null,
+            "endMs": 53847,
+            "startMs": 53673,
+            "text": " life",
+            "timestampMs": 53673,
+            "fromMs": 53673,
+            "toMs": 53847
+          },
+          {
+            "confidence": null,
+            "endMs": 53951,
+            "startMs": 53882,
+            "text": " is",
+            "timestampMs": 53882,
+            "fromMs": 53882,
+            "toMs": 53951
+          }
+        ]
+      },
+      {
+        "durationMs": 1056,
+        "startMs": 53998,
+        "text": "extremely rare.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54509,
+            "startMs": 53998,
+            "text": " extremely",
+            "timestampMs": 53998,
+            "fromMs": 53998,
+            "toMs": 54509
+          },
+          {
+            "confidence": null,
+            "endMs": 55054,
+            "startMs": 54578,
+            "text": " rare.",
+            "timestampMs": 54578,
+            "fromMs": 54578,
+            "toMs": 55054
+          }
+        ]
+      },
+      {
+        "durationMs": 673,
+        "startMs": 55391,
+        "text": "Maybe simple life",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55612,
+            "startMs": 55391,
+            "text": " Maybe",
+            "timestampMs": 55391,
+            "fromMs": 55391,
+            "toMs": 55612
+          },
+          {
+            "confidence": null,
+            "endMs": 55890,
+            "startMs": 55658,
+            "text": " simple",
+            "timestampMs": 55658,
+            "fromMs": 55658,
+            "toMs": 55890
+          },
+          {
+            "confidence": null,
+            "endMs": 56064,
+            "startMs": 55925,
+            "text": " life",
+            "timestampMs": 55925,
+            "fromMs": 55925,
+            "toMs": 56064
+          }
+        ]
+      },
+      {
+        "durationMs": 883,
+        "startMs": 56099,
+        "text": "is common, but",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56169,
+            "startMs": 56099,
+            "text": " is",
+            "timestampMs": 56099,
+            "fromMs": 56099,
+            "toMs": 56169
+          },
+          {
+            "confidence": null,
+            "endMs": 56726,
+            "startMs": 56227,
+            "text": " common,",
+            "timestampMs": 56227,
+            "fromMs": 56227,
+            "toMs": 56726
+          },
+          {
+            "confidence": null,
+            "endMs": 56982,
+            "startMs": 56877,
+            "text": " but",
+            "timestampMs": 56877,
+            "fromMs": 56877,
+            "toMs": 56982
+          }
+        ]
+      },
+      {
+        "durationMs": 1301,
+        "startMs": 57016,
+        "text": "intelligence is rare.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57504,
+            "startMs": 57016,
+            "text": " intelligence",
+            "timestampMs": 57016,
+            "fromMs": 57016,
+            "toMs": 57504
+          },
+          {
+            "confidence": null,
+            "endMs": 57678,
+            "startMs": 57539,
+            "text": " is",
+            "timestampMs": 57539,
+            "fromMs": 57539,
+            "toMs": 57678
+          },
+          {
+            "confidence": null,
+            "endMs": 58317,
+            "startMs": 57783,
+            "text": " rare.",
+            "timestampMs": 57783,
+            "fromMs": 57783,
+            "toMs": 58317
+          }
+        ]
+      },
+      {
+        "durationMs": 1289,
+        "startMs": 58653,
+        "text": "Maybe technological civilizations",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 58839,
+            "startMs": 58653,
+            "text": " Maybe",
+            "timestampMs": 58653,
+            "fromMs": 58653,
+            "toMs": 58839
+          },
+          {
+            "confidence": null,
+            "endMs": 59373,
+            "startMs": 58874,
+            "text": " technological",
+            "timestampMs": 58874,
+            "fromMs": 58874,
+            "toMs": 59373
+          },
+          {
+            "confidence": null,
+            "endMs": 59942,
+            "startMs": 59420,
+            "text": " civilizations",
+            "timestampMs": 59420,
+            "fromMs": 59420,
+            "toMs": 59942
+          }
+        ]
+      },
+      {
+        "durationMs": 1068,
+        "startMs": 59989,
+        "text": "destroy themselves, go",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60290,
+            "startMs": 59989,
+            "text": " destroy",
+            "timestampMs": 59989,
+            "fromMs": 59989,
+            "toMs": 60290
+          },
+          {
+            "confidence": null,
+            "endMs": 60894,
+            "startMs": 60325,
+            "text": " themselves,",
+            "timestampMs": 60325,
+            "fromMs": 60325,
+            "toMs": 60894
+          },
+          {
+            "confidence": null,
+            "endMs": 61057,
+            "startMs": 60941,
+            "text": " go",
+            "timestampMs": 60941,
+            "fromMs": 60941,
+            "toMs": 61057
+          }
+        ]
+      },
+      {
+        "durationMs": 732,
+        "startMs": 61126,
+        "text": "quiet, or leave",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 61509,
+            "startMs": 61126,
+            "text": " quiet,",
+            "timestampMs": 61126,
+            "fromMs": 61126,
+            "toMs": 61509
+          },
+          {
+            "confidence": null,
+            "endMs": 61637,
+            "startMs": 61544,
+            "text": " or",
+            "timestampMs": 61544,
+            "fromMs": 61544,
+            "toMs": 61637
+          },
+          {
+            "confidence": null,
+            "endMs": 61858,
+            "startMs": 61684,
+            "text": " leave",
+            "timestampMs": 61684,
+            "fromMs": 61684,
+            "toMs": 61858
+          }
+        ]
+      },
+      {
+        "durationMs": 557,
+        "startMs": 61893,
+        "text": "traces we do",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 62241,
+            "startMs": 61893,
+            "text": " traces",
+            "timestampMs": 61893,
+            "fromMs": 61893,
+            "toMs": 62241
+          },
+          {
+            "confidence": null,
+            "endMs": 62345,
+            "startMs": 62276,
+            "text": " we",
+            "timestampMs": 62276,
+            "fromMs": 62276,
+            "toMs": 62345
+          },
+          {
+            "confidence": null,
+            "endMs": 62450,
+            "startMs": 62380,
+            "text": " do",
+            "timestampMs": 62380,
+            "fromMs": 62380,
+            "toMs": 62450
+          }
+        ]
+      },
+      {
+        "durationMs": 743,
+        "startMs": 62496,
+        "text": "not recognize.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 62589,
+            "startMs": 62496,
+            "text": " not",
+            "timestampMs": 62496,
+            "fromMs": 62496,
+            "toMs": 62589
+          },
+          {
+            "confidence": null,
+            "endMs": 63239,
+            "startMs": 62624,
+            "text": " recognize.",
+            "timestampMs": 62624,
+            "fromMs": 62624,
+            "toMs": 63239
+          }
+        ]
+      },
+      {
+        "durationMs": 418,
+        "startMs": 63680,
+        "text": "Or maybe our",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63785,
+            "startMs": 63680,
+            "text": " Or",
+            "timestampMs": 63680,
+            "fromMs": 63680,
+            "toMs": 63785
+          },
+          {
+            "confidence": null,
+            "endMs": 63971,
+            "startMs": 63820,
+            "text": " maybe",
+            "timestampMs": 63820,
+            "fromMs": 63820,
+            "toMs": 63971
+          },
+          {
+            "confidence": null,
+            "endMs": 64098,
+            "startMs": 64006,
+            "text": " our",
+            "timestampMs": 64006,
+            "fromMs": 64006,
+            "toMs": 64098
+          }
+        ]
+      },
+      {
+        "durationMs": 604,
+        "startMs": 64133,
+        "text": "search is still",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 64342,
+            "startMs": 64133,
+            "text": " search",
+            "timestampMs": 64133,
+            "fromMs": 64133,
+            "toMs": 64342
+          },
+          {
+            "confidence": null,
+            "endMs": 64458,
+            "startMs": 64389,
+            "text": " is",
+            "timestampMs": 64389,
+            "fromMs": 64389,
+            "toMs": 64458
+          },
+          {
+            "confidence": null,
+            "endMs": 64737,
+            "startMs": 64505,
+            "text": " still",
+            "timestampMs": 64505,
+            "fromMs": 64505,
+            "toMs": 64737
+          }
+        ]
+      },
+      {
+        "durationMs": 743,
+        "startMs": 64807,
+        "text": "too small.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 64934,
+            "startMs": 64807,
+            "text": " too",
+            "timestampMs": 64807,
+            "fromMs": 64807,
+            "toMs": 64934
+          },
+          {
+            "confidence": null,
+            "endMs": 65550,
+            "startMs": 64992,
+            "text": " small.",
+            "timestampMs": 64992,
+            "fromMs": 64992,
+            "toMs": 65550
+          }
+        ]
+      },
+      {
+        "durationMs": 836,
+        "startMs": 65933,
+        "text": "The Fermi Paradox",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 66037,
+            "startMs": 65933,
+            "text": " The",
+            "timestampMs": 65933,
+            "fromMs": 65933,
+            "toMs": 66037
+          },
+          {
+            "confidence": null,
+            "endMs": 66304,
+            "startMs": 66095,
+            "text": " Fermi",
+            "timestampMs": 66095,
+            "fromMs": 66095,
+            "toMs": 66304
+          },
+          {
+            "confidence": null,
+            "endMs": 66769,
+            "startMs": 66351,
+            "text": " Paradox",
+            "timestampMs": 66351,
+            "fromMs": 66351,
+            "toMs": 66769
+          }
+        ]
+      },
+      {
+        "durationMs": 558,
+        "startMs": 66838,
+        "text": "is not proof",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 66920,
+            "startMs": 66838,
+            "text": " is",
+            "timestampMs": 66838,
+            "fromMs": 66838,
+            "toMs": 66920
+          },
+          {
+            "confidence": null,
+            "endMs": 67140,
+            "startMs": 66989,
+            "text": " not",
+            "timestampMs": 66989,
+            "fromMs": 66989,
+            "toMs": 67140
+          },
+          {
+            "confidence": null,
+            "endMs": 67396,
+            "startMs": 67187,
+            "text": " proof",
+            "timestampMs": 67187,
+            "fromMs": 67187,
+            "toMs": 67396
+          }
+        ]
+      },
+      {
+        "durationMs": 325,
+        "startMs": 67431,
+        "text": "that we are",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 67535,
+            "startMs": 67431,
+            "text": " that",
+            "timestampMs": 67431,
+            "fromMs": 67431,
+            "toMs": 67535
+          },
+          {
+            "confidence": null,
+            "endMs": 67628,
+            "startMs": 67570,
+            "text": " we",
+            "timestampMs": 67570,
+            "fromMs": 67570,
+            "toMs": 67628
+          },
+          {
+            "confidence": null,
+            "endMs": 67756,
+            "startMs": 67663,
+            "text": " are",
+            "timestampMs": 67663,
+            "fromMs": 67663,
+            "toMs": 67756
+          }
+        ]
+      },
+      {
+        "durationMs": 452,
+        "startMs": 67791,
+        "text": "alone.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 68243,
+            "startMs": 67791,
+            "text": " alone.",
+            "timestampMs": 67791,
+            "fromMs": 67791,
+            "toMs": 68243
+          }
+        ]
+      },
+      {
+        "durationMs": 430,
+        "startMs": 68522,
+        "text": "It is proof",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 68615,
+            "startMs": 68522,
+            "text": " It",
+            "timestampMs": 68522,
+            "fromMs": 68522,
+            "toMs": 68615
+          },
+          {
+            "confidence": null,
+            "endMs": 68719,
+            "startMs": 68650,
+            "text": " is",
+            "timestampMs": 68650,
+            "fromMs": 68650,
+            "toMs": 68719
+          },
+          {
+            "confidence": null,
+            "endMs": 68952,
+            "startMs": 68777,
+            "text": " proof",
+            "timestampMs": 68777,
+            "fromMs": 68777,
+            "toMs": 68952
+          }
+        ]
+      },
+      {
+        "durationMs": 291,
+        "startMs": 68986,
+        "text": "that one of",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69079,
+            "startMs": 68986,
+            "text": " that",
+            "timestampMs": 68986,
+            "fromMs": 68986,
+            "toMs": 69079
+          },
+          {
+            "confidence": null,
+            "endMs": 69207,
+            "startMs": 69114,
+            "text": " one",
+            "timestampMs": 69114,
+            "fromMs": 69114,
+            "toMs": 69207
+          },
+          {
+            "confidence": null,
+            "endMs": 69277,
+            "startMs": 69230,
+            "text": " of",
+            "timestampMs": 69230,
+            "fromMs": 69230,
+            "toMs": 69277
+          }
+        ]
+      },
+      {
+        "durationMs": 616,
+        "startMs": 69311,
+        "text": "our easy guesses",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69393,
+            "startMs": 69311,
+            "text": " our",
+            "timestampMs": 69311,
+            "fromMs": 69311,
+            "toMs": 69393
+          },
+          {
+            "confidence": null,
+            "endMs": 69613,
+            "startMs": 69439,
+            "text": " easy",
+            "timestampMs": 69439,
+            "fromMs": 69439,
+            "toMs": 69613
+          },
+          {
+            "confidence": null,
+            "endMs": 69927,
+            "startMs": 69660,
+            "text": " guesses",
+            "timestampMs": 69660,
+            "fromMs": 69660,
+            "toMs": 69927
+          }
+        ]
+      },
+      {
+        "durationMs": 441,
+        "startMs": 69962,
+        "text": "about life in",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 70136,
+            "startMs": 69962,
+            "text": " about",
+            "timestampMs": 69962,
+            "fromMs": 69962,
+            "toMs": 70136
+          },
+          {
+            "confidence": null,
+            "endMs": 70333,
+            "startMs": 70171,
+            "text": " life",
+            "timestampMs": 70171,
+            "fromMs": 70171,
+            "toMs": 70333
+          },
+          {
+            "confidence": null,
+            "endMs": 70403,
+            "startMs": 70356,
+            "text": " in",
+            "timestampMs": 70356,
+            "fromMs": 70356,
+            "toMs": 70403
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 70438,
+        "text": "the galaxy is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 70507,
+            "startMs": 70438,
+            "text": " the",
+            "timestampMs": 70438,
+            "fromMs": 70438,
+            "toMs": 70507
+          },
+          {
+            "confidence": null,
+            "endMs": 70890,
+            "startMs": 70542,
+            "text": " galaxy",
+            "timestampMs": 70542,
+            "fromMs": 70542,
+            "toMs": 70890
+          },
+          {
+            "confidence": null,
+            "endMs": 71018,
+            "startMs": 70948,
+            "text": " is",
+            "timestampMs": 70948,
+            "fromMs": 70948,
+            "toMs": 71018
+          }
+        ]
+      },
+      {
+        "durationMs": 917,
+        "startMs": 71065,
+        "text": "probably wrong.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 71378,
+            "startMs": 71065,
+            "text": " probably",
+            "timestampMs": 71065,
+            "fromMs": 71065,
+            "toMs": 71378
+          },
+          {
+            "confidence": null,
+            "endMs": 71982,
+            "startMs": 71413,
+            "text": " wrong.",
+            "timestampMs": 71413,
+            "fromMs": 71413,
+            "toMs": 71982
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "The Fermi Paradox describes a simple contradiction."
+      },
+      {
+        "startMs": 3181,
+        "text": "If life is possible on Earth, it should be possible on many other planets."
+      },
+      {
+        "startMs": 7372,
+        "text": "The Milky Way has hundreds of billions of stars."
+      },
+      {
+        "startMs": 10135,
+        "text": "Many have planets."
+      },
+      {
+        "startMs": 11482,
+        "text": "Some are rocky."
+      },
+      {
+        "startMs": 12654,
+        "text": "Some sit in stable orbits."
+      },
+      {
+        "startMs": 14431,
+        "text": "And the galaxy is old, much older than human civilization."
+      },
+      {
+        "startMs": 17774,
+        "text": "If intelligent life happens often, some civilizations should be millions of years ahead of us."
+      },
+      {
+        "startMs": 22140,
+        "text": "A million-year head start is enough to send probes, signals, or machines across huge distances."
+      },
+      {
+        "startMs": 27260,
+        "text": "They do not need faster-than-light travel."
+      },
+      {
+        "startMs": 29361,
+        "text": "Slow expansion is enough over galactic time."
+      },
+      {
+        "startMs": 32415,
+        "text": "So we should expect evidence somewhere: a signal, a probe, a changed star, a megastructure, something."
+      },
+      {
+        "startMs": 38719,
+        "text": "But so far, there is no confirmed signal from another civilization."
+      },
+      {
+        "startMs": 42399,
+        "text": "No confirmed alien probe."
+      },
+      {
+        "startMs": 44002,
+        "text": "No confirmed megastructure."
+      },
+      {
+        "startMs": 46010,
+        "text": "That is the paradox: the numbers make the galaxy look crowded, but the evidence says silence."
+      },
+      {
+        "startMs": 51188,
+        "text": "So one assumption is wrong."
+      },
+      {
+        "startMs": 53417,
+        "text": "Maybe life is extremely rare."
+      },
+      {
+        "startMs": 55391,
+        "text": "Maybe simple life is common, but intelligence is rare."
+      },
+      {
+        "startMs": 58653,
+        "text": "Maybe technological civilizations destroy themselves, go quiet, or leave traces we do not recognize."
+      },
+      {
+        "startMs": 63680,
+        "text": "Or maybe our search is still too small."
+      },
+      {
+        "startMs": 65933,
+        "text": "The Fermi Paradox is not proof that we are alone."
+      },
+      {
+        "startMs": 68522,
+        "text": "It is proof that one of our easy guesses about life in the galaxy is probably wrong."
+      }
+    ]
+  }
+}

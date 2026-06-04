@@ -1,0 +1,1071 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>BrainJuice</title><style>@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/inter-400.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/inter-700.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/inter-900.woff2') format('woff2');}@font-face{font-family:'Oswald';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/oswald-400.woff2') format('woff2');}@font-face{font-family:'Oswald';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/oswald-700.woff2') format('woff2');}
+		html,
+		body {
+			background: #000;
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		[data-composition-id] {
+			background: #000;
+			color: #fff;
+			font-family: Inter, system-ui, sans-serif;
+			height: 768px;
+			overflow: hidden;
+			position: relative;
+			width: 392px;
+		}
+
+		.hf-bg-video,
+		.hf-dynamic-mascot-first-bg,
+		.hf-scene,
+		.hf-scene-media,
+		.hf-overlay,
+		.hf-caption-page,
+		.hf-oneword-caption-page,
+		.hf-kinetic-caption-page,
+		.hf-gradient {
+			inset: 0;
+			position: absolute;
+		}
+
+		.hf-bg-video,
+		.hf-dynamic-mascot-first-bg,
+		.hf-scene-media {
+			height: 100%;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-scene-video {
+			object-fit: contain;
+			z-index: 1;
+		}
+
+		.hf-bg-video-contain-top {
+			background: #000;
+			height: auto;
+			inset: auto 0 auto 0;
+			object-fit: contain;
+			top: 88px;
+			width: 100%;
+		}
+
+		.hf-bg-video-contain-center {
+			background: #000;
+			height: 100%;
+			inset: 0;
+			object-fit: contain;
+			object-position: center center;
+			width: 100%;
+		}
+
+		.hf-scene-bg-image {
+			filter: blur(32px) brightness(0.48);
+			object-fit: cover;
+			transform: scale(1.12);
+			z-index: 0;
+		}
+
+		.hf-scene {
+			background: #050505;
+			clip-path: inset(0);
+			overflow: hidden;
+			z-index: 2;
+		}
+
+		.hf-scene.has-media {
+			background: transparent;
+		}
+
+		.hf-scene-content {
+			align-items: center;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			gap: 18px;
+			height: 100%;
+			justify-content: center;
+			padding: 64px 34px 190px;
+			position: relative;
+			text-align: center;
+			text-shadow: 0 4px 18px rgba(0, 0, 0, 0.78);
+			z-index: 4;
+		}
+
+		.hf-scene-title {
+			font-size: 38px;
+			font-weight: 900;
+			letter-spacing: 0;
+			line-height: 1.03;
+			margin: 0;
+			max-width: 340px;
+		}
+
+		.hf-scene-body {
+			color: rgba(255, 255, 255, 0.84);
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 1.25;
+			margin: 0;
+			max-width: 330px;
+		}
+
+		.hf-gradient {
+			background: linear-gradient(to top, rgba(0,0,0,0.82), rgba(0,0,0,0.2) 48%, rgba(0,0,0,0.15));
+			pointer-events: none;
+			z-index: 2;
+		}
+
+		.hf-overlay {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			pointer-events: none;
+			z-index: 5;
+		}
+
+		.hf-overlay img {
+			filter: drop-shadow(0 18px 32px rgba(0, 0, 0, 0.45));
+			max-height: 76%;
+			max-width: 82%;
+			object-fit: contain;
+		}
+
+		.hf-template-MinecraftStickerTemplate::after {
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.16) 46%, rgba(0, 0, 0, 0.08));
+			content: "";
+			inset: 0;
+			pointer-events: none;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.hf-template-MinecraftStickerTemplate .hf-overlay {
+			bottom: auto;
+			height: 100%;
+			right: auto;
+			transform: translate(-50%, -50%);
+			width: 100%;
+		}
+
+		.hf-template-MinecraftStickerTemplate .hf-overlay img {
+			max-height: 76%;
+			max-width: 110%;
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-scene .hf-scene-media,
+		.hf-template-VideoAvatarTemplate .hf-scene .hf-scene-media,
+		.hf-template-NarratedKenBurnsTemplate .hf-scene .hf-scene-media,
+		.hf-template-NarratedOverviewKenBurnsTemplate .hf-scene .hf-scene-media {
+			object-fit: contain;
+		}
+
+		.hf-template-NarratedKineticKenBurnsTemplate .hf-scene-media-frame {
+			aspect-ratio: 1 / 1;
+			clip-path: inset(0);
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			z-index: 1;
+		}
+
+		.hf-template-NarratedKineticKenBurnsTemplate .hf-scene-media-frame .hf-scene-media {
+			height: 100%;
+			inset: 0;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-scene .hf-gradient {
+			background: radial-gradient(circle at 50% 50%, rgba(0,0,0,0) 28%, rgba(0,0,0,0.24) 100%);
+		}
+
+		.hf-template-AnimatedVideoTemplate .hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 126px;
+		}
+
+		.hf-caption-page,
+		.hf-oneword-caption-page {
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			pointer-events: none;
+			z-index: 8;
+		}
+
+		.hf-caption-page,
+		.hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 126px;
+		}
+
+		.hf-caption-page.is-centered,
+		.hf-oneword-caption-page.is-centered {
+			align-items: center;
+			padding: 0 24px 0;
+		}
+
+		.hf-caption-text,
+		.hf-oneword-caption-text {
+			letter-spacing: 0;
+			paint-order: stroke;
+			text-align: center;
+			white-space: pre-wrap;
+		}
+
+		.hf-code-panel {
+			background: rgba(8, 10, 16, 0.92);
+			border: 1px solid rgba(255,255,255,0.14);
+			border-radius: 8px;
+			box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+			color: #e6edf3;
+			font-family: "Roboto Mono", "JetBrains Mono", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", monospace;
+			font-size: 14px;
+			line-height: 1.45;
+			max-height: 460px;
+			max-width: 350px;
+			overflow: hidden;
+			padding: 18px;
+			text-align: left;
+			white-space: pre-wrap;
+		}
+
+		.hf-template-CodeHikeTemplate {
+			background: #232136;
+			font-family: Inter, system-ui, sans-serif;
+		}
+
+		.hf-template-CodeHikeTemplate .hf-scene {
+			background: transparent;
+		}
+
+		.hf-template-CodeHikeTemplate .hf-gradient,
+		.hf-template-CodeHikeTemplate .hf-scene-content {
+			display: none;
+		}
+
+		.hf-codehike-code-stage {
+			align-items: flex-start;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			justify-content: center;
+			padding: 32px;
+			position: relative;
+			width: 100%;
+			z-index: 3;
+		}
+
+		.hf-codehike-pre {
+			background: transparent;
+			font-family: "Roboto Mono", "JetBrains Mono", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", monospace;
+			margin: 0;
+			overflow: visible;
+			padding: 0;
+			position: relative;
+			tab-size: 3;
+			white-space: pre;
+			width: 100%;
+		}
+
+		.hf-codehike-token {
+			display: inline-block;
+			left: 0;
+			position: absolute;
+			top: 0;
+			white-space: pre;
+		}
+
+		.hf-codehike-token-transition,
+		.hf-codehike-token-exit {
+			will-change: color, opacity, transform;
+		}
+
+		.hf-codehike-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			inset: 0;
+			justify-content: center;
+			padding: 0 24px 92px;
+			pointer-events: none;
+			position: absolute;
+			z-index: 8;
+		}
+
+		.hf-codehike-caption-page.is-emphasis {
+			align-items: center;
+			padding: 0 34px 46px;
+		}
+
+		.hf-codehike-caption-text {
+			align-content: flex-start;
+			align-items: baseline;
+			display: flex;
+			flex-wrap: wrap;
+			font-family: Inter, system-ui, sans-serif;
+			font-size: 22px;
+			font-weight: 650;
+			gap: 4px 7px;
+			justify-content: center;
+			letter-spacing: 0;
+			line-height: 1.14;
+			max-width: 260px;
+			min-height: 52px;
+			text-align: center;
+			text-shadow: 0 3px 16px rgba(0, 0, 0, 0.32);
+		}
+
+		.hf-codehike-caption-page.is-emphasis .hf-codehike-caption-text {
+			font-size: 42px;
+			font-weight: 820;
+			gap: 8px 13px;
+			line-height: 1.04;
+			max-width: 330px;
+			min-height: 92px;
+			transform: scale(1);
+		}
+
+		.hf-codehike-caption-text span {
+			color: #777788;
+			display: inline-block;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-gradient {
+			display: none;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-dynamic-mascot-first-bg {
+			z-index: 0;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-scene {
+			z-index: 2;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-overlay {
+			display: block;
+			inset: 0 !important;
+			transform: none;
+			z-index: 5;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-overlay img {
+			bottom: -5%;
+			filter: contrast(1.2) drop-shadow(0 0 5px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.75)) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
+			height: 450px !important;
+			left: -5%;
+			max-height: none;
+			max-width: none;
+			object-fit: contain;
+			position: absolute;
+			transform: scaleX(-1);
+			transform-origin: bottom center;
+			width: 450px !important;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-caption-page {
+			align-items: center;
+			padding: 0 30px;
+			z-index: 4;
+		}
+
+		.hf-template-DynamicMascotTemplate .hf-caption-text {
+			-webkit-text-stroke: 5px #111;
+			color: #ffef00;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 38px;
+			font-weight: 400;
+			line-height: 0.95;
+			max-width: 80%;
+			paint-order: stroke fill;
+			text-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+			text-transform: uppercase;
+			transform: translateY(-10px);
+		}
+
+		.hf-template-GameplayQATemplate .hf-bg-video {
+			z-index: 0;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-gradient {
+			background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.08) 18%, rgba(0, 0, 0, 0.18) 42%, rgba(0, 0, 0, 0.5) 76%, rgba(0, 0, 0, 0.72) 100%);
+			inset: 0;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.hf-template-GameplayQATemplate .hf-overlay {
+			display: block;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left,
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right {
+			inset: 0 !important;
+			overflow: hidden;
+			z-index: 3;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left img,
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right img {
+			bottom: -4%;
+			filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.4));
+			height: auto !important;
+			max-height: none;
+			max-width: none;
+			position: absolute;
+			width: 46% !important;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-left img {
+			left: 10px;
+			transform-origin: 30% 80%;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-speaker-right img {
+			right: 10px;
+			transform-origin: 70% 80%;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration {
+			z-index: 4;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration img {
+			border-radius: 12px;
+			filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.35));
+			height: 214px !important;
+			object-fit: contain;
+			object-position: center center;
+		}
+
+		.hf-template-GameplayQATemplate .hf-gameplay-illustration-cutout img {
+			border-radius: 0 !important;
+			filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.45));
+			object-fit: contain;
+		}
+
+		.hf-template-GameplayQATemplate .hf-caption-page {
+			align-items: center;
+			padding: 0 30px;
+			z-index: 5;
+		}
+
+		.hf-template-GameplayQATemplate .hf-caption-text {
+			-webkit-text-stroke: 5px #111;
+			color: #ffef00;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 38px;
+			font-weight: 400;
+			line-height: 0.95;
+			max-width: 80%;
+			paint-order: stroke fill;
+			text-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+			text-transform: uppercase;
+			transform: translateY(-10px);
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-bg-video {
+			bottom: auto;
+			height: 402px;
+			inset: auto auto 0 0;
+			object-position: center 70%;
+			top: auto;
+			transform: scale(1.04, 0.86);
+			transform-origin: center bottom;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-scene {
+			bottom: auto;
+			height: 422px;
+			inset: 0 auto auto 0;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-scene-content,
+		.hf-template-SplitBrainrotTemplate .hf-gradient {
+			display: none;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-caption-page {
+			align-items: flex-end;
+			padding: 0 24px 344px;
+		}
+
+		.hf-template-SplitBrainrotTemplate .hf-caption-text {
+			max-width: 346px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-gradient,
+		.hf-template-NarratedSlideshowTemplate .hf-scene-content {
+			display: none;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-scene,
+		.hf-template-NarratedSlideshowTemplate .hf-narrated-slide {
+			background: #111;
+		}
+
+		.hf-narrated-slide {
+			inset: 0;
+			overflow: hidden;
+			position: absolute;
+		}
+
+		.hf-narrated-slide-bg {
+			background-position: center;
+			background-size: cover;
+			filter: blur(24px) brightness(0.75);
+			height: 100%;
+			inset: 0;
+			position: absolute;
+			transform: scale(1.15);
+			width: 100%;
+		}
+
+		.hf-narrated-title {
+			align-items: center;
+			-webkit-text-stroke: 2px #000;
+			box-sizing: border-box;
+			color: #fff;
+			display: flex;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 22px;
+			font-weight: 900;
+			height: auto;
+			justify-content: center;
+			left: 40px;
+			letter-spacing: 0;
+			line-height: 1.15;
+			padding: 16px 0 8px;
+			paint-order: stroke fill;
+			position: absolute;
+			right: 40px;
+			text-align: center;
+			text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+			top: 160px;
+			z-index: 2;
+		}
+
+		.hf-persistent-title-overlay {
+			inset: 0;
+			pointer-events: none;
+			position: absolute;
+			z-index: 6;
+		}
+
+		.hf-narrated-strip {
+			display: flex;
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 274px;
+			z-index: 1;
+		}
+
+		.hf-narrated-strip-image {
+			display: block;
+			height: auto;
+			object-fit: cover;
+			width: 100%;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-caption-page {
+			padding: 0 48px 164px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-oneword-caption-page {
+			align-items: flex-end;
+			padding: 0 48px 164px;
+		}
+
+		.hf-template-NarratedSlideshowTemplate .hf-caption-text {
+			-webkit-text-stroke: 2px #000;
+			font-family: Anton, Impact, "Arial Black", sans-serif;
+			font-size: 24px;
+			line-height: 1.15;
+			max-width: 100%;
+			text-shadow: none;
+		}
+
+		.hf-kinetic-caption-page {
+			align-items: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 115px;
+			pointer-events: none;
+			z-index: 5;
+		}
+
+		.hf-kinetic-caption-page.is-centered {
+			align-items: center;
+			padding-bottom: 0;
+		}
+
+		.hf-kinetic-caption-line {
+			align-items: baseline;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 4px 6px;
+			justify-content: center;
+			max-width: 72%;
+		}
+
+		.hf-kinetic-caption-token {
+			display: inline-block;
+			line-height: 1.15;
+			opacity: 0;
+			paint-order: stroke;
+			text-transform: uppercase;
+		}
+	
+		.hf-caption-text {
+			-webkit-text-stroke: 2px #000;
+			color: #fff;
+			font-family: Oswald, 'Arial Black', sans-serif;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 1.12;
+			max-width: 260px;
+			text-shadow: 0 0 12px rgba(0,229,255,0.5), 0 4px 12px rgba(0,0,0,0.6);
+			text-transform: none;
+		}
+		.hf-narrated-title {
+			font-family: Oswald, 'Arial Black', sans-serif;
+		}
+	
+/* hf-demo-feed-cover-fix */
+video.scene.hf-scene-media,
+img.scene.hf-scene-media,
+.hf-scene > video.hf-scene-media,
+.hf-scene > img.hf-scene-media,
+.hf-template-VideoAvatarTemplate .hf-scene .hf-scene-media {
+	height: 100% !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+	width: 100% !important;
+}
+</style><script data-brainjuice-dev-script="autoplay-debug">
+		(() => {
+			const params = new URLSearchParams(window.location.search);
+			if (!params.has("debugAutoplay")) return;
+			if (window.__brainjuiceHyperFramesAutoplayDebugInstalled) return;
+			if (typeof HTMLMediaElement === "undefined") return;
+
+			window.__brainjuiceHyperFramesAutoplayDebugInstalled = true;
+
+			const originalPlay = HTMLMediaElement.prototype.play;
+			HTMLMediaElement.prototype.play = function playWithAutoplayFailureLogging(...args) {
+				const result = originalPlay.apply(this, args);
+				if (!result || typeof result.catch !== "function") return result;
+
+				return result.catch((error) => {
+					if (error?.name === "NotAllowedError") {
+						console.warn("[Brainjuice HyperFrames iframe] autoplay blocked", {
+							id: this.id || undefined,
+							message: error.message,
+							src: this.currentSrc || this.src || undefined,
+							tag: this.tagName.toLowerCase(),
+						});
+					}
+
+					throw error;
+				});
+			};
+		})();
+	</script>
+<style id="brainjuice-cover-render-override">
+	html,
+	body,
+	[data-composition-id] {
+		background: #000 !important;
+		margin: 0 !important;
+		overflow: hidden !important;
+	}
+
+	.hf-bg-video,
+	.hf-bg-video-contain-top,
+	.hf-bg-video-contain-center,
+	.hf-scene-media,
+	.hf-scene-video,
+	.hf-scene img,
+	.hf-scene video,
+	.hf-template-VideoAvatarTemplate .hf-scene .hf-scene-media {
+		width: 100% !important;
+		height: 100% !important;
+		max-width: none !important;
+		max-height: none !important;
+		object-fit: cover !important;
+		object-position: center center !important;
+	}
+
+	.hf-scene-bg-image {
+		background-position: center center !important;
+		background-size: cover !important;
+	}
+</style>
+</head><body><div data-composition-id="brainjuice-video-avatar-demo-feed-elevated-fermi-register-nb2-merged-scenes" data-duration="71.982" data-height="768" data-start="0" data-width="392" class="hf-template-VideoAvatarTemplate" id="brainjuice-video-avatar-demo-feed-elevated-fermi-register-nb2-merged-scenes"><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.281" data-start="0" data-track-index="300" id="hf-scene-video-0" loop="" muted="" playsinline="" src="assets/avatar-register-0.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.091" data-start="2.281" data-track-index="301" id="hf-scene-video-1" loop="" muted="" playsinline="" src="assets/image-register-motion-merged-earth-many-worlds.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.763" data-start="7.372" data-track-index="302" id="hf-scene-video-2" loop="" muted="" playsinline="" src="assets/image-register-motion-03.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.347" data-start="10.135" data-track-index="303" id="hf-scene-video-3" loop="" muted="" playsinline="" src="assets/image-register-motion-04.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.172" data-start="11.482" data-track-index="304" id="hf-scene-video-4" loop="" muted="" playsinline="" src="assets/image-register-motion-05.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.777" data-start="12.654" data-track-index="305" id="hf-scene-video-5" loop="" muted="" playsinline="" src="assets/image-register-motion-06.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.343" data-start="14.431" data-track-index="306" id="hf-scene-video-6" loop="" muted="" playsinline="" src="assets/image-register-motion-07.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.579" data-start="17.774" data-track-index="307" id="hf-scene-video-7" loop="" muted="" playsinline="" src="assets/image-register-motion-08.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.787" data-start="19.353" data-track-index="308" id="hf-scene-video-8" loop="" muted="" playsinline="" src="assets/image-register-motion-09.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.120" data-start="22.140" data-track-index="309" id="hf-scene-video-9" loop="" muted="" playsinline="" src="assets/image-register-motion-10.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.101" data-start="27.260" data-track-index="310" id="hf-scene-video-10" loop="" muted="" playsinline="" src="assets/image-register-motion-11.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.054" data-start="29.361" data-track-index="311" id="hf-scene-video-11" loop="" muted="" playsinline="" src="assets/image-register-motion-12.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.649" data-start="32.415" data-track-index="312" id="hf-scene-video-12" loop="" muted="" playsinline="" src="assets/image-register-motion-13.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="4.655" data-start="34.064" data-track-index="313" id="hf-scene-video-13" loop="" muted="" playsinline="" src="assets/image-register-motion-14.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.680" data-start="38.719" data-track-index="314" id="hf-scene-video-14" loop="" muted="" playsinline="" src="assets/image-register-motion-15.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.603" data-start="42.399" data-track-index="315" id="hf-scene-video-15" loop="" muted="" playsinline="" src="assets/image-register-motion-16.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.008" data-start="44.002" data-track-index="316" id="hf-scene-video-16" loop="" muted="" playsinline="" src="assets/image-register-motion-17.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.178" data-start="46.010" data-track-index="317" id="hf-scene-video-17" loop="" muted="" playsinline="" src="assets/image-register-motion-merged-crowded-galaxy-silence.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.229" data-start="51.188" data-track-index="318" id="hf-scene-video-18" loop="" muted="" playsinline="" src="assets/image-register-motion-19.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="1.974" data-start="53.417" data-track-index="319" id="hf-scene-video-19" loop="" muted="" playsinline="" src="assets/image-register-motion-20.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.262" data-start="55.391" data-track-index="320" id="hf-scene-video-20" loop="" muted="" playsinline="" src="assets/image-register-motion-21.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="5.027" data-start="58.653" data-track-index="321" id="hf-scene-video-21" loop="" muted="" playsinline="" src="assets/image-register-motion-22.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.253" data-start="63.680" data-track-index="322" id="hf-scene-video-22" loop="" muted="" playsinline="" src="assets/image-register-motion-23.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="2.349" data-start="65.933" data-track-index="323" id="hf-scene-video-23" loop="" muted="" playsinline="" src="assets/avatar-register-2.mp4" webkit-playsinline=""></video><video class="scene clip hf-scene-media hf-scene-video" crossorigin="anonymous" data-duration="3.700" data-start="68.282" data-track-index="324" id="hf-scene-video-24" loop="" muted="" playsinline="" src="assets/image-register-motion-24.mp4" webkit-playsinline=""></video><div class="scene clip hf-scene has-media" data-duration="2.281" data-start="0" data-track-index="10" id="hf-scene-0"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.091" data-start="2.281" data-track-index="11" id="hf-scene-1"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.763" data-start="7.372" data-track-index="12" id="hf-scene-2"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.347" data-start="10.135" data-track-index="13" id="hf-scene-3"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.172" data-start="11.482" data-track-index="14" id="hf-scene-4"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.777" data-start="12.654" data-track-index="15" id="hf-scene-5"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="3.343" data-start="14.431" data-track-index="16" id="hf-scene-6"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.579" data-start="17.774" data-track-index="17" id="hf-scene-7"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.787" data-start="19.353" data-track-index="18" id="hf-scene-8"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.120" data-start="22.140" data-track-index="19" id="hf-scene-9"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.101" data-start="27.260" data-track-index="20" id="hf-scene-10"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="3.054" data-start="29.361" data-track-index="21" id="hf-scene-11"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.649" data-start="32.415" data-track-index="22" id="hf-scene-12"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="4.655" data-start="34.064" data-track-index="23" id="hf-scene-13"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="3.680" data-start="38.719" data-track-index="24" id="hf-scene-14"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.603" data-start="42.399" data-track-index="25" id="hf-scene-15"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.008" data-start="44.002" data-track-index="26" id="hf-scene-16"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.178" data-start="46.010" data-track-index="27" id="hf-scene-17"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.229" data-start="51.188" data-track-index="28" id="hf-scene-18"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="1.974" data-start="53.417" data-track-index="29" id="hf-scene-19"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="3.262" data-start="55.391" data-track-index="30" id="hf-scene-20"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="5.027" data-start="58.653" data-track-index="31" id="hf-scene-21"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.253" data-start="63.680" data-track-index="32" id="hf-scene-22"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="2.349" data-start="65.933" data-track-index="33" id="hf-scene-23"><div class="hf-gradient"></div></div><div class="scene clip hf-scene has-media" data-duration="3.700" data-start="68.282" data-track-index="34" id="hf-scene-24"><div class="hf-gradient"></div></div><audio crossorigin="anonymous" data-duration="71.982" data-end="71.982" data-start="0" data-track-index="600" id="hf-global-audio" src="assets/audio.mp3"></audio><audio crossorigin="anonymous" data-duration="3.181" data-end="3.181" data-start="0" data-track-index="620" id="hf-audio-clip-0" src="assets/avatar-register-0.mp4"></audio><audio crossorigin="anonymous" data-duration="2.589" data-end="68.522" data-start="65.933" data-track-index="621" id="hf-audio-clip-1" src="assets/avatar-register-2.mp4"></audio><div class="clip hf-caption-page" data-duration="0.940" data-layout-allow-overflow="" data-start="0" data-track-index="900" id="hf-caption-page-0"><div class="hf-caption-text"><span id="hf-caption-0-0">The</span> <span id="hf-caption-0-1">Fermi</span> <span id="hf-caption-0-2">Paradox</span></div></div><div class="clip hf-caption-page" data-duration="0.778" data-layout-allow-overflow="" data-start="0.998" data-track-index="901" id="hf-caption-page-1"><div class="hf-caption-text"> <span id="hf-caption-1-0">describes</span> <span id="hf-caption-1-1">a</span> <span id="hf-caption-1-2">simple</span></div></div><div class="clip hf-caption-page" data-duration="0.847" data-layout-allow-overflow="" data-start="1.811" data-track-index="902" id="hf-caption-page-2"><div class="hf-caption-text"> <span id="hf-caption-2-0">contradiction.</span></div></div><div class="clip hf-caption-page" data-duration="0.487" data-layout-allow-overflow="" data-start="3.181" data-track-index="903" id="hf-caption-page-3"><div class="hf-caption-text"> <span id="hf-caption-3-0">If</span> <span id="hf-caption-3-1">life</span> <span id="hf-caption-3-2">is</span></div></div><div class="clip hf-caption-page" data-duration="0.929" data-layout-allow-overflow="" data-start="3.726" data-track-index="904" id="hf-caption-page-4"><div class="hf-caption-text"> <span id="hf-caption-4-0">possible</span> <span id="hf-caption-4-1">on</span> <span id="hf-caption-4-2">Earth,</span></div></div><div class="clip hf-caption-page" data-duration="0.395" data-layout-allow-overflow="" data-start="5.038" data-track-index="905" id="hf-caption-page-5"><div class="hf-caption-text"> <span id="hf-caption-5-0">it</span> <span id="hf-caption-5-1">should</span> <span id="hf-caption-5-2">be</span></div></div><div class="clip hf-caption-page" data-duration="0.661" data-layout-allow-overflow="" data-start="5.468" data-track-index="906" id="hf-caption-page-6"><div class="hf-caption-text"> <span id="hf-caption-6-0">possible</span> <span id="hf-caption-6-1">on</span> <span id="hf-caption-6-2">many</span></div></div><div class="clip hf-caption-page" data-duration="0.755" data-layout-allow-overflow="" data-start="6.176" data-track-index="907" id="hf-caption-page-7"><div class="hf-caption-text"> <span id="hf-caption-7-0">other</span> <span id="hf-caption-7-1">planets.</span></div></div><div class="clip hf-caption-page" data-duration="0.615" data-layout-allow-overflow="" data-start="7.372" data-track-index="908" id="hf-caption-page-8"><div class="hf-caption-text"> <span id="hf-caption-8-0">The</span> <span id="hf-caption-8-1">Milky</span> <span id="hf-caption-8-2">Way</span></div></div><div class="clip hf-caption-page" data-duration="0.581" data-layout-allow-overflow="" data-start="8.045" data-track-index="909" id="hf-caption-page-9"><div class="hf-caption-text"> <span id="hf-caption-9-0">has</span> <span id="hf-caption-9-1">hundreds</span> <span id="hf-caption-9-2">of</span></div></div><div class="clip hf-caption-page" data-duration="1.103" data-layout-allow-overflow="" data-start="8.695" data-track-index="910" id="hf-caption-page-10"><div class="hf-caption-text"> <span id="hf-caption-10-0">billions</span> <span id="hf-caption-10-1">of</span> <span id="hf-caption-10-2">stars.</span></div></div><div class="clip hf-caption-page" data-duration="0.964" data-layout-allow-overflow="" data-start="10.135" data-track-index="911" id="hf-caption-page-11"><div class="hf-caption-text"> <span id="hf-caption-11-0">Many</span> <span id="hf-caption-11-1">have</span> <span id="hf-caption-11-2">planets.</span></div></div><div class="clip hf-caption-page" data-duration="0.928" data-layout-allow-overflow="" data-start="11.482" data-track-index="912" id="hf-caption-page-12"><div class="hf-caption-text"> <span id="hf-caption-12-0">Some</span> <span id="hf-caption-12-1">are</span> <span id="hf-caption-12-2">rocky.</span></div></div><div class="clip hf-caption-page" data-duration="0.488" data-layout-allow-overflow="" data-start="12.654" data-track-index="913" id="hf-caption-page-13"><div class="hf-caption-text"> <span id="hf-caption-13-0">Some</span> <span id="hf-caption-13-1">sit</span> <span id="hf-caption-13-2">in</span></div></div><div class="clip hf-caption-page" data-duration="0.859" data-layout-allow-overflow="" data-start="13.188" data-track-index="914" id="hf-caption-page-14"><div class="hf-caption-text"> <span id="hf-caption-14-0">stable</span> <span id="hf-caption-14-1">orbits.</span></div></div><div class="clip hf-caption-page" data-duration="0.568" data-layout-allow-overflow="" data-start="14.431" data-track-index="915" id="hf-caption-page-15"><div class="hf-caption-text"> <span id="hf-caption-15-0">And</span> <span id="hf-caption-15-1">the</span> <span id="hf-caption-15-2">galaxy</span></div></div><div class="clip hf-caption-page" data-duration="1.034" data-layout-allow-overflow="" data-start="15.034" data-track-index="916" id="hf-caption-page-16"><div class="hf-caption-text"> <span id="hf-caption-16-0">is</span> <span id="hf-caption-16-1">old,</span> <span id="hf-caption-16-2">much</span></div></div><div class="clip hf-caption-page" data-duration="0.546" data-layout-allow-overflow="" data-start="16.102" data-track-index="917" id="hf-caption-page-17"><div class="hf-caption-text"> <span id="hf-caption-17-0">older</span> <span id="hf-caption-17-1">than</span> <span id="hf-caption-17-2">human</span></div></div><div class="clip hf-caption-page" data-duration="0.708" data-layout-allow-overflow="" data-start="16.683" data-track-index="918" id="hf-caption-page-18"><div class="hf-caption-text"> <span id="hf-caption-18-0">civilization.</span></div></div><div class="clip hf-caption-page" data-duration="0.697" data-layout-allow-overflow="" data-start="17.774" data-track-index="919" id="hf-caption-page-19"><div class="hf-caption-text"> <span id="hf-caption-19-0">If</span> <span id="hf-caption-19-1">intelligent</span> <span id="hf-caption-19-2">life</span></div></div><div class="clip hf-caption-page" data-duration="1.034" data-layout-allow-overflow="" data-start="18.494" data-track-index="920" id="hf-caption-page-20"><div class="hf-caption-text"> <span id="hf-caption-20-0">happens</span> <span id="hf-caption-20-1">often,</span> <span id="hf-caption-20-2">some</span></div></div><div class="clip hf-caption-page" data-duration="0.789" data-layout-allow-overflow="" data-start="19.563" data-track-index="921" id="hf-caption-page-21"><div class="hf-caption-text"> <span id="hf-caption-21-0">civilizations</span> <span id="hf-caption-21-1">should</span> <span id="hf-caption-21-2">be</span></div></div><div class="clip hf-caption-page" data-duration="0.616" data-layout-allow-overflow="" data-start="20.410" data-track-index="922" id="hf-caption-page-22"><div class="hf-caption-text"> <span id="hf-caption-22-0">millions</span> <span id="hf-caption-22-1">of</span> <span id="hf-caption-22-2">years</span></div></div><div class="clip hf-caption-page" data-duration="0.639" data-layout-allow-overflow="" data-start="21.060" data-track-index="923" id="hf-caption-page-23"><div class="hf-caption-text"> <span id="hf-caption-23-0">ahead</span> <span id="hf-caption-23-1">of</span> <span id="hf-caption-23-2">us.</span></div></div><div class="clip hf-caption-page" data-duration="0.813" data-layout-allow-overflow="" data-start="22.140" data-track-index="924" id="hf-caption-page-24"><div class="hf-caption-text"> <span id="hf-caption-24-0">A</span> <span id="hf-caption-24-1">million-year</span> <span id="hf-caption-24-2">head</span></div></div><div class="clip hf-caption-page" data-duration="0.592" data-layout-allow-overflow="" data-start="22.988" data-track-index="925" id="hf-caption-page-25"><div class="hf-caption-text"> <span id="hf-caption-25-0">start</span> <span id="hf-caption-25-1">is</span> <span id="hf-caption-25-2">enough</span></div></div><div class="clip hf-caption-page" data-duration="0.708" data-layout-allow-overflow="" data-start="23.615" data-track-index="926" id="hf-caption-page-26"><div class="hf-caption-text"> <span id="hf-caption-26-0">to</span> <span id="hf-caption-26-1">send</span> <span id="hf-caption-26-2">probes,</span></div></div><div class="clip hf-caption-page" data-duration="0.882" data-layout-allow-overflow="" data-start="24.358" data-track-index="927" id="hf-caption-page-27"><div class="hf-caption-text"> <span id="hf-caption-27-0">signals,</span> <span id="hf-caption-27-1">or</span> <span id="hf-caption-27-2">machines</span></div></div><div class="clip hf-caption-page" data-duration="1.381" data-layout-allow-overflow="" data-start="25.275" data-track-index="928" id="hf-caption-page-28"><div class="hf-caption-text"> <span id="hf-caption-28-0">across</span> <span id="hf-caption-28-1">huge</span> <span id="hf-caption-28-2">distances.</span></div></div><div class="clip hf-caption-page" data-duration="0.372" data-layout-allow-overflow="" data-start="27.260" data-track-index="929" id="hf-caption-page-29"><div class="hf-caption-text"> <span id="hf-caption-29-0">They</span> <span id="hf-caption-29-1">do</span> <span id="hf-caption-29-2">not</span></div></div><div class="clip hf-caption-page" data-duration="1.312" data-layout-allow-overflow="" data-start="27.666" data-track-index="930" id="hf-caption-page-30"><div class="hf-caption-text"> <span id="hf-caption-30-0">need</span> <span id="hf-caption-30-1">faster-than-light</span> <span id="hf-caption-30-2">travel.</span></div></div><div class="clip hf-caption-page" data-duration="0.848" data-layout-allow-overflow="" data-start="29.361" data-track-index="931" id="hf-caption-page-31"><div class="hf-caption-text"> <span id="hf-caption-31-0">Slow</span> <span id="hf-caption-31-1">expansion</span> <span id="hf-caption-31-2">is</span></div></div><div class="clip hf-caption-page" data-duration="0.790" data-layout-allow-overflow="" data-start="30.255" data-track-index="932" id="hf-caption-page-32"><div class="hf-caption-text"> <span id="hf-caption-32-0">enough</span> <span id="hf-caption-32-1">over</span> <span id="hf-caption-32-2">galactic</span></div></div><div class="clip hf-caption-page" data-duration="0.500" data-layout-allow-overflow="" data-start="31.091" data-track-index="933" id="hf-caption-page-33"><div class="hf-caption-text"> <span id="hf-caption-33-0">time.</span></div></div><div class="clip hf-caption-page" data-duration="0.418" data-layout-allow-overflow="" data-start="32.415" data-track-index="934" id="hf-caption-page-34"><div class="hf-caption-text"> <span id="hf-caption-34-0">So</span> <span id="hf-caption-34-1">we</span> <span id="hf-caption-34-2">should</span></div></div><div class="clip hf-caption-page" data-duration="1.149" data-layout-allow-overflow="" data-start="32.868" data-track-index="935" id="hf-caption-page-35"><div class="hf-caption-text"> <span id="hf-caption-35-0">expect</span> <span id="hf-caption-35-1">evidence</span> <span id="hf-caption-35-2">somewhere:</span></div></div><div class="clip hf-caption-page" data-duration="0.835" data-layout-allow-overflow="" data-start="34.064" data-track-index="936" id="hf-caption-page-36"><div class="hf-caption-text"> <span id="hf-caption-36-0">a</span> <span id="hf-caption-36-1">signal,</span> <span id="hf-caption-36-2">a</span></div></div><div class="clip hf-caption-page" data-duration="1.022" data-layout-allow-overflow="" data-start="34.946" data-track-index="937" id="hf-caption-page-37"><div class="hf-caption-text"> <span id="hf-caption-37-0">probe,</span> <span id="hf-caption-37-1">a</span> <span id="hf-caption-37-2">changed</span></div></div><div class="clip hf-caption-page" data-duration="1.463" data-layout-allow-overflow="" data-start="36.014" data-track-index="938" id="hf-caption-page-38"><div class="hf-caption-text"> <span id="hf-caption-38-0">star,</span> <span id="hf-caption-38-1">a</span> <span id="hf-caption-38-2">megastructure,</span></div></div><div class="clip hf-caption-page" data-duration="0.534" data-layout-allow-overflow="" data-start="37.663" data-track-index="939" id="hf-caption-page-39"><div class="hf-caption-text"> <span id="hf-caption-39-0">something.</span></div></div><div class="clip hf-caption-page" data-duration="0.743" data-layout-allow-overflow="" data-start="38.719" data-track-index="940" id="hf-caption-page-40"><div class="hf-caption-text"> <span id="hf-caption-40-0">But</span> <span id="hf-caption-40-1">so</span> <span id="hf-caption-40-2">far,</span></div></div><div class="clip hf-caption-page" data-duration="0.407" data-layout-allow-overflow="" data-start="39.508" data-track-index="941" id="hf-caption-page-41"><div class="hf-caption-text"> <span id="hf-caption-41-0">there</span> <span id="hf-caption-41-1">is</span> <span id="hf-caption-41-2">no</span></div></div><div class="clip hf-caption-page" data-duration="0.836" data-layout-allow-overflow="" data-start="39.973" data-track-index="942" id="hf-caption-page-42"><div class="hf-caption-text"> <span id="hf-caption-42-0">confirmed</span> <span id="hf-caption-42-1">signal</span> <span id="hf-caption-42-2">from</span></div></div><div class="clip hf-caption-page" data-duration="1.033" data-layout-allow-overflow="" data-start="40.844" data-track-index="943" id="hf-caption-page-43"><div class="hf-caption-text"> <span id="hf-caption-43-0">another</span> <span id="hf-caption-43-1">civilization.</span></div></div><div class="clip hf-caption-page" data-duration="0.952" data-layout-allow-overflow="" data-start="42.399" data-track-index="944" id="hf-caption-page-44"><div class="hf-caption-text"> <span id="hf-caption-44-0">No</span> <span id="hf-caption-44-1">confirmed</span> <span id="hf-caption-44-2">alien</span></div></div><div class="clip hf-caption-page" data-duration="0.476" data-layout-allow-overflow="" data-start="43.398" data-track-index="945" id="hf-caption-page-45"><div class="hf-caption-text"> <span id="hf-caption-45-0">probe.</span></div></div><div class="clip hf-caption-page" data-duration="1.486" data-layout-allow-overflow="" data-start="44.002" data-track-index="946" id="hf-caption-page-46"><div class="hf-caption-text"> <span id="hf-caption-46-0">No</span> <span id="hf-caption-46-1">confirmed</span> <span id="hf-caption-46-2">megastructure.</span></div></div><div class="clip hf-caption-page" data-duration="0.383" data-layout-allow-overflow="" data-start="46.010" data-track-index="947" id="hf-caption-page-47"><div class="hf-caption-text"> <span id="hf-caption-47-0">That</span> <span id="hf-caption-47-1">is</span> <span id="hf-caption-47-2">the</span></div></div><div class="clip hf-caption-page" data-duration="1.370" data-layout-allow-overflow="" data-start="46.428" data-track-index="948" id="hf-caption-page-48"><div class="hf-caption-text"> <span id="hf-caption-48-0">paradox:</span> <span id="hf-caption-48-1">the</span> <span id="hf-caption-48-2">numbers</span></div></div><div class="clip hf-caption-page" data-duration="0.569" data-layout-allow-overflow="" data-start="47.844" data-track-index="949" id="hf-caption-page-49"><div class="hf-caption-text"> <span id="hf-caption-49-0">make</span> <span id="hf-caption-49-1">the</span> <span id="hf-caption-49-2">galaxy</span></div></div><div class="clip hf-caption-page" data-duration="0.906" data-layout-allow-overflow="" data-start="48.448" data-track-index="950" id="hf-caption-page-50"><div class="hf-caption-text"> <span id="hf-caption-50-0">look</span> <span id="hf-caption-50-1">crowded,</span> <span id="hf-caption-50-2">but</span></div></div><div class="clip hf-caption-page" data-duration="0.638" data-layout-allow-overflow="" data-start="49.389" data-track-index="951" id="hf-caption-page-51"><div class="hf-caption-text"> <span id="hf-caption-51-0">the</span> <span id="hf-caption-51-1">evidence</span> <span id="hf-caption-51-2">says</span></div></div><div class="clip hf-caption-page" data-duration="0.581" data-layout-allow-overflow="" data-start="50.085" data-track-index="952" id="hf-caption-page-52"><div class="hf-caption-text"> <span id="hf-caption-52-0">silence.</span></div></div><div class="clip hf-caption-page" data-duration="0.894" data-layout-allow-overflow="" data-start="51.188" data-track-index="953" id="hf-caption-page-53"><div class="hf-caption-text"> <span id="hf-caption-53-0">So</span> <span id="hf-caption-53-1">one</span> <span id="hf-caption-53-2">assumption</span></div></div><div class="clip hf-caption-page" data-duration="0.580" data-layout-allow-overflow="" data-start="52.129" data-track-index="954" id="hf-caption-page-54"><div class="hf-caption-text"> <span id="hf-caption-54-0">is</span> <span id="hf-caption-54-1">wrong.</span></div></div><div class="clip hf-caption-page" data-duration="0.534" data-layout-allow-overflow="" data-start="53.417" data-track-index="955" id="hf-caption-page-55"><div class="hf-caption-text"> <span id="hf-caption-55-0">Maybe</span> <span id="hf-caption-55-1">life</span> <span id="hf-caption-55-2">is</span></div></div><div class="clip hf-caption-page" data-duration="1.056" data-layout-allow-overflow="" data-start="53.998" data-track-index="956" id="hf-caption-page-56"><div class="hf-caption-text"> <span id="hf-caption-56-0">extremely</span> <span id="hf-caption-56-1">rare.</span></div></div><div class="clip hf-caption-page" data-duration="0.673" data-layout-allow-overflow="" data-start="55.391" data-track-index="957" id="hf-caption-page-57"><div class="hf-caption-text"> <span id="hf-caption-57-0">Maybe</span> <span id="hf-caption-57-1">simple</span> <span id="hf-caption-57-2">life</span></div></div><div class="clip hf-caption-page" data-duration="0.883" data-layout-allow-overflow="" data-start="56.099" data-track-index="958" id="hf-caption-page-58"><div class="hf-caption-text"> <span id="hf-caption-58-0">is</span> <span id="hf-caption-58-1">common,</span> <span id="hf-caption-58-2">but</span></div></div><div class="clip hf-caption-page" data-duration="1.301" data-layout-allow-overflow="" data-start="57.016" data-track-index="959" id="hf-caption-page-59"><div class="hf-caption-text"> <span id="hf-caption-59-0">intelligence</span> <span id="hf-caption-59-1">is</span> <span id="hf-caption-59-2">rare.</span></div></div><div class="clip hf-caption-page" data-duration="1.289" data-layout-allow-overflow="" data-start="58.653" data-track-index="960" id="hf-caption-page-60"><div class="hf-caption-text"> <span id="hf-caption-60-0">Maybe</span> <span id="hf-caption-60-1">technological</span> <span id="hf-caption-60-2">civilizations</span></div></div><div class="clip hf-caption-page" data-duration="1.068" data-layout-allow-overflow="" data-start="59.989" data-track-index="961" id="hf-caption-page-61"><div class="hf-caption-text"> <span id="hf-caption-61-0">destroy</span> <span id="hf-caption-61-1">themselves,</span> <span id="hf-caption-61-2">go</span></div></div><div class="clip hf-caption-page" data-duration="0.732" data-layout-allow-overflow="" data-start="61.126" data-track-index="962" id="hf-caption-page-62"><div class="hf-caption-text"> <span id="hf-caption-62-0">quiet,</span> <span id="hf-caption-62-1">or</span> <span id="hf-caption-62-2">leave</span></div></div><div class="clip hf-caption-page" data-duration="0.557" data-layout-allow-overflow="" data-start="61.893" data-track-index="963" id="hf-caption-page-63"><div class="hf-caption-text"> <span id="hf-caption-63-0">traces</span> <span id="hf-caption-63-1">we</span> <span id="hf-caption-63-2">do</span></div></div><div class="clip hf-caption-page" data-duration="0.743" data-layout-allow-overflow="" data-start="62.496" data-track-index="964" id="hf-caption-page-64"><div class="hf-caption-text"> <span id="hf-caption-64-0">not</span> <span id="hf-caption-64-1">recognize.</span></div></div><div class="clip hf-caption-page" data-duration="0.418" data-layout-allow-overflow="" data-start="63.680" data-track-index="965" id="hf-caption-page-65"><div class="hf-caption-text"> <span id="hf-caption-65-0">Or</span> <span id="hf-caption-65-1">maybe</span> <span id="hf-caption-65-2">our</span></div></div><div class="clip hf-caption-page" data-duration="0.604" data-layout-allow-overflow="" data-start="64.133" data-track-index="966" id="hf-caption-page-66"><div class="hf-caption-text"> <span id="hf-caption-66-0">search</span> <span id="hf-caption-66-1">is</span> <span id="hf-caption-66-2">still</span></div></div><div class="clip hf-caption-page" data-duration="0.743" data-layout-allow-overflow="" data-start="64.807" data-track-index="967" id="hf-caption-page-67"><div class="hf-caption-text"> <span id="hf-caption-67-0">too</span> <span id="hf-caption-67-1">small.</span></div></div><div class="clip hf-caption-page" data-duration="0.836" data-layout-allow-overflow="" data-start="65.933" data-track-index="968" id="hf-caption-page-68"><div class="hf-caption-text"> <span id="hf-caption-68-0">The</span> <span id="hf-caption-68-1">Fermi</span> <span id="hf-caption-68-2">Paradox</span></div></div><div class="clip hf-caption-page" data-duration="0.558" data-layout-allow-overflow="" data-start="66.838" data-track-index="969" id="hf-caption-page-69"><div class="hf-caption-text"> <span id="hf-caption-69-0">is</span> <span id="hf-caption-69-1">not</span> <span id="hf-caption-69-2">proof</span></div></div><div class="clip hf-caption-page" data-duration="0.325" data-layout-allow-overflow="" data-start="67.431" data-track-index="970" id="hf-caption-page-70"><div class="hf-caption-text"> <span id="hf-caption-70-0">that</span> <span id="hf-caption-70-1">we</span> <span id="hf-caption-70-2">are</span></div></div><div class="clip hf-caption-page" data-duration="0.452" data-layout-allow-overflow="" data-start="67.791" data-track-index="971" id="hf-caption-page-71"><div class="hf-caption-text"> <span id="hf-caption-71-0">alone.</span></div></div><div class="clip hf-caption-page" data-duration="0.430" data-layout-allow-overflow="" data-start="68.522" data-track-index="972" id="hf-caption-page-72"><div class="hf-caption-text"> <span id="hf-caption-72-0">It</span> <span id="hf-caption-72-1">is</span> <span id="hf-caption-72-2">proof</span></div></div><div class="clip hf-caption-page" data-duration="0.291" data-layout-allow-overflow="" data-start="68.986" data-track-index="973" id="hf-caption-page-73"><div class="hf-caption-text"> <span id="hf-caption-73-0">that</span> <span id="hf-caption-73-1">one</span> <span id="hf-caption-73-2">of</span></div></div><div class="clip hf-caption-page" data-duration="0.616" data-layout-allow-overflow="" data-start="69.311" data-track-index="974" id="hf-caption-page-74"><div class="hf-caption-text"> <span id="hf-caption-74-0">our</span> <span id="hf-caption-74-1">easy</span> <span id="hf-caption-74-2">guesses</span></div></div><div class="clip hf-caption-page" data-duration="0.441" data-layout-allow-overflow="" data-start="69.962" data-track-index="975" id="hf-caption-page-75"><div class="hf-caption-text"> <span id="hf-caption-75-0">about</span> <span id="hf-caption-75-1">life</span> <span id="hf-caption-75-2">in</span></div></div><div class="clip hf-caption-page" data-duration="0.580" data-layout-allow-overflow="" data-start="70.438" data-track-index="976" id="hf-caption-page-76"><div class="hf-caption-text"> <span id="hf-caption-76-0">the</span> <span id="hf-caption-76-1">galaxy</span> <span id="hf-caption-76-2">is</span></div></div><div class="clip hf-caption-page" data-duration="0.917" data-layout-allow-overflow="" data-start="71.065" data-track-index="977" id="hf-caption-page-77"><div class="hf-caption-text"> <span id="hf-caption-77-0">probably</span> <span id="hf-caption-77-1">wrong.</span></div></div></div><script src="brainjuice/runtime/gsap/3.14.2/gsap-3.14.2.min.js"></script><script src="brainjuice/runtime/hyperframes/brainjuice-hf-0.6.29-8/runtime/hyperframe.runtime.brainjuice-hf-0.6.29-8.iife.js"></script><script data-brainjuice-obfuscate="timeline" data-javascript-obfuscator="">
+		window.__timelines = window.__timelines || {};
+		const tl = gsap.timeline({ paused: true });
+		const scenes = [{"camera":"zoom_in","duration":2.281,"id":"hf-scene-0","mediaId":"hf-scene-video-0","mediaType":"video","start":0,"transition":"cut"},{"camera":"static","duration":5.090999999999999,"id":"hf-scene-1","mediaId":"hf-scene-video-1","mediaType":"video","start":2.281,"transition":"cut"},{"camera":"static","duration":2.763,"id":"hf-scene-2","mediaId":"hf-scene-video-2","mediaType":"video","start":7.372,"transition":"crossfade"},{"camera":"static","duration":1.3469999999999995,"id":"hf-scene-3","mediaId":"hf-scene-video-3","mediaType":"video","start":10.135,"transition":"crossfade"},{"camera":"static","duration":1.1720000000000006,"id":"hf-scene-4","mediaId":"hf-scene-video-4","mediaType":"video","start":11.482,"transition":"crossfade"},{"camera":"static","duration":1.7769999999999992,"id":"hf-scene-5","mediaId":"hf-scene-video-5","mediaType":"video","start":12.654,"transition":"crossfade"},{"camera":"static","duration":3.3430000000000017,"id":"hf-scene-6","mediaId":"hf-scene-video-6","mediaType":"video","start":14.431,"transition":"crossfade"},{"camera":"static","duration":1.5790000000000006,"id":"hf-scene-7","mediaId":"hf-scene-video-7","mediaType":"video","start":17.774,"transition":"crossfade"},{"camera":"static","duration":2.786999999999999,"id":"hf-scene-8","mediaId":"hf-scene-video-8","mediaType":"video","start":19.353,"transition":"crossfade"},{"camera":"static","duration":5.120000000000001,"id":"hf-scene-9","mediaId":"hf-scene-video-9","mediaType":"video","start":22.14,"transition":"crossfade"},{"camera":"static","duration":2.100999999999999,"id":"hf-scene-10","mediaId":"hf-scene-video-10","mediaType":"video","start":27.26,"transition":"crossfade"},{"camera":"static","duration":3.0539999999999985,"id":"hf-scene-11","mediaId":"hf-scene-video-11","mediaType":"video","start":29.361,"transition":"crossfade"},{"camera":"static","duration":1.649000000000001,"id":"hf-scene-12","mediaId":"hf-scene-video-12","mediaType":"video","start":32.415,"transition":"crossfade"},{"camera":"static","duration":4.655000000000001,"id":"hf-scene-13","mediaId":"hf-scene-video-13","mediaType":"video","start":34.064,"transition":"crossfade"},{"camera":"static","duration":3.6799999999999997,"id":"hf-scene-14","mediaId":"hf-scene-video-14","mediaType":"video","start":38.719,"transition":"crossfade"},{"camera":"static","duration":1.6030000000000015,"id":"hf-scene-15","mediaId":"hf-scene-video-15","mediaType":"video","start":42.399,"transition":"crossfade"},{"camera":"static","duration":2.0079999999999956,"id":"hf-scene-16","mediaId":"hf-scene-video-16","mediaType":"video","start":44.002,"transition":"crossfade"},{"camera":"static","duration":5.178000000000004,"id":"hf-scene-17","mediaId":"hf-scene-video-17","mediaType":"video","start":46.01,"transition":"cut"},{"camera":"static","duration":2.228999999999999,"id":"hf-scene-18","mediaId":"hf-scene-video-18","mediaType":"video","start":51.188,"transition":"crossfade"},{"camera":"static","duration":1.9739999999999966,"id":"hf-scene-19","mediaId":"hf-scene-video-19","mediaType":"video","start":53.417,"transition":"crossfade"},{"camera":"static","duration":3.2620000000000005,"id":"hf-scene-20","mediaId":"hf-scene-video-20","mediaType":"video","start":55.391,"transition":"crossfade"},{"camera":"static","duration":5.027000000000001,"id":"hf-scene-21","mediaId":"hf-scene-video-21","mediaType":"video","start":58.653,"transition":"crossfade"},{"camera":"static","duration":2.253000000000007,"id":"hf-scene-22","mediaId":"hf-scene-video-22","mediaType":"video","start":63.68,"transition":"crossfade"},{"camera":"zoom_in","duration":2.3490000000000038,"id":"hf-scene-23","mediaId":"hf-scene-video-23","mediaType":"video","start":65.933,"transition":"cut"},{"camera":"static","duration":3.6999999999999886,"id":"hf-scene-24","mediaId":"hf-scene-video-24","mediaType":"video","start":68.28200000000001,"transition":"cut"}];
+		function cssTransitionDuration(scene) {
+			return Math.min(0.72, Math.max(0.22, scene.duration * 0.28));
+		}
+		function revealScene(scene) {
+			const selector = "#" + scene.id;
+			const start = scene.start;
+			const duration = cssTransitionDuration(scene);
+			const transition = scene.transition || "cut";
+			tl.set(selector, {
+				transformPerspective: 1200,
+				transformOrigin: "50% 50%",
+				clipPath: "none",
+				filter: "none",
+				x: 0,
+				y: 0,
+				xPercent: 0,
+				yPercent: 0,
+				scale: 1,
+				scaleX: 1,
+				scaleY: 1,
+				rotation: 0,
+				rotationX: 0,
+				rotationY: 0,
+				skewX: 0,
+			}, start);
+			switch (transition) {
+				case "cut":
+					tl.set(selector, { opacity: 1 }, start);
+					break;
+				case "cardFlip3d":
+					tl.fromTo(selector, { opacity: 1, rotationY: -180 }, { rotationY: 0, duration: 0.6, ease: "power2.inOut" }, start);
+					break;
+				case "blurThrough":
+					tl.fromTo(selector, { opacity: 0, scale: 1.06, filter: "blur(18px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration, ease: "power2.out" }, start);
+					break;
+				case "directionalBlur":
+					tl.fromTo(selector, { opacity: 0, xPercent: 12, filter: "blur(18px)" }, { opacity: 1, xPercent: 0, filter: "blur(0px)", duration, ease: "power3.out" }, start);
+					break;
+				case "staggeredColorBlocks":
+				case "horizontalBlinds":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.5, ease: "power2.inOut" }, start);
+					break;
+				case "verticalBlinds":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(100% 0 0 0)" }, { clipPath: "inset(0% 0 0 0)", duration: 0.5, ease: "power2.inOut" }, start);
+					break;
+				case "pageBurn":
+				case "filmBurn":
+					tl.fromTo(selector, { opacity: 0, scale: 1.025, filter: "brightness(1.9) saturate(1.5)" }, { opacity: 1, scale: 1, filter: "brightness(1) saturate(1)", duration: 0.5, ease: "power2.out" }, start);
+					break;
+				case "crossfade":
+					tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "none" }, start);
+					break;
+				case "blurCrossfade":
+					tl.fromTo(selector, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.45, ease: "power1.out" }, start);
+					break;
+				case "focusPull":
+					tl.fromTo(selector, { opacity: 0.2, scale: 1.04, filter: "blur(16px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.55, ease: "power2.out" }, start);
+					break;
+				case "colorDip":
+					tl.fromTo(selector, { opacity: 0, filter: "saturate(0) brightness(0.4)" }, { opacity: 1, filter: "saturate(1) brightness(1)", duration: 0.44, ease: "power2.out" }, start);
+					break;
+				case "glitch":
+					tl.fromTo(selector, { opacity: 0, x: -16, skewX: -8, filter: "contrast(1.7) saturate(1.6)" }, { opacity: 1, x: 0, skewX: 0, filter: "contrast(1) saturate(1)", duration: 0.24, ease: "power1.inOut" }, start);
+					break;
+				case "chromaticAberration":
+					tl.fromTo(selector, { opacity: 0, x: 8, filter: "contrast(1.4) saturate(2)" }, { opacity: 1, x: 0, filter: "contrast(1) saturate(1)", duration: 0.34, ease: "power2.out" }, start);
+					break;
+				case "ripple":
+					tl.fromTo(selector, { opacity: 0, scale: 1.12, filter: "blur(6px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.5, ease: "elastic.out(1, 0.65)" }, start);
+					break;
+				case "vhsTape":
+					tl.fromTo(selector, { opacity: 0, y: 18, filter: "contrast(1.6) saturate(0.7)" }, { opacity: 1, y: 0, filter: "contrast(1) saturate(1)", duration: 0.36, ease: "power1.out" }, start);
+					break;
+				case "gridDissolve":
+					tl.fromTo(selector, { opacity: 0, scale: 0.985, filter: "contrast(1.35)" }, { opacity: 1, scale: 1, filter: "contrast(1)", duration: 0.4, ease: "power1.out" }, start);
+					break;
+				case "lightLeak":
+				case "overexposureBurn":
+					tl.fromTo(selector, { opacity: 0, filter: "brightness(2.4) saturate(1.35)" }, { opacity: 1, filter: "brightness(1) saturate(1)", duration: 0.46, ease: "power2.out" }, start);
+					break;
+				case "shutter":
+					tl.fromTo(selector, { opacity: 1, clipPath: "inset(50% 0 50% 0)" }, { clipPath: "inset(0% 0 0% 0)", duration: 0.38, ease: "power2.inOut" }, start);
+					break;
+				case "clockWipe":
+				case "morphCircle":
+				case "circleIris":
+					tl.fromTo(selector, { opacity: 1, clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(75% at 50% 50%)", duration: 0.52, ease: "power2.inOut" }, start);
+					break;
+				case "gravityDrop":
+					tl.fromTo(selector, { opacity: 0, yPercent: -18, scale: 1.04 }, { opacity: 1, yPercent: 0, scale: 1, duration: 0.48, ease: "bounce.out" }, start);
+					break;
+				case "pushSlide":
+					tl.fromTo(selector, { opacity: 1, xPercent: 100 }, { xPercent: 0, duration: 0.45, ease: "power2.inOut" }, start);
+					break;
+				case "verticalPush":
+					tl.fromTo(selector, { opacity: 1, yPercent: 100 }, { yPercent: 0, duration: 0.45, ease: "power2.inOut" }, start);
+					break;
+				case "elasticPush":
+					tl.fromTo(selector, { opacity: 1, xPercent: 100, scale: 0.96 }, { xPercent: 0, scale: 1, duration: 0.62, ease: "elastic.out(1, 0.75)" }, start);
+					break;
+				case "squeeze":
+					tl.fromTo(selector, { opacity: 0, scaleX: 0.65, scaleY: 1.08 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: 0.42, ease: "back.out(1.4)" }, start);
+					break;
+				case "diamondIris":
+					tl.fromTo(selector, { opacity: 1, clipPath: "polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%)" }, { clipPath: "polygon(50% -25%, 125% 50%, 50% 125%, -25% 50%)", duration: 0.52, ease: "power2.inOut" }, start);
+					break;
+				case "diagonalSplit":
+					tl.fromTo(selector, { opacity: 1, clipPath: "polygon(0 0, 0 0, 0 100%, 0 100%)" }, { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)", duration: 0.44, ease: "power2.inOut" }, start);
+					break;
+				case "zoomThrough":
+					tl.fromTo(selector, { opacity: 0, scale: 1.28, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.46, ease: "power3.out" }, start);
+					break;
+				case "zoomOut":
+					tl.fromTo(selector, { opacity: 0, scale: 0.74, filter: "blur(6px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.46, ease: "power3.out" }, start);
+					break;
+				default:
+					tl.fromTo(selector, { opacity: 0, scale: 1.035 }, { opacity: 1, scale: 1, duration: 0.28, ease: "power2.out" }, start);
+					break;
+			}
+		}
+		for (const scene of scenes) {
+			revealScene(scene);
+			const media = scene.mediaId
+				? document.getElementById(scene.mediaId)
+				: document.querySelector("#" + scene.id + " .hf-scene-media");
+			if (media) {
+				if (false) {
+					tl.fromTo(media, { scale: 1.3 }, { scale: 1, duration: scene.duration, ease: "none" }, scene.start);
+				} else if (false && scene.mediaType !== "video") {
+						tl.set(media, { opacity: 1 }, scene.start);
+					} else if (false || (true && scene.mediaType !== "video")) {
+						
+						const kenBurns = getKenBurnsTransform(scene.camera, 1.2, 1.15);
+						tl.set(media, { transformOrigin: "50% 50%" }, scene.start);
+						tl.fromTo(media, kenBurns.from, { ...kenBurns.to, duration: scene.duration, ease: "none" }, scene.start);
+					} else {
+						tl.set(media, { opacity: 1 }, scene.start);
+						tl.to(media, { scale: scene.transition === "zoom_out" || scene.transition === "zoomOut" ? 1 : 1.075, duration: scene.duration, ease: "none" }, scene.start);
+					}
+				}
+			const content = document.querySelector("#" + scene.id + " .hf-scene-content");
+			if (content) {
+				tl.fromTo(content, { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, scene.start + 0.12);
+			}
+			if (false) {
+				setupCodeHikeTokenTransitions(scene);
+			}
+					const sceneEnd = scene.start + scene.duration;
+					const isFinalScene = scene === scenes[scenes.length - 1];
+					const sceneExitTime =
+						false && !isFinalScene
+							? sceneEnd + 1 / 30
+							: sceneEnd;
+					tl.set("#" + scene.id, { opacity: 0 }, sceneExitTime);
+					if (media) {
+						tl.set(media, { opacity: 0 }, sceneExitTime);
+					}
+				}
+		const overlays = [];
+		for (const overlay of overlays) {
+			const id = overlay.id;
+			const overlayImage = document.querySelector("#" + id + " img");
+			if (overlayImage) {
+				if (false) {
+					tl.set("#" + id, { opacity: 1 }, overlay.start);
+					tl.to("#" + id, { y: -5, duration: 0.16, repeat: Math.ceil(overlay.duration / 0.32) * 2, yoyo: true, ease: "sine.inOut" }, overlay.start);
+				} else if (false) {
+					const sideDirection = overlay.className.includes("speaker-left") ? -1 : 1;
+					if (overlay.className.includes("hf-gameplay-speaker")) {
+						tl.fromTo(overlayImage, { opacity: 0, x: sideDirection * 45, y: 14, scale: 0.94 }, { opacity: 1, x: 0, y: 0, scale: 1, duration: 0.27, ease: "back.out(1.4)" }, overlay.start);
+						tl.to(overlayImage, { y: -2.5, duration: 0.4, repeat: Math.ceil(overlay.duration / 0.8) * 2, yoyo: true, ease: "sine.inOut" }, overlay.start + 0.27);
+					} else {
+						tl.fromTo(overlayImage, { opacity: 0, scale: 0.94, y: 12 }, { opacity: 1, scale: 1, y: 0, duration: 0.24, ease: "power2.out" }, overlay.start);
+					}
+				} else if (false) {
+					tl.fromTo(overlayImage, { opacity: 0, scale: 0.42, y: 28 }, { opacity: 1, scale: 1, y: 0, duration: 1.1, ease: "power2.out" }, overlay.start);
+				} else {
+					tl.fromTo(overlayImage, { opacity: 0, scale: 0.72, y: 30 }, { opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(1.7)" }, overlay.start);
+				}
+			}
+		}
+		const phraseCaptionPages = [{"id":"hf-caption-page-0","start":0},{"id":"hf-caption-page-1","start":0.998},{"id":"hf-caption-page-2","start":1.811},{"id":"hf-caption-page-3","start":3.181},{"id":"hf-caption-page-4","start":3.726},{"id":"hf-caption-page-5","start":5.038},{"id":"hf-caption-page-6","start":5.468},{"id":"hf-caption-page-7","start":6.176},{"id":"hf-caption-page-8","start":7.372},{"id":"hf-caption-page-9","start":8.045},{"id":"hf-caption-page-10","start":8.695},{"id":"hf-caption-page-11","start":10.135},{"id":"hf-caption-page-12","start":11.482},{"id":"hf-caption-page-13","start":12.654},{"id":"hf-caption-page-14","start":13.188},{"id":"hf-caption-page-15","start":14.431},{"id":"hf-caption-page-16","start":15.034},{"id":"hf-caption-page-17","start":16.102},{"id":"hf-caption-page-18","start":16.683},{"id":"hf-caption-page-19","start":17.774},{"id":"hf-caption-page-20","start":18.494},{"id":"hf-caption-page-21","start":19.563},{"id":"hf-caption-page-22","start":20.41},{"id":"hf-caption-page-23","start":21.06},{"id":"hf-caption-page-24","start":22.14},{"id":"hf-caption-page-25","start":22.988},{"id":"hf-caption-page-26","start":23.615},{"id":"hf-caption-page-27","start":24.358},{"id":"hf-caption-page-28","start":25.275},{"id":"hf-caption-page-29","start":27.26},{"id":"hf-caption-page-30","start":27.666},{"id":"hf-caption-page-31","start":29.361},{"id":"hf-caption-page-32","start":30.255},{"id":"hf-caption-page-33","start":31.091},{"id":"hf-caption-page-34","start":32.415},{"id":"hf-caption-page-35","start":32.868},{"id":"hf-caption-page-36","start":34.064},{"id":"hf-caption-page-37","start":34.946},{"id":"hf-caption-page-38","start":36.014},{"id":"hf-caption-page-39","start":37.663},{"id":"hf-caption-page-40","start":38.719},{"id":"hf-caption-page-41","start":39.508},{"id":"hf-caption-page-42","start":39.973},{"id":"hf-caption-page-43","start":40.844},{"id":"hf-caption-page-44","start":42.399},{"id":"hf-caption-page-45","start":43.398},{"id":"hf-caption-page-46","start":44.002},{"id":"hf-caption-page-47","start":46.01},{"id":"hf-caption-page-48","start":46.428},{"id":"hf-caption-page-49","start":47.844},{"id":"hf-caption-page-50","start":48.448},{"id":"hf-caption-page-51","start":49.389},{"id":"hf-caption-page-52","start":50.085},{"id":"hf-caption-page-53","start":51.188},{"id":"hf-caption-page-54","start":52.129},{"id":"hf-caption-page-55","start":53.417},{"id":"hf-caption-page-56","start":53.998},{"id":"hf-caption-page-57","start":55.391},{"id":"hf-caption-page-58","start":56.099},{"id":"hf-caption-page-59","start":57.016},{"id":"hf-caption-page-60","start":58.653},{"id":"hf-caption-page-61","start":59.989},{"id":"hf-caption-page-62","start":61.126},{"id":"hf-caption-page-63","start":61.893},{"id":"hf-caption-page-64","start":62.496},{"id":"hf-caption-page-65","start":63.68},{"id":"hf-caption-page-66","start":64.133},{"id":"hf-caption-page-67","start":64.807},{"id":"hf-caption-page-68","start":65.933},{"id":"hf-caption-page-69","start":66.838},{"id":"hf-caption-page-70","start":67.431},{"id":"hf-caption-page-71","start":67.791},{"id":"hf-caption-page-72","start":68.522},{"id":"hf-caption-page-73","start":68.986},{"id":"hf-caption-page-74","start":69.311},{"id":"hf-caption-page-75","start":69.962},{"id":"hf-caption-page-76","start":70.438},{"id":"hf-caption-page-77","start":71.065}];
+		for (const page of phraseCaptionPages) {
+			tl.fromTo("#" + page.id + " .hf-caption-text", { opacity: 0, scale: 0.92, y: 6 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.4)" }, page.start);
+		}
+		const dynamicMascotCaptionPages = [];
+		for (const page of dynamicMascotCaptionPages) {
+			tl.fromTo("#" + page.id + " .hf-caption-text", { scale: 0.85, y: -10 }, { scale: 1, y: -10, duration: 0.18, ease: "back.out(2.2)" }, page.start);
+		}
+		const captionTokens = [{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":0,"id":"hf-caption-0-0","spokenColor":"#fff","to":0.104},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":0.163,"id":"hf-caption-0-1","spokenColor":"#fff","to":0.418},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":0.476,"id":"hf-caption-0-2","spokenColor":"#fff","to":0.94},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":0.998,"id":"hf-caption-1-0","spokenColor":"#fff","to":1.37},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":1.404,"id":"hf-caption-1-1","spokenColor":"#fff","to":1.428},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":1.509,"id":"hf-caption-1-2","spokenColor":"#fff","to":1.776},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":1.811,"id":"hf-caption-2-0","spokenColor":"#fff","to":2.658},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":3.181,"id":"hf-caption-3-0","spokenColor":"#fff","to":3.308},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":3.378,"id":"hf-caption-3-1","spokenColor":"#fff","to":3.564},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":3.599,"id":"hf-caption-3-2","spokenColor":"#fff","to":3.668},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":3.726,"id":"hf-caption-4-0","spokenColor":"#fff","to":4.098},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":4.133,"id":"hf-caption-4-1","spokenColor":"#fff","to":4.202},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":4.249,"id":"hf-caption-4-2","spokenColor":"#fff","to":4.655},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":5.038,"id":"hf-caption-5-0","spokenColor":"#fff","to":5.12},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":5.154,"id":"hf-caption-5-1","spokenColor":"#fff","to":5.34},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":5.375,"id":"hf-caption-5-2","spokenColor":"#fff","to":5.433},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":5.468,"id":"hf-caption-6-0","spokenColor":"#fff","to":5.804},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":5.839,"id":"hf-caption-6-1","spokenColor":"#fff","to":5.909},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":5.967,"id":"hf-caption-6-2","spokenColor":"#fff","to":6.129},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":6.176,"id":"hf-caption-7-0","spokenColor":"#fff","to":6.338},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":6.385,"id":"hf-caption-7-1","spokenColor":"#fff","to":6.931},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":7.372,"id":"hf-caption-8-0","spokenColor":"#fff","to":7.476},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":7.523,"id":"hf-caption-8-1","spokenColor":"#fff","to":7.743},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":7.79,"id":"hf-caption-8-2","spokenColor":"#fff","to":7.987},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":8.045,"id":"hf-caption-9-0","spokenColor":"#fff","to":8.15},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":8.231,"id":"hf-caption-9-1","spokenColor":"#fff","to":8.533},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":8.568,"id":"hf-caption-9-2","spokenColor":"#fff","to":8.626},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":8.695,"id":"hf-caption-10-0","spokenColor":"#fff","to":9.009},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":9.044,"id":"hf-caption-10-1","spokenColor":"#fff","to":9.113},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":9.148,"id":"hf-caption-10-2","spokenColor":"#fff","to":9.798},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":10.135,"id":"hf-caption-11-0","spokenColor":"#fff","to":10.321},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":10.367,"id":"hf-caption-11-1","spokenColor":"#fff","to":10.495},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":10.53,"id":"hf-caption-11-2","spokenColor":"#fff","to":11.099},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":11.482,"id":"hf-caption-12-0","spokenColor":"#fff","to":11.691},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":11.737,"id":"hf-caption-12-1","spokenColor":"#fff","to":11.865},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":11.9,"id":"hf-caption-12-2","spokenColor":"#fff","to":12.41},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":12.654,"id":"hf-caption-13-0","spokenColor":"#fff","to":12.875},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":12.921,"id":"hf-caption-13-1","spokenColor":"#fff","to":13.049},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":13.084,"id":"hf-caption-13-2","spokenColor":"#fff","to":13.142},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":13.188,"id":"hf-caption-14-0","spokenColor":"#fff","to":13.467},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":13.502,"id":"hf-caption-14-1","spokenColor":"#fff","to":14.047},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":14.431,"id":"hf-caption-15-0","spokenColor":"#fff","to":14.558},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":14.593,"id":"hf-caption-15-1","spokenColor":"#fff","to":14.663},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":14.698,"id":"hf-caption-15-2","spokenColor":"#fff","to":14.999},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":15.034,"id":"hf-caption-16-0","spokenColor":"#fff","to":15.104},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":15.174,"id":"hf-caption-16-1","spokenColor":"#fff","to":15.58},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":15.917,"id":"hf-caption-16-2","spokenColor":"#fff","to":16.068},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":16.102,"id":"hf-caption-17-0","spokenColor":"#fff","to":16.265},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":16.3,"id":"hf-caption-17-1","spokenColor":"#fff","to":16.404},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":16.451,"id":"hf-caption-17-2","spokenColor":"#fff","to":16.648},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":16.683,"id":"hf-caption-18-0","spokenColor":"#fff","to":17.391},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":17.774,"id":"hf-caption-19-0","spokenColor":"#fff","to":17.879},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":17.925,"id":"hf-caption-19-1","spokenColor":"#fff","to":18.285},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":18.32,"id":"hf-caption-19-2","spokenColor":"#fff","to":18.471},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":18.494,"id":"hf-caption-20-0","spokenColor":"#fff","to":18.738},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":18.796,"id":"hf-caption-20-1","spokenColor":"#fff","to":19.249},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":19.353,"id":"hf-caption-20-2","spokenColor":"#fff","to":19.528},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":19.563,"id":"hf-caption-21-0","spokenColor":"#fff","to":20.085},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":20.108,"id":"hf-caption-21-1","spokenColor":"#fff","to":20.259},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":20.294,"id":"hf-caption-21-2","spokenColor":"#fff","to":20.352},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":20.41,"id":"hf-caption-22-0","spokenColor":"#fff","to":20.712},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":20.747,"id":"hf-caption-22-1","spokenColor":"#fff","to":20.805},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":20.851,"id":"hf-caption-22-2","spokenColor":"#fff","to":21.026},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":21.06,"id":"hf-caption-23-0","spokenColor":"#fff","to":21.234},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":21.258,"id":"hf-caption-23-1","spokenColor":"#fff","to":21.316},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":21.374,"id":"hf-caption-23-2","spokenColor":"#fff","to":21.699},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":22.14,"id":"hf-caption-24-0","spokenColor":"#fff","to":22.198},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":22.303,"id":"hf-caption-24-1","spokenColor":"#fff","to":22.755},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":22.825,"id":"hf-caption-24-2","spokenColor":"#fff","to":22.953},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":22.988,"id":"hf-caption-25-0","spokenColor":"#fff","to":23.231},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":23.266,"id":"hf-caption-25-1","spokenColor":"#fff","to":23.336},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":23.371,"id":"hf-caption-25-2","spokenColor":"#fff","to":23.58},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":23.615,"id":"hf-caption-26-0","spokenColor":"#fff","to":23.661},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":23.707,"id":"hf-caption-26-1","spokenColor":"#fff","to":23.858},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":23.916,"id":"hf-caption-26-2","spokenColor":"#fff","to":24.323},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":24.358,"id":"hf-caption-27-0","spokenColor":"#fff","to":24.717},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":24.752,"id":"hf-caption-27-1","spokenColor":"#fff","to":24.822},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":24.857,"id":"hf-caption-27-2","spokenColor":"#fff","to":25.24},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":25.275,"id":"hf-caption-28-0","spokenColor":"#fff","to":25.53},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":25.588,"id":"hf-caption-28-1","spokenColor":"#fff","to":25.913},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":25.948,"id":"hf-caption-28-2","spokenColor":"#fff","to":26.656},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":27.26,"id":"hf-caption-29-0","spokenColor":"#fff","to":27.399},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":27.434,"id":"hf-caption-29-1","spokenColor":"#fff","to":27.492},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":27.539,"id":"hf-caption-29-2","spokenColor":"#fff","to":27.632},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":27.666,"id":"hf-caption-30-0","spokenColor":"#fff","to":27.806},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":27.852,"id":"hf-caption-30-1","spokenColor":"#fff","to":28.514},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":28.537,"id":"hf-caption-30-2","spokenColor":"#fff","to":28.978},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":29.361,"id":"hf-caption-31-0","spokenColor":"#fff","to":29.605},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":29.64,"id":"hf-caption-31-1","spokenColor":"#fff","to":30.105},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":30.139,"id":"hf-caption-31-2","spokenColor":"#fff","to":30.209},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":30.255,"id":"hf-caption-32-0","spokenColor":"#fff","to":30.499},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":30.546,"id":"hf-caption-32-1","spokenColor":"#fff","to":30.673},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":30.72,"id":"hf-caption-32-2","spokenColor":"#fff","to":31.045},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":31.091,"id":"hf-caption-33-0","spokenColor":"#fff","to":31.591},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":32.415,"id":"hf-caption-34-0","spokenColor":"#fff","to":32.531},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":32.577,"id":"hf-caption-34-1","spokenColor":"#fff","to":32.635},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":32.67,"id":"hf-caption-34-2","spokenColor":"#fff","to":32.833},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":32.868,"id":"hf-caption-35-0","spokenColor":"#fff","to":33.158},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":33.216,"id":"hf-caption-35-1","spokenColor":"#fff","to":33.529},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":33.553,"id":"hf-caption-35-2","spokenColor":"#fff","to":34.017},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":34.064,"id":"hf-caption-36-0","spokenColor":"#fff","to":34.133},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":34.203,"id":"hf-caption-36-1","spokenColor":"#fff","to":34.737},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":34.841,"id":"hf-caption-36-2","spokenColor":"#fff","to":34.899},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":34.946,"id":"hf-caption-37-0","spokenColor":"#fff","to":35.457},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":35.573,"id":"hf-caption-37-1","spokenColor":"#fff","to":35.642},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":35.689,"id":"hf-caption-37-2","spokenColor":"#fff","to":35.968},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":36.014,"id":"hf-caption-38-0","spokenColor":"#fff","to":36.583},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":36.653,"id":"hf-caption-38-1","spokenColor":"#fff","to":36.711},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":36.769,"id":"hf-caption-38-2","spokenColor":"#fff","to":37.477},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":37.663,"id":"hf-caption-39-0","spokenColor":"#fff","to":38.197},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":38.719,"id":"hf-caption-40-0","spokenColor":"#fff","to":38.847},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":38.882,"id":"hf-caption-40-1","spokenColor":"#fff","to":39.032},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":39.102,"id":"hf-caption-40-2","spokenColor":"#fff","to":39.462},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":39.508,"id":"hf-caption-41-0","spokenColor":"#fff","to":39.671},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":39.706,"id":"hf-caption-41-1","spokenColor":"#fff","to":39.764},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":39.822,"id":"hf-caption-41-2","spokenColor":"#fff","to":39.915},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":39.973,"id":"hf-caption-42-0","spokenColor":"#fff","to":40.356},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":40.391,"id":"hf-caption-42-1","spokenColor":"#fff","to":40.635},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":40.681,"id":"hf-caption-42-2","spokenColor":"#fff","to":40.809},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":40.844,"id":"hf-caption-43-0","spokenColor":"#fff","to":41.064},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":41.099,"id":"hf-caption-43-1","spokenColor":"#fff","to":41.877},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":42.399,"id":"hf-caption-44-0","spokenColor":"#fff","to":42.574},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":42.632,"id":"hf-caption-44-1","spokenColor":"#fff","to":43.026},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":43.084,"id":"hf-caption-44-2","spokenColor":"#fff","to":43.351},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":43.398,"id":"hf-caption-45-0","spokenColor":"#fff","to":43.874},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":44.002,"id":"hf-caption-46-0","spokenColor":"#fff","to":44.141},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":44.199,"id":"hf-caption-46-1","spokenColor":"#fff","to":44.64},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":44.698,"id":"hf-caption-46-2","spokenColor":"#fff","to":45.488},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":46.01,"id":"hf-caption-47-0","spokenColor":"#fff","to":46.184},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":46.219,"id":"hf-caption-47-1","spokenColor":"#fff","to":46.289},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":46.324,"id":"hf-caption-47-2","spokenColor":"#fff","to":46.393},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":46.428,"id":"hf-caption-48-0","spokenColor":"#fff","to":47.136},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":47.38,"id":"hf-caption-48-1","spokenColor":"#fff","to":47.485},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":47.543,"id":"hf-caption-48-2","spokenColor":"#fff","to":47.798},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":47.844,"id":"hf-caption-49-0","spokenColor":"#fff","to":47.984},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":48.007,"id":"hf-caption-49-1","spokenColor":"#fff","to":48.077},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":48.111,"id":"hf-caption-49-2","spokenColor":"#fff","to":48.413},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":48.448,"id":"hf-caption-50-0","spokenColor":"#fff","to":48.588},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":48.622,"id":"hf-caption-50-1","spokenColor":"#fff","to":49.11},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":49.238,"id":"hf-caption-50-2","spokenColor":"#fff","to":49.354},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":49.389,"id":"hf-caption-51-0","spokenColor":"#fff","to":49.458},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":49.516,"id":"hf-caption-51-1","spokenColor":"#fff","to":49.83},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":49.865,"id":"hf-caption-51-2","spokenColor":"#fff","to":50.027},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":50.085,"id":"hf-caption-52-0","spokenColor":"#fff","to":50.666},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":51.188,"id":"hf-caption-53-0","spokenColor":"#fff","to":51.362},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":51.444,"id":"hf-caption-53-1","spokenColor":"#fff","to":51.641},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":51.676,"id":"hf-caption-53-2","spokenColor":"#fff","to":52.082},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":52.129,"id":"hf-caption-54-0","spokenColor":"#fff","to":52.198},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":52.233,"id":"hf-caption-54-1","spokenColor":"#fff","to":52.709},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":53.417,"id":"hf-caption-55-0","spokenColor":"#fff","to":53.615},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":53.673,"id":"hf-caption-55-1","spokenColor":"#fff","to":53.847},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":53.882,"id":"hf-caption-55-2","spokenColor":"#fff","to":53.951},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":53.998,"id":"hf-caption-56-0","spokenColor":"#fff","to":54.509},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":54.578,"id":"hf-caption-56-1","spokenColor":"#fff","to":55.054},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":55.391,"id":"hf-caption-57-0","spokenColor":"#fff","to":55.612},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":55.658,"id":"hf-caption-57-1","spokenColor":"#fff","to":55.89},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":55.925,"id":"hf-caption-57-2","spokenColor":"#fff","to":56.064},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":56.099,"id":"hf-caption-58-0","spokenColor":"#fff","to":56.169},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":56.227,"id":"hf-caption-58-1","spokenColor":"#fff","to":56.726},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":56.877,"id":"hf-caption-58-2","spokenColor":"#fff","to":56.982},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":57.016,"id":"hf-caption-59-0","spokenColor":"#fff","to":57.504},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":57.539,"id":"hf-caption-59-1","spokenColor":"#fff","to":57.678},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":57.783,"id":"hf-caption-59-2","spokenColor":"#fff","to":58.317},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":58.653,"id":"hf-caption-60-0","spokenColor":"#fff","to":58.839},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":58.874,"id":"hf-caption-60-1","spokenColor":"#fff","to":59.373},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":59.42,"id":"hf-caption-60-2","spokenColor":"#fff","to":59.942},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":59.989,"id":"hf-caption-61-0","spokenColor":"#fff","to":60.29},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":60.325,"id":"hf-caption-61-1","spokenColor":"#fff","to":60.894},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":60.941,"id":"hf-caption-61-2","spokenColor":"#fff","to":61.057},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":61.126,"id":"hf-caption-62-0","spokenColor":"#fff","to":61.509},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":61.544,"id":"hf-caption-62-1","spokenColor":"#fff","to":61.637},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":61.684,"id":"hf-caption-62-2","spokenColor":"#fff","to":61.858},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":61.893,"id":"hf-caption-63-0","spokenColor":"#fff","to":62.241},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":62.276,"id":"hf-caption-63-1","spokenColor":"#fff","to":62.345},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":62.38,"id":"hf-caption-63-2","spokenColor":"#fff","to":62.45},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":62.496,"id":"hf-caption-64-0","spokenColor":"#fff","to":62.589},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":62.624,"id":"hf-caption-64-1","spokenColor":"#fff","to":63.239},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":63.68,"id":"hf-caption-65-0","spokenColor":"#fff","to":63.785},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":63.82,"id":"hf-caption-65-1","spokenColor":"#fff","to":63.971},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":64.006,"id":"hf-caption-65-2","spokenColor":"#fff","to":64.098},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":64.133,"id":"hf-caption-66-0","spokenColor":"#fff","to":64.342},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":64.389,"id":"hf-caption-66-1","spokenColor":"#fff","to":64.458},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":64.505,"id":"hf-caption-66-2","spokenColor":"#fff","to":64.737},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":64.807,"id":"hf-caption-67-0","spokenColor":"#fff","to":64.934},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":64.992,"id":"hf-caption-67-1","spokenColor":"#fff","to":65.55},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":65.933,"id":"hf-caption-68-0","spokenColor":"#fff","to":66.037},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":66.095,"id":"hf-caption-68-1","spokenColor":"#fff","to":66.304},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":66.351,"id":"hf-caption-68-2","spokenColor":"#fff","to":66.769},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":66.838,"id":"hf-caption-69-0","spokenColor":"#fff","to":66.92},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":66.989,"id":"hf-caption-69-1","spokenColor":"#fff","to":67.14},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":67.187,"id":"hf-caption-69-2","spokenColor":"#fff","to":67.396},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":67.431,"id":"hf-caption-70-0","spokenColor":"#fff","to":67.535},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":67.57,"id":"hf-caption-70-1","spokenColor":"#fff","to":67.628},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":67.663,"id":"hf-caption-70-2","spokenColor":"#fff","to":67.756},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":67.791,"id":"hf-caption-71-0","spokenColor":"#fff","to":68.243},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":68.522,"id":"hf-caption-72-0","spokenColor":"#fff","to":68.615},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":68.65,"id":"hf-caption-72-1","spokenColor":"#fff","to":68.719},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":68.777,"id":"hf-caption-72-2","spokenColor":"#fff","to":68.952},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":68.986,"id":"hf-caption-73-0","spokenColor":"#fff","to":69.079},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":69.114,"id":"hf-caption-73-1","spokenColor":"#fff","to":69.207},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":69.23,"id":"hf-caption-73-2","spokenColor":"#fff","to":69.277},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":69.311,"id":"hf-caption-74-0","spokenColor":"#fff","to":69.393},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":69.439,"id":"hf-caption-74-1","spokenColor":"#fff","to":69.613},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":69.66,"id":"hf-caption-74-2","spokenColor":"#fff","to":69.927},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":69.962,"id":"hf-caption-75-0","spokenColor":"#fff","to":70.136},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":70.171,"id":"hf-caption-75-1","spokenColor":"#fff","to":70.333},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":70.356,"id":"hf-caption-75-2","spokenColor":"#fff","to":70.403},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":70.438,"id":"hf-caption-76-0","spokenColor":"#fff","to":70.507},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":70.542,"id":"hf-caption-76-1","spokenColor":"#fff","to":70.89},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":70.948,"id":"hf-caption-76-2","spokenColor":"#fff","to":71.018},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":71.065,"id":"hf-caption-77-0","spokenColor":"#fff","to":71.378},{"activeBackground":null,"activeColor":"#00E5FF","activeTextColor":null,"from":71.413,"id":"hf-caption-77-1","spokenColor":"#fff","to":71.982}];
+		for (const token of captionTokens) {
+			const element = document.getElementById(token.id);
+			if (element) {
+				if (token.activeBackground) {
+					tl.set(element, {
+						color: token.activeTextColor || token.activeColor,
+						backgroundColor: token.activeBackground,
+						padding: "2px 6px",
+						borderRadius: "4px",
+						textShadow: "none",
+						webkitTextStroke: "0px transparent",
+					}, token.from);
+					tl.set(element, {
+						color: token.spokenColor,
+						backgroundColor: "transparent",
+						padding: 0,
+						borderRadius: 0,
+						clearProps: "textShadow,webkitTextStroke",
+					}, token.to);
+				} else {
+					tl.set(element, { color: token.activeColor }, token.from);
+					tl.set(element, { color: token.spokenColor }, token.to);
+				}
+			}
+		}
+		const kineticChunkData = [];
+		const kineticCaptionTokens = [];
+		let kineticTokenIdx = 0;
+		for (const chunk of kineticChunkData) {
+			for (let i = 0; i < chunk.tokenCount; i++) {
+				const token = kineticCaptionTokens[kineticTokenIdx];
+				kineticTokenIdx++;
+				if (!token) continue;
+				const element = document.getElementById(token.id);
+				if (!element) continue;
+				const staggerDelay = i * 0.06;
+				tl.fromTo(element, { opacity: 0, scale: 0.7, y: 8 }, { opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(1.8)" }, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#fff",
+					backgroundColor: "transparent",
+					padding: 0,
+					borderRadius: 0,
+					webkitTextStroke: token.stroke,
+				}, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#000",
+					backgroundColor: "#fff",
+					padding: "2px 6px",
+					borderRadius: 4,
+					webkitTextStroke: "0px transparent",
+				}, token.from + staggerDelay);
+				tl.set(element, {
+					color: "#fff",
+					backgroundColor: "transparent",
+					padding: 0,
+					borderRadius: 0,
+					webkitTextStroke: token.stroke,
+				}, token.to);
+			}
+		}
+		const oneWordTokens = [];
+		for (const token of oneWordTokens) {
+			const element = document.getElementById(token.id);
+			if (element) {
+				tl.fromTo(element, { scale: 1.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.12, ease: "back.out(1.7)" }, token.start);
+			}
+		}
+		function getKenBurnsTransform(camera, intensity, panScale) {
+			const type = mapCamera(camera);
+			const zoomAmount = 0.15 * intensity;
+			const panAmount = 5 * intensity;
+			const minScale = 1.08;
+			const clamp = (value, scale) => {
+				const maxSafe = ((scale - 1) / (2 * scale)) * 100;
+				return Math.max(-maxSafe, Math.min(maxSafe, value));
+			};
+			const transform = (scale, xPercent = 0, yPercent = 0) => ({
+				scale,
+				xPercent: clamp(xPercent, scale),
+				yPercent: clamp(yPercent, scale),
+			});
+			switch (type) {
+				case "static":
+					return { from: transform(minScale), to: transform(minScale) };
+				case "zoom_out":
+					return { from: transform(minScale + zoomAmount), to: transform(minScale) };
+				case "pan_left":
+					return { from: transform(panScale, panAmount, 0), to: transform(panScale, -panAmount, 0) };
+				case "pan_right":
+					return { from: transform(panScale, -panAmount, 0), to: transform(panScale, panAmount, 0) };
+				case "pan_up":
+					return { from: transform(panScale, 0, panAmount), to: transform(panScale, 0, -panAmount) };
+				case "pan_down":
+					return { from: transform(panScale, 0, -panAmount), to: transform(panScale, 0, panAmount) };
+				case "zoom_in_pan_left":
+					return { from: transform(panScale, panAmount / 2, 0), to: transform(panScale + zoomAmount, -panAmount / 2, 0) };
+				case "zoom_in_pan_right":
+					return { from: transform(panScale, -panAmount / 2, 0), to: transform(panScale + zoomAmount, panAmount / 2, 0) };
+				case "zoom_out_pan_left":
+					return { from: transform(panScale + zoomAmount, panAmount / 2, 0), to: transform(panScale, -panAmount / 2, 0) };
+				case "zoom_out_pan_right":
+					return { from: transform(panScale + zoomAmount, -panAmount / 2, 0), to: transform(panScale, panAmount / 2, 0) };
+				default:
+					return { from: transform(minScale), to: transform(minScale + zoomAmount) };
+			}
+		}
+		function mapCamera(camera) {
+			switch (camera) {
+				case "pan_left":
+				case "pan_right":
+				case "pan_up":
+				case "pan_down":
+				case "zoom_out":
+				case "zoom_in_pan_left":
+				case "zoom_in_pan_right":
+				case "zoom_out_pan_left":
+				case "zoom_out_pan_right":
+					return camera;
+				case "static":
+					return "zoom_in";
+				case "drop_in":
+					return "zoom_in";
+				default:
+					return "zoom_in";
+			}
+		}
+		function setupCodeHikeTokenTransitions(scene) {
+			const sceneElement = document.getElementById(scene.id);
+			if (!sceneElement) return;
+			const transitionTokens = Array.from(sceneElement.querySelectorAll("[data-codehike-transition-token='true'], .hf-codehike-token-exit"));
+			for (const token of transitionTokens) {
+				const fromX = Number(token.getAttribute("data-from-x") || 0);
+				const fromY = Number(token.getAttribute("data-from-y") || 0);
+				const toX = Number(token.getAttribute("data-to-x") || 0);
+				const toY = Number(token.getAttribute("data-to-y") || 0);
+				const fromOpacity = Number(token.getAttribute("data-from-opacity") || 0);
+				const toOpacity = Number(token.getAttribute("data-to-opacity") || 0);
+				const fromColor = token.getAttribute("data-from-color") || "#e1e4e8";
+				const toColor = token.getAttribute("data-to-color") || fromColor;
+				const delay = Number(token.getAttribute("data-delay-frames") || 0) / 30;
+				const duration = Math.max(1 / 30, Number(token.getAttribute("data-duration-frames") || 1) / 30);
+				tl.set(token, { opacity: fromOpacity, x: fromX, y: fromY, color: fromColor }, scene.start);
+				tl.to(
+					token,
+					{ opacity: toOpacity, x: toX, y: toY, color: toColor, duration, ease: "power2.inOut" },
+					scene.start + delay,
+				);
+				if (token.classList.contains("hf-codehike-token-exit")) {
+					tl.set(token, { opacity: 0 }, scene.start + delay + duration + 1 / 30);
+				}
+			}
+		}
+		const registerTimeline = () => {
+			window.__timelines["brainjuice-video-avatar-demo-feed-elevated-fermi-register-nb2-merged-scenes"] = tl;
+		};
+		registerTimeline();
+	</script></body></html>

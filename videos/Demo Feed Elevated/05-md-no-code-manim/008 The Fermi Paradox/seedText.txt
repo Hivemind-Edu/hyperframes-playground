@@ -1,0 +1,71 @@
+TOPIC_CLUSTER: Cosmology
+TEMPLATE: VideoAvatarTemplate
+ROLE: breakdown
+SUBROLE: system_explainer
+TITLE: The Fermi Paradox
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+SLOT_SPECIFIC_GENERATION_RULES:
+Generate scene images one at a time only. Do not use panel grids or multi-image batch/grid composition. Each visual prompt should produce exactly one standalone 9:16 scene image, then each non-avatar image scene should be animated with Grok Imagine when DEMO_ELEVATE=1. Preserve VideoAvatarTemplate rhythm: host resets plus full-screen image/video beats, not an AnimatedVideoTemplate caption clone. Hard timing rule: use 12 image cues and keep the voiceover to 115-130 words so every full-screen image/video beat stays under 6.7 seconds. Do not hold, freeze, or loop a Grok clip beyond 7 seconds. Hard visual constraints for slot 8: astronomy only, using planets, exoplanet systems, stars, the Milky Way, telescopes/radio observatories, probes, galaxy maps, and empty signal monitors. Do not generate cells, microbes, microscopic imagery, biology closeups, aliens, or any text, labels, letters, numbers, diagrams, captions, or pseudo-annotations inside images.
+
+VIDEO_AVATAR_TIMING_RULES:
+Keep the script between 110 and 140 spoken words. The first image must start after the first short sentence, around 3 to 4 seconds. Exactly two images should include endOn. For each of those two endOn images, the following image startOn must be only about 2 spoken seconds later, around 4 to 7 words. Do not leave a long talking-head gap between image cues; every inferred avatar window must be 1.5 to 3.0 seconds.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / overview / science_explainer`: 18 scenes. Question hook -> concrete artifact -> missing mechanism -> evidence/constraints -> feedback-loop conclusion. For Slot 10, force 9:16 vertical media and text-free generated visuals.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Use this voiceover as the source, with only tiny wording changes if needed for timing: "The Fermi Paradox is this: if life can arise on many planets, and the Milky Way is ancient, why do we see no confirmed sign of anyone else? The inputs point one way. Hundreds of billions of stars. Many older than the Sun. Planets everywhere, including rocky worlds. Signals and probes do not need magic to cross interstellar space. Over cosmic time, even slow expansion should leave some trace. But radio telescopes hear no confirmed message. Surveys find no clear megastructures. No outside artifact has been verified. So one assumption is wrong: maybe life is rare, intelligence is rarer, civilizations die young, or we are looking for the wrong kinds of evidence." Keep the breakdown/system_explainer structure and use astronomy-only, text-free visuals.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 8. The Fermi Paradox
+
+Template: `VideoAvatarTemplate`
+Role/subrole: `breakdown / system_explainer`
+Scene count: 21
+Style: host in clean studio; slides use astronomy-only visuals: planets, exoplanet systems, stars, Milky Way, telescopes/radio observatories, probes, galaxy maps, and empty signal monitors. No cells, microbes, microscopic imagery, biology closeups, rubber alien imagery, or text/labels inside generated images.
+
+Scene scripts:
+1. Host: "The Fermi Paradox starts with one mismatch: the galaxy looks fertile, but the sky stays quiet."
+2. Slide: "First input: the Milky Way contains hundreds of billions of stars."
+3. Slide: "Second input: many of those stars are older than the Sun by billions of years."
+4. Slide: "Third input: planets are common, including rocky worlds in stable orbits."
+5. Slide: "Fourth input: probes and signals can cross interstellar distances without magic."
+6. Slide: "So even slow expansion could spread through the galaxy on timescales shorter than the galaxy's age."
+7. Slide: "The expectation is not one visitor at Earth; it is some detectable trace somewhere."
+8. Host: "The paradox is the gap between that expectation and what our instruments actually report."
+9. Slide: "Radio observatories listen, but the monitors remain empty."
+10. Slide: "Telescope surveys map exoplanets, but not clear engineered patterns."
+11. Slide: "Probe paths cross the solar system, but no confirmed outside artifact appears."
+12. Slide: "Galaxy maps show opportunity; observations show no confirmed civilization signal."
+13. Slide: "One explanation moves the bottleneck early: worlds may be common while life is rare."
+14. Slide: "Another moves it later: intelligence, technology, or long survival may be rare."
+15. Host: "This is why people call it a filter: somewhere, most paths stop before they become visible."
+16. Slide: "The filter could be behind us, making Earth unusually lucky."
+17. Slide: "The filter could be ahead, making technological survival the dangerous step."
+18. Slide: "Or the signal model could be wrong: civilizations may be distant, brief, quiet, or hard to detect."
+19. Slide: "They may explore slowly, avoid broadcasting, or leave traces our current surveys miss."
+20. Slide: "The Fermi Paradox does not prove we are alone."
+21. Slide: "It says our simple assumptions predict a louder galaxy than the one we can measure."
