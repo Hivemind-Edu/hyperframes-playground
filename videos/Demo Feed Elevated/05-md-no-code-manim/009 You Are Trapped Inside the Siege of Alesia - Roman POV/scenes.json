@@ -1,0 +1,64 @@
+{
+  "character": "A 24-year-old Roman legionary at the Siege of Alesia in 52 BCE with a Mediterranean complexion, tired brown eyes, short dark hair mostly hidden under a dented bronze helmet, faint stubble, muddy chainmail over a faded red tunic, and a weathered but young face. He looks exhausted, tense, and increasingly aware that Caesar's siege works have trapped everyone in the valley.",
+  "gradient": "none",
+  "backgroundColor": "black",
+  "musicFilePath": "assets/music-rain-on-rhodes.mp3",
+  "slideDurationMs": 10000,
+  "visualMode": "image",
+  "slides": [
+    {
+      "imagePrompt": "Front-camera selfie of a 24-year-old Roman legionary outside Alesia in 52 BCE, muddy chainmail over a faded red tunic, dented bronze helmet, tired face. Behind him, the hilltop fortress of Alesia rises above Roman tents and standards.",
+      "imagePath": "assets/slide-1.png",
+      "index": 0,
+      "text": "We thought we were here to take the city."
+    },
+    {
+      "imagePrompt": "Selfie of the same Roman legionary holding a shovel and looking exhausted. Behind him, Roman soldiers dig a long trench below Alesia, with baskets of earth, timber posts, and engineers marking the line.",
+      "imagePath": "assets/slide-2.png",
+      "index": 1,
+      "text": "Then Caesar told us to dig around it."
+    },
+    {
+      "imagePrompt": "Phone photo from the Roman work line showing trenches, palisades, towers, and sharpened stakes spreading across the valley around Alesia. The Gallic town remains high in the background.",
+      "imagePath": "assets/slide-3.png",
+      "index": 2,
+      "text": "Every day the circle gets tighter."
+    },
+    {
+      "imagePrompt": "Normal phone photo from inside a Roman trench looking up toward Alesia. Gallic defenders stand along the ridge, quiet and still, while Roman workers raise more palisades below.",
+      "imagePath": "assets/slide-4.png",
+      "index": 3,
+      "text": "The men on the hill have started watching silently."
+    },
+    {
+      "imagePrompt": "Selfie of the same Roman legionary at dusk, face tense, dust on his cheeks. Behind him, Roman cavalry scouts ride into camp fast while soldiers stop working and look toward the countryside.",
+      "imagePath": "assets/slide-5.png",
+      "index": 4,
+      "text": "Scouts say their relief army is close."
+    },
+    {
+      "imagePrompt": "Wide phone photo from a Roman watchtower showing the double siege line: one wall facing Alesia, another wall facing the outside countryside, with the Roman camp trapped between both.",
+      "imagePath": "assets/slide-6.png",
+      "index": 5,
+      "text": "So we build another wall behind us."
+    },
+    {
+      "imagePrompt": "Chaotic phone photo from the Roman fortifications at night. Gauls attack outward from Alesia while the relief army attacks from the countryside. Roman soldiers fight in both directions through smoke, torches, dust, and thrown spears.",
+      "imagePath": "assets/slide-7.png",
+      "index": 6,
+      "text": "Tonight they came from both sides."
+    },
+    {
+      "imagePrompt": "Selfie of the same Roman legionary, face lit by fire, eyes wide and exhausted. Behind him, a commander in a red cloak rides along the Roman defenses as soldiers rally at the palisade.",
+      "imagePath": "assets/slide-8.png",
+      "index": 7,
+      "text": "Caesar rode the line himself."
+    },
+    {
+      "imagePrompt": "Quiet dawn phone photo after the battle. Roman double walls, ditches, broken Gallic shields, abandoned weapons, and muddy stake pits stretch across the misty valley. Alesia sits silent on the hill.",
+      "imagePath": "assets/slide-9.png",
+      "index": 8,
+      "text": "Morning. The walls held. Alesia did not."
+    }
+  ]
+}

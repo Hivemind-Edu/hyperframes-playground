@@ -1,0 +1,10 @@
+{
+  "artifactRenderer": "html-slideshow",
+  "durationSeconds": 90,
+  "index": 9,
+  "role": "scenario",
+  "subRole": "roman_pov",
+  "suggestedTemplateId": "POVSlideshowTemplate",
+  "title": "You Are Trapped Inside the Siege of Alesia - Roman POV",
+  "visualStyle": "historical phone photo"
+}

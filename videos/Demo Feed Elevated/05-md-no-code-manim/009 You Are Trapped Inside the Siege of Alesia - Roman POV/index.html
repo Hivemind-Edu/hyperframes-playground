@@ -1,0 +1,904 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>Brainjuice</title><style>@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/anton-400.woff2') format('woff2');}@font-face{font-family:'Archivo';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/archivo-400.woff2') format('woff2');}@font-face{font-family:'Archivo';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/archivo-700.woff2') format('woff2');}@font-face{font-family:'Archivo';font-style:normal;font-weight:800;font-display:swap;src:url('staticVideoAssets/fonts/archivo-800.woff2') format('woff2');}@font-face{font-family:'Archivo Black';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/archivo-black-400.woff2') format('woff2');}@font-face{font-family:'Bebas Neue';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/bebas-neue-400.woff2') format('woff2');}@font-face{font-family:'Bitter';font-style:normal;font-weight:300;font-display:swap;src:url('staticVideoAssets/fonts/bitter-300.woff2') format('woff2');}@font-face{font-family:'Bitter';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/bitter-400.woff2') format('woff2');}@font-face{font-family:'Bitter';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/bitter-700.woff2') format('woff2');}@font-face{font-family:'Bitter';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/bitter-900.woff2') format('woff2');}@font-face{font-family:'Crimson Text';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/crimson-text-400.woff2') format('woff2');}@font-face{font-family:'Crimson Text';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/crimson-text-700.woff2') format('woff2');}@font-face{font-family:'Crimson Text';font-style:italic;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/crimson-text-400-italic.woff2') format('woff2');}@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/dm-sans-400.woff2') format('woff2');}@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/dm-sans-500.woff2') format('woff2');}@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/dm-sans-700.woff2') format('woff2');}@font-face{font-family:'DM Sans';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/dm-sans-900.woff2') format('woff2');}@font-face{font-family:'Fira Code';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/fira-code-400.woff2') format('woff2');}@font-face{font-family:'Fira Code';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/fira-code-500.woff2') format('woff2');}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/ibm-plex-mono-400.woff2') format('woff2');}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/ibm-plex-mono-500.woff2') format('woff2');}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url('staticVideoAssets/fonts/ibm-plex-mono-600.woff2') format('woff2');}@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/instrument-serif-400.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/inter-400.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/inter-700.woff2') format('woff2');}@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/inter-900.woff2') format('woff2');}@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/jetbrains-mono-400.woff2') format('woff2');}@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/jetbrains-mono-500.woff2') format('woff2');}@font-face{font-family:'Lora';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/lora-400.woff2') format('woff2');}@font-face{font-family:'Lora';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/lora-700.woff2') format('woff2');}@font-face{font-family:'Lora';font-style:italic;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/lora-400-italic.woff2') format('woff2');}@font-face{font-family:'Manrope';font-style:normal;font-weight:300;font-display:swap;src:url('staticVideoAssets/fonts/manrope-300.woff2') format('woff2');}@font-face{font-family:'Manrope';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/manrope-400.woff2') format('woff2');}@font-face{font-family:'Manrope';font-style:normal;font-weight:600;font-display:swap;src:url('staticVideoAssets/fonts/manrope-600.woff2') format('woff2');}@font-face{font-family:'Manrope';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/manrope-700.woff2') format('woff2');}@font-face{font-family:'Merriweather';font-style:normal;font-weight:300;font-display:swap;src:url('staticVideoAssets/fonts/merriweather-300.woff2') format('woff2');}@font-face{font-family:'Merriweather';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/merriweather-400.woff2') format('woff2');}@font-face{font-family:'Merriweather';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/merriweather-700.woff2') format('woff2');}@font-face{font-family:'Merriweather';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/merriweather-900.woff2') format('woff2');}@font-face{font-family:'Merriweather';font-style:italic;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/merriweather-400-italic.woff2') format('woff2');}@font-face{font-family:'Merriweather';font-style:italic;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/merriweather-700-italic.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/outfit-400.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/outfit-700.woff2') format('woff2');}@font-face{font-family:'Overpass';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/overpass-400.woff2') format('woff2');}@font-face{font-family:'Overpass';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/overpass-700.woff2') format('woff2');}@font-face{font-family:'Overpass Mono';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/overpass-mono-400.woff2') format('woff2');}@font-face{font-family:'Oswald';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/oswald-400.woff2') format('woff2');}@font-face{font-family:'Oswald';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/oswald-700.woff2') format('woff2');}@font-face{font-family:'PT Serif';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/pt-serif-400.woff2') format('woff2');}@font-face{font-family:'PT Serif';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/pt-serif-700.woff2') format('woff2');}@font-face{font-family:'PT Serif';font-style:italic;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/pt-serif-400-italic.woff2') format('woff2');}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/playfair-display-400.woff2') format('woff2');}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/playfair-display-700.woff2') format('woff2');}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:900;font-display:swap;src:url('staticVideoAssets/fonts/playfair-display-900.woff2') format('woff2');}@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/playfair-display-400-italic.woff2') format('woff2');}@font-face{font-family:'Raleway';font-style:normal;font-weight:300;font-display:swap;src:url('staticVideoAssets/fonts/raleway-300.woff2') format('woff2');}@font-face{font-family:'Raleway';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/raleway-400.woff2') format('woff2');}@font-face{font-family:'Raleway';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/raleway-700.woff2') format('woff2');}@font-face{font-family:'Raleway';font-style:normal;font-weight:800;font-display:swap;src:url('staticVideoAssets/fonts/raleway-800.woff2') format('woff2');}@font-face{font-family:'Raleway';font-style:italic;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/raleway-400-italic.woff2') format('woff2');}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/roboto-condensed-400.woff2') format('woff2');}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/roboto-condensed-700.woff2') format('woff2');}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/source-code-pro-400.woff2') format('woff2');}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/source-code-pro-500.woff2') format('woff2');}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/source-code-pro-700.woff2') format('woff2');}@font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/source-sans-3-400.woff2') format('woff2');}@font-face{font-family:'Source Sans 3';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/source-sans-3-500.woff2') format('woff2');}@font-face{font-family:'Source Sans 3';font-style:normal;font-weight:600;font-display:swap;src:url('staticVideoAssets/fonts/source-sans-3-600.woff2') format('woff2');}@font-face{font-family:'Space Mono';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/space-mono-400.woff2') format('woff2');}@font-face{font-family:'Space Mono';font-style:normal;font-weight:700;font-display:swap;src:url('staticVideoAssets/fonts/space-mono-700.woff2') format('woff2');}@font-face{font-family:'Work Sans';font-style:normal;font-weight:400;font-display:swap;src:url('staticVideoAssets/fonts/work-sans-400.woff2') format('woff2');}@font-face{font-family:'Work Sans';font-style:normal;font-weight:500;font-display:swap;src:url('staticVideoAssets/fonts/work-sans-500.woff2') format('woff2');}@font-face{font-family:'Work Sans';font-style:normal;font-weight:600;font-display:swap;src:url('staticVideoAssets/fonts/work-sans-600.woff2') format('woff2');}
+		html,
+		body {
+			background: black;
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		body {
+			-webkit-tap-highlight-color: transparent;
+			-webkit-touch-callout: none !important;
+			font-family: Inter, "SF Pro Text", system-ui, sans-serif;
+			touch-action: pan-y;
+			user-select: none !important;
+		}
+
+		body * {
+			-webkit-touch-callout: none !important;
+			-webkit-user-select: none !important;
+			user-select: none !important;
+		}
+
+		::selection {
+			background: transparent !important;
+		}
+
+		.bj-slideshow-viewport {
+			background: black;
+			height: 100vh;
+			overflow: hidden;
+			position: relative;
+			width: 100vw;
+		}
+
+		.bj-slideshow-stage {
+			background: black;
+			height: 768px;
+			left: 50%;
+			overflow: hidden;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%, -50%) scale(var(--bj-stage-scale, 1));
+			transform-origin: center;
+			width: 392px;
+		}
+
+		.bj-template-CodeLatexSlideshowTemplate .bj-slideshow-stage {
+			background-image:
+				linear-gradient(rgba(255,255,255,0.032) 1px, transparent 1px),
+				linear-gradient(90deg, rgba(255,255,255,0.032) 1px, transparent 1px);
+			background-size: 28px 28px;
+		}
+
+		.bj-embla,
+		.bj-embla__container,
+		.bj-embla__slide {
+			height: 100%;
+		}
+
+		.bj-embla {
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.bj-embla__container {
+			display: flex;
+		}
+
+		.bj-embla__slide {
+			flex: 0 0 100%;
+			min-width: 0;
+			overflow: hidden;
+			pointer-events: none;
+			position: relative;
+		}
+
+		.bj-pagination {
+			align-items: center;
+			bottom: 80px;
+			display: flex;
+			gap: 6px;
+			justify-content: center;
+			left: 0;
+			pointer-events: none;
+			position: absolute;
+			right: 0;
+			z-index: 20;
+		}
+
+		.bj-pagination-dot {
+			background: rgba(255,255,255,0.35);
+			border-radius: 999px;
+			height: 8px;
+			width: 8px;
+		}
+
+		.bj-pagination-dot.is-selected {
+			background: #fff;
+		}
+
+		.bj-cover-image {
+			display: block;
+			height: 100%;
+			object-fit: cover;
+			user-select: none;
+			width: 100%;
+		}
+
+		.bj-gradient {
+			height: 100%;
+			inset: 0;
+			pointer-events: none;
+			position: absolute;
+			width: 100%;
+		}
+
+		.bj-rounded-caption {
+			box-decoration-break: clone;
+			-webkit-box-decoration-break: clone;
+			overflow-wrap: break-word;
+			white-space: pre-wrap;
+		}
+
+		.bj-rounded-caption-box {
+			position: relative;
+		}
+
+		.bj-rounded-caption-box.is-rendered > .bj-rounded-caption-fallback {
+			display: none !important;
+		}
+
+		.bj-rounded-caption-path {
+			inset: 0;
+			overflow: visible;
+			pointer-events: none;
+			position: absolute;
+		}
+
+		.bj-rounded-caption-lines {
+			position: relative;
+		}
+
+		.bj-rounded-caption-line {
+			box-sizing: border-box;
+			white-space: nowrap;
+		}
+
+		.bj-content-slide {
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			justify-content: flex-start;
+			padding: 40px 24px 40px;
+			width: 100%;
+		}
+
+		.bj-content-slide-inner {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: auto;
+			margin-top: auto;
+			min-height: 0;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.bj-content-headline {
+			font-size: 28px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 1.2;
+			margin-bottom: 20px;
+		}
+
+		.bj-content-text {
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.38;
+			margin-bottom: 18px;
+		}
+
+		.bj-bullet-row {
+			align-items: flex-start;
+			display: flex;
+			font-size: 19px;
+			font-weight: 500;
+			gap: 10px;
+			line-height: 1.5;
+			margin-top: 8px;
+		}
+
+		.bj-code-window,
+		.bj-latex-card {
+			border-radius: 6px;
+			margin-bottom: 20px;
+			overflow: hidden;
+		}
+
+		.bj-code-chrome {
+			align-items: center;
+			display: flex;
+			gap: 6px;
+			padding: 10px 14px;
+		}
+
+		.bj-code-dot {
+			border-radius: 999px;
+			height: 10px;
+			width: 10px;
+		}
+
+		.bj-code-pre {
+			font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace;
+			font-size: 15px;
+			line-height: 1.6;
+			margin: 0;
+			overflow: hidden;
+			padding: 16px 18px;
+			white-space: pre-wrap;
+			word-break: break-word;
+		}
+
+		.bj-latex-card {
+			align-items: center;
+			display: flex;
+			font-size: 24px;
+			justify-content: center;
+			line-height: 1.4;
+			padding: 22px 22px;
+			text-align: center;
+			width: 100%;
+		}
+
+		.bj-template-CodeLatexSlideshowTemplate .bj-latex-card {
+			align-self: center;
+			font-size: 22px;
+			width: calc(100% - 34px);
+		}
+
+		.bj-latex-content {
+			display: inline-block;
+			max-width: 100%;
+			overflow: hidden;
+		}
+	</style>
+<style id="alesia-hide-template-bottom-caption">
+	div[style*="padding:0 0 120px"] {
+		display: none !important;
+	}
+</style>
+</head><body><div class="bj-slideshow-viewport bj-template-POVSlideshowTemplate"><main class="bj-slideshow-stage" data-brainjuice-slideshow="true" data-slide-duration-ms="10000"><audio data-brainjuice-slideshow-audio="true" data-volume="0.22" loop="" preload="auto" src="assets/music-rain-on-rhodes.mp3"></audio><div class="bj-embla"><div class="bj-embla__container"><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-1.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-2.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-3.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-4.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-5.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-6.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-7.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-8.png"/><div class="bj-gradient" style="background:none"></div></section><section class="bj-embla__slide"><img alt="" class="bj-cover-image" draggable="false" src="assets/slide-9.png"/><div class="bj-gradient" style="background:none"></div></section></div></div><div class="bj-pagination"><div aria-hidden="true" class="bj-pagination-dot is-selected"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div><div aria-hidden="true" class="bj-pagination-dot"></div></div></main></div><script src="brainjuice/runtime/html-slideshow/embla/8.6.0/embla-carousel-8.6.0.umd.js"></script><script src="brainjuice/runtime/html-slideshow/embla/8.6.0/embla-carousel-autoplay-8.6.0.umd.js"></script><script>
+(() => {
+	const stage = document.querySelector(".bj-slideshow-stage");
+	const root = document.querySelector("[data-brainjuice-slideshow]");
+	const emblaNode = document.querySelector(".bj-embla");
+	const dots = Array.from(document.querySelectorAll(".bj-pagination-dot"));
+	const slideDurationMs = Number(root && root.dataset.slideDurationMs) || 10000;
+	const audio = document.querySelector("audio[data-brainjuice-slideshow-audio]");
+	const audioStartDelayMs = 500;
+	const TAP_THRESHOLD_PX = 5;
+	const logPrefix = "[Brainjuice HTML Slideshow]";
+	let embla = null;
+	let autoplay = null;
+	let latestCommandId = null;
+	let playing = false;
+	let pointerDown = null;
+	let pendingAudioStart = null;
+
+	
+	function parseCaptionPadding(input) {
+		const parts = String(input || "")
+			.trim()
+			.split(/\s+/)
+			.filter(Boolean)
+			.map(function (part) {
+				const value = Number.parseFloat(part);
+				return Number.isFinite(value) ? value : 0;
+			});
+		const top = parts[0] || 0;
+		const right = parts.length > 1 ? parts[1] : top;
+		const bottom = parts.length > 2 ? parts[2] : top;
+		const left = parts.length > 3 ? parts[3] : right;
+		return { top: top, right: right, bottom: bottom, left: left };
+	}
+
+	function clamp(value, min, max) {
+		return Math.min(Math.max(value, min), max);
+	}
+
+	function commandToPath(command) {
+		if (command.type === "M" || command.type === "L") {
+			return command.type + " " + command.x + " " + command.y;
+		}
+		if (command.type === "A") {
+			return [
+				"A",
+				command.rx,
+				command.ry,
+				command.xAxisRotation,
+				command.largeArcFlag ? 1 : 0,
+				command.sweepFlag ? 1 : 0,
+				command.x,
+				command.y
+			].join(" ");
+		}
+		return "Z";
+	}
+
+	function createRoundedTextBoxPath(args) {
+		const textMeasurements = args.textMeasurements;
+		const textAlign = args.textAlign;
+		const horizontalPadding = args.horizontalPadding;
+		const borderRadius = args.borderRadius;
+		const instructions = [];
+		let maxWidth = 0;
+		for (const line of textMeasurements) {
+			maxWidth = Math.max(maxWidth, line.width + horizontalPadding * 2);
+		}
+
+		let yOffset = 0;
+		for (let i = 0; i < textMeasurements.length; i++) {
+			const previousLine = textMeasurements[i - 1];
+			const currentLine = textMeasurements[i];
+			const nextLine = textMeasurements[i + 1];
+			let xOffset = 0;
+			if (textAlign === "center") {
+				xOffset = (maxWidth - (currentLine.width + horizontalPadding * 2)) / 2;
+			} else if (textAlign === "right") {
+				xOffset = maxWidth - (currentLine.width + horizontalPadding * 2);
+			}
+			const maxCornerRadius = clamp(borderRadius, 0, currentLine.height / 2);
+			if (i === 0) {
+				instructions.push({ type: "M", x: xOffset + maxCornerRadius, y: yOffset });
+			}
+
+			const topRightCornerRadius = clamp(
+				previousLine
+					? textAlign === "right"
+						? 0
+						: textAlign === "left"
+							? (previousLine.width - currentLine.width) / 2
+							: (previousLine.width - currentLine.width) / 4
+					: -Infinity,
+				-maxCornerRadius,
+				maxCornerRadius
+			);
+			if (topRightCornerRadius !== 0) {
+				instructions.push({
+					type: "L",
+					x: xOffset + currentLine.width + horizontalPadding * 2 + topRightCornerRadius,
+					y: yOffset
+				});
+				instructions.push({
+					type: "A",
+					rx: Math.abs(topRightCornerRadius),
+					ry: Math.abs(topRightCornerRadius),
+					xAxisRotation: 0,
+					largeArcFlag: false,
+					sweepFlag: topRightCornerRadius < 0,
+					x: xOffset + currentLine.width + horizontalPadding * 2,
+					y: yOffset + Math.abs(topRightCornerRadius)
+				});
+			} else {
+				instructions.push({
+					type: "L",
+					x: xOffset + currentLine.width + horizontalPadding * 2,
+					y: yOffset
+				});
+			}
+
+			const bottomRightCornerRadius = clamp(
+				nextLine
+					? textAlign === "right"
+						? 0
+						: textAlign === "left"
+							? (nextLine.width - currentLine.width) / 2
+							: (nextLine.width - currentLine.width) / 4
+					: -Infinity,
+				-maxCornerRadius,
+				maxCornerRadius
+			);
+			if (bottomRightCornerRadius !== 0) {
+				instructions.push({
+					type: "L",
+					x: xOffset + currentLine.width + horizontalPadding * 2,
+					y: yOffset + currentLine.height - Math.abs(bottomRightCornerRadius)
+				});
+				instructions.push({
+					type: "A",
+					rx: Math.abs(bottomRightCornerRadius),
+					ry: Math.abs(bottomRightCornerRadius),
+					xAxisRotation: 0,
+					largeArcFlag: false,
+					sweepFlag: bottomRightCornerRadius < 0,
+					x: xOffset + currentLine.width + horizontalPadding * 2 + bottomRightCornerRadius,
+					y: yOffset + currentLine.height
+				});
+			} else {
+				instructions.push({
+					type: "L",
+					x: xOffset + currentLine.width + horizontalPadding * 2,
+					y: yOffset + currentLine.height
+				});
+			}
+			yOffset += currentLine.height;
+		}
+
+		for (let i = textMeasurements.length - 1; i >= 0; i--) {
+			const currentLine = textMeasurements[i];
+			const previousCornerLine = textMeasurements[i + 1];
+			const nextCornerLine = textMeasurements[i - 1];
+			let xOffset = 0;
+			if (textAlign === "center") {
+				xOffset = (maxWidth - (currentLine.width + horizontalPadding * 2)) / 2;
+			} else if (textAlign === "right") {
+				xOffset = maxWidth - (currentLine.width + horizontalPadding * 2);
+			}
+			const maxCornerRadius = clamp(borderRadius, 0, currentLine.height / 2);
+			const bottomLeftWidthDifference = previousCornerLine
+				? previousCornerLine.width - currentLine.width
+				: -Infinity;
+			const bottomLeftCornerRadius = clamp(
+				previousCornerLine
+					? textAlign === "left"
+						? 0
+						: textAlign === "right"
+							? bottomLeftWidthDifference / 2
+							: bottomLeftWidthDifference / 4
+					: -Infinity,
+				-maxCornerRadius,
+				maxCornerRadius
+			);
+			if (bottomLeftCornerRadius !== 0) {
+				instructions.push({
+					type: "L",
+					x: xOffset - bottomLeftCornerRadius,
+					y: yOffset
+				});
+				instructions.push({
+					type: "A",
+					rx: Math.abs(bottomLeftCornerRadius),
+					ry: Math.abs(bottomLeftCornerRadius),
+					xAxisRotation: 0,
+					largeArcFlag: false,
+					sweepFlag: bottomLeftCornerRadius < 0,
+					x: xOffset,
+					y: yOffset - Math.abs(bottomLeftCornerRadius)
+				});
+			} else {
+				instructions.push({ type: "L", x: xOffset, y: yOffset });
+			}
+
+			const topLeftWidthDifference = nextCornerLine
+				? nextCornerLine.width - currentLine.width
+				: -Infinity;
+			const topLeftCornerRadius = clamp(
+				nextCornerLine
+					? textAlign === "left"
+						? 0
+						: textAlign === "right"
+							? topLeftWidthDifference / 2
+							: topLeftWidthDifference / 4
+					: -Infinity,
+				-maxCornerRadius,
+				maxCornerRadius
+			);
+			if (topLeftCornerRadius !== 0) {
+				instructions.push({
+					type: "L",
+					x: xOffset,
+					y: yOffset - currentLine.height + Math.abs(topLeftCornerRadius)
+				});
+				instructions.push({
+					type: "A",
+					rx: Math.abs(topLeftCornerRadius),
+					ry: Math.abs(topLeftCornerRadius),
+					xAxisRotation: 0,
+					largeArcFlag: false,
+					sweepFlag: topLeftCornerRadius < 0,
+					x: xOffset - topLeftCornerRadius,
+					y: yOffset - currentLine.height
+				});
+			} else {
+				instructions.push({
+					type: "L",
+					x: xOffset,
+					y: yOffset - currentLine.height
+				});
+			}
+			yOffset -= currentLine.height;
+		}
+
+		instructions.push({ type: "Z" });
+		return {
+			d: instructions.map(commandToPath).join(" "),
+			height: textMeasurements.reduce(function (sum, line) {
+				return sum + line.height;
+			}, 0),
+			width: maxWidth
+		};
+	}
+
+	function setCaptionFont(ctx, style) {
+		ctx.font =
+			String(style.fontWeight || 400) +
+			" " +
+			String(style.fontSize || 16) +
+			"px " +
+			String(style.fontFamily || "sans-serif");
+	}
+
+	function measureCaptionLine(ctx, text, style) {
+		setCaptionFont(ctx, style);
+		return ctx.measureText(text || " ").width;
+	}
+
+	function wrapCaptionParagraph(ctx, paragraph, maxTextWidth, style) {
+		const tokens = String(paragraph).split(/\s+/).filter(Boolean);
+		if (tokens.length === 0) return [""];
+		const lines = [];
+		let current = "";
+		for (const token of tokens) {
+			const candidate = current ? current + " " + token : token;
+			if (!current || measureCaptionLine(ctx, candidate, style) <= maxTextWidth) {
+				current = candidate;
+			} else {
+				lines.push(current);
+				current = token;
+			}
+		}
+		if (current) lines.push(current);
+		return lines;
+	}
+
+	function applyRoundedCaptionBox(node) {
+		if (!node) return;
+		if (node.dataset.roundedRendered === "true") {
+			for (const renderedChild of Array.from(
+				node.querySelectorAll(".bj-rounded-caption-path, .bj-rounded-caption-lines")
+			)) {
+				renderedChild.remove();
+			}
+			node.dataset.roundedRendered = "false";
+			node.classList.remove("is-rendered");
+		}
+		let style;
+		try {
+			style = JSON.parse(node.dataset.captionStyle || "{}");
+		} catch (error) {
+			console.warn(logPrefix, "rounded caption style parse failed", error);
+			return;
+		}
+		if (!style || style.lineBackground === "none") return;
+
+		const maxWidth = Number(node.dataset.maxWidth) || 1;
+		const text = node.dataset.text || "";
+		const padding = parseCaptionPadding(style.lineBackgroundPadding);
+		const maxTextWidth = Math.max(1, maxWidth - padding.left - padding.right);
+		const canvas = applyRoundedCaptionBox.canvas || document.createElement("canvas");
+		applyRoundedCaptionBox.canvas = canvas;
+		const ctx = canvas.getContext("2d");
+		if (!ctx) return;
+
+		const lines = text.split("\n").flatMap(function (paragraph) {
+			return wrapCaptionParagraph(ctx, paragraph, maxTextWidth, style);
+		});
+		const lineHeight = Number(style.fontSize || 16) * Number(style.lineHeight || 1.2);
+		const textMeasurements = lines.map(function (line) {
+			return {
+				height: lineHeight + padding.top + padding.bottom,
+				width: measureCaptionLine(ctx, line, style)
+			};
+		});
+		const box = createRoundedTextBoxPath({
+			borderRadius: Number(style.lineBorderRadius || 0),
+			horizontalPadding: padding.left,
+			textAlign: style.textAlign || "left",
+			textMeasurements: textMeasurements
+		});
+
+		const svgNs = "http://www.w3.org/2000/svg";
+		const svg = document.createElementNS(svgNs, "svg");
+		svg.setAttribute("aria-hidden", "true");
+		svg.setAttribute("class", "bj-rounded-caption-path");
+		svg.setAttribute("focusable", "false");
+		svg.setAttribute("height", String(box.height));
+		svg.setAttribute("viewBox", "0 0 " + box.width + " " + box.height);
+		svg.setAttribute("width", String(box.width));
+		const path = document.createElementNS(svgNs, "path");
+		path.setAttribute("d", box.d);
+		path.setAttribute("fill", style.lineBackground);
+		svg.appendChild(path);
+
+		const linesNode = document.createElement("div");
+		linesNode.className = "bj-rounded-caption-lines";
+		for (const line of lines) {
+			const lineNode = document.createElement("div");
+			lineNode.className = "bj-rounded-caption-line";
+			lineNode.textContent = line || "\u00a0";
+			lineNode.style.color = style.color;
+			lineNode.style.fontFamily = style.fontFamily;
+			lineNode.style.fontSize = String(style.fontSize) + "px";
+			lineNode.style.fontWeight = String(style.fontWeight);
+			lineNode.style.lineHeight = String(style.lineHeight);
+			lineNode.style.padding =
+				padding.top + "px " +
+				padding.right + "px " +
+				padding.bottom + "px " +
+				padding.left + "px";
+			lineNode.style.textAlign = style.textAlign || "left";
+			if (style.textShadow) lineNode.style.textShadow = style.textShadow;
+			if (style.textStroke && style.textStroke !== "none") {
+				lineNode.style.webkitTextStroke = style.textStroke;
+			}
+			linesNode.appendChild(lineNode);
+		}
+
+		node.style.height = String(box.height) + "px";
+		node.style.marginLeft = style.textAlign === "center" ? "auto" : "";
+		node.style.marginRight = style.textAlign === "center" ? "auto" : "";
+		node.style.width = String(box.width) + "px";
+		node.appendChild(svg);
+		node.appendChild(linesNode);
+		node.dataset.roundedRendered = "true";
+		node.classList.add("is-rendered");
+	}
+
+	function applyRoundedCaptionBoxes() {
+		const nodes = Array.from(document.querySelectorAll("[data-bj-rounded-caption-box]"));
+		for (const node of nodes) {
+			applyRoundedCaptionBox(node);
+		}
+	}
+
+
+	try {
+		if (navigator.audioSession) {
+			navigator.audioSession.type = "playback";
+		}
+	} catch (error) {
+		console.warn(logPrefix, "audioSession setup failed", error);
+	}
+
+	console.log(logPrefix, "boot", {
+		pageUrl: window.location.href,
+		slideDurationMs: slideDurationMs,
+		slideCount: dots.length
+	});
+
+	function post(type, data) {
+		const message = JSON.stringify({
+			data: data || {},
+			type: type
+		});
+		if (window.ReactNativeWebView) {
+			window.ReactNativeWebView.postMessage(message);
+			return;
+		}
+		window.parent && window.parent.postMessage({
+			source: "brainjuice-html-slideshow",
+			type: type,
+			data: data || {}
+		}, "*");
+	}
+
+	function updateScale() {
+		if (!stage) return;
+		const scale = Math.max(
+			window.innerWidth / 392,
+			window.innerHeight / 768
+		);
+		stage.style.setProperty("--bj-stage-scale", String(scale));
+	}
+
+	let playbackReady = false;
+
+	function postPlaybackReady(audioState, data) {
+		if (playbackReady) return;
+		playbackReady = true;
+		const payload = data || {};
+		payload.audio = audioState;
+		post("brainjuice:html-slideshow:playback-ready", payload);
+	}
+
+	function preparePlaybackReady() {
+		postPlaybackReady(audio ? "webview" : "none", {});
+	}
+
+	function clearPendingAudioStart() {
+		if (!pendingAudioStart) return;
+		window.clearTimeout(pendingAudioStart);
+		pendingAudioStart = null;
+	}
+
+	function configureAudio() {
+		if (!audio) return;
+		const volume = Number(audio.dataset.volume);
+		audio.loop = true;
+		audio.preload = "auto";
+		audio.volume = Number.isFinite(volume) ? volume : 0.22;
+		audio.load && audio.load();
+	}
+
+	function startAudio() {
+		if (!audio) return;
+		clearPendingAudioStart();
+		pendingAudioStart = window.setTimeout(function () {
+			pendingAudioStart = null;
+			audio.play().catch(function (error) {
+				console.warn(logPrefix, "audio play failed", error);
+				post("brainjuice:html-slideshow:error", {
+					message: error && error.message ? error.message : String(error),
+					source: "audio-play"
+				});
+			});
+		}, audioStartDelayMs);
+	}
+
+	function pauseAudio(resetOnPause) {
+		if (!audio) return;
+		clearPendingAudioStart();
+		audio.pause();
+		if (resetOnPause) {
+			try {
+				audio.currentTime = 0;
+			} catch (error) {
+				console.warn(logPrefix, "audio reset failed", error);
+			}
+		}
+	}
+
+	function syncDots() {
+		const index = embla && embla.selectedScrollSnap ? embla.selectedScrollSnap() : 0;
+		for (const [dotIndex, dot] of dots.entries()) {
+			dot.classList.toggle("is-selected", dotIndex === index);
+		}
+		post("brainjuice:html-slideshow:slidechange", { index: index });
+	}
+
+	function syncPlayback() {
+		const shouldPlay = playing;
+		console.log(logPrefix, "playback", {
+			playing: playing,
+			shouldPlay: shouldPlay
+		});
+		if (shouldPlay) {
+			autoplay && autoplay.reset && autoplay.reset();
+			autoplay && autoplay.play && autoplay.play();
+			startAudio();
+			return;
+		}
+
+		autoplay && autoplay.stop && autoplay.stop();
+	}
+
+	function postAck(command, state) {
+		if (!command || command.commandId !== latestCommandId) {
+			return;
+		}
+
+		post("brainjuice:html-slideshow:ack", {
+			commandId: command.commandId,
+			playerId: command.playerId,
+			postId: command.postId,
+			state: state
+		});
+	}
+
+	function normalizeCommand(data) {
+		const command = data && data.command === "PLAY" ? "PLAY" : "PAUSE";
+
+		return {
+			command: command,
+			commandId: data && typeof data.commandId === "string" ? data.commandId : null,
+			playerId: data && typeof data.playerId === "string" ? data.playerId : null,
+			postId: data && typeof data.postId === "string" ? data.postId : null,
+			resetOnPause: Boolean(data && data.resetOnPause)
+		};
+	}
+
+	function applyPlaybackCommand(command) {
+		if (!command.commandId) {
+			return;
+		}
+
+		latestCommandId = command.commandId;
+		playing = command.command === "PLAY";
+
+		if (!playing && command.resetOnPause) {
+			embla && embla.scrollTo && embla.scrollTo(0, true);
+			syncDots();
+		}
+
+		syncPlayback();
+		if (!playing) {
+			pauseAudio(command.resetOnPause);
+		}
+		postAck(command, playing ? "playing" : "paused");
+	}
+
+	function resetSlideshow() {
+		embla && embla.scrollTo && embla.scrollTo(0, true);
+		syncDots();
+	}
+
+	function initEmbla() {
+		if (!emblaNode || !window.EmblaCarousel || !window.EmblaCarouselAutoplay) {
+			throw new Error("Embla scripts did not load.");
+		}
+
+		autoplay = window.EmblaCarouselAutoplay({
+			delay: slideDurationMs,
+			playOnInit: false,
+			stopOnFocusIn: false,
+			stopOnInteraction: false,
+			stopOnMouseEnter: false
+		});
+		embla = window.EmblaCarousel(emblaNode, { align: "start", loop: true }, [
+			autoplay
+		]);
+		embla.on("reInit", syncDots);
+		embla.on("select", syncDots);
+		syncDots();
+		post("brainjuice:html-slideshow:runtime-ready", {
+			audio: audio ? "webview" : "none"
+		});
+		console.log(logPrefix, "runtime ready");
+		preparePlaybackReady();
+	}
+
+	window.__brainjuiceHtmlSlideshowDispatch = function (serializedMessage) {
+		try {
+			const message = JSON.parse(serializedMessage);
+			console.log(logPrefix, "dispatch", message.type, message.data);
+			if (message.type === "command") {
+				applyPlaybackCommand(normalizeCommand(message.data));
+				return true;
+			}
+			if (message.type === "reset") {
+				resetSlideshow();
+			}
+			return true;
+		} catch (error) {
+			console.warn(logPrefix, "dispatch failed", error);
+			post("brainjuice:html-slideshow:error", {
+				message: error && error.message ? error.message : String(error),
+				source: "dispatch"
+			});
+			return true;
+		}
+	};
+
+	window.addEventListener("resize", updateScale);
+	document.addEventListener("visibilitychange", function () {
+		if (!document.hidden && playing) {
+			syncPlayback();
+		}
+	});
+	window.addEventListener("message", function (event) {
+		if (!event.data || event.data.source !== "brainjuice") return;
+		if (event.data.type === "reset") {
+			resetSlideshow();
+		}
+	});
+
+	root && root.addEventListener("pointerdown", function (event) {
+		pointerDown = {
+			snap: embla && embla.selectedScrollSnap ? embla.selectedScrollSnap() : 0,
+			x: event.clientX,
+			y: event.clientY
+		};
+	});
+
+	root && root.addEventListener("pointerup", function (event) {
+		const down = pointerDown;
+		pointerDown = null;
+		if (!down || !embla) return;
+		if (embla.selectedScrollSnap() !== down.snap) return;
+		const dx = event.clientX - down.x;
+		const dy = event.clientY - down.y;
+		if (Math.sqrt(dx * dx + dy * dy) > TAP_THRESHOLD_PX) return;
+		post("brainjuice:html-slideshow:togglePlayPause", {});
+	});
+
+	try {
+		updateScale();
+		applyRoundedCaptionBoxes();
+		configureAudio();
+		if (document.fonts && document.fonts.ready) {
+			document.fonts.ready.then(applyRoundedCaptionBoxes).catch(function () {});
+		}
+		initEmbla();
+	} catch (error) {
+		console.warn(logPrefix, "init failed", error);
+		post("brainjuice:html-slideshow:error", {
+			message: error && error.message ? error.message : String(error),
+			source: "init"
+		});
+	}
+})();
+</script></body></html>

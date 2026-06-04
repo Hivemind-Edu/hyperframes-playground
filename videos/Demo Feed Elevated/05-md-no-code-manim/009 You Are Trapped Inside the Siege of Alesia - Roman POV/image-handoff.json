@@ -1,0 +1,67 @@
+{
+  "generator": "built-in image_gen tool",
+  "sourceDirectory": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518",
+  "notes": [
+    "Still images only.",
+    "No image-to-video, Grok, background video, or voiceover assets were used.",
+    "Images are portrait PNGs copied into the artifact assets directory.",
+    "Captions are now baked into the images as centered snapshot-story text with generous side padding.",
+    "The original uncaptioned project copies are preserved in assets/source-slides-before-story-overlay/."
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "asset": "assets/slide-1.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a2082ddfc5c819191cfb7c37b37f361.png",
+      "text": "We thought we were here to take the city."
+    },
+    {
+      "slide": 2,
+      "asset": "assets/slide-2.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a20831cb508819181645e5518fec0ee.png",
+      "text": "Then Caesar told us to dig around it."
+    },
+    {
+      "slide": 3,
+      "asset": "assets/slide-3.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a20835cfb9c8191954d1ec603e829d3.png",
+      "text": "Every day the circle gets tighter."
+    },
+    {
+      "slide": 4,
+      "asset": "assets/slide-4.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a2083cc69008191aa8389e66d6f12dc.png",
+      "text": "The men on the hill have started watching silently."
+    },
+    {
+      "slide": 5,
+      "asset": "assets/slide-5.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a2083fa16c88191a5caf1820a828460.png",
+      "text": "Scouts say their relief army is close."
+    },
+    {
+      "slide": 6,
+      "asset": "assets/slide-6.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a20847687b0819198bda903209c110d.png",
+      "text": "So we build another wall behind us."
+    },
+    {
+      "slide": 7,
+      "asset": "assets/slide-7.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a2084a43d948191936b00964ceec3db.png",
+      "text": "Tonight they came from both sides."
+    },
+    {
+      "slide": 8,
+      "asset": "assets/slide-8.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a208521c470819189caa8ac4eb9489f.png",
+      "text": "Caesar rode the line himself."
+    },
+    {
+      "slide": 9,
+      "asset": "assets/slide-9.png",
+      "source": "/Users/victorbellu/.codex/generated_images/019e8efe-91de-7ef0-a386-18f3aafd9518/ig_09dd7649536a687e016a208568b4888191947e9a4507e61906.png",
+      "text": "Morning. The walls held. Alesia did not."
+    }
+  ]
+}
