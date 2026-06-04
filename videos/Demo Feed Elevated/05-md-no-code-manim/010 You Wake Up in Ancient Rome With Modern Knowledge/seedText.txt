@@ -1,0 +1,188 @@
+TOPIC_CLUSTER: Ancient history / systems
+TEMPLATE: AnimatedVideoTemplate
+ROLE: scenario
+SUBROLE: day_by_day
+TITLE: You Wake Up in Ancient Rome With Modern Knowledge
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+- `AnimatedVideoTemplate / scenario / day_by_day` normally includes two black-screen beats. Because this demo animates every animated scene, I replaced those with animatable pressure beats. Confirm if you want strict black screens instead.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Create a scenario video where a present-day person wakes up in ancient Rome with modern knowledge. Do not make it wish fulfillment. Show that ideas are useless without supply chains, measurement tools, sanitation systems, literacy, institutions, capital, political protection, and labor. Escalate through practical failures: explaining electricity, germ theory, finance, and engineering in a world missing the infrastructure to use them.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 10. You Wake Up in Ancient Rome With Modern Knowledge
+
+Template: `AnimatedVideoTemplate`
+Role/subrole: `scenario / day_by_day`
+Scene count: 29
+Style: `tartakovsky`
+Title overlay: `Modern Engineering in Ancient Rome`
+
+Scene 0:
+script: "What if a modern water engineer"
+imageDescription: "Bold graphic Roman street. A person in modern clothes stands frozen among toga-clad pedestrians, aqueduct arches towering behind them in flat bands of crimson and gold."
+animation: "a modern engineer standing rigid in a Roman street as toga-clad pedestrians brush past and their jacket flutters in the hot wind"
+
+Scene 1:
+script: "woke up in ancient Rome?"
+imageDescription: "The engineer sits at a rough tavern table opposite a Roman surveyor with bronze measuring rods, both framed by stone arches and clay cups."
+animation: "a Roman surveyor sliding bronze measuring rods across a tavern table while the engineer leans forward in disbelief"
+
+Scene 2:
+script: "Day 1: You wake beside the Forum."
+imageDescription: "The engineer rises from stone pavement near the Forum, surrounded by sandals, carts, columns, and early morning market smoke."
+animation: "the engineer pushing up from stone pavement as market smoke curls and cart wheels rattle past"
+
+Scene 3:
+script: "Phone dead. Shoes wrong. Latin everywhere."
+imageDescription: "Close composition of the engineer's dead phone, modern sneakers, and wax tablets held by passing Romans, all clashing visually in the same frame."
+animation: "the engineer turning a dead phone in one hand while Roman passersby glance down at the strange shoes"
+
+Scene 4:
+script: "Then you smell the part the marble hides."
+imageDescription: "A grand marble street slopes toward a filthy drainage channel beside crowded apartment blocks. Wealthy citizens step around runoff while poorer residents carry buckets."
+animation: "dirty water crawling through a street gutter as residents lift buckets and wealthy pedestrians gather their robes away from the runoff"
+
+Scene 5:
+script: "Day 2: The water official inspects an aqueduct."
+imageDescription: "A Roman water official in formal tunic stands under aqueduct arches, surrounded by workers, bronze tools, and flowing channels."
+animation: "a water official tapping a bronze rod against the aqueduct channel as workers shift nervously around him"
+
+Scene 6:
+script: "He measures by rank, habit, and favors."
+imageDescription: "A distribution basin with several bronze outlets. One pipe to a rich villa is wide and polished; a pipe to an apartment district is narrow and corroded."
+animation: "water surging through a wide polished villa pipe while a narrow apartment pipe sputters weakly beside it"
+
+Scene 7:
+script: "Illegal pipes hide under respectable stone."
+imageDescription: "A cutaway of a Roman street showing secret side pipes branching from the public water line into private courtyards."
+animation: "hidden side pipes pulsing with stolen water beneath paving stones as workers above walk unknowingly across them"
+
+Scene 8:
+script: "The rich get fountains. The upper floors get thirst."
+imageDescription: "Split vertical Roman apartment scene. Ground-level villa courtyard fountain sprays bright water; high insula residents lean from windows with empty jars."
+animation: "a villa fountain splashing steadily below while high apartment residents tilt empty jars and look down from cramped windows"
+
+Scene 9:
+script: "Day 3: You draw the system in wax."
+imageDescription: "The engineer kneels beside a wax tablet, sketching basin levels, pipe diameters, and numbered outlets while workers gather around."
+animation: "the engineer dragging a stylus through wax as workers lean closer and torchlight flickers across their faces"
+
+Scene 10:
+script: "Same water. Calibrated outlets. Public measurements."
+imageDescription: "A clean diagram on wax tablets: equalized pipe openings, marked bronze gauges, and a public ledger beside the distribution basin."
+animation: "bronze outlet rings sliding into equal alignment on a wax diagram as measurement marks glow one by one"
+
+Scene 11:
+script: "A builder asks who gave you authority."
+imageDescription: "A broad Roman contractor blocks the engineer near a basin, arms crossed, gold rings visible, workers hesitating behind him."
+animation: "a contractor folding his ringed arms in front of the engineer as workers behind him lower their tools"
+
+Scene 12:
+script: "You say water theft hides inside bad measurements."
+imageDescription: "Close view of two bronze pipe openings, one secretly widened. The engineer points at the difference while workers see it for the first time."
+animation: "the engineer pointing between two pipe openings as the widened illegal outlet trembles with flowing water"
+
+Scene 13:
+script: "The workers understand before the officials do."
+imageDescription: "Aqueduct workers exchange looks around a basin, then begin comparing pipe openings with measuring rods."
+animation: "workers lifting measuring rods to pipe mouths as their heads turn toward one another in sudden recognition"
+
+Scene 14:
+script: "By sunset, the quiet pipes are being checked."
+imageDescription: "Orange Roman sunset. Workers open paving stones along a narrow street while residents watch from doorways."
+animation: "workers prying up paving stones as residents lean from doorways and sunset light flashes across exposed pipes"
+
+Scene 15:
+script: "Day 4: The contractors hear your name."
+imageDescription: "A smoky dining room. Wealthy contractors sit over wine, ledgers, and water-right tablets while one slams a fist on the table."
+animation: "a contractor slamming his fist beside water-right tablets as wine cups wobble and lamp smoke twists upward"
+
+Scene 16:
+script: "Guards arrive before breakfast."
+imageDescription: "Two city guards stand in a narrow apartment stairwell, spears blocking the engineer's door while morning light cuts across the walls."
+animation: "guards planting spears across a doorway as the engineer steps back and morning dust drifts through the stairwell"
+
+Scene 17:
+script: "They leave the diagram untouched."
+imageDescription: "A magistrate's clerk reads from a tablet while the engineer stands beside confiscated measuring rods."
+animation: "a clerk reading from a wax tablet as the engineer's confiscated measuring rods clatter onto a table"
+
+Scene 18:
+script: "They call you unauthorized."
+imageDescription: "Roman administrative office. A seal is pressed into wax over the engineer's drawing, partially obscuring the water diagram."
+animation: "a heavy seal pressing into hot wax across the engineer's water diagram as the wax spreads over the lines"
+
+Scene 19:
+script: "Day 5: A Greek surveyor sits beside you."
+imageDescription: "An older Greek surveyor with tired eyes sits beside the engineer on stone steps, carrying a groma staff and rolled plans."
+animation: "an older surveyor lowering himself onto stone steps beside the engineer as his rolled plans slide against his knee"
+
+Scene 20:
+script: "He says Rome loves numbers until numbers cost money."
+imageDescription: "The surveyor points toward a villa fountain, then toward the dry upper floors of an insula across the street."
+animation: "the surveyor pointing from a splashing villa fountain to dry apartment windows as the engineer follows his gesture"
+
+Scene 21:
+script: "You tell him the gauges stay public."
+imageDescription: "The engineer pins a wax measurement board beside a public basin while residents gather in the street."
+animation: "the engineer fastening a measurement board to a basin wall as residents step closer and murmurs ripple through the crowd"
+
+Scene 22:
+script: "He smiles like he has waited years."
+imageDescription: "Close on the surveyor's lined face under hard sunset color, a small smile forming as he watches the residents read the board."
+animation: "the surveyor's mouth lifting into a small smile as sunset wind moves the edge of his cloak"
+
+Scene 23:
+script: "Day 6: A magistrate demands the tablets."
+imageDescription: "A magistrate in white-bordered toga stands on a raised step, hand extended, guards behind him, crowd pressed around the basin."
+animation: "a magistrate extending his hand for the tablets as guards shift behind him and the crowd tightens around the basin"
+
+Scene 24:
+script: "He says the old system keeps order."
+imageDescription: "The magistrate gestures toward wealthy patrons watching from a shaded portico while workers and residents stand in direct sun."
+animation: "the magistrate gesturing toward shaded patrons as residents in the sun clutch water jars and stare back"
+
+Scene 25:
+script: "The workers keep copying your numbers."
+imageDescription: "Instead of black screen: workers kneel in different corners of the street, copying gauge marks onto wax tablets by torchlight."
+animation: "workers scratching numbers into wax tablets by torchlight as their hands move quickly and torch flames shake"
+
+Scene 26:
+script: "Day 7: They come for you at dawn."
+imageDescription: "City guards march through a pale dawn street toward the basin, spears upright, sandals hitting stone in a hard rhythm."
+animation: "guards marching through a dawn street as spear tips bob in unison and pale light spreads between buildings"
+
+Scene 27:
+script: "The street is already full."
+imageDescription: "A dense crowd of residents, workers, and water carriers surrounds the public basin, each holding copied measurement tablets."
+animation: "residents raising copied wax tablets around a public basin as workers step forward shoulder to shoulder"
+
+Scene 28:
+script: "Rome needs no future machine. It needs honest measurements."
+imageDescription: "Final graphic composition: the engineer stands beside the basin while workers measure equal outlets in front of a crowd, aqueduct arches blazing behind them."
+animation: "workers aligning bronze gauges on the basin outlets as the crowd watches and aqueduct water flows steadily behind them"

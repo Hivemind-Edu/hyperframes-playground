@@ -1,0 +1,2841 @@
+{
+  "styleId": "tartakovsky",
+  "layoutId": "single_3x3_landscape",
+  "timeline": {
+    "totalDuration": 69.09,
+    "scenes": [
+      {
+        "script": "What if a modern water engineer",
+        "startTime": 0,
+        "endTime": 1.59,
+        "audioFilePath": "audio.mp3",
+        "mediaFilePath": "panel-1.mp4",
+        "bgFilePath": "panel-bg-1.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "blurThrough",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-cinematic-boom-405463.m4a"
+      },
+      {
+        "script": "woke up in ancient Rome?",
+        "startTime": 1.59,
+        "endTime": 2.81,
+        "mediaFilePath": "panel-2.mp4",
+        "bgFilePath": "panel-bg-2.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "directionalBlur"
+      },
+      {
+        "script": "Day 1: You wake beside the Forum.",
+        "startTime": 2.81,
+        "endTime": 5.14,
+        "mediaFilePath": "panel-3.mp4",
+        "bgFilePath": "panel-bg-3.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "overlay": "fog",
+        "transition": "staggeredColorBlocks",
+        "soundEffect": "staticVideoAssets/sfx/crowd_murmur.m4a"
+      },
+      {
+        "script": "Phone dead. Shoes wrong. Latin everywhere.",
+        "startTime": 5.14,
+        "endTime": 8.47,
+        "mediaFilePath": "panel-4.mp4",
+        "bgFilePath": "panel-bg-4.png",
+        "mediaType": "video",
+        "camera": "pan_right",
+        "transition": "horizontalBlinds"
+      },
+      {
+        "script": "Then you smell the part the marble hides.",
+        "startTime": 8.47,
+        "endTime": 10.82,
+        "mediaFilePath": "panel-5.mp4",
+        "bgFilePath": "panel-bg-5.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "verticalBlinds",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-riser-swoosh-transition-390289.m4a"
+      },
+      {
+        "script": "Day 2: The water official inspects an aqueduct.",
+        "startTime": 10.82,
+        "endTime": 14.12,
+        "mediaFilePath": "panel-6.mp4",
+        "bgFilePath": "panel-bg-6.png",
+        "mediaType": "video",
+        "camera": "static",
+        "overlay": "dust",
+        "transition": "pageBurn"
+      },
+      {
+        "script": "He measures by rank, habit, and favors.",
+        "startTime": 14.12,
+        "endTime": 16.88,
+        "mediaFilePath": "panel-7.mp4",
+        "bgFilePath": "panel-bg-7.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "crossfade"
+      },
+      {
+        "script": "Illegal pipes hide under respectable stone.",
+        "startTime": 16.88,
+        "endTime": 19.51,
+        "mediaFilePath": "panel-8.mp4",
+        "bgFilePath": "panel-bg-8.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "blurCrossfade"
+      },
+      {
+        "script": "The rich get fountains. The upper floors get thirst.",
+        "startTime": 19.51,
+        "endTime": 22.5,
+        "mediaFilePath": "panel-9.mp4",
+        "bgFilePath": "panel-bg-9.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "focusPull"
+      },
+      {
+        "script": "Day 3: You draw the system in wax.",
+        "startTime": 22.5,
+        "endTime": 24.94,
+        "mediaFilePath": "panel-10.mp4",
+        "bgFilePath": "panel-bg-10.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "colorDip",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-whoosh-cinematic-376875.m4a"
+      },
+      {
+        "script": "Same water. Calibrated outlets. Public measurements.",
+        "startTime": 24.94,
+        "endTime": 28.77,
+        "mediaFilePath": "panel-11.mp4",
+        "bgFilePath": "panel-bg-11.png",
+        "mediaType": "video",
+        "camera": "pan_left",
+        "transition": "glitch"
+      },
+      {
+        "script": "A builder asks who gave you authority.",
+        "startTime": 28.77,
+        "endTime": 30.73,
+        "mediaFilePath": "panel-12.mp4",
+        "bgFilePath": "panel-bg-12.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "dust",
+        "transition": "chromaticAberration"
+      },
+      {
+        "script": "You say water theft hides inside bad measurements.",
+        "startTime": 30.73,
+        "endTime": 33.21,
+        "mediaFilePath": "panel-13.mp4",
+        "bgFilePath": "panel-bg-13.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "ripple",
+        "soundEffect": "staticVideoAssets/sfx/universfield-impact-cinematic-boom-352465.m4a"
+      },
+      {
+        "script": "The workers understand before the officials do.",
+        "startTime": 33.21,
+        "endTime": 35.33,
+        "mediaFilePath": "panel-14.mp4",
+        "bgFilePath": "panel-bg-14.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "vhsTape"
+      },
+      {
+        "script": "By sunset, the quiet pipes are being checked.",
+        "startTime": 35.33,
+        "endTime": 37.68,
+        "mediaType": "image",
+        "camera": "static",
+        "transition": "gridDissolve",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-bass-drop-3-390300.m4a",
+        "blackScreen": true
+      },
+      {
+        "script": "Day 4: The contractors hear your name.",
+        "startTime": 37.68,
+        "endTime": 40.31,
+        "mediaFilePath": "panel-15.mp4",
+        "bgFilePath": "panel-bg-15.png",
+        "mediaType": "video",
+        "camera": "static",
+        "overlay": "fog",
+        "transition": "lightLeak"
+      },
+      {
+        "script": "Guards arrive before breakfast.",
+        "startTime": 40.31,
+        "endTime": 42.22,
+        "mediaFilePath": "panel-16.mp4",
+        "bgFilePath": "panel-bg-16.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "overexposureBurn"
+      },
+      {
+        "script": "They leave the diagram untouched.",
+        "startTime": 42.22,
+        "endTime": 44.26,
+        "mediaFilePath": "panel-17.mp4",
+        "bgFilePath": "panel-bg-17.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "filmBurn"
+      },
+      {
+        "script": "They call you unauthorized.",
+        "startTime": 44.26,
+        "endTime": 45.94,
+        "mediaFilePath": "panel-18.mp4",
+        "bgFilePath": "panel-bg-18.png",
+        "mediaType": "video",
+        "camera": "pan_right",
+        "transition": "shutter"
+      },
+      {
+        "script": "Day 5: A Greek surveyor sits beside you.",
+        "startTime": 45.94,
+        "endTime": 48.52,
+        "mediaFilePath": "panel-19.mp4",
+        "bgFilePath": "panel-bg-19.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "clockWipe",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-whoosh-cinematic-376875.m4a"
+      },
+      {
+        "script": "He says Rome loves numbers until numbers cost money.",
+        "startTime": 48.52,
+        "endTime": 51.82,
+        "mediaFilePath": "panel-20.mp4",
+        "bgFilePath": "panel-bg-20.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "gravityDrop"
+      },
+      {
+        "script": "You tell him the gauges stay public.",
+        "startTime": 51.82,
+        "endTime": 53.57,
+        "mediaFilePath": "panel-21.mp4",
+        "bgFilePath": "panel-bg-21.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "morphCircle",
+        "soundEffect": "staticVideoAssets/sfx/crowd_murmur.m4a"
+      },
+      {
+        "script": "He smiles like he has waited years.",
+        "startTime": 53.57,
+        "endTime": 55.74,
+        "mediaFilePath": "panel-22.mp4",
+        "bgFilePath": "panel-bg-22.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "elasticPush"
+      },
+      {
+        "script": "Day 6: A magistrate demands the tablets.",
+        "startTime": 55.74,
+        "endTime": 58.64,
+        "mediaFilePath": "panel-23.mp4",
+        "bgFilePath": "panel-bg-23.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "transition": "squeeze",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-riser-swoosh-transition-390289.m4a"
+      },
+      {
+        "script": "He says the old system keeps order.",
+        "startTime": 58.64,
+        "endTime": 60.51,
+        "mediaFilePath": "panel-24.mp4",
+        "bgFilePath": "panel-bg-24.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "circleIris"
+      },
+      {
+        "script": "The workers keep copying your numbers.",
+        "startTime": 60.51,
+        "endTime": 62.41,
+        "mediaType": "image",
+        "camera": "static",
+        "transition": "diamondIris",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-bass-drop-3-390300.m4a",
+        "blackScreen": true
+      },
+      {
+        "script": "Day 7: They come for you at dawn.",
+        "startTime": 62.41,
+        "endTime": 64.4,
+        "mediaFilePath": "panel-25.mp4",
+        "bgFilePath": "panel-bg-25.png",
+        "mediaType": "video",
+        "camera": "pan_right",
+        "transition": "diagonalSplit",
+        "soundEffect": "staticVideoAssets/sfx/boom-drop-in.m4a"
+      },
+      {
+        "script": "The street is already full.",
+        "startTime": 64.4,
+        "endTime": 66.07,
+        "mediaFilePath": "panel-26.mp4",
+        "bgFilePath": "panel-bg-26.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "overlay": "embers",
+        "transition": "zoomThrough"
+      },
+      {
+        "script": "Rome needs no future machine. It needs honest measurements.",
+        "startTime": 66.07,
+        "endTime": 69.09,
+        "mediaFilePath": "panel-27.mp4",
+        "bgFilePath": "panel-bg-27.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "zoomOut"
+      }
+    ]
+  },
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 530,
+        "startMs": 0,
+        "text": "What if a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 360,
+            "startMs": 0,
+            "text": "What",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 360
+          },
+          {
+            "confidence": null,
+            "endMs": 480,
+            "startMs": 360,
+            "text": " if",
+            "timestampMs": 360,
+            "fromMs": 360,
+            "toMs": 480
+          },
+          {
+            "confidence": null,
+            "endMs": 530,
+            "startMs": 480,
+            "text": " a",
+            "timestampMs": 480,
+            "fromMs": 480,
+            "toMs": 530
+          }
+        ]
+      },
+      {
+        "durationMs": 1060,
+        "startMs": 530,
+        "text": "modern water engineer",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 910,
+            "startMs": 530,
+            "text": " modern",
+            "timestampMs": 530,
+            "fromMs": 530,
+            "toMs": 910
+          },
+          {
+            "confidence": null,
+            "endMs": 1220,
+            "startMs": 910,
+            "text": " water",
+            "timestampMs": 910,
+            "fromMs": 910,
+            "toMs": 1220
+          },
+          {
+            "confidence": null,
+            "endMs": 1590,
+            "startMs": 1220,
+            "text": " engineer",
+            "timestampMs": 1220,
+            "fromMs": 1220,
+            "toMs": 1590
+          }
+        ]
+      },
+      {
+        "durationMs": 490,
+        "startMs": 1590,
+        "text": "woke up in",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1860,
+            "startMs": 1590,
+            "text": " woke",
+            "timestampMs": 1590,
+            "fromMs": 1590,
+            "toMs": 1860
+          },
+          {
+            "confidence": null,
+            "endMs": 1980,
+            "startMs": 1860,
+            "text": " up",
+            "timestampMs": 1860,
+            "fromMs": 1860,
+            "toMs": 1980
+          },
+          {
+            "confidence": null,
+            "endMs": 2080,
+            "startMs": 1980,
+            "text": " in",
+            "timestampMs": 1980,
+            "fromMs": 1980,
+            "toMs": 2080
+          }
+        ]
+      },
+      {
+        "durationMs": 730,
+        "startMs": 2080,
+        "text": "ancient Rome?",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2430,
+            "startMs": 2080,
+            "text": " ancient",
+            "timestampMs": 2080,
+            "fromMs": 2080,
+            "toMs": 2430
+          },
+          {
+            "confidence": null,
+            "endMs": 2810,
+            "startMs": 2430,
+            "text": " Rome?",
+            "timestampMs": 2430,
+            "fromMs": 2430,
+            "toMs": 2810
+          }
+        ]
+      },
+      {
+        "durationMs": 1270,
+        "startMs": 2810,
+        "text": "Day 1: You",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3350,
+            "startMs": 2810,
+            "text": " Day",
+            "timestampMs": 2810,
+            "fromMs": 2810,
+            "toMs": 3350
+          },
+          {
+            "confidence": null,
+            "endMs": 3690,
+            "startMs": 3350,
+            "text": " 1:",
+            "timestampMs": 3350,
+            "fromMs": 3350,
+            "toMs": 3690
+          },
+          {
+            "confidence": null,
+            "endMs": 4080,
+            "startMs": 3690,
+            "text": " You",
+            "timestampMs": 3690,
+            "fromMs": 3690,
+            "toMs": 4080
+          }
+        ]
+      },
+      {
+        "durationMs": 630,
+        "startMs": 4080,
+        "text": "wake beside the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4310,
+            "startMs": 4080,
+            "text": " wake",
+            "timestampMs": 4080,
+            "fromMs": 4080,
+            "toMs": 4310
+          },
+          {
+            "confidence": null,
+            "endMs": 4650,
+            "startMs": 4310,
+            "text": " beside",
+            "timestampMs": 4310,
+            "fromMs": 4310,
+            "toMs": 4650
+          },
+          {
+            "confidence": null,
+            "endMs": 4710,
+            "startMs": 4650,
+            "text": " the",
+            "timestampMs": 4650,
+            "fromMs": 4650,
+            "toMs": 4710
+          }
+        ]
+      },
+      {
+        "durationMs": 430,
+        "startMs": 4710,
+        "text": "Forum.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5140,
+            "startMs": 4710,
+            "text": " Forum.",
+            "timestampMs": 4710,
+            "fromMs": 4710,
+            "toMs": 5140
+          }
+        ]
+      },
+      {
+        "durationMs": 980,
+        "startMs": 5140,
+        "text": "Phone dead.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5750,
+            "startMs": 5140,
+            "text": " Phone",
+            "timestampMs": 5140,
+            "fromMs": 5140,
+            "toMs": 5750
+          },
+          {
+            "confidence": null,
+            "endMs": 6120,
+            "startMs": 5750,
+            "text": " dead.",
+            "timestampMs": 5750,
+            "fromMs": 5750,
+            "toMs": 6120
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 6120,
+        "text": "Shoes wrong.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 6770,
+            "startMs": 6120,
+            "text": " Shoes",
+            "timestampMs": 6120,
+            "fromMs": 6120,
+            "toMs": 6770
+          },
+          {
+            "confidence": null,
+            "endMs": 7160,
+            "startMs": 6770,
+            "text": " wrong.",
+            "timestampMs": 6770,
+            "fromMs": 6770,
+            "toMs": 7160
+          }
+        ]
+      },
+      {
+        "durationMs": 1310,
+        "startMs": 7160,
+        "text": "Latin everywhere.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7950,
+            "startMs": 7160,
+            "text": " Latin",
+            "timestampMs": 7160,
+            "fromMs": 7160,
+            "toMs": 7950
+          },
+          {
+            "confidence": null,
+            "endMs": 8470,
+            "startMs": 7950,
+            "text": " everywhere.",
+            "timestampMs": 7950,
+            "fromMs": 7950,
+            "toMs": 8470
+          }
+        ]
+      },
+      {
+        "durationMs": 1110,
+        "startMs": 8470,
+        "text": "Then you smell",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9090,
+            "startMs": 8470,
+            "text": " Then",
+            "timestampMs": 8470,
+            "fromMs": 8470,
+            "toMs": 9090
+          },
+          {
+            "confidence": null,
+            "endMs": 9200,
+            "startMs": 9090,
+            "text": " you",
+            "timestampMs": 9090,
+            "fromMs": 9090,
+            "toMs": 9200
+          },
+          {
+            "confidence": null,
+            "endMs": 9580,
+            "startMs": 9200,
+            "text": " smell",
+            "timestampMs": 9200,
+            "fromMs": 9200,
+            "toMs": 9580
+          }
+        ]
+      },
+      {
+        "durationMs": 410,
+        "startMs": 9580,
+        "text": "the part the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9650,
+            "startMs": 9580,
+            "text": " the",
+            "timestampMs": 9580,
+            "fromMs": 9580,
+            "toMs": 9650
+          },
+          {
+            "confidence": null,
+            "endMs": 9920,
+            "startMs": 9650,
+            "text": " part",
+            "timestampMs": 9650,
+            "fromMs": 9650,
+            "toMs": 9920
+          },
+          {
+            "confidence": null,
+            "endMs": 9990,
+            "startMs": 9920,
+            "text": " the",
+            "timestampMs": 9920,
+            "fromMs": 9920,
+            "toMs": 9990
+          }
+        ]
+      },
+      {
+        "durationMs": 830,
+        "startMs": 9990,
+        "text": "marble hides.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 10320,
+            "startMs": 9990,
+            "text": " marble",
+            "timestampMs": 9990,
+            "fromMs": 9990,
+            "toMs": 10320
+          },
+          {
+            "confidence": null,
+            "endMs": 10820,
+            "startMs": 10320,
+            "text": " hides.",
+            "timestampMs": 10320,
+            "fromMs": 10320,
+            "toMs": 10820
+          }
+        ]
+      },
+      {
+        "durationMs": 1320,
+        "startMs": 10820,
+        "text": "Day 2: The",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11450,
+            "startMs": 10820,
+            "text": " Day",
+            "timestampMs": 10820,
+            "fromMs": 10820,
+            "toMs": 11450
+          },
+          {
+            "confidence": null,
+            "endMs": 11830,
+            "startMs": 11450,
+            "text": " 2:",
+            "timestampMs": 11450,
+            "fromMs": 11450,
+            "toMs": 11830
+          },
+          {
+            "confidence": null,
+            "endMs": 12140,
+            "startMs": 11970,
+            "text": " The",
+            "timestampMs": 11970,
+            "fromMs": 11970,
+            "toMs": 12140
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 12140,
+        "text": "water official inspects",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 12420,
+            "startMs": 12140,
+            "text": " water",
+            "timestampMs": 12140,
+            "fromMs": 12140,
+            "toMs": 12420
+          },
+          {
+            "confidence": null,
+            "endMs": 12810,
+            "startMs": 12420,
+            "text": " official",
+            "timestampMs": 12420,
+            "fromMs": 12420,
+            "toMs": 12810
+          },
+          {
+            "confidence": null,
+            "endMs": 13220,
+            "startMs": 12810,
+            "text": " inspects",
+            "timestampMs": 12810,
+            "fromMs": 12810,
+            "toMs": 13220
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 13220,
+        "text": "an aqueduct.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13280,
+            "startMs": 13220,
+            "text": " an",
+            "timestampMs": 13220,
+            "fromMs": 13220,
+            "toMs": 13280
+          },
+          {
+            "confidence": null,
+            "endMs": 14120,
+            "startMs": 13280,
+            "text": " aqueduct.",
+            "timestampMs": 13280,
+            "fromMs": 13280,
+            "toMs": 14120
+          }
+        ]
+      },
+      {
+        "durationMs": 680,
+        "startMs": 14120,
+        "text": "He measures by",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 14260,
+            "startMs": 14120,
+            "text": " He",
+            "timestampMs": 14120,
+            "fromMs": 14120,
+            "toMs": 14260
+          },
+          {
+            "confidence": null,
+            "endMs": 14610,
+            "startMs": 14260,
+            "text": " measures",
+            "timestampMs": 14260,
+            "fromMs": 14260,
+            "toMs": 14610
+          },
+          {
+            "confidence": null,
+            "endMs": 14800,
+            "startMs": 14610,
+            "text": " by",
+            "timestampMs": 14610,
+            "fromMs": 14610,
+            "toMs": 14800
+          }
+        ]
+      },
+      {
+        "durationMs": 1250,
+        "startMs": 14800,
+        "text": "rank, habit, and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15410,
+            "startMs": 14800,
+            "text": " rank,",
+            "timestampMs": 14800,
+            "fromMs": 14800,
+            "toMs": 15410
+          },
+          {
+            "confidence": null,
+            "endMs": 15900,
+            "startMs": 15410,
+            "text": " habit,",
+            "timestampMs": 15410,
+            "fromMs": 15410,
+            "toMs": 15900
+          },
+          {
+            "confidence": null,
+            "endMs": 16050,
+            "startMs": 15900,
+            "text": " and",
+            "timestampMs": 15900,
+            "fromMs": 15900,
+            "toMs": 16050
+          }
+        ]
+      },
+      {
+        "durationMs": 830,
+        "startMs": 16050,
+        "text": "favors.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16880,
+            "startMs": 16050,
+            "text": " favors.",
+            "timestampMs": 16050,
+            "fromMs": 16050,
+            "toMs": 16880
+          }
+        ]
+      },
+      {
+        "durationMs": 1100,
+        "startMs": 16880,
+        "text": "Illegal pipes hide",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17260,
+            "startMs": 16880,
+            "text": " Illegal",
+            "timestampMs": 16880,
+            "fromMs": 16880,
+            "toMs": 17260
+          },
+          {
+            "confidence": null,
+            "endMs": 17600,
+            "startMs": 17260,
+            "text": " pipes",
+            "timestampMs": 17260,
+            "fromMs": 17260,
+            "toMs": 17600
+          },
+          {
+            "confidence": null,
+            "endMs": 17980,
+            "startMs": 17600,
+            "text": " hide",
+            "timestampMs": 17600,
+            "fromMs": 17600,
+            "toMs": 17980
+          }
+        ]
+      },
+      {
+        "durationMs": 1530,
+        "startMs": 17980,
+        "text": "under respectable stone.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18220,
+            "startMs": 17980,
+            "text": " under",
+            "timestampMs": 17980,
+            "fromMs": 17980,
+            "toMs": 18220
+          },
+          {
+            "confidence": null,
+            "endMs": 18790,
+            "startMs": 18220,
+            "text": " respectable",
+            "timestampMs": 18220,
+            "fromMs": 18220,
+            "toMs": 18790
+          },
+          {
+            "confidence": null,
+            "endMs": 19510,
+            "startMs": 18790,
+            "text": " stone.",
+            "timestampMs": 18790,
+            "fromMs": 18790,
+            "toMs": 19510
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 19510,
+        "text": "The rich get",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19620,
+            "startMs": 19510,
+            "text": " The",
+            "timestampMs": 19510,
+            "fromMs": 19510,
+            "toMs": 19620
+          },
+          {
+            "confidence": null,
+            "endMs": 19950,
+            "startMs": 19620,
+            "text": " rich",
+            "timestampMs": 19620,
+            "fromMs": 19620,
+            "toMs": 19950
+          },
+          {
+            "confidence": null,
+            "endMs": 20090,
+            "startMs": 19950,
+            "text": " get",
+            "timestampMs": 19950,
+            "fromMs": 19950,
+            "toMs": 20090
+          }
+        ]
+      },
+      {
+        "durationMs": 540,
+        "startMs": 20090,
+        "text": "fountains.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20630,
+            "startMs": 20090,
+            "text": " fountains.",
+            "timestampMs": 20090,
+            "fromMs": 20090,
+            "toMs": 20630
+          }
+        ]
+      },
+      {
+        "durationMs": 830,
+        "startMs": 20630,
+        "text": "The upper floors",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20880,
+            "startMs": 20630,
+            "text": " The",
+            "timestampMs": 20630,
+            "fromMs": 20630,
+            "toMs": 20880
+          },
+          {
+            "confidence": null,
+            "endMs": 21070,
+            "startMs": 20880,
+            "text": " upper",
+            "timestampMs": 20880,
+            "fromMs": 20880,
+            "toMs": 21070
+          },
+          {
+            "confidence": null,
+            "endMs": 21460,
+            "startMs": 21070,
+            "text": " floors",
+            "timestampMs": 21070,
+            "fromMs": 21070,
+            "toMs": 21460
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 21460,
+        "text": "get thirst.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21650,
+            "startMs": 21460,
+            "text": " get",
+            "timestampMs": 21460,
+            "fromMs": 21460,
+            "toMs": 21650
+          },
+          {
+            "confidence": null,
+            "endMs": 22500,
+            "startMs": 21650,
+            "text": " thirst.",
+            "timestampMs": 21650,
+            "fromMs": 21650,
+            "toMs": 22500
+          }
+        ]
+      },
+      {
+        "durationMs": 960,
+        "startMs": 22500,
+        "text": "Day 3: You",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22630,
+            "startMs": 22500,
+            "text": " Day",
+            "timestampMs": 22500,
+            "fromMs": 22500,
+            "toMs": 22630
+          },
+          {
+            "confidence": null,
+            "endMs": 22990,
+            "startMs": 22630,
+            "text": " 3:",
+            "timestampMs": 22630,
+            "fromMs": 22630,
+            "toMs": 22990
+          },
+          {
+            "confidence": null,
+            "endMs": 23460,
+            "startMs": 23210,
+            "text": " You",
+            "timestampMs": 23210,
+            "fromMs": 23210,
+            "toMs": 23460
+          }
+        ]
+      },
+      {
+        "durationMs": 640,
+        "startMs": 23460,
+        "text": "draw the system",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23700,
+            "startMs": 23460,
+            "text": " draw",
+            "timestampMs": 23460,
+            "fromMs": 23460,
+            "toMs": 23700
+          },
+          {
+            "confidence": null,
+            "endMs": 23770,
+            "startMs": 23700,
+            "text": " the",
+            "timestampMs": 23700,
+            "fromMs": 23700,
+            "toMs": 23770
+          },
+          {
+            "confidence": null,
+            "endMs": 24100,
+            "startMs": 23770,
+            "text": " system",
+            "timestampMs": 23770,
+            "fromMs": 23770,
+            "toMs": 24100
+          }
+        ]
+      },
+      {
+        "durationMs": 840,
+        "startMs": 24100,
+        "text": "in wax.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24200,
+            "startMs": 24100,
+            "text": " in",
+            "timestampMs": 24100,
+            "fromMs": 24100,
+            "toMs": 24200
+          },
+          {
+            "confidence": null,
+            "endMs": 24940,
+            "startMs": 24200,
+            "text": " wax.",
+            "timestampMs": 24200,
+            "fromMs": 24200,
+            "toMs": 24940
+          }
+        ]
+      },
+      {
+        "durationMs": 1190,
+        "startMs": 24940,
+        "text": "Same water.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 25380,
+            "startMs": 24940,
+            "text": " Same",
+            "timestampMs": 24940,
+            "fromMs": 24940,
+            "toMs": 25380
+          },
+          {
+            "confidence": null,
+            "endMs": 26130,
+            "startMs": 25380,
+            "text": " water.",
+            "timestampMs": 25380,
+            "fromMs": 25380,
+            "toMs": 26130
+          }
+        ]
+      },
+      {
+        "durationMs": 1480,
+        "startMs": 26130,
+        "text": "Calibrated outlets.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26620,
+            "startMs": 26130,
+            "text": " Calibrated",
+            "timestampMs": 26130,
+            "fromMs": 26130,
+            "toMs": 26620
+          },
+          {
+            "confidence": null,
+            "endMs": 27610,
+            "startMs": 26620,
+            "text": " outlets.",
+            "timestampMs": 26620,
+            "fromMs": 26620,
+            "toMs": 27610
+          }
+        ]
+      },
+      {
+        "durationMs": 1160,
+        "startMs": 27610,
+        "text": "Public measurements.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27910,
+            "startMs": 27610,
+            "text": " Public",
+            "timestampMs": 27610,
+            "fromMs": 27610,
+            "toMs": 27910
+          },
+          {
+            "confidence": null,
+            "endMs": 28770,
+            "startMs": 27910,
+            "text": " measurements.",
+            "timestampMs": 27910,
+            "fromMs": 27910,
+            "toMs": 28770
+          }
+        ]
+      },
+      {
+        "durationMs": 840,
+        "startMs": 28770,
+        "text": "A builder asks",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28860,
+            "startMs": 28770,
+            "text": " A",
+            "timestampMs": 28770,
+            "fromMs": 28770,
+            "toMs": 28860
+          },
+          {
+            "confidence": null,
+            "endMs": 29270,
+            "startMs": 28860,
+            "text": " builder",
+            "timestampMs": 28860,
+            "fromMs": 28860,
+            "toMs": 29270
+          },
+          {
+            "confidence": null,
+            "endMs": 29610,
+            "startMs": 29270,
+            "text": " asks",
+            "timestampMs": 29270,
+            "fromMs": 29270,
+            "toMs": 29610
+          }
+        ]
+      },
+      {
+        "durationMs": 410,
+        "startMs": 29610,
+        "text": "who gave you",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29740,
+            "startMs": 29610,
+            "text": " who",
+            "timestampMs": 29610,
+            "fromMs": 29610,
+            "toMs": 29740
+          },
+          {
+            "confidence": null,
+            "endMs": 29920,
+            "startMs": 29740,
+            "text": " gave",
+            "timestampMs": 29740,
+            "fromMs": 29740,
+            "toMs": 29920
+          },
+          {
+            "confidence": null,
+            "endMs": 30020,
+            "startMs": 29920,
+            "text": " you",
+            "timestampMs": 29920,
+            "fromMs": 29920,
+            "toMs": 30020
+          }
+        ]
+      },
+      {
+        "durationMs": 710,
+        "startMs": 30020,
+        "text": "authority.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30730,
+            "startMs": 30020,
+            "text": " authority.",
+            "timestampMs": 30020,
+            "fromMs": 30020,
+            "toMs": 30730
+          }
+        ]
+      },
+      {
+        "durationMs": 670,
+        "startMs": 30730,
+        "text": "You say water",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30870,
+            "startMs": 30730,
+            "text": " You",
+            "timestampMs": 30730,
+            "fromMs": 30730,
+            "toMs": 30870
+          },
+          {
+            "confidence": null,
+            "endMs": 31070,
+            "startMs": 30870,
+            "text": " say",
+            "timestampMs": 30870,
+            "fromMs": 30870,
+            "toMs": 31070
+          },
+          {
+            "confidence": null,
+            "endMs": 31400,
+            "startMs": 31070,
+            "text": " water",
+            "timestampMs": 31070,
+            "fromMs": 31070,
+            "toMs": 31400
+          }
+        ]
+      },
+      {
+        "durationMs": 970,
+        "startMs": 31400,
+        "text": "theft hides inside",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31710,
+            "startMs": 31400,
+            "text": " theft",
+            "timestampMs": 31400,
+            "fromMs": 31400,
+            "toMs": 31710
+          },
+          {
+            "confidence": null,
+            "endMs": 32050,
+            "startMs": 31710,
+            "text": " hides",
+            "timestampMs": 31710,
+            "fromMs": 31710,
+            "toMs": 32050
+          },
+          {
+            "confidence": null,
+            "endMs": 32370,
+            "startMs": 32050,
+            "text": " inside",
+            "timestampMs": 32050,
+            "fromMs": 32050,
+            "toMs": 32370
+          }
+        ]
+      },
+      {
+        "durationMs": 840,
+        "startMs": 32370,
+        "text": "bad measurements.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32600,
+            "startMs": 32370,
+            "text": " bad",
+            "timestampMs": 32370,
+            "fromMs": 32370,
+            "toMs": 32600
+          },
+          {
+            "confidence": null,
+            "endMs": 33210,
+            "startMs": 32600,
+            "text": " measurements.",
+            "timestampMs": 32600,
+            "fromMs": 32600,
+            "toMs": 33210
+          }
+        ]
+      },
+      {
+        "durationMs": 870,
+        "startMs": 33210,
+        "text": "The workers understand",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33300,
+            "startMs": 33210,
+            "text": " The",
+            "timestampMs": 33210,
+            "fromMs": 33210,
+            "toMs": 33300
+          },
+          {
+            "confidence": null,
+            "endMs": 33630,
+            "startMs": 33300,
+            "text": " workers",
+            "timestampMs": 33300,
+            "fromMs": 33300,
+            "toMs": 33630
+          },
+          {
+            "confidence": null,
+            "endMs": 34080,
+            "startMs": 33630,
+            "text": " understand",
+            "timestampMs": 33630,
+            "fromMs": 33630,
+            "toMs": 34080
+          }
+        ]
+      },
+      {
+        "durationMs": 730,
+        "startMs": 34080,
+        "text": "before the officials",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 34320,
+            "startMs": 34080,
+            "text": " before",
+            "timestampMs": 34080,
+            "fromMs": 34080,
+            "toMs": 34320
+          },
+          {
+            "confidence": null,
+            "endMs": 34410,
+            "startMs": 34320,
+            "text": " the",
+            "timestampMs": 34320,
+            "fromMs": 34320,
+            "toMs": 34410
+          },
+          {
+            "confidence": null,
+            "endMs": 34810,
+            "startMs": 34410,
+            "text": " officials",
+            "timestampMs": 34410,
+            "fromMs": 34410,
+            "toMs": 34810
+          }
+        ]
+      },
+      {
+        "durationMs": 240,
+        "startMs": 34810,
+        "text": "do.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35050,
+            "startMs": 34810,
+            "text": " do.",
+            "timestampMs": 34810,
+            "fromMs": 34810,
+            "toMs": 35050
+          }
+        ]
+      },
+      {
+        "durationMs": 770,
+        "startMs": 35330,
+        "text": "By sunset, the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35480,
+            "startMs": 35330,
+            "text": " By",
+            "timestampMs": 35330,
+            "fromMs": 35330,
+            "toMs": 35480
+          },
+          {
+            "confidence": null,
+            "endMs": 36040,
+            "startMs": 35480,
+            "text": " sunset,",
+            "timestampMs": 35480,
+            "fromMs": 35480,
+            "toMs": 36040
+          },
+          {
+            "confidence": null,
+            "endMs": 36100,
+            "startMs": 36040,
+            "text": " the",
+            "timestampMs": 36040,
+            "fromMs": 36040,
+            "toMs": 36100
+          }
+        ]
+      },
+      {
+        "durationMs": 680,
+        "startMs": 36100,
+        "text": "quiet pipes are",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36420,
+            "startMs": 36100,
+            "text": " quiet",
+            "timestampMs": 36100,
+            "fromMs": 36100,
+            "toMs": 36420
+          },
+          {
+            "confidence": null,
+            "endMs": 36740,
+            "startMs": 36420,
+            "text": " pipes",
+            "timestampMs": 36420,
+            "fromMs": 36420,
+            "toMs": 36740
+          },
+          {
+            "confidence": null,
+            "endMs": 36780,
+            "startMs": 36740,
+            "text": " are",
+            "timestampMs": 36740,
+            "fromMs": 36740,
+            "toMs": 36780
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 36780,
+        "text": "being checked.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36990,
+            "startMs": 36780,
+            "text": " being",
+            "timestampMs": 36780,
+            "fromMs": 36780,
+            "toMs": 36990
+          },
+          {
+            "confidence": null,
+            "endMs": 37680,
+            "startMs": 36990,
+            "text": " checked.",
+            "timestampMs": 36990,
+            "fromMs": 36990,
+            "toMs": 37680
+          }
+        ]
+      },
+      {
+        "durationMs": 980,
+        "startMs": 37680,
+        "text": "Day 4: The",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37880,
+            "startMs": 37680,
+            "text": " Day",
+            "timestampMs": 37680,
+            "fromMs": 37680,
+            "toMs": 37880
+          },
+          {
+            "confidence": null,
+            "endMs": 38290,
+            "startMs": 37880,
+            "text": " 4:",
+            "timestampMs": 37880,
+            "fromMs": 37880,
+            "toMs": 38290
+          },
+          {
+            "confidence": null,
+            "endMs": 38660,
+            "startMs": 38490,
+            "text": " The",
+            "timestampMs": 38490,
+            "fromMs": 38490,
+            "toMs": 38660
+          }
+        ]
+      },
+      {
+        "durationMs": 890,
+        "startMs": 38660,
+        "text": "contractors hear your",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39260,
+            "startMs": 38660,
+            "text": " contractors",
+            "timestampMs": 38660,
+            "fromMs": 38660,
+            "toMs": 39260
+          },
+          {
+            "confidence": null,
+            "endMs": 39430,
+            "startMs": 39260,
+            "text": " hear",
+            "timestampMs": 39260,
+            "fromMs": 39260,
+            "toMs": 39430
+          },
+          {
+            "confidence": null,
+            "endMs": 39550,
+            "startMs": 39430,
+            "text": " your",
+            "timestampMs": 39430,
+            "fromMs": 39430,
+            "toMs": 39550
+          }
+        ]
+      },
+      {
+        "durationMs": 760,
+        "startMs": 39550,
+        "text": "name.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40310,
+            "startMs": 39550,
+            "text": " name.",
+            "timestampMs": 39550,
+            "fromMs": 39550,
+            "toMs": 40310
+          }
+        ]
+      },
+      {
+        "durationMs": 990,
+        "startMs": 40310,
+        "text": "Guards arrive before",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40690,
+            "startMs": 40310,
+            "text": " Guards",
+            "timestampMs": 40310,
+            "fromMs": 40310,
+            "toMs": 40690
+          },
+          {
+            "confidence": null,
+            "endMs": 41030,
+            "startMs": 40690,
+            "text": " arrive",
+            "timestampMs": 40690,
+            "fromMs": 40690,
+            "toMs": 41030
+          },
+          {
+            "confidence": null,
+            "endMs": 41300,
+            "startMs": 41030,
+            "text": " before",
+            "timestampMs": 41030,
+            "fromMs": 41030,
+            "toMs": 41300
+          }
+        ]
+      },
+      {
+        "durationMs": 920,
+        "startMs": 41300,
+        "text": "breakfast.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42220,
+            "startMs": 41300,
+            "text": " breakfast.",
+            "timestampMs": 41300,
+            "fromMs": 41300,
+            "toMs": 42220
+          }
+        ]
+      },
+      {
+        "durationMs": 490,
+        "startMs": 42220,
+        "text": "They leave the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42390,
+            "startMs": 42220,
+            "text": " They",
+            "timestampMs": 42220,
+            "fromMs": 42220,
+            "toMs": 42390
+          },
+          {
+            "confidence": null,
+            "endMs": 42630,
+            "startMs": 42390,
+            "text": " leave",
+            "timestampMs": 42390,
+            "fromMs": 42390,
+            "toMs": 42630
+          },
+          {
+            "confidence": null,
+            "endMs": 42710,
+            "startMs": 42630,
+            "text": " the",
+            "timestampMs": 42630,
+            "fromMs": 42630,
+            "toMs": 42710
+          }
+        ]
+      },
+      {
+        "durationMs": 1550,
+        "startMs": 42710,
+        "text": "diagram untouched.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43290,
+            "startMs": 42710,
+            "text": " diagram",
+            "timestampMs": 42710,
+            "fromMs": 42710,
+            "toMs": 43290
+          },
+          {
+            "confidence": null,
+            "endMs": 44260,
+            "startMs": 43290,
+            "text": " untouched.",
+            "timestampMs": 43290,
+            "fromMs": 43290,
+            "toMs": 44260
+          }
+        ]
+      },
+      {
+        "durationMs": 620,
+        "startMs": 44260,
+        "text": "They call you",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44480,
+            "startMs": 44260,
+            "text": " They",
+            "timestampMs": 44260,
+            "fromMs": 44260,
+            "toMs": 44480
+          },
+          {
+            "confidence": null,
+            "endMs": 44710,
+            "startMs": 44480,
+            "text": " call",
+            "timestampMs": 44480,
+            "fromMs": 44480,
+            "toMs": 44710
+          },
+          {
+            "confidence": null,
+            "endMs": 44880,
+            "startMs": 44710,
+            "text": " you",
+            "timestampMs": 44710,
+            "fromMs": 44710,
+            "toMs": 44880
+          }
+        ]
+      },
+      {
+        "durationMs": 1060,
+        "startMs": 44880,
+        "text": "unauthorized.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45940,
+            "startMs": 44880,
+            "text": " unauthorized.",
+            "timestampMs": 44880,
+            "fromMs": 44880,
+            "toMs": 45940
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 45940,
+        "text": "Day 5: A",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46140,
+            "startMs": 45940,
+            "text": " Day",
+            "timestampMs": 45940,
+            "fromMs": 45940,
+            "toMs": 46140
+          },
+          {
+            "confidence": null,
+            "endMs": 46550,
+            "startMs": 46140,
+            "text": " 5:",
+            "timestampMs": 46140,
+            "fromMs": 46140,
+            "toMs": 46550
+          },
+          {
+            "confidence": null,
+            "endMs": 46980,
+            "startMs": 46880,
+            "text": " A",
+            "timestampMs": 46880,
+            "fromMs": 46880,
+            "toMs": 46980
+          }
+        ]
+      },
+      {
+        "durationMs": 970,
+        "startMs": 46980,
+        "text": "Greek surveyor sits",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47240,
+            "startMs": 46980,
+            "text": " Greek",
+            "timestampMs": 46980,
+            "fromMs": 46980,
+            "toMs": 47240
+          },
+          {
+            "confidence": null,
+            "endMs": 47690,
+            "startMs": 47240,
+            "text": " surveyor",
+            "timestampMs": 47240,
+            "fromMs": 47240,
+            "toMs": 47690
+          },
+          {
+            "confidence": null,
+            "endMs": 47950,
+            "startMs": 47690,
+            "text": " sits",
+            "timestampMs": 47690,
+            "fromMs": 47690,
+            "toMs": 47950
+          }
+        ]
+      },
+      {
+        "durationMs": 570,
+        "startMs": 47950,
+        "text": "beside you.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48350,
+            "startMs": 47950,
+            "text": " beside",
+            "timestampMs": 47950,
+            "fromMs": 47950,
+            "toMs": 48350
+          },
+          {
+            "confidence": null,
+            "endMs": 48520,
+            "startMs": 48350,
+            "text": " you.",
+            "timestampMs": 48350,
+            "fromMs": 48350,
+            "toMs": 48520
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 48520,
+        "text": "He says Rome",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48830,
+            "startMs": 48520,
+            "text": " He",
+            "timestampMs": 48520,
+            "fromMs": 48520,
+            "toMs": 48830
+          },
+          {
+            "confidence": null,
+            "endMs": 49070,
+            "startMs": 48830,
+            "text": " says",
+            "timestampMs": 48830,
+            "fromMs": 48830,
+            "toMs": 49070
+          },
+          {
+            "confidence": null,
+            "endMs": 49330,
+            "startMs": 49070,
+            "text": " Rome",
+            "timestampMs": 49070,
+            "fromMs": 49070,
+            "toMs": 49330
+          }
+        ]
+      },
+      {
+        "durationMs": 1180,
+        "startMs": 49330,
+        "text": "loves numbers until",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 49560,
+            "startMs": 49330,
+            "text": " loves",
+            "timestampMs": 49330,
+            "fromMs": 49330,
+            "toMs": 49560
+          },
+          {
+            "confidence": null,
+            "endMs": 50200,
+            "startMs": 49560,
+            "text": " numbers",
+            "timestampMs": 49560,
+            "fromMs": 49560,
+            "toMs": 50200
+          },
+          {
+            "confidence": null,
+            "endMs": 50510,
+            "startMs": 50200,
+            "text": " until",
+            "timestampMs": 50200,
+            "fromMs": 50200,
+            "toMs": 50510
+          }
+        ]
+      },
+      {
+        "durationMs": 1310,
+        "startMs": 50510,
+        "text": "numbers cost money.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50890,
+            "startMs": 50510,
+            "text": " numbers",
+            "timestampMs": 50510,
+            "fromMs": 50510,
+            "toMs": 50890
+          },
+          {
+            "confidence": null,
+            "endMs": 51160,
+            "startMs": 50890,
+            "text": " cost",
+            "timestampMs": 50890,
+            "fromMs": 50890,
+            "toMs": 51160
+          },
+          {
+            "confidence": null,
+            "endMs": 51820,
+            "startMs": 51160,
+            "text": " money.",
+            "timestampMs": 51160,
+            "fromMs": 51160,
+            "toMs": 51820
+          }
+        ]
+      },
+      {
+        "durationMs": 540,
+        "startMs": 51820,
+        "text": "You tell him",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51970,
+            "startMs": 51820,
+            "text": " You",
+            "timestampMs": 51820,
+            "fromMs": 51820,
+            "toMs": 51970
+          },
+          {
+            "confidence": null,
+            "endMs": 52180,
+            "startMs": 51970,
+            "text": " tell",
+            "timestampMs": 51970,
+            "fromMs": 51970,
+            "toMs": 52180
+          },
+          {
+            "confidence": null,
+            "endMs": 52360,
+            "startMs": 52180,
+            "text": " him",
+            "timestampMs": 52180,
+            "fromMs": 52180,
+            "toMs": 52360
+          }
+        ]
+      },
+      {
+        "durationMs": 710,
+        "startMs": 52360,
+        "text": "the gauges stay",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52430,
+            "startMs": 52360,
+            "text": " the",
+            "timestampMs": 52360,
+            "fromMs": 52360,
+            "toMs": 52430
+          },
+          {
+            "confidence": null,
+            "endMs": 52810,
+            "startMs": 52430,
+            "text": " gauges",
+            "timestampMs": 52430,
+            "fromMs": 52430,
+            "toMs": 52810
+          },
+          {
+            "confidence": null,
+            "endMs": 53070,
+            "startMs": 52810,
+            "text": " stay",
+            "timestampMs": 52810,
+            "fromMs": 52810,
+            "toMs": 53070
+          }
+        ]
+      },
+      {
+        "durationMs": 500,
+        "startMs": 53070,
+        "text": "public.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53570,
+            "startMs": 53070,
+            "text": " public.",
+            "timestampMs": 53070,
+            "fromMs": 53070,
+            "toMs": 53570
+          }
+        ]
+      },
+      {
+        "durationMs": 890,
+        "startMs": 53570,
+        "text": "He smiles like",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53860,
+            "startMs": 53570,
+            "text": " He",
+            "timestampMs": 53570,
+            "fromMs": 53570,
+            "toMs": 53860
+          },
+          {
+            "confidence": null,
+            "endMs": 54320,
+            "startMs": 53860,
+            "text": " smiles",
+            "timestampMs": 53860,
+            "fromMs": 53860,
+            "toMs": 54320
+          },
+          {
+            "confidence": null,
+            "endMs": 54460,
+            "startMs": 54320,
+            "text": " like",
+            "timestampMs": 54320,
+            "fromMs": 54320,
+            "toMs": 54460
+          }
+        ]
+      },
+      {
+        "durationMs": 480,
+        "startMs": 54460,
+        "text": "he has waited",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54540,
+            "startMs": 54460,
+            "text": " he",
+            "timestampMs": 54460,
+            "fromMs": 54460,
+            "toMs": 54540
+          },
+          {
+            "confidence": null,
+            "endMs": 54680,
+            "startMs": 54540,
+            "text": " has",
+            "timestampMs": 54540,
+            "fromMs": 54540,
+            "toMs": 54680
+          },
+          {
+            "confidence": null,
+            "endMs": 54940,
+            "startMs": 54680,
+            "text": " waited",
+            "timestampMs": 54680,
+            "fromMs": 54680,
+            "toMs": 54940
+          }
+        ]
+      },
+      {
+        "durationMs": 800,
+        "startMs": 54940,
+        "text": "years.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55740,
+            "startMs": 54940,
+            "text": " years.",
+            "timestampMs": 54940,
+            "fromMs": 54940,
+            "toMs": 55740
+          }
+        ]
+      },
+      {
+        "durationMs": 1040,
+        "startMs": 55740,
+        "text": "Day 6: A",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55920,
+            "startMs": 55740,
+            "text": " Day",
+            "timestampMs": 55740,
+            "fromMs": 55740,
+            "toMs": 55920
+          },
+          {
+            "confidence": null,
+            "endMs": 56380,
+            "startMs": 55920,
+            "text": " 6:",
+            "timestampMs": 55920,
+            "fromMs": 55920,
+            "toMs": 56380
+          },
+          {
+            "confidence": null,
+            "endMs": 56780,
+            "startMs": 56650,
+            "text": " A",
+            "timestampMs": 56650,
+            "fromMs": 56650,
+            "toMs": 56780
+          }
+        ]
+      },
+      {
+        "durationMs": 1000,
+        "startMs": 56780,
+        "text": "magistrate demands the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57360,
+            "startMs": 56780,
+            "text": " magistrate",
+            "timestampMs": 56780,
+            "fromMs": 56780,
+            "toMs": 57360
+          },
+          {
+            "confidence": null,
+            "endMs": 57710,
+            "startMs": 57360,
+            "text": " demands",
+            "timestampMs": 57360,
+            "fromMs": 57360,
+            "toMs": 57710
+          },
+          {
+            "confidence": null,
+            "endMs": 57780,
+            "startMs": 57710,
+            "text": " the",
+            "timestampMs": 57710,
+            "fromMs": 57710,
+            "toMs": 57780
+          }
+        ]
+      },
+      {
+        "durationMs": 860,
+        "startMs": 57780,
+        "text": "tablets.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 58640,
+            "startMs": 57780,
+            "text": " tablets.",
+            "timestampMs": 57780,
+            "fromMs": 57780,
+            "toMs": 58640
+          }
+        ]
+      },
+      {
+        "durationMs": 520,
+        "startMs": 58640,
+        "text": "He says the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 58760,
+            "startMs": 58640,
+            "text": " He",
+            "timestampMs": 58640,
+            "fromMs": 58640,
+            "toMs": 58760
+          },
+          {
+            "confidence": null,
+            "endMs": 59020,
+            "startMs": 58760,
+            "text": " says",
+            "timestampMs": 58760,
+            "fromMs": 58760,
+            "toMs": 59020
+          },
+          {
+            "confidence": null,
+            "endMs": 59160,
+            "startMs": 59020,
+            "text": " the",
+            "timestampMs": 59020,
+            "fromMs": 59020,
+            "toMs": 59160
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 59160,
+        "text": "old system keeps",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 59390,
+            "startMs": 59160,
+            "text": " old",
+            "timestampMs": 59160,
+            "fromMs": 59160,
+            "toMs": 59390
+          },
+          {
+            "confidence": null,
+            "endMs": 59720,
+            "startMs": 59390,
+            "text": " system",
+            "timestampMs": 59390,
+            "fromMs": 59390,
+            "toMs": 59720
+          },
+          {
+            "confidence": null,
+            "endMs": 59970,
+            "startMs": 59720,
+            "text": " keeps",
+            "timestampMs": 59720,
+            "fromMs": 59720,
+            "toMs": 59970
+          }
+        ]
+      },
+      {
+        "durationMs": 540,
+        "startMs": 59970,
+        "text": "order.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60510,
+            "startMs": 59970,
+            "text": " order.",
+            "timestampMs": 59970,
+            "fromMs": 59970,
+            "toMs": 60510
+          }
+        ]
+      },
+      {
+        "durationMs": 760,
+        "startMs": 60510,
+        "text": "The workers keep",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60670,
+            "startMs": 60510,
+            "text": " The",
+            "timestampMs": 60510,
+            "fromMs": 60510,
+            "toMs": 60670
+          },
+          {
+            "confidence": null,
+            "endMs": 61050,
+            "startMs": 60670,
+            "text": " workers",
+            "timestampMs": 60670,
+            "fromMs": 60670,
+            "toMs": 61050
+          },
+          {
+            "confidence": null,
+            "endMs": 61270,
+            "startMs": 61050,
+            "text": " keep",
+            "timestampMs": 61050,
+            "fromMs": 61050,
+            "toMs": 61270
+          }
+        ]
+      },
+      {
+        "durationMs": 1140,
+        "startMs": 61270,
+        "text": "copying your numbers.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 61660,
+            "startMs": 61270,
+            "text": " copying",
+            "timestampMs": 61270,
+            "fromMs": 61270,
+            "toMs": 61660
+          },
+          {
+            "confidence": null,
+            "endMs": 61740,
+            "startMs": 61660,
+            "text": " your",
+            "timestampMs": 61660,
+            "fromMs": 61660,
+            "toMs": 61740
+          },
+          {
+            "confidence": null,
+            "endMs": 62410,
+            "startMs": 61740,
+            "text": " numbers.",
+            "timestampMs": 61740,
+            "fromMs": 61740,
+            "toMs": 62410
+          }
+        ]
+      },
+      {
+        "durationMs": 880,
+        "startMs": 62410,
+        "text": "Day 7: They",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 62620,
+            "startMs": 62410,
+            "text": " Day",
+            "timestampMs": 62410,
+            "fromMs": 62410,
+            "toMs": 62620
+          },
+          {
+            "confidence": null,
+            "endMs": 63030,
+            "startMs": 62620,
+            "text": " 7:",
+            "timestampMs": 62620,
+            "fromMs": 62620,
+            "toMs": 63030
+          },
+          {
+            "confidence": null,
+            "endMs": 63290,
+            "startMs": 63110,
+            "text": " They",
+            "timestampMs": 63110,
+            "fromMs": 63110,
+            "toMs": 63290
+          }
+        ]
+      },
+      {
+        "durationMs": 510,
+        "startMs": 63290,
+        "text": "come for you",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63510,
+            "startMs": 63290,
+            "text": " come",
+            "timestampMs": 63290,
+            "fromMs": 63290,
+            "toMs": 63510
+          },
+          {
+            "confidence": null,
+            "endMs": 63620,
+            "startMs": 63510,
+            "text": " for",
+            "timestampMs": 63510,
+            "fromMs": 63510,
+            "toMs": 63620
+          },
+          {
+            "confidence": null,
+            "endMs": 63800,
+            "startMs": 63620,
+            "text": " you",
+            "timestampMs": 63620,
+            "fromMs": 63620,
+            "toMs": 63800
+          }
+        ]
+      },
+      {
+        "durationMs": 600,
+        "startMs": 63800,
+        "text": "at dawn.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63870,
+            "startMs": 63800,
+            "text": " at",
+            "timestampMs": 63800,
+            "fromMs": 63800,
+            "toMs": 63870
+          },
+          {
+            "confidence": null,
+            "endMs": 64400,
+            "startMs": 63870,
+            "text": " dawn.",
+            "timestampMs": 63870,
+            "fromMs": 63870,
+            "toMs": 64400
+          }
+        ]
+      },
+      {
+        "durationMs": 590,
+        "startMs": 64400,
+        "text": "The street is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 64500,
+            "startMs": 64400,
+            "text": " The",
+            "timestampMs": 64400,
+            "fromMs": 64400,
+            "toMs": 64500
+          },
+          {
+            "confidence": null,
+            "endMs": 64830,
+            "startMs": 64500,
+            "text": " street",
+            "timestampMs": 64500,
+            "fromMs": 64500,
+            "toMs": 64830
+          },
+          {
+            "confidence": null,
+            "endMs": 64990,
+            "startMs": 64830,
+            "text": " is",
+            "timestampMs": 64830,
+            "fromMs": 64830,
+            "toMs": 64990
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 64990,
+        "text": "already full.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 65330,
+            "startMs": 64990,
+            "text": " already",
+            "timestampMs": 64990,
+            "fromMs": 64990,
+            "toMs": 65330
+          },
+          {
+            "confidence": null,
+            "endMs": 66070,
+            "startMs": 65330,
+            "text": " full.",
+            "timestampMs": 65330,
+            "fromMs": 65330,
+            "toMs": 66070
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 66070,
+        "text": "Rome needs no",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 66360,
+            "startMs": 66070,
+            "text": " Rome",
+            "timestampMs": 66070,
+            "fromMs": 66070,
+            "toMs": 66360
+          },
+          {
+            "confidence": null,
+            "endMs": 66620,
+            "startMs": 66360,
+            "text": " needs",
+            "timestampMs": 66360,
+            "fromMs": 66360,
+            "toMs": 66620
+          },
+          {
+            "confidence": null,
+            "endMs": 66790,
+            "startMs": 66620,
+            "text": " no",
+            "timestampMs": 66620,
+            "fromMs": 66620,
+            "toMs": 66790
+          }
+        ]
+      },
+      {
+        "durationMs": 960,
+        "startMs": 66790,
+        "text": "future machine.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 67130,
+            "startMs": 66790,
+            "text": " future",
+            "timestampMs": 66790,
+            "fromMs": 66790,
+            "toMs": 67130
+          },
+          {
+            "confidence": null,
+            "endMs": 67750,
+            "startMs": 67130,
+            "text": " machine.",
+            "timestampMs": 67130,
+            "fromMs": 67130,
+            "toMs": 67750
+          }
+        ]
+      },
+      {
+        "durationMs": 750,
+        "startMs": 67750,
+        "text": "It needs honest",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 67890,
+            "startMs": 67750,
+            "text": " It",
+            "timestampMs": 67750,
+            "fromMs": 67750,
+            "toMs": 67890
+          },
+          {
+            "confidence": null,
+            "endMs": 68140,
+            "startMs": 67890,
+            "text": " needs",
+            "timestampMs": 67890,
+            "fromMs": 67890,
+            "toMs": 68140
+          },
+          {
+            "confidence": null,
+            "endMs": 68500,
+            "startMs": 68140,
+            "text": " honest",
+            "timestampMs": 68140,
+            "fromMs": 68140,
+            "toMs": 68500
+          }
+        ]
+      },
+      {
+        "durationMs": 590,
+        "startMs": 68500,
+        "text": "measurements.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69090,
+            "startMs": 68500,
+            "text": " measurements.",
+            "timestampMs": 68500,
+            "fromMs": 68500,
+            "toMs": 69090
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "What if a modern water engineer woke up in ancient Rome?"
+      },
+      {
+        "startMs": 2810,
+        "text": "Day 1: You wake beside the Forum."
+      },
+      {
+        "startMs": 5140,
+        "text": "Phone dead."
+      },
+      {
+        "startMs": 6120,
+        "text": "Shoes wrong."
+      },
+      {
+        "startMs": 7160,
+        "text": "Latin everywhere."
+      },
+      {
+        "startMs": 8470,
+        "text": "Then you smell the part the marble hides."
+      },
+      {
+        "startMs": 10820,
+        "text": "Day 2: The water official inspects an aqueduct."
+      },
+      {
+        "startMs": 14120,
+        "text": "He measures by rank, habit, and favors."
+      },
+      {
+        "startMs": 16880,
+        "text": "Illegal pipes hide under respectable stone."
+      },
+      {
+        "startMs": 19510,
+        "text": "The rich get fountains."
+      },
+      {
+        "startMs": 20630,
+        "text": "The upper floors get thirst."
+      },
+      {
+        "startMs": 22500,
+        "text": "Day 3: You draw the system in wax."
+      },
+      {
+        "startMs": 24940,
+        "text": "Same water."
+      },
+      {
+        "startMs": 26130,
+        "text": "Calibrated outlets."
+      },
+      {
+        "startMs": 27610,
+        "text": "Public measurements."
+      },
+      {
+        "startMs": 28770,
+        "text": "A builder asks who gave you authority."
+      },
+      {
+        "startMs": 30730,
+        "text": "You say water theft hides inside bad measurements."
+      },
+      {
+        "startMs": 33210,
+        "text": "The workers understand before the officials do."
+      },
+      {
+        "startMs": 35330,
+        "text": "By sunset, the quiet pipes are being checked."
+      },
+      {
+        "startMs": 37680,
+        "text": "Day 4: The contractors hear your name."
+      },
+      {
+        "startMs": 40310,
+        "text": "Guards arrive before breakfast."
+      },
+      {
+        "startMs": 42220,
+        "text": "They leave the diagram untouched."
+      },
+      {
+        "startMs": 44260,
+        "text": "They call you unauthorized."
+      },
+      {
+        "startMs": 45940,
+        "text": "Day 5: A Greek surveyor sits beside you."
+      },
+      {
+        "startMs": 48520,
+        "text": "He says Rome loves numbers until numbers cost money."
+      },
+      {
+        "startMs": 51820,
+        "text": "You tell him the gauges stay public."
+      },
+      {
+        "startMs": 53570,
+        "text": "He smiles like he has waited years."
+      },
+      {
+        "startMs": 55740,
+        "text": "Day 6: A magistrate demands the tablets."
+      },
+      {
+        "startMs": 58640,
+        "text": "He says the old system keeps order."
+      },
+      {
+        "startMs": 60510,
+        "text": "The workers keep copying your numbers."
+      },
+      {
+        "startMs": 62410,
+        "text": "Day 7: They come for you at dawn."
+      },
+      {
+        "startMs": 64400,
+        "text": "The street is already full."
+      },
+      {
+        "startMs": 66070,
+        "text": "Rome needs no future machine."
+      },
+      {
+        "startMs": 67750,
+        "text": "It needs honest measurements."
+      }
+    ]
+  },
+  "captionStyle": {
+    "bottomOffsetPercent": 0.2,
+    "maxWidthPercent": 70
+  },
+  "visualSfx": {
+    "dustFilePath": "staticVideoAssets/visualSfx/dust.mov",
+    "embersFilePath": "staticVideoAssets/visualSfx/embers.mov",
+    "filmGrainFilePath": "staticVideoAssets/visualSfx/film-grain.mov",
+    "fogDriftFilePath": "staticVideoAssets/visualSfx/fog-drift.mov",
+    "rainFilePath": "staticVideoAssets/visualSfx/rain.mov",
+    "snowFilePath": "staticVideoAssets/visualSfx/snow.mov",
+    "sparksFilePath": "staticVideoAssets/visualSfx/sparks.mov"
+  },
+  "transitionOverlayVideoSrcByName": {
+    "bokehWash": "staticVideoAssets/transitionOverlays/bokehWash.mov",
+    "flashCut": "staticVideoAssets/transitionOverlays/flashCut.mov",
+    "glitchCover": "staticVideoAssets/transitionOverlays/glitchCover.mov",
+    "impactSlam": "staticVideoAssets/transitionOverlays/impactSlam.mov",
+    "lightLeakDissolve": "staticVideoAssets/transitionOverlays/lightLeakDissolve.mov",
+    "smokeWipe": "staticVideoAssets/transitionOverlays/smokeWipe.mov",
+    "whipCoverLeft": "staticVideoAssets/transitionOverlays/whipCoverLeft.mov",
+    "whipCoverRight": "staticVideoAssets/transitionOverlays/whipCoverRight.mov"
+  }
+}
