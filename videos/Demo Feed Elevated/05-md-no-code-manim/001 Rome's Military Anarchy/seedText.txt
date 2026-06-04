@@ -1,0 +1,133 @@
+TOPIC_CLUSTER: Ancient history
+TEMPLATE: AnimatedVideoTemplate
+ROLE: origin
+SUBROLE: causal_origin
+TITLE: Rome's Military Anarchy
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+- `AnimatedVideoTemplate / scenario / day_by_day` normally includes two black-screen beats. Because this demo animates every animated scene, I replaced those with animatable pressure beats. Confirm if you want strict black screens instead.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Explain why Rome's third-century Military Anarchy happened. Focus on the structural shift from dynastic or Senate-sanctioned legitimacy to army-manufactured emperors. Start with Severus Alexander's murder in 235 CE and Maximinus Thrax's elevation by the troops. Show that legions learned they could create emperors, that payroll and frontier crisis replaced bloodline, and that Diocletian's later power-sharing reforms answered a broken single-throne system. Keep it causal, concrete, historically grounded, and animated scene friendly.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 1. Rome's Military Anarchy
+
+Template: `AnimatedVideoTemplate`
+Role/subrole: `origin / causal_origin`
+Scene count: 18
+Style: `bakshi`
+Title overlay: `Why Rome's Military Anarchy Happened`
+
+Scene 0:
+script: "Rome's emperors stop inheriting power. They start being hired by armies."
+imageDescription: "Third-century Roman frontier camp at dusk. A rough legionary in battered armor holds an imperial purple cloak toward a nervous nobleman while other soldiers watch from behind shield racks and smoky tents."
+animation: "a legionary lifting a purple cloak toward a trembling nobleman in a smoky frontier camp as soldiers shift behind their shields"
+
+Scene 1:
+script: "The Senate still has marble, titles, rituals. The frontier has the swords."
+imageDescription: "Split composition. Left: elderly senators in white togas gesture inside a marble chamber. Right: mud-covered soldiers sharpen blades beside a Rhine fort palisade. The soldiers dominate the frame."
+animation: "senators raising wax tablets in a marble chamber while frontier soldiers sharpen swords beside a muddy palisade"
+
+Scene 2:
+script: "In 235 CE, soldiers murder Severus Alexander and raise Maximinus Thrax."
+imageDescription: "A winter military camp near the Rhine. The dead emperor's covered body lies near a command tent while huge soldiers lift Maximinus Thrax on a shield, his cloak whipping in cold wind."
+animation: "soldiers hoisting a massive commander on a shield as snow blows across the camp and a covered body lies near the tent"
+
+Scene 3:
+script: "Maximinus never visits Rome. The capital learns it has become optional."
+imageDescription: "Rome's Senate chamber with an empty imperial chair at center. A courier in travel-stained cloak holds a military dispatch while senators stare at it with visible dread."
+animation: "a courier extending a sealed dispatch toward stunned senators as the empty imperial chair sits untouched behind him"
+
+Scene 4:
+script: "The old rule is bloodline. The new rule is payroll."
+imageDescription: "A military pay table inside a camp. Silver coins spill from a chest onto soldiers' open hands. Behind them, a torn family genealogy scroll lies ignored on the floor."
+animation: "silver coins pouring from a chest into soldiers' hands while a discarded genealogy scroll curls on the floor"
+
+Scene 5:
+script: "Every frontier has its own emergency: Goths, Franks, Persians, rebels."
+imageDescription: "Four-panel war map of the Roman Empire. Gothic raiders cross the Danube, Frankish warriors gather near the Rhine, Persian cavalry face Roman lines in the east, rebels seize a city gate."
+animation: "four frontier panels flaring one after another as raiders, cavalry, and rebels move against Roman borders"
+
+Scene 6:
+script: "One emperor cannot be everywhere. Every general starts looking like a backup emperor."
+imageDescription: "A Roman emperor stands over a huge campaign map with red crisis markers surrounding the empire. Around the map, four generals in armor exchange calculating looks."
+animation: "red crisis markers blooming across a campaign map while armored generals glance toward one another around the emperor"
+
+Scene 7:
+script: "If a legion feels abandoned, it can simply choose its own savior."
+imageDescription: "Rainy night in a legionary camp. Soldiers crowd around a charismatic commander, pressing a purple cloak and laurel wreath toward him while torches sputter in the mud."
+animation: "soldiers pushing a purple cloak toward their commander in the rain as torch flames gutter and mud splashes under boots"
+
+Scene 8:
+script: "That choice is never symbolic. It comes with twenty thousand armed men."
+imageDescription: "A road through northern Italy filled edge to edge with marching Roman infantry, wagons, cavalry, and standards. The newly proclaimed commander rides at the center."
+animation: "a dense column of Roman infantry marching down an Italian road as standards sway and wagon wheels grind through dust"
+
+Scene 9:
+script: "The pain is simple: loyalty costs more than the treasury can hold."
+imageDescription: "Imperial treasury room with nearly empty shelves. Officials scrape coins into sacks while impatient soldiers wait at the doorway, hands resting on sword hilts."
+animation: "an official scraping the last coins into a sack as soldiers at the doorway tighten their hands around sword hilts"
+
+Scene 10:
+script: "Each new emperor promises donatives. Each promise teaches the army to ask again."
+imageDescription: "Camp ceremony with soldiers receiving bonus coins from an emperor on a platform. In the background, a second ambitious officer watches the exchange and counts his own purse."
+animation: "soldiers reaching for bonus coins below a platform while a watching officer quietly weighs a purse in his palm"
+
+Scene 11:
+script: "Assassination becomes succession planning with knives."
+imageDescription: "Dark palace corridor. Praetorian guards surround an emperor's chamber door, blades half-drawn. Candlelight cuts across their helmets and tense faces."
+animation: "guards drawing short blades in a candlelit corridor as the emperor's chamber curtain trembles behind them"
+
+Scene 12:
+script: "More than twenty men claim the purple in less than fifty years."
+imageDescription: "A violent timeline from 235 to 284 CE. Small imperial portraits appear, crack, burn, or are crossed by dagger marks. The purple band underneath keeps tearing."
+animation: "imperial portraits appearing along a purple timeline and breaking one after another as dagger marks slash through the years"
+
+Scene 13:
+script: "The empire is still huge. The office at the center becomes too fragile."
+imageDescription: "Wide map of the Roman Empire as a vast body of territory. At the center, a tiny imperial throne sits on a cracked pedestal, surrounded by stress lines from every frontier."
+animation: "stress lines crawling inward from every frontier on a Roman map toward a small throne cracking on its pedestal"
+
+Scene 14:
+script: "Diocletian reads the disaster correctly: one throne is a trap."
+imageDescription: "Diocletian in military cloak studies a table covered with reports, coin molds, and frontier maps. Four small imperial figurines stand near his hand, dividing the map."
+animation: "an emperor sliding four figurines across a frontier map as oil-lamp smoke curls above the table"
+
+Scene 15:
+script: "He splits power into multiple emperors, courts, armies, and command zones."
+imageDescription: "Administrative diagram rendered as a Roman command table: four colored zones of empire, four rulers, four army standards, messenger routes connecting them."
+animation: "four colored command zones lighting up on a Roman map as messengers move along routes between separate imperial standards"
+
+Scene 16:
+script: "Rome survives by building the army directly into the state."
+imageDescription: "A rebuilt fortified palace complex with soldiers, tax clerks, and messengers moving in organized lanes. The old single throne is replaced by several guarded command stations."
+animation: "clerks and soldiers moving through separate lanes inside a fortified palace as guarded command stations glow under torchlight"
+
+Scene 17:
+script: "The emperor now stands where the payroll, frontier, and sword all meet."
+imageDescription: "Final image: a Roman emperor in purple stands in front of a wall of soldiers. The soldiers' shields form the entire background, making the emperor look dependent on them."
+animation: "an emperor standing rigid before a wall of shields as soldiers behind him shift in unison and torchlight ripples across the metal"

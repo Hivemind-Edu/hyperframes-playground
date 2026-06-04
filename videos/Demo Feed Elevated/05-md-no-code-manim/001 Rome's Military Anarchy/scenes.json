@@ -1,0 +1,2673 @@
+{
+  "styleId": "bakshi",
+  "layoutId": "single_3x3_landscape",
+  "timeline": {
+    "totalDuration": 75.61,
+    "scenes": [
+      {
+        "script": "Rome's emperors stop inheriting power. They start being hired by armies.",
+        "startTime": 0,
+        "endTime": 4.22,
+        "audioFilePath": "audio.mp3",
+        "mediaFilePath": "panel-1.mp4",
+        "bgFilePath": "panel-bg-1.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "blurThrough"
+      },
+      {
+        "script": "The Senate still has marble, titles, rituals. The frontier has the swords.",
+        "startTime": 4.22,
+        "endTime": 9.02,
+        "mediaFilePath": "panel-2.mp4",
+        "bgFilePath": "panel-bg-2.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "directionalBlur"
+      },
+      {
+        "script": "In 235 CE, soldiers murder Severus Alexander and raise Maximinus Thrax.",
+        "startTime": 9.02,
+        "endTime": 15.25,
+        "mediaFilePath": "panel-3.mp4",
+        "bgFilePath": "panel-bg-3.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "staggeredColorBlocks",
+        "soundEffect": "staticVideoAssets/sfx/wind.m4a"
+      },
+      {
+        "script": "Maximinus never visits Rome. The capital learns it has become optional.",
+        "startTime": 15.25,
+        "endTime": 19.27,
+        "mediaFilePath": "panel-4.mp4",
+        "bgFilePath": "panel-bg-4.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "horizontalBlinds"
+      },
+      {
+        "script": "The old rule is bloodline. The new rule is payroll.",
+        "startTime": 19.27,
+        "endTime": 22.87,
+        "mediaFilePath": "panel-5.mp4",
+        "bgFilePath": "panel-bg-5.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "overlay": "fog",
+        "transition": "verticalBlinds"
+      },
+      {
+        "script": "Every frontier has its own emergency: Goths, Franks, Persians, rebels.",
+        "startTime": 22.87,
+        "endTime": 28.26,
+        "mediaFilePath": "panel-6.mp4",
+        "bgFilePath": "panel-bg-6.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "pageBurn",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-cinematic-boom-405463.m4a"
+      },
+      {
+        "script": "One emperor cannot be everywhere. Every general starts looking like a backup emperor.",
+        "startTime": 28.26,
+        "endTime": 32.72,
+        "mediaFilePath": "panel-7.mp4",
+        "bgFilePath": "panel-bg-7.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "crossfade"
+      },
+      {
+        "script": "If a legion feels abandoned, it can simply choose its own savior.",
+        "startTime": 32.72,
+        "endTime": 36.34,
+        "mediaFilePath": "panel-8.mp4",
+        "bgFilePath": "panel-bg-8.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "overlay": "rain",
+        "transition": "blurCrossfade",
+        "soundEffect": "staticVideoAssets/sfx/rain_heavy.m4a"
+      },
+      {
+        "script": "That choice is never symbolic. It comes with twenty thousand armed men.",
+        "startTime": 36.34,
+        "endTime": 40.42,
+        "mediaFilePath": "panel-9.mp4",
+        "bgFilePath": "panel-bg-9.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "fog",
+        "transition": "focusPull"
+      },
+      {
+        "script": "The pain is simple: loyalty costs more than the treasury can hold.",
+        "startTime": 40.42,
+        "endTime": 44.26,
+        "mediaFilePath": "panel-10.mp4",
+        "bgFilePath": "panel-bg-10.png",
+        "mediaType": "video",
+        "camera": "pan_left",
+        "overlay": "dust",
+        "transition": "colorDip"
+      },
+      {
+        "script": "Each new emperor promises donatives. Each promise teaches the army to ask again.",
+        "startTime": 44.26,
+        "endTime": 49.03,
+        "mediaFilePath": "panel-11.mp4",
+        "bgFilePath": "panel-bg-11.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "glitch",
+        "soundEffect": "staticVideoAssets/sfx/crowd_murmur.m4a"
+      },
+      {
+        "script": "Assassination becomes succession planning with knives.",
+        "startTime": 49.03,
+        "endTime": 51.96,
+        "mediaFilePath": "panel-12.mp4",
+        "bgFilePath": "panel-bg-12.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "chromaticAberration",
+        "soundEffect": "staticVideoAssets/sfx/dragon-studio-riser-swoosh-transition-390289.m4a"
+      },
+      {
+        "script": "More than twenty men claim the purple in less than fifty years.",
+        "startTime": 51.96,
+        "endTime": 55.43,
+        "mediaFilePath": "panel-13.mp4",
+        "bgFilePath": "panel-bg-13.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "overlay": "embers",
+        "transition": "ripple",
+        "soundEffect": "staticVideoAssets/sfx/fire_crackle.m4a"
+      },
+      {
+        "script": "The empire is still huge. The office at the center becomes too fragile.",
+        "startTime": 55.43,
+        "endTime": 59.74,
+        "mediaFilePath": "panel-14.mp4",
+        "bgFilePath": "panel-bg-14.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "vhsTape"
+      },
+      {
+        "script": "Diocletian reads the disaster correctly: one throne is a trap.",
+        "startTime": 59.74,
+        "endTime": 63.36,
+        "mediaFilePath": "panel-15.mp4",
+        "bgFilePath": "panel-bg-15.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "transition": "gridDissolve"
+      },
+      {
+        "script": "He splits power into multiple emperors, courts, armies, and command zones.",
+        "startTime": 63.36,
+        "endTime": 67.97,
+        "mediaFilePath": "panel-16.mp4",
+        "bgFilePath": "panel-bg-16.png",
+        "mediaType": "video",
+        "camera": "static",
+        "transition": "lightLeak"
+      },
+      {
+        "script": "Rome survives by building the army directly into the state.",
+        "startTime": 67.97,
+        "endTime": 71.4,
+        "mediaFilePath": "panel-17.mp4",
+        "bgFilePath": "panel-bg-17.png",
+        "mediaType": "video",
+        "camera": "zoom_out",
+        "transition": "overexposureBurn"
+      },
+      {
+        "script": "The emperor now stands where the payroll, frontier, and sword all meet.",
+        "startTime": 71.4,
+        "endTime": 75.61,
+        "mediaFilePath": "panel-18.mp4",
+        "bgFilePath": "panel-bg-18.png",
+        "mediaType": "video",
+        "camera": "zoom_in",
+        "overlay": "dust",
+        "transition": "filmBurn"
+      }
+    ]
+  },
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 1200,
+        "startMs": 0,
+        "text": "Rome's emperors stop",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 410,
+            "startMs": 0,
+            "text": "Rome's",
+            "timestampMs": 0,
+            "fromMs": 0,
+            "toMs": 410
+          },
+          {
+            "confidence": null,
+            "endMs": 890,
+            "startMs": 410,
+            "text": " emperors",
+            "timestampMs": 410,
+            "fromMs": 410,
+            "toMs": 890
+          },
+          {
+            "confidence": null,
+            "endMs": 1200,
+            "startMs": 890,
+            "text": " stop",
+            "timestampMs": 890,
+            "fromMs": 890,
+            "toMs": 1200
+          }
+        ]
+      },
+      {
+        "durationMs": 790,
+        "startMs": 1200,
+        "text": "inheriting power.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1620,
+            "startMs": 1200,
+            "text": " inheriting",
+            "timestampMs": 1200,
+            "fromMs": 1200,
+            "toMs": 1620
+          },
+          {
+            "confidence": null,
+            "endMs": 1990,
+            "startMs": 1620,
+            "text": " power.",
+            "timestampMs": 1620,
+            "fromMs": 1620,
+            "toMs": 1990
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 1990,
+        "text": "They start being",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2450,
+            "startMs": 1990,
+            "text": " They",
+            "timestampMs": 1990,
+            "fromMs": 1990,
+            "toMs": 2450
+          },
+          {
+            "confidence": null,
+            "endMs": 2710,
+            "startMs": 2450,
+            "text": " start",
+            "timestampMs": 2450,
+            "fromMs": 2450,
+            "toMs": 2710
+          },
+          {
+            "confidence": null,
+            "endMs": 2890,
+            "startMs": 2710,
+            "text": " being",
+            "timestampMs": 2710,
+            "fromMs": 2710,
+            "toMs": 2890
+          }
+        ]
+      },
+      {
+        "durationMs": 1090,
+        "startMs": 2890,
+        "text": "hired by armies.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3270,
+            "startMs": 2890,
+            "text": " hired",
+            "timestampMs": 2890,
+            "fromMs": 2890,
+            "toMs": 3270
+          },
+          {
+            "confidence": null,
+            "endMs": 3460,
+            "startMs": 3270,
+            "text": " by",
+            "timestampMs": 3270,
+            "fromMs": 3270,
+            "toMs": 3460
+          },
+          {
+            "confidence": null,
+            "endMs": 3980,
+            "startMs": 3460,
+            "text": " armies.",
+            "timestampMs": 3460,
+            "fromMs": 3460,
+            "toMs": 3980
+          }
+        ]
+      },
+      {
+        "durationMs": 680,
+        "startMs": 4220,
+        "text": "The Senate still",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4320,
+            "startMs": 4220,
+            "text": " The",
+            "timestampMs": 4220,
+            "fromMs": 4220,
+            "toMs": 4320
+          },
+          {
+            "confidence": null,
+            "endMs": 4590,
+            "startMs": 4320,
+            "text": " Senate",
+            "timestampMs": 4320,
+            "fromMs": 4320,
+            "toMs": 4590
+          },
+          {
+            "confidence": null,
+            "endMs": 4900,
+            "startMs": 4590,
+            "text": " still",
+            "timestampMs": 4590,
+            "fromMs": 4590,
+            "toMs": 4900
+          }
+        ]
+      },
+      {
+        "durationMs": 1480,
+        "startMs": 4900,
+        "text": "has marble, titles,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5110,
+            "startMs": 4900,
+            "text": " has",
+            "timestampMs": 4900,
+            "fromMs": 4900,
+            "toMs": 5110
+          },
+          {
+            "confidence": null,
+            "endMs": 5730,
+            "startMs": 5110,
+            "text": " marble,",
+            "timestampMs": 5110,
+            "fromMs": 5110,
+            "toMs": 5730
+          },
+          {
+            "confidence": null,
+            "endMs": 6380,
+            "startMs": 5730,
+            "text": " titles,",
+            "timestampMs": 5730,
+            "fromMs": 5730,
+            "toMs": 6380
+          }
+        ]
+      },
+      {
+        "durationMs": 970,
+        "startMs": 6380,
+        "text": "rituals.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7350,
+            "startMs": 6380,
+            "text": " rituals.",
+            "timestampMs": 6380,
+            "fromMs": 6380,
+            "toMs": 7350
+          }
+        ]
+      },
+      {
+        "durationMs": 900,
+        "startMs": 7350,
+        "text": "The frontier has",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7450,
+            "startMs": 7350,
+            "text": " The",
+            "timestampMs": 7350,
+            "fromMs": 7350,
+            "toMs": 7450
+          },
+          {
+            "confidence": null,
+            "endMs": 8040,
+            "startMs": 7450,
+            "text": " frontier",
+            "timestampMs": 7450,
+            "fromMs": 7450,
+            "toMs": 8040
+          },
+          {
+            "confidence": null,
+            "endMs": 8250,
+            "startMs": 8040,
+            "text": " has",
+            "timestampMs": 8040,
+            "fromMs": 8040,
+            "toMs": 8250
+          }
+        ]
+      },
+      {
+        "durationMs": 770,
+        "startMs": 8250,
+        "text": "the swords.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 8320,
+            "startMs": 8250,
+            "text": " the",
+            "timestampMs": 8250,
+            "fromMs": 8250,
+            "toMs": 8320
+          },
+          {
+            "confidence": null,
+            "endMs": 9020,
+            "startMs": 8320,
+            "text": " swords.",
+            "timestampMs": 8320,
+            "fromMs": 8320,
+            "toMs": 9020
+          }
+        ]
+      },
+      {
+        "durationMs": 1760,
+        "startMs": 9020,
+        "text": "In 235 CE,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9130,
+            "startMs": 9020,
+            "text": " In",
+            "timestampMs": 9020,
+            "fromMs": 9020,
+            "toMs": 9130
+          },
+          {
+            "confidence": null,
+            "endMs": 10280,
+            "startMs": 9300,
+            "text": " 235",
+            "timestampMs": 9300,
+            "fromMs": 9300,
+            "toMs": 10280
+          },
+          {
+            "confidence": null,
+            "endMs": 10780,
+            "startMs": 10280,
+            "text": " CE,",
+            "timestampMs": 10280,
+            "fromMs": 10280,
+            "toMs": 10780
+          }
+        ]
+      },
+      {
+        "durationMs": 1280,
+        "startMs": 11050,
+        "text": "soldiers murder Severus",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11550,
+            "startMs": 11050,
+            "text": " soldiers",
+            "timestampMs": 11050,
+            "fromMs": 11050,
+            "toMs": 11550
+          },
+          {
+            "confidence": null,
+            "endMs": 11830,
+            "startMs": 11550,
+            "text": " murder",
+            "timestampMs": 11550,
+            "fromMs": 11550,
+            "toMs": 11830
+          },
+          {
+            "confidence": null,
+            "endMs": 12330,
+            "startMs": 11830,
+            "text": " Severus",
+            "timestampMs": 11830,
+            "fromMs": 11830,
+            "toMs": 12330
+          }
+        ]
+      },
+      {
+        "durationMs": 1390,
+        "startMs": 12330,
+        "text": "Alexander and raise",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13160,
+            "startMs": 12330,
+            "text": " Alexander",
+            "timestampMs": 12330,
+            "fromMs": 12330,
+            "toMs": 13160
+          },
+          {
+            "confidence": null,
+            "endMs": 13300,
+            "startMs": 13160,
+            "text": " and",
+            "timestampMs": 13160,
+            "fromMs": 13160,
+            "toMs": 13300
+          },
+          {
+            "confidence": null,
+            "endMs": 13720,
+            "startMs": 13300,
+            "text": " raise",
+            "timestampMs": 13300,
+            "fromMs": 13300,
+            "toMs": 13720
+          }
+        ]
+      },
+      {
+        "durationMs": 1530,
+        "startMs": 13720,
+        "text": "Maximinus Thrax.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 14330,
+            "startMs": 13720,
+            "text": " Maximinus",
+            "timestampMs": 13720,
+            "fromMs": 13720,
+            "toMs": 14330
+          },
+          {
+            "confidence": null,
+            "endMs": 15250,
+            "startMs": 14330,
+            "text": " Thrax.",
+            "timestampMs": 14330,
+            "fromMs": 14330,
+            "toMs": 15250
+          }
+        ]
+      },
+      {
+        "durationMs": 1200,
+        "startMs": 15250,
+        "text": "Maximinus never visits",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15920,
+            "startMs": 15250,
+            "text": " Maximinus",
+            "timestampMs": 15250,
+            "fromMs": 15250,
+            "toMs": 15920
+          },
+          {
+            "confidence": null,
+            "endMs": 16140,
+            "startMs": 15920,
+            "text": " never",
+            "timestampMs": 15920,
+            "fromMs": 15920,
+            "toMs": 16140
+          },
+          {
+            "confidence": null,
+            "endMs": 16450,
+            "startMs": 16140,
+            "text": " visits",
+            "timestampMs": 16140,
+            "fromMs": 16140,
+            "toMs": 16450
+          }
+        ]
+      },
+      {
+        "durationMs": 750,
+        "startMs": 16450,
+        "text": "Rome.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17200,
+            "startMs": 16450,
+            "text": " Rome.",
+            "timestampMs": 16450,
+            "fromMs": 16450,
+            "toMs": 17200
+          }
+        ]
+      },
+      {
+        "durationMs": 760,
+        "startMs": 17200,
+        "text": "The capital learns",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17300,
+            "startMs": 17200,
+            "text": " The",
+            "timestampMs": 17200,
+            "fromMs": 17200,
+            "toMs": 17300
+          },
+          {
+            "confidence": null,
+            "endMs": 17690,
+            "startMs": 17300,
+            "text": " capital",
+            "timestampMs": 17300,
+            "fromMs": 17300,
+            "toMs": 17690
+          },
+          {
+            "confidence": null,
+            "endMs": 17960,
+            "startMs": 17690,
+            "text": " learns",
+            "timestampMs": 17690,
+            "fromMs": 17690,
+            "toMs": 17960
+          }
+        ]
+      },
+      {
+        "durationMs": 430,
+        "startMs": 17960,
+        "text": "it has become",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18020,
+            "startMs": 17960,
+            "text": " it",
+            "timestampMs": 17960,
+            "fromMs": 17960,
+            "toMs": 18020
+          },
+          {
+            "confidence": null,
+            "endMs": 18130,
+            "startMs": 18020,
+            "text": " has",
+            "timestampMs": 18020,
+            "fromMs": 18020,
+            "toMs": 18130
+          },
+          {
+            "confidence": null,
+            "endMs": 18390,
+            "startMs": 18130,
+            "text": " become",
+            "timestampMs": 18130,
+            "fromMs": 18130,
+            "toMs": 18390
+          }
+        ]
+      },
+      {
+        "durationMs": 880,
+        "startMs": 18390,
+        "text": "optional.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19270,
+            "startMs": 18390,
+            "text": " optional.",
+            "timestampMs": 18390,
+            "fromMs": 18390,
+            "toMs": 19270
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 19270,
+        "text": "The old rule",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19370,
+            "startMs": 19270,
+            "text": " The",
+            "timestampMs": 19270,
+            "fromMs": 19270,
+            "toMs": 19370
+          },
+          {
+            "confidence": null,
+            "endMs": 19600,
+            "startMs": 19370,
+            "text": " old",
+            "timestampMs": 19370,
+            "fromMs": 19370,
+            "toMs": 19600
+          },
+          {
+            "confidence": null,
+            "endMs": 20300,
+            "startMs": 19600,
+            "text": " rule",
+            "timestampMs": 19600,
+            "fromMs": 19600,
+            "toMs": 20300
+          }
+        ]
+      },
+      {
+        "durationMs": 670,
+        "startMs": 20300,
+        "text": "is bloodline.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20420,
+            "startMs": 20300,
+            "text": " is",
+            "timestampMs": 20300,
+            "fromMs": 20300,
+            "toMs": 20420
+          },
+          {
+            "confidence": null,
+            "endMs": 20970,
+            "startMs": 20420,
+            "text": " bloodline.",
+            "timestampMs": 20420,
+            "fromMs": 20420,
+            "toMs": 20970
+          }
+        ]
+      },
+      {
+        "durationMs": 940,
+        "startMs": 20970,
+        "text": "The new rule",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21320,
+            "startMs": 20970,
+            "text": " The",
+            "timestampMs": 20970,
+            "fromMs": 20970,
+            "toMs": 21320
+          },
+          {
+            "confidence": null,
+            "endMs": 21600,
+            "startMs": 21320,
+            "text": " new",
+            "timestampMs": 21320,
+            "fromMs": 21320,
+            "toMs": 21600
+          },
+          {
+            "confidence": null,
+            "endMs": 21910,
+            "startMs": 21600,
+            "text": " rule",
+            "timestampMs": 21600,
+            "fromMs": 21600,
+            "toMs": 21910
+          }
+        ]
+      },
+      {
+        "durationMs": 960,
+        "startMs": 21910,
+        "text": "is payroll.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22170,
+            "startMs": 21910,
+            "text": " is",
+            "timestampMs": 21910,
+            "fromMs": 21910,
+            "toMs": 22170
+          },
+          {
+            "confidence": null,
+            "endMs": 22870,
+            "startMs": 22170,
+            "text": " payroll.",
+            "timestampMs": 22170,
+            "fromMs": 22170,
+            "toMs": 22870
+          }
+        ]
+      },
+      {
+        "durationMs": 1000,
+        "startMs": 22870,
+        "text": "Every frontier has",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23140,
+            "startMs": 22870,
+            "text": " Every",
+            "timestampMs": 22870,
+            "fromMs": 22870,
+            "toMs": 23140
+          },
+          {
+            "confidence": null,
+            "endMs": 23690,
+            "startMs": 23140,
+            "text": " frontier",
+            "timestampMs": 23140,
+            "fromMs": 23140,
+            "toMs": 23690
+          },
+          {
+            "confidence": null,
+            "endMs": 23870,
+            "startMs": 23690,
+            "text": " has",
+            "timestampMs": 23690,
+            "fromMs": 23690,
+            "toMs": 23870
+          }
+        ]
+      },
+      {
+        "durationMs": 1160,
+        "startMs": 23870,
+        "text": "its own emergency:",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24020,
+            "startMs": 23870,
+            "text": " its",
+            "timestampMs": 23870,
+            "fromMs": 23870,
+            "toMs": 24020
+          },
+          {
+            "confidence": null,
+            "endMs": 24170,
+            "startMs": 24020,
+            "text": " own",
+            "timestampMs": 24020,
+            "fromMs": 24020,
+            "toMs": 24170
+          },
+          {
+            "confidence": null,
+            "endMs": 25030,
+            "startMs": 24170,
+            "text": " emergency:",
+            "timestampMs": 24170,
+            "fromMs": 24170,
+            "toMs": 25030
+          }
+        ]
+      },
+      {
+        "durationMs": 2250,
+        "startMs": 25030,
+        "text": "Goths, Franks, Persians,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 25750,
+            "startMs": 25030,
+            "text": " Goths,",
+            "timestampMs": 25030,
+            "fromMs": 25030,
+            "toMs": 25750
+          },
+          {
+            "confidence": null,
+            "endMs": 26520,
+            "startMs": 25750,
+            "text": " Franks,",
+            "timestampMs": 25750,
+            "fromMs": 25750,
+            "toMs": 26520
+          },
+          {
+            "confidence": null,
+            "endMs": 27280,
+            "startMs": 26520,
+            "text": " Persians,",
+            "timestampMs": 26520,
+            "fromMs": 26520,
+            "toMs": 27280
+          }
+        ]
+      },
+      {
+        "durationMs": 980,
+        "startMs": 27280,
+        "text": "rebels.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28260,
+            "startMs": 27280,
+            "text": " rebels.",
+            "timestampMs": 27280,
+            "fromMs": 27280,
+            "toMs": 28260
+          }
+        ]
+      },
+      {
+        "durationMs": 1160,
+        "startMs": 28260,
+        "text": "One emperor cannot",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28560,
+            "startMs": 28260,
+            "text": " One",
+            "timestampMs": 28260,
+            "fromMs": 28260,
+            "toMs": 28560
+          },
+          {
+            "confidence": null,
+            "endMs": 29010,
+            "startMs": 28560,
+            "text": " emperor",
+            "timestampMs": 28560,
+            "fromMs": 28560,
+            "toMs": 29010
+          },
+          {
+            "confidence": null,
+            "endMs": 29420,
+            "startMs": 29010,
+            "text": " cannot",
+            "timestampMs": 29010,
+            "fromMs": 29010,
+            "toMs": 29420
+          }
+        ]
+      },
+      {
+        "durationMs": 860,
+        "startMs": 29420,
+        "text": "be everywhere.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29580,
+            "startMs": 29420,
+            "text": " be",
+            "timestampMs": 29420,
+            "fromMs": 29420,
+            "toMs": 29580
+          },
+          {
+            "confidence": null,
+            "endMs": 30280,
+            "startMs": 29580,
+            "text": " everywhere.",
+            "timestampMs": 29580,
+            "fromMs": 29580,
+            "toMs": 30280
+          }
+        ]
+      },
+      {
+        "durationMs": 1010,
+        "startMs": 30280,
+        "text": "Every general starts",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30530,
+            "startMs": 30280,
+            "text": " Every",
+            "timestampMs": 30280,
+            "fromMs": 30280,
+            "toMs": 30530
+          },
+          {
+            "confidence": null,
+            "endMs": 30950,
+            "startMs": 30530,
+            "text": " general",
+            "timestampMs": 30530,
+            "fromMs": 30530,
+            "toMs": 30950
+          },
+          {
+            "confidence": null,
+            "endMs": 31290,
+            "startMs": 30950,
+            "text": " starts",
+            "timestampMs": 30950,
+            "fromMs": 30950,
+            "toMs": 31290
+          }
+        ]
+      },
+      {
+        "durationMs": 420,
+        "startMs": 31290,
+        "text": "looking like a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31500,
+            "startMs": 31290,
+            "text": " looking",
+            "timestampMs": 31290,
+            "fromMs": 31290,
+            "toMs": 31500
+          },
+          {
+            "confidence": null,
+            "endMs": 31670,
+            "startMs": 31500,
+            "text": " like",
+            "timestampMs": 31500,
+            "fromMs": 31500,
+            "toMs": 31670
+          },
+          {
+            "confidence": null,
+            "endMs": 31710,
+            "startMs": 31670,
+            "text": " a",
+            "timestampMs": 31670,
+            "fromMs": 31670,
+            "toMs": 31710
+          }
+        ]
+      },
+      {
+        "durationMs": 1010,
+        "startMs": 31710,
+        "text": "backup emperor.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32120,
+            "startMs": 31710,
+            "text": " backup",
+            "timestampMs": 31710,
+            "fromMs": 31710,
+            "toMs": 32120
+          },
+          {
+            "confidence": null,
+            "endMs": 32720,
+            "startMs": 32120,
+            "text": " emperor.",
+            "timestampMs": 32120,
+            "fromMs": 32120,
+            "toMs": 32720
+          }
+        ]
+      },
+      {
+        "durationMs": 520,
+        "startMs": 32720,
+        "text": "If a legion",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32850,
+            "startMs": 32720,
+            "text": " If",
+            "timestampMs": 32720,
+            "fromMs": 32720,
+            "toMs": 32850
+          },
+          {
+            "confidence": null,
+            "endMs": 32920,
+            "startMs": 32850,
+            "text": " a",
+            "timestampMs": 32850,
+            "fromMs": 32850,
+            "toMs": 32920
+          },
+          {
+            "confidence": null,
+            "endMs": 33240,
+            "startMs": 32920,
+            "text": " legion",
+            "timestampMs": 32920,
+            "fromMs": 32920,
+            "toMs": 33240
+          }
+        ]
+      },
+      {
+        "durationMs": 1110,
+        "startMs": 33240,
+        "text": "feels abandoned, it",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33500,
+            "startMs": 33240,
+            "text": " feels",
+            "timestampMs": 33240,
+            "fromMs": 33240,
+            "toMs": 33500
+          },
+          {
+            "confidence": null,
+            "endMs": 34140,
+            "startMs": 33500,
+            "text": " abandoned,",
+            "timestampMs": 33500,
+            "fromMs": 33500,
+            "toMs": 34140
+          },
+          {
+            "confidence": null,
+            "endMs": 34350,
+            "startMs": 34140,
+            "text": " it",
+            "timestampMs": 34140,
+            "fromMs": 34140,
+            "toMs": 34350
+          }
+        ]
+      },
+      {
+        "durationMs": 820,
+        "startMs": 34350,
+        "text": "can simply choose",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 34460,
+            "startMs": 34350,
+            "text": " can",
+            "timestampMs": 34350,
+            "fromMs": 34350,
+            "toMs": 34460
+          },
+          {
+            "confidence": null,
+            "endMs": 34820,
+            "startMs": 34460,
+            "text": " simply",
+            "timestampMs": 34460,
+            "fromMs": 34460,
+            "toMs": 34820
+          },
+          {
+            "confidence": null,
+            "endMs": 35170,
+            "startMs": 34820,
+            "text": " choose",
+            "timestampMs": 34820,
+            "fromMs": 34820,
+            "toMs": 35170
+          }
+        ]
+      },
+      {
+        "durationMs": 1170,
+        "startMs": 35170,
+        "text": "its own savior.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35320,
+            "startMs": 35170,
+            "text": " its",
+            "timestampMs": 35170,
+            "fromMs": 35170,
+            "toMs": 35320
+          },
+          {
+            "confidence": null,
+            "endMs": 35470,
+            "startMs": 35320,
+            "text": " own",
+            "timestampMs": 35320,
+            "fromMs": 35320,
+            "toMs": 35470
+          },
+          {
+            "confidence": null,
+            "endMs": 36340,
+            "startMs": 35470,
+            "text": " savior.",
+            "timestampMs": 35470,
+            "fromMs": 35470,
+            "toMs": 36340
+          }
+        ]
+      },
+      {
+        "durationMs": 750,
+        "startMs": 36340,
+        "text": "That choice is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 36570,
+            "startMs": 36340,
+            "text": " That",
+            "timestampMs": 36340,
+            "fromMs": 36340,
+            "toMs": 36570
+          },
+          {
+            "confidence": null,
+            "endMs": 36960,
+            "startMs": 36570,
+            "text": " choice",
+            "timestampMs": 36570,
+            "fromMs": 36570,
+            "toMs": 36960
+          },
+          {
+            "confidence": null,
+            "endMs": 37090,
+            "startMs": 36960,
+            "text": " is",
+            "timestampMs": 36960,
+            "fromMs": 36960,
+            "toMs": 37090
+          }
+        ]
+      },
+      {
+        "durationMs": 1050,
+        "startMs": 37090,
+        "text": "never symbolic.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37320,
+            "startMs": 37090,
+            "text": " never",
+            "timestampMs": 37090,
+            "fromMs": 37090,
+            "toMs": 37320
+          },
+          {
+            "confidence": null,
+            "endMs": 38140,
+            "startMs": 37320,
+            "text": " symbolic.",
+            "timestampMs": 37320,
+            "fromMs": 37320,
+            "toMs": 38140
+          }
+        ]
+      },
+      {
+        "durationMs": 440,
+        "startMs": 38140,
+        "text": "It comes with",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38250,
+            "startMs": 38140,
+            "text": " It",
+            "timestampMs": 38140,
+            "fromMs": 38140,
+            "toMs": 38250
+          },
+          {
+            "confidence": null,
+            "endMs": 38490,
+            "startMs": 38250,
+            "text": " comes",
+            "timestampMs": 38250,
+            "fromMs": 38250,
+            "toMs": 38490
+          },
+          {
+            "confidence": null,
+            "endMs": 38580,
+            "startMs": 38490,
+            "text": " with",
+            "timestampMs": 38490,
+            "fromMs": 38490,
+            "toMs": 38580
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 38580,
+        "text": "twenty thousand armed",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38910,
+            "startMs": 38580,
+            "text": " twenty",
+            "timestampMs": 38580,
+            "fromMs": 38580,
+            "toMs": 38910
+          },
+          {
+            "confidence": null,
+            "endMs": 39330,
+            "startMs": 38910,
+            "text": " thousand",
+            "timestampMs": 38910,
+            "fromMs": 38910,
+            "toMs": 39330
+          },
+          {
+            "confidence": null,
+            "endMs": 39610,
+            "startMs": 39330,
+            "text": " armed",
+            "timestampMs": 39330,
+            "fromMs": 39330,
+            "toMs": 39610
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 39610,
+        "text": "men.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40420,
+            "startMs": 39610,
+            "text": " men.",
+            "timestampMs": 39610,
+            "fromMs": 39610,
+            "toMs": 40420
+          }
+        ]
+      },
+      {
+        "durationMs": 530,
+        "startMs": 40420,
+        "text": "The pain is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40520,
+            "startMs": 40420,
+            "text": " The",
+            "timestampMs": 40420,
+            "fromMs": 40420,
+            "toMs": 40520
+          },
+          {
+            "confidence": null,
+            "endMs": 40850,
+            "startMs": 40520,
+            "text": " pain",
+            "timestampMs": 40520,
+            "fromMs": 40520,
+            "toMs": 40850
+          },
+          {
+            "confidence": null,
+            "endMs": 40950,
+            "startMs": 40850,
+            "text": " is",
+            "timestampMs": 40850,
+            "fromMs": 40850,
+            "toMs": 40950
+          }
+        ]
+      },
+      {
+        "durationMs": 1820,
+        "startMs": 40950,
+        "text": "simple: loyalty costs",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 41730,
+            "startMs": 40950,
+            "text": " simple:",
+            "timestampMs": 40950,
+            "fromMs": 40950,
+            "toMs": 41730
+          },
+          {
+            "confidence": null,
+            "endMs": 42320,
+            "startMs": 41730,
+            "text": " loyalty",
+            "timestampMs": 41730,
+            "fromMs": 41730,
+            "toMs": 42320
+          },
+          {
+            "confidence": null,
+            "endMs": 42770,
+            "startMs": 42320,
+            "text": " costs",
+            "timestampMs": 42320,
+            "fromMs": 42320,
+            "toMs": 42770
+          }
+        ]
+      },
+      {
+        "durationMs": 410,
+        "startMs": 42770,
+        "text": "more than the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42980,
+            "startMs": 42770,
+            "text": " more",
+            "timestampMs": 42770,
+            "fromMs": 42770,
+            "toMs": 42980
+          },
+          {
+            "confidence": null,
+            "endMs": 43110,
+            "startMs": 42980,
+            "text": " than",
+            "timestampMs": 42980,
+            "fromMs": 42980,
+            "toMs": 43110
+          },
+          {
+            "confidence": null,
+            "endMs": 43180,
+            "startMs": 43110,
+            "text": " the",
+            "timestampMs": 43110,
+            "fromMs": 43110,
+            "toMs": 43180
+          }
+        ]
+      },
+      {
+        "durationMs": 1080,
+        "startMs": 43180,
+        "text": "treasury can hold.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43630,
+            "startMs": 43180,
+            "text": " treasury",
+            "timestampMs": 43180,
+            "fromMs": 43180,
+            "toMs": 43630
+          },
+          {
+            "confidence": null,
+            "endMs": 43760,
+            "startMs": 43630,
+            "text": " can",
+            "timestampMs": 43630,
+            "fromMs": 43630,
+            "toMs": 43760
+          },
+          {
+            "confidence": null,
+            "endMs": 44260,
+            "startMs": 43760,
+            "text": " hold.",
+            "timestampMs": 43760,
+            "fromMs": 43760,
+            "toMs": 44260
+          }
+        ]
+      },
+      {
+        "durationMs": 1110,
+        "startMs": 44260,
+        "text": "Each new emperor",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44620,
+            "startMs": 44260,
+            "text": " Each",
+            "timestampMs": 44260,
+            "fromMs": 44260,
+            "toMs": 44620
+          },
+          {
+            "confidence": null,
+            "endMs": 44870,
+            "startMs": 44620,
+            "text": " new",
+            "timestampMs": 44620,
+            "fromMs": 44620,
+            "toMs": 44870
+          },
+          {
+            "confidence": null,
+            "endMs": 45370,
+            "startMs": 44870,
+            "text": " emperor",
+            "timestampMs": 44870,
+            "fromMs": 44870,
+            "toMs": 45370
+          }
+        ]
+      },
+      {
+        "durationMs": 1370,
+        "startMs": 45370,
+        "text": "promises donatives.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 45940,
+            "startMs": 45370,
+            "text": " promises",
+            "timestampMs": 45370,
+            "fromMs": 45370,
+            "toMs": 45940
+          },
+          {
+            "confidence": null,
+            "endMs": 46740,
+            "startMs": 45940,
+            "text": " donatives.",
+            "timestampMs": 45940,
+            "fromMs": 45940,
+            "toMs": 46740
+          }
+        ]
+      },
+      {
+        "durationMs": 950,
+        "startMs": 46740,
+        "text": "Each promise teaches",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46930,
+            "startMs": 46740,
+            "text": " Each",
+            "timestampMs": 46740,
+            "fromMs": 46740,
+            "toMs": 46930
+          },
+          {
+            "confidence": null,
+            "endMs": 47380,
+            "startMs": 46930,
+            "text": " promise",
+            "timestampMs": 46930,
+            "fromMs": 46930,
+            "toMs": 47380
+          },
+          {
+            "confidence": null,
+            "endMs": 47690,
+            "startMs": 47380,
+            "text": " teaches",
+            "timestampMs": 47380,
+            "fromMs": 47380,
+            "toMs": 47690
+          }
+        ]
+      },
+      {
+        "durationMs": 390,
+        "startMs": 47690,
+        "text": "the army to",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47810,
+            "startMs": 47690,
+            "text": " the",
+            "timestampMs": 47690,
+            "fromMs": 47690,
+            "toMs": 47810
+          },
+          {
+            "confidence": null,
+            "endMs": 48000,
+            "startMs": 47810,
+            "text": " army",
+            "timestampMs": 47810,
+            "fromMs": 47810,
+            "toMs": 48000
+          },
+          {
+            "confidence": null,
+            "endMs": 48080,
+            "startMs": 48000,
+            "text": " to",
+            "timestampMs": 48000,
+            "fromMs": 48000,
+            "toMs": 48080
+          }
+        ]
+      },
+      {
+        "durationMs": 950,
+        "startMs": 48080,
+        "text": "ask again.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48400,
+            "startMs": 48080,
+            "text": " ask",
+            "timestampMs": 48080,
+            "fromMs": 48080,
+            "toMs": 48400
+          },
+          {
+            "confidence": null,
+            "endMs": 49030,
+            "startMs": 48400,
+            "text": " again.",
+            "timestampMs": 48400,
+            "fromMs": 48400,
+            "toMs": 49030
+          }
+        ]
+      },
+      {
+        "durationMs": 1620,
+        "startMs": 49030,
+        "text": "Assassination becomes succession",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 49790,
+            "startMs": 49030,
+            "text": " Assassination",
+            "timestampMs": 49030,
+            "fromMs": 49030,
+            "toMs": 49790
+          },
+          {
+            "confidence": null,
+            "endMs": 50120,
+            "startMs": 49790,
+            "text": " becomes",
+            "timestampMs": 49790,
+            "fromMs": 49790,
+            "toMs": 50120
+          },
+          {
+            "confidence": null,
+            "endMs": 50650,
+            "startMs": 50120,
+            "text": " succession",
+            "timestampMs": 50120,
+            "fromMs": 50120,
+            "toMs": 50650
+          }
+        ]
+      },
+      {
+        "durationMs": 1310,
+        "startMs": 50650,
+        "text": "planning with knives.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50980,
+            "startMs": 50650,
+            "text": " planning",
+            "timestampMs": 50650,
+            "fromMs": 50650,
+            "toMs": 50980
+          },
+          {
+            "confidence": null,
+            "endMs": 51080,
+            "startMs": 50980,
+            "text": " with",
+            "timestampMs": 50980,
+            "fromMs": 50980,
+            "toMs": 51080
+          },
+          {
+            "confidence": null,
+            "endMs": 51960,
+            "startMs": 51080,
+            "text": " knives.",
+            "timestampMs": 51080,
+            "fromMs": 51080,
+            "toMs": 51960
+          }
+        ]
+      },
+      {
+        "durationMs": 680,
+        "startMs": 51960,
+        "text": "More than twenty",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52130,
+            "startMs": 51960,
+            "text": " More",
+            "timestampMs": 51960,
+            "fromMs": 51960,
+            "toMs": 52130
+          },
+          {
+            "confidence": null,
+            "endMs": 52250,
+            "startMs": 52130,
+            "text": " than",
+            "timestampMs": 52130,
+            "fromMs": 52130,
+            "toMs": 52250
+          },
+          {
+            "confidence": null,
+            "endMs": 52640,
+            "startMs": 52250,
+            "text": " twenty",
+            "timestampMs": 52250,
+            "fromMs": 52250,
+            "toMs": 52640
+          }
+        ]
+      },
+      {
+        "durationMs": 570,
+        "startMs": 52640,
+        "text": "men claim the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52910,
+            "startMs": 52640,
+            "text": " men",
+            "timestampMs": 52640,
+            "fromMs": 52640,
+            "toMs": 52910
+          },
+          {
+            "confidence": null,
+            "endMs": 53140,
+            "startMs": 52910,
+            "text": " claim",
+            "timestampMs": 52910,
+            "fromMs": 52910,
+            "toMs": 53140
+          },
+          {
+            "confidence": null,
+            "endMs": 53210,
+            "startMs": 53140,
+            "text": " the",
+            "timestampMs": 53140,
+            "fromMs": 53140,
+            "toMs": 53210
+          }
+        ]
+      },
+      {
+        "durationMs": 960,
+        "startMs": 53210,
+        "text": "purple in less",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53750,
+            "startMs": 53210,
+            "text": " purple",
+            "timestampMs": 53210,
+            "fromMs": 53210,
+            "toMs": 53750
+          },
+          {
+            "confidence": null,
+            "endMs": 53950,
+            "startMs": 53750,
+            "text": " in",
+            "timestampMs": 53750,
+            "fromMs": 53750,
+            "toMs": 53950
+          },
+          {
+            "confidence": null,
+            "endMs": 54170,
+            "startMs": 53950,
+            "text": " less",
+            "timestampMs": 53950,
+            "fromMs": 53950,
+            "toMs": 54170
+          }
+        ]
+      },
+      {
+        "durationMs": 1260,
+        "startMs": 54170,
+        "text": "than fifty years.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54310,
+            "startMs": 54170,
+            "text": " than",
+            "timestampMs": 54170,
+            "fromMs": 54170,
+            "toMs": 54310
+          },
+          {
+            "confidence": null,
+            "endMs": 54720,
+            "startMs": 54310,
+            "text": " fifty",
+            "timestampMs": 54310,
+            "fromMs": 54310,
+            "toMs": 54720
+          },
+          {
+            "confidence": null,
+            "endMs": 55430,
+            "startMs": 54720,
+            "text": " years.",
+            "timestampMs": 54720,
+            "fromMs": 54720,
+            "toMs": 55430
+          }
+        ]
+      },
+      {
+        "durationMs": 730,
+        "startMs": 55430,
+        "text": "The empire is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55600,
+            "startMs": 55430,
+            "text": " The",
+            "timestampMs": 55430,
+            "fromMs": 55430,
+            "toMs": 55600
+          },
+          {
+            "confidence": null,
+            "endMs": 56080,
+            "startMs": 55600,
+            "text": " empire",
+            "timestampMs": 55600,
+            "fromMs": 55600,
+            "toMs": 56080
+          },
+          {
+            "confidence": null,
+            "endMs": 56160,
+            "startMs": 56080,
+            "text": " is",
+            "timestampMs": 56080,
+            "fromMs": 56080,
+            "toMs": 56160
+          }
+        ]
+      },
+      {
+        "durationMs": 1070,
+        "startMs": 56160,
+        "text": "still huge.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 56510,
+            "startMs": 56160,
+            "text": " still",
+            "timestampMs": 56160,
+            "fromMs": 56160,
+            "toMs": 56510
+          },
+          {
+            "confidence": null,
+            "endMs": 57230,
+            "startMs": 56510,
+            "text": " huge.",
+            "timestampMs": 56510,
+            "fromMs": 56510,
+            "toMs": 57230
+          }
+        ]
+      },
+      {
+        "durationMs": 610,
+        "startMs": 57230,
+        "text": "The office at",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57480,
+            "startMs": 57230,
+            "text": " The",
+            "timestampMs": 57230,
+            "fromMs": 57230,
+            "toMs": 57480
+          },
+          {
+            "confidence": null,
+            "endMs": 57770,
+            "startMs": 57480,
+            "text": " office",
+            "timestampMs": 57480,
+            "fromMs": 57480,
+            "toMs": 57770
+          },
+          {
+            "confidence": null,
+            "endMs": 57840,
+            "startMs": 57770,
+            "text": " at",
+            "timestampMs": 57770,
+            "fromMs": 57770,
+            "toMs": 57840
+          }
+        ]
+      },
+      {
+        "durationMs": 760,
+        "startMs": 57840,
+        "text": "the center becomes",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57910,
+            "startMs": 57840,
+            "text": " the",
+            "timestampMs": 57840,
+            "fromMs": 57840,
+            "toMs": 57910
+          },
+          {
+            "confidence": null,
+            "endMs": 58230,
+            "startMs": 57910,
+            "text": " center",
+            "timestampMs": 57910,
+            "fromMs": 57910,
+            "toMs": 58230
+          },
+          {
+            "confidence": null,
+            "endMs": 58600,
+            "startMs": 58230,
+            "text": " becomes",
+            "timestampMs": 58230,
+            "fromMs": 58230,
+            "toMs": 58600
+          }
+        ]
+      },
+      {
+        "durationMs": 1140,
+        "startMs": 58600,
+        "text": "too fragile.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 58740,
+            "startMs": 58600,
+            "text": " too",
+            "timestampMs": 58600,
+            "fromMs": 58600,
+            "toMs": 58740
+          },
+          {
+            "confidence": null,
+            "endMs": 59740,
+            "startMs": 58740,
+            "text": " fragile.",
+            "timestampMs": 58740,
+            "fromMs": 58740,
+            "toMs": 59740
+          }
+        ]
+      },
+      {
+        "durationMs": 1140,
+        "startMs": 59740,
+        "text": "Diocletian reads the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60490,
+            "startMs": 59740,
+            "text": " Diocletian",
+            "timestampMs": 59740,
+            "fromMs": 59740,
+            "toMs": 60490
+          },
+          {
+            "confidence": null,
+            "endMs": 60810,
+            "startMs": 60490,
+            "text": " reads",
+            "timestampMs": 60490,
+            "fromMs": 60490,
+            "toMs": 60810
+          },
+          {
+            "confidence": null,
+            "endMs": 60880,
+            "startMs": 60810,
+            "text": " the",
+            "timestampMs": 60810,
+            "fromMs": 60810,
+            "toMs": 60880
+          }
+        ]
+      },
+      {
+        "durationMs": 1500,
+        "startMs": 60880,
+        "text": "disaster correctly: one",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 61340,
+            "startMs": 60880,
+            "text": " disaster",
+            "timestampMs": 60880,
+            "fromMs": 60880,
+            "toMs": 61340
+          },
+          {
+            "confidence": null,
+            "endMs": 61880,
+            "startMs": 61340,
+            "text": " correctly:",
+            "timestampMs": 61340,
+            "fromMs": 61340,
+            "toMs": 61880
+          },
+          {
+            "confidence": null,
+            "endMs": 62380,
+            "startMs": 61880,
+            "text": " one",
+            "timestampMs": 61880,
+            "fromMs": 61880,
+            "toMs": 62380
+          }
+        ]
+      },
+      {
+        "durationMs": 510,
+        "startMs": 62380,
+        "text": "throne is a",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 62730,
+            "startMs": 62380,
+            "text": " throne",
+            "timestampMs": 62380,
+            "fromMs": 62380,
+            "toMs": 62730
+          },
+          {
+            "confidence": null,
+            "endMs": 62840,
+            "startMs": 62730,
+            "text": " is",
+            "timestampMs": 62730,
+            "fromMs": 62730,
+            "toMs": 62840
+          },
+          {
+            "confidence": null,
+            "endMs": 62890,
+            "startMs": 62840,
+            "text": " a",
+            "timestampMs": 62840,
+            "fromMs": 62840,
+            "toMs": 62890
+          }
+        ]
+      },
+      {
+        "durationMs": 470,
+        "startMs": 62890,
+        "text": "trap.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63360,
+            "startMs": 62890,
+            "text": " trap.",
+            "timestampMs": 62890,
+            "fromMs": 62890,
+            "toMs": 63360
+          }
+        ]
+      },
+      {
+        "durationMs": 1120,
+        "startMs": 63360,
+        "text": "He splits power",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 63750,
+            "startMs": 63360,
+            "text": " He",
+            "timestampMs": 63360,
+            "fromMs": 63360,
+            "toMs": 63750
+          },
+          {
+            "confidence": null,
+            "endMs": 64130,
+            "startMs": 63750,
+            "text": " splits",
+            "timestampMs": 63750,
+            "fromMs": 63750,
+            "toMs": 64130
+          },
+          {
+            "confidence": null,
+            "endMs": 64480,
+            "startMs": 64130,
+            "text": " power",
+            "timestampMs": 64130,
+            "fromMs": 64130,
+            "toMs": 64480
+          }
+        ]
+      },
+      {
+        "durationMs": 1120,
+        "startMs": 64480,
+        "text": "into multiple emperors,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 64660,
+            "startMs": 64480,
+            "text": " into",
+            "timestampMs": 64480,
+            "fromMs": 64480,
+            "toMs": 64660
+          },
+          {
+            "confidence": null,
+            "endMs": 65110,
+            "startMs": 64660,
+            "text": " multiple",
+            "timestampMs": 64660,
+            "fromMs": 64660,
+            "toMs": 65110
+          },
+          {
+            "confidence": null,
+            "endMs": 65600,
+            "startMs": 65110,
+            "text": " emperors,",
+            "timestampMs": 65110,
+            "fromMs": 65110,
+            "toMs": 65600
+          }
+        ]
+      },
+      {
+        "durationMs": 1340,
+        "startMs": 65600,
+        "text": "courts, armies, and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 66300,
+            "startMs": 65600,
+            "text": " courts,",
+            "timestampMs": 65600,
+            "fromMs": 65600,
+            "toMs": 66300
+          },
+          {
+            "confidence": null,
+            "endMs": 66840,
+            "startMs": 66300,
+            "text": " armies,",
+            "timestampMs": 66300,
+            "fromMs": 66300,
+            "toMs": 66840
+          },
+          {
+            "confidence": null,
+            "endMs": 66940,
+            "startMs": 66840,
+            "text": " and",
+            "timestampMs": 66840,
+            "fromMs": 66840,
+            "toMs": 66940
+          }
+        ]
+      },
+      {
+        "durationMs": 1030,
+        "startMs": 66940,
+        "text": "command zones.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 67320,
+            "startMs": 66940,
+            "text": " command",
+            "timestampMs": 66940,
+            "fromMs": 66940,
+            "toMs": 67320
+          },
+          {
+            "confidence": null,
+            "endMs": 67970,
+            "startMs": 67320,
+            "text": " zones.",
+            "timestampMs": 67320,
+            "fromMs": 67320,
+            "toMs": 67970
+          }
+        ]
+      },
+      {
+        "durationMs": 1170,
+        "startMs": 67970,
+        "text": "Rome survives by",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 68360,
+            "startMs": 67970,
+            "text": " Rome",
+            "timestampMs": 67970,
+            "fromMs": 67970,
+            "toMs": 68360
+          },
+          {
+            "confidence": null,
+            "endMs": 68980,
+            "startMs": 68360,
+            "text": " survives",
+            "timestampMs": 68360,
+            "fromMs": 68360,
+            "toMs": 68980
+          },
+          {
+            "confidence": null,
+            "endMs": 69140,
+            "startMs": 68980,
+            "text": " by",
+            "timestampMs": 68980,
+            "fromMs": 68980,
+            "toMs": 69140
+          }
+        ]
+      },
+      {
+        "durationMs": 810,
+        "startMs": 69140,
+        "text": "building the army",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 69520,
+            "startMs": 69140,
+            "text": " building",
+            "timestampMs": 69140,
+            "fromMs": 69140,
+            "toMs": 69520
+          },
+          {
+            "confidence": null,
+            "endMs": 69680,
+            "startMs": 69520,
+            "text": " the",
+            "timestampMs": 69520,
+            "fromMs": 69520,
+            "toMs": 69680
+          },
+          {
+            "confidence": null,
+            "endMs": 69950,
+            "startMs": 69680,
+            "text": " army",
+            "timestampMs": 69680,
+            "fromMs": 69680,
+            "toMs": 69950
+          }
+        ]
+      },
+      {
+        "durationMs": 830,
+        "startMs": 69950,
+        "text": "directly into the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 70550,
+            "startMs": 69950,
+            "text": " directly",
+            "timestampMs": 69950,
+            "fromMs": 69950,
+            "toMs": 70550
+          },
+          {
+            "confidence": null,
+            "endMs": 70700,
+            "startMs": 70550,
+            "text": " into",
+            "timestampMs": 70550,
+            "fromMs": 70550,
+            "toMs": 70700
+          },
+          {
+            "confidence": null,
+            "endMs": 70780,
+            "startMs": 70700,
+            "text": " the",
+            "timestampMs": 70700,
+            "fromMs": 70700,
+            "toMs": 70780
+          }
+        ]
+      },
+      {
+        "durationMs": 620,
+        "startMs": 70780,
+        "text": "state.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 71400,
+            "startMs": 70780,
+            "text": " state.",
+            "timestampMs": 70780,
+            "fromMs": 70780,
+            "toMs": 71400
+          }
+        ]
+      },
+      {
+        "durationMs": 640,
+        "startMs": 71400,
+        "text": "The emperor now",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 71550,
+            "startMs": 71400,
+            "text": " The",
+            "timestampMs": 71400,
+            "fromMs": 71400,
+            "toMs": 71550
+          },
+          {
+            "confidence": null,
+            "endMs": 71870,
+            "startMs": 71550,
+            "text": " emperor",
+            "timestampMs": 71550,
+            "fromMs": 71550,
+            "toMs": 71870
+          },
+          {
+            "confidence": null,
+            "endMs": 72040,
+            "startMs": 71870,
+            "text": " now",
+            "timestampMs": 71870,
+            "fromMs": 71870,
+            "toMs": 72040
+          }
+        ]
+      },
+      {
+        "durationMs": 550,
+        "startMs": 72040,
+        "text": "stands where the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 72440,
+            "startMs": 72040,
+            "text": " stands",
+            "timestampMs": 72040,
+            "fromMs": 72040,
+            "toMs": 72440
+          },
+          {
+            "confidence": null,
+            "endMs": 72530,
+            "startMs": 72440,
+            "text": " where",
+            "timestampMs": 72440,
+            "fromMs": 72440,
+            "toMs": 72530
+          },
+          {
+            "confidence": null,
+            "endMs": 72590,
+            "startMs": 72530,
+            "text": " the",
+            "timestampMs": 72530,
+            "fromMs": 72530,
+            "toMs": 72590
+          }
+        ]
+      },
+      {
+        "durationMs": 1680,
+        "startMs": 72590,
+        "text": "payroll, frontier, and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 73140,
+            "startMs": 72590,
+            "text": " payroll,",
+            "timestampMs": 72590,
+            "fromMs": 72590,
+            "toMs": 73140
+          },
+          {
+            "confidence": null,
+            "endMs": 74050,
+            "startMs": 73140,
+            "text": " frontier,",
+            "timestampMs": 73140,
+            "fromMs": 73140,
+            "toMs": 74050
+          },
+          {
+            "confidence": null,
+            "endMs": 74270,
+            "startMs": 74050,
+            "text": " and",
+            "timestampMs": 74050,
+            "fromMs": 74050,
+            "toMs": 74270
+          }
+        ]
+      },
+      {
+        "durationMs": 1340,
+        "startMs": 74270,
+        "text": "sword all meet.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 74920,
+            "startMs": 74270,
+            "text": " sword",
+            "timestampMs": 74270,
+            "fromMs": 74270,
+            "toMs": 74920
+          },
+          {
+            "confidence": null,
+            "endMs": 75180,
+            "startMs": 74920,
+            "text": " all",
+            "timestampMs": 74920,
+            "fromMs": 74920,
+            "toMs": 75180
+          },
+          {
+            "confidence": null,
+            "endMs": 75610,
+            "startMs": 75180,
+            "text": " meet.",
+            "timestampMs": 75180,
+            "fromMs": 75180,
+            "toMs": 75610
+          }
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "startMs": 0,
+        "text": "Rome's emperors stop inheriting power."
+      },
+      {
+        "startMs": 1990,
+        "text": "They start being hired by armies."
+      },
+      {
+        "startMs": 4220,
+        "text": "The Senate still has marble, titles, rituals."
+      },
+      {
+        "startMs": 7350,
+        "text": "The frontier has the swords."
+      },
+      {
+        "startMs": 9020,
+        "text": "In 235 CE, soldiers murder Severus Alexander and raise Maximinus Thrax."
+      },
+      {
+        "startMs": 15250,
+        "text": "Maximinus never visits Rome."
+      },
+      {
+        "startMs": 17200,
+        "text": "The capital learns it has become optional."
+      },
+      {
+        "startMs": 19270,
+        "text": "The old rule is bloodline."
+      },
+      {
+        "startMs": 20970,
+        "text": "The new rule is payroll."
+      },
+      {
+        "startMs": 22870,
+        "text": "Every frontier has its own emergency: Goths, Franks, Persians, rebels."
+      },
+      {
+        "startMs": 28260,
+        "text": "One emperor cannot be everywhere."
+      },
+      {
+        "startMs": 30280,
+        "text": "Every general starts looking like a backup emperor."
+      },
+      {
+        "startMs": 32720,
+        "text": "If a legion feels abandoned, it can simply choose its own savior."
+      },
+      {
+        "startMs": 36340,
+        "text": "That choice is never symbolic."
+      },
+      {
+        "startMs": 38140,
+        "text": "It comes with twenty thousand armed men."
+      },
+      {
+        "startMs": 40420,
+        "text": "The pain is simple: loyalty costs more than the treasury can hold."
+      },
+      {
+        "startMs": 44260,
+        "text": "Each new emperor promises donatives."
+      },
+      {
+        "startMs": 46740,
+        "text": "Each promise teaches the army to ask again."
+      },
+      {
+        "startMs": 49030,
+        "text": "Assassination becomes succession planning with knives."
+      },
+      {
+        "startMs": 51960,
+        "text": "More than twenty men claim the purple in less than fifty years."
+      },
+      {
+        "startMs": 55430,
+        "text": "The empire is still huge."
+      },
+      {
+        "startMs": 57230,
+        "text": "The office at the center becomes too fragile."
+      },
+      {
+        "startMs": 59740,
+        "text": "Diocletian reads the disaster correctly: one throne is a trap."
+      },
+      {
+        "startMs": 63360,
+        "text": "He splits power into multiple emperors, courts, armies, and command zones."
+      },
+      {
+        "startMs": 67970,
+        "text": "Rome survives by building the army directly into the state."
+      },
+      {
+        "startMs": 71400,
+        "text": "The emperor now stands where the payroll, frontier, and sword all meet."
+      }
+    ]
+  },
+  "visualSfx": {
+    "dustFilePath": "staticVideoAssets/visualSfx/dust.mov",
+    "embersFilePath": "staticVideoAssets/visualSfx/embers.mov",
+    "filmGrainFilePath": "staticVideoAssets/visualSfx/film-grain.mov",
+    "fogDriftFilePath": "staticVideoAssets/visualSfx/fog-drift.mov",
+    "rainFilePath": "staticVideoAssets/visualSfx/rain.mov",
+    "snowFilePath": "staticVideoAssets/visualSfx/snow.mov",
+    "sparksFilePath": "staticVideoAssets/visualSfx/sparks.mov"
+  },
+  "transitionOverlayVideoSrcByName": {
+    "bokehWash": "staticVideoAssets/transitionOverlays/bokehWash.mov",
+    "flashCut": "staticVideoAssets/transitionOverlays/flashCut.mov",
+    "glitchCover": "staticVideoAssets/transitionOverlays/glitchCover.mov",
+    "impactSlam": "staticVideoAssets/transitionOverlays/impactSlam.mov",
+    "lightLeakDissolve": "staticVideoAssets/transitionOverlays/lightLeakDissolve.mov",
+    "smokeWipe": "staticVideoAssets/transitionOverlays/smokeWipe.mov",
+    "whipCoverLeft": "staticVideoAssets/transitionOverlays/whipCoverLeft.mov",
+    "whipCoverRight": "staticVideoAssets/transitionOverlays/whipCoverRight.mov"
+  }
+}
