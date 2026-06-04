@@ -36,6 +36,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 *.tsbuildinfo
 **/assets/.scene-reference-grid*/
 **/assets/keyframes/.selected-*/
+**/.tmp-*
+videos/Demo Feed Elevated/**/rendered/
+videos/Demo Feed Elevated/**/*.zip
 
 # IntelliJ based IDEs
 .idea
