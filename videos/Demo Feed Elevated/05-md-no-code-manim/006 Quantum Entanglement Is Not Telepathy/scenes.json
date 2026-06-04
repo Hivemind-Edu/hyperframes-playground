@@ -1,0 +1,1901 @@
+{
+  "backgroundVideoPath": "staticVideoAssets/subwaysurfers-city/clip-01-render.mp4",
+  "illustrations": [
+    {
+      "aspectRatio": "16:9",
+      "enterMs": 5610,
+      "exitMs": 8070,
+      "imageHeight": 432,
+      "imagePath": "illustration-02.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "4:3",
+      "enterMs": 15525,
+      "exitMs": 17955,
+      "imageHeight": 576,
+      "imagePath": "illustration-03.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "1:1",
+      "enterMs": 33126,
+      "exitMs": 35346,
+      "imageHeight": 768,
+      "imagePath": "illustration-06.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "4:3",
+      "enterMs": 35571,
+      "exitMs": 38381,
+      "imageHeight": 576,
+      "imagePath": "illustration-07.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "16:9",
+      "enterMs": 57644,
+      "exitMs": 59894,
+      "imageHeight": 432,
+      "imagePath": "illustration-09.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "1:1",
+      "enterMs": 62444,
+      "exitMs": 64174,
+      "imageHeight": 768,
+      "imagePath": "illustration-10.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "16:9",
+      "enterMs": 70207,
+      "exitMs": 73007,
+      "imageHeight": 432,
+      "imagePath": "illustration-11.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "cutout",
+      "enterMs": 80715,
+      "exitMs": 83425,
+      "imageHeight": 455,
+      "imagePath": "illustration-12.png",
+      "imageWidth": 447
+    },
+    {
+      "aspectRatio": "4:3",
+      "enterMs": 87840,
+      "exitMs": 90030,
+      "imageHeight": 576,
+      "imagePath": "illustration-13.png",
+      "imageWidth": 768
+    },
+    {
+      "aspectRatio": "cutout",
+      "enterMs": 94060,
+      "exitMs": 95800,
+      "imageHeight": 360,
+      "imagePath": "illustration-14.png",
+      "imageWidth": 569
+    },
+    {
+      "aspectRatio": "cutout",
+      "enterMs": 102849,
+      "exitMs": 104769,
+      "imageHeight": 473,
+      "imagePath": "illustration-15.png",
+      "imageWidth": 621
+    },
+    {
+      "aspectRatio": "1:1",
+      "enterMs": 107009,
+      "exitMs": 108479,
+      "imageHeight": 768,
+      "imagePath": "illustration-16.png",
+      "imageWidth": 768
+    }
+  ],
+  "noviceImageDimensions": {
+    "height": 534,
+    "width": 352
+  },
+  "noviceImagePath": "novice.png",
+  "teacherImageDimensions": {
+    "height": 542,
+    "width": 288
+  },
+  "teacherImagePath": "teacher.png",
+  "turns": [
+    {
+      "audioFilePath": "dialogue-turn-01.mp3",
+      "endMs": 9446,
+      "speaker": "novice",
+      "startMs": 200,
+      "text": "So quantum entanglement means two particles are linked like a magic walkie-talkie. I poke mine, yours reacts across the galaxy."
+    },
+    {
+      "audioFilePath": "dialogue-turn-02.mp3",
+      "endMs": 17867,
+      "speaker": "teacher",
+      "startMs": 9546,
+      "text": "Quantum entanglement means their measurement outcomes are correlated. It does not mean you can send a message faster than light."
+    },
+    {
+      "audioFilePath": "dialogue-turn-03.mp3",
+      "endMs": 25133,
+      "speaker": "novice",
+      "startMs": 17967,
+      "text": "But if I measure spin up here, the far particle is spin down there. That sounds instant."
+    },
+    {
+      "audioFilePath": "dialogue-turn-04.mp3",
+      "endMs": 33680,
+      "speaker": "teacher",
+      "startMs": 25233,
+      "text": "Instant correlation, not controllable communication. You do not pick up or down. Measurement gives a random result."
+    },
+    {
+      "audioFilePath": "dialogue-turn-05.mp3",
+      "endMs": 39447,
+      "speaker": "novice",
+      "startMs": 33780,
+      "text": "So I cannot encode a one by forcing my particle up?"
+    },
+    {
+      "audioFilePath": "dialogue-turn-06.mp3",
+      "endMs": 44957,
+      "speaker": "teacher",
+      "startMs": 39547,
+      "text": "Exactly. Your local results look random no matter what the other lab does."
+    },
+    {
+      "audioFilePath": "dialogue-turn-07.mp3",
+      "endMs": 51703,
+      "speaker": "novice",
+      "startMs": 45057,
+      "text": "Then what makes it quantum? Random plus random still sounds like a spreadsheet with anxiety."
+    },
+    {
+      "audioFilePath": "dialogue-turn-08.mp3",
+      "endMs": 59905,
+      "speaker": "teacher",
+      "startMs": 51803,
+      "text": "The joint state cannot be split into two independent private states. The pair has a pattern neither particle owns alone."
+    },
+    {
+      "audioFilePath": "dialogue-turn-09.mp3",
+      "endMs": 64348,
+      "speaker": "novice",
+      "startMs": 60005,
+      "text": "How do we know it is not just hidden instructions written earlier?"
+    },
+    {
+      "audioFilePath": "dialogue-turn-10.mp3",
+      "endMs": 72343,
+      "speaker": "teacher",
+      "startMs": 64448,
+      "text": "Bell tests. Run many trials, compare the lists, and the correlations beat what classical hidden instruction cards can do."
+    },
+    {
+      "audioFilePath": "dialogue-turn-11.mp3",
+      "endMs": 76405,
+      "speaker": "novice",
+      "startMs": 72443,
+      "text": "So the particles share a rule, but not a message?"
+    },
+    {
+      "audioFilePath": "dialogue-turn-12.mp3",
+      "endMs": 83041,
+      "speaker": "teacher",
+      "startMs": 76505,
+      "text": "Right. Quantum entanglement is a shared statistical structure, not a cosmic direct message."
+    },
+    {
+      "audioFilePath": "dialogue-turn-13.mp3",
+      "endMs": 85675,
+      "speaker": "novice",
+      "startMs": 83141,
+      "text": "But people say it breaks relativity."
+    },
+    {
+      "audioFilePath": "dialogue-turn-14.mp3",
+      "endMs": 93846,
+      "speaker": "teacher",
+      "startMs": 85775,
+      "text": "It bothers intuition, not relativity. To learn the pattern, the labs still compare notes through ordinary light-speed communication."
+    },
+    {
+      "audioFilePath": "dialogue-turn-15.mp3",
+      "endMs": 99629,
+      "speaker": "novice",
+      "startMs": 93946,
+      "text": "So quantum entanglement is real weirdness, but not remote control."
+    },
+    {
+      "audioFilePath": "dialogue-turn-16.mp3",
+      "endMs": 107846,
+      "speaker": "teacher",
+      "startMs": 99729,
+      "text": "Finally. Spooky, yes. Telepathy, no. The universe kept the weird part and threw away the useful cheat code."
+    }
+  ],
+  "videoDurationMs": 108846,
+  "wordCaptions": [
+    {
+      "confidence": null,
+      "endMs": 550,
+      "startMs": 220,
+      "text": "So",
+      "timestampMs": 220
+    },
+    {
+      "confidence": null,
+      "endMs": 1020,
+      "startMs": 550,
+      "text": " quantum",
+      "timestampMs": 550
+    },
+    {
+      "confidence": null,
+      "endMs": 1730,
+      "startMs": 1020,
+      "text": " entanglement",
+      "timestampMs": 1020
+    },
+    {
+      "confidence": null,
+      "endMs": 2030,
+      "startMs": 1730,
+      "text": " means",
+      "timestampMs": 1730
+    },
+    {
+      "confidence": null,
+      "endMs": 2220,
+      "startMs": 2030,
+      "text": " two",
+      "timestampMs": 2030
+    },
+    {
+      "confidence": null,
+      "endMs": 2900,
+      "startMs": 2220,
+      "text": " particles",
+      "timestampMs": 2220
+    },
+    {
+      "confidence": null,
+      "endMs": 2970,
+      "startMs": 2900,
+      "text": " are",
+      "timestampMs": 2900
+    },
+    {
+      "confidence": null,
+      "endMs": 3460,
+      "startMs": 2970,
+      "text": " linked",
+      "timestampMs": 2970
+    },
+    {
+      "confidence": null,
+      "endMs": 3750,
+      "startMs": 3460,
+      "text": " like",
+      "timestampMs": 3460
+    },
+    {
+      "confidence": null,
+      "endMs": 3820,
+      "startMs": 3750,
+      "text": " a",
+      "timestampMs": 3750
+    },
+    {
+      "confidence": null,
+      "endMs": 4270,
+      "startMs": 3820,
+      "text": " magic",
+      "timestampMs": 3820
+    },
+    {
+      "confidence": null,
+      "endMs": 5260,
+      "startMs": 4270,
+      "text": " walkie-talkie.",
+      "timestampMs": 4270
+    },
+    {
+      "confidence": null,
+      "endMs": 5690,
+      "startMs": 5260,
+      "text": " I",
+      "timestampMs": 5260
+    },
+    {
+      "confidence": null,
+      "endMs": 6040,
+      "startMs": 5690,
+      "text": " poke",
+      "timestampMs": 5690
+    },
+    {
+      "confidence": null,
+      "endMs": 6590,
+      "startMs": 6040,
+      "text": " mine,",
+      "timestampMs": 6040
+    },
+    {
+      "confidence": null,
+      "endMs": 7090,
+      "startMs": 6590,
+      "text": " yours",
+      "timestampMs": 6590
+    },
+    {
+      "confidence": null,
+      "endMs": 7550,
+      "startMs": 7090,
+      "text": " reacts",
+      "timestampMs": 7090
+    },
+    {
+      "confidence": null,
+      "endMs": 7940,
+      "startMs": 7550,
+      "text": " across",
+      "timestampMs": 7550
+    },
+    {
+      "confidence": null,
+      "endMs": 8040,
+      "startMs": 7940,
+      "text": " the",
+      "timestampMs": 7940
+    },
+    {
+      "confidence": null,
+      "endMs": 9420,
+      "startMs": 8040,
+      "text": " galaxy.",
+      "timestampMs": 8040
+    },
+    {
+      "confidence": null,
+      "endMs": 10156,
+      "startMs": 9566,
+      "text": "Quantum",
+      "timestampMs": 9566
+    },
+    {
+      "confidence": null,
+      "endMs": 10936,
+      "startMs": 10156,
+      "text": " entanglement",
+      "timestampMs": 10156
+    },
+    {
+      "confidence": null,
+      "endMs": 11456,
+      "startMs": 10936,
+      "text": " means",
+      "timestampMs": 10936
+    },
+    {
+      "confidence": null,
+      "endMs": 11766,
+      "startMs": 11456,
+      "text": " their",
+      "timestampMs": 11456
+    },
+    {
+      "confidence": null,
+      "endMs": 12366,
+      "startMs": 11766,
+      "text": " measurement",
+      "timestampMs": 11766
+    },
+    {
+      "confidence": null,
+      "endMs": 13026,
+      "startMs": 12366,
+      "text": " outcomes",
+      "timestampMs": 12366
+    },
+    {
+      "confidence": null,
+      "endMs": 13186,
+      "startMs": 13026,
+      "text": " are",
+      "timestampMs": 13026
+    },
+    {
+      "confidence": null,
+      "endMs": 14236,
+      "startMs": 13186,
+      "text": " correlated.",
+      "timestampMs": 13186
+    },
+    {
+      "confidence": null,
+      "endMs": 14536,
+      "startMs": 14236,
+      "text": " It",
+      "timestampMs": 14236
+    },
+    {
+      "confidence": null,
+      "endMs": 14756,
+      "startMs": 14536,
+      "text": " does",
+      "timestampMs": 14536
+    },
+    {
+      "confidence": null,
+      "endMs": 15046,
+      "startMs": 14756,
+      "text": " not",
+      "timestampMs": 14756
+    },
+    {
+      "confidence": null,
+      "endMs": 15326,
+      "startMs": 15046,
+      "text": " mean",
+      "timestampMs": 15046
+    },
+    {
+      "confidence": null,
+      "endMs": 15436,
+      "startMs": 15326,
+      "text": " you",
+      "timestampMs": 15326
+    },
+    {
+      "confidence": null,
+      "endMs": 15586,
+      "startMs": 15436,
+      "text": " can",
+      "timestampMs": 15436
+    },
+    {
+      "confidence": null,
+      "endMs": 15896,
+      "startMs": 15586,
+      "text": " send",
+      "timestampMs": 15586
+    },
+    {
+      "confidence": null,
+      "endMs": 15936,
+      "startMs": 15896,
+      "text": " a",
+      "timestampMs": 15896
+    },
+    {
+      "confidence": null,
+      "endMs": 16576,
+      "startMs": 15936,
+      "text": " message",
+      "timestampMs": 15936
+    },
+    {
+      "confidence": null,
+      "endMs": 17186,
+      "startMs": 16576,
+      "text": " faster",
+      "timestampMs": 16576
+    },
+    {
+      "confidence": null,
+      "endMs": 17336,
+      "startMs": 17186,
+      "text": " than",
+      "timestampMs": 17186
+    },
+    {
+      "confidence": null,
+      "endMs": 17846,
+      "startMs": 17336,
+      "text": " light.",
+      "timestampMs": 17336
+    },
+    {
+      "confidence": null,
+      "endMs": 18177,
+      "startMs": 17987,
+      "text": "But",
+      "timestampMs": 17987
+    },
+    {
+      "confidence": null,
+      "endMs": 18287,
+      "startMs": 18177,
+      "text": " if",
+      "timestampMs": 18177
+    },
+    {
+      "confidence": null,
+      "endMs": 18407,
+      "startMs": 18287,
+      "text": " I",
+      "timestampMs": 18287
+    },
+    {
+      "confidence": null,
+      "endMs": 18857,
+      "startMs": 18407,
+      "text": " measure",
+      "timestampMs": 18407
+    },
+    {
+      "confidence": null,
+      "endMs": 19407,
+      "startMs": 18857,
+      "text": " spin",
+      "timestampMs": 18857
+    },
+    {
+      "confidence": null,
+      "endMs": 19797,
+      "startMs": 19407,
+      "text": " up",
+      "timestampMs": 19407
+    },
+    {
+      "confidence": null,
+      "endMs": 20427,
+      "startMs": 19797,
+      "text": " here,",
+      "timestampMs": 19797
+    },
+    {
+      "confidence": null,
+      "endMs": 20837,
+      "startMs": 20577,
+      "text": " the",
+      "timestampMs": 20577
+    },
+    {
+      "confidence": null,
+      "endMs": 21207,
+      "startMs": 20837,
+      "text": " far",
+      "timestampMs": 20837
+    },
+    {
+      "confidence": null,
+      "endMs": 21967,
+      "startMs": 21207,
+      "text": " particle",
+      "timestampMs": 21207
+    },
+    {
+      "confidence": null,
+      "endMs": 22117,
+      "startMs": 21967,
+      "text": " is",
+      "timestampMs": 21967
+    },
+    {
+      "confidence": null,
+      "endMs": 22657,
+      "startMs": 22117,
+      "text": " spin",
+      "timestampMs": 22117
+    },
+    {
+      "confidence": null,
+      "endMs": 23017,
+      "startMs": 22657,
+      "text": " down",
+      "timestampMs": 22657
+    },
+    {
+      "confidence": null,
+      "endMs": 23597,
+      "startMs": 23017,
+      "text": " there.",
+      "timestampMs": 23017
+    },
+    {
+      "confidence": null,
+      "endMs": 23837,
+      "startMs": 23597,
+      "text": " That",
+      "timestampMs": 23597
+    },
+    {
+      "confidence": null,
+      "endMs": 24267,
+      "startMs": 23837,
+      "text": " sounds",
+      "timestampMs": 23837
+    },
+    {
+      "confidence": null,
+      "endMs": 25107,
+      "startMs": 24267,
+      "text": " instant.",
+      "timestampMs": 24267
+    },
+    {
+      "confidence": null,
+      "endMs": 25823,
+      "startMs": 25253,
+      "text": "Instant",
+      "timestampMs": 25253
+    },
+    {
+      "confidence": null,
+      "endMs": 26603,
+      "startMs": 25823,
+      "text": " correlation,",
+      "timestampMs": 25823
+    },
+    {
+      "confidence": null,
+      "endMs": 27203,
+      "startMs": 26753,
+      "text": " not",
+      "timestampMs": 26753
+    },
+    {
+      "confidence": null,
+      "endMs": 27953,
+      "startMs": 27203,
+      "text": " controllable",
+      "timestampMs": 27203
+    },
+    {
+      "confidence": null,
+      "endMs": 29033,
+      "startMs": 27953,
+      "text": " communication.",
+      "timestampMs": 27953
+    },
+    {
+      "confidence": null,
+      "endMs": 29253,
+      "startMs": 29033,
+      "text": " You",
+      "timestampMs": 29033
+    },
+    {
+      "confidence": null,
+      "endMs": 29403,
+      "startMs": 29253,
+      "text": " do",
+      "timestampMs": 29253
+    },
+    {
+      "confidence": null,
+      "endMs": 29663,
+      "startMs": 29403,
+      "text": " not",
+      "timestampMs": 29403
+    },
+    {
+      "confidence": null,
+      "endMs": 29973,
+      "startMs": 29663,
+      "text": " pick",
+      "timestampMs": 29663
+    },
+    {
+      "confidence": null,
+      "endMs": 30243,
+      "startMs": 29973,
+      "text": " up",
+      "timestampMs": 29973
+    },
+    {
+      "confidence": null,
+      "endMs": 30453,
+      "startMs": 30243,
+      "text": " or",
+      "timestampMs": 30243
+    },
+    {
+      "confidence": null,
+      "endMs": 31133,
+      "startMs": 30453,
+      "text": " down.",
+      "timestampMs": 30453
+    },
+    {
+      "confidence": null,
+      "endMs": 32103,
+      "startMs": 31133,
+      "text": " Measurement",
+      "timestampMs": 31133
+    },
+    {
+      "confidence": null,
+      "endMs": 32383,
+      "startMs": 32103,
+      "text": " gives",
+      "timestampMs": 32103
+    },
+    {
+      "confidence": null,
+      "endMs": 32483,
+      "startMs": 32383,
+      "text": " a",
+      "timestampMs": 32383
+    },
+    {
+      "confidence": null,
+      "endMs": 33003,
+      "startMs": 32483,
+      "text": " random",
+      "timestampMs": 32483
+    },
+    {
+      "confidence": null,
+      "endMs": 33663,
+      "startMs": 33003,
+      "text": " result.",
+      "timestampMs": 33003
+    },
+    {
+      "confidence": null,
+      "endMs": 34340,
+      "startMs": 33800,
+      "text": "So",
+      "timestampMs": 33800
+    },
+    {
+      "confidence": null,
+      "endMs": 34600,
+      "startMs": 34340,
+      "text": " I",
+      "timestampMs": 34340
+    },
+    {
+      "confidence": null,
+      "endMs": 35060,
+      "startMs": 34600,
+      "text": " cannot",
+      "timestampMs": 34600
+    },
+    {
+      "confidence": null,
+      "endMs": 35720,
+      "startMs": 35060,
+      "text": " encode",
+      "timestampMs": 35060
+    },
+    {
+      "confidence": null,
+      "endMs": 35840,
+      "startMs": 35720,
+      "text": " a",
+      "timestampMs": 35720
+    },
+    {
+      "confidence": null,
+      "endMs": 36420,
+      "startMs": 35840,
+      "text": " one",
+      "timestampMs": 35840
+    },
+    {
+      "confidence": null,
+      "endMs": 36850,
+      "startMs": 36420,
+      "text": " by",
+      "timestampMs": 36420
+    },
+    {
+      "confidence": null,
+      "endMs": 37470,
+      "startMs": 36850,
+      "text": " forcing",
+      "timestampMs": 36850
+    },
+    {
+      "confidence": null,
+      "endMs": 37960,
+      "startMs": 37470,
+      "text": " my",
+      "timestampMs": 37470
+    },
+    {
+      "confidence": null,
+      "endMs": 38610,
+      "startMs": 37960,
+      "text": " particle",
+      "timestampMs": 37960
+    },
+    {
+      "confidence": null,
+      "endMs": 39130,
+      "startMs": 38610,
+      "text": " up?",
+      "timestampMs": 38610
+    },
+    {
+      "confidence": null,
+      "endMs": 40577,
+      "startMs": 39567,
+      "text": "Exactly.",
+      "timestampMs": 39567
+    },
+    {
+      "confidence": null,
+      "endMs": 41047,
+      "startMs": 40807,
+      "text": " Your",
+      "timestampMs": 40807
+    },
+    {
+      "confidence": null,
+      "endMs": 41477,
+      "startMs": 41047,
+      "text": " local",
+      "timestampMs": 41047
+    },
+    {
+      "confidence": null,
+      "endMs": 41957,
+      "startMs": 41477,
+      "text": " results",
+      "timestampMs": 41477
+    },
+    {
+      "confidence": null,
+      "endMs": 42197,
+      "startMs": 41957,
+      "text": " look",
+      "timestampMs": 41957
+    },
+    {
+      "confidence": null,
+      "endMs": 42887,
+      "startMs": 42197,
+      "text": " random",
+      "timestampMs": 42197
+    },
+    {
+      "confidence": null,
+      "endMs": 43077,
+      "startMs": 42887,
+      "text": " no",
+      "timestampMs": 42887
+    },
+    {
+      "confidence": null,
+      "endMs": 43297,
+      "startMs": 43077,
+      "text": " matter",
+      "timestampMs": 43077
+    },
+    {
+      "confidence": null,
+      "endMs": 43547,
+      "startMs": 43297,
+      "text": " what",
+      "timestampMs": 43297
+    },
+    {
+      "confidence": null,
+      "endMs": 43707,
+      "startMs": 43547,
+      "text": " the",
+      "timestampMs": 43547
+    },
+    {
+      "confidence": null,
+      "endMs": 43937,
+      "startMs": 43707,
+      "text": " other",
+      "timestampMs": 43707
+    },
+    {
+      "confidence": null,
+      "endMs": 44277,
+      "startMs": 43937,
+      "text": " lab",
+      "timestampMs": 43937
+    },
+    {
+      "confidence": null,
+      "endMs": 44937,
+      "startMs": 44277,
+      "text": " does.",
+      "timestampMs": 44277
+    },
+    {
+      "confidence": null,
+      "endMs": 45347,
+      "startMs": 45077,
+      "text": "Then",
+      "timestampMs": 45077
+    },
+    {
+      "confidence": null,
+      "endMs": 45517,
+      "startMs": 45347,
+      "text": " what",
+      "timestampMs": 45347
+    },
+    {
+      "confidence": null,
+      "endMs": 45787,
+      "startMs": 45517,
+      "text": " makes",
+      "timestampMs": 45517
+    },
+    {
+      "confidence": null,
+      "endMs": 45907,
+      "startMs": 45787,
+      "text": " it",
+      "timestampMs": 45787
+    },
+    {
+      "confidence": null,
+      "endMs": 46837,
+      "startMs": 45907,
+      "text": " quantum?",
+      "timestampMs": 45907
+    },
+    {
+      "confidence": null,
+      "endMs": 47727,
+      "startMs": 46837,
+      "text": " Random",
+      "timestampMs": 46837
+    },
+    {
+      "confidence": null,
+      "endMs": 48087,
+      "startMs": 47727,
+      "text": " plus",
+      "timestampMs": 47727
+    },
+    {
+      "confidence": null,
+      "endMs": 48827,
+      "startMs": 48087,
+      "text": " random",
+      "timestampMs": 48087
+    },
+    {
+      "confidence": null,
+      "endMs": 49247,
+      "startMs": 48827,
+      "text": " still",
+      "timestampMs": 48827
+    },
+    {
+      "confidence": null,
+      "endMs": 49597,
+      "startMs": 49247,
+      "text": " sounds",
+      "timestampMs": 49247
+    },
+    {
+      "confidence": null,
+      "endMs": 49757,
+      "startMs": 49597,
+      "text": " like",
+      "timestampMs": 49597
+    },
+    {
+      "confidence": null,
+      "endMs": 49827,
+      "startMs": 49757,
+      "text": " a",
+      "timestampMs": 49757
+    },
+    {
+      "confidence": null,
+      "endMs": 50507,
+      "startMs": 49827,
+      "text": " spreadsheet",
+      "timestampMs": 49827
+    },
+    {
+      "confidence": null,
+      "endMs": 50667,
+      "startMs": 50507,
+      "text": " with",
+      "timestampMs": 50507
+    },
+    {
+      "confidence": null,
+      "endMs": 51703,
+      "startMs": 50667,
+      "text": " anxiety.",
+      "timestampMs": 50667
+    },
+    {
+      "confidence": null,
+      "endMs": 52093,
+      "startMs": 51823,
+      "text": "The",
+      "timestampMs": 51823
+    },
+    {
+      "confidence": null,
+      "endMs": 52473,
+      "startMs": 52093,
+      "text": " joint",
+      "timestampMs": 52093
+    },
+    {
+      "confidence": null,
+      "endMs": 52873,
+      "startMs": 52473,
+      "text": " state",
+      "timestampMs": 52473
+    },
+    {
+      "confidence": null,
+      "endMs": 53223,
+      "startMs": 52873,
+      "text": " cannot",
+      "timestampMs": 52873
+    },
+    {
+      "confidence": null,
+      "endMs": 53373,
+      "startMs": 53223,
+      "text": " be",
+      "timestampMs": 53223
+    },
+    {
+      "confidence": null,
+      "endMs": 53863,
+      "startMs": 53373,
+      "text": " split",
+      "timestampMs": 53373
+    },
+    {
+      "confidence": null,
+      "endMs": 54103,
+      "startMs": 53863,
+      "text": " into",
+      "timestampMs": 53863
+    },
+    {
+      "confidence": null,
+      "endMs": 54583,
+      "startMs": 54103,
+      "text": " two",
+      "timestampMs": 54103
+    },
+    {
+      "confidence": null,
+      "endMs": 55283,
+      "startMs": 54583,
+      "text": " independent",
+      "timestampMs": 54583
+    },
+    {
+      "confidence": null,
+      "endMs": 55733,
+      "startMs": 55283,
+      "text": " private",
+      "timestampMs": 55283
+    },
+    {
+      "confidence": null,
+      "endMs": 56743,
+      "startMs": 55733,
+      "text": " states.",
+      "timestampMs": 55733
+    },
+    {
+      "confidence": null,
+      "endMs": 56923,
+      "startMs": 56743,
+      "text": " The",
+      "timestampMs": 56743
+    },
+    {
+      "confidence": null,
+      "endMs": 57353,
+      "startMs": 56923,
+      "text": " pair",
+      "timestampMs": 56923
+    },
+    {
+      "confidence": null,
+      "endMs": 57563,
+      "startMs": 57353,
+      "text": " has",
+      "timestampMs": 57353
+    },
+    {
+      "confidence": null,
+      "endMs": 57603,
+      "startMs": 57563,
+      "text": " a",
+      "timestampMs": 57563
+    },
+    {
+      "confidence": null,
+      "endMs": 58053,
+      "startMs": 57603,
+      "text": " pattern",
+      "timestampMs": 57603
+    },
+    {
+      "confidence": null,
+      "endMs": 58353,
+      "startMs": 58053,
+      "text": " neither",
+      "timestampMs": 58053
+    },
+    {
+      "confidence": null,
+      "endMs": 58833,
+      "startMs": 58353,
+      "text": " particle",
+      "timestampMs": 58353
+    },
+    {
+      "confidence": null,
+      "endMs": 59293,
+      "startMs": 58833,
+      "text": " owns",
+      "timestampMs": 58833
+    },
+    {
+      "confidence": null,
+      "endMs": 59883,
+      "startMs": 59293,
+      "text": " alone.",
+      "timestampMs": 59293
+    },
+    {
+      "confidence": null,
+      "endMs": 60405,
+      "startMs": 60025,
+      "text": "How",
+      "timestampMs": 60025
+    },
+    {
+      "confidence": null,
+      "endMs": 60555,
+      "startMs": 60405,
+      "text": " do",
+      "timestampMs": 60405
+    },
+    {
+      "confidence": null,
+      "endMs": 60715,
+      "startMs": 60555,
+      "text": " we",
+      "timestampMs": 60555
+    },
+    {
+      "confidence": null,
+      "endMs": 61095,
+      "startMs": 60715,
+      "text": " know",
+      "timestampMs": 60715
+    },
+    {
+      "confidence": null,
+      "endMs": 61335,
+      "startMs": 61095,
+      "text": " it",
+      "timestampMs": 61095
+    },
+    {
+      "confidence": null,
+      "endMs": 61645,
+      "startMs": 61335,
+      "text": " is",
+      "timestampMs": 61335
+    },
+    {
+      "confidence": null,
+      "endMs": 61805,
+      "startMs": 61645,
+      "text": " not",
+      "timestampMs": 61645
+    },
+    {
+      "confidence": null,
+      "endMs": 62075,
+      "startMs": 61805,
+      "text": " just",
+      "timestampMs": 61805
+    },
+    {
+      "confidence": null,
+      "endMs": 62405,
+      "startMs": 62075,
+      "text": " hidden",
+      "timestampMs": 62075
+    },
+    {
+      "confidence": null,
+      "endMs": 63085,
+      "startMs": 62405,
+      "text": " instructions",
+      "timestampMs": 62405
+    },
+    {
+      "confidence": null,
+      "endMs": 63345,
+      "startMs": 63085,
+      "text": " written",
+      "timestampMs": 63085
+    },
+    {
+      "confidence": null,
+      "endMs": 64115,
+      "startMs": 63345,
+      "text": " earlier?",
+      "timestampMs": 63345
+    },
+    {
+      "confidence": null,
+      "endMs": 64808,
+      "startMs": 64468,
+      "text": "Bell",
+      "timestampMs": 64468
+    },
+    {
+      "confidence": null,
+      "endMs": 65538,
+      "startMs": 64808,
+      "text": " tests.",
+      "timestampMs": 64808
+    },
+    {
+      "confidence": null,
+      "endMs": 65978,
+      "startMs": 65538,
+      "text": " Run",
+      "timestampMs": 65538
+    },
+    {
+      "confidence": null,
+      "endMs": 66238,
+      "startMs": 65978,
+      "text": " many",
+      "timestampMs": 65978
+    },
+    {
+      "confidence": null,
+      "endMs": 66948,
+      "startMs": 66238,
+      "text": " trials,",
+      "timestampMs": 66238
+    },
+    {
+      "confidence": null,
+      "endMs": 67628,
+      "startMs": 66948,
+      "text": " compare",
+      "timestampMs": 66948
+    },
+    {
+      "confidence": null,
+      "endMs": 67778,
+      "startMs": 67628,
+      "text": " the",
+      "timestampMs": 67628
+    },
+    {
+      "confidence": null,
+      "endMs": 68338,
+      "startMs": 67778,
+      "text": " lists,",
+      "timestampMs": 67778
+    },
+    {
+      "confidence": null,
+      "endMs": 68678,
+      "startMs": 68338,
+      "text": " and",
+      "timestampMs": 68338
+    },
+    {
+      "confidence": null,
+      "endMs": 68738,
+      "startMs": 68678,
+      "text": " the",
+      "timestampMs": 68678
+    },
+    {
+      "confidence": null,
+      "endMs": 69608,
+      "startMs": 68738,
+      "text": " correlations",
+      "timestampMs": 68738
+    },
+    {
+      "confidence": null,
+      "endMs": 69878,
+      "startMs": 69608,
+      "text": " beat",
+      "timestampMs": 69608
+    },
+    {
+      "confidence": null,
+      "endMs": 70048,
+      "startMs": 69878,
+      "text": " what",
+      "timestampMs": 69878
+    },
+    {
+      "confidence": null,
+      "endMs": 70588,
+      "startMs": 70048,
+      "text": " classical",
+      "timestampMs": 70048
+    },
+    {
+      "confidence": null,
+      "endMs": 70828,
+      "startMs": 70588,
+      "text": " hidden",
+      "timestampMs": 70588
+    },
+    {
+      "confidence": null,
+      "endMs": 71398,
+      "startMs": 70828,
+      "text": " instruction",
+      "timestampMs": 70828
+    },
+    {
+      "confidence": null,
+      "endMs": 71768,
+      "startMs": 71398,
+      "text": " cards",
+      "timestampMs": 71398
+    },
+    {
+      "confidence": null,
+      "endMs": 71948,
+      "startMs": 71768,
+      "text": " can",
+      "timestampMs": 71768
+    },
+    {
+      "confidence": null,
+      "endMs": 72318,
+      "startMs": 71948,
+      "text": " do.",
+      "timestampMs": 71948
+    },
+    {
+      "confidence": null,
+      "endMs": 73103,
+      "startMs": 72463,
+      "text": "So",
+      "timestampMs": 72463
+    },
+    {
+      "confidence": null,
+      "endMs": 73233,
+      "startMs": 73103,
+      "text": " the",
+      "timestampMs": 73103
+    },
+    {
+      "confidence": null,
+      "endMs": 73923,
+      "startMs": 73233,
+      "text": " particles",
+      "timestampMs": 73233
+    },
+    {
+      "confidence": null,
+      "endMs": 74563,
+      "startMs": 73923,
+      "text": " share",
+      "timestampMs": 73923
+    },
+    {
+      "confidence": null,
+      "endMs": 74593,
+      "startMs": 74563,
+      "text": " a",
+      "timestampMs": 74563
+    },
+    {
+      "confidence": null,
+      "endMs": 74883,
+      "startMs": 74593,
+      "text": " rule,",
+      "timestampMs": 74593
+    },
+    {
+      "confidence": null,
+      "endMs": 75073,
+      "startMs": 74883,
+      "text": " but",
+      "timestampMs": 74883
+    },
+    {
+      "confidence": null,
+      "endMs": 75313,
+      "startMs": 75073,
+      "text": " not",
+      "timestampMs": 75073
+    },
+    {
+      "confidence": null,
+      "endMs": 75373,
+      "startMs": 75313,
+      "text": " a",
+      "timestampMs": 75313
+    },
+    {
+      "confidence": null,
+      "endMs": 76383,
+      "startMs": 75373,
+      "text": " message?",
+      "timestampMs": 75373
+    },
+    {
+      "confidence": null,
+      "endMs": 77195,
+      "startMs": 76525,
+      "text": "Right.",
+      "timestampMs": 76525
+    },
+    {
+      "confidence": null,
+      "endMs": 77835,
+      "startMs": 77195,
+      "text": " Quantum",
+      "timestampMs": 77195
+    },
+    {
+      "confidence": null,
+      "endMs": 78585,
+      "startMs": 77835,
+      "text": " entanglement",
+      "timestampMs": 77835
+    },
+    {
+      "confidence": null,
+      "endMs": 78765,
+      "startMs": 78585,
+      "text": " is",
+      "timestampMs": 78585
+    },
+    {
+      "confidence": null,
+      "endMs": 78815,
+      "startMs": 78765,
+      "text": " a",
+      "timestampMs": 78765
+    },
+    {
+      "confidence": null,
+      "endMs": 79325,
+      "startMs": 78815,
+      "text": " shared",
+      "timestampMs": 78815
+    },
+    {
+      "confidence": null,
+      "endMs": 80035,
+      "startMs": 79325,
+      "text": " statistical",
+      "timestampMs": 79325
+    },
+    {
+      "confidence": null,
+      "endMs": 80675,
+      "startMs": 80035,
+      "text": " structure,",
+      "timestampMs": 80035
+    },
+    {
+      "confidence": null,
+      "endMs": 81495,
+      "startMs": 81005,
+      "text": " not",
+      "timestampMs": 81005
+    },
+    {
+      "confidence": null,
+      "endMs": 81525,
+      "startMs": 81495,
+      "text": " a",
+      "timestampMs": 81495
+    },
+    {
+      "confidence": null,
+      "endMs": 81995,
+      "startMs": 81525,
+      "text": " cosmic",
+      "timestampMs": 81525
+    },
+    {
+      "confidence": null,
+      "endMs": 82365,
+      "startMs": 81995,
+      "text": " direct",
+      "timestampMs": 81995
+    },
+    {
+      "confidence": null,
+      "endMs": 83015,
+      "startMs": 82365,
+      "text": " message.",
+      "timestampMs": 82365
+    },
+    {
+      "confidence": null,
+      "endMs": 83321,
+      "startMs": 83161,
+      "text": "But",
+      "timestampMs": 83161
+    },
+    {
+      "confidence": null,
+      "endMs": 83611,
+      "startMs": 83321,
+      "text": " people",
+      "timestampMs": 83321
+    },
+    {
+      "confidence": null,
+      "endMs": 83841,
+      "startMs": 83611,
+      "text": " say",
+      "timestampMs": 83611
+    },
+    {
+      "confidence": null,
+      "endMs": 83931,
+      "startMs": 83841,
+      "text": " it",
+      "timestampMs": 83841
+    },
+    {
+      "confidence": null,
+      "endMs": 84221,
+      "startMs": 83931,
+      "text": " breaks",
+      "timestampMs": 83931
+    },
+    {
+      "confidence": null,
+      "endMs": 85651,
+      "startMs": 84221,
+      "text": " relativity.",
+      "timestampMs": 84221
+    },
+    {
+      "confidence": null,
+      "endMs": 86105,
+      "startMs": 85795,
+      "text": "It",
+      "timestampMs": 85795
+    },
+    {
+      "confidence": null,
+      "endMs": 86495,
+      "startMs": 86105,
+      "text": " bothers",
+      "timestampMs": 86105
+    },
+    {
+      "confidence": null,
+      "endMs": 87385,
+      "startMs": 86495,
+      "text": " intuition,",
+      "timestampMs": 86495
+    },
+    {
+      "confidence": null,
+      "endMs": 87795,
+      "startMs": 87385,
+      "text": " not",
+      "timestampMs": 87385
+    },
+    {
+      "confidence": null,
+      "endMs": 88845,
+      "startMs": 87795,
+      "text": " relativity.",
+      "timestampMs": 87795
+    },
+    {
+      "confidence": null,
+      "endMs": 89045,
+      "startMs": 88845,
+      "text": " To",
+      "timestampMs": 88845
+    },
+    {
+      "confidence": null,
+      "endMs": 89265,
+      "startMs": 89045,
+      "text": " learn",
+      "timestampMs": 89045
+    },
+    {
+      "confidence": null,
+      "endMs": 89345,
+      "startMs": 89265,
+      "text": " the",
+      "timestampMs": 89265
+    },
+    {
+      "confidence": null,
+      "endMs": 90015,
+      "startMs": 89345,
+      "text": " pattern,",
+      "timestampMs": 89345
+    },
+    {
+      "confidence": null,
+      "endMs": 90205,
+      "startMs": 90015,
+      "text": " the",
+      "timestampMs": 90015
+    },
+    {
+      "confidence": null,
+      "endMs": 90545,
+      "startMs": 90205,
+      "text": " labs",
+      "timestampMs": 90205
+    },
+    {
+      "confidence": null,
+      "endMs": 90855,
+      "startMs": 90545,
+      "text": " still",
+      "timestampMs": 90545
+    },
+    {
+      "confidence": null,
+      "endMs": 91255,
+      "startMs": 90855,
+      "text": " compare",
+      "timestampMs": 90855
+    },
+    {
+      "confidence": null,
+      "endMs": 91645,
+      "startMs": 91255,
+      "text": " notes",
+      "timestampMs": 91255
+    },
+    {
+      "confidence": null,
+      "endMs": 91815,
+      "startMs": 91645,
+      "text": " through",
+      "timestampMs": 91645
+    },
+    {
+      "confidence": null,
+      "endMs": 92345,
+      "startMs": 91815,
+      "text": " ordinary",
+      "timestampMs": 91815
+    },
+    {
+      "confidence": null,
+      "endMs": 92985,
+      "startMs": 92345,
+      "text": " light-speed",
+      "timestampMs": 92345
+    },
+    {
+      "confidence": null,
+      "endMs": 93825,
+      "startMs": 92985,
+      "text": " communication.",
+      "timestampMs": 92985
+    },
+    {
+      "confidence": null,
+      "endMs": 94216,
+      "startMs": 93966,
+      "text": "So",
+      "timestampMs": 93966
+    },
+    {
+      "confidence": null,
+      "endMs": 94616,
+      "startMs": 94216,
+      "text": " quantum",
+      "timestampMs": 94216
+    },
+    {
+      "confidence": null,
+      "endMs": 95336,
+      "startMs": 94616,
+      "text": " entanglement",
+      "timestampMs": 94616
+    },
+    {
+      "confidence": null,
+      "endMs": 95576,
+      "startMs": 95336,
+      "text": " is",
+      "timestampMs": 95336
+    },
+    {
+      "confidence": null,
+      "endMs": 95886,
+      "startMs": 95576,
+      "text": " real",
+      "timestampMs": 95576
+    },
+    {
+      "confidence": null,
+      "endMs": 96666,
+      "startMs": 95886,
+      "text": " weirdness,",
+      "timestampMs": 95886
+    },
+    {
+      "confidence": null,
+      "endMs": 97346,
+      "startMs": 96846,
+      "text": " but",
+      "timestampMs": 96846
+    },
+    {
+      "confidence": null,
+      "endMs": 97886,
+      "startMs": 97346,
+      "text": " not",
+      "timestampMs": 97346
+    },
+    {
+      "confidence": null,
+      "endMs": 98266,
+      "startMs": 97886,
+      "text": " remote",
+      "timestampMs": 97886
+    },
+    {
+      "confidence": null,
+      "endMs": 99606,
+      "startMs": 98266,
+      "text": " control.",
+      "timestampMs": 98266
+    },
+    {
+      "confidence": null,
+      "endMs": 100439,
+      "startMs": 99749,
+      "text": "Finally.",
+      "timestampMs": 99749
+    },
+    {
+      "confidence": null,
+      "endMs": 101019,
+      "startMs": 100439,
+      "text": " Spooky,",
+      "timestampMs": 100439
+    },
+    {
+      "confidence": null,
+      "endMs": 101969,
+      "startMs": 101019,
+      "text": " yes.",
+      "timestampMs": 101019
+    },
+    {
+      "confidence": null,
+      "endMs": 102909,
+      "startMs": 101969,
+      "text": " Telepathy,",
+      "timestampMs": 101969
+    },
+    {
+      "confidence": null,
+      "endMs": 103519,
+      "startMs": 102909,
+      "text": " no.",
+      "timestampMs": 102909
+    },
+    {
+      "confidence": null,
+      "endMs": 103879,
+      "startMs": 103689,
+      "text": " The",
+      "timestampMs": 103689
+    },
+    {
+      "confidence": null,
+      "endMs": 104389,
+      "startMs": 103879,
+      "text": " universe",
+      "timestampMs": 103879
+    },
+    {
+      "confidence": null,
+      "endMs": 104679,
+      "startMs": 104389,
+      "text": " kept",
+      "timestampMs": 104389
+    },
+    {
+      "confidence": null,
+      "endMs": 104749,
+      "startMs": 104679,
+      "text": " the",
+      "timestampMs": 104679
+    },
+    {
+      "confidence": null,
+      "endMs": 105119,
+      "startMs": 104749,
+      "text": " weird",
+      "timestampMs": 104749
+    },
+    {
+      "confidence": null,
+      "endMs": 105549,
+      "startMs": 105119,
+      "text": " part",
+      "timestampMs": 105119
+    },
+    {
+      "confidence": null,
+      "endMs": 105849,
+      "startMs": 105549,
+      "text": " and",
+      "timestampMs": 105549
+    },
+    {
+      "confidence": null,
+      "endMs": 106219,
+      "startMs": 105849,
+      "text": " threw",
+      "timestampMs": 105849
+    },
+    {
+      "confidence": null,
+      "endMs": 106549,
+      "startMs": 106219,
+      "text": " away",
+      "timestampMs": 106219
+    },
+    {
+      "confidence": null,
+      "endMs": 106689,
+      "startMs": 106549,
+      "text": " the",
+      "timestampMs": 106549
+    },
+    {
+      "confidence": null,
+      "endMs": 107109,
+      "startMs": 106689,
+      "text": " useful",
+      "timestampMs": 106689
+    },
+    {
+      "confidence": null,
+      "endMs": 107409,
+      "startMs": 107109,
+      "text": " cheat",
+      "timestampMs": 107109
+    },
+    {
+      "confidence": null,
+      "endMs": 107829,
+      "startMs": 107409,
+      "text": " code.",
+      "timestampMs": 107409
+    }
+  ]
+}

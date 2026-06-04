@@ -1,0 +1,61 @@
+TOPIC_CLUSTER: Hard STEM misconception
+TEMPLATE: GameplayQATemplate
+ROLE: misconception
+SUBROLE: none
+TITLE: Quantum Entanglement Is Not Telepathy
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+- `AnimatedVideoTemplate / scenario / day_by_day` normally includes two black-screen beats. Because this demo animates every animated scene, I replaced those with animatable pressure beats. Confirm if you want strict black screens instead.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Correct the misconception that quantum entanglement is telepathy or faster-than-light messaging. The novice should confidently misunderstand it as instant communication. The teacher should explain correlations, measurement, Bell tests, no-signalling, why outcomes are linked but not controllable messages, and why relativity is not violated. Make it sharp, funny, and technically honest.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 6. Quantum Entanglement Is Not Telepathy
+
+Template: `GameplayQATemplate`
+Role/subrole: `misconception`
+Dialogue beat count: about 15
+Background set: `subwaysurfers-city`
+Character style: adult cartoon cutouts on magenta. Teacher: exhausted quantum physicist. Novice: overconfident sci-fi fan.
+
+Dialogue:
+1. Novice: "So quantum entanglement means two particles are linked like a magic walkie-talkie."
+2. Teacher: "Quantum entanglement means correlated measurement outcomes, not faster-than-light messaging."
+3. Novice: "But the other particle changes instantly."
+4. Teacher: "You do not choose the result. That is the part your space-telepathy fantasy keeps hiding."
+5. Novice: "I cannot set my side to one?"
+6. Teacher: "You can measure. You cannot command. The outcome is random on your side and random on theirs."
+7. Novice: "Then why does anyone care?"
+8. Teacher: "Because the two random lists match in a way classical physics cannot fake."
+9. Novice: "So the universe coordinates randomness?"
+10. Teacher: "Uncomfortably, yes. But coordination is not communication."
+11. Novice: "How do we prove the match?"
+12. Teacher: "Both labs compare notes later through boring old light-speed communication."
+13. Novice: "So the quantum part makes the weird pattern."
+14. Teacher: "And the classical channel tells you the pattern exists. No channel, no message."
+15. Novice: "So quantum entanglement is real weirdness, but not remote control."
+16. Teacher: "Spooky, yes. Telepathy, no."
