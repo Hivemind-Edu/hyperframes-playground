@@ -26,7 +26,7 @@ Use these folders as the render inputs:
 001 Rome's Military Anarchy
 002 CRISPR Dual-RNA Targeting
 004 The Tragedy of the Commons
-005 Why Are Human Babies So Useless
+005 Why Human Babies Are So Useless
 006 Quantum Entanglement Is Not Telepathy
 008 The Fermi Paradox
 009 You Are Trapped Inside the Siege of Alesia - Roman POV
