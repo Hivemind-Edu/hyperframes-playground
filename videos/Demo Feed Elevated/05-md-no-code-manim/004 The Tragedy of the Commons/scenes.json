@@ -1,0 +1,2532 @@
+{
+  "styleId": "pixar",
+  "characterId": "headphones-woman",
+  "timeline": {
+    "totalDuration": 63.636,
+    "scenes": [
+      {
+        "script": "The tragedy of the commons starts with one herder making one reasonable decision. One extra cow gives him milk, meat, status, and cash. The grass cost spreads across every family using the pasture. So the private reward is visible while the shared damage is blurry. Now every herder faces the same arithmetic. Refuse the extra cow, and your neighbor gets richer while you protect his grass. Add the cow, and you get paid before the field dies. That is the ugly part. The bad choice can be individually correct. Fisheries work the same way when every boat races the next boat. Groundwater works the same way when every pump lowers the same aquifer. Traffic works the same way when every driver grabs the same shortcut. The villain is the payoff table. The defender is a boundary people can actually enforce. A commons survives when users can see, punish, and limit overuse. Moral lectures do less than rules that change the math. Sometimes the rule is a quota. Sometimes it is access rights. Sometimes it is local monitoring by the people using the resource. The goal is not perfect kindness. The goal is making destruction stop paying. A commons dies when private gain outruns shared memory.",
+        "startTime": 0,
+        "endTime": 4.075,
+        "sceneType": "avatar",
+        "audioFilePath": "audio.mp3",
+        "mediaFilePath": "avatar-0.mp4",
+        "mediaType": "video",
+        "transition": "cut"
+      },
+      {
+        "script": "A tilt-shift miniature photography shot of a single brown cow grazing on a vibrant green patch of grass near a small wooden fence, no text.",
+        "startTime": 4.075,
+        "endTime": 6.861,
+        "sceneType": "image",
+        "imageFilePath": "scene-1.png",
+        "mediaFilePath": "image-motion-0.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A wide tilt-shift view of a village commons with ten small wooden houses surrounding a shared grassy field, several cows are scattered around, no text.",
+        "startTime": 6.861,
+        "endTime": 10.402,
+        "sceneType": "image",
+        "imageFilePath": "scene-2.png",
+        "mediaFilePath": "image-motion-1.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A close-up of a rustic wooden table holding a heavy leather pouch of silver coins and a full ceramic jug of milk, no text.",
+        "startTime": 10.402,
+        "endTime": 16.37,
+        "sceneType": "image",
+        "imageFilePath": "scene-3.png",
+        "mediaType": "video",
+        "transition": "crossfade",
+        "camera": "static",
+        "mediaFilePath": "milk-kenburns-zoom.mp4"
+      },
+      {
+        "script": "Two small scale-model herders standing on a dry patch of earth looking at a neighboring lush green field filled with too many cattle, no text.",
+        "startTime": 16.37,
+        "endTime": 20.039,
+        "sceneType": "image",
+        "imageFilePath": "scene-4.png",
+        "mediaFilePath": "image-motion-3.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A miniature scene of a muddy, overgrazed dirt patch with a single thin cow standing under a gray sky, no text.",
+        "startTime": 20.039,
+        "endTime": 24.752,
+        "sceneType": "image",
+        "imageFilePath": "scene-5.png",
+        "mediaFilePath": "image-motion-4.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "The tragedy of the commons starts with one herder making one reasonable decision. One extra cow gives him milk, meat, status, and cash. The grass cost spreads across every family using the pasture. So the private reward is visible while the shared damage is blurry. Now every herder faces the same arithmetic. Refuse the extra cow, and your neighbor gets richer while you protect his grass. Add the cow, and you get paid before the field dies. That is the ugly part. The bad choice can be individually correct. Fisheries work the same way when every boat races the next boat. Groundwater works the same way when every pump lowers the same aquifer. Traffic works the same way when every driver grabs the same shortcut. The villain is the payoff table. The defender is a boundary people can actually enforce. A commons survives when users can see, punish, and limit overuse. Moral lectures do less than rules that change the math. Sometimes the rule is a quota. Sometimes it is access rights. Sometimes it is local monitoring by the people using the resource. The goal is not perfect kindness. The goal is making destruction stop paying. A commons dies when private gain outruns shared memory.",
+        "startTime": 24.752,
+        "endTime": 26.807,
+        "sceneType": "avatar",
+        "mediaFilePath": "avatar-1.mp4",
+        "mediaType": "video",
+        "transition": "cut"
+      },
+      {
+        "script": "A high-angle tilt-shift shot of dozens of small colorful wooden fishing boats crowded together on a blue harbor, no text.",
+        "startTime": 26.807,
+        "endTime": 30.116,
+        "sceneType": "image",
+        "imageFilePath": "scene-6.png",
+        "mediaFilePath": "image-motion-5.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A cross-section view of a miniature desert landscape showing several small metal pipes reaching down into a shrinking underground pool of water, no text.",
+        "startTime": 30.116,
+        "endTime": 33.622,
+        "sceneType": "image",
+        "imageFilePath": "scene-7.png",
+        "mediaFilePath": "image-motion-6.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A tilt-shift overhead view of a miniature narrow city street packed with small red and blue cars bumper-to-bumper, no text.",
+        "startTime": 33.622,
+        "endTime": 37.024,
+        "sceneType": "image",
+        "imageFilePath": "scene-8.png",
+        "mediaFilePath": "image-motion-7.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A sharp, hard-edged diagram on a wooden board showing a grid of red and green squares representing mathematical payoffs, no text.",
+        "startTime": 37.024,
+        "endTime": 41.47,
+        "sceneType": "image",
+        "imageFilePath": "scene-9.png",
+        "mediaFilePath": "image-motion-8.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A miniature wooden watchtower overlooking a green pasture with a small stone wall being built around the perimeter, no text.",
+        "startTime": 41.47,
+        "endTime": 46.416,
+        "sceneType": "image",
+        "imageFilePath": "scene-10.png",
+        "mediaFilePath": "image-motion-9.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "The tragedy of the commons starts with one herder making one reasonable decision. One extra cow gives him milk, meat, status, and cash. The grass cost spreads across every family using the pasture. So the private reward is visible while the shared damage is blurry. Now every herder faces the same arithmetic. Refuse the extra cow, and your neighbor gets richer while you protect his grass. Add the cow, and you get paid before the field dies. That is the ugly part. The bad choice can be individually correct. Fisheries work the same way when every boat races the next boat. Groundwater works the same way when every pump lowers the same aquifer. Traffic works the same way when every driver grabs the same shortcut. The villain is the payoff table. The defender is a boundary people can actually enforce. A commons survives when users can see, punish, and limit overuse. Moral lectures do less than rules that change the math. Sometimes the rule is a quota. Sometimes it is access rights. Sometimes it is local monitoring by the people using the resource. The goal is not perfect kindness. The goal is making destruction stop paying. A commons dies when private gain outruns shared memory.",
+        "startTime": 46.416,
+        "endTime": 48.424,
+        "sceneType": "avatar",
+        "mediaFilePath": "avatar-2.mp4",
+        "mediaType": "video",
+        "transition": "cut"
+      },
+      {
+        "script": "A small scale-model ledger book lying open on a wooden crate with a tiny quill pen resting on the page, no text.",
+        "startTime": 48.424,
+        "endTime": 51.815,
+        "sceneType": "image",
+        "imageFilePath": "scene-11.png",
+        "mediaFilePath": "image-motion-10.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      },
+      {
+        "script": "A group of five miniature figures standing in a circle on a healthy green field, talking near a boundary stone, no text.",
+        "startTime": 51.815,
+        "endTime": 63.636,
+        "sceneType": "image",
+        "imageFilePath": "scene-12.png",
+        "mediaFilePath": "image-motion-11.mp4",
+        "mediaType": "video",
+        "transition": "crossfade"
+      }
+    ]
+  },
+  "captions": {
+    "pages": [
+      {
+        "durationMs": 604,
+        "startMs": 300,
+        "text": "The tragedy of",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 416,
+            "startMs": 300,
+            "text": "The",
+            "timestampMs": 300,
+            "fromMs": 300,
+            "toMs": 416
+          },
+          {
+            "confidence": null,
+            "endMs": 811,
+            "startMs": 463,
+            "text": " tragedy",
+            "timestampMs": 463,
+            "fromMs": 463,
+            "toMs": 811
+          },
+          {
+            "confidence": null,
+            "endMs": 904,
+            "startMs": 857,
+            "text": " of",
+            "timestampMs": 857,
+            "fromMs": 857,
+            "toMs": 904
+          }
+        ]
+      },
+      {
+        "durationMs": 685,
+        "startMs": 939,
+        "text": "the commons starts",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1008,
+            "startMs": 939,
+            "text": " the",
+            "timestampMs": 939,
+            "fromMs": 939,
+            "toMs": 1008
+          },
+          {
+            "confidence": null,
+            "endMs": 1345,
+            "startMs": 1043,
+            "text": " commons",
+            "timestampMs": 1043,
+            "fromMs": 1043,
+            "toMs": 1345
+          },
+          {
+            "confidence": null,
+            "endMs": 1624,
+            "startMs": 1380,
+            "text": " starts",
+            "timestampMs": 1380,
+            "fromMs": 1380,
+            "toMs": 1624
+          }
+        ]
+      },
+      {
+        "durationMs": 616,
+        "startMs": 1658,
+        "text": "with one herder",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 1798,
+            "startMs": 1658,
+            "text": " with",
+            "timestampMs": 1658,
+            "fromMs": 1658,
+            "toMs": 1798
+          },
+          {
+            "confidence": null,
+            "endMs": 2018,
+            "startMs": 1856,
+            "text": " one",
+            "timestampMs": 1856,
+            "fromMs": 1856,
+            "toMs": 2018
+          },
+          {
+            "confidence": null,
+            "endMs": 2274,
+            "startMs": 2053,
+            "text": " herder",
+            "timestampMs": 2053,
+            "fromMs": 2053,
+            "toMs": 2274
+          }
+        ]
+      },
+      {
+        "durationMs": 975,
+        "startMs": 2320,
+        "text": "making one reasonable",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 2552,
+            "startMs": 2320,
+            "text": " making",
+            "timestampMs": 2320,
+            "fromMs": 2320,
+            "toMs": 2552
+          },
+          {
+            "confidence": null,
+            "endMs": 2819,
+            "startMs": 2622,
+            "text": " one",
+            "timestampMs": 2622,
+            "fromMs": 2622,
+            "toMs": 2819
+          },
+          {
+            "confidence": null,
+            "endMs": 3295,
+            "startMs": 2889,
+            "text": " reasonable",
+            "timestampMs": 2889,
+            "fromMs": 2889,
+            "toMs": 3295
+          }
+        ]
+      },
+      {
+        "durationMs": 534,
+        "startMs": 3330,
+        "text": "decision.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 3864,
+            "startMs": 3330,
+            "text": " decision.",
+            "timestampMs": 3330,
+            "fromMs": 3330,
+            "toMs": 3864
+          }
+        ]
+      },
+      {
+        "durationMs": 408,
+        "startMs": 4143,
+        "text": "One extra cow",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4340,
+            "startMs": 4143,
+            "text": " One",
+            "timestampMs": 4143,
+            "fromMs": 4143,
+            "toMs": 4340
+          },
+          {
+            "confidence": null,
+            "endMs": 4296,
+            "startMs": 4075,
+            "text": " extra",
+            "timestampMs": 4075,
+            "fromMs": 4075,
+            "toMs": 4296
+          },
+          {
+            "confidence": null,
+            "endMs": 4551,
+            "startMs": 4342,
+            "text": " cow",
+            "timestampMs": 4342,
+            "fromMs": 4342,
+            "toMs": 4551
+          }
+        ]
+      },
+      {
+        "durationMs": 638,
+        "startMs": 4621,
+        "text": "gives him milk,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 4783,
+            "startMs": 4621,
+            "text": " gives",
+            "timestampMs": 4621,
+            "fromMs": 4621,
+            "toMs": 4783
+          },
+          {
+            "confidence": null,
+            "endMs": 4923,
+            "startMs": 4818,
+            "text": " him",
+            "timestampMs": 4818,
+            "fromMs": 4818,
+            "toMs": 4923
+          },
+          {
+            "confidence": null,
+            "endMs": 5259,
+            "startMs": 4981,
+            "text": " milk,",
+            "timestampMs": 4981,
+            "fromMs": 4981,
+            "toMs": 5259
+          }
+        ]
+      },
+      {
+        "durationMs": 801,
+        "startMs": 5306,
+        "text": "meat, status, and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 5584,
+            "startMs": 5306,
+            "text": " meat,",
+            "timestampMs": 5306,
+            "fromMs": 5306,
+            "toMs": 5584
+          },
+          {
+            "confidence": null,
+            "endMs": 5991,
+            "startMs": 5619,
+            "text": " status,",
+            "timestampMs": 5619,
+            "fromMs": 5619,
+            "toMs": 5991
+          },
+          {
+            "confidence": null,
+            "endMs": 6107,
+            "startMs": 6014,
+            "text": " and",
+            "timestampMs": 6014,
+            "fromMs": 6014,
+            "toMs": 6107
+          }
+        ]
+      },
+      {
+        "durationMs": 430,
+        "startMs": 6153,
+        "text": "cash.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 6583,
+            "startMs": 6153,
+            "text": " cash.",
+            "timestampMs": 6153,
+            "fromMs": 6153,
+            "toMs": 6583
+          }
+        ]
+      },
+      {
+        "durationMs": 709,
+        "startMs": 6861,
+        "text": "The grass cost",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 6954,
+            "startMs": 6861,
+            "text": " The",
+            "timestampMs": 6861,
+            "fromMs": 6861,
+            "toMs": 6954
+          },
+          {
+            "confidence": null,
+            "endMs": 7233,
+            "startMs": 6989,
+            "text": " grass",
+            "timestampMs": 6989,
+            "fromMs": 6989,
+            "toMs": 7233
+          },
+          {
+            "confidence": null,
+            "endMs": 7570,
+            "startMs": 7279,
+            "text": " cost",
+            "timestampMs": 7279,
+            "fromMs": 7279,
+            "toMs": 7570
+          }
+        ]
+      },
+      {
+        "durationMs": 964,
+        "startMs": 7639,
+        "text": "spreads across every",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 7953,
+            "startMs": 7639,
+            "text": " spreads",
+            "timestampMs": 7639,
+            "fromMs": 7639,
+            "toMs": 7953
+          },
+          {
+            "confidence": null,
+            "endMs": 8243,
+            "startMs": 7988,
+            "text": " across",
+            "timestampMs": 7988,
+            "fromMs": 7988,
+            "toMs": 8243
+          },
+          {
+            "confidence": null,
+            "endMs": 8603,
+            "startMs": 8324,
+            "text": " every",
+            "timestampMs": 8324,
+            "fromMs": 8324,
+            "toMs": 8603
+          }
+        ]
+      },
+      {
+        "durationMs": 813,
+        "startMs": 8661,
+        "text": "family using the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9056,
+            "startMs": 8661,
+            "text": " family",
+            "timestampMs": 8661,
+            "fromMs": 8661,
+            "toMs": 9056
+          },
+          {
+            "confidence": null,
+            "endMs": 9369,
+            "startMs": 9160,
+            "text": " using",
+            "timestampMs": 9160,
+            "fromMs": 9160,
+            "toMs": 9369
+          },
+          {
+            "confidence": null,
+            "endMs": 9474,
+            "startMs": 9404,
+            "text": " the",
+            "timestampMs": 9404,
+            "fromMs": 9404,
+            "toMs": 9474
+          }
+        ]
+      },
+      {
+        "durationMs": 488,
+        "startMs": 9508,
+        "text": "pasture.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 9996,
+            "startMs": 9508,
+            "text": " pasture.",
+            "timestampMs": 9508,
+            "fromMs": 9508,
+            "toMs": 9996
+          }
+        ]
+      },
+      {
+        "durationMs": 569,
+        "startMs": 10240,
+        "text": "So the private",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 10368,
+            "startMs": 10240,
+            "text": " So",
+            "timestampMs": 10240,
+            "fromMs": 10240,
+            "toMs": 10368
+          },
+          {
+            "confidence": null,
+            "endMs": 10472,
+            "startMs": 10402,
+            "text": " the",
+            "timestampMs": 10402,
+            "fromMs": 10402,
+            "toMs": 10472
+          },
+          {
+            "confidence": null,
+            "endMs": 10809,
+            "startMs": 10507,
+            "text": " private",
+            "timestampMs": 10507,
+            "fromMs": 10507,
+            "toMs": 10809
+          }
+        ]
+      },
+      {
+        "durationMs": 894,
+        "startMs": 10844,
+        "text": "reward is visible",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11180,
+            "startMs": 10844,
+            "text": " reward",
+            "timestampMs": 10844,
+            "fromMs": 10844,
+            "toMs": 11180
+          },
+          {
+            "confidence": null,
+            "endMs": 11285,
+            "startMs": 11215,
+            "text": " is",
+            "timestampMs": 11215,
+            "fromMs": 11215,
+            "toMs": 11285
+          },
+          {
+            "confidence": null,
+            "endMs": 11738,
+            "startMs": 11331,
+            "text": " visible",
+            "timestampMs": 11331,
+            "fromMs": 11331,
+            "toMs": 11738
+          }
+        ]
+      },
+      {
+        "durationMs": 558,
+        "startMs": 11772,
+        "text": "while the shared",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 11970,
+            "startMs": 11772,
+            "text": " while",
+            "timestampMs": 11772,
+            "fromMs": 11772,
+            "toMs": 11970
+          },
+          {
+            "confidence": null,
+            "endMs": 12074,
+            "startMs": 12005,
+            "text": " the",
+            "timestampMs": 12005,
+            "fromMs": 12005,
+            "toMs": 12074
+          },
+          {
+            "confidence": null,
+            "endMs": 12330,
+            "startMs": 12109,
+            "text": " shared",
+            "timestampMs": 12109,
+            "fromMs": 12109,
+            "toMs": 12330
+          }
+        ]
+      },
+      {
+        "durationMs": 905,
+        "startMs": 12365,
+        "text": "damage is blurry.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 12690,
+            "startMs": 12365,
+            "text": " damage",
+            "timestampMs": 12365,
+            "fromMs": 12365,
+            "toMs": 12690
+          },
+          {
+            "confidence": null,
+            "endMs": 12806,
+            "startMs": 12724,
+            "text": " is",
+            "timestampMs": 12724,
+            "fromMs": 12724,
+            "toMs": 12806
+          },
+          {
+            "confidence": null,
+            "endMs": 13270,
+            "startMs": 12841,
+            "text": " blurry.",
+            "timestampMs": 12841,
+            "fromMs": 12841,
+            "toMs": 13270
+          }
+        ]
+      },
+      {
+        "durationMs": 883,
+        "startMs": 13653,
+        "text": "Now every herder",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 13839,
+            "startMs": 13653,
+            "text": " Now",
+            "timestampMs": 13653,
+            "fromMs": 13653,
+            "toMs": 13839
+          },
+          {
+            "confidence": null,
+            "endMs": 14187,
+            "startMs": 13943,
+            "text": " every",
+            "timestampMs": 13943,
+            "fromMs": 13943,
+            "toMs": 14187
+          },
+          {
+            "confidence": null,
+            "endMs": 14536,
+            "startMs": 14257,
+            "text": " herder",
+            "timestampMs": 14257,
+            "fromMs": 14257,
+            "toMs": 14536
+          }
+        ]
+      },
+      {
+        "durationMs": 859,
+        "startMs": 14617,
+        "text": "faces the same",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 15035,
+            "startMs": 14617,
+            "text": " faces",
+            "timestampMs": 14617,
+            "fromMs": 14617,
+            "toMs": 15035
+          },
+          {
+            "confidence": null,
+            "endMs": 15209,
+            "startMs": 15104,
+            "text": " the",
+            "timestampMs": 15104,
+            "fromMs": 15104,
+            "toMs": 15209
+          },
+          {
+            "confidence": null,
+            "endMs": 15476,
+            "startMs": 15255,
+            "text": " same",
+            "timestampMs": 15255,
+            "fromMs": 15255,
+            "toMs": 15476
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 15511,
+        "text": "arithmetic.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16091,
+            "startMs": 15511,
+            "text": " arithmetic.",
+            "timestampMs": 15511,
+            "fromMs": 15511,
+            "toMs": 16091
+          }
+        ]
+      },
+      {
+        "durationMs": 708,
+        "startMs": 16370,
+        "text": "Refuse the extra",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 16707,
+            "startMs": 16370,
+            "text": " Refuse",
+            "timestampMs": 16370,
+            "fromMs": 16370,
+            "toMs": 16707
+          },
+          {
+            "confidence": null,
+            "endMs": 16811,
+            "startMs": 16741,
+            "text": " the",
+            "timestampMs": 16741,
+            "fromMs": 16741,
+            "toMs": 16811
+          },
+          {
+            "confidence": null,
+            "endMs": 17078,
+            "startMs": 16869,
+            "text": " extra",
+            "timestampMs": 16869,
+            "fromMs": 16869,
+            "toMs": 17078
+          }
+        ]
+      },
+      {
+        "durationMs": 557,
+        "startMs": 17113,
+        "text": "cow, and your",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17403,
+            "startMs": 17113,
+            "text": " cow,",
+            "timestampMs": 17113,
+            "fromMs": 17113,
+            "toMs": 17403
+          },
+          {
+            "confidence": null,
+            "endMs": 17531,
+            "startMs": 17426,
+            "text": " and",
+            "timestampMs": 17426,
+            "fromMs": 17426,
+            "toMs": 17531
+          },
+          {
+            "confidence": null,
+            "endMs": 17670,
+            "startMs": 17566,
+            "text": " your",
+            "timestampMs": 17566,
+            "fromMs": 17566,
+            "toMs": 17670
+          }
+        ]
+      },
+      {
+        "durationMs": 743,
+        "startMs": 17705,
+        "text": "neighbor gets richer",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 17926,
+            "startMs": 17705,
+            "text": " neighbor",
+            "timestampMs": 17705,
+            "fromMs": 17705,
+            "toMs": 17926
+          },
+          {
+            "confidence": null,
+            "endMs": 18123,
+            "startMs": 17972,
+            "text": " gets",
+            "timestampMs": 17972,
+            "fromMs": 17972,
+            "toMs": 18123
+          },
+          {
+            "confidence": null,
+            "endMs": 18448,
+            "startMs": 18181,
+            "text": " richer",
+            "timestampMs": 18181,
+            "fromMs": 18181,
+            "toMs": 18448
+          }
+        ]
+      },
+      {
+        "durationMs": 557,
+        "startMs": 18506,
+        "text": "while you protect",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 18657,
+            "startMs": 18506,
+            "text": " while",
+            "timestampMs": 18506,
+            "fromMs": 18506,
+            "toMs": 18657
+          },
+          {
+            "confidence": null,
+            "endMs": 18750,
+            "startMs": 18680,
+            "text": " you",
+            "timestampMs": 18680,
+            "fromMs": 18680,
+            "toMs": 18750
+          },
+          {
+            "confidence": null,
+            "endMs": 19063,
+            "startMs": 18808,
+            "text": " protect",
+            "timestampMs": 18808,
+            "fromMs": 18808,
+            "toMs": 19063
+          }
+        ]
+      },
+      {
+        "durationMs": 604,
+        "startMs": 19098,
+        "text": "his grass.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 19180,
+            "startMs": 19098,
+            "text": " his",
+            "timestampMs": 19098,
+            "fromMs": 19098,
+            "toMs": 19180
+          },
+          {
+            "confidence": null,
+            "endMs": 19702,
+            "startMs": 19214,
+            "text": " grass.",
+            "timestampMs": 19214,
+            "fromMs": 19214,
+            "toMs": 19702
+          }
+        ]
+      },
+      {
+        "durationMs": 801,
+        "startMs": 20039,
+        "text": "Add the cow,",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 20271,
+            "startMs": 20039,
+            "text": " Add",
+            "timestampMs": 20039,
+            "fromMs": 20039,
+            "toMs": 20271
+          },
+          {
+            "confidence": null,
+            "endMs": 20375,
+            "startMs": 20306,
+            "text": " the",
+            "timestampMs": 20306,
+            "fromMs": 20306,
+            "toMs": 20375
+          },
+          {
+            "confidence": null,
+            "endMs": 20840,
+            "startMs": 20422,
+            "text": " cow,",
+            "timestampMs": 20422,
+            "fromMs": 20422,
+            "toMs": 20840
+          }
+        ]
+      },
+      {
+        "durationMs": 452,
+        "startMs": 20991,
+        "text": "and you get",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21118,
+            "startMs": 20991,
+            "text": " and",
+            "timestampMs": 20991,
+            "fromMs": 20991,
+            "toMs": 21118
+          },
+          {
+            "confidence": null,
+            "endMs": 21258,
+            "startMs": 21176,
+            "text": " you",
+            "timestampMs": 21176,
+            "fromMs": 21176,
+            "toMs": 21258
+          },
+          {
+            "confidence": null,
+            "endMs": 21443,
+            "startMs": 21316,
+            "text": " get",
+            "timestampMs": 21316,
+            "fromMs": 21316,
+            "toMs": 21443
+          }
+        ]
+      },
+      {
+        "durationMs": 639,
+        "startMs": 21478,
+        "text": "paid before the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 21710,
+            "startMs": 21478,
+            "text": " paid",
+            "timestampMs": 21478,
+            "fromMs": 21478,
+            "toMs": 21710
+          },
+          {
+            "confidence": null,
+            "endMs": 22012,
+            "startMs": 21769,
+            "text": " before",
+            "timestampMs": 21769,
+            "fromMs": 21769,
+            "toMs": 22012
+          },
+          {
+            "confidence": null,
+            "endMs": 22117,
+            "startMs": 22047,
+            "text": " the",
+            "timestampMs": 22047,
+            "fromMs": 22047,
+            "toMs": 22117
+          }
+        ]
+      },
+      {
+        "durationMs": 766,
+        "startMs": 22152,
+        "text": "field dies.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 22395,
+            "startMs": 22152,
+            "text": " field",
+            "timestampMs": 22152,
+            "fromMs": 22152,
+            "toMs": 22395
+          },
+          {
+            "confidence": null,
+            "endMs": 22918,
+            "startMs": 22430,
+            "text": " dies.",
+            "timestampMs": 22430,
+            "fromMs": 22430,
+            "toMs": 22918
+          }
+        ]
+      },
+      {
+        "durationMs": 394,
+        "startMs": 23197,
+        "text": "That is the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23382,
+            "startMs": 23197,
+            "text": " That",
+            "timestampMs": 23197,
+            "fromMs": 23197,
+            "toMs": 23382
+          },
+          {
+            "confidence": null,
+            "endMs": 23487,
+            "startMs": 23417,
+            "text": " is",
+            "timestampMs": 23417,
+            "fromMs": 23417,
+            "toMs": 23487
+          },
+          {
+            "confidence": null,
+            "endMs": 23591,
+            "startMs": 23522,
+            "text": " the",
+            "timestampMs": 23522,
+            "fromMs": 23522,
+            "toMs": 23591
+          }
+        ]
+      },
+      {
+        "durationMs": 557,
+        "startMs": 23626,
+        "text": "ugly part.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 23812,
+            "startMs": 23626,
+            "text": " ugly",
+            "timestampMs": 23626,
+            "fromMs": 23626,
+            "toMs": 23812
+          },
+          {
+            "confidence": null,
+            "endMs": 24183,
+            "startMs": 23858,
+            "text": " part.",
+            "timestampMs": 23858,
+            "fromMs": 23858,
+            "toMs": 24183
+          }
+        ]
+      },
+      {
+        "durationMs": 697,
+        "startMs": 24427,
+        "text": "The bad choice",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 24532,
+            "startMs": 24427,
+            "text": " The",
+            "timestampMs": 24427,
+            "fromMs": 24427,
+            "toMs": 24532
+          },
+          {
+            "confidence": null,
+            "endMs": 24752,
+            "startMs": 24567,
+            "text": " bad",
+            "timestampMs": 24567,
+            "fromMs": 24567,
+            "toMs": 24752
+          },
+          {
+            "confidence": null,
+            "endMs": 25124,
+            "startMs": 24799,
+            "text": " choice",
+            "timestampMs": 24799,
+            "fromMs": 24799,
+            "toMs": 25124
+          }
+        ]
+      },
+      {
+        "durationMs": 754,
+        "startMs": 25159,
+        "text": "can be individually",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 25275,
+            "startMs": 25159,
+            "text": " can",
+            "timestampMs": 25159,
+            "fromMs": 25159,
+            "toMs": 25275
+          },
+          {
+            "confidence": null,
+            "endMs": 25391,
+            "startMs": 25310,
+            "text": " be",
+            "timestampMs": 25310,
+            "fromMs": 25310,
+            "toMs": 25391
+          },
+          {
+            "confidence": null,
+            "endMs": 25913,
+            "startMs": 25437,
+            "text": " individually",
+            "timestampMs": 25437,
+            "fromMs": 25437,
+            "toMs": 25913
+          }
+        ]
+      },
+      {
+        "durationMs": 464,
+        "startMs": 25960,
+        "text": "correct.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 26424,
+            "startMs": 25960,
+            "text": " correct.",
+            "timestampMs": 25960,
+            "fromMs": 25960,
+            "toMs": 26424
+          }
+        ]
+      },
+      {
+        "durationMs": 813,
+        "startMs": 26807,
+        "text": "Fisheries work the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27260,
+            "startMs": 26807,
+            "text": " Fisheries",
+            "timestampMs": 26807,
+            "fromMs": 26807,
+            "toMs": 27260
+          },
+          {
+            "confidence": null,
+            "endMs": 27504,
+            "startMs": 27318,
+            "text": " work",
+            "timestampMs": 27318,
+            "fromMs": 27318,
+            "toMs": 27504
+          },
+          {
+            "confidence": null,
+            "endMs": 27620,
+            "startMs": 27550,
+            "text": " the",
+            "timestampMs": 27550,
+            "fromMs": 27550,
+            "toMs": 27620
+          }
+        ]
+      },
+      {
+        "durationMs": 593,
+        "startMs": 27666,
+        "text": "same way when",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 27864,
+            "startMs": 27666,
+            "text": " same",
+            "timestampMs": 27666,
+            "fromMs": 27666,
+            "toMs": 27864
+          },
+          {
+            "confidence": null,
+            "endMs": 28084,
+            "startMs": 27899,
+            "text": " way",
+            "timestampMs": 27899,
+            "fromMs": 27899,
+            "toMs": 28084
+          },
+          {
+            "confidence": null,
+            "endMs": 28259,
+            "startMs": 28131,
+            "text": " when",
+            "timestampMs": 28131,
+            "fromMs": 28131,
+            "toMs": 28259
+          }
+        ]
+      },
+      {
+        "durationMs": 767,
+        "startMs": 28293,
+        "text": "every boat races",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 28467,
+            "startMs": 28293,
+            "text": " every",
+            "timestampMs": 28293,
+            "fromMs": 28293,
+            "toMs": 28467
+          },
+          {
+            "confidence": null,
+            "endMs": 28676,
+            "startMs": 28502,
+            "text": " boat",
+            "timestampMs": 28502,
+            "fromMs": 28502,
+            "toMs": 28676
+          },
+          {
+            "confidence": null,
+            "endMs": 29060,
+            "startMs": 28746,
+            "text": " races",
+            "timestampMs": 28746,
+            "fromMs": 28746,
+            "toMs": 29060
+          }
+        ]
+      },
+      {
+        "durationMs": 685,
+        "startMs": 29094,
+        "text": "the next boat.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 29164,
+            "startMs": 29094,
+            "text": " the",
+            "timestampMs": 29094,
+            "fromMs": 29094,
+            "toMs": 29164
+          },
+          {
+            "confidence": null,
+            "endMs": 29373,
+            "startMs": 29199,
+            "text": " next",
+            "timestampMs": 29199,
+            "fromMs": 29199,
+            "toMs": 29373
+          },
+          {
+            "confidence": null,
+            "endMs": 29779,
+            "startMs": 29420,
+            "text": " boat.",
+            "timestampMs": 29420,
+            "fromMs": 29420,
+            "toMs": 29779
+          }
+        ]
+      },
+      {
+        "durationMs": 836,
+        "startMs": 30116,
+        "text": "Groundwater works the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 30604,
+            "startMs": 30116,
+            "text": " Groundwater",
+            "timestampMs": 30116,
+            "fromMs": 30116,
+            "toMs": 30604
+          },
+          {
+            "confidence": null,
+            "endMs": 30848,
+            "startMs": 30650,
+            "text": " works",
+            "timestampMs": 30650,
+            "fromMs": 30650,
+            "toMs": 30848
+          },
+          {
+            "confidence": null,
+            "endMs": 30952,
+            "startMs": 30882,
+            "text": " the",
+            "timestampMs": 30882,
+            "fromMs": 30882,
+            "toMs": 30952
+          }
+        ]
+      },
+      {
+        "durationMs": 580,
+        "startMs": 30987,
+        "text": "same way when",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31173,
+            "startMs": 30987,
+            "text": " same",
+            "timestampMs": 30987,
+            "fromMs": 30987,
+            "toMs": 31173
+          },
+          {
+            "confidence": null,
+            "endMs": 31382,
+            "startMs": 31207,
+            "text": " way",
+            "timestampMs": 31207,
+            "fromMs": 31207,
+            "toMs": 31382
+          },
+          {
+            "confidence": null,
+            "endMs": 31567,
+            "startMs": 31428,
+            "text": " when",
+            "timestampMs": 31428,
+            "fromMs": 31428,
+            "toMs": 31567
+          }
+        ]
+      },
+      {
+        "durationMs": 825,
+        "startMs": 31625,
+        "text": "every pump lowers",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 31823,
+            "startMs": 31625,
+            "text": " every",
+            "timestampMs": 31625,
+            "fromMs": 31625,
+            "toMs": 31823
+          },
+          {
+            "confidence": null,
+            "endMs": 32113,
+            "startMs": 31881,
+            "text": " pump",
+            "timestampMs": 31881,
+            "fromMs": 31881,
+            "toMs": 32113
+          },
+          {
+            "confidence": null,
+            "endMs": 32450,
+            "startMs": 32183,
+            "text": " lowers",
+            "timestampMs": 32183,
+            "fromMs": 32183,
+            "toMs": 32450
+          }
+        ]
+      },
+      {
+        "durationMs": 883,
+        "startMs": 32496,
+        "text": "the same aquifer.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 32566,
+            "startMs": 32496,
+            "text": " the",
+            "timestampMs": 32496,
+            "fromMs": 32496,
+            "toMs": 32566
+          },
+          {
+            "confidence": null,
+            "endMs": 32786,
+            "startMs": 32601,
+            "text": " same",
+            "timestampMs": 32601,
+            "fromMs": 32601,
+            "toMs": 32786
+          },
+          {
+            "confidence": null,
+            "endMs": 33379,
+            "startMs": 32821,
+            "text": " aquifer.",
+            "timestampMs": 32821,
+            "fromMs": 32821,
+            "toMs": 33379
+          }
+        ]
+      },
+      {
+        "durationMs": 709,
+        "startMs": 33622,
+        "text": "Traffic works the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 33971,
+            "startMs": 33622,
+            "text": " Traffic",
+            "timestampMs": 33622,
+            "fromMs": 33622,
+            "toMs": 33971
+          },
+          {
+            "confidence": null,
+            "endMs": 34203,
+            "startMs": 34005,
+            "text": " works",
+            "timestampMs": 34005,
+            "fromMs": 34005,
+            "toMs": 34203
+          },
+          {
+            "confidence": null,
+            "endMs": 34331,
+            "startMs": 34249,
+            "text": " the",
+            "timestampMs": 34249,
+            "fromMs": 34249,
+            "toMs": 34331
+          }
+        ]
+      },
+      {
+        "durationMs": 581,
+        "startMs": 34365,
+        "text": "same way when",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 34551,
+            "startMs": 34365,
+            "text": " same",
+            "timestampMs": 34365,
+            "fromMs": 34365,
+            "toMs": 34551
+          },
+          {
+            "confidence": null,
+            "endMs": 34772,
+            "startMs": 34586,
+            "text": " way",
+            "timestampMs": 34586,
+            "fromMs": 34586,
+            "toMs": 34772
+          },
+          {
+            "confidence": null,
+            "endMs": 34946,
+            "startMs": 34807,
+            "text": " when",
+            "timestampMs": 34807,
+            "fromMs": 34807,
+            "toMs": 34946
+          }
+        ]
+      },
+      {
+        "durationMs": 882,
+        "startMs": 34992,
+        "text": "every driver grabs",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35178,
+            "startMs": 34992,
+            "text": " every",
+            "timestampMs": 34992,
+            "fromMs": 34992,
+            "toMs": 35178
+          },
+          {
+            "confidence": null,
+            "endMs": 35561,
+            "startMs": 35224,
+            "text": " driver",
+            "timestampMs": 35224,
+            "fromMs": 35224,
+            "toMs": 35561
+          },
+          {
+            "confidence": null,
+            "endMs": 35874,
+            "startMs": 35619,
+            "text": " grabs",
+            "timestampMs": 35619,
+            "fromMs": 35619,
+            "toMs": 35874
+          }
+        ]
+      },
+      {
+        "durationMs": 871,
+        "startMs": 35909,
+        "text": "the same shortcut.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 35979,
+            "startMs": 35909,
+            "text": " the",
+            "timestampMs": 35909,
+            "fromMs": 35909,
+            "toMs": 35979
+          },
+          {
+            "confidence": null,
+            "endMs": 36200,
+            "startMs": 36014,
+            "text": " same",
+            "timestampMs": 36014,
+            "fromMs": 36014,
+            "toMs": 36200
+          },
+          {
+            "confidence": null,
+            "endMs": 36780,
+            "startMs": 36234,
+            "text": " shortcut.",
+            "timestampMs": 36234,
+            "fromMs": 36234,
+            "toMs": 36780
+          }
+        ]
+      },
+      {
+        "durationMs": 487,
+        "startMs": 37024,
+        "text": "The villain is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37117,
+            "startMs": 37024,
+            "text": " The",
+            "timestampMs": 37024,
+            "fromMs": 37024,
+            "toMs": 37117
+          },
+          {
+            "confidence": null,
+            "endMs": 37384,
+            "startMs": 37152,
+            "text": " villain",
+            "timestampMs": 37152,
+            "fromMs": 37152,
+            "toMs": 37384
+          },
+          {
+            "confidence": null,
+            "endMs": 37511,
+            "startMs": 37442,
+            "text": " is",
+            "timestampMs": 37442,
+            "fromMs": 37442,
+            "toMs": 37511
+          }
+        ]
+      },
+      {
+        "durationMs": 836,
+        "startMs": 37546,
+        "text": "the payoff table.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 37616,
+            "startMs": 37546,
+            "text": " the",
+            "timestampMs": 37546,
+            "fromMs": 37546,
+            "toMs": 37616
+          },
+          {
+            "confidence": null,
+            "endMs": 37941,
+            "startMs": 37651,
+            "text": " payoff",
+            "timestampMs": 37651,
+            "fromMs": 37651,
+            "toMs": 37941
+          },
+          {
+            "confidence": null,
+            "endMs": 38382,
+            "startMs": 37976,
+            "text": " table.",
+            "timestampMs": 37976,
+            "fromMs": 37976,
+            "toMs": 38382
+          }
+        ]
+      },
+      {
+        "durationMs": 650,
+        "startMs": 38661,
+        "text": "The defender is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 38765,
+            "startMs": 38661,
+            "text": " The",
+            "timestampMs": 38661,
+            "fromMs": 38661,
+            "toMs": 38765
+          },
+          {
+            "confidence": null,
+            "endMs": 39160,
+            "startMs": 38800,
+            "text": " defender",
+            "timestampMs": 38800,
+            "fromMs": 38800,
+            "toMs": 39160
+          },
+          {
+            "confidence": null,
+            "endMs": 39311,
+            "startMs": 39230,
+            "text": " is",
+            "timestampMs": 39230,
+            "fromMs": 39230,
+            "toMs": 39311
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 39346,
+        "text": "a boundary people",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 39381,
+            "startMs": 39346,
+            "text": " a",
+            "timestampMs": 39346,
+            "fromMs": 39346,
+            "toMs": 39381
+          },
+          {
+            "confidence": null,
+            "endMs": 39764,
+            "startMs": 39415,
+            "text": " boundary",
+            "timestampMs": 39415,
+            "fromMs": 39415,
+            "toMs": 39764
+          },
+          {
+            "confidence": null,
+            "endMs": 40066,
+            "startMs": 39833,
+            "text": " people",
+            "timestampMs": 39833,
+            "fromMs": 39833,
+            "toMs": 40066
+          }
+        ]
+      },
+      {
+        "durationMs": 1092,
+        "startMs": 40100,
+        "text": "can actually enforce.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 40205,
+            "startMs": 40100,
+            "text": " can",
+            "timestampMs": 40100,
+            "fromMs": 40100,
+            "toMs": 40205
+          },
+          {
+            "confidence": null,
+            "endMs": 40600,
+            "startMs": 40263,
+            "text": " actually",
+            "timestampMs": 40263,
+            "fromMs": 40263,
+            "toMs": 40600
+          },
+          {
+            "confidence": null,
+            "endMs": 41192,
+            "startMs": 40635,
+            "text": " enforce.",
+            "timestampMs": 40635,
+            "fromMs": 40635,
+            "toMs": 41192
+          }
+        ]
+      },
+      {
+        "durationMs": 1219,
+        "startMs": 41470,
+        "text": "A commons survives",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 41540,
+            "startMs": 41470,
+            "text": " A",
+            "timestampMs": 41470,
+            "fromMs": 41470,
+            "toMs": 41540
+          },
+          {
+            "confidence": null,
+            "endMs": 42028,
+            "startMs": 41598,
+            "text": " commons",
+            "timestampMs": 41598,
+            "fromMs": 41598,
+            "toMs": 42028
+          },
+          {
+            "confidence": null,
+            "endMs": 42689,
+            "startMs": 42179,
+            "text": " survives",
+            "timestampMs": 42179,
+            "fromMs": 42179,
+            "toMs": 42689
+          }
+        ]
+      },
+      {
+        "durationMs": 616,
+        "startMs": 42724,
+        "text": "when users can",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 42852,
+            "startMs": 42724,
+            "text": " when",
+            "timestampMs": 42724,
+            "fromMs": 42724,
+            "toMs": 42852
+          },
+          {
+            "confidence": null,
+            "endMs": 43189,
+            "startMs": 42922,
+            "text": " users",
+            "timestampMs": 42922,
+            "fromMs": 42922,
+            "toMs": 43189
+          },
+          {
+            "confidence": null,
+            "endMs": 43340,
+            "startMs": 43224,
+            "text": " can",
+            "timestampMs": 43224,
+            "fromMs": 43224,
+            "toMs": 43340
+          }
+        ]
+      },
+      {
+        "durationMs": 1068,
+        "startMs": 43409,
+        "text": "see, punish, and",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 43792,
+            "startMs": 43409,
+            "text": " see,",
+            "timestampMs": 43409,
+            "fromMs": 43409,
+            "toMs": 43792
+          },
+          {
+            "confidence": null,
+            "endMs": 44338,
+            "startMs": 43920,
+            "text": " punish,",
+            "timestampMs": 43920,
+            "fromMs": 43920,
+            "toMs": 44338
+          },
+          {
+            "confidence": null,
+            "endMs": 44477,
+            "startMs": 44361,
+            "text": " and",
+            "timestampMs": 44361,
+            "fromMs": 44361,
+            "toMs": 44477
+          }
+        ]
+      },
+      {
+        "durationMs": 929,
+        "startMs": 44547,
+        "text": "limit overuse.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 44744,
+            "startMs": 44547,
+            "text": " limit",
+            "timestampMs": 44547,
+            "fromMs": 44547,
+            "toMs": 44744
+          },
+          {
+            "confidence": null,
+            "endMs": 45476,
+            "startMs": 44803,
+            "text": " overuse.",
+            "timestampMs": 44803,
+            "fromMs": 44803,
+            "toMs": 45476
+          }
+        ]
+      },
+      {
+        "durationMs": 812,
+        "startMs": 45755,
+        "text": "Moral lectures do",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46022,
+            "startMs": 45755,
+            "text": " Moral",
+            "timestampMs": 45755,
+            "fromMs": 45755,
+            "toMs": 46022
+          },
+          {
+            "confidence": null,
+            "endMs": 46416,
+            "startMs": 46080,
+            "text": " lectures",
+            "timestampMs": 46080,
+            "fromMs": 46080,
+            "toMs": 46416
+          },
+          {
+            "confidence": null,
+            "endMs": 46567,
+            "startMs": 46463,
+            "text": " do",
+            "timestampMs": 46463,
+            "fromMs": 46463,
+            "toMs": 46567
+          }
+        ]
+      },
+      {
+        "durationMs": 674,
+        "startMs": 46625,
+        "text": "less than rules",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 46811,
+            "startMs": 46625,
+            "text": " less",
+            "timestampMs": 46625,
+            "fromMs": 46625,
+            "toMs": 46811
+          },
+          {
+            "confidence": null,
+            "endMs": 46974,
+            "startMs": 46846,
+            "text": " than",
+            "timestampMs": 46846,
+            "fromMs": 46846,
+            "toMs": 46974
+          },
+          {
+            "confidence": null,
+            "endMs": 47299,
+            "startMs": 47020,
+            "text": " rules",
+            "timestampMs": 47020,
+            "fromMs": 47020,
+            "toMs": 47299
+          }
+        ]
+      },
+      {
+        "durationMs": 476,
+        "startMs": 47333,
+        "text": "that change the",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 47450,
+            "startMs": 47333,
+            "text": " that",
+            "timestampMs": 47333,
+            "fromMs": 47333,
+            "toMs": 47450
+          },
+          {
+            "confidence": null,
+            "endMs": 47705,
+            "startMs": 47484,
+            "text": " change",
+            "timestampMs": 47484,
+            "fromMs": 47484,
+            "toMs": 47705
+          },
+          {
+            "confidence": null,
+            "endMs": 47809,
+            "startMs": 47740,
+            "text": " the",
+            "timestampMs": 47740,
+            "fromMs": 47740,
+            "toMs": 47809
+          }
+        ]
+      },
+      {
+        "durationMs": 371,
+        "startMs": 47844,
+        "text": "math.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48215,
+            "startMs": 47844,
+            "text": " math.",
+            "timestampMs": 47844,
+            "fromMs": 47844,
+            "toMs": 48215
+          }
+        ]
+      },
+      {
+        "durationMs": 836,
+        "startMs": 48424,
+        "text": "Sometimes the rule",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 48831,
+            "startMs": 48424,
+            "text": " Sometimes",
+            "timestampMs": 48424,
+            "fromMs": 48424,
+            "toMs": 48831
+          },
+          {
+            "confidence": null,
+            "endMs": 48947,
+            "startMs": 48877,
+            "text": " the",
+            "timestampMs": 48877,
+            "fromMs": 48877,
+            "toMs": 48947
+          },
+          {
+            "confidence": null,
+            "endMs": 49260,
+            "startMs": 48993,
+            "text": " rule",
+            "timestampMs": 48993,
+            "fromMs": 48993,
+            "toMs": 49260
+          }
+        ]
+      },
+      {
+        "durationMs": 639,
+        "startMs": 49295,
+        "text": "is a quota.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 49388,
+            "startMs": 49295,
+            "text": " is",
+            "timestampMs": 49295,
+            "fromMs": 49295,
+            "toMs": 49388
+          },
+          {
+            "confidence": null,
+            "endMs": 49446,
+            "startMs": 49423,
+            "text": " a",
+            "timestampMs": 49423,
+            "fromMs": 49423,
+            "toMs": 49446
+          },
+          {
+            "confidence": null,
+            "endMs": 49934,
+            "startMs": 49481,
+            "text": " quota.",
+            "timestampMs": 49481,
+            "fromMs": 49481,
+            "toMs": 49934
+          }
+        ]
+      },
+      {
+        "durationMs": 592,
+        "startMs": 50085,
+        "text": "Sometimes it is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 50433,
+            "startMs": 50085,
+            "text": " Sometimes",
+            "timestampMs": 50085,
+            "fromMs": 50085,
+            "toMs": 50433
+          },
+          {
+            "confidence": null,
+            "endMs": 50537,
+            "startMs": 50468,
+            "text": " it",
+            "timestampMs": 50468,
+            "fromMs": 50468,
+            "toMs": 50537
+          },
+          {
+            "confidence": null,
+            "endMs": 50677,
+            "startMs": 50584,
+            "text": " is",
+            "timestampMs": 50584,
+            "fromMs": 50584,
+            "toMs": 50677
+          }
+        ]
+      },
+      {
+        "durationMs": 790,
+        "startMs": 50781,
+        "text": "access rights.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 51141,
+            "startMs": 50781,
+            "text": " access",
+            "timestampMs": 50781,
+            "fromMs": 50781,
+            "toMs": 51141
+          },
+          {
+            "confidence": null,
+            "endMs": 51571,
+            "startMs": 51188,
+            "text": " rights.",
+            "timestampMs": 51188,
+            "fromMs": 51188,
+            "toMs": 51571
+          }
+        ]
+      },
+      {
+        "durationMs": 568,
+        "startMs": 51815,
+        "text": "Sometimes it is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52174,
+            "startMs": 51815,
+            "text": " Sometimes",
+            "timestampMs": 51815,
+            "fromMs": 51815,
+            "toMs": 52174
+          },
+          {
+            "confidence": null,
+            "endMs": 52279,
+            "startMs": 52209,
+            "text": " it",
+            "timestampMs": 52209,
+            "fromMs": 52209,
+            "toMs": 52279
+          },
+          {
+            "confidence": null,
+            "endMs": 52383,
+            "startMs": 52314,
+            "text": " is",
+            "timestampMs": 52314,
+            "fromMs": 52314,
+            "toMs": 52383
+          }
+        ]
+      },
+      {
+        "durationMs": 871,
+        "startMs": 52453,
+        "text": "local monitoring by",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 52685,
+            "startMs": 52453,
+            "text": " local",
+            "timestampMs": 52453,
+            "fromMs": 52453,
+            "toMs": 52685
+          },
+          {
+            "confidence": null,
+            "endMs": 53185,
+            "startMs": 52743,
+            "text": " monitoring",
+            "timestampMs": 52743,
+            "fromMs": 52743,
+            "toMs": 53185
+          },
+          {
+            "confidence": null,
+            "endMs": 53324,
+            "startMs": 53243,
+            "text": " by",
+            "timestampMs": 53243,
+            "fromMs": 53243,
+            "toMs": 53324
+          }
+        ]
+      },
+      {
+        "durationMs": 720,
+        "startMs": 53359,
+        "text": "the people using",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 53428,
+            "startMs": 53359,
+            "text": " the",
+            "timestampMs": 53359,
+            "fromMs": 53359,
+            "toMs": 53428
+          },
+          {
+            "confidence": null,
+            "endMs": 53730,
+            "startMs": 53463,
+            "text": " people",
+            "timestampMs": 53463,
+            "fromMs": 53463,
+            "toMs": 53730
+          },
+          {
+            "confidence": null,
+            "endMs": 54079,
+            "startMs": 53800,
+            "text": " using",
+            "timestampMs": 53800,
+            "fromMs": 53800,
+            "toMs": 54079
+          }
+        ]
+      },
+      {
+        "durationMs": 639,
+        "startMs": 54125,
+        "text": "the resource.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 54195,
+            "startMs": 54125,
+            "text": " the",
+            "timestampMs": 54125,
+            "fromMs": 54125,
+            "toMs": 54195
+          },
+          {
+            "confidence": null,
+            "endMs": 54764,
+            "startMs": 54241,
+            "text": " resource.",
+            "timestampMs": 54241,
+            "fromMs": 54241,
+            "toMs": 54764
+          }
+        ]
+      },
+      {
+        "durationMs": 510,
+        "startMs": 55147,
+        "text": "The goal is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55240,
+            "startMs": 55147,
+            "text": " The",
+            "timestampMs": 55147,
+            "fromMs": 55147,
+            "toMs": 55240
+          },
+          {
+            "confidence": null,
+            "endMs": 55495,
+            "startMs": 55274,
+            "text": " goal",
+            "timestampMs": 55274,
+            "fromMs": 55274,
+            "toMs": 55495
+          },
+          {
+            "confidence": null,
+            "endMs": 55657,
+            "startMs": 55565,
+            "text": " is",
+            "timestampMs": 55565,
+            "fromMs": 55565,
+            "toMs": 55657
+          }
+        ]
+      },
+      {
+        "durationMs": 1033,
+        "startMs": 55727,
+        "text": "not perfect kindness.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 55925,
+            "startMs": 55727,
+            "text": " not",
+            "timestampMs": 55727,
+            "fromMs": 55727,
+            "toMs": 55925
+          },
+          {
+            "confidence": null,
+            "endMs": 56261,
+            "startMs": 55983,
+            "text": " perfect",
+            "timestampMs": 55983,
+            "fromMs": 55983,
+            "toMs": 56261
+          },
+          {
+            "confidence": null,
+            "endMs": 56760,
+            "startMs": 56308,
+            "text": " kindness.",
+            "timestampMs": 56308,
+            "fromMs": 56308,
+            "toMs": 56760
+          }
+        ]
+      },
+      {
+        "durationMs": 430,
+        "startMs": 56969,
+        "text": "The goal is",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57062,
+            "startMs": 56969,
+            "text": " The",
+            "timestampMs": 56969,
+            "fromMs": 56969,
+            "toMs": 57062
+          },
+          {
+            "confidence": null,
+            "endMs": 57283,
+            "startMs": 57097,
+            "text": " goal",
+            "timestampMs": 57097,
+            "fromMs": 57097,
+            "toMs": 57283
+          },
+          {
+            "confidence": null,
+            "endMs": 57399,
+            "startMs": 57329,
+            "text": " is",
+            "timestampMs": 57329,
+            "fromMs": 57329,
+            "toMs": 57399
+          }
+        ]
+      },
+      {
+        "durationMs": 1138,
+        "startMs": 57445,
+        "text": "making destruction stop",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 57712,
+            "startMs": 57445,
+            "text": " making",
+            "timestampMs": 57445,
+            "fromMs": 57445,
+            "toMs": 57712
+          },
+          {
+            "confidence": null,
+            "endMs": 58223,
+            "startMs": 57770,
+            "text": " destruction",
+            "timestampMs": 57770,
+            "fromMs": 57770,
+            "toMs": 58223
+          },
+          {
+            "confidence": null,
+            "endMs": 58583,
+            "startMs": 58305,
+            "text": " stop",
+            "timestampMs": 58305,
+            "fromMs": 58305,
+            "toMs": 58583
+          }
+        ]
+      },
+      {
+        "durationMs": 487,
+        "startMs": 58688,
+        "text": "paying.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 59175,
+            "startMs": 58688,
+            "text": " paying.",
+            "timestampMs": 58688,
+            "fromMs": 58688,
+            "toMs": 59175
+          }
+        ]
+      },
+      {
+        "durationMs": 847,
+        "startMs": 59454,
+        "text": "A commons dies",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 59512,
+            "startMs": 59454,
+            "text": " A",
+            "timestampMs": 59454,
+            "fromMs": 59454,
+            "toMs": 59512
+          },
+          {
+            "confidence": null,
+            "endMs": 59907,
+            "startMs": 59570,
+            "text": " commons",
+            "timestampMs": 59570,
+            "fromMs": 59570,
+            "toMs": 59907
+          },
+          {
+            "confidence": null,
+            "endMs": 60301,
+            "startMs": 59965,
+            "text": " dies",
+            "timestampMs": 59965,
+            "fromMs": 59965,
+            "toMs": 60301
+          }
+        ]
+      },
+      {
+        "durationMs": 824,
+        "startMs": 60348,
+        "text": "when private gain",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 60499,
+            "startMs": 60348,
+            "text": " when",
+            "timestampMs": 60348,
+            "fromMs": 60348,
+            "toMs": 60499
+          },
+          {
+            "confidence": null,
+            "endMs": 60894,
+            "startMs": 60569,
+            "text": " private",
+            "timestampMs": 60569,
+            "fromMs": 60569,
+            "toMs": 60894
+          },
+          {
+            "confidence": null,
+            "endMs": 61172,
+            "startMs": 60928,
+            "text": " gain",
+            "timestampMs": 60928,
+            "fromMs": 60928,
+            "toMs": 61172
+          }
+        ]
+      },
+      {
+        "durationMs": 1509,
+        "startMs": 61277,
+        "text": "outruns shared memory.",
+        "tokens": [
+          {
+            "confidence": null,
+            "endMs": 61811,
+            "startMs": 61277,
+            "text": " outruns",
+            "timestampMs": 61277,
+            "fromMs": 61277,
+            "toMs": 61811
+          },
+          {
+            "confidence": null,
+            "endMs": 62136,
+            "startMs": 61880,
+            "text": " shared",
+            "timestampMs": 61880,
+            "fromMs": 61880,
+            "toMs": 62136
+          },
+          {
+            "confidence": null,
+            "endMs": 62786,
+            "startMs": 62182,
+            "text": " memory.",
+            "timestampMs": 62182,
+            "fromMs": 62182,
+            "toMs": 62786
+          }
+        ]
+      }
+    ]
+  }
+}

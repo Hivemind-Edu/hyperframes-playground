@@ -1,0 +1,65 @@
+TOPIC_CLUSTER: Economics / game theory
+TEMPLATE: VideoAvatarTemplate
+ROLE: overview
+SUBROLE: faction_survey
+TITLE: The Tragedy of the Commons
+
+DEMO_FEED_PRODUCTION_RULES:
+Use the DEMO_FEED_MARKDOWN_SECTION as the source of truth for script, scene count, composition, and template-specific rhythm. Keep the assigned Hono template, role, and subrole. Do not convert the markdown into generic essay narration. If the markdown gives scene scripts, preserve their intent and order. If it gives imageDescription/animation, use those as the visual composition basis. For AnimatedVideoTemplate, every non-black scene must have a concrete animatable subject-motion animation clause. For generated visual media, never bake written text, labels, UI words, letters, numbers, pseudo-annotations, or captions into the image/video media; all words belong in the HyperFrames caption layer unless the template explicitly renders code or Manim labels. If a markdown scene names diagram nodes, convert those names into unlabeled colored shapes, icons, arrows, or molecular structures. Image descriptions must say no visible text, no labels, no letters, and no numbers when the scene is not CodeHike or Manim.
+
+HONO_TEMPLATE_SHAPE_REFERENCE:
+# Demo Feed Blueprint v2: Template-Native Scene Plans
+
+This replaces the earlier voiceover-only draft. The Hono role files make the real shape clear: good output is not an essay split into scenes. It is a scene plan where every beat has a compressed script line, a concrete composition, and, for animated videos, a subject-motion `animation` clause.
+
+Important production note: `AnimatedVideoTemplate` supports animating each scene individually in the elevated path. These animated slots therefore need `script`, `imageDescription`, and `animation` for every scene.
+
+Uncertainty to confirm:
+- Slot 3 CodeHike and slot 7 Manim remain parked because you said to ignore them for now.
+- Slot 9 POVSlideshow is Hono topic-eligible, but not clearly playground-native.
+- `AnimatedVideoTemplate / scenario / day_by_day` normally includes two black-screen beats. Because this demo animates every animated scene, I replaced those with animatable pressure beats. Confirm if you want strict black screens instead.
+
+## Template Shape Reference
+
+- `AnimatedVideoTemplate / origin / causal_origin`: 18 scenes, 1:1. World before -> pain -> catalyst -> new mechanism -> what changed. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / speedrun / rapid_survey`: 18 scenes, 1:1. One concept per scene. Diagrammatic, fast, no narrative buildup. Every scene has `script`, `imageDescription`, `animation`.
+- `AnimatedVideoTemplate / scenario / day_by_day`: 29 scenes, 1:1. Second-person present tense. Day-by-day escalation. Every scene has a living subject or moving element.
+- `VideoAvatarTemplate / overview / faction_survey`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes survey a system of factions/forces/fault lines.
+- `VideoAvatarTemplate / overview / science_explainer`: 21 scenes, 9:16. Host reset beats at 0, 7, 14; slide scenes rebuild the mental model through evidence.
+- `NarratedSlideshowTemplate / origin / causal_origin`: 27 slides, 16:9. Causal origin with flipbook/motion-twin rhythm.
+- `GameplayQATemplate / misconception`: dialogue. Wrong belief stated explicitly, attacked, repaired.
+- `POVSlideshowTemplate / scenario`: exactly 9 slides. Phone-story captions plus photorealistic selfie/phone-image logic.
+
+CONTENT_BRIEF:
+Explain the tragedy of the commons as an economic mechanism, not a moral slogan. Use a shared pasture example: one herder adding one extra cow captures private benefit, while the grass cost spreads across everyone. Show how individually rational choices aggregate into collective depletion, why blame alone misses the incentive structure, and how property rights, quotas, monitoring, norms, and repeated-game enforcement can change outcomes.
+
+DEMO_FEED_MARKDOWN_SECTION:
+## 4. The Tragedy of the Commons
+
+Template: `VideoAvatarTemplate`
+Role/subrole: `overview / faction_survey`
+Scene count: 21
+Style: host in clean studio; slides in `tilt_shift` miniature-pasture realism plus hard-edged payoff diagrams.
+
+Scene scripts:
+1. Host: "The tragedy of the commons starts with one herder making one reasonable decision."
+2. Slide: "One extra cow gives him milk, meat, status, and cash."
+3. Slide: "The grass cost spreads across every family using the pasture."
+4. Slide: "So the private reward is visible. The shared damage is blurry."
+5. Slide: "Now every herder faces the same arithmetic."
+6. Slide: "Refuse the extra cow, and your neighbor gets richer while you protect his grass."
+7. Slide: "Add the cow, and you get paid before the field dies."
+8. Host: "That is the ugly part. The bad choice can be individually correct."
+9. Slide: "Fisheries work the same way when every boat races the next boat."
+10. Slide: "Groundwater works the same way when every pump lowers the same aquifer."
+11. Slide: "Traffic works the same way when every driver grabs the same shortcut."
+12. Slide: "The villain is the payoff table."
+13. Slide: "The defender is a boundary people can actually enforce."
+14. Slide: "A commons survives when users can see, punish, and limit overuse."
+15. Host: "Moral lectures do less than rules that change the math."
+16. Slide: "Sometimes the rule is a quota."
+17. Slide: "Sometimes it is access rights."
+18. Slide: "Sometimes it is local monitoring by the people using the resource."
+19. Slide: "The goal is not perfect kindness."
+20. Slide: "The goal is making destruction stop paying."
+21. Slide: "A commons dies when private gain outruns shared memory."
