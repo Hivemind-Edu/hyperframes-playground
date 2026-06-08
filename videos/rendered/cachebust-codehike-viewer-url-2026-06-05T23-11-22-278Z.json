@@ -1,0 +1,22 @@
+{
+  "runId": "2026-06-05T23-11-22-278Z",
+  "postId": "p_brainjuice-onboarding-functions",
+  "version": "codehike-revert-20260605",
+  "results": [
+    {
+      "target": "prod",
+      "ok": false,
+      "reason": "COALESCE could not convert type jsonb to json"
+    },
+    {
+      "target": "staging",
+      "ok": false,
+      "reason": "COALESCE could not convert type jsonb to json"
+    },
+    {
+      "target": "dev",
+      "ok": false,
+      "reason": "COALESCE could not convert type jsonb to json"
+    }
+  ]
+}

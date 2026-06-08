@@ -22,7 +22,7 @@ const HONO_ROOT = join(HIVEMIND_ROOT, "hivemind-hono");
 const FINAL_VIDEO_PATH = join(
   HIVEMIND_ROOT,
   "FINAL DEMO VIDEOS",
-  "7-manim-completing-square.mp4",
+  "7-manim-completing-square-padded-720x1560.mp4",
 );
 
 const POST_ID = "p_brainjuice-onboarding-manim-completing-square";

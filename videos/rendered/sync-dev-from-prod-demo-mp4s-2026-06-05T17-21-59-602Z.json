@@ -1,0 +1,152 @@
+{
+  "runId": "2026-06-05T17-21-59-602Z",
+  "tmpDir": "/var/folders/mq/nbzpgc4146q8y7_qxlsd9vkw0000gn/T/brainjuice-demo-sync-BToB1r",
+  "syncedDev": [
+    {
+      "postId": "p_brainjuice-onboarding-fermi-paradox",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-fermi-paradox/rendered.mp4",
+      "prodSize": 6835941,
+      "devBefore": 19682454,
+      "devAfter": 6835941
+    },
+    {
+      "postId": "p_brainjuice-onboarding-crispr-dna-editor",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-crispr-dna-editor/rendered.mp4",
+      "prodSize": 4519455,
+      "devBefore": 4519455,
+      "devAfter": 4519455
+    },
+    {
+      "postId": "p_brainjuice-onboarding-functions",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "prodSize": 3711870,
+      "devBefore": 3711870,
+      "devAfter": 3711870
+    },
+    {
+      "postId": "p_brainjuice-onboarding-rome-military-anarchy",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-rome-military-anarchy/rendered.mp4",
+      "prodSize": 7160154,
+      "devBefore": 26300349,
+      "devAfter": 7160154
+    },
+    {
+      "postId": "p_brainjuice-onboarding-human-babies-useless",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-human-babies-useless/rendered.mp4",
+      "prodSize": 3789984,
+      "devBefore": 3789984,
+      "devAfter": 3789984
+    },
+    {
+      "postId": "p_brainjuice-onboarding-quantum-entanglement",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-quantum-entanglement/rendered.mp4",
+      "prodSize": 10501659,
+      "devBefore": 28154972,
+      "devAfter": 10501659
+    },
+    {
+      "postId": "p_brainjuice-onboarding-manim-completing-square",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-manim-completing-square/rendered.mp4",
+      "prodSize": 3203457,
+      "devBefore": 3203457,
+      "devAfter": 3203457
+    },
+    {
+      "postId": "p_brainjuice-onboarding-tragedy-of-the-commons",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-tragedy-of-the-commons/rendered.mp4",
+      "prodSize": 6061286,
+      "devBefore": 14364796,
+      "devAfter": 6061286
+    },
+    {
+      "postId": "p_brainjuice-onboarding-rome-industrial-revolution",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-rome-industrial-revolution/rendered.mp4",
+      "prodSize": 9544297,
+      "devBefore": 27978884,
+      "devAfter": 9544297
+    }
+  ],
+  "verified": [
+    {
+      "postId": "p_brainjuice-onboarding-fermi-paradox",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-fermi-paradox/rendered.mp4",
+      "prodSize": 6835941,
+      "stagingSize": 6835941,
+      "devSize": 6835941,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-crispr-dna-editor",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-crispr-dna-editor/rendered.mp4",
+      "prodSize": 4519455,
+      "stagingSize": 4519455,
+      "devSize": 4519455,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-functions",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "prodSize": 3711870,
+      "stagingSize": 3711870,
+      "devSize": 3711870,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-rome-military-anarchy",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-rome-military-anarchy/rendered.mp4",
+      "prodSize": 7160154,
+      "stagingSize": 7160154,
+      "devSize": 7160154,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-human-babies-useless",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-human-babies-useless/rendered.mp4",
+      "prodSize": 3789984,
+      "stagingSize": 3789984,
+      "devSize": 3789984,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-quantum-entanglement",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-quantum-entanglement/rendered.mp4",
+      "prodSize": 10501659,
+      "stagingSize": 10501659,
+      "devSize": 10501659,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-manim-completing-square",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-manim-completing-square/rendered.mp4",
+      "prodSize": 3203457,
+      "stagingSize": 3203457,
+      "devSize": 3203457,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-tragedy-of-the-commons",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-tragedy-of-the-commons/rendered.mp4",
+      "prodSize": 6061286,
+      "stagingSize": 6061286,
+      "devSize": 6061286,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    },
+    {
+      "postId": "p_brainjuice-onboarding-rome-industrial-revolution",
+      "objectPath": "brainjuice/generated/p_brainjuice-onboarding-rome-industrial-revolution/rendered.mp4",
+      "prodSize": 9544297,
+      "stagingSize": 9544297,
+      "devSize": 9544297,
+      "prodEqualsStaging": true,
+      "prodEqualsDev": true
+    }
+  ]
+}

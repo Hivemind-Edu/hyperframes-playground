@@ -1,5 +1,6 @@
 import { cert, getApps, initializeApp, type App, type ServiceAccount } from "firebase-admin/app";
 import { getStorage } from "firebase-admin/storage";
+import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync, statSync } from "node:fs";
 import { dirname, isAbsolute, join, resolve } from "node:path";
 import { gzipSync } from "node:zlib";
@@ -50,6 +51,7 @@ const HONO_ROOT = join(HIVEMIND_ROOT, "hivemind-hono");
 const FINAL_DEMO_DIR = join(HIVEMIND_ROOT, "FINAL DEMO VIDEOS");
 
 const POSTHOG_FLAG_KEY = "onboarding-brainjuice-demo-post-ids";
+const ONBOARDING_END_QUIZ_POST_ID = "p_brainjuice-onboarding-composite-quiz";
 const DEMO_USER_ID = "DEMO";
 const DEMO_FEED_ID = "f_brainjuice-onboarding-dev-rendered-demo";
 const DEMO_CHAPTER_ID = "ch_brainjuice-onboarding-dev-rendered-demo";
@@ -60,6 +62,11 @@ const POSTHOG_PROJECTS = {
   local: 131639,
   staging: 131638,
   prod: 131637,
+} as const;
+
+const RAILWAY_BRAINJUICE_HONO_ENVIRONMENTS = {
+  staging: "6cf72f3b-2151-4eba-b61b-f8d7874426b7",
+  prod: "39323475-05e6-453f-8807-61bac9b33b6b",
 } as const;
 
 const ROOT_LOW_BUCKET_PERCENT = 72;
@@ -290,7 +297,7 @@ const DEMO_POSTS: DemoPost[] = [
   },
   {
     artifact: {
-      fileName: "007-completing_square.mp4",
+      fileName: "007-completing_square-padded-720x1560.mp4",
       kind: "rendered-mp4",
       templateId: "ManimCompletingSquareRenderedOnlyArtifact",
     },
@@ -510,6 +517,28 @@ function loadMergedEnv(envFilePaths: string[]): EnvMap {
   return Object.assign({}, ...envFilePaths.map(loadDotenvFile));
 }
 
+function loadRailwayBrainjuiceHonoEnv(
+  name: Exclude<PublishTarget["name"], "local">,
+): EnvMap {
+  const output = execFileSync(
+    "railway",
+    [
+      "variable",
+      "--service",
+      "brainjuice-hono",
+      "--environment",
+      RAILWAY_BRAINJUICE_HONO_ENVIRONMENTS[name],
+      "--json",
+    ],
+    {
+      cwd: HONO_ROOT,
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "pipe"],
+    },
+  );
+  return JSON.parse(output) as EnvMap;
+}
+
 function resolveEnvPath(envFilePath: string, maybeRelativePath: string): string {
   return isAbsolute(maybeRelativePath)
     ? maybeRelativePath
@@ -517,24 +546,28 @@ function resolveEnvPath(envFilePath: string, maybeRelativePath: string): string 
 }
 
 function buildTarget(name: PublishTarget["name"]): PublishTarget {
-  const envFilePaths =
+  const databaseEnvFilePaths =
     name === "local"
       ? [join(HONO_ROOT, ".env.local"), join(HONO_ROOT, ".env.brainjuice.local")]
-      : [join(PLAYGROUND_ROOT, `.env.${name}`)];
-  const env = loadMergedEnv(envFilePaths);
-  const databaseUrl = env.DATABASE_URL;
-  const firebaseConfig = env.FIREBASE_CONFIG;
+      : [join(HONO_ROOT, `.env.${name}`)];
+  const firebaseEnvFilePaths =
+    name === "local" ? databaseEnvFilePaths : [join(PLAYGROUND_ROOT, `.env.${name}`)];
+  const databaseEnv =
+    name === "local" ? loadMergedEnv(databaseEnvFilePaths) : loadRailwayBrainjuiceHonoEnv(name);
+  const firebaseEnv = loadMergedEnv(firebaseEnvFilePaths);
+  const databaseUrl = databaseEnv.DATABASE_URL;
+  const firebaseConfig = firebaseEnv.FIREBASE_CONFIG;
   if (!databaseUrl) throw new Error(`${name} is missing DATABASE_URL`);
   if (!firebaseConfig) throw new Error(`${name} is missing FIREBASE_CONFIG`);
 
   return {
     databaseUrl,
     databaseSsl:
-      name === "prod" || env.DB_SSL === "true"
-        ? { rejectUnauthorized: env.DB_SSL_REJECT_UNAUTHORIZED === "true" }
+      name !== "local" || databaseEnv.DB_SSL === "true"
+        ? { rejectUnauthorized: databaseEnv.DB_SSL_REJECT_UNAUTHORIZED === "true" }
         : false,
-    envFilePaths,
-    firebaseConfigPath: resolveEnvPath(envFilePaths.at(-1)!, firebaseConfig),
+    envFilePaths: [...databaseEnvFilePaths, ...firebaseEnvFilePaths],
+    firebaseConfigPath: resolveEnvPath(firebaseEnvFilePaths.at(-1)!, firebaseConfig),
     name,
     posthogProjectId: POSTHOG_PROJECTS[name],
   };
@@ -1008,8 +1041,9 @@ function loadPosthogEnv(): EnvMap {
 }
 
 function buildPosthogPayload() {
+  const postIds = [...DEMO_POSTS.map((post) => post.id), ONBOARDING_END_QUIZ_POST_ID];
   return {
-    postIds: DEMO_POSTS.map((post) => post.id),
+    postIds,
     postTagMap: Object.fromEntries(DEMO_POSTS.map((post) => [post.id, post.tagIds])),
   };
 }
@@ -1052,7 +1086,7 @@ async function updatePosthogFlag(target: PublishTarget, dryRun: boolean) {
     ],
     multivariate: null,
     payloads: {
-      true: JSON.stringify(nextPayload),
+      true: nextPayload,
     },
   };
 

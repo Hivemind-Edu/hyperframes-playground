@@ -1,0 +1,43 @@
+{
+  "staging": {
+    "bucket": "brainjuice-staging.firebasestorage.app",
+    "counts": {
+      "already-playback": 4
+    },
+    "dryRun": true,
+    "samples": {
+      "already-playback": [
+        {
+          "id": "p_019e983e-824b-7000-afa8-e10d80a3192a",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e983e-824b-7000-afa8-e10d80a3192a/artifact/player.html",
+          "title": "Vertical Hip Extension: Exercises like squats and RDLs apply resistance vertically, creating peak mechanical tension at ",
+          "status": "already-playback"
+        },
+        {
+          "id": "p_019e96fc-8951-7000-b643-8f74e5d67b0a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e96fc-8951-7000-b643-8f74e5d67b0a/artifact/index.html",
+          "title": "Sensation vs Tension: A burning sensation or a 'muscle pump' is a sign of metabolic stress (blood and metabolite pooling",
+          "status": "already-playback"
+        },
+        {
+          "id": "p_019e9175-eeeb-7000-b19d-d8b9934cbe60",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9175-eeeb-7000-b19d-d8b9934cbe60/artifact/player.html",
+          "title": "Vertical Hip Extension: Exercises like squats and RDLs apply resistance vertically, creating peak mechanical tension at ",
+          "status": "already-playback"
+        },
+        {
+          "id": "p_019e9175-9e3e-7000-8b55-9c9c9f86807a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9175-9e3e-7000-8b55-9c9c9f86807a/artifact/index.html",
+          "title": "Resistance Curve Synergy: Combining shortened-position exercises (thrusts) and lengthened-position exercises (RDLs) ensu",
+          "status": "already-playback"
+        }
+      ]
+    },
+    "targets": 4,
+    "to": "playback"
+  }
+}

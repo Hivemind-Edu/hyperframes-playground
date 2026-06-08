@@ -1,0 +1,625 @@
+{
+  "dev": {
+    "bucket": "brainjuice-dev.firebasestorage.app",
+    "counts": {
+      "already-ambient": 57,
+      "missing-audioSession": 4,
+      "not-found": 4182,
+      "repaired": 2282
+    },
+    "dryRun": false,
+    "samples": {
+      "already-ambient": [
+        {
+          "id": "p_019e9396-a016-7000-9dee-bf3dba12f387",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9396-a016-7000-9dee-bf3dba12f387/artifact/index.html",
+          "title": "Macroscopic fat embolism: When a large vein is torn, the pressurized fat being injected is pushed directly into the bloo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-99fc-7000-a603-16bf7d573b30",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-99fc-7000-a603-16bf7d573b30/artifact/player.html",
+          "title": "Subcutaneous vs Intramuscular planes: The buttocks have two distinct tissue layers available for fat injection: the subc",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-967f-7000-a2eb-db81b54a5bc3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-967f-7000-a2eb-db81b54a5bc3/artifact/player.html",
+          "title": "Cardiopulmonary collapse: The fat embolism blocks the pulmonary arteries in the lungs, instantly halting blood flow and ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-967a-7000-934a-ded251de6e11",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-967a-7000-934a-ded251de6e11/artifact/player.html",
+          "title": "Macroscopic fat embolism: When a large vein is torn, the pressurized fat being injected is pushed directly into the bloo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-966a-7000-ab43-baf646d6d724",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9396-966a-7000-ab43-baf646d6d724/artifact/index.html",
+          "title": "Subcutaneous vs Intramuscular planes: The buttocks have two distinct tissue layers available for fat injection: the subc",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-9675-7000-9e0f-f89e2f997b00",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9396-9675-7000-9e0f-f89e2f997b00/artifact/index.html",
+          "title": "Cannula vascular injury: If a surgeon injects fat into the muscle layer, the injection cannula can tear these large, thi",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-9664-7000-985f-552cd53a0fc7",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-9664-7000-985f-552cd53a0fc7/artifact/player.html",
+          "title": "Recipient site vasculature: The recipient tissue must be highly vascularized (rich in blood vessels) to feed the new fat",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-9670-7000-8b9c-34af8297c21c",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-9670-7000-8b9c-34af8297c21c/artifact/player.html",
+          "title": "Gluteal vein network: Directly under and within the gluteal muscles lies a massive network of deep veins (the superior a",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-965b-7000-931e-55223c365a7a",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-965b-7000-931e-55223c365a7a/artifact/player.html",
+          "title": "Macroscopic fat embolism: When a large vein is torn, the pressurized fat being injected is pushed directly into the bloo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9396-9660-7000-b052-c76d43198ec3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-9660-7000-b052-c76d43198ec3/artifact/player.html",
+          "title": "Cardiopulmonary collapse: The fat embolism blocks the pulmonary arteries in the lungs, instantly halting blood flow and ",
+          "status": "already-ambient"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e4536-b16e-7000-81cc-258cec28759c",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e4536-b16e-7000-81cc-258cec28759c/artifact/index.html",
+          "title": "Invoking functions with parameters: A function is executed by typing its exact name followed by parentheses containing a",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e4536-b0b2-7000-8c97-c524caa84db8",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e4536-b0b2-7000-8c97-c524caa84db8/artifact/index.html",
+          "title": "Declaring functions with function: The 'function' keyword declares a reusable sequence of programming steps wrapped in c",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e4536-61ba-7000-844a-0d4bfd3ff680",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e4536-61ba-7000-844a-0d4bfd3ff680/artifact/index.html",
+          "title": "The HTML script tag: The <script> tag is an HTML element that instructs the browser to switch from rendering HTML to exe",
+          "status": "missing-audioSession"
+        }
+      ],
+      "not-found": [
+        {
+          "id": "p_seed_lt_00540a0e01_23670",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23670/artifact/index.html",
+          "title": "Current Division: In parallel branches, current takes all paths, but divides inversely proportionally to resistance: low",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23669",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23669/artifact/player.html",
+          "title": "Parallel Resistance Reduction: Adding resistors in parallel always decreases the total resistance (1/R_tot = 1/R1 + 1/R2",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23668",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23668/artifact/player.html",
+          "title": "Current Division: In parallel branches, current takes all paths, but divides inversely proportionally to resistance: low",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23667",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23667/artifact/index.html",
+          "title": "Parallel Resistance Reduction: Adding resistors in parallel always decreases the total resistance (1/R_tot = 1/R1 + 1/R2",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23666",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23666/artifact/player.html",
+          "title": "Branch Current Independence: In a parallel circuit, changing the resistance of one branch changes its own current, but d",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23665",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23665/artifact/player.html",
+          "title": "Identifying Short Circuits: A short circuit is an unintended path of near-zero resistance that bypasses components, caus",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23664",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23664/artifact/player.html",
+          "title": "Parallel Voltage Uniformity: Every component connected in parallel across the same two nodes receives the exact same vol",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23663",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23663/artifact/index.html",
+          "title": "Kirchhoff's Current Law (KCL): At any junction (node) in a circuit, the total current entering the junction must exactly",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23661",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23661/artifact/player.html",
+          "title": "Current Division: In parallel branches, current takes all paths, but divides inversely proportionally to resistance: low",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23660",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23660/artifact/index.html",
+          "title": "Parallel Resistance Reduction: Adding resistors in parallel always decreases the total resistance (1/R_tot = 1/R1 + 1/R2",
+          "status": "not-found"
+        }
+      ],
+      "repaired": [
+        {
+          "id": "p_seed_lt_00540a0e01_19322",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_19322/artifact/player.html",
+          "title": "\n\nBy 1942, U-boats were sinking Allied ships faster than they could be replaced. The ocean is too big to patrol visually",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_0762",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_0762/artifact/player.html",
+          "title": "\n\nIf the body couldn't remove chemicals, a single dose of aspirin would circulate in your blood forever. Every subsequen",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_5888",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_5888/artifact/player.html",
+          "title": "\n\nThe Roman Republic was founded in 509 BC by overthrowing a king. To ensure no king ever returned, they designed a poli",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_5249",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_5249/artifact/player.html",
+          "title": "\n\nFor 99% of human history, finding concentrated sugar was incredibly rare. When early humans found honey or ripe fruit,",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_12583",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_12583/artifact/player.html",
+          "title": "\n\nMost people write essay introductions because the grading rubric requires them to. But introductions exist to solve a ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_8438",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_8438/artifact/player.html",
+          "title": "\n\nWhen a project is failing, the symptoms are always human: missed deadlines, stressed communication, and poor output. T",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_0059",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_0059/artifact/player.html",
+          "title": "\n\nThe skill inventory process in 60 seconds. First, unbundle your past roles: don't list 'accountant', list 'reconciling",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_13486",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_13486/artifact/player.html",
+          "title": "\n\nBefore the internet, identity was physical. You showed a face or an ID card. Online, identity is just a string of char",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_0032",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_0032/artifact/player.html",
+          "title": "\n\nMost people trying to start a business look outward for 'ideas'. This fails because they have no leverage in a market ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_11149",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_11149/artifact/player.html",
+          "title": "\n\nYou understand pharmacology. You know that statins inhibit HMG-CoA reductase. But when you say that to a patient, thei",
+          "status": "repaired"
+        }
+      ]
+    },
+    "targets": 6525
+  },
+  "staging": {
+    "bucket": "brainjuice-staging.firebasestorage.app",
+    "counts": {
+      "already-ambient": 113539,
+      "fetch-error": 3,
+      "repaired": 58413,
+      "missing-audioSession": 2
+    },
+    "dryRun": false,
+    "samples": {
+      "already-ambient": [
+        {
+          "id": "p_019e9841-a51c-7000-9210-7fcc8eff633b",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9841-a51c-7000-9210-7fcc8eff633b/artifact/index.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-917b-7000-b91b-f1beb0e541d5",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9841-917b-7000-b91b-f1beb0e541d5/artifact/index.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-82b3-7000-aa02-8036831ef913",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-82b3-7000-aa02-8036831ef913/artifact/player.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-7f73-7000-866e-de91adced982",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-7f73-7000-866e-de91adced982/artifact/player.html",
+          "title": "Vertical Hip Extension: Exercises like squats and RDLs apply resistance vertically, creating peak mechanical tension at ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-791a-7000-a59b-5b1c842242e3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-791a-7000-a59b-5b1c842242e3/artifact/player.html",
+          "title": "Glute Medius and Minimus: The upper and side glute muscles (Medius and Minimus) stabilize the pelvis and perform hip abd",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-6e8c-7000-8004-7adae194e628",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-6e8c-7000-8004-7adae194e628/artifact/player.html",
+          "title": "Glute Medius and Minimus: The upper and side glute muscles (Medius and Minimus) stabilize the pelvis and perform hip abd",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-6570-7000-9bb7-a21bd029169d",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-6570-7000-9bb7-a21bd029169d/artifact/player.html",
+          "title": "\n\nFor decades, the fitness industry debated the 'best' exercise for glutes: Squats versus Hip Thrusts. Biomechanics even",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-612f-7000-afbe-3ffbafb8680d",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9841-612f-7000-afbe-3ffbafb8680d/artifact/index.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-5e82-7000-aaf8-a14f44c293da",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-5e82-7000-aaf8-a14f44c293da/artifact/player.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9841-5c56-7000-b5f7-78dc65f93d06",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9841-5c56-7000-b5f7-78dc65f93d06/artifact/player.html",
+          "title": "Resistance Curve Synergy: Combining shortened-position exercises (thrusts) and lengthened-position exercises (RDLs) ensu",
+          "status": "already-ambient"
+        }
+      ],
+      "fetch-error": [
+        {
+          "id": "p_019e9840-192d-7000-9dee-42c0d04c4f74",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9840-192d-7000-9dee-42c0d04c4f74/artifact/player.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "error": "HTTP 500",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e983e-db9a-7001-95f2-13a7ede25069",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e983e-db9a-7001-95f2-13a7ede25069/artifact/player.html",
+          "title": "Horizontal Hip Extension: Exercises like hip thrusts apply resistance horizontally, creating peak mechanical tension at ",
+          "error": "HTTP 503",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e9688-2bc5-7000-b61e-cb651a48db58",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9688-2bc5-7000-b61e-cb651a48db58/artifact/index.html",
+          "title": "Glute Medius and Minimus: The upper and side glute muscles (Medius and Minimus) stabilize the pelvis and perform hip abd",
+          "error": "HTTP 503",
+          "status": "fetch-error"
+        }
+      ],
+      "repaired": [
+        {
+          "id": "p_019e917c-f1d8-7000-afce-6f0c42242023",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e917c-f1d8-7000-afce-6f0c42242023/artifact/index.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-e672-7000-adf4-38a53ed0059b",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-e672-7000-adf4-38a53ed0059b/artifact/player.html",
+          "title": "Resistance Curve Synergy: Combining shortened-position exercises (thrusts) and lengthened-position exercises (RDLs) ensu",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-dbbe-7000-bb46-d8835e6a2b0f",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-dbbe-7000-bb46-d8835e6a2b0f/artifact/player.html",
+          "title": "Unilateral Pelvic Stabilization: Single-leg exercises (like Bulgarian split squats) force the glute medius to work overt",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-d04e-7000-a97c-7135fda87366",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-d04e-7000-a97c-7135fda87366/artifact/player.html",
+          "title": "Active Abduction Loading: Seated abduction machines or cable lateral raises apply direct resistance against the gluteus ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-c51a-7000-b2e6-7f09f727976d",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-c51a-7000-b2e6-7f09f727976d/artifact/player.html",
+          "title": "Resistance Curve Synergy: Combining shortened-position exercises (thrusts) and lengthened-position exercises (RDLs) ensu",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-bad8-7000-8721-cf04b3dc4a39",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e917c-bad8-7000-8721-cf04b3dc4a39/artifact/index.html",
+          "title": "Sensation vs Tension: A burning sensation or a 'muscle pump' is a sign of metabolic stress (blood and metabolite pooling",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-aeac-7000-96bf-dd10cab45512",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-aeac-7000-96bf-dd10cab45512/artifact/player.html",
+          "title": "Vertical Hip Extension: Exercises like squats and RDLs apply resistance vertically, creating peak mechanical tension at ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-a164-7000-a5a1-8fd9fbfbd86c",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-a164-7000-a5a1-8fd9fbfbd86c/artifact/player.html",
+          "title": "Glute Medius and Minimus: The upper and side glute muscles (Medius and Minimus) stabilize the pelvis and perform hip abd",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-94e6-7000-a17a-11b62159a1bd",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e917c-94e6-7000-a17a-11b62159a1bd/artifact/player.html",
+          "title": "Horizontal Hip Extension: Exercises like hip thrusts apply resistance horizontally, creating peak mechanical tension at ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e917c-88e9-7000-9f24-bfb6567c6552",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e917c-88e9-7000-9f24-bfb6567c6552/artifact/index.html",
+          "title": "Unilateral Pelvic Stabilization: Single-leg exercises (like Bulgarian split squats) force the glute medius to work overt",
+          "status": "repaired"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e8e70-c77e-7000-8f5a-7d6dd0ccf211",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e8e70-c77e-7000-8f5a-7d6dd0ccf211/artifact/index.html",
+          "title": "Series Current Measurement: To measure current, the circuit must be physically broken and the multimeter inserted so cur",
+          "status": "missing-audioSession"
+        }
+      ]
+    },
+    "targets": 171957
+  },
+  "prod": {
+    "bucket": "brainjuice-prod.firebasestorage.app",
+    "counts": {
+      "already-ambient": 251,
+      "repaired": 676,
+      "missing-audioSession": 1
+    },
+    "dryRun": false,
+    "samples": {
+      "already-ambient": [
+        {
+          "id": "p_019e9856-6322-7000-b56d-d891d33ebd83",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9856-6322-7000-b56d-d891d33ebd83/artifact/index.html",
+          "title": "Error Handling via Context: When a tool fails, the host appends the error message to the context as an observation, allo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-5e2f-7000-a82e-d1ba53a8f7e2",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-5e2f-7000-a82e-d1ba53a8f7e2/artifact/player.html",
+          "title": "The Scratchpad: The scratchpad is the growing context window where the agent's thoughts, actions, and tool observations ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-5914-7000-96b8-2061443450af",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9856-5914-7000-96b8-2061443450af/artifact/index.html",
+          "title": "Tool Schema Definition: A tool is defined for the LLM using a strict JSON schema that specifies the tool's name, descrip",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-54b8-7000-85a2-0bc7eff0d2ae",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-54b8-7000-85a2-0bc7eff0d2ae/artifact/player.html",
+          "title": "Loop Termination Condition: The loop ends when the agent's reasoning step concludes that it has enough information to fo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-50c2-7000-9065-d86f428645c3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-50c2-7000-9065-d86f428645c3/artifact/player.html",
+          "title": "Error Handling via Context: When a tool fails, the host appends the error message to the context as an observation, allo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-4cc9-7000-8b36-0c8afeeb574a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9856-4cc9-7000-8b36-0c8afeeb574a/artifact/index.html",
+          "title": "Multi-step Tool Chaining: Because the loop continues, the agent can take the observation from Tool A (e.g., a company ID",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-46a8-7000-aecf-237401a97bc2",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-46a8-7000-aecf-237401a97bc2/artifact/player.html",
+          "title": "Host Execution Layer: The host application (e.g., a Python script) intercepts the LLM's JSON output, parses it, and exec",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-421d-7000-84f5-341565e66943",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-421d-7000-84f5-341565e66943/artifact/player.html",
+          "title": "The Scratchpad: The scratchpad is the growing context window where the agent's thoughts, actions, and tool observations ",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-398e-7000-b012-45d35fa6b0e5",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-398e-7000-b012-45d35fa6b0e5/artifact/player.html",
+          "title": "Loop Termination Condition: The loop ends when the agent's reasoning step concludes that it has enough information to fo",
+          "status": "already-ambient"
+        },
+        {
+          "id": "p_019e9856-34e0-7000-adba-5c943f3b6874",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9856-34e0-7000-adba-5c943f3b6874/artifact/player.html",
+          "title": "Tool Result Injection: The host application takes the result of the executed tool and appends it to the conversation his",
+          "status": "already-ambient"
+        }
+      ],
+      "repaired": [
+        {
+          "id": "p_019e92c9-8617-7000-9b7f-6e3a8d74e762",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e92c9-8617-7000-9b7f-6e3a8d74e762/artifact/index.html",
+          "title": "Discrete-Time Path Simulation: To simulate GBM on a computer via Monte Carlo, the continuous equation is discretized to ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-7e74-7000-a3d9-9ddadda6badd",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e92c9-7e74-7000-a3d9-9ddadda6badd/artifact/player.html",
+          "title": "The GBM Equation: The stochastic differential equation for Geometric Brownian Motion is dS = μS dt + σS dz, where change",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-7841-7000-862e-40c69576cb1f",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e92c9-7841-7000-862e-40c69576cb1f/artifact/index.html",
+          "title": "Discrete-Time Path Simulation: To simulate GBM on a computer via Monte Carlo, the continuous equation is discretized to ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-7033-7000-8423-f135e5c39c78",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e92c9-7033-7000-8423-f135e5c39c78/artifact/player.html",
+          "title": "The Diffusion Term in GBM (σS dz): The stochastic component σS dz applies constant proportional volatility σ, meaning ab",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-6a24-7000-9a81-5f66dcad90be",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e92c9-6a24-7000-9a81-5f66dcad90be/artifact/player.html",
+          "title": "The Drift Term in GBM (μS dt): The deterministic component μS dt represents the expected return, meaning that without no",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-62b3-7000-99aa-8f3614fdc93c",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e92c9-62b3-7000-99aa-8f3614fdc93c/artifact/index.html",
+          "title": "The Standard Wiener Process (dz): The continuous-time limit of a random walk, denoted dz, where increments over any non-",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-6132-7000-bc1d-27f98c6c141d",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e92c9-6132-7000-bc1d-27f98c6c141d/artifact/player.html",
+          "title": "The GBM Equation: The stochastic differential equation for Geometric Brownian Motion is dS = μS dt + σS dz, where change",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-56e9-7000-af06-1d638b950ed5",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e92c9-56e9-7000-af06-1d638b950ed5/artifact/player.html",
+          "title": "Modeling Returns (ΔS/S): Instead of modeling the change in price (ΔS), quantitative finance models the proportional retu",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-4f6f-7000-9f80-4dadf41176f7",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e92c9-4f6f-7000-9f80-4dadf41176f7/artifact/index.html",
+          "title": "Discrete-Time Path Simulation: To simulate GBM on a computer via Monte Carlo, the continuous equation is discretized to ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e92c9-4856-7000-88ef-2a87bf002aa3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e92c9-4856-7000-88ef-2a87bf002aa3/artifact/player.html",
+          "title": "Flaws for Stock Pricing: A generalized Wiener process is inappropriate for modeling stock prices because it allows price",
+          "status": "repaired"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        }
+      ]
+    },
+    "targets": 928
+  }
+}

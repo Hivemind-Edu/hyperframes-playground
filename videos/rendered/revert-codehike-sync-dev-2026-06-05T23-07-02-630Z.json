@@ -1,0 +1,96 @@
+{
+  "runId": "2026-06-05T23-07-02-630Z",
+  "postId": "p_brainjuice-onboarding-functions",
+  "objectPath": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+  "backupPath": "brainjuice/generated/p_brainjuice-onboarding-functions/backup/rendered-before-480p-hevc-2026-06-05T17-13-52-429Z.mp4",
+  "before": [
+    {
+      "bucket": "brainjuice-prod.firebasestorage.app",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "sizeMiB": "3.54",
+      "crc32c": "zanyXA==",
+      "md5Hash": "ga2imvFwWvSjno/bLKnFWQ==",
+      "contentType": "video/mp4",
+      "updated": "2026-06-05T17:21:38.042Z",
+      "generation": "1780680097844597"
+    },
+    {
+      "bucket": "brainjuice-staging.firebasestorage.app",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "sizeMiB": "3.54",
+      "crc32c": "zanyXA==",
+      "md5Hash": "ga2imvFwWvSjno/bLKnFWQ==",
+      "contentType": "video/mp4",
+      "updated": "2026-06-05T17:21:39.162Z",
+      "generation": "1780680098962804"
+    },
+    {
+      "bucket": "brainjuice-dev.firebasestorage.app",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "sizeMiB": "3.54",
+      "crc32c": "zanyXA==",
+      "md5Hash": "ga2imvFwWvSjno/bLKnFWQ==",
+      "contentType": "video/mp4",
+      "updated": "2026-06-05T17:22:13.635Z",
+      "generation": "1780680133620202"
+    }
+  ],
+  "operations": [
+    {
+      "action": "restore-backup",
+      "target": "prod",
+      "from": "brainjuice/generated/p_brainjuice-onboarding-functions/backup/rendered-before-480p-hevc-2026-06-05T17-13-52-429Z.mp4",
+      "to": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4"
+    },
+    {
+      "action": "restore-backup",
+      "target": "staging",
+      "from": "brainjuice/generated/p_brainjuice-onboarding-functions/backup/rendered-before-480p-hevc-2026-06-05T17-13-52-429Z.mp4",
+      "to": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4"
+    },
+    {
+      "action": "sync-dev-from-prod",
+      "target": "dev",
+      "from": "gs://brainjuice-prod.firebasestorage.app/brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "to": "gs://brainjuice-dev.firebasestorage.app/brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4"
+    }
+  ],
+  "after": [
+    {
+      "bucket": "brainjuice-prod.firebasestorage.app",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "sizeMiB": "3.54",
+      "crc32c": "zanyXA==",
+      "md5Hash": "ga2imvFwWvSjno/bLKnFWQ==",
+      "contentType": "video/mp4",
+      "updated": "2026-06-05T23:07:05.781Z",
+      "generation": "1780700825498890"
+    },
+    {
+      "bucket": "brainjuice-staging.firebasestorage.app",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "sizeMiB": "3.54",
+      "crc32c": "zanyXA==",
+      "md5Hash": "ga2imvFwWvSjno/bLKnFWQ==",
+      "contentType": "video/mp4",
+      "updated": "2026-06-05T23:07:07.037Z",
+      "generation": "1780700826555302"
+    },
+    {
+      "bucket": "brainjuice-dev.firebasestorage.app",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "sizeMiB": "3.54",
+      "crc32c": "zanyXA==",
+      "md5Hash": "ga2imvFwWvSjno/bLKnFWQ==",
+      "contentType": "video/mp4",
+      "updated": "2026-06-05T23:07:11.835Z",
+      "generation": "1780700831819267"
+    }
+  ]
+}

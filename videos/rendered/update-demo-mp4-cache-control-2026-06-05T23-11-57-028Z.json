@@ -1,0 +1,276 @@
+{
+  "runId": "2026-06-05T23-11-57-028Z",
+  "cacheControl": "public, max-age=300, must-revalidate",
+  "results": [
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-fermi-paradox",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-fermi-paradox/rendered.mp4",
+      "size": 6835941,
+      "crc32c": "0zLMsw==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-crispr-dna-editor",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-crispr-dna-editor/rendered.mp4",
+      "size": 4519455,
+      "crc32c": "b653dg==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-functions",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "crc32c": "zanyXA==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-rome-military-anarchy",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-rome-military-anarchy/rendered.mp4",
+      "size": 7160154,
+      "crc32c": "EANc1g==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-human-babies-useless",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-human-babies-useless/rendered.mp4",
+      "size": 3789984,
+      "crc32c": "LtV5qA==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-quantum-entanglement",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-quantum-entanglement/rendered.mp4",
+      "size": 10501659,
+      "crc32c": "i8atyQ==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-manim-completing-square",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-manim-completing-square/rendered.mp4",
+      "size": 3203457,
+      "crc32c": "9/6ctQ==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-tragedy-of-the-commons",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-tragedy-of-the-commons/rendered.mp4",
+      "size": 6061286,
+      "crc32c": "La7L/g==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "prod",
+      "bucketName": "brainjuice-prod.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-rome-industrial-revolution",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-rome-industrial-revolution/rendered.mp4",
+      "size": 9544297,
+      "crc32c": "o76GSw==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-fermi-paradox",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-fermi-paradox/rendered.mp4",
+      "size": 6835941,
+      "crc32c": "0zLMsw==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-crispr-dna-editor",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-crispr-dna-editor/rendered.mp4",
+      "size": 4519455,
+      "crc32c": "b653dg==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-functions",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "crc32c": "zanyXA==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-rome-military-anarchy",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-rome-military-anarchy/rendered.mp4",
+      "size": 7160154,
+      "crc32c": "EANc1g==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-human-babies-useless",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-human-babies-useless/rendered.mp4",
+      "size": 3789984,
+      "crc32c": "LtV5qA==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-quantum-entanglement",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-quantum-entanglement/rendered.mp4",
+      "size": 10501659,
+      "crc32c": "i8atyQ==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-manim-completing-square",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-manim-completing-square/rendered.mp4",
+      "size": 3203457,
+      "crc32c": "9/6ctQ==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-tragedy-of-the-commons",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-tragedy-of-the-commons/rendered.mp4",
+      "size": 6061286,
+      "crc32c": "La7L/g==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "staging",
+      "bucketName": "brainjuice-staging.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-rome-industrial-revolution",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-rome-industrial-revolution/rendered.mp4",
+      "size": 9544297,
+      "crc32c": "o76GSw==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-fermi-paradox",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-fermi-paradox/rendered.mp4",
+      "size": 6835941,
+      "crc32c": "0zLMsw==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-crispr-dna-editor",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-crispr-dna-editor/rendered.mp4",
+      "size": 4519455,
+      "crc32c": "b653dg==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-functions",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-functions/rendered.mp4",
+      "size": 3711870,
+      "crc32c": "zanyXA==",
+      "beforeCacheControl": "public, max-age=31536000, immutable",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-rome-military-anarchy",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-rome-military-anarchy/rendered.mp4",
+      "size": 7160154,
+      "crc32c": "EANc1g==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-human-babies-useless",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-human-babies-useless/rendered.mp4",
+      "size": 3789984,
+      "crc32c": "LtV5qA==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-quantum-entanglement",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-quantum-entanglement/rendered.mp4",
+      "size": 10501659,
+      "crc32c": "i8atyQ==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-manim-completing-square",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-manim-completing-square/rendered.mp4",
+      "size": 3203457,
+      "crc32c": "9/6ctQ==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-tragedy-of-the-commons",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-tragedy-of-the-commons/rendered.mp4",
+      "size": 6061286,
+      "crc32c": "La7L/g==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    },
+    {
+      "target": "dev",
+      "bucketName": "brainjuice-dev.firebasestorage.app",
+      "postId": "p_brainjuice-onboarding-rome-industrial-revolution",
+      "path": "brainjuice/generated/p_brainjuice-onboarding-rome-industrial-revolution/rendered.mp4",
+      "size": 9544297,
+      "crc32c": "o76GSw==",
+      "beforeCacheControl": "public, max-age=3600",
+      "afterCacheControl": "public, max-age=300, must-revalidate"
+    }
+  ]
+}

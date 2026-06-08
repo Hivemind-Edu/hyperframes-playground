@@ -1,0 +1,511 @@
+{
+  "dev": {
+    "bucket": "brainjuice-dev.firebasestorage.app",
+    "counts": {
+      "repaired": 2339,
+      "missing-audioSession": 4,
+      "not-found": 4169,
+      "fetch-error": 13
+    },
+    "dryRun": false,
+    "samples": {
+      "repaired": [
+        {
+          "id": "p_019e9396-a016-7000-9dee-bf3dba12f387",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9396-a016-7000-9dee-bf3dba12f387/artifact/index.html",
+          "title": "Macroscopic fat embolism: When a large vein is torn, the pressurized fat being injected is pushed directly into the bloo",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-99fc-7000-a603-16bf7d573b30",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-99fc-7000-a603-16bf7d573b30/artifact/player.html",
+          "title": "Subcutaneous vs Intramuscular planes: The buttocks have two distinct tissue layers available for fat injection: the subc",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-967f-7000-a2eb-db81b54a5bc3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-967f-7000-a2eb-db81b54a5bc3/artifact/player.html",
+          "title": "Cardiopulmonary collapse: The fat embolism blocks the pulmonary arteries in the lungs, instantly halting blood flow and ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-967a-7000-934a-ded251de6e11",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-967a-7000-934a-ded251de6e11/artifact/player.html",
+          "title": "Macroscopic fat embolism: When a large vein is torn, the pressurized fat being injected is pushed directly into the bloo",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-966a-7000-ab43-baf646d6d724",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9396-966a-7000-ab43-baf646d6d724/artifact/index.html",
+          "title": "Subcutaneous vs Intramuscular planes: The buttocks have two distinct tissue layers available for fat injection: the subc",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-9675-7000-9e0f-f89e2f997b00",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9396-9675-7000-9e0f-f89e2f997b00/artifact/index.html",
+          "title": "Cannula vascular injury: If a surgeon injects fat into the muscle layer, the injection cannula can tear these large, thi",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-9664-7000-985f-552cd53a0fc7",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-9664-7000-985f-552cd53a0fc7/artifact/player.html",
+          "title": "Recipient site vasculature: The recipient tissue must be highly vascularized (rich in blood vessels) to feed the new fat",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-9670-7000-8b9c-34af8297c21c",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-9670-7000-8b9c-34af8297c21c/artifact/player.html",
+          "title": "Gluteal vein network: Directly under and within the gluteal muscles lies a massive network of deep veins (the superior a",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-965b-7000-931e-55223c365a7a",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-965b-7000-931e-55223c365a7a/artifact/player.html",
+          "title": "Macroscopic fat embolism: When a large vein is torn, the pressurized fat being injected is pushed directly into the bloo",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e9396-9660-7000-b052-c76d43198ec3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9396-9660-7000-b052-c76d43198ec3/artifact/player.html",
+          "title": "Cardiopulmonary collapse: The fat embolism blocks the pulmonary arteries in the lungs, instantly halting blood flow and ",
+          "status": "repaired"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e4536-b16e-7000-81cc-258cec28759c",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e4536-b16e-7000-81cc-258cec28759c/artifact/index.html",
+          "title": "Invoking functions with parameters: A function is executed by typing its exact name followed by parentheses containing a",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e4536-b0b2-7000-8c97-c524caa84db8",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e4536-b0b2-7000-8c97-c524caa84db8/artifact/index.html",
+          "title": "Declaring functions with function: The 'function' keyword declares a reusable sequence of programming steps wrapped in c",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e4536-61ba-7000-844a-0d4bfd3ff680",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e4536-61ba-7000-844a-0d4bfd3ff680/artifact/index.html",
+          "title": "The HTML script tag: The <script> tag is an HTML element that instructs the browser to switch from rendering HTML to exe",
+          "status": "missing-audioSession"
+        }
+      ],
+      "not-found": [
+        {
+          "id": "p_seed_lt_00540a0e01_23670",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23670/artifact/index.html",
+          "title": "Current Division: In parallel branches, current takes all paths, but divides inversely proportionally to resistance: low",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23669",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23669/artifact/player.html",
+          "title": "Parallel Resistance Reduction: Adding resistors in parallel always decreases the total resistance (1/R_tot = 1/R1 + 1/R2",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23668",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23668/artifact/player.html",
+          "title": "Current Division: In parallel branches, current takes all paths, but divides inversely proportionally to resistance: low",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23667",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23667/artifact/index.html",
+          "title": "Parallel Resistance Reduction: Adding resistors in parallel always decreases the total resistance (1/R_tot = 1/R1 + 1/R2",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23666",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23666/artifact/player.html",
+          "title": "Branch Current Independence: In a parallel circuit, changing the resistance of one branch changes its own current, but d",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23665",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23665/artifact/player.html",
+          "title": "Identifying Short Circuits: A short circuit is an unintended path of near-zero resistance that bypasses components, caus",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23664",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23664/artifact/player.html",
+          "title": "Parallel Voltage Uniformity: Every component connected in parallel across the same two nodes receives the exact same vol",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23663",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23663/artifact/index.html",
+          "title": "Kirchhoff's Current Law (KCL): At any junction (node) in a circuit, the total current entering the junction must exactly",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23661",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23661/artifact/player.html",
+          "title": "Current Division: In parallel branches, current takes all paths, but divides inversely proportionally to resistance: low",
+          "status": "not-found"
+        },
+        {
+          "id": "p_seed_lt_00540a0e01_23660",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_seed_lt_00540a0e01_23660/artifact/index.html",
+          "title": "Parallel Resistance Reduction: Adding resistors in parallel always decreases the total resistance (1/R_tot = 1/R1 + 1/R2",
+          "status": "not-found"
+        }
+      ],
+      "fetch-error": [
+        {
+          "id": "p_019e12db-15f9-7000-b453-3d98f646ffff",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e12db-15f9-7000-b453-3d98f646ffff/artifact/player.html",
+          "title": "Assigning the Delegate Property: The class instance must be assigned to the `delegate` property of the AVSpeechSynthesiz",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e12d8-3a89-7000-8a7c-d43cb8624227",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e12d8-3a89-7000-8a7c-d43cb8624227/artifact/player.html",
+          "title": "AVSpeechUtterance creation: An AVSpeechUtterance instance encapsulates a specific String of text that you want the syste",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e082e-bfc2-7000-9b73-10ba89afbe3a",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e082e-bfc2-7000-9b73-10ba89afbe3a/artifact/player.html",
+          "title": "Default Data Alignment: Excel automatically aligns text to the left and numbers to the right as soon as you press Enter.",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e082e-a1b8-7000-81b2-508cfb737b08",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e082e-a1b8-7000-81b2-508cfb737b08/artifact/player.html",
+          "title": "The Equals Prefix: Typing an equals sign (=) as the first character in a cell tells Excel to calculate the contents rath",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e07fb-1c07-7000-bd0c-feec6b37c34d",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e07fb-1c07-7000-bd0c-feec6b37c34d/artifact/player.html",
+          "title": "Type Mismatch Errors: Attempting to use an operator on incompatible types, such as adding a string and an integer togeth",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e076d-ef20-7000-8ff4-9bed8fe02d26",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e076d-ef20-7000-8ff4-9bed8fe02d26/artifact/player.html",
+          "title": "The Arrest of Life: By 1879, Tolstoy suffered a total paralysis of will, hiding ropes so he wouldn't hang himself and ab",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e066c-4e19-7000-9133-c921a3b006d4",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e066c-4e19-7000-9133-c921a3b006d4/artifact/player.html",
+          "title": "Frequency determines pitch: The number of cycles completed in one second is measured in Hertz (Hz) and determines the mu",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e031e-f08b-7000-a15b-d0c60b64e22e",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e031e-f08b-7000-a15b-d0c60b64e22e/artifact/player.html",
+          "title": "\n\nImagine receiving a wall of text with no spaces, no bold text, and no headers. It is impossible to read. Early web pio",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e030f-0627-7000-9dd7-720f7e4ea01c",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e030f-0627-7000-9dd7-720f7e4ea01c/artifact/player.html",
+          "title": "The Upper Body Push: Movements that press weight away from the torso, primarily targeting the chest, anterior deltoids, ",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e0308-0907-7000-8a5e-348b74703d2b",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e0308-0907-7000-8a5e-348b74703d2b/artifact/index.html",
+          "title": "String annotations: Appending ': string' to a variable declaration restricts that memory slot to only accept text wrappe",
+          "error": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()",
+          "status": "fetch-error"
+        }
+      ]
+    },
+    "targets": 6525,
+    "to": "playback"
+  },
+  "staging": {
+    "bucket": "brainjuice-staging.firebasestorage.app",
+    "counts": {
+      "repaired": 174878,
+      "fetch-error": 2,
+      "upload-error": 3,
+      "missing-audioSession": 2
+    },
+    "dryRun": false,
+    "samples": {
+      "repaired": [
+        {
+          "id": "p_019e989f-99a6-7000-ad7b-3fa47b7128be",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e989f-99a6-7000-ad7b-3fa47b7128be/artifact/player.html",
+          "title": "Detecting features with filters: A filter with positive values on one side and negative on the other detects edges by yi",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-93ca-7000-bb4e-0e11e2df4725",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e989f-93ca-7000-bb4e-0e11e2df4725/artifact/index.html",
+          "title": "Zero Padding: Padding involves adding a border of zeros around an image matrix so the filter can process edge pixels wit",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-8e41-7000-887b-9036534e98c3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e989f-8e41-7000-887b-9036534e98c3/artifact/player.html",
+          "title": "The Convolution Operation: Superimpose the filter over a pixel's neighborhood, perform element-wise multiplication on th",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-8917-7000-ba31-4524a5d3eb78",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e989f-8917-7000-ba31-4524a5d3eb78/artifact/player.html",
+          "title": "Detecting features with filters: A filter with positive values on one side and negative on the other detects edges by yi",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-82eb-7000-acda-fcee1db2e3b3",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e989f-82eb-7000-acda-fcee1db2e3b3/artifact/player.html",
+          "title": "Non-commutativity: Matrix multiplication is not commutative: A*B does not generally equal B*A. The order of operations c",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-81f5-7000-8169-2397cd988446",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e989f-81f5-7000-8169-2397cd988446/artifact/index.html",
+          "title": "The Owner's Draw: To pay personal living expenses, a freelancer transfers cash from the business account to their person",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-7eba-7000-a962-80683188e5ea",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e989f-7eba-7000-a962-80683188e5ea/artifact/index.html",
+          "title": "Zero Padding: Padding involves adding a border of zeros around an image matrix so the filter can process edge pixels wit",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-7e00-7000-b470-ea926e519d46",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e989f-7e00-7000-b470-ea926e519d46/artifact/player.html",
+          "title": "The Danger of Commingling: Commingling occurs when personal and business funds are mixed in one account; it nullifies li",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-7703-7000-9b59-b1a564698a38",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e989f-7703-7000-9b59-b1a564698a38/artifact/player.html",
+          "title": "The Automated Bank Feed: By linking the dedicated business account to accounting software, every transaction imports aut",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e989f-7646-7000-ab81-d9faf4685d3d",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e989f-7646-7000-ab81-d9faf4685d3d/artifact/index.html",
+          "title": "Stride: Stride is the number of pixels the filter shifts horizontally or vertically after calculating each output value.",
+          "status": "repaired"
+        }
+      ],
+      "fetch-error": [
+        {
+          "id": "p_019e983e-824b-7000-afa8-e10d80a3192a",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e983e-824b-7000-afa8-e10d80a3192a/artifact/player.html",
+          "title": "Vertical Hip Extension: Exercises like squats and RDLs apply resistance vertically, creating peak mechanical tension at ",
+          "error": "HTTP 500",
+          "status": "fetch-error"
+        },
+        {
+          "id": "p_019e9175-9e3e-7000-8b55-9c9c9f86807a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e9175-9e3e-7000-8b55-9c9c9f86807a/artifact/index.html",
+          "title": "Resistance Curve Synergy: Combining shortened-position exercises (thrusts) and lengthened-position exercises (RDLs) ensu",
+          "error": "HTTP 500",
+          "status": "fetch-error"
+        }
+      ],
+      "upload-error": [
+        {
+          "id": "p_019e96fc-8951-7000-b643-8f74e5d67b0a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e96fc-8951-7000-b643-8f74e5d67b0a/artifact/index.html",
+          "title": "Sensation vs Tension: A burning sensation or a 'muscle pump' is a sign of metabolic stress (blood and metabolite pooling",
+          "error": "Service Unavailable",
+          "status": "upload-error"
+        },
+        {
+          "id": "p_019e96fb-d68c-7000-93c4-33f7362ce277",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e96fb-d68c-7000-93c4-33f7362ce277/artifact/player.html",
+          "title": "Mechanical Tension: Mechanical tension is the physical force placed on a muscle fiber when it actively resists a heavy l",
+          "error": "Retry limit exceeded - \"\"",
+          "status": "upload-error"
+        },
+        {
+          "id": "p_019e9175-eeeb-7000-b19d-d8b9934cbe60",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e9175-eeeb-7000-b19d-d8b9934cbe60/artifact/player.html",
+          "title": "Vertical Hip Extension: Exercises like squats and RDLs apply resistance vertically, creating peak mechanical tension at ",
+          "error": "Retry limit exceeded - \"\"",
+          "status": "upload-error"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        },
+        {
+          "id": "p_019e8e70-c77e-7000-8f5a-7d6dd0ccf211",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e8e70-c77e-7000-8f5a-7d6dd0ccf211/artifact/index.html",
+          "title": "Series Current Measurement: To measure current, the circuit must be physically broken and the multimeter inserted so cur",
+          "status": "missing-audioSession"
+        }
+      ]
+    },
+    "targets": 174885,
+    "to": "playback"
+  },
+  "prod": {
+    "bucket": "brainjuice-prod.firebasestorage.app",
+    "counts": {
+      "repaired": 1019,
+      "missing-audioSession": 1
+    },
+    "dryRun": false,
+    "samples": {
+      "repaired": [
+        {
+          "id": "p_019e99fb-bd16-7000-855c-f6f09a46c02a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e99fb-bd16-7000-855c-f6f09a46c02a/artifact/index.html",
+          "title": "Tree structure (Nesting): Elements must be nested strictly inside one another to form a hierarchical tree, where a paren",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-b8a8-7000-86ce-201dae941df5",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-b8a8-7000-86ce-201dae941df5/artifact/player.html",
+          "title": "Attributes and className: Tags accept attributes for configuration. In JSX, the HTML 'class' attribute is written as 'cl",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-b45c-7000-a707-6cd160b2ff82",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-b45c-7000-a707-6cd160b2ff82/artifact/player.html",
+          "title": "Self-closing tags: Elements that do not contain text or children, like images or inputs, are written as a single tag tha",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-afc6-7000-a971-21167f7c626c",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-afc6-7000-a971-21167f7c626c/artifact/player.html",
+          "title": "Attributes and className: Tags accept attributes for configuration. In JSX, the HTML 'class' attribute is written as 'cl",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-ab61-7000-8c45-c811ed47a473",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-ab61-7000-8c45-c811ed47a473/artifact/player.html",
+          "title": "Tree structure (Nesting): Elements must be nested strictly inside one another to form a hierarchical tree, where a paren",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-a6d7-7000-9cda-9fa7fed1ddad",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-a6d7-7000-9cda-9fa7fed1ddad/artifact/player.html",
+          "title": "JSX as HTML inside JS: JSX is a syntax extension that allows developers to write HTML tags directly inside a JavaScript ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-a30f-7000-bde7-c0b018a9e5d7",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e99fb-a30f-7000-bde7-c0b018a9e5d7/artifact/index.html",
+          "title": "Tags enclose content: HTML tags use angle brackets to wrap content, with an opening tag `<h1>` and a closing tag `</h1>`",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-9e8b-7000-a300-16c17d8018b6",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-9e8b-7000-a300-16c17d8018b6/artifact/player.html",
+          "title": "Self-closing tags: Elements that do not contain text or children, like images or inputs, are written as a single tag tha",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-9880-7000-ab9c-6d917b989d93",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-9880-7000-ab9c-6d917b989d93/artifact/player.html",
+          "title": "Vite for project scaffolding: Vite is a build tool that generates the starter folders and files for a React project via ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-948a-7000-b5cb-ec70df3d3be2",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-948a-7000-b5cb-ec70df3d3be2/artifact/player.html",
+          "title": "Attributes and className: Tags accept attributes for configuration. In JSX, the HTML 'class' attribute is written as 'cl",
+          "status": "repaired"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        }
+      ]
+    },
+    "targets": 1020,
+    "to": "playback"
+  }
+}

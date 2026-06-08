@@ -1,0 +1,95 @@
+{
+  "prod": {
+    "bucket": "brainjuice-prod.firebasestorage.app",
+    "counts": {
+      "repaired": 1019,
+      "missing-audioSession": 1
+    },
+    "dryRun": true,
+    "samples": {
+      "repaired": [
+        {
+          "id": "p_019e99fb-bd16-7000-855c-f6f09a46c02a",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e99fb-bd16-7000-855c-f6f09a46c02a/artifact/index.html",
+          "title": "Tree structure (Nesting): Elements must be nested strictly inside one another to form a hierarchical tree, where a paren",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-b8a8-7000-86ce-201dae941df5",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-b8a8-7000-86ce-201dae941df5/artifact/player.html",
+          "title": "Attributes and className: Tags accept attributes for configuration. In JSX, the HTML 'class' attribute is written as 'cl",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-b45c-7000-a707-6cd160b2ff82",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-b45c-7000-a707-6cd160b2ff82/artifact/player.html",
+          "title": "Self-closing tags: Elements that do not contain text or children, like images or inputs, are written as a single tag tha",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-afc6-7000-a971-21167f7c626c",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-afc6-7000-a971-21167f7c626c/artifact/player.html",
+          "title": "Attributes and className: Tags accept attributes for configuration. In JSX, the HTML 'class' attribute is written as 'cl",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-ab61-7000-8c45-c811ed47a473",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-ab61-7000-8c45-c811ed47a473/artifact/player.html",
+          "title": "Tree structure (Nesting): Elements must be nested strictly inside one another to form a hierarchical tree, where a paren",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-a6d7-7000-9cda-9fa7fed1ddad",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-a6d7-7000-9cda-9fa7fed1ddad/artifact/player.html",
+          "title": "JSX as HTML inside JS: JSX is a syntax extension that allows developers to write HTML tags directly inside a JavaScript ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-a30f-7000-bde7-c0b018a9e5d7",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_019e99fb-a30f-7000-bde7-c0b018a9e5d7/artifact/index.html",
+          "title": "Tags enclose content: HTML tags use angle brackets to wrap content, with an opening tag `<h1>` and a closing tag `</h1>`",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-9e8b-7000-a300-16c17d8018b6",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-9e8b-7000-a300-16c17d8018b6/artifact/player.html",
+          "title": "Self-closing tags: Elements that do not contain text or children, like images or inputs, are written as a single tag tha",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-9880-7000-ab9c-6d917b989d93",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-9880-7000-ab9c-6d917b989d93/artifact/player.html",
+          "title": "Vite for project scaffolding: Vite is a build tool that generates the starter folders and files for a React project via ",
+          "status": "repaired"
+        },
+        {
+          "id": "p_019e99fb-948a-7000-b5cb-ec70df3d3be2",
+          "renderer": "hyperframes",
+          "storagePath": "brainjuice/generated/p_019e99fb-948a-7000-b5cb-ec70df3d3be2/artifact/player.html",
+          "title": "Attributes and className: Tags accept attributes for configuration. In JSX, the HTML 'class' attribute is written as 'cl",
+          "status": "repaired"
+        }
+      ],
+      "missing-audioSession": [
+        {
+          "id": "p_brainjuice-onboarding-alesia-pov",
+          "renderer": "html-slideshow",
+          "storagePath": "brainjuice/generated/p_brainjuice-onboarding-alesia-pov/artifact/index.html",
+          "title": "Inside Caesar's Siege of Alesia",
+          "status": "missing-audioSession"
+        }
+      ]
+    },
+    "targets": 1020,
+    "to": "playback"
+  }
+}

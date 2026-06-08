@@ -1,0 +1,28 @@
+{
+  "runId": "2026-06-05T23-11-39-266Z",
+  "postId": "p_brainjuice-onboarding-functions",
+  "version": "codehike-revert-20260605",
+  "results": [
+    {
+      "target": "prod",
+      "ok": true,
+      "rowCount": 1,
+      "beforeUrl": "https://firebasestorage.googleapis.com/v0/b/brainjuice-prod.firebasestorage.app/o/brainjuice%2Fgenerated%2Fp_brainjuice-onboarding-functions%2Frendered.mp4?alt=media",
+      "afterUrl": "https://firebasestorage.googleapis.com/v0/b/brainjuice-prod.firebasestorage.app/o/brainjuice%2Fgenerated%2Fp_brainjuice-onboarding-functions%2Frendered.mp4?alt=media&v=codehike-revert-20260605"
+    },
+    {
+      "target": "staging",
+      "ok": true,
+      "rowCount": 1,
+      "beforeUrl": "https://firebasestorage.googleapis.com/v0/b/brainjuice-staging.firebasestorage.app/o/brainjuice%2Fgenerated%2Fp_brainjuice-onboarding-functions%2Frendered.mp4?alt=media",
+      "afterUrl": "https://firebasestorage.googleapis.com/v0/b/brainjuice-staging.firebasestorage.app/o/brainjuice%2Fgenerated%2Fp_brainjuice-onboarding-functions%2Frendered.mp4?alt=media&v=codehike-revert-20260605"
+    },
+    {
+      "target": "dev",
+      "ok": true,
+      "rowCount": 1,
+      "beforeUrl": "https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2Fgenerated%2Fp_brainjuice-onboarding-functions%2Frendered.mp4?alt=media",
+      "afterUrl": "https://firebasestorage.googleapis.com/v0/b/brainjuice-dev.firebasestorage.app/o/brainjuice%2Fgenerated%2Fp_brainjuice-onboarding-functions%2Frendered.mp4?alt=media&v=codehike-revert-20260605"
+    }
+  ]
+}

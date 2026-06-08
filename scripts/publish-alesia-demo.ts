@@ -12,7 +12,7 @@ type PublishTarget = {
   databaseSsl: false | { rejectUnauthorized: boolean };
   envFilePaths: string[];
   firebaseConfigPath: string;
-  name: "local" | "staging" | "prod";
+  name: "dev" | "staging" | "prod";
   posthogProjectId: number;
 };
 
@@ -22,7 +22,7 @@ const HONO_ROOT = join(HIVEMIND_ROOT, "hivemind-hono");
 const FINAL_PACKAGE_DIR = join(
   HIVEMIND_ROOT,
   "FINAL DEMO VIDEOS",
-  "10 Alesia-POVSlideshow-NanoBanana",
+  "9 Alesia-POVSlideshow-NanoBanana",
 );
 
 const POST_ID = "p_brainjuice-onboarding-alesia-pov";
@@ -112,7 +112,7 @@ const COMMENTS = [
 ];
 
 const POSTHOG_PROJECTS = {
-  local: 131639,
+  dev: 131639,
   staging: 131638,
   prod: 131637,
 } as const;
@@ -123,9 +123,9 @@ function parseArgs(argv: string[]) {
   const targetNames =
     targetsArgIndex >= 0
       ? argv[targetsArgIndex + 1]?.split(",").map((value) => value.trim())
-      : ["local", "staging", "prod"];
-  if (!targetNames || targetNames.some((name) => !["local", "staging", "prod"].includes(name))) {
-    throw new Error("--targets must be a comma-separated list of local,staging,prod");
+      : ["dev", "staging", "prod"];
+  if (!targetNames || targetNames.some((name) => !["dev", "staging", "prod"].includes(name))) {
+    throw new Error("--targets must be a comma-separated list of dev,staging,prod");
   }
   return {
     dryRun,
@@ -168,13 +168,7 @@ function resolveEnvPath(envFilePath: string, maybeRelativePath: string): string 
 }
 
 function buildTarget(name: PublishTarget["name"]): PublishTarget {
-  const envFilePaths =
-    name === "local"
-      ? [
-          join(HONO_ROOT, ".env.local"),
-          join(HONO_ROOT, ".env.brainjuice.local"),
-        ]
-      : [join(PLAYGROUND_ROOT, `.env.${name}`)];
+  const envFilePaths = [join(PLAYGROUND_ROOT, `.env.${name}`)];
   const env = loadMergedEnv(envFilePaths);
   const databaseUrl = env.DATABASE_URL;
   const firebaseConfig = env.FIREBASE_CONFIG;

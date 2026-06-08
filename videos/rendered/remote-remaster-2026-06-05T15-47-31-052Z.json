@@ -1,0 +1,90 @@
+[
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Feed Elevated/05-md-no-code-manim/008 The Fermi Paradox",
+    "assetCount": 26,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-008-the-fermi-paradox-2026-06-05T15-47-31-052Z/artifact/001-fermi-paradox-cover.mp4",
+    "postId": "dev-demo-feed-remaster-008-the-fermi-paradox-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/4 CRISPR-SplitBrainrot",
+    "assetCount": 0,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-4-crispr-splitbrainrot-2026-06-05T15-47-31-052Z/artifact/002-how-crispr-turned-bacterial-defense-into-a-dna-editor-cover.mp4",
+    "postId": "dev-demo-feed-remaster-4-crispr-splitbrainrot-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/0 Demo Videos/Beginner JS CodeHike High Resolution Sources/01 Functions 2x",
+    "assetCount": 10,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-01-functions-2x-2026-06-05T15-47-31-052Z/artifact/03-functions.mp4",
+    "postId": "dev-demo-feed-remaster-01-functions-2x-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 1536,
+    "sourceWidth": 784,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Feed Elevated/05-md-no-code-manim/001 Rome's Military Anarchy",
+    "assetCount": 37,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-001-rome-s-military-anarchy-2026-06-05T15-47-31-052Z/artifact/004-rome-military-anarchy-cover.mp4",
+    "postId": "dev-demo-feed-remaster-001-rome-s-military-anarchy-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Feed Elevated/05-md-no-code-manim/005 Why Human Babies Are So Useless",
+    "assetCount": 28,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-005-why-human-babies-are-so-useless-2026-06-05T15-47-31-052Z/artifact/005-human-babies-useless-cover.mp4",
+    "postId": "dev-demo-feed-remaster-005-why-human-babies-are-so-useless-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Feed Elevated/05-md-no-code-manim/006 Quantum Entanglement Is Not Telepathy",
+    "assetCount": 31,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-006-quantum-entanglement-is-not-telepathy-2026-06-05T15-47-31-052Z/artifact/006-quantum-entanglement-not-telepathy-cover.mp4",
+    "postId": "dev-demo-feed-remaster-006-quantum-entanglement-is-not-telepathy-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Feed Elevated/05-md-no-code-manim/004 The Tragedy of the Commons",
+    "assetCount": 16,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-004-the-tragedy-of-the-commons-2026-06-05T15-47-31-052Z/artifact/8-tragedy-of-the-commons-cover.mp4",
+    "postId": "dev-demo-feed-remaster-004-the-tragedy-of-the-commons-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  },
+  {
+    "artifactDir": "/Users/mark/hivemind/hyperframes-playground/videos/Demo Videos/1 Generated/9 RomeIndustrialRevolution-Scenario",
+    "assetCount": 37,
+    "dryRun": true,
+    "outputPath": "brainjuice/generated/dev-demo-feed-remaster-9-romeindustrialrevolution-scenario-2026-06-05T15-47-31-052Z/artifact/10-rome-industrial-revolution-scenario-compressed-under-30mb.mp4",
+    "postId": "dev-demo-feed-remaster-9-romeindustrialrevolution-scenario-2026-06-05T15-47-31-052Z",
+    "sourceHeight": 768,
+    "sourceWidth": 392,
+    "targetHeight": 1536,
+    "targetWidth": 784
+  }
+]
