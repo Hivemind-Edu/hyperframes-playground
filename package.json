@@ -6,6 +6,10 @@
   "scripts": {
     "preview:all": "bun run scripts/preview-all.ts",
     "preview:open": "bun run scripts/open-previews.ts",
+    "remaster:demo-feed:remote": "bun --env-file=.env.dev --env-file=../hivemind-hono/.env.brainjuice.local scripts/remaster-demo-feed-remote.mjs",
+    "remaster:demo-videos:remote": "bun --env-file=.env.dev --env-file=../hivemind-hono/.env.brainjuice.local scripts/remaster-demo-feed-remote.mjs --target all-demo-videos",
+    "remaster:final-demo-videos:remote": "bun --env-file=.env.dev --env-file=../hivemind-hono/.env.brainjuice.local scripts/remaster-demo-feed-remote.mjs --target final-demo-videos",
+    "remaster:final-demo-videos:remote:hevc": "bun --env-file=.env.dev --env-file=../hivemind-hono/.env.brainjuice.local scripts/remaster-demo-feed-remote.mjs --target final-demo-videos --codec h265",
     "build": "bun run scripts/build/index.ts",
     "sync": "bun run scripts/sync/index.ts"
   },
@@ -19,6 +23,7 @@
   "dependencies": {
     "@ai-sdk/google": "^3.0.53",
     "@clack/prompts": "1.0.1",
+    "@elevenlabs/elevenlabs-js": "^2.47.0",
     "@fal-ai/client": "^1.9.5",
     "@hyperframes/studio": "0.6.69",
     "@tailwindcss/cli": "^4.2.4",
