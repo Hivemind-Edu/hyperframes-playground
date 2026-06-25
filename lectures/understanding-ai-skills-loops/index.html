@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Lernen mit KI – Skills & Loops | Understanding AI Seminar</title>
+
+  <link rel="stylesheet" href="vendor/dist/reset.css">
+  <link rel="stylesheet" href="vendor/dist/reveal.css">
+  <link rel="stylesheet" href="vendor/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="vendor/plugin/highlight/monokai.css">
+
+  <style>
+    :root {
+      --hm-bg: #0e1116;
+      --hm-bg2: #151a22;
+      --hm-accent: #6ee7b7;     /* mint */
+      --hm-accent2: #7dd3fc;    /* sky */
+      --hm-accent3: #fca5a5;    /* coral */
+      --hm-amber: #fcd34d;
+      --hm-text: #e8edf2;
+      --hm-muted: #9aa7b4;
+    }
+    .reveal { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; color: var(--hm-text); }
+    .reveal .slides section { text-align: left; }
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4 { font-family: inherit; text-transform: none; letter-spacing: -0.01em; color: #fff; line-height: 1.15; }
+    .reveal h1 { font-size: 2.0em; font-weight: 800; }
+    .reveal h2 { font-size: 1.5em; font-weight: 800; }
+    .reveal h3 { font-size: 1.15em; font-weight: 700; color: var(--hm-accent); }
+    .reveal section.r-bg, .reveal .backgrounds { background: var(--hm-bg); }
+    .reveal a { color: var(--hm-accent2); }
+    .reveal strong { color: var(--hm-accent); }
+    .reveal em { color: var(--hm-amber); font-style: normal; }
+    .reveal ul { display: block; margin-left: 1em; }
+    .reveal li { margin: 0.35em 0; line-height: 1.35; }
+    .reveal small { color: var(--hm-muted); }
+
+    .kicker { color: var(--hm-accent2); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.5em; }
+    .lead { color: var(--hm-muted); font-size: 0.9em; }
+    .tag { display: inline-block; background: var(--hm-bg2); border: 1px solid #2b3543; color: var(--hm-muted); border-radius: 999px; padding: 2px 14px; font-size: 0.55em; margin: 2px 4px 2px 0; }
+    .timebox { position: absolute; top: 18px; right: 24px; font-size: 0.5em; color: var(--hm-muted); border: 1px solid #2b3543; border-radius: 8px; padding: 4px 10px; }
+    .pill { display:inline-block; background: rgba(110,231,183,0.12); color: var(--hm-accent); border:1px solid rgba(110,231,183,0.35); border-radius:8px; padding:2px 10px; font-size:0.6em; font-weight:700;}
+
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
+    .cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: start; }
+    .card { background: var(--hm-bg2); border: 1px solid #2b3543; border-radius: 16px; padding: 18px 20px; }
+    .card h3 { margin-top: 0; }
+    .card.accent { border-color: rgba(110,231,183,0.5); }
+    .card.sky { border-color: rgba(125,211,252,0.45); }
+    .card.coral { border-color: rgba(252,165,165,0.45); }
+
+    .big { font-size: 1.6em; font-weight: 800; line-height: 1.1; }
+    .huge { font-size: 2.2em; font-weight: 800; line-height: 1.05; }
+    .center { text-align: center !important; }
+    .muted { color: var(--hm-muted); }
+    .flow { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+    .node { background: var(--hm-bg2); border:1px solid #2b3543; border-radius: 12px; padding: 10px 16px; font-weight: 700; font-size: 0.8em; }
+    .arrow { color: var(--hm-accent); font-size: 1.4em; }
+    .loop-arrow { color: var(--hm-amber); font-weight: 800; }
+
+    .quote { border-left: 4px solid var(--hm-accent); padding-left: 22px; font-size: 1.15em; color: #fff; }
+    .footnote { position: absolute; bottom: 14px; left: 40px; right: 40px; font-size: 0.45em; color: var(--hm-muted); }
+    .reveal pre { width: 100%; font-size: 0.5em; box-shadow: none; border: 1px solid #2b3543; border-radius: 12px; }
+    .reveal pre code { padding: 18px; border-radius: 12px; max-height: 520px; }
+    .check { color: var(--hm-accent); font-weight: 800; }
+    .cross { color: var(--hm-accent3); font-weight: 800; }
+    .divider-kicker { color: var(--hm-accent2); letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.55em; font-weight:700;}
+    table.mini { font-size: 0.7em; border-collapse: collapse; width: 100%; }
+    table.mini td, table.mini th { border: 1px solid #2b3543; padding: 8px 12px; text-align: left; }
+    table.mini th { background: var(--hm-bg2); color: var(--hm-accent); }
+  </style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+  <!-- ============ TITLE ============ -->
+  <section data-background-color="#0e1116">
+    <p class="kicker">Understanding AI Seminar · Session 3</p>
+    <h1>Lernen mit KI<br><span style="color:var(--hm-accent)">Skills &amp; Loops</span></h1>
+    <p class="lead">Wie du KI vom Antwort-Automaten zu deinem Lern- und Arbeitssystem machst.</p>
+    <p style="margin-top:30px">
+      <span class="tag">3 Stunden</span>
+      <span class="tag">für Mediziner · Psycholog:innen · Wirtschaft &amp; Co.</span>
+      <span class="tag">kein Code nötig</span>
+    </p>
+    <p class="muted" style="margin-top:34px; font-size:0.5em;">Steuerung: <strong>→ / Leertaste</strong> weiter · <strong>S</strong> = Speaker-Notes &amp; Timer · <strong>O</strong> = Übersicht · <strong>F</strong> = Vollbild</p>
+    <aside class="notes">
+      Begrüßung. Aufschlag: Heute geht es NICHT darum, programmieren zu lernen. Sondern darum, ein mentales Modell zu bekommen, das Software-Engineering gerade auf den Kopf stellt – und das genau dasselbe Modell ist, mit dem ihr besser lernt und bessere Studienprodukte abliefert. Drei Wörter für heute: Verifizierbarkeit, Skills, Loops.
+      Rückblick auf bisherige Sessions: Second Brain (openbrain) und Tasks/Iceberg. Heute: das System dahinter.
+    </aside>
+  </section>
+
+  <!-- ============ WHERE WE'VE BEEN ============ -->
+  <section data-background-color="#0e1116">
+    <p class="kicker">Wo wir herkommen</p>
+    <h2>Unsere bisherige Reise</h2>
+    <div class="cols3" style="margin-top:24px">
+      <div class="card sky">
+        <h3>① Second Brain</h3>
+        <p class="muted" style="font-size:0.8em">Nach Karpathy &amp; Nate B. Jones: Wissen <strong>sammeln &amp; vernetzen</strong> statt nur konsumieren.</p>
+        <small>openbrain.transformeducation.de</small>
+      </div>
+      <div class="card coral">
+        <h3>② Tasks &amp; Iceberg</h3>
+        <p class="muted" style="font-size:0.8em">Was von eurer <strong>zukünftigen Arbeit</strong> sichtbar ist – und was unter der Oberfläche liegt.</p>
+        <small>iceberg.transformeducation.de</small>
+      </div>
+      <div class="card accent">
+        <h3>③ Heute: Das System</h3>
+        <p class="muted" style="font-size:0.8em">Wie man KI <strong>wiederholbar</strong> und <strong>überprüfbar</strong> für Lernen &amp; Arbeit einsetzt.</p>
+        <small>Skills &amp; Loops</small>
+      </div>
+    </div>
+    <p style="margin-top:28px" class="lead">Vom Sammeln → über das Verstehen der Aufgabe → zum <strong>verlässlichen Tun</strong>.</p>
+    <aside class="notes">
+      Brücke schlagen: Bisher Input (Second Brain) und Orientierung (Iceberg). Heute der Maschinenraum: wie ihr KI so einsetzt, dass das Ergebnis verlässlich gut wird – nicht nur einmal, sondern reproduzierbar.
+    </aside>
+  </section>
+
+  <!-- ============ AGENDA ============ -->
+  <section data-background-color="#0e1116">
+    <p class="kicker">Fahrplan</p>
+    <h2>3 Stunden, 5 Blöcke</h2>
+    <table class="mini" style="margin-top:18px">
+      <tr><th>Block</th><th>Thema</th><th>≈ Zeit</th></tr>
+      <tr><td>1</td><td>Der Wandel: was gerade im Software Engineering passiert – und warum es euch betrifft</td><td>35 min</td></tr>
+      <tr><td>2</td><td>Lernen verstehen &amp; mit KI analysieren</td><td>40 min</td></tr>
+      <tr><td colspan="2"><em>☕ Pause</em></td><td>10 min</td></tr>
+      <tr><td>3</td><td>Skills – was sie sind &amp; wie du sie einrichtest</td><td>25 min</td></tr>
+      <tr><td>4</td><td>Praxis: gemeinsam eine Skill bauen + Loops</td><td>50 min</td></tr>
+      <tr><td>5</td><td>Abschluss &amp; Homework Challenge</td><td>10 min</td></tr>
+    </table>
+    <p class="footnote">Faustregel heute: <strong>30% Input · 50% selbst machen · 20% Reflexion</strong>.</p>
+    <aside class="notes">
+      Agenda kurz halten. Betonen: viel Hands-on. Sie werden selbst eine Skill bauen. Pause nach Block 2.
+    </aside>
+  </section>
+
+  <!-- ============ LEARNING GOALS ============ -->
+  <section data-background-color="#0e1116">
+    <p class="kicker">Ziel der Session</p>
+    <h2>Womit du heute rausgehst</h2>
+    <div class="cols" style="margin-top:20px">
+      <ul>
+        <li>Ein <strong>mentales Modell</strong>, wie KI verlässlich arbeitet: <em>Spezifizieren → Tun → Prüfen → Wiederholen</em>.</li>
+        <li>Du kannst KI nutzen, um <strong>dein eigenes Lernen zu analysieren</strong>.</li>
+      </ul>
+      <ul>
+        <li>Du baust deine <strong>erste eigene Skill</strong> (z. B. für Hausarbeiten).</li>
+        <li>Du verstehst <strong>Loops</strong> und wie sie deine Ergebnisse Schritt für Schritt besser machen.</li>
+      </ul>
+    </div>
+    <p class="quote" style="margin-top:30px">„Nicht <em>eine</em> gute Antwort kitzeln – sondern ein <strong>System</strong> bauen, das <em>immer wieder</em> gute Ergebnisse liefert.“</p>
+    <aside class="notes">
+      Das ist der rote Faden. Einmal laut sagen. Der Unterschied zwischen "ich hab ChatGPT was gefragt" und "ich habe ein System gebaut".
+    </aside>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- BLOCK 1 -->
+  <!-- ===================================================== -->
+  <section data-background-color="#151a22">
+    <p class="divider-kicker">Block 1 · ≈ 35 min</p>
+    <h1>Der Wandel im<br>Software Engineering</h1>
+    <p class="lead">…und warum dasselbe Prinzip für Medizin, Psychologie und Wirtschaft gilt.</p>
+    <aside class="notes">
+      Warum fangen wir mit Software an, obwohl niemand hier Entwickler ist? Weil Software die erste Disziplin ist, in der man KI im großen Stil arbeiten lässt – und dort sieht man die Spielregeln am klarsten. Diese Spielregeln sind übertragbar.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Was gerade passiert</p>
+    <h2>Von „Code schreiben“ zu „Ergebnis spezifizieren &amp; prüfen“</h2>
+    <div class="cols" style="margin-top:18px">
+      <div class="card coral">
+        <h3>Früher</h3>
+        <p>Mensch schreibt jede Zeile selbst. Wert = <em>wer tippt am besten?</em></p>
+      </div>
+      <div class="card accent">
+        <h3>Jetzt</h3>
+        <p>KI erzeugt den Entwurf. Wert = <em>wer beschreibt das Ziel klar und prüft das Ergebnis am besten?</em></p>
+      </div>
+    </div>
+    <p style="margin-top:26px" class="big center">Die knappe Ressource verschiebt sich von <span style="color:var(--hm-accent)">Produktion</span> zu <span style="color:var(--hm-accent2)">Spezifikation &amp; Prüfung</span>.</p>
+    <aside class="notes">
+      Analogie für Nicht-Devs: Stell dir vor, du hast plötzlich einen extrem schnellen, aber nicht immer zuverlässigen Praktikanten. Dein Job ist nicht mehr "alles selber machen", sondern: Auftrag glasklar formulieren UND das Ergebnis prüfen können. Genau das ist die neue Kernkompetenz – egal ob du Code, eine Diagnose-Zusammenfassung oder eine Hausarbeit produzierst.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Kernkonzept 1</p>
+    <h2>Verifizierbarkeit</h2>
+    <p class="lead">Die wichtigste Frage bei jeder KI-Aufgabe:</p>
+    <p class="huge center" style="margin:24px 0; color:var(--hm-accent)">„Woran erkenne ich,<br>dass es <em>richtig</em> ist?“</p>
+    <div class="cols">
+      <div class="card accent">
+        <h3><span class="check">✓</span> Gut verifizierbar</h3>
+        <ul style="font-size:0.8em">
+          <li>Rechnet die Formel korrekt? → nachrechnen</li>
+          <li>Sind alle 5 Quellen real? → nachschlagen</li>
+          <li>Erfüllt der Text die Kriterien? → Checkliste</li>
+        </ul>
+      </div>
+      <div class="card coral">
+        <h3><span class="cross">✗</span> Schwer verifizierbar</h3>
+        <ul style="font-size:0.8em">
+          <li>„Ist dieser Essay <em>gut</em>?“</li>
+          <li>„Stimmt diese Interpretation?“</li>
+          <li>→ Du brauchst <strong>klare Kriterien</strong>, sonst kannst du nicht prüfen.</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="notes">
+      Das ist der Dreh- und Angelpunkt der ganzen Session. KI macht Fehler selbstbewusst. Wert entsteht nur, wenn DU prüfen kannst. Deshalb: Bevor du eine Aufgabe gibst, überlege, woran du Erfolg misst. Wenn du das nicht beantworten kannst, ist DAS dein erster Arbeitsschritt – nicht das Prompten.
+      Beispiel Medizin: "Fasse diese Leitlinie zusammen" – verifizierbar, wenn du Schlüsselaussagen gegen das Original prüfst.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Kernkonzept 1 · vertieft</p>
+    <h2>Verifizierbare Schichten <span class="muted">(verifiable layers)</span></h2>
+    <p class="lead">Zerlege eine große, schwer prüfbare Aufgabe in kleine, je-für-sich prüfbare Schritte.</p>
+    <p style="margin:22px 0" class="muted">Beispiel: „Schreib meine Hausarbeit“ ist <span class="cross">nicht</span> prüfbar. Aber in Schichten:</p>
+    <div class="cols3">
+      <div class="card"><h3>1 · Gliederung</h3><small>Deckt sie alle Aufgabenteile ab? <span class="check">prüfbar</span></small></div>
+      <div class="card"><h3>2 · Quellen</h3><small>Existieren sie? Passen sie? <span class="check">prüfbar</span></small></div>
+      <div class="card"><h3>3 · Argumente</h3><small>Folgt jede Aussage aus den Quellen? <span class="check">prüfbar</span></small></div>
+    </div>
+    <p style="margin-top:24px" class="center big">Jede Schicht ist klein genug, dass du <strong>JA/NEIN</strong> sagen kannst.</p>
+    <aside class="notes">
+      Schlüsselidee für später: Skills und Loops funktionieren NUR, weil man die Arbeit in verifizierbare Schichten zerlegt. Das ist die Brücke zum praktischen Teil. Wenn jede Schicht prüfbar ist, kann eine KI (oder du) am Ende jeder Schicht stoppen, prüfen, korrigieren.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Kernkonzept 2</p>
+    <h2>Agenten: tun <em>und</em> prüfen</h2>
+    <p class="lead">Ein „Agent“ ist KI, die nicht nur antwortet, sondern in Schritten arbeitet – und sich selbst kontrolliert.</p>
+    <div class="flow" style="margin:34px 0">
+      <div class="node">Ziel verstehen</div>
+      <span class="arrow">→</span>
+      <div class="node">Schritt tun</div>
+      <span class="arrow">→</span>
+      <div class="node" style="border-color:var(--hm-amber)">Ergebnis prüfen</div>
+      <span class="arrow">→</span>
+      <div class="node">korrigieren</div>
+    </div>
+    <p class="center"><span class="loop-arrow">↻</span> wiederholen, bis das Prüfkriterium erfüllt ist</p>
+    <p style="margin-top:20px" class="muted center">Die <strong>Prüf-Komponente</strong> ist das Neue. Ohne sie ist es nur ein schneller Texter. Mit ihr wird es ein Mitarbeiter.</p>
+    <aside class="notes">
+      Demystifizieren: "Agent" klingt nach Science-Fiction, ist aber simpel: ein Loop mit einem Prüfschritt drin. Genau deshalb ist Verifizierbarkeit so zentral – ohne prüfbares Kriterium kann ein Agent nicht wissen, wann er fertig ist.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Kernkonzept 3</p>
+    <h2>Der Loop</h2>
+    <div class="cols" style="margin-top:16px">
+      <div>
+        <p>Ein <strong>Loop</strong> ist eine Schleife:</p>
+        <p class="big" style="margin:18px 0; color:var(--hm-accent)">Tun → Prüfen →<br>Feedback → Verbessern → <span class="loop-arrow">↻</span></p>
+        <p class="muted">Solange wiederholen, bis das Ergebnis ein Qualitätskriterium erfüllt.</p>
+      </div>
+      <div class="card sky">
+        <h3>Wo du das schon kennst</h3>
+        <ul style="font-size:0.82em">
+          <li><strong>Medizin:</strong> Anamnese → Hypothese → Test → revidieren</li>
+          <li><strong>Psychologie:</strong> Hypothese → Experiment → Auswertung → neue Hypothese</li>
+          <li><strong>Wirtschaft:</strong> Build → Measure → Learn</li>
+          <li><strong>Lernen:</strong> üben → Fehler → Feedback → üben</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:18px" class="center"><span class="pill">Merksatz</span> &nbsp; Qualität kommt nicht aus dem ersten Versuch, sondern aus der <strong>Schleife</strong>.</p>
+    <aside class="notes">
+      Aha-Moment: Loops sind nichts Neues – jede Disziplin nutzt sie. KI macht sie nur billig und schnell. Du kannst plötzlich 10 Iterationen in der Zeit machen, die früher eine gekostet hat. Das ist der eigentliche Hebel.
+      Frage ins Publikum: Wo nutzt ihr in eurem Fach schon Schleifen? (kurz sammeln)
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Mindset</p>
+    <h2>Das mentale Modell in einem Bild</h2>
+    <div class="flow" style="margin:30px 0; align-items:stretch">
+      <div class="card accent" style="flex:1"><h3 class="center">SPEZIFIZIEREN</h3><p class="center muted" style="font-size:0.8em">Was genau will ich? Woran messe ich Erfolg?</p></div>
+      <span class="arrow">→</span>
+      <div class="card sky" style="flex:1"><h3 class="center">TUN</h3><p class="center muted" style="font-size:0.8em">KI erzeugt einen Entwurf</p></div>
+      <span class="arrow">→</span>
+      <div class="card coral" style="flex:1"><h3 class="center">PRÜFEN</h3><p class="center muted" style="font-size:0.8em">Gegen meine Kriterien</p></div>
+    </div>
+    <p class="center loop-arrow" style="font-size:1.4em">↻ &nbsp; wiederholen &nbsp; ↻</p>
+    <p style="margin-top:18px" class="center big">Wer <strong>spezifizieren</strong> und <strong>prüfen</strong> kann, steuert die KI.<br><span class="muted" style="font-size:0.7em">Wer nur „fragt“, bekommt Glück oder Pech.</span></p>
+    <aside class="notes">
+      Das ist DIE Folie der Session. Foto-Folie. Alles andere hängt hieran. Skills = die "Spezifizieren"-Box wiederverwendbar machen. Loops = den ↻-Pfeil automatisieren.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Warum euch das betrifft</p>
+    <h2>Ihr seid keine Entwickler – egal</h2>
+    <p class="lead">Dieselben drei Hebel gelten für jede Wissensarbeit:</p>
+    <div class="cols3" style="margin-top:22px">
+      <div class="card"><h3>Verifizierbarkeit</h3><small>„Woran sehe ich, dass meine Fallanalyse / mein Essay / meine Auswertung stimmt?“</small></div>
+      <div class="card"><h3>Spezifikation</h3><small>Aufgaben so klar fassen, dass jemand (oder eine KI) sie ohne Rückfragen erledigen könnte.</small></div>
+      <div class="card"><h3>Loops</h3><small>Nicht beim ersten Entwurf bleiben – iterieren, bis Kriterien erfüllt sind.</small></div>
+    </div>
+    <p style="margin-top:28px" class="center"><span class="pill">Übertrag</span> &nbsp; Software ist nur das erste Feld, in dem man das im Großen sieht. Eures ist als Nächstes dran.</p>
+    <aside class="notes">
+      Wichtig für die Motivation. Sie sollen nicht denken "ist nichts für mich". Genau umgekehrt: das ist eine allgemeine Denk- und Arbeitsweise. Software ist nur das Schaufenster.
+    </aside>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- BLOCK 2 -->
+  <!-- ===================================================== -->
+  <section data-background-color="#151a22">
+    <p class="divider-kicker">Block 2 · ≈ 40 min</p>
+    <h1>Lernen verstehen –<br>und mit KI analysieren</h1>
+    <p class="lead">Dasselbe Modell (Spezifizieren → Tun → Prüfen → Loop) – jetzt auf <em>dein</em> Lernen angewandt.</p>
+    <aside class="notes">
+      Übergang: Wir nehmen genau das Modell von eben und richten es nach innen – auf das eigene Lernen. Das ist der Kern dieser Session für die Studierenden.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Die zentrale Übung</p>
+    <h2>„Wie hätte ich dich prompten <em>müssen</em>?“</h2>
+    <p class="lead">Nach jeder KI-Interaktion, die nicht gut lief, stell der KI diese Meta-Frage:</p>
+    <pre><code data-trim data-noescape>
+Du warst meine Lern-KI. Schau zurück auf unser Gespräch.
+
+1. An welcher Stelle hast du geraten, weil mein Auftrag
+   unklar war?
+2. Welche 3 Fragen hättest du mir VORHER stellen sollen,
+   um Missverständnisse zu vermeiden?
+3. Welchen Kontext hätte ich dir geben müssen, damit das
+   Ergebnis beim ersten Versuch gut wird?
+    </code></pre>
+    <p style="margin-top:14px" class="center"><span class="pill">Reverse Prompting</span> &nbsp; Die KI bringt dir bei, wie du sie besser steuerst.</p>
+    <aside class="notes">
+      Das ist Victors Kernidee: KI nicht nur als Antwortgeber, sondern als Spiegel fürs eigene Denken. Live demonstrieren, wenn möglich. Der Clou: Die KI deckt die unsichtbaren Annahmen auf, die DU getroffen hast. Das ist 1:1 das, was gute Lernende tun: die eigene Aufgabe vorab klären.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Warum das mehr ist als ein Prompt-Trick</p>
+    <h2>Klären, bevor man losläuft</h2>
+    <div class="cols">
+      <div>
+        <p>Die Frage <em>„Welche Fragen muss ich stellen? Welchen Kontext brauche ich?“</em> ist nicht KI-spezifisch.</p>
+        <p style="margin-top:16px">Sie ist die <strong>Grundbewegung von Verstehen</strong>:</p>
+        <ul style="font-size:0.85em">
+          <li>Was weiß ich noch nicht?</li>
+          <li>Welche Annahme treffe ich gerade unbewusst?</li>
+          <li>Was würde meine Meinung ändern?</li>
+        </ul>
+      </div>
+      <div class="card accent">
+        <h3>Der Trick</h3>
+        <p>Die KI macht deine <strong>blinden Flecken sichtbar</strong> – weil sie dich zwingt, das Implizite explizit zu machen.</p>
+        <p class="muted" style="font-size:0.8em">Genau das ist tiefes Lernen: Implizites explizit machen.</p>
+      </div>
+    </div>
+    <aside class="notes">
+      Brücke zu Learning Sciences. Das "Explizit-Machen" ist Elaboration / Self-Explanation – eine der wirksamsten Lernstrategien. Hier nur andeuten, gleich vertiefen.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Stand der Learning Sciences</p>
+    <h2>Was wirklich funktioniert</h2>
+    <p class="lead">Robuste Befunde – fachübergreifend, seit Jahrzehnten repliziert.</p>
+    <div class="cols" style="margin-top:14px">
+      <div class="card sky">
+        <h3>Aktiv &amp; effortful</h3>
+        <ul style="font-size:0.78em">
+          <li><strong>Retrieval Practice</strong> – abrufen statt wieder-lesen</li>
+          <li><strong>Spacing</strong> – verteilt statt gebündelt üben</li>
+          <li><strong>Interleaving</strong> – Themen mischen</li>
+          <li><strong>Desirable Difficulties</strong> (Bjork): leichte Schwierigkeit hilft</li>
+        </ul>
+      </div>
+      <div class="card accent">
+        <h3>Verstehen &amp; Feedback</h3>
+        <ul style="font-size:0.78em">
+          <li><strong>Elaboration / Self-Explanation</strong> – „warum ist das so?“</li>
+          <li><strong>Feynman</strong> – es jemandem erklären</li>
+          <li><strong>schnelles, gezieltes Feedback</strong></li>
+          <li><strong>Deliberate Practice</strong> (Ericsson) – an der Kante üben</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:16px" class="center muted">Auffällig: <strong>alles davon sind Loops mit eingebautem Prüfschritt.</strong></p>
+    <aside class="notes">
+      Kernbotschaft: Lernforschung sagt seit Langem dasselbe wie das KI-Modell von Block 1. Aktiv abrufen + prüfen + wiederholen. Wieder-lesen und Markieren fühlen sich gut an, bringen aber wenig (Illusion of Competence).
+      Bjork: "desirable difficulties" – wenn es sich zu leicht anfühlt, lernst du oft wenig.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Der Nobelpreisträger-Gedanke</p>
+    <h2>Zwei Dinge beim Problemlösen</h2>
+    <div class="cols" style="margin-top:10px">
+      <div class="card sky"><h3>① Problemfindung</h3><p style="font-size:0.85em">Das <em>richtige</em> Problem überhaupt erkennen und formulieren. Was ist hier eigentlich die Frage?</p></div>
+      <div class="card accent"><h3>② Analyse</h3><p style="font-size:0.85em">Das erkannte Problem systematisch <em>durcharbeiten</em> und lösen.</p></div>
+    </div>
+    <p style="margin-top:22px" class="big center">Meisterschaft = das <strong>Erkennen</strong> guter Probleme + das <strong>Lösen</strong> – beides geübt.</p>
+    <p style="margin-top:10px" class="muted center">Die meisten trainieren nur das Lösen. KI macht <em>beides</em> übbar: Sie hilft dir, bessere Fragen zu finden.</p>
+    <p class="footnote">⚠️ Victor: bitte die genaue Quelle/den Namen ergänzen (Notiz: „Nobelpreisträger-Aufsatz über Lernen“ – z. B. Herbert A. Simon zu Problemlösen &amp; Expertise). Vor dem Vortrag verifizieren.</p>
+    <aside class="notes">
+      ACHTUNG: Im Briefing stand nur "Nobelpreisträger-Aufsatz über Lernen: Analyse und Problemfindung, Meisterschaft". Ich habe die EXAKTE Quelle nicht verifiziert und KEINEN Namen erfunden, der nicht belegt ist. Herbert A. Simon (Wirtschaftsnobelpreis 1978) ist ein plausibler Kandidat (Problem Solving, Expertise, Chunking). Victor: bitte vor der Session die genaue Quelle einsetzen oder den Hinweis weglassen. Inhaltlich ist die Unterscheidung Problemfindung vs. Analyse aber gut belegt und didaktisch wertvoll.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">KI als persönlicher Tutor</p>
+    <h2>Das 2-Sigma-Versprechen</h2>
+    <div class="cols">
+      <div>
+        <p>Benjamin <strong>Bloom (1984)</strong>: Schüler mit <em>1:1-Tutoring</em> schnitten ~2 Standardabweichungen besser ab als im normalen Unterricht.</p>
+        <p class="muted" style="font-size:0.85em">Das Problem war immer: 1:1-Tutoren skalieren nicht.</p>
+        <p style="margin-top:16px" class="big" style="color:var(--hm-accent)">KI ist der erste skalierbare Tutor.</p>
+      </div>
+      <div class="card accent">
+        <h3>Guter KI-Tutor tut:</h3>
+        <ul style="font-size:0.8em">
+          <li>fragt, statt nur zu antworten</li>
+          <li>passt sich deinem Niveau an</li>
+          <li>lässt <em>dich</em> die Arbeit tun</li>
+          <li>gibt sofort Feedback</li>
+          <li>verlangt, dass du es erklärst</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:16px" class="center muted">Gefahr: KI, die dir die Denkarbeit <em>abnimmt</em>, macht dich dümmer. Ein Tutor gibt sie dir <strong>zurück</strong>.</p>
+    <aside class="notes">
+      Wichtige Warnung: Der bequeme Weg (KI macht's für mich) ist der Lern-Killer. Der wirksame Weg ist anstrengender (KI als Sparringspartner, der dich denken lässt). Genau "desirable difficulty" von vorhin.
+      Bloom 1984 "The 2 Sigma Problem" – seriöse, oft zitierte Quelle.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Hivemind-Ansatz</p>
+    <h2>Lernideen &amp; Formate hinter Hivemind</h2>
+    <div class="cols3" style="margin-top:18px">
+      <div class="card"><h3>Aktiv statt passiv</h3><small>Du <em>baust</em> und <em>erklärst</em> – statt nur zuzuhören.</small></div>
+      <div class="card"><h3>Interaktive Settings</h3><small>Lernen in Szenarien, die etwas von dir verlangen (vgl. Iceberg, Second Brain).</small></div>
+      <div class="card"><h3>Loops eingebaut</h3><small>Schnelles Feedback, Iteration, sichtbarer Fortschritt.</small></div>
+    </div>
+    <p style="margin-top:24px" class="center"><span class="pill">Warum jetzt</span> &nbsp; Wer schnell &amp; tief lernt, <strong>nutzt</strong> KI. Wer es nicht lernt, wird von ihr <strong>überrollt</strong>.</p>
+    <p style="margin-top:8px" class="muted center">Lernen-zu-lernen ist die Meta-Kompetenz, die alles andere mitzieht.</p>
+    <aside class="notes">
+      Victor: hier gern aus eigener Erfahrung mit Hivemind erzählen – die Formate, warum interaktiv, was ihr beobachtet habt. Ich habe es bewusst offen gehalten, damit du es mit Beispielen füllst.
+      Dringlichkeit, ohne Angst zu machen: Es ist eine Chance. Die Fähigkeit, schneller zu lernen, ist der Schutz.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Wie nähert man sich neuen Lernthemen?</p>
+    <h2>Ein Vorgehen, das fast immer funktioniert</h2>
+    <ol style="font-size:0.9em; margin-top:12px">
+      <li><strong>Landkarte zuerst:</strong> Was ist die große Struktur? (KI: „Gib mir die 5 wichtigsten Konzepte und wie sie zusammenhängen.“)</li>
+      <li><strong>Vom Konkreten zum Abstrakten:</strong> ein Beispiel verstehen, dann verallgemeinern.</li>
+      <li><strong>Erklären lassen lassen:</strong> du erklärst es der KI, sie findet Lücken.</li>
+      <li><strong>Abrufen &amp; testen:</strong> KI stellt dir Fragen, ohne Buch.</li>
+      <li><strong>Wiederholen mit Abstand</strong> (Spacing) – Loop schließen.</li>
+    </ol>
+    <p style="margin-top:18px" class="center big">Das ist wieder: <span style="color:var(--hm-accent)">Spezifizieren → Tun → Prüfen → ↻</span></p>
+    <aside class="notes">
+      Das ist ein konkretes, mitnehmbares Rezept. Effizienteste Art zu lernen = aktiv, getestet, mit Abstand, mit Feedback. Genau das gleiche Loop-Muster. Hier können die Studis am Ende selbst eine "Lern-Skill" daraus bauen.
+    </aside>
+  </section>
+
+  <!-- BREAK -->
+  <section data-background-color="#151a22" class="center">
+    <h1 class="center">☕ Pause</h1>
+    <p class="lead center">10 Minuten. Danach: selber bauen.</p>
+    <p class="center muted">Denk in der Pause an <strong>eine konkrete Hausarbeit / Aufgabe</strong>, die ansteht – die nehmen wir gleich.</p>
+    <aside class="notes">
+      Pause aktiv nutzen: Sie sollen mit einem echten eigenen Anwendungsfall zurückkommen. Das macht den Praxisteil viel besser.
+    </aside>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- BLOCK 3 -->
+  <!-- ===================================================== -->
+  <section data-background-color="#151a22">
+    <p class="divider-kicker">Block 3 · ≈ 25 min</p>
+    <h1>Skills</h1>
+    <p class="lead">Deine guten Anweisungen einmal aufschreiben – und immer wieder benutzen.</p>
+    <aside class="notes">
+      Jetzt konkret und praktisch. Was ist eine Skill, warum ist sie nützlich, wie richte ich sie ein.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Definition</p>
+    <h2>Was ist eine „Skill“?</h2>
+    <p class="big" style="margin:18px 0">Eine <strong>gespeicherte Anleitung</strong>, die der KI sagt: <em>so erledigst du diese Art von Aufgabe – jedes Mal.</em></p>
+    <div class="cols">
+      <div class="card coral">
+        <h3>Ohne Skill</h3>
+        <p style="font-size:0.85em">Jedes Mal neu erklären, was du willst. Mal gut, mal schlecht. Nicht reproduzierbar.</p>
+      </div>
+      <div class="card accent">
+        <h3>Mit Skill</h3>
+        <p style="font-size:0.85em">Einmal sauber definiert → konstant gute Ergebnisse, auf Abruf, teilbar mit anderen.</p>
+      </div>
+    </div>
+    <p style="margin-top:18px" class="center muted">Analogie: ein <strong>Rezept</strong> oder eine <strong>SOP</strong> (Standard Operating Procedure) für die KI.</p>
+    <aside class="notes">
+      Analogien je nach Publikum: Mediziner kennen SOPs/Leitlinien. Wirtschaftler kennen Prozesse/Templates. Eine Skill ist genau das, nur für KI lesbar.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Anatomie</p>
+    <h2>Woraus eine gute Skill besteht</h2>
+    <div class="cols">
+      <div>
+        <ul style="font-size:0.82em">
+          <li><strong>Zweck</strong> – wann wird diese Skill benutzt?</li>
+          <li><strong>Rolle &amp; Kontext</strong> – „Du bist Tutor für…“</li>
+          <li><strong>Schritte</strong> – die verifizierbaren Schichten</li>
+          <li><strong>Qualitätskriterien</strong> – woran man Erfolg misst <span class="muted">(= Prüfschritt!)</span></li>
+          <li><strong>Rückfragen</strong> – was die KI klären soll, bevor sie startet</li>
+          <li><strong>Format</strong> – wie das Ergebnis aussehen soll</li>
+        </ul>
+      </div>
+      <div class="card accent">
+        <h3>Der wichtigste Teil</h3>
+        <p>Die <strong>Qualitätskriterien</strong>. Ohne sie kann die KI (und du) nicht prüfen, ob es gut ist.</p>
+        <p class="muted" style="font-size:0.8em">Hier kommt Block 1 zurück: Verifizierbarkeit hineinbauen.</p>
+      </div>
+    </div>
+    <aside class="notes">
+      Roter Faden sichtbar machen: Eine Skill ist die "Spezifizieren"-Box aus dem Mindset-Bild, festgeschrieben. Die Qualitätskriterien sind der eingebaute Prüfschritt. Skills + Kriterien = halber Loop.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Einrichten – praktisch</p>
+    <h2>Wo „leben“ Skills?</h2>
+    <div class="cols3" style="margin-top:14px">
+      <div class="card"><h3>Leichtgewicht</h3><small>Ein gespeicherter Prompt / eine Textdatei, die du oben ins Gespräch kopierst.</small></div>
+      <div class="card"><h3>Eingebaut</h3><small>Custom Instructions / „Projekte“ / gespeicherte Anweisungen in deinem KI-Tool.</small></div>
+      <div class="card"><h3>Tool-Skills</h3><small>Claude/Claude Code &amp; Co.: echte Skill-Dateien, die die KI selbst lädt, wenn sie passen.</small></div>
+    </div>
+    <p style="margin-top:22px" class="center">Heute starten wir <strong>leichtgewichtig</strong>: ein Dokument mit Zweck + Schritten + Kriterien.</p>
+    <p style="margin-top:6px" class="muted center">Das Format ist egal. Das <em>Denken</em> dahinter ist alles.</p>
+    <aside class="notes">
+      Nicht in Tool-Religionskriege verfallen. Egal ob ChatGPT-Projekt, ein Notion-Dokument oder eine Claude-Skill: das Prinzip zählt. Für die Übung reicht ein Textdokument.
+    </aside>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- BLOCK 4 -->
+  <!-- ===================================================== -->
+  <section data-background-color="#151a22">
+    <p class="divider-kicker">Block 4 · ≈ 50 min · Hands-on</p>
+    <h1>Praxis:<br>Bauen wir eine Skill</h1>
+    <p class="lead">Eine „Hausarbeit-Schreiben“-Skill – gemeinsam.</p>
+    <aside class="notes">
+      Jetzt das Herzstück. Erst selber machen lassen, dann auflösen. Wichtig: NICHT vorher die Lösung zeigen.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Übung · Teil A</p>
+    <h2>30 Minuten: selbst basteln</h2>
+    <p class="lead">In Paaren. Baut eine Skill, die euch hilft, eine Hausarbeit zu schreiben.</p>
+    <div class="card sky" style="margin-top:14px">
+      <h3>Auftrag</h3>
+      <ul style="font-size:0.85em">
+        <li>Nehmt eine <strong>echte</strong> anstehende Hausarbeit als Beispiel.</li>
+        <li>Schreibt eine Anleitung, die ihr jeder KI geben könntet.</li>
+        <li>Probiert sie sofort aus. Was kommt raus? Wo hakt es?</li>
+      </ul>
+    </div>
+    <p style="margin-top:16px" class="center muted">Noch keine Vorgaben von mir – mit Absicht. Wir vergleichen gleich.</p>
+    <p class="footnote">Tipp an die Gruppe: Schreibt auf, <strong>wo</strong> die KI geraten hat – das ist gleich Gold wert.</p>
+    <aside class="notes">
+      Bewusst wenig Anleitung. Sie sollen den Schmerz spüren: ohne Struktur wird's beliebig. Rumgehen, beobachten, NICHT lösen. Notieren, welche typischen Fehler auftauchen (keine Kriterien, keine Rückfragen, alles in einem Schritt). Timer: 30 min. Bei größerer Gruppe ggf. auf 20 min kürzen.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Übung · Teil B</p>
+    <h2>Auflösung: wie es „wirklich“ geht</h2>
+    <p class="lead">Die typischen Probleme von eben – und der Fix:</p>
+    <table class="mini" style="margin-top:12px">
+      <tr><th>Häufiger Fehler</th><th>Fix (aus Block 1 &amp; 3)</th></tr>
+      <tr><td>Alles in einem Schritt („schreib die Arbeit“)</td><td>In <strong>verifizierbare Schichten</strong> zerlegen</td></tr>
+      <tr><td>Keine Qualitätskriterien</td><td>Explizite <strong>Prüf-Checkliste</strong> einbauen</td></tr>
+      <tr><td>KI rät, weil Kontext fehlt</td><td>Skill startet mit <strong>Rückfragen</strong></td></tr>
+      <tr><td>Erster Entwurf = Endprodukt</td><td><strong>Loop</strong>: prüfen &amp; überarbeiten</td></tr>
+      <tr><td>KI schreibt <em>statt</em> dir → du lernst nichts</td><td>Skill lässt <strong>dich</strong> argumentieren, KI prüft</td></tr>
+    </table>
+    <aside class="notes">
+      Hier die gesammelten Beobachtungen aus Teil A aufgreifen ("ich hab gesehen, dass viele..."). Das macht die Auflösung konkret und wertschätzend. Jede Zeile verweist zurück auf die Konzepte – Kreis schließt sich.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Die „richtige“ Skill</p>
+    <h2>Hausarbeit-Skill – Gerüst</h2>
+    <pre><code data-trim data-noescape data-line-numbers>
+# Skill: Hausarbeit-Coach (nicht Ghostwriter)
+
+## Zweck
+Hilft mir, eine eigene, gut argumentierte Hausarbeit zu
+schreiben – ich denke, du strukturierst & prüfst.
+
+## Zuerst: stell mir diese Fragen
+- Thema, Fach, Fragestellung?
+- Vorgaben (Länge, Zitierstil, Bewertungskriterien)?
+- Was ist meine bisherige These?
+
+## Schritte (jeweils stoppen & mich prüfen lassen)
+1. Fragestellung schärfen → 1 präziser Satz
+2. Gliederung → deckt sie alle Vorgaben ab?
+3. Pro Abschnitt: ICH liefere Argument, du prüfst Logik
+   & forderst Belege ein
+4. Quellen: nur real existierende; ich verifiziere jede
+5. Rohfassung → gegen Checkliste prüfen → überarbeiten (Loop)
+
+## Qualitäts-Checkliste (Prüfschritt)
+[ ] Jede Aussage hat einen Beleg
+[ ] Roter Faden: Fragestellung ↔ Fazit
+[ ] Keine erfundenen Quellen
+[ ] Erfüllt die Bewertungskriterien
+
+## Regeln
+- Schreib den Text nicht für mich. Frag, fordere, prüfe.
+    </code></pre>
+    <aside class="notes">
+      Austeil-Version dieses Gerüsts liegt im Repo: lectures/understanding-ai-skills-loops/skill-hausarbeit.md
+      Live durchgehen, Zeile für Zeile auf die Konzepte mappen: Rückfragen (Kontext), Schritte (verifizierbare Schichten), Checkliste (Verifizierbarkeit), Loop (Schritt 5), "nicht für mich schreiben" (Lernen schützen). Wichtig die ethische Note: Coach statt Ghostwriter – sonst lernt man nichts und es ist Täuschung.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Jetzt: Loops</p>
+    <h2>Was ist ein Loop – konkret?</h2>
+    <div class="flow" style="margin:26px 0">
+      <div class="node">Entwurf</div><span class="arrow">→</span>
+      <div class="node" style="border-color:var(--hm-amber)">Gegen Checkliste prüfen</div><span class="arrow">→</span>
+      <div class="node">Mängel finden</div><span class="arrow">→</span>
+      <div class="node">überarbeiten</div>
+    </div>
+    <p class="center loop-arrow" style="font-size:1.3em">↻ bis die Checkliste komplett ✓ ist</p>
+    <p style="margin-top:18px" class="center">Eine Skill <strong>beschreibt</strong> den Loop. Ein Loop <strong>läuft</strong> ihn – ggf. automatisch.</p>
+    <aside class="notes">
+      Unterschied Skill vs. Loop sauber machen: Skill = die Anleitung inkl. Prüfkriterien. Loop = das wiederholte Durchlaufen, bis Kriterien erfüllt. Skill ist das Rezept, Loop ist das Kochen-bis-es-schmeckt.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Loops einrichten</p>
+    <h2>So baust du einen Loop – ohne Code</h2>
+    <ol style="font-size:0.9em; margin-top:10px">
+      <li><strong>Definiere „fertig“:</strong> eine Checkliste, die JA/NEIN beantwortbar ist.</li>
+      <li><strong>Lass die KI bewerten:</strong> „Prüfe meinen Text gegen diese Checkliste. Welche Punkte sind noch NEIN?“</li>
+      <li><strong>Lass nur die NEINs beheben</strong> – nicht alles neu schreiben.</li>
+      <li><strong>Wiederhole</strong>, bis alles JA ist.</li>
+      <li><strong>Letzter Pass:</strong> KI als kritischer Gegenleser („Was würde ein:e strenge:r Dozent:in bemängeln?“).</li>
+    </ol>
+    <p style="margin-top:16px" class="center"><span class="pill">Faustregel</span> 3 kurze Loops schlagen 1 perfekten Prompt.</p>
+    <aside class="notes">
+      Sehr praktisch, sofort anwendbar. Die meisten machen 0 Loops (erster Entwurf = Abgabe). Schon 2-3 Iterationen mit klarer Checkliste heben die Qualität massiv. In manchen Tools (z.B. Claude Code) kann man Loops sogar automatisieren – aber das Prinzip geht in jedem Chat von Hand.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Loops fürs Lernen</p>
+    <h2>Mit Loops Lernergebnisse optimieren</h2>
+    <div class="cols">
+      <div class="card sky">
+        <h3>Studienprodukt-Loop</h3>
+        <small>Entwurf → Kriterien-Check → überarbeiten → Gegenleser → abgeben. Bessere Note, bei <em>deiner</em> Denkleistung.</small>
+      </div>
+      <div class="card accent">
+        <h3>Lern-Loop</h3>
+        <small>erklären → KI findet Lücken → nachlernen → erneut erklären → abrufen mit Abstand. Tieferes Verständnis.</small>
+      </div>
+    </div>
+    <p style="margin-top:22px" class="center big">Derselbe Mechanismus – einmal für das <strong>Produkt</strong>, einmal für deinen <strong>Kopf</strong>.</p>
+    <aside class="notes">
+      Schön symmetrisch abschließen: Loops machen sowohl das Abgabeprodukt besser ALS AUCH dich besser. Das Ziel ist beides – aber das Lernen ist das, was bleibt.
+    </aside>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- BLOCK 5 -->
+  <!-- ===================================================== -->
+  <section data-background-color="#151a22">
+    <p class="divider-kicker">Block 5 · ≈ 10 min</p>
+    <h1>Abschluss</h1>
+    <aside class="notes">Zusammenführen und Homework.</aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">In einem Satz</p>
+    <h2>Was bleibt</h2>
+    <p class="huge" style="margin:24px 0">Spezifizieren →<br>Tun → <span style="color:var(--hm-accent2)">Prüfen</span> → <span class="loop-arrow">↻</span></p>
+    <ul style="font-size:0.9em">
+      <li><strong>Verifizierbarkeit</strong> macht KI nützlich – woran erkenne ich „richtig“?</li>
+      <li><strong>Skills</strong> sind deine guten Anweisungen, gespeichert &amp; wiederverwendbar.</li>
+      <li><strong>Loops</strong> machen aus einem Entwurf ein gutes Ergebnis – und aus dir eine:n bessere:n Lernende:n.</li>
+    </ul>
+    <aside class="notes">
+      Eine Folie, drei Sätze. Wenn sie nur das mitnehmen, war die Session ein Erfolg.
+    </aside>
+  </section>
+
+  <section data-background-color="#0e1116">
+    <p class="kicker">Homework Challenge</p>
+    <h2>„Mach was damit!“</h2>
+    <div class="card accent" style="margin-top:16px">
+      <p class="big">Bis nächste Woche: Bau <strong>eine</strong> Skill für dein Studium und durchlauf sie in <strong>mindestens 2 Loops</strong>.</p>
+    </div>
+    <ul style="font-size:0.85em; margin-top:18px">
+      <li>Wähle eine echte, anstehende Aufgabe.</li>
+      <li>Schreib Skill: Zweck · Rückfragen · Schritte · <strong>Checkliste</strong>.</li>
+      <li>Loop sie mindestens 2×. Halte fest, was sich verbessert hat.</li>
+      <li>Bring mit: deine Skill + 1 Erkenntnis über <em>dein eigenes Lernen</em>.</li>
+    </ul>
+    <p class="footnote">Bonus: Nutze „Wie hätte ich dich prompten müssen?“ und bring die überraschendste Antwort mit.</p>
+    <aside class="notes">
+      Klar, machbar, persönlich. Die "1 Erkenntnis über dein Lernen" ist wichtig – sie zwingt zur Meta-Reflexion (Block 2). Nächste Session damit starten.
+    </aside>
+  </section>
+
+  <section data-background-color="#151a22" class="center">
+    <h1 class="center">Danke!</h1>
+    <p class="lead center">Fragen? Und: an welche Aufgabe denkst du gerade,<br>für die du <em>jetzt</em> eine Skill bauen würdest?</p>
+    <p style="margin-top:24px"><span class="tag">Verifizierbarkeit</span><span class="tag">Skills</span><span class="tag">Loops</span></p>
+    <aside class="notes">
+      Offene Schlussfrage aktiviert. Raum für Fragen. Übergang zur Homework.
+    </aside>
+  </section>
+
+</div>
+</div>
+
+<script src="vendor/dist/reveal.js"></script>
+<script src="vendor/plugin/notes/notes.js"></script>
+<script src="vendor/plugin/highlight/highlight.js"></script>
+<script src="vendor/plugin/markdown/markdown.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    progress: true,
+    transition: 'fade',
+    transitionSpeed: 'fast',
+    width: 1280,
+    height: 720,
+    margin: 0.06,
+    plugins: [ RevealNotes, RevealHighlight, RevealMarkdown ]
+  });
+</script>
+</body>
+</html>
